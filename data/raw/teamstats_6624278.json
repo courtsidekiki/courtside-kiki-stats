@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624278,
+  "title": "WVB Boxscore",
+  "description": "St. John's (NY) vs Seton Hall",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45995",
+      "seoname": "st-johns-ny",
+      "name6Char": "STJOHN",
+      "nameFull": "St. John's University (New York)",
+      "nameShort": "St. John's (NY)",
+      "teamName": "Red Storm",
+      "color": "#BA0C2F"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46495",
+      "seoname": "seton-hall",
+      "name6Char": "SETON",
+      "nameFull": "Seton Hall University",
+      "nameShort": "Seton Hall",
+      "teamName": "Pirates",
+      "color": "#1A5DAD"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45995,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "46",
+        "attackErrors": "17",
+        "attackAttempts": "102",
+        "hittingPercentage": "0.284",
+        "assists": "45",
+        "setErrors": "2",
+        "setAttempts": "104",
+        "serviceAces": "6",
+        "serviceErrors": "8",
+        "serveAttempts": "73",
+        "digs": "43",
+        "receptionAttempts": "50",
+        "receptionErrors": "2",
+        "blockSolos": "1",
+        "blockAssists": "14",
+        "blockingErrors": "4",
+        "totalBlocks": "8"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46495,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "54",
+        "kills": "25",
+        "attackErrors": "17",
+        "attackAttempts": "100",
+        "hittingPercentage": "0.080",
+        "assists": "23",
+        "setErrors": "0",
+        "setAttempts": "103",
+        "serviceAces": "2",
+        "serviceErrors": "6",
+        "serveAttempts": "56",
+        "digs": "33",
+        "receptionAttempts": "65",
+        "receptionErrors": "6",
+        "blockSolos": "2",
+        "blockAssists": "10",
+        "blockingErrors": "2",
+        "totalBlocks": "7"
+      }
+    }
+  ]
+}

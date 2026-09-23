@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628134,
+  "title": "WVB Boxscore",
+  "description": "Nicholls vs A&M-Corpus Christi",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46103",
+      "seoname": "nicholls-st",
+      "name6Char": "NICHST",
+      "nameFull": "Nicholls State University",
+      "nameShort": "Nicholls",
+      "teamName": "Colonels",
+      "color": "#A6192E"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46137",
+      "seoname": "am-corpus-chris",
+      "name6Char": "TAMUCC",
+      "nameFull": "Texas A&M University-Corpus Christi",
+      "nameShort": "A&M-Corpus Christi",
+      "teamName": "Islanders",
+      "color": "#007AC1"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46103,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "81",
+        "kills": "45",
+        "attackErrors": "20",
+        "attackAttempts": "132",
+        "hittingPercentage": "0.189",
+        "assists": "39",
+        "setErrors": "1",
+        "setAttempts": "124",
+        "serviceAces": "5",
+        "serviceErrors": "7",
+        "serveAttempts": "82",
+        "digs": "42",
+        "receptionAttempts": "80",
+        "receptionErrors": "7",
+        "blockSolos": "0",
+        "blockAssists": "10",
+        "blockingErrors": "0",
+        "totalBlocks": "5"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46137,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "88",
+        "kills": "53",
+        "attackErrors": "24",
+        "attackAttempts": "130",
+        "hittingPercentage": "0.223",
+        "assists": "51",
+        "setErrors": "0",
+        "setAttempts": "121",
+        "serviceAces": "7",
+        "serviceErrors": "7",
+        "serveAttempts": "87",
+        "digs": "55",
+        "receptionAttempts": "75",
+        "receptionErrors": "5",
+        "blockSolos": "3",
+        "blockAssists": "12",
+        "blockingErrors": "0",
+        "totalBlocks": "9"
+      }
+    }
+  ]
+}

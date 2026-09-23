@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Courtside Kiki — Daily Volleyball Stats</title>
+<style>
+  :root {
+    --pink: #ff2d95;
+    --purple: #7a2bff;
+    --blue: #00e0ff;
+    --yellow: #fff200;
+    --ink: #0e0e12;
+    --paper: #fdfaf3;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 0 0 4rem;
+    background: linear-gradient(160deg, var(--purple) 0%, var(--pink) 45%, var(--blue) 100%);
+    font-family: 'Trebuchet MS', 'Arial Black', system-ui, sans-serif;
+    color: var(--ink);
+  }
+  header {
+    padding: 2.5rem 1.5rem 1.5rem;
+    text-align: center;
+    color: var(--paper);
+  }
+  header h1 {
+    font-size: clamp(2rem, 6vw, 3.2rem);
+    margin: 0;
+    letter-spacing: 1px;
+    text-shadow: 3px 3px 0 var(--ink);
+  }
+  header p { opacity: .9; margin: .5rem 0 0; font-weight: bold; }
+  main { max-width: 980px; margin: 0 auto; padding: 0 1rem; }
+  .card {
+    background: var(--paper);
+    border: 4px solid var(--ink);
+    border-radius: 18px;
+    box-shadow: 8px 8px 0 var(--ink);
+    padding: 1.25rem 1.5rem;
+    margin-bottom: 1.75rem;
+  }
+  .card h2 {
+    margin-top: 0;
+    display: inline-block;
+    background: var(--yellow);
+    padding: .2rem .8rem;
+    border: 3px solid var(--ink);
+    border-radius: 8px;
+    transform: rotate(-1deg);
+  }
+  .game {
+    border-top: 2px dashed #ccc;
+    padding: .85rem 0;
+  }
+  .game:first-of-type { border-top: none; }
+  .matchup { display: flex; justify-content: space-between; font-weight: bold; font-size: 1.1rem; }
+  .score { color: var(--pink); }
+  table { width: 100%; border-collapse: collapse; font-size: .92rem; margin-top: .5rem; }
+  th, td { text-align: left; padding: .35rem .5rem; border-bottom: 1px solid #eee; }
+  th { background: var(--blue); color: var(--ink); }
+  .empty { opacity: .6; font-style: italic; }
+  .updated { text-align: center; color: var(--paper); font-size: .85rem; margin-top: 2rem; opacity: .85; }
+</style>
+</head>
+<body>
+<header>
+  <h1>🏐 Courtside Kiki</h1>
+  <p>Daily D1 Women's Volleyball Stats — Wednesday, September 23, 2026</p>
+</header>
+<main>
+<div class="card"><h2>Today's Games & Box Scores</h2>
+<div class="game">
+  <div class="matchup">
+    <span>A&M-Corpus Christi @ Nicholls</span>
+    <span class="score">3 – 1</span>
+  </div>
+  <table><tr><th>Stat</th><th>Value</th></tr><tr><td>__typename</td><td>Boxscore</td></tr><tr><td>contestId</td><td>6628134</td></tr><tr><td>title</td><td>WVB Boxscore</td></tr><tr><td>description</td><td>Nicholls vs A&M-Corpus Christi</td></tr><tr><td>sportCode</td><td>WVB</td></tr><tr><td>divisionName</td><td>d1</td></tr><tr><td>gameType</td><td>None</td></tr><tr><td>period</td><td>FINAL</td></tr><tr><td>status</td><td>F</td></tr><tr><td>minutes</td><td>None</td></tr><tr><td>seconds</td><td>None</td></tr><tr><td>teams __typename</td><td>ContestTeam</td></tr><tr><td>teams isHome</td><td>True</td></tr><tr><td>teams teamId</td><td>46103</td></tr><tr><td>teams seoname</td><td>nicholls-st</td></tr><tr><td>teams name6Char</td><td>NICHST</td></tr><tr><td>teams nameFull</td><td>Nicholls State University</td></tr><tr><td>teams nameShort</td><td>Nicholls</td></tr><tr><td>teams teamName</td><td>Colonels</td></tr><tr><td>teams color</td><td>#A6192E</td></tr><tr><td>teams __typename</td><td>ContestTeam</td></tr><tr><td>teams isHome</td><td>False</td></tr><tr><td>teams teamId</td><td>46137</td></tr><tr><td>teams seoname</td><td>am-corpus-chris</td></tr><tr><td>teams name6Char</td><td>TAMUCC</td></tr><tr><td>teams nameFull</td><td>Texas A&M University-Corpus Christi</td></tr><tr><td>teams nameShort</td><td>A&M-Corpus Christi</td></tr><tr><td>teams teamName</td><td>Islanders</td></tr><tr><td>teams color</td><td>#007AC1</td></tr><tr><td>teamBoxscore __typename</td><td>BoxscoreDetails</td></tr><tr><td>teamBoxscore teamId</td><td>46103</td></tr><tr><td>teamBoxscore teamStats __typename</td><td>TeamStatsVolleyball</td></tr><tr><td>teamBoxscore teamStats points</td><td>81</td></tr><tr><td>teamBoxscore teamStats kills</td><td>45</td></tr><tr><td>teamBoxscore teamStats attackErrors</td><td>20</td></tr><tr><td>teamBoxscore teamStats attackAttempts</td><td>132</td></tr><tr><td>teamBoxscore teamStats hittingPercentage</td><td>0.189</td></tr><tr><td>teamBoxscore teamStats assists</td><td>39</td></tr><tr><td>teamBoxscore teamStats setErrors</td><td>1</td></tr><tr><td>teamBoxscore teamStats setAttempts</td><td>124</td></tr></table>
+</div>
+
+<div class="game">
+  <div class="matchup">
+    <span>Seton Hall @ St. John's (NY)</span>
+    <span class="score">0 – 3</span>
+  </div>
+  <table><tr><th>Stat</th><th>Value</th></tr><tr><td>__typename</td><td>Boxscore</td></tr><tr><td>contestId</td><td>6624278</td></tr><tr><td>title</td><td>WVB Boxscore</td></tr><tr><td>description</td><td>St. John's (NY) vs Seton Hall</td></tr><tr><td>sportCode</td><td>WVB</td></tr><tr><td>divisionName</td><td>d1</td></tr><tr><td>gameType</td><td>None</td></tr><tr><td>period</td><td>FINAL</td></tr><tr><td>status</td><td>F</td></tr><tr><td>minutes</td><td>None</td></tr><tr><td>seconds</td><td>None</td></tr><tr><td>teams __typename</td><td>ContestTeam</td></tr><tr><td>teams isHome</td><td>True</td></tr><tr><td>teams teamId</td><td>45995</td></tr><tr><td>teams seoname</td><td>st-johns-ny</td></tr><tr><td>teams name6Char</td><td>STJOHN</td></tr><tr><td>teams nameFull</td><td>St. John's University (New York)</td></tr><tr><td>teams nameShort</td><td>St. John's (NY)</td></tr><tr><td>teams teamName</td><td>Red Storm</td></tr><tr><td>teams color</td><td>#BA0C2F</td></tr><tr><td>teams __typename</td><td>ContestTeam</td></tr><tr><td>teams isHome</td><td>False</td></tr><tr><td>teams teamId</td><td>46495</td></tr><tr><td>teams seoname</td><td>seton-hall</td></tr><tr><td>teams name6Char</td><td>SETON</td></tr><tr><td>teams nameFull</td><td>Seton Hall University</td></tr><tr><td>teams nameShort</td><td>Seton Hall</td></tr><tr><td>teams teamName</td><td>Pirates</td></tr><tr><td>teams color</td><td>#1A5DAD</td></tr><tr><td>teamBoxscore __typename</td><td>BoxscoreDetails</td></tr><tr><td>teamBoxscore teamId</td><td>45995</td></tr><tr><td>teamBoxscore teamStats __typename</td><td>TeamStatsVolleyball</td></tr><tr><td>teamBoxscore teamStats points</td><td>75</td></tr><tr><td>teamBoxscore teamStats kills</td><td>46</td></tr><tr><td>teamBoxscore teamStats attackErrors</td><td>17</td></tr><tr><td>teamBoxscore teamStats attackAttempts</td><td>102</td></tr><tr><td>teamBoxscore teamStats hittingPercentage</td><td>0.284</td></tr><tr><td>teamBoxscore teamStats assists</td><td>45</td></tr><tr><td>teamBoxscore teamStats setErrors</td><td>2</td></tr><tr><td>teamBoxscore teamStats setAttempts</td><td>104</td></tr></table>
+</div>
+
+<div class="game">
+  <div class="matchup">
+    <span>New Haven @ Marist</span>
+    <span class="score"> – </span>
+  </div>
+  <p class="empty">Team stats not available for this game.</p>
+</div>
+
+<div class="game">
+  <div class="matchup">
+    <span>Charlotte @ East Carolina</span>
+    <span class="score"> – </span>
+  </div>
+  <p class="empty">Team stats not available for this game.</p>
+</div>
+
+<div class="game">
+  <div class="matchup">
+    <span>LIU @ Saint Peter's</span>
+    <span class="score"> – </span>
+  </div>
+  <p class="empty">Team stats not available for this game.</p>
+</div>
+
+<div class="game">
+  <div class="matchup">
+    <span>New Hampshire @ Dartmouth</span>
+    <span class="score"> – </span>
+  </div>
+  <p class="empty">Team stats not available for this game.</p>
+</div>
+
+<div class="game">
+  <div class="matchup">
+    <span>Temple @ FDU</span>
+    <span class="score"> – </span>
+  </div>
+  <p class="empty">Team stats not available for this game.</p>
+</div>
+
+<div class="game">
+  <div class="matchup">
+    <span>Akron @ Kent St.</span>
+    <span class="score"> – </span>
+  </div>
+  <p class="empty">Team stats not available for this game.</p>
+</div>
+
+<div class="game">
+  <div class="matchup">
+    <span>Jacksonville @ Florida</span>
+    <span class="score"> – </span>
+  </div>
+  <p class="empty">Team stats not available for this game.</p>
+</div>
+
+<div class="game">
+  <div class="matchup">
+    <span>South Carolina @ Georgia</span>
+    <span class="score"> – </span>
+  </div>
+  <p class="empty">Team stats not available for this game.</p>
+</div>
+
+<div class="game">
+  <div class="matchup">
+    <span>Miami (FL) @ Florida St.</span>
+    <span class="score"> – </span>
+  </div>
+  <p class="empty">Team stats not available for this game.</p>
+</div>
+
+<div class="game">
+  <div class="matchup">
+    <span>UTRGV @ McNeese</span>
+    <span class="score"> – </span>
+  </div>
+  <p class="empty">Team stats not available for this game.</p>
+</div>
+
+<div class="game">
+  <div class="matchup">
+    <span>Missouri @ Nebraska</span>
+    <span class="score"> – </span>
+  </div>
+  <p class="empty">Team stats not available for this game.</p>
+</div>
+
+<div class="game">
+  <div class="matchup">
+    <span>Alabama @ LSU</span>
+    <span class="score"> – </span>
+  </div>
+  <p class="empty">Team stats not available for this game.</p>
+</div>
+
+<div class="game">
+  <div class="matchup">
+    <span>Kentucky @ Vanderbilt</span>
+    <span class="score"> – </span>
+  </div>
+  <p class="empty">Team stats not available for this game.</p>
+</div>
+</div><div class="card"><h2>National Stat Leaders</h2><div><h3>Kills Per Set</h3><table><tr><th>Player</th><th>Team</th><th>Kills Per Set</th></tr><tr><td>Jurnee Robinson</td><td>LSU</td><td>6.33</td></tr><tr><td>Mckenna Wucherer</td><td>Minnesota</td><td>6.29</td></tr><tr><td>Olivia Babcock</td><td>Pittsburgh</td><td>5.79</td></tr><tr><td>Taylor Stanley</td><td>Kansas</td><td>5.70</td></tr><tr><td>Allie Sweet</td><td>UNC Greensboro</td><td>5.48</td></tr><tr><td>Kennedi Rogers</td><td>Tennessee</td><td>5.40</td></tr><tr><td>Ksenia Rakhmanchik</td><td>Baylor</td><td>5.23</td></tr><tr><td>Ana Burilovic</td><td>Colorado</td><td>5.22</td></tr><tr><td>Kennedy Louisell</td><td>James Madison</td><td>5.17</td></tr><tr><td>Bianna Muoneke</td><td>Georgia</td><td>5.13</td></tr></table></div><div><h3>Assists Per Set</h3><table><tr><th>Player</th><th>Team</th><th>Assists Per Set</th></tr><tr><td>Kassie O'Brien</td><td>Kentucky</td><td>11.88</td></tr><tr><td>Avaya Maga</td><td>Oklahoma</td><td>11.60</td></tr><tr><td>Sara Toth</td><td>Maryland</td><td>11.59</td></tr><tr><td>Avery Scoggins</td><td>Vanderbilt</td><td>11.59</td></tr><tr><td>Kate Lijic</td><td>Cincinnati</td><td>11.42</td></tr><tr><td>Nikki Quinn</td><td>Duke</td><td>11.33</td></tr><tr><td>Charlie Fuerbringer</td><td>Wisconsin</td><td>11.18</td></tr><tr><td>Caroline Kerr</td><td>Tennessee</td><td>11.03</td></tr><tr><td>Jenna Meitzler</td><td>Iowa</td><td>10.96</td></tr><tr><td>Izzy Starck</td><td>Pittsburgh</td><td>10.91</td></tr></table></div><div><h3>Aces Per Set</h3><table><tr><th>Player</th><th>Team</th><th>Aces Per Set</th></tr><tr><td>Sofia Rossi</td><td>Harvard</td><td>1.00</td></tr><tr><td>Natasha Casey</td><td>UCF</td><td>.88</td></tr><tr><td>Abbie Hagedorn</td><td>Sacred Heart</td><td>.79</td></tr><tr><td>Sarah Wadsworth</td><td>UNC Asheville</td><td>.78</td></tr><tr><td>Antonie Kelnárová</td><td>Saint Mary's (CA)</td><td>.77</td></tr><tr><td>Emersen Schrom</td><td>Duquesne</td><td>.76</td></tr><tr><td>Ema Petkovic</td><td>UTRGV</td><td>.76</td></tr><tr><td>Mckenna Wucherer</td><td>Minnesota</td><td>.75</td></tr><tr><td>Ruth Ziegler</td><td>Illinois St.</td><td>.73</td></tr><tr><td>Helena Vukovic</td><td>Col. of Charleston</td><td>.69</td></tr></table></div></div>
+</main>
+<p class="updated">Last refreshed 2026-09-23 20:17 UTC · data via ncaa.com</p>
+</body>
+</html>
