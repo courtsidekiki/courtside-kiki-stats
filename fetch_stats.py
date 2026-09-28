@@ -236,17 +236,73 @@ PAGE_TEMPLATE = """<!doctype html>
   th, td {{ text-align: left; padding: .35rem .5rem; border-bottom: 1px solid #eee; }}
   th {{ background: var(--blue); color: var(--ink); }}
   .empty {{ opacity: .6; font-style: italic; }}
+  .nav {{
+    display: flex; gap: .6rem; align-items: center; justify-content: center;
+    flex-wrap: wrap; margin: 0 0 1.5rem;
+  }}
+  .nav button, .nav select {{
+    font: inherit; font-weight: bold; padding: .5rem 1rem;
+    background: var(--yellow); color: var(--ink);
+    border: 3px solid var(--ink); border-radius: 10px;
+    box-shadow: 4px 4px 0 var(--ink); cursor: pointer;
+  }}
+  .nav button:disabled {{ opacity: .4; cursor: default; }}
+  h4 {{ margin: .9rem 0 .2rem; }}
   .updated {{ text-align: center; color: var(--paper); font-size: .85rem; margin-top: 2rem; opacity: .85; }}
 </style>
 </head>
 <body>
 <header>
   <h1>🏐 Courtside Kiki</h1>
-  <p>Daily D1 Women's Volleyball Stats — {date_display}</p>
+  <p>Daily D1 Women's Volleyball Stats — <span id="dateLabel">{date_display}</span></p>
 </header>
 <main>
-{sections}
+<div class="nav">
+  <button id="prev">&larr; Older</button>
+  <select id="picker"></select>
+  <button id="next">Newer &rarr;</button>
+</div>
+<div id="content">{sections}</div>
 </main>
+<script>
+(async function () {{
+  const picker = document.getElementById('picker');
+  const content = document.getElementById('content');
+  const label = document.getElementById('dateLabel');
+  const prev = document.getElementById('prev');
+  const next = document.getElementById('next');
+  let days = [];
+  try {{
+    days = await (await fetch('days/manifest.json', {{cache: 'no-store'}})).json();
+  }} catch (e) {{
+    content.innerHTML = '<div class="card"><p class="empty">No days loaded yet.</p></div>';
+    return;
+  }}
+  days.forEach(d => {{
+    const o = document.createElement('option');
+    o.value = d; o.textContent = d; picker.appendChild(o);
+  }});
+  async function show(d) {{
+    picker.value = d;
+    label.textContent = d;
+    const i = days.indexOf(d);
+    prev.disabled = i >= days.length - 1;
+    next.disabled = i <= 0;
+    content.innerHTML = '<p class="empty" style="color:#fff">Loading…</p>';
+    try {{
+      content.innerHTML = await (await fetch('days/' + d + '.html', {{cache: 'no-store'}})).text();
+    }} catch (e) {{
+      content.innerHTML = '<div class="card"><p class="empty">Could not load ' + d + '.</p></div>';
+    }}
+    history.replaceState(null, '', '#' + d);
+  }}
+  picker.onchange = () => show(picker.value);
+  prev.onclick = () => show(days[days.indexOf(picker.value) + 1]);
+  next.onclick = () => show(days[days.indexOf(picker.value) - 1]);
+  const fromHash = location.hash.slice(1);
+  show(days.includes(fromHash) ? fromHash : days[0]);
+}})();
+</script>
 <p class="updated">Last refreshed {timestamp} · data via ncaa.com</p>
 </body>
 </html>
@@ -472,7 +528,8 @@ def render_leaders_section(leaders_by_category):
     return f'<div class="card"><h2>National Stat Leaders</h2>{"".join(blocks)}</div>'
 
 
-def build_dashboard(date):
+def build_day(date):
+    """Fetch one day and write its fragment to docs/days/<date>.html."""
     scoreboard = get_scoreboard(date)
     games = extract_games(scoreboard)
 
@@ -483,27 +540,46 @@ def build_dashboard(date):
             boxscores[gid] = get_boxscore(gid)
             team_stats_map[gid] = get_team_stats(gid)
 
-    leaders_by_category = {
-        label: get_stat_leaders(cat_id) for label, cat_id in STAT_CATEGORIES.items()
-    }
-
     sections = render_games_section(games, boxscores, team_stats_map)
-    sections += render_leaders_section(leaders_by_category)
 
-    html = PAGE_TEMPLATE.format(
-        date_display=date.strftime("%A, %B %-d, %Y") if os.name != "nt" else date.strftime("%A, %B %d, %Y"),
-        sections=sections,
+    os.makedirs("docs/days", exist_ok=True)
+    with open(f"docs/days/{date.isoformat()}.html", "w") as f:
+        f.write(sections)
+    log(f"Wrote docs/days/{date.isoformat()}.html ({len(games)} games found)")
+
+
+def update_manifest_and_shell():
+    """List every day page we have (newest first) and (re)write the shell."""
+    days = sorted(
+        (p[:-5] for p in os.listdir("docs/days")
+         if p.endswith(".html") and p[:4].isdigit()),
+        reverse=True,
+    )
+    with open("docs/days/manifest.json", "w") as f:
+        json.dump(days, f)
+    shell = PAGE_TEMPLATE.format(
+        date_display="",
+        sections='<p class="empty" style="color:#fff">Loading…</p>',
         timestamp=datetime.datetime.now().strftime("%Y-%m-%d %H:%M UTC"),
     )
-
-    os.makedirs("docs", exist_ok=True)
     with open("docs/index.html", "w") as f:
-        f.write(html)
-    log(f"Wrote docs/index.html for {date.isoformat()} ({len(games)} games found)")
+        f.write(shell)
+    log(f"Manifest now lists {len(days)} day(s)")
+
+
+def parse_dates(argv):
+    """No args: yesterday + today. One arg: that date. Two args: inclusive range."""
+    today = datetime.date.today()
+    if len(argv) == 0:
+        return [today - datetime.timedelta(days=1), today]
+    start = datetime.date.fromisoformat(argv[0])
+    end = datetime.date.fromisoformat(argv[1]) if len(argv) > 1 else start
+    if end < start:
+        start, end = end, start
+    return [start + datetime.timedelta(days=i) for i in range((end - start).days + 1)]
 
 
 if __name__ == "__main__":
-    target_date = datetime.date.today()
-    if len(sys.argv) > 1:
-        target_date = datetime.date.fromisoformat(sys.argv[1])
-    build_dashboard(target_date)
+    for d in parse_dates([a for a in sys.argv[1:] if a]):
+        build_day(d)
+    update_manifest_and_shell()
