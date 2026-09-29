@@ -402,6 +402,76 @@ def render_game_leaders_table(leaders):
     return f"<table><tr><th>Stat</th><th>Leader</th><th>Value</th></tr>{''.join(rows)}</table>"
 
 
+def compute_team_leaders(boxscore_json):
+    """Return {team_name: [(label, who, value), ...]} — each team's own top
+    performer per stat category, independent of the other team's numbers.
+    (Unlike compute_game_leaders, which finds a single best performer across
+    both teams combined.)"""
+    if not boxscore_json:
+        return {}
+    names = _team_name_map(boxscore_json)
+    result = {}
+    for tb in boxscore_json.get("teamBoxscore") or []:
+        team = names.get(str(tb.get("teamId")), "?")
+        players = []
+        for p in tb.get("playerStats") or []:
+            full = f"{p.get('firstName', '')} {p.get('lastName', '')}".strip() or "?"
+            players.append((full, p))
+
+        leaders = []
+        for field, label in LEADER_FIELDS:
+            vals = [(n, _num(p.get(field))) for n, p in players]
+            vals = [v for v in vals if v[1] is not None]
+            if not vals:
+                continue
+            top = max(v[1] for v in vals)
+            if top > 0:
+                who = " / ".join(v[0] for v in vals if v[1] == top)
+                leaders.append((label, who, top))
+
+        hp = []
+        for n, p in players:
+            att, pct = _num(p.get("attackAttempts")), _num(p.get("hittingPercentage"))
+            if att is not None and pct is not None and att >= MIN_ATTEMPTS_FOR_HITTING:
+                hp.append((n, pct))
+        if hp:
+            top = max(v[1] for v in hp)
+            who = " / ".join(v[0] for v in hp if v[1] == top)
+            leaders.append((f"Hitting % (min {MIN_ATTEMPTS_FOR_HITTING} att.)", who, top))
+
+        result[team] = leaders
+    return result
+
+
+def render_team_leaders_table(team_leaders):
+    """team_leaders: {team_name: [(label, who, value), ...]}, teams in the
+    same order the box score gave them (usually away, home)."""
+    if not team_leaders or not any(team_leaders.values()):
+        return ""
+    teams = list(team_leaders.keys())
+    # Union of stat labels across both teams, in first-seen (LEADER_FIELDS) order.
+    all_labels = []
+    for leaders in team_leaders.values():
+        for label, _, _ in leaders:
+            if label not in all_labels:
+                all_labels.append(label)
+
+    header = "".join(f"<th>{t}</th>" for t in teams)
+    rows = []
+    for label in all_labels:
+        cells = []
+        for t in teams:
+            entry = next((e for e in team_leaders[t] if e[0] == label), None)
+            if entry:
+                _, who, val = entry
+                val_s = f"{val:.3f}" if "Hitting" in label else f"{val:g}"
+                cells.append(f"<td>{who} ({val_s})</td>")
+            else:
+                cells.append("<td>-</td>")
+        rows.append(f"<tr><td>{label}</td>{''.join(cells)}</tr>")
+    return f"<table><tr><th>Stat</th>{header}</tr>{''.join(rows)}</table>"
+
+
 def render_set_table(boxscore_json):
     """Set-by-set attacking (kills / errors / attempts / hitting %) per team.
     The feed does not include set point scores, so this is what it offers."""
@@ -511,7 +581,7 @@ def render_games_section(games, boxscores, team_stats_map):
             body = '<p class="empty">Stats appear once the match is underway.</p>' \
                 if game.get("gameState") == "pre" else '<p class="empty">Stats not available for this match.</p>'
         else:
-            gl = render_game_leaders_table(compute_game_leaders(box)) \
+            gl = render_team_leaders_table(compute_team_leaders(box)) \
                 or '<p class="empty">Player leaders not available.</p>'
             body = GAME_BODY_TEMPLATE.format(
                 game_leaders_html=gl,
