@@ -594,10 +594,11 @@ def update_manifest_and_shell():
 
 
 def parse_dates(argv):
-    """No args: yesterday + today. One arg: that date. Two args: inclusive range."""
+    """No args: last 7 days (today back through 6 days ago). One arg: that
+    date. Two args: inclusive range."""
     today = datetime.date.today()
     if len(argv) == 0:
-        return [today - datetime.timedelta(days=1), today]
+        return [today - datetime.timedelta(days=i) for i in range(6, -1, -1)]
     start = datetime.date.fromisoformat(argv[0])
     end = datetime.date.fromisoformat(argv[1]) if len(argv) > 1 else start
     if end < start:
