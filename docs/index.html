@@ -61,17 +61,73 @@
   th, td { text-align: left; padding: .35rem .5rem; border-bottom: 1px solid #eee; }
   th { background: var(--blue); color: var(--ink); }
   .empty { opacity: .6; font-style: italic; }
+  .nav {
+    display: flex; gap: .6rem; align-items: center; justify-content: center;
+    flex-wrap: wrap; margin: 0 0 1.5rem;
+  }
+  .nav button, .nav select {
+    font: inherit; font-weight: bold; padding: .5rem 1rem;
+    background: var(--yellow); color: var(--ink);
+    border: 3px solid var(--ink); border-radius: 10px;
+    box-shadow: 4px 4px 0 var(--ink); cursor: pointer;
+  }
+  .nav button:disabled { opacity: .4; cursor: default; }
+  h4 { margin: .9rem 0 .2rem; }
   .updated { text-align: center; color: var(--paper); font-size: .85rem; margin-top: 2rem; opacity: .85; }
 </style>
 </head>
 <body>
 <header>
   <h1>🏐 Courtside Kiki</h1>
-  <p>Daily D1 Women's Volleyball Stats — Monday, September 28, 2026</p>
+  <p>Daily D1 Women's Volleyball Stats — <span id="dateLabel"></span></p>
 </header>
 <main>
-<div class="card"><h2>Games</h2><p class="empty">No D1 women's volleyball games found for this date.</p></div><div class="card"><h2>National Stat Leaders</h2><div><h3>Kills Per Set</h3><table><tr><th>Player</th><th>Team</th><th>Kills Per Set</th></tr><tr><td>Mckenna Wucherer</td><td>Minnesota</td><td>6.12</td></tr><tr><td>Jurnee Robinson</td><td>LSU</td><td>6.12</td></tr><tr><td>Olivia Babcock</td><td>Pittsburgh</td><td>5.79</td></tr><tr><td>Taylor Stanley</td><td>Kansas</td><td>5.70</td></tr><tr><td>Allie Sweet</td><td>UNC Greensboro</td><td>5.48</td></tr><tr><td>Kennedi Rogers</td><td>Tennessee</td><td>5.40</td></tr><tr><td>Bianna Muoneke</td><td>Georgia</td><td>5.24</td></tr><tr><td>Ksenia Rakhmanchik</td><td>Baylor</td><td>5.23</td></tr><tr><td>Ana Burilovic</td><td>Colorado</td><td>5.22</td></tr><tr><td>Kennedy Louisell</td><td>James Madison</td><td>5.17</td></tr></table></div><div><h3>Assists Per Set</h3><table><tr><th>Player</th><th>Team</th><th>Assists Per Set</th></tr><tr><td>Kassie O'Brien</td><td>Kentucky</td><td>12.05</td></tr><tr><td>Avaya Maga</td><td>Oklahoma</td><td>11.60</td></tr><tr><td>Avery Scoggins</td><td>Vanderbilt</td><td>11.55</td></tr><tr><td>Kate Lijic</td><td>Cincinnati</td><td>11.42</td></tr><tr><td>Nikki Quinn</td><td>Duke</td><td>11.33</td></tr><tr><td>Charlie Fuerbringer</td><td>Wisconsin</td><td>11.31</td></tr><tr><td>Sara Toth</td><td>Maryland</td><td>11.27</td></tr><tr><td>Jenna Meitzler</td><td>Iowa</td><td>11.08</td></tr><tr><td>Caroline Kerr</td><td>Tennessee</td><td>11.03</td></tr><tr><td>Izzy Starck</td><td>Pittsburgh</td><td>10.91</td></tr></table></div><div><h3>Aces Per Set</h3><table><tr><th>Player</th><th>Team</th><th>Aces Per Set</th></tr><tr><td>Sofia Rossi</td><td>Harvard</td><td>1.00</td></tr><tr><td>Natasha Casey</td><td>UCF</td><td>.82</td></tr><tr><td>Abbie Hagedorn</td><td>Sacred Heart</td><td>.79</td></tr><tr><td>Ema Petkovic</td><td>UTRGV</td><td>.77</td></tr><tr><td>Emersen Schrom</td><td>Duquesne</td><td>.76</td></tr><tr><td>Ruth Ziegler</td><td>Illinois St.</td><td>.73</td></tr><tr><td>Sarah Wadsworth</td><td>UNC Asheville</td><td>.72</td></tr><tr><td>Mckenna Wucherer</td><td>Minnesota</td><td>.72</td></tr><tr><td>Antonie Kelnárová</td><td>Saint Mary's (CA)</td><td>.71</td></tr><tr><td>Helena Vukovic</td><td>Col. of Charleston</td><td>.69</td></tr></table></div></div>
+<div class="nav">
+  <button id="prev">&larr; Older</button>
+  <select id="picker"></select>
+  <button id="next">Newer &rarr;</button>
+</div>
+<div id="content"><p class="empty" style="color:#fff">Loading…</p></div>
 </main>
-<p class="updated">Last refreshed 2026-09-28 11:01 UTC · data via ncaa.com</p>
+<script>
+(async function () {
+  const picker = document.getElementById('picker');
+  const content = document.getElementById('content');
+  const label = document.getElementById('dateLabel');
+  const prev = document.getElementById('prev');
+  const next = document.getElementById('next');
+  let days = [];
+  try {
+    days = await (await fetch('days/manifest.json', {cache: 'no-store'})).json();
+  } catch (e) {
+    content.innerHTML = '<div class="card"><p class="empty">No days loaded yet.</p></div>';
+    return;
+  }
+  days.forEach(d => {
+    const o = document.createElement('option');
+    o.value = d; o.textContent = d; picker.appendChild(o);
+  });
+  async function show(d) {
+    picker.value = d;
+    label.textContent = d;
+    const i = days.indexOf(d);
+    prev.disabled = i >= days.length - 1;
+    next.disabled = i <= 0;
+    content.innerHTML = '<p class="empty" style="color:#fff">Loading…</p>';
+    try {
+      content.innerHTML = await (await fetch('days/' + d + '.html', {cache: 'no-store'})).text();
+    } catch (e) {
+      content.innerHTML = '<div class="card"><p class="empty">Could not load ' + d + '.</p></div>';
+    }
+    history.replaceState(null, '', '#' + d);
+  }
+  picker.onchange = () => show(picker.value);
+  prev.onclick = () => show(days[days.indexOf(picker.value) + 1]);
+  next.onclick = () => show(days[days.indexOf(picker.value) - 1]);
+  const fromHash = location.hash.slice(1);
+  show(days.includes(fromHash) ? fromHash : days[0]);
+})();
+</script>
+<p class="updated">Last refreshed 2026-09-29 11:02 UTC · data via ncaa.com</p>
 </body>
 </html>
