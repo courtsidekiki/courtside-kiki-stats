@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628475,
+  "title": "WVB Boxscore",
+  "description": "Temple vs UAB",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45871",
+      "seoname": "temple",
+      "name6Char": "TEMPLE",
+      "nameFull": "Temple University",
+      "nameShort": "Temple",
+      "teamName": "Owls",
+      "color": "#b30838"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46437",
+      "seoname": "uab",
+      "name6Char": "UAB",
+      "nameFull": "University of Alabama at Birmingham",
+      "nameShort": "UAB",
+      "teamName": "Blazers",
+      "color": "#006341"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45871,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "45",
+        "attackErrors": "13",
+        "attackAttempts": "109",
+        "hittingPercentage": "0.294",
+        "assists": "37",
+        "setErrors": "0",
+        "setAttempts": "106",
+        "serviceAces": "5",
+        "serviceErrors": "7",
+        "serveAttempts": "73",
+        "digs": "49",
+        "receptionAttempts": "42",
+        "receptionErrors": "2",
+        "blockSolos": "2",
+        "blockAssists": "2",
+        "blockingErrors": "0",
+        "totalBlocks": "3"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46437,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "49",
+        "kills": "27",
+        "attackErrors": "13",
+        "attackAttempts": "104",
+        "hittingPercentage": "0.135",
+        "assists": "25",
+        "setErrors": "3",
+        "setAttempts": "110",
+        "serviceAces": "2",
+        "serviceErrors": "9",
+        "serveAttempts": "51",
+        "digs": "37",
+        "receptionAttempts": "66",
+        "receptionErrors": "5",
+        "blockSolos": "2",
+        "blockAssists": "0",
+        "blockingErrors": "0",
+        "totalBlocks": "2"
+      }
+    }
+  ]
+}

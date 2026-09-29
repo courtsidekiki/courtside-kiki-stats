@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626038,
+  "title": "WVB Boxscore",
+  "description": "Tennessee Tech vs Furman",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46504",
+      "seoname": "tennessee-tech",
+      "name6Char": "TNTECH",
+      "nameFull": "Tennessee Technological University",
+      "nameShort": "Tennessee Tech",
+      "teamName": "Golden Eagles",
+      "color": "#753BBD"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46415",
+      "seoname": "furman",
+      "name6Char": "FURMAN",
+      "nameFull": "Furman University",
+      "nameShort": "Furman",
+      "teamName": "Paladins",
+      "color": "#582C83"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46504,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "94",
+        "kills": "58",
+        "attackErrors": "29",
+        "attackAttempts": "166",
+        "hittingPercentage": "0.175",
+        "assists": "55",
+        "setErrors": "1",
+        "setAttempts": "160",
+        "serviceAces": "9",
+        "serviceErrors": "12",
+        "serveAttempts": "93",
+        "digs": "71",
+        "receptionAttempts": "77",
+        "receptionErrors": "2",
+        "blockSolos": "0",
+        "blockAssists": "4",
+        "blockingErrors": "0",
+        "totalBlocks": "2"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46415,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "82",
+        "kills": "38",
+        "attackErrors": "21",
+        "attackAttempts": "136",
+        "hittingPercentage": "0.125",
+        "assists": "37",
+        "setErrors": "0",
+        "setAttempts": "133",
+        "serviceAces": "2",
+        "serviceErrors": "6",
+        "serveAttempts": "83",
+        "digs": "72",
+        "receptionAttempts": "81",
+        "receptionErrors": "9",
+        "blockSolos": "2",
+        "blockAssists": "16",
+        "blockingErrors": "2",
+        "totalBlocks": "10"
+      }
+    }
+  ]
+}

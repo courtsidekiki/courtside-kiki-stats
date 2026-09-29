@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625768,
+  "title": "WVB Boxscore",
+  "description": "Iona vs Merrimack",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45782",
+      "seoname": "iona",
+      "name6Char": "IONA",
+      "nameFull": "Iona University",
+      "nameShort": "Iona",
+      "teamName": "Gaels",
+      "color": "#6F2C3F"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46433",
+      "seoname": "merrimack",
+      "name6Char": "MERMCK",
+      "nameFull": "Merrimack College",
+      "nameShort": "Merrimack",
+      "teamName": "Warriors",
+      "color": "#003057"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45782,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "37",
+        "attackErrors": "13",
+        "attackAttempts": "96",
+        "hittingPercentage": "0.250",
+        "assists": "33",
+        "setErrors": "2",
+        "setAttempts": "99",
+        "serviceAces": "8",
+        "serviceErrors": "3",
+        "serveAttempts": "73",
+        "digs": "45",
+        "receptionAttempts": "57",
+        "receptionErrors": "6",
+        "blockSolos": "0",
+        "blockAssists": "12",
+        "blockingErrors": "3",
+        "totalBlocks": "6"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46433,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "62",
+        "kills": "38",
+        "attackErrors": "22",
+        "attackAttempts": "112",
+        "hittingPercentage": "0.143",
+        "assists": "36",
+        "setErrors": "1",
+        "setAttempts": "113",
+        "serviceAces": "6",
+        "serviceErrors": "7",
+        "serveAttempts": "64",
+        "digs": "45",
+        "receptionAttempts": "70",
+        "receptionErrors": "8",
+        "blockSolos": "1",
+        "blockAssists": "6",
+        "blockingErrors": "2",
+        "totalBlocks": "4"
+      }
+    }
+  ]
+}

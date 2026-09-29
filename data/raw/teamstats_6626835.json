@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626835,
+  "title": "WVB Boxscore",
+  "description": "Jackson St. vs Prairie View",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45783",
+      "seoname": "jackson-st",
+      "name6Char": "JACKST",
+      "nameFull": "Jackson State University",
+      "nameShort": "Jackson St.",
+      "teamName": "Lady Tigers",
+      "color": "#041E42"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46734",
+      "seoname": "prairie-view",
+      "name6Char": "PV A&M",
+      "nameFull": "Prairie View A&M University",
+      "nameShort": "Prairie View",
+      "teamName": "Lady Panthers",
+      "color": "#582C83"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45783,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "106",
+        "kills": "55",
+        "attackErrors": "28",
+        "attackAttempts": "151",
+        "hittingPercentage": "0.179",
+        "assists": "54",
+        "setErrors": "1",
+        "setAttempts": "150",
+        "serviceAces": "10",
+        "serviceErrors": "9",
+        "serveAttempts": "106",
+        "digs": "58",
+        "receptionAttempts": "93",
+        "receptionErrors": "8",
+        "blockSolos": "2",
+        "blockAssists": "14",
+        "blockingErrors": "1",
+        "totalBlocks": "9"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46734,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "105",
+        "kills": "58",
+        "attackErrors": "27",
+        "attackAttempts": "149",
+        "hittingPercentage": "0.208",
+        "assists": "54",
+        "setErrors": "1",
+        "setAttempts": "146",
+        "serviceAces": "8",
+        "serviceErrors": "12",
+        "serveAttempts": "105",
+        "digs": "56",
+        "receptionAttempts": "97",
+        "receptionErrors": "10",
+        "blockSolos": "3",
+        "blockAssists": "14",
+        "blockingErrors": "0",
+        "totalBlocks": "10"
+      }
+    }
+  ]
+}

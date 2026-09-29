@@ -1,0 +1,99 @@
+{
+  "contests": [
+    {
+      "__typename": "Contest",
+      "id": "6628184",
+      "sportCode": "WVB",
+      "sportUrl": "volleyball-women",
+      "division": 1,
+      "clock": null,
+      "currentPeriod": "FINAL",
+      "finalMessage": "FINAL",
+      "gameState": "F",
+      "statusCodeDisplay": "final",
+      "network": null,
+      "startTime": "00:00",
+      "startTimeEpoch": 1790481600,
+      "week": null,
+      "seasonYear": 2026,
+      "winner": 46011,
+      "hasStartTime": false,
+      "hasBoxscore": true,
+      "hasPbp": true,
+      "hasScoringSummary": false,
+      "hasPreview": false,
+      "hasRecap": false,
+      "hasTeamStats": true,
+      "linescores": [
+        {
+          "__typename": "Linescore",
+          "period": "1",
+          "home": "27",
+          "visit": "25"
+        },
+        {
+          "__typename": "Linescore",
+          "period": "2",
+          "home": "19",
+          "visit": "25"
+        },
+        {
+          "__typename": "Linescore",
+          "period": "3",
+          "home": "23",
+          "visit": "25"
+        },
+        {
+          "__typename": "Linescore",
+          "period": "4",
+          "home": "19",
+          "visit": "25"
+        }
+      ],
+      "teams": [
+        {
+          "__typename": "ContestTeam",
+          "teamId": "46311",
+          "isHome": true,
+          "color": "#010101",
+          "seoname": "idaho",
+          "nameFull": "University of Idaho",
+          "nameShort": "Idaho",
+          "name6Char": "IDAHO",
+          "teamRank": null,
+          "gameRank": null,
+          "score": 1,
+          "seed": null,
+          "record": "(9-4)",
+          "divisionName": "d1",
+          "division": 1,
+          "isWinner": false
+        },
+        {
+          "__typename": "ContestTeam",
+          "teamId": "46011",
+          "isHome": false,
+          "color": "#470A68",
+          "seoname": "weber-st",
+          "nameFull": "Weber State University",
+          "nameShort": "Weber St.",
+          "name6Char": "WEB ST",
+          "teamRank": null,
+          "gameRank": null,
+          "score": 3,
+          "seed": null,
+          "record": "(7-4)",
+          "divisionName": "d1",
+          "division": 1,
+          "isWinner": true
+        }
+      ],
+      "liveVideos": [],
+      "championship": null,
+      "championshipGame": null,
+      "links": [],
+      "location": null,
+      "stats": null
+    }
+  ]
+}

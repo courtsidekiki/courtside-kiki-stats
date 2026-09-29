@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628639,
+  "title": "WVB Boxscore",
+  "description": "Xavier vs Georgetown",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46708",
+      "seoname": "xavier",
+      "name6Char": "XAVIER",
+      "nameFull": "Xavier University",
+      "nameShort": "Xavier",
+      "teamName": "Musketeers",
+      "color": "#0C2340"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46417",
+      "seoname": "georgetown",
+      "name6Char": "GTOWN",
+      "nameFull": "Georgetown University",
+      "nameShort": "Georgetown",
+      "teamName": "Hoyas",
+      "color": "#141F35"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46708,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "77",
+        "kills": "44",
+        "attackErrors": "12",
+        "attackAttempts": "130",
+        "hittingPercentage": "0.246",
+        "assists": "37",
+        "setErrors": "3",
+        "setAttempts": "122",
+        "serviceAces": "4",
+        "serviceErrors": "4",
+        "serveAttempts": "76",
+        "digs": "57",
+        "receptionAttempts": "61",
+        "receptionErrors": "1",
+        "blockSolos": "2",
+        "blockAssists": "16",
+        "blockingErrors": "2",
+        "totalBlocks": "10"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46417,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "65",
+        "kills": "45",
+        "attackErrors": "21",
+        "attackAttempts": "134",
+        "hittingPercentage": "0.179",
+        "assists": "45",
+        "setErrors": "3",
+        "setAttempts": "140",
+        "serviceAces": "1",
+        "serviceErrors": "5",
+        "serveAttempts": "66",
+        "digs": "53",
+        "receptionAttempts": "72",
+        "receptionErrors": "4",
+        "blockSolos": "1",
+        "blockAssists": "8",
+        "blockingErrors": "2",
+        "totalBlocks": "5"
+      }
+    }
+  ]
+}

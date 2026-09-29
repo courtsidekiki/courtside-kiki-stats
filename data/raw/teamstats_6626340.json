@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626340,
+  "title": "WVB Boxscore",
+  "description": "Syracuse vs Notre Dame",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46126",
+      "seoname": "syracuse",
+      "name6Char": "SYR",
+      "nameFull": "Syracuse University",
+      "nameShort": "Syracuse",
+      "teamName": "Orange",
+      "color": "#DC4405"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46610",
+      "seoname": "notre-dame",
+      "name6Char": "N DAME",
+      "nameFull": "University of Notre Dame",
+      "nameShort": "Notre Dame",
+      "teamName": "Fighting Irish",
+      "color": "#0C2340"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46126,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "49",
+        "kills": "27",
+        "attackErrors": "19",
+        "attackAttempts": "90",
+        "hittingPercentage": "0.089",
+        "assists": "25",
+        "setErrors": "0",
+        "setAttempts": "90",
+        "serviceAces": "1",
+        "serviceErrors": "8",
+        "serveAttempts": "51",
+        "digs": "33",
+        "receptionAttempts": "63",
+        "receptionErrors": "4",
+        "blockSolos": "2",
+        "blockAssists": "4",
+        "blockingErrors": "0",
+        "totalBlocks": "4"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46610,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "44",
+        "attackErrors": "11",
+        "attackAttempts": "93",
+        "hittingPercentage": "0.355",
+        "assists": "40",
+        "setErrors": "0",
+        "setAttempts": "89",
+        "serviceAces": "4",
+        "serviceErrors": "10",
+        "serveAttempts": "73",
+        "digs": "41",
+        "receptionAttempts": "43",
+        "receptionErrors": "1",
+        "blockSolos": "3",
+        "blockAssists": "14",
+        "blockingErrors": "0",
+        "totalBlocks": "10"
+      }
+    }
+  ]
+}

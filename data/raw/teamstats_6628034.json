@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628034,
+  "title": "WVB Boxscore",
+  "description": "Loyola Maryland vs Lehigh",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46062",
+      "seoname": "loyola-maryland",
+      "name6Char": "LOY MD",
+      "nameFull": "Loyola University Maryland",
+      "nameShort": "Loyola Maryland",
+      "teamName": "Greyhounds",
+      "color": "#115740"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46316",
+      "seoname": "lehigh",
+      "name6Char": "LEHIGH",
+      "nameFull": "Lehigh University",
+      "nameShort": "Lehigh",
+      "teamName": "Mountain Hawks",
+      "color": "#653819"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46062,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "104",
+        "kills": "63",
+        "attackErrors": "26",
+        "attackAttempts": "170",
+        "hittingPercentage": "0.218",
+        "assists": "59",
+        "setErrors": "1",
+        "setAttempts": "167",
+        "serviceAces": "8",
+        "serviceErrors": "9",
+        "serveAttempts": "103",
+        "digs": "66",
+        "receptionAttempts": "93",
+        "receptionErrors": "6",
+        "blockSolos": "2",
+        "blockAssists": "20",
+        "blockingErrors": "3",
+        "totalBlocks": "12"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46316,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "98",
+        "kills": "56",
+        "attackErrors": "26",
+        "attackAttempts": "156",
+        "hittingPercentage": "0.192",
+        "assists": "51",
+        "setErrors": "1",
+        "setAttempts": "155",
+        "serviceAces": "6",
+        "serviceErrors": "6",
+        "serveAttempts": "99",
+        "digs": "69",
+        "receptionAttempts": "94",
+        "receptionErrors": "8",
+        "blockSolos": "1",
+        "blockAssists": "8",
+        "blockingErrors": "5",
+        "totalBlocks": "5"
+      }
+    }
+  ]
+}

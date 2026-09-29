@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626912,
+  "title": "WVB Boxscore",
+  "description": "Wichita St. vs South Fla.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46705",
+      "seoname": "wichita-st",
+      "name6Char": "WICHST",
+      "nameFull": "Wichita State University",
+      "nameShort": "Wichita St.",
+      "teamName": "Shockers",
+      "color": "#010101"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46621",
+      "seoname": "south-fla",
+      "name6Char": "USF",
+      "nameFull": "University of South Florida",
+      "nameShort": "South Fla.",
+      "teamName": "Bulls",
+      "color": "#006747"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46705,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "93",
+        "kills": "50",
+        "attackErrors": "20",
+        "attackAttempts": "162",
+        "hittingPercentage": "0.185",
+        "assists": "47",
+        "setErrors": "0",
+        "setAttempts": "161",
+        "serviceAces": "7",
+        "serviceErrors": "5",
+        "serveAttempts": "94",
+        "digs": "78",
+        "receptionAttempts": "87",
+        "receptionErrors": "6",
+        "blockSolos": "4",
+        "blockAssists": "16",
+        "blockingErrors": "1",
+        "totalBlocks": "12"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46621,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "94",
+        "kills": "63",
+        "attackErrors": "28",
+        "attackAttempts": "182",
+        "hittingPercentage": "0.192",
+        "assists": "62",
+        "setErrors": "0",
+        "setAttempts": "181",
+        "serviceAces": "6",
+        "serviceErrors": "6",
+        "serveAttempts": "93",
+        "digs": "79",
+        "receptionAttempts": "89",
+        "receptionErrors": "7",
+        "blockSolos": "0",
+        "blockAssists": "18",
+        "blockingErrors": "0",
+        "totalBlocks": "9"
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628039,
+  "title": "WVB Boxscore",
+  "description": "Texas Tech vs Iowa St.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46253",
+      "seoname": "texas-tech",
+      "name6Char": "TXTECH",
+      "nameFull": "Texas Tech University",
+      "nameShort": "Texas Tech",
+      "teamName": "Red Raiders",
+      "color": "#ED1F2A"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46190",
+      "seoname": "iowa-st",
+      "name6Char": "IOWAST",
+      "nameFull": "Iowa State University",
+      "nameShort": "Iowa St.",
+      "teamName": "Cyclones",
+      "color": "#A6192E"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46253,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "112",
+        "kills": "75",
+        "attackErrors": "21",
+        "attackAttempts": "164",
+        "hittingPercentage": "0.329",
+        "assists": "72",
+        "setErrors": "0",
+        "setAttempts": "161",
+        "serviceAces": "2",
+        "serviceErrors": "9",
+        "serveAttempts": "113",
+        "digs": "63",
+        "receptionAttempts": "95",
+        "receptionErrors": "5",
+        "blockSolos": "3",
+        "blockAssists": "10",
+        "blockingErrors": "5",
+        "totalBlocks": "8"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46190,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "105",
+        "kills": "70",
+        "attackErrors": "25",
+        "attackAttempts": "169",
+        "hittingPercentage": "0.266",
+        "assists": "67",
+        "setErrors": "0",
+        "setAttempts": "174",
+        "serviceAces": "5",
+        "serviceErrors": "9",
+        "serveAttempts": "104",
+        "digs": "61",
+        "receptionAttempts": "104",
+        "receptionErrors": "2",
+        "blockSolos": "1",
+        "blockAssists": "8",
+        "blockingErrors": "1",
+        "totalBlocks": "5"
+      }
+    }
+  ]
+}

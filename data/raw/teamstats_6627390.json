@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627390,
+  "title": "WVB Boxscore",
+  "description": "NC State vs North Carolina",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45846",
+      "seoname": "north-carolina-st",
+      "name6Char": "NC ST",
+      "nameFull": "North Carolina State University",
+      "nameShort": "NC State",
+      "teamName": "Wolfpack",
+      "color": "#C8102E"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46471",
+      "seoname": "north-carolina",
+      "name6Char": "UNC",
+      "nameFull": "University of North Carolina, Chapel Hill",
+      "nameShort": "North Carolina",
+      "teamName": "Tar Heels",
+      "color": "#7BAFD4"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45846,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "87",
+        "kills": "55",
+        "attackErrors": "30",
+        "attackAttempts": "173",
+        "hittingPercentage": "0.145",
+        "assists": "49",
+        "setErrors": "2",
+        "setAttempts": "177",
+        "serviceAces": "5",
+        "serviceErrors": "11",
+        "serveAttempts": "88",
+        "digs": "72",
+        "receptionAttempts": "95",
+        "receptionErrors": "4",
+        "blockSolos": "0",
+        "blockAssists": "16",
+        "blockingErrors": "0",
+        "totalBlocks": "8"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46471,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "101",
+        "kills": "54",
+        "attackErrors": "19",
+        "attackAttempts": "158",
+        "hittingPercentage": "0.222",
+        "assists": "49",
+        "setErrors": "2",
+        "setAttempts": "163",
+        "serviceAces": "4",
+        "serviceErrors": "5",
+        "serveAttempts": "100",
+        "digs": "73",
+        "receptionAttempts": "77",
+        "receptionErrors": "5",
+        "blockSolos": "0",
+        "blockAssists": "30",
+        "blockingErrors": "0",
+        "totalBlocks": "15"
+      }
+    }
+  ]
+}

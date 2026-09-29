@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625281,
+  "title": "WVB Boxscore",
+  "description": "Northwestern vs Southern California",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46238",
+      "seoname": "northwestern",
+      "name6Char": "NW",
+      "nameFull": "Northwestern University",
+      "nameShort": "Northwestern",
+      "teamName": "Wildcats",
+      "color": "#4E2A84"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46121",
+      "seoname": "southern-california",
+      "name6Char": "USC",
+      "nameFull": "University of Southern California",
+      "nameShort": "Southern California",
+      "teamName": "Trojans",
+      "color": "#9D2235"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46238,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "55",
+        "kills": "23",
+        "attackErrors": "17",
+        "attackAttempts": "91",
+        "hittingPercentage": "0.066",
+        "assists": "22",
+        "setErrors": "0",
+        "setAttempts": "99",
+        "serviceAces": "2",
+        "serviceErrors": "5",
+        "serveAttempts": "57",
+        "digs": "39",
+        "receptionAttempts": "57",
+        "receptionErrors": "9",
+        "blockSolos": "0",
+        "blockAssists": "8",
+        "blockingErrors": "2",
+        "totalBlocks": "4"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46121,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "44",
+        "attackErrors": "13",
+        "attackAttempts": "107",
+        "hittingPercentage": "0.290",
+        "assists": "40",
+        "setErrors": "1",
+        "setAttempts": "105",
+        "serviceAces": "9",
+        "serviceErrors": "16",
+        "serveAttempts": "73",
+        "digs": "39",
+        "receptionAttempts": "52",
+        "receptionErrors": "2",
+        "blockSolos": "1",
+        "blockAssists": "19",
+        "blockingErrors": "1",
+        "totalBlocks": "10"
+      }
+    }
+  ]
+}

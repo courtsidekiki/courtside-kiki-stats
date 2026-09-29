@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625193,
+  "title": "WVB Boxscore",
+  "description": "Valparaiso vs Belmont",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46757",
+      "seoname": "valparaiso",
+      "name6Char": "VALPO",
+      "nameFull": "Valparaiso University",
+      "nameShort": "Valparaiso",
+      "teamName": "Beacons",
+      "color": "#693F23"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46399",
+      "seoname": "belmont",
+      "name6Char": "BELMNT",
+      "nameFull": "Belmont University",
+      "nameShort": "Belmont",
+      "teamName": "Bruins",
+      "color": "#0D2C6B"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46757,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "85",
+        "kills": "58",
+        "attackErrors": "24",
+        "attackAttempts": "190",
+        "hittingPercentage": "0.179",
+        "assists": "56",
+        "setErrors": "2",
+        "setAttempts": "189",
+        "serviceAces": "5",
+        "serviceErrors": "9",
+        "serveAttempts": "86",
+        "digs": "91",
+        "receptionAttempts": "91",
+        "receptionErrors": "5",
+        "blockSolos": "0",
+        "blockAssists": "8",
+        "blockingErrors": "1",
+        "totalBlocks": "4"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46399,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "102",
+        "kills": "62",
+        "attackErrors": "17",
+        "attackAttempts": "180",
+        "hittingPercentage": "0.250",
+        "assists": "60",
+        "setErrors": "0",
+        "setAttempts": "174",
+        "serviceAces": "5",
+        "serviceErrors": "5",
+        "serveAttempts": "101",
+        "digs": "92",
+        "receptionAttempts": "92",
+        "receptionErrors": "5",
+        "blockSolos": "2",
+        "blockAssists": "12",
+        "blockingErrors": "4",
+        "totalBlocks": "8"
+      }
+    }
+  ]
+}

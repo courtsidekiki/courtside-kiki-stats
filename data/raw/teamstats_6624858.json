@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624858,
+  "title": "WVB Boxscore",
+  "description": "Norfolk St. vs Coppin St.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45976",
+      "seoname": "norfolk-st",
+      "name6Char": "NORFLK",
+      "nameFull": "Norfolk State University",
+      "nameShort": "Norfolk St.",
+      "teamName": "Spartans",
+      "color": "#007A53"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46045",
+      "seoname": "coppin-st",
+      "name6Char": "COPPIN",
+      "nameFull": "Coppin State University",
+      "nameShort": "Coppin St.",
+      "teamName": "Eagles",
+      "color": "#0c3354"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45976,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "46",
+        "kills": "21",
+        "attackErrors": "14",
+        "attackAttempts": "83",
+        "hittingPercentage": "0.084",
+        "assists": "21",
+        "setErrors": "0",
+        "setAttempts": "81",
+        "serviceAces": "3",
+        "serviceErrors": "7",
+        "serveAttempts": "47",
+        "digs": "24",
+        "receptionAttempts": "65",
+        "receptionErrors": "10",
+        "blockSolos": "0",
+        "blockAssists": "6",
+        "blockingErrors": "1",
+        "totalBlocks": "3"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46045,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "43",
+        "attackErrors": "11",
+        "attackAttempts": "85",
+        "hittingPercentage": "0.376",
+        "assists": "40",
+        "setErrors": "2",
+        "setAttempts": "80",
+        "serviceAces": "10",
+        "serviceErrors": "9",
+        "serveAttempts": "74",
+        "digs": "41",
+        "receptionAttempts": "40",
+        "receptionErrors": "3",
+        "blockSolos": "2",
+        "blockAssists": "2",
+        "blockingErrors": "0",
+        "totalBlocks": "3"
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624901,
+  "title": "WVB Boxscore",
+  "description": "Missouri St. vs FIU",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46751",
+      "seoname": "missouri-st",
+      "name6Char": "MO ST",
+      "nameFull": "Missouri State University",
+      "nameShort": "Missouri St.",
+      "teamName": "Bears",
+      "color": "#6F2C3F"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46546",
+      "seoname": "fiu",
+      "name6Char": "FIU",
+      "nameFull": "Florida International University",
+      "nameShort": "FIU",
+      "teamName": "Panthers",
+      "color": "#091F3F"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46751,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "47",
+        "attackErrors": "15",
+        "attackAttempts": "114",
+        "hittingPercentage": "0.281",
+        "assists": "43",
+        "setErrors": "3",
+        "setAttempts": "108",
+        "serviceAces": "6",
+        "serviceErrors": "4",
+        "serveAttempts": "73",
+        "digs": "48",
+        "receptionAttempts": "59",
+        "receptionErrors": "0",
+        "blockSolos": "0",
+        "blockAssists": "12",
+        "blockingErrors": "1",
+        "totalBlocks": "6"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46546,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "63",
+        "kills": "41",
+        "attackErrors": "13",
+        "attackAttempts": "112",
+        "hittingPercentage": "0.250",
+        "assists": "39",
+        "setErrors": "3",
+        "setAttempts": "113",
+        "serviceAces": "0",
+        "serviceErrors": "6",
+        "serveAttempts": "65",
+        "digs": "45",
+        "receptionAttempts": "69",
+        "receptionErrors": "6",
+        "blockSolos": "0",
+        "blockAssists": "12",
+        "blockingErrors": "3",
+        "totalBlocks": "6"
+      }
+    }
+  ]
+}

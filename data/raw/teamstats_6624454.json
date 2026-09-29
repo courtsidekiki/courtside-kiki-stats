@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624454,
+  "title": "WVB Boxscore",
+  "description": "George Mason vs Rhode Island",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45798",
+      "seoname": "george-mason",
+      "name6Char": "GMU",
+      "nameFull": "George Mason University",
+      "nameShort": "George Mason",
+      "teamName": "Patriots",
+      "color": "#1A5632"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46242",
+      "seoname": "rhode-island",
+      "name6Char": "URI",
+      "nameFull": "University of Rhode Island",
+      "nameShort": "Rhode Island",
+      "teamName": "Rams",
+      "color": "#041E42"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45798,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "50",
+        "attackErrors": "7",
+        "attackAttempts": "87",
+        "hittingPercentage": "0.494",
+        "assists": "43",
+        "setErrors": "1",
+        "setAttempts": "84",
+        "serviceAces": "5",
+        "serviceErrors": "12",
+        "serveAttempts": "73",
+        "digs": "36",
+        "receptionAttempts": "46",
+        "receptionErrors": "3",
+        "blockSolos": "2",
+        "blockAssists": "6",
+        "blockingErrors": "2",
+        "totalBlocks": "5"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46242,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "47",
+        "kills": "24",
+        "attackErrors": "16",
+        "attackAttempts": "82",
+        "hittingPercentage": "0.098",
+        "assists": "21",
+        "setErrors": "0",
+        "setAttempts": "86",
+        "serviceAces": "3",
+        "serviceErrors": "3",
+        "serveAttempts": "49",
+        "digs": "25",
+        "receptionAttempts": "61",
+        "receptionErrors": "5",
+        "blockSolos": "0",
+        "blockAssists": "8",
+        "blockingErrors": "5",
+        "totalBlocks": "4"
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625099,
+  "title": "WVB Boxscore",
+  "description": "Mississippi Val. vs Prairie View",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45803",
+      "seoname": "mississippi-val",
+      "name6Char": "MS VAL",
+      "nameFull": "Mississippi Valley State University",
+      "nameShort": "Mississippi Val.",
+      "teamName": "Devilettes",
+      "color": "#046A38"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46734",
+      "seoname": "prairie-view",
+      "name6Char": "PV A&M",
+      "nameFull": "Prairie View A&M University",
+      "nameShort": "Prairie View",
+      "teamName": "Lady Panthers",
+      "color": "#582C83"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45803,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "47",
+        "kills": "22",
+        "attackErrors": "19",
+        "attackAttempts": "101",
+        "hittingPercentage": "0.030",
+        "assists": "18",
+        "setErrors": "5",
+        "setAttempts": "125",
+        "serviceAces": "3",
+        "serviceErrors": "4",
+        "serveAttempts": "49",
+        "digs": "33",
+        "receptionAttempts": "68",
+        "receptionErrors": "7",
+        "blockSolos": "1",
+        "blockAssists": "6",
+        "blockingErrors": "0",
+        "totalBlocks": "4"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46734,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "39",
+        "attackErrors": "13",
+        "attackAttempts": "104",
+        "hittingPercentage": "0.250",
+        "assists": "34",
+        "setErrors": "3",
+        "setAttempts": "130",
+        "serviceAces": "7",
+        "serviceErrors": "6",
+        "serveAttempts": "73",
+        "digs": "40",
+        "receptionAttempts": "45",
+        "receptionErrors": "3",
+        "blockSolos": "1",
+        "blockAssists": "10",
+        "blockingErrors": "0",
+        "totalBlocks": "6"
+      }
+    }
+  ]
+}

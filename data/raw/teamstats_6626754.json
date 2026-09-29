@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626754,
+  "title": "WVB Boxscore",
+  "description": "Wyoming vs UTEP",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46082",
+      "seoname": "wyoming",
+      "name6Char": "WYO",
+      "nameFull": "University of Wyoming",
+      "nameShort": "Wyoming",
+      "teamName": "Cowgirls",
+      "color": "#4E3629"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45874",
+      "seoname": "utep",
+      "name6Char": "UTEP",
+      "nameFull": "University of Texas at El Paso",
+      "nameShort": "UTEP",
+      "teamName": "Miners",
+      "color": "#041E42"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46082,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "85",
+        "kills": "41",
+        "attackErrors": "28",
+        "attackAttempts": "130",
+        "hittingPercentage": "0.100",
+        "assists": "37",
+        "setErrors": "0",
+        "setAttempts": "128",
+        "serviceAces": "8",
+        "serviceErrors": "11",
+        "serveAttempts": "86",
+        "digs": "46",
+        "receptionAttempts": "81",
+        "receptionErrors": "6",
+        "blockSolos": "2",
+        "blockAssists": "10",
+        "blockingErrors": "0",
+        "totalBlocks": "7"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45874,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "99",
+        "kills": "54",
+        "attackErrors": "18",
+        "attackAttempts": "127",
+        "hittingPercentage": "0.283",
+        "assists": "50",
+        "setErrors": "1",
+        "setAttempts": "124",
+        "serviceAces": "6",
+        "serviceErrors": "17",
+        "serveAttempts": "98",
+        "digs": "48",
+        "receptionAttempts": "75",
+        "receptionErrors": "8",
+        "blockSolos": "4",
+        "blockAssists": "22",
+        "blockingErrors": "1",
+        "totalBlocks": "15"
+      }
+    }
+  ]
+}

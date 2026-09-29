@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625256,
+  "title": "WVB Boxscore",
+  "description": "San Diego vs Saint Mary's (CA)",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46493",
+      "seoname": "san-diego",
+      "name6Char": "USD",
+      "nameFull": "University of San Diego",
+      "nameShort": "San Diego",
+      "teamName": "Toreros",
+      "color": "#00205B"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46490",
+      "seoname": "st-marys-ca",
+      "name6Char": "STMARY",
+      "nameFull": "Saint Mary's College of California",
+      "nameShort": "Saint Mary's (CA)",
+      "teamName": "Gaels",
+      "color": "#E51B24"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46493,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "103",
+        "kills": "53",
+        "attackErrors": "17",
+        "attackAttempts": "148",
+        "hittingPercentage": "0.243",
+        "assists": "49",
+        "setErrors": "0",
+        "setAttempts": "141",
+        "serviceAces": "8",
+        "serviceErrors": "9",
+        "serveAttempts": "103",
+        "digs": "62",
+        "receptionAttempts": "79",
+        "receptionErrors": "6",
+        "blockSolos": "1",
+        "blockAssists": "32",
+        "blockingErrors": "0",
+        "totalBlocks": "17"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46490,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "88",
+        "kills": "56",
+        "attackErrors": "32",
+        "attackAttempts": "176",
+        "hittingPercentage": "0.136",
+        "assists": "49",
+        "setErrors": "1",
+        "setAttempts": "168",
+        "serviceAces": "6",
+        "serviceErrors": "9",
+        "serveAttempts": "88",
+        "digs": "69",
+        "receptionAttempts": "94",
+        "receptionErrors": "8",
+        "blockSolos": "1",
+        "blockAssists": "8",
+        "blockingErrors": "4",
+        "totalBlocks": "5"
+      }
+    }
+  ]
+}

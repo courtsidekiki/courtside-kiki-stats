@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627324,
+  "title": "WVB Boxscore",
+  "description": "McNeese vs UTRGV",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46201",
+      "seoname": "mcneese",
+      "name6Char": "MCNEES",
+      "nameFull": "McNeese State University",
+      "nameShort": "McNeese",
+      "teamName": "Cowgirls",
+      "color": "#003087"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45984",
+      "seoname": "utrgv",
+      "name6Char": "UTRGV",
+      "nameFull": "The University of Texas Rio Grande Valley",
+      "nameShort": "UTRGV",
+      "teamName": "Vaqueros",
+      "color": "#FF4D00"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46201,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "51",
+        "kills": "31",
+        "attackErrors": "18",
+        "attackAttempts": "95",
+        "hittingPercentage": "0.137",
+        "assists": "31",
+        "setErrors": "2",
+        "setAttempts": "95",
+        "serviceAces": "2",
+        "serviceErrors": "8",
+        "serveAttempts": "53",
+        "digs": "35",
+        "receptionAttempts": "66",
+        "receptionErrors": "7",
+        "blockSolos": "1",
+        "blockAssists": "6",
+        "blockingErrors": "2",
+        "totalBlocks": "4"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45984,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "40",
+        "attackErrors": "11",
+        "attackAttempts": "90",
+        "hittingPercentage": "0.322",
+        "assists": "38",
+        "setErrors": "0",
+        "setAttempts": "86",
+        "serviceAces": "7",
+        "serviceErrors": "7",
+        "serveAttempts": "73",
+        "digs": "40",
+        "receptionAttempts": "45",
+        "receptionErrors": "2",
+        "blockSolos": "2",
+        "blockAssists": "10",
+        "blockingErrors": "1",
+        "totalBlocks": "7"
+      }
+    }
+  ]
+}

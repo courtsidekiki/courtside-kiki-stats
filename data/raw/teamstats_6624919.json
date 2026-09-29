@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624919,
+  "title": "WVB Boxscore",
+  "description": "Buffalo vs Toledo",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46444",
+      "seoname": "buffalo",
+      "name6Char": "BUFF",
+      "nameFull": "University at Buffalo, the State University of New York",
+      "nameShort": "Buffalo",
+      "teamName": "Bulls",
+      "color": "#0057B8"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46007",
+      "seoname": "toledo",
+      "name6Char": "TOLEDO",
+      "nameFull": "University of Toledo",
+      "nameShort": "Toledo",
+      "teamName": "Rockets",
+      "color": "#00205B"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46444,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "82",
+        "kills": "50",
+        "attackErrors": "17",
+        "attackAttempts": "134",
+        "hittingPercentage": "0.246",
+        "assists": "47",
+        "setErrors": "0",
+        "setAttempts": "139",
+        "serviceAces": "8",
+        "serviceErrors": "11",
+        "serveAttempts": "83",
+        "digs": "52",
+        "receptionAttempts": "94",
+        "receptionErrors": "7",
+        "blockSolos": "6",
+        "blockAssists": "4",
+        "blockingErrors": "5",
+        "totalBlocks": "8"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46007,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "101",
+        "kills": "65",
+        "attackErrors": "18",
+        "attackAttempts": "144",
+        "hittingPercentage": "0.326",
+        "assists": "58",
+        "setErrors": "0",
+        "setAttempts": "139",
+        "serviceAces": "7",
+        "serviceErrors": "6",
+        "serveAttempts": "100",
+        "digs": "57",
+        "receptionAttempts": "72",
+        "receptionErrors": "8",
+        "blockSolos": "5",
+        "blockAssists": "2",
+        "blockingErrors": "4",
+        "totalBlocks": "6"
+      }
+    }
+  ]
+}

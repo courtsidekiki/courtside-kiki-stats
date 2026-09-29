@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625637,
+  "title": "WVB Boxscore",
+  "description": "Georgia vs South Carolina",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45911",
+      "seoname": "georgia",
+      "name6Char": "UGA",
+      "nameFull": "University of Georgia",
+      "nameShort": "Georgia",
+      "teamName": "Bulldogs",
+      "color": "#DA291C"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46363",
+      "seoname": "south-carolina",
+      "name6Char": "S CAR",
+      "nameFull": "University of South Carolina, Columbia",
+      "nameShort": "South Carolina",
+      "teamName": "Gamecocks",
+      "color": "#862633"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45911,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "105",
+        "kills": "61",
+        "attackErrors": "20",
+        "attackAttempts": "153",
+        "hittingPercentage": "0.268",
+        "assists": "54",
+        "setErrors": "1",
+        "setAttempts": "146",
+        "serviceAces": "6",
+        "serviceErrors": "16",
+        "serveAttempts": "104",
+        "digs": "54",
+        "receptionAttempts": "90",
+        "receptionErrors": "5",
+        "blockSolos": "1",
+        "blockAssists": "13",
+        "blockingErrors": "2",
+        "totalBlocks": "7"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46363,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "99",
+        "kills": "56",
+        "attackErrors": "25",
+        "attackAttempts": "149",
+        "hittingPercentage": "0.208",
+        "assists": "53",
+        "setErrors": "2",
+        "setAttempts": "158",
+        "serviceAces": "5",
+        "serviceErrors": "10",
+        "serveAttempts": "100",
+        "digs": "65",
+        "receptionAttempts": "88",
+        "receptionErrors": "6",
+        "blockSolos": "3",
+        "blockAssists": "16",
+        "blockingErrors": "1",
+        "totalBlocks": "11"
+      }
+    }
+  ]
+}

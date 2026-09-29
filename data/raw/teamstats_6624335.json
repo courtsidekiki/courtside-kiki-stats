@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624335,
+  "title": "WVB Boxscore",
+  "description": "Michigan vs Washington",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45932",
+      "seoname": "michigan",
+      "name6Char": "MICH",
+      "nameFull": "University of Michigan",
+      "nameShort": "Michigan",
+      "teamName": "Wolverines",
+      "color": "#041E42"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46759",
+      "seoname": "washington",
+      "name6Char": "WASH",
+      "nameFull": "University of Washington",
+      "nameShort": "Washington",
+      "teamName": "Huskies",
+      "color": "#33006f"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45932,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "66",
+        "kills": "40",
+        "attackErrors": "16",
+        "attackAttempts": "105",
+        "hittingPercentage": "0.229",
+        "assists": "38",
+        "setErrors": "0",
+        "setAttempts": "105",
+        "serviceAces": "1",
+        "serviceErrors": "10",
+        "serveAttempts": "68",
+        "digs": "39",
+        "receptionAttempts": "67",
+        "receptionErrors": "3",
+        "blockSolos": "0",
+        "blockAssists": "8",
+        "blockingErrors": "2",
+        "totalBlocks": "4"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46759,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "46",
+        "attackErrors": "17",
+        "attackAttempts": "110",
+        "hittingPercentage": "0.264",
+        "assists": "45",
+        "setErrors": "2",
+        "setAttempts": "107",
+        "serviceAces": "3",
+        "serviceErrors": "6",
+        "serveAttempts": "73",
+        "digs": "41",
+        "receptionAttempts": "58",
+        "receptionErrors": "1",
+        "blockSolos": "1",
+        "blockAssists": "10",
+        "blockingErrors": "1",
+        "totalBlocks": "6"
+      }
+    }
+  ]
+}

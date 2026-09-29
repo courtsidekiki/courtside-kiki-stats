@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627353,
+  "title": "WVB Boxscore",
+  "description": "UC Irvine vs Cal St. Fullerton",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46400",
+      "seoname": "uc-irvine",
+      "name6Char": "UC IRV",
+      "nameFull": "University of California, Irvine",
+      "nameShort": "UC Irvine",
+      "teamName": "Anteaters",
+      "color": "#0C2340"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45757",
+      "seoname": "cal-st-fullerton",
+      "name6Char": "CSFULL",
+      "nameFull": "California State University, Fullerton",
+      "nameShort": "Cal St. Fullerton",
+      "teamName": "Titans",
+      "color": "#FF671F"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46400,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "94",
+        "kills": "48",
+        "attackErrors": "24",
+        "attackAttempts": "150",
+        "hittingPercentage": "0.160",
+        "assists": "45",
+        "setErrors": "3",
+        "setAttempts": "143",
+        "serviceAces": "5",
+        "serviceErrors": "7",
+        "serveAttempts": "93",
+        "digs": "69",
+        "receptionAttempts": "73",
+        "receptionErrors": "1",
+        "blockSolos": "2",
+        "blockAssists": "31",
+        "blockingErrors": "2",
+        "totalBlocks": "17"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45757,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "76",
+        "kills": "41",
+        "attackErrors": "36",
+        "attackAttempts": "167",
+        "hittingPercentage": "0.030",
+        "assists": "37",
+        "setErrors": "1",
+        "setAttempts": "155",
+        "serviceAces": "1",
+        "serviceErrors": "4",
+        "serveAttempts": "77",
+        "digs": "62",
+        "receptionAttempts": "86",
+        "receptionErrors": "5",
+        "blockSolos": "1",
+        "blockAssists": "14",
+        "blockingErrors": "2",
+        "totalBlocks": "8"
+      }
+    }
+  ]
+}

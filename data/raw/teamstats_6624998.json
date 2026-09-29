@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624998,
+  "title": "WVB Boxscore",
+  "description": "UNI vs Murray St.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45848",
+      "seoname": "uni",
+      "name6Char": "N IOWA",
+      "nameFull": "University of Northern Iowa",
+      "nameShort": "UNI",
+      "teamName": "Panthers",
+      "color": "#470A68"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46604",
+      "seoname": "murray-st",
+      "name6Char": "MURRAY",
+      "nameFull": "Murray State University",
+      "nameShort": "Murray St.",
+      "teamName": "Racers",
+      "color": "#0C2340"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45848,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "37",
+        "attackErrors": "7",
+        "attackAttempts": "90",
+        "hittingPercentage": "0.333",
+        "assists": "35",
+        "setErrors": "0",
+        "setAttempts": "83",
+        "serviceAces": "9",
+        "serviceErrors": "5",
+        "serveAttempts": "73",
+        "digs": "53",
+        "receptionAttempts": "28",
+        "receptionErrors": "1",
+        "blockSolos": "3",
+        "blockAssists": "14",
+        "blockingErrors": "1",
+        "totalBlocks": "10"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46604,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "32",
+        "kills": "19",
+        "attackErrors": "20",
+        "attackAttempts": "101",
+        "hittingPercentage": "-0.010",
+        "assists": "19",
+        "setErrors": "3",
+        "setAttempts": "105",
+        "serviceAces": "1",
+        "serviceErrors": "6",
+        "serveAttempts": "34",
+        "digs": "41",
+        "receptionAttempts": "68",
+        "receptionErrors": "9",
+        "blockSolos": "2",
+        "blockAssists": "6",
+        "blockingErrors": "1",
+        "totalBlocks": "5"
+      }
+    }
+  ]
+}

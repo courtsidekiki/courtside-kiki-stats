@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627052,
+  "title": "WVB Boxscore",
+  "description": "Tarleton St. vs North Ala.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46097",
+      "seoname": "tarleton-st",
+      "name6Char": "TARLET",
+      "nameFull": "Tarleton State University",
+      "nameShort": "Tarleton St.",
+      "teamName": "Texans",
+      "color": "#582C83"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46105",
+      "seoname": "north-ala",
+      "name6Char": "N ALA",
+      "nameFull": "University of North Alabama",
+      "nameShort": "North Ala.",
+      "teamName": "Lions",
+      "color": "#582C83"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46097,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "40",
+        "attackErrors": "10",
+        "attackAttempts": "114",
+        "hittingPercentage": "0.263",
+        "assists": "33",
+        "setErrors": "3",
+        "setAttempts": "121",
+        "serviceAces": "6",
+        "serviceErrors": "4",
+        "serveAttempts": "74",
+        "digs": "57",
+        "receptionAttempts": "53",
+        "receptionErrors": "2",
+        "blockSolos": "0",
+        "blockAssists": "12",
+        "blockingErrors": "2",
+        "totalBlocks": "6"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46105,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "58",
+        "kills": "39",
+        "attackErrors": "22",
+        "attackAttempts": "126",
+        "hittingPercentage": "0.135",
+        "assists": "36",
+        "setErrors": "1",
+        "setAttempts": "123",
+        "serviceAces": "2",
+        "serviceErrors": "6",
+        "serveAttempts": "59",
+        "digs": "54",
+        "receptionAttempts": "70",
+        "receptionErrors": "6",
+        "blockSolos": "1",
+        "blockAssists": "4",
+        "blockingErrors": "0",
+        "totalBlocks": "3"
+      }
+    }
+  ]
+}

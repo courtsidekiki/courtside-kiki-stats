@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628558,
+  "title": "WVB Boxscore",
+  "description": "Rider vs Marist",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45990",
+      "seoname": "rider",
+      "name6Char": "RIDER",
+      "nameFull": "Rider University",
+      "nameShort": "Rider",
+      "teamName": "Broncs",
+      "color": "#9D2235"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46561",
+      "seoname": "marist",
+      "name6Char": "MARIST",
+      "nameFull": "Marist University",
+      "nameShort": "Marist",
+      "teamName": "Red Foxes",
+      "color": "#C8102E"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45990,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "50",
+        "kills": "34",
+        "attackErrors": "21",
+        "attackAttempts": "91",
+        "hittingPercentage": "0.143",
+        "assists": "34",
+        "setErrors": "0",
+        "setAttempts": "89",
+        "serviceAces": "2",
+        "serviceErrors": "7",
+        "serveAttempts": "51",
+        "digs": "34",
+        "receptionAttempts": "71",
+        "receptionErrors": "15",
+        "blockSolos": "1",
+        "blockAssists": "4",
+        "blockingErrors": "2",
+        "totalBlocks": "3"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46561,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "32",
+        "attackErrors": "11",
+        "attackAttempts": "86",
+        "hittingPercentage": "0.244",
+        "assists": "29",
+        "setErrors": "0",
+        "setAttempts": "78",
+        "serviceAces": "15",
+        "serviceErrors": "3",
+        "serveAttempts": "74",
+        "digs": "30",
+        "receptionAttempts": "44",
+        "receptionErrors": "2",
+        "blockSolos": "0",
+        "blockAssists": "10",
+        "blockingErrors": "2",
+        "totalBlocks": "5"
+      }
+    }
+  ]
+}

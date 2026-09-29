@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627137,
+  "title": "WVB Boxscore",
+  "description": "New Mexico St. vs Western Ky.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46605",
+      "seoname": "new-mexico-st",
+      "name6Char": "NM ST",
+      "nameFull": "New Mexico State University",
+      "nameShort": "New Mexico St.",
+      "teamName": "Aggies",
+      "color": "#891619"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46634",
+      "seoname": "western-ky",
+      "name6Char": "W KY",
+      "nameFull": "Western Kentucky University",
+      "nameShort": "Western Ky.",
+      "teamName": "Lady Toppers",
+      "color": "#C8102E"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46605,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "109",
+        "kills": "56",
+        "attackErrors": "19",
+        "attackAttempts": "150",
+        "hittingPercentage": "0.247",
+        "assists": "51",
+        "setErrors": "3",
+        "setAttempts": "153",
+        "serviceAces": "6",
+        "serviceErrors": "8",
+        "serveAttempts": "109",
+        "digs": "55",
+        "receptionAttempts": "87",
+        "receptionErrors": "5",
+        "blockSolos": "5",
+        "blockAssists": "12",
+        "blockingErrors": "5",
+        "totalBlocks": "11"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46634,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "108",
+        "kills": "73",
+        "attackErrors": "26",
+        "attackAttempts": "162",
+        "hittingPercentage": "0.290",
+        "assists": "67",
+        "setErrors": "0",
+        "setAttempts": "149",
+        "serviceAces": "5",
+        "serviceErrors": "21",
+        "serveAttempts": "108",
+        "digs": "54",
+        "receptionAttempts": "102",
+        "receptionErrors": "6",
+        "blockSolos": "3",
+        "blockAssists": "8",
+        "blockingErrors": "3",
+        "totalBlocks": "7"
+      }
+    }
+  ]
+}

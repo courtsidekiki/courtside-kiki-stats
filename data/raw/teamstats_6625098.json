@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625098,
+  "title": "WVB Boxscore",
+  "description": "Mississippi Val. vs Texas Southern",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45803",
+      "seoname": "mississippi-val",
+      "name6Char": "MS VAL",
+      "nameFull": "Mississippi Valley State University",
+      "nameShort": "Mississippi Val.",
+      "teamName": "Devilettes",
+      "color": "#046A38"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46252",
+      "seoname": "texas-southern",
+      "name6Char": "TX SOU",
+      "nameFull": "Texas Southern University",
+      "nameShort": "Texas Southern",
+      "teamName": "Lady Tigers",
+      "color": "#6F263D"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45803,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "50",
+        "kills": "20",
+        "attackErrors": "8",
+        "attackAttempts": "72",
+        "hittingPercentage": "0.167",
+        "assists": "17",
+        "setErrors": "4",
+        "setAttempts": "83",
+        "serviceAces": "3",
+        "serviceErrors": "4",
+        "serveAttempts": "52",
+        "digs": "19",
+        "receptionAttempts": "65",
+        "receptionErrors": "10",
+        "blockSolos": "1",
+        "blockAssists": "12",
+        "blockingErrors": "1",
+        "totalBlocks": "7"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46252,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "49",
+        "attackErrors": "15",
+        "attackAttempts": "90",
+        "hittingPercentage": "0.378",
+        "assists": "47",
+        "setErrors": "4",
+        "setAttempts": "100",
+        "serviceAces": "10",
+        "serviceErrors": "8",
+        "serveAttempts": "73",
+        "digs": "39",
+        "receptionAttempts": "48",
+        "receptionErrors": "3",
+        "blockSolos": "0",
+        "blockAssists": "0",
+        "blockingErrors": "0",
+        "totalBlocks": "0"
+      }
+    }
+  ]
+}

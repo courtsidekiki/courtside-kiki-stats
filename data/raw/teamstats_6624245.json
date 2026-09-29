@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624245,
+  "title": "WVB Boxscore",
+  "description": "Indiana vs UCLA",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46314",
+      "seoname": "indiana",
+      "name6Char": "IND",
+      "nameFull": "Indiana University, Bloomington",
+      "nameShort": "Indiana",
+      "teamName": "Hoosiers",
+      "color": "#970310"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45896",
+      "seoname": "ucla",
+      "name6Char": "UCLA",
+      "nameFull": "University of California, Los Angeles",
+      "nameShort": "UCLA",
+      "teamName": "Bruins",
+      "color": "#0072CE"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46314,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "77",
+        "kills": "45",
+        "attackErrors": "20",
+        "attackAttempts": "105",
+        "hittingPercentage": "0.238",
+        "assists": "42",
+        "setErrors": "1",
+        "setAttempts": "98",
+        "serviceAces": "7",
+        "serviceErrors": "6",
+        "serveAttempts": "75",
+        "digs": "39",
+        "receptionAttempts": "62",
+        "receptionErrors": "3",
+        "blockSolos": "2",
+        "blockAssists": "14",
+        "blockingErrors": "1",
+        "totalBlocks": "9"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45896,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "65",
+        "kills": "35",
+        "attackErrors": "20",
+        "attackAttempts": "100",
+        "hittingPercentage": "0.150",
+        "assists": "31",
+        "setErrors": "0",
+        "setAttempts": "93",
+        "serviceAces": "3",
+        "serviceErrors": "5",
+        "serveAttempts": "67",
+        "digs": "32",
+        "receptionAttempts": "69",
+        "receptionErrors": "7",
+        "blockSolos": "3",
+        "blockAssists": "9",
+        "blockingErrors": "3",
+        "totalBlocks": "7"
+      }
+    }
+  ]
+}

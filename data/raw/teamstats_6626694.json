@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626694,
+  "title": "WVB Boxscore",
+  "description": "Air Force vs San Jose St.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46129",
+      "seoname": "air-force",
+      "name6Char": "AIRFOR",
+      "nameFull": "U.S. Air Force Academy",
+      "nameShort": "Air Force",
+      "teamName": "Falcons",
+      "color": "#0032A0"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46494",
+      "seoname": "san-jose-st",
+      "name6Char": "SJSU",
+      "nameFull": "San Jose State University",
+      "nameShort": "San Jose St.",
+      "teamName": "Spartans",
+      "color": "#233A82"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46129,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "103",
+        "kills": "60",
+        "attackErrors": "22",
+        "attackAttempts": "167",
+        "hittingPercentage": "0.228",
+        "assists": "54",
+        "setErrors": "1",
+        "setAttempts": "161",
+        "serviceAces": "3",
+        "serviceErrors": "4",
+        "serveAttempts": "102",
+        "digs": "67",
+        "receptionAttempts": "93",
+        "receptionErrors": "8",
+        "blockSolos": "5",
+        "blockAssists": "16",
+        "blockingErrors": "0",
+        "totalBlocks": "13"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46494,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "102",
+        "kills": "67",
+        "attackErrors": "28",
+        "attackAttempts": "177",
+        "hittingPercentage": "0.220",
+        "assists": "63",
+        "setErrors": "2",
+        "setAttempts": "175",
+        "serviceAces": "8",
+        "serviceErrors": "10",
+        "serveAttempts": "103",
+        "digs": "74",
+        "receptionAttempts": "98",
+        "receptionErrors": "3",
+        "blockSolos": "9",
+        "blockAssists": "8",
+        "blockingErrors": "0",
+        "totalBlocks": "13"
+      }
+    }
+  ]
+}

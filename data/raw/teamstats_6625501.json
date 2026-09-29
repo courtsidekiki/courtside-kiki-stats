@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625501,
+  "title": "WVB Boxscore",
+  "description": "Holy Cross vs Army West Point",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45915",
+      "seoname": "holy-cross",
+      "name6Char": "HOLYCR",
+      "nameFull": "College of the Holy Cross",
+      "nameShort": "Holy Cross",
+      "teamName": "Crusaders",
+      "color": "#582C83"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46257",
+      "seoname": "army",
+      "name6Char": "ARMY",
+      "nameFull": "U.S. Military Academy",
+      "nameShort": "Army West Point",
+      "teamName": "Black Knights",
+      "color": "#010101"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45915,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "88",
+        "kills": "48",
+        "attackErrors": "33",
+        "attackAttempts": "200",
+        "hittingPercentage": "0.075",
+        "assists": "46",
+        "setErrors": "2",
+        "setAttempts": "209",
+        "serviceAces": "3",
+        "serviceErrors": "4",
+        "serveAttempts": "89",
+        "digs": "90",
+        "receptionAttempts": "96",
+        "receptionErrors": "5",
+        "blockSolos": "1",
+        "blockAssists": "18",
+        "blockingErrors": "1",
+        "totalBlocks": "10"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46257,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "100",
+        "kills": "54",
+        "attackErrors": "31",
+        "attackAttempts": "188",
+        "hittingPercentage": "0.122",
+        "assists": "50",
+        "setErrors": "2",
+        "setAttempts": "202",
+        "serviceAces": "5",
+        "serviceErrors": "3",
+        "serveAttempts": "99",
+        "digs": "102",
+        "receptionAttempts": "85",
+        "receptionErrors": "3",
+        "blockSolos": "2",
+        "blockAssists": "18",
+        "blockingErrors": "1",
+        "totalBlocks": "11"
+      }
+    }
+  ]
+}

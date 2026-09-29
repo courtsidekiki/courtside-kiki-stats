@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626210,
+  "title": "WVB Boxscore",
+  "description": "Fresno St. vs Washington St.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46660",
+      "seoname": "fresno-st",
+      "name6Char": "FRESNO",
+      "nameFull": "California State University, Fresno",
+      "nameShort": "Fresno St.",
+      "teamName": "Bulldogs",
+      "color": "#D50032"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46630",
+      "seoname": "washington-st",
+      "name6Char": "WASHST",
+      "nameFull": "Washington State University",
+      "nameShort": "Washington St.",
+      "teamName": "Cougars",
+      "color": "#9D2235"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46660,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "65",
+        "kills": "34",
+        "attackErrors": "25",
+        "attackAttempts": "102",
+        "hittingPercentage": "0.088",
+        "assists": "33",
+        "setErrors": "1",
+        "setAttempts": "103",
+        "serviceAces": "5",
+        "serviceErrors": "9",
+        "serveAttempts": "66",
+        "digs": "31",
+        "receptionAttempts": "65",
+        "receptionErrors": "5",
+        "blockSolos": "1",
+        "blockAssists": "10",
+        "blockingErrors": "3",
+        "totalBlocks": "6"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46630,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "78",
+        "kills": "37",
+        "attackErrors": "12",
+        "attackAttempts": "85",
+        "hittingPercentage": "0.294",
+        "assists": "32",
+        "setErrors": "2",
+        "setAttempts": "83",
+        "serviceAces": "5",
+        "serviceErrors": "12",
+        "serveAttempts": "77",
+        "digs": "36",
+        "receptionAttempts": "57",
+        "receptionErrors": "5",
+        "blockSolos": "1",
+        "blockAssists": "16",
+        "blockingErrors": "2",
+        "totalBlocks": "9"
+      }
+    }
+  ]
+}

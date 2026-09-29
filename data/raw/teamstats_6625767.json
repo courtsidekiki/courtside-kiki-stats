@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625767,
+  "title": "WVB Boxscore",
+  "description": "Iona vs Quinnipiac",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45782",
+      "seoname": "iona",
+      "name6Char": "IONA",
+      "nameFull": "Iona University",
+      "nameShort": "Iona",
+      "teamName": "Gaels",
+      "color": "#6F2C3F"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46112",
+      "seoname": "quinnipiac",
+      "name6Char": "QUINN",
+      "nameFull": "Quinnipiac University",
+      "nameShort": "Quinnipiac",
+      "teamName": "Bobcats",
+      "color": "#0C2340"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45782,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "95",
+        "kills": "46",
+        "attackErrors": "23",
+        "attackAttempts": "141",
+        "hittingPercentage": "0.163",
+        "assists": "44",
+        "setErrors": "0",
+        "setAttempts": "138",
+        "serviceAces": "4",
+        "serviceErrors": "8",
+        "serveAttempts": "94",
+        "digs": "63",
+        "receptionAttempts": "79",
+        "receptionErrors": "6",
+        "blockSolos": "0",
+        "blockAssists": "30",
+        "blockingErrors": "1",
+        "totalBlocks": "15"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46112,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "85",
+        "kills": "48",
+        "attackErrors": "36",
+        "attackAttempts": "169",
+        "hittingPercentage": "0.071",
+        "assists": "42",
+        "setErrors": "2",
+        "setAttempts": "168",
+        "serviceAces": "6",
+        "serviceErrors": "7",
+        "serveAttempts": "86",
+        "digs": "66",
+        "receptionAttempts": "86",
+        "receptionErrors": "4",
+        "blockSolos": "1",
+        "blockAssists": "16",
+        "blockingErrors": "2",
+        "totalBlocks": "9"
+      }
+    }
+  ]
+}

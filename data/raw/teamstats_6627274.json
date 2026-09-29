@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627274,
+  "title": "WVB Boxscore",
+  "description": "Cal Poly vs CSU Bakersfield",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46659",
+      "seoname": "cal-poly",
+      "name6Char": "CALPLY",
+      "nameFull": "California Polytechnic State University",
+      "nameShort": "Cal Poly",
+      "teamName": "Mustangs",
+      "color": "#193E30"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46035",
+      "seoname": "bakersfield",
+      "name6Char": "CSUBAK",
+      "nameFull": "California State University, Bakersfield",
+      "nameShort": "CSU Bakersfield",
+      "teamName": "Roadrunners",
+      "color": "#0032A0"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46659,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "41",
+        "attackErrors": "16",
+        "attackAttempts": "98",
+        "hittingPercentage": "0.255",
+        "assists": "38",
+        "setErrors": "0",
+        "setAttempts": "90",
+        "serviceAces": "6",
+        "serviceErrors": "10",
+        "serveAttempts": "74",
+        "digs": "42",
+        "receptionAttempts": "45",
+        "receptionErrors": "3",
+        "blockSolos": "0",
+        "blockAssists": "18",
+        "blockingErrors": "1",
+        "totalBlocks": "9"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46035,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "53",
+        "kills": "24",
+        "attackErrors": "17",
+        "attackAttempts": "89",
+        "hittingPercentage": "0.079",
+        "assists": "19",
+        "setErrors": "2",
+        "setAttempts": "82",
+        "serviceAces": "3",
+        "serviceErrors": "9",
+        "serveAttempts": "54",
+        "digs": "32",
+        "receptionAttempts": "64",
+        "receptionErrors": "6",
+        "blockSolos": "1",
+        "blockAssists": "10",
+        "blockingErrors": "0",
+        "totalBlocks": "6"
+      }
+    }
+  ]
+}

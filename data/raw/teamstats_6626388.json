@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626388,
+  "title": "WVB Boxscore",
+  "description": "Butler vs Villanova",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46219",
+      "seoname": "butler",
+      "name6Char": "BUTLER",
+      "nameFull": "Butler University",
+      "nameShort": "Butler",
+      "teamName": "Bulldogs",
+      "color": "#13294B"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46508",
+      "seoname": "villanova",
+      "name6Char": "NOVA",
+      "nameFull": "Villanova University",
+      "nameShort": "Villanova",
+      "teamName": "Wildcats",
+      "color": "#001F5B"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46219,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "77",
+        "kills": "40",
+        "attackErrors": "15",
+        "attackAttempts": "101",
+        "hittingPercentage": "0.248",
+        "assists": "37",
+        "setErrors": "3",
+        "setAttempts": "102",
+        "serviceAces": "7",
+        "serviceErrors": "6",
+        "serveAttempts": "76",
+        "digs": "44",
+        "receptionAttempts": "52",
+        "receptionErrors": "3",
+        "blockSolos": "6",
+        "blockAssists": "10",
+        "blockingErrors": "1",
+        "totalBlocks": "11"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46508,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "60",
+        "kills": "32",
+        "attackErrors": "20",
+        "attackAttempts": "101",
+        "hittingPercentage": "0.119",
+        "assists": "29",
+        "setErrors": "1",
+        "setAttempts": "103",
+        "serviceAces": "3",
+        "serviceErrors": "9",
+        "serveAttempts": "61",
+        "digs": "38",
+        "receptionAttempts": "70",
+        "receptionErrors": "7",
+        "blockSolos": "1",
+        "blockAssists": "14",
+        "blockingErrors": "1",
+        "totalBlocks": "8"
+      }
+    }
+  ]
+}

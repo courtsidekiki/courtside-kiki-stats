@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626431,
+  "title": "WVB Boxscore",
+  "description": "Liberty vs Middle Tenn.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45925",
+      "seoname": "liberty",
+      "name6Char": "LIBRTY",
+      "nameFull": "Liberty University",
+      "nameShort": "Liberty",
+      "teamName": "Lady Flames",
+      "color": "#971A1F"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46067",
+      "seoname": "middle-tenn",
+      "name6Char": "MIDTEN",
+      "nameFull": "Middle Tennessee State University",
+      "nameShort": "Middle Tenn.",
+      "teamName": "Blue Raiders",
+      "color": "#006FAB"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45925,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "88",
+        "kills": "53",
+        "attackErrors": "13",
+        "attackAttempts": "130",
+        "hittingPercentage": "0.308",
+        "assists": "51",
+        "setErrors": "1",
+        "setAttempts": "131",
+        "serviceAces": "7",
+        "serviceErrors": "5",
+        "serveAttempts": "87",
+        "digs": "64",
+        "receptionAttempts": "70",
+        "receptionErrors": "6",
+        "blockSolos": "2",
+        "blockAssists": "14",
+        "blockingErrors": "2",
+        "totalBlocks": "9"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46067,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "74",
+        "kills": "49",
+        "attackErrors": "23",
+        "attackAttempts": "147",
+        "hittingPercentage": "0.177",
+        "assists": "42",
+        "setErrors": "0",
+        "setAttempts": "129",
+        "serviceAces": "6",
+        "serviceErrors": "5",
+        "serveAttempts": "75",
+        "digs": "53",
+        "receptionAttempts": "82",
+        "receptionErrors": "7",
+        "blockSolos": "1",
+        "blockAssists": "10",
+        "blockingErrors": "1",
+        "totalBlocks": "6"
+      }
+    }
+  ]
+}

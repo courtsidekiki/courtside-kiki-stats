@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626478,
+  "title": "WVB Boxscore",
+  "description": "Arkansas St. vs ULM",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46322",
+      "seoname": "arkansas-st",
+      "name6Char": "ARK ST",
+      "nameFull": "Arkansas State University",
+      "nameShort": "Arkansas St.",
+      "teamName": "Red Wolves",
+      "color": "#C8102E"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46106",
+      "seoname": "la-monroe",
+      "name6Char": "LA MON",
+      "nameFull": "University of Louisiana Monroe",
+      "nameShort": "ULM",
+      "teamName": "Warhawks",
+      "color": "#8A2432"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46322,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "46",
+        "attackErrors": "18",
+        "attackAttempts": "122",
+        "hittingPercentage": "0.230",
+        "assists": "45",
+        "setErrors": "1",
+        "setAttempts": "120",
+        "serviceAces": "2",
+        "serviceErrors": "5",
+        "serveAttempts": "74",
+        "digs": "64",
+        "receptionAttempts": "55",
+        "receptionErrors": "4",
+        "blockSolos": "4",
+        "blockAssists": "18",
+        "blockingErrors": "0",
+        "totalBlocks": "13"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46106,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "57",
+        "kills": "29",
+        "attackErrors": "23",
+        "attackAttempts": "122",
+        "hittingPercentage": "0.049",
+        "assists": "29",
+        "setErrors": "1",
+        "setAttempts": "121",
+        "serviceAces": "4",
+        "serviceErrors": "3",
+        "serveAttempts": "58",
+        "digs": "50",
+        "receptionAttempts": "69",
+        "receptionErrors": "2",
+        "blockSolos": "2",
+        "blockAssists": "8",
+        "blockingErrors": "0",
+        "totalBlocks": "6"
+      }
+    }
+  ]
+}

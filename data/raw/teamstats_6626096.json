@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626096,
+  "title": "WVB Boxscore",
+  "description": "Delaware vs Jacksonville St.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46667",
+      "seoname": "delaware",
+      "name6Char": "DEL",
+      "nameFull": "University of Delaware",
+      "nameShort": "Delaware",
+      "teamName": "Blue Hens",
+      "color": "#006095"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45784",
+      "seoname": "jacksonville-st",
+      "name6Char": "JAX ST",
+      "nameFull": "Jacksonville State University",
+      "nameShort": "Jacksonville St.",
+      "teamName": "Gamecocks",
+      "color": "#C8102E"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46667,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "94",
+        "kills": "62",
+        "attackErrors": "23",
+        "attackAttempts": "160",
+        "hittingPercentage": "0.244",
+        "assists": "58",
+        "setErrors": "0",
+        "setAttempts": "154",
+        "serviceAces": "8",
+        "serviceErrors": "8",
+        "serveAttempts": "93",
+        "digs": "72",
+        "receptionAttempts": "81",
+        "receptionErrors": "4",
+        "blockSolos": "0",
+        "blockAssists": "12",
+        "blockingErrors": "1",
+        "totalBlocks": "6"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45784,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "83",
+        "kills": "48",
+        "attackErrors": "21",
+        "attackAttempts": "150",
+        "hittingPercentage": "0.180",
+        "assists": "45",
+        "setErrors": "0",
+        "setAttempts": "155",
+        "serviceAces": "4",
+        "serviceErrors": "3",
+        "serveAttempts": "84",
+        "digs": "67",
+        "receptionAttempts": "85",
+        "receptionErrors": "8",
+        "blockSolos": "2",
+        "blockAssists": "2",
+        "blockingErrors": "0",
+        "totalBlocks": "3"
+      }
+    }
+  ]
+}

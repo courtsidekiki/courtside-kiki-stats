@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625019,
+  "title": "WVB Boxscore",
+  "description": "Dayton vs Davidson",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46047",
+      "seoname": "dayton",
+      "name6Char": "DAYTON",
+      "nameFull": "University of Dayton",
+      "nameShort": "Dayton",
+      "teamName": "Flyers",
+      "color": "#D50032"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46174",
+      "seoname": "davidson",
+      "name6Char": "DAVID",
+      "nameFull": "Davidson College",
+      "nameShort": "Davidson",
+      "teamName": "Wildcats",
+      "color": "#C8102E"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46047,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "37",
+        "attackErrors": "10",
+        "attackAttempts": "87",
+        "hittingPercentage": "0.310",
+        "assists": "34",
+        "setErrors": "1",
+        "setAttempts": "88",
+        "serviceAces": "5",
+        "serviceErrors": "3",
+        "serveAttempts": "73",
+        "digs": "37",
+        "receptionAttempts": "48",
+        "receptionErrors": "3",
+        "blockSolos": "0",
+        "blockAssists": "18",
+        "blockingErrors": "0",
+        "totalBlocks": "9"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46174,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "54",
+        "kills": "37",
+        "attackErrors": "24",
+        "attackAttempts": "103",
+        "hittingPercentage": "0.126",
+        "assists": "33",
+        "setErrors": "1",
+        "setAttempts": "101",
+        "serviceAces": "3",
+        "serviceErrors": "8",
+        "serveAttempts": "56",
+        "digs": "33",
+        "receptionAttempts": "70",
+        "receptionErrors": "5",
+        "blockSolos": "0",
+        "blockAssists": "14",
+        "blockingErrors": "0",
+        "totalBlocks": "7"
+      }
+    }
+  ]
+}

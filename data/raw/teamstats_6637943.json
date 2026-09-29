@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6637943,
+  "title": "WVB Boxscore",
+  "description": "Bowling Green vs Miami (OH)",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46217",
+      "seoname": "bowling-green",
+      "name6Char": "BGSU",
+      "nameFull": "Bowling Green State University",
+      "nameShort": "Bowling Green",
+      "teamName": "Falcons",
+      "color": "#FE5000"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45931",
+      "seoname": "miami-oh",
+      "name6Char": "MIA OH",
+      "nameFull": "Miami University (Ohio)",
+      "nameShort": "Miami (OH)",
+      "teamName": "RedHawks",
+      "color": "#C8102E"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46217,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "105",
+        "kills": "61",
+        "attackErrors": "24",
+        "attackAttempts": "174",
+        "hittingPercentage": "0.213",
+        "assists": "57",
+        "setErrors": "4",
+        "setAttempts": "175",
+        "serviceAces": "5",
+        "serviceErrors": "10",
+        "serveAttempts": "104",
+        "digs": "84",
+        "receptionAttempts": "87",
+        "receptionErrors": "5",
+        "blockSolos": "0",
+        "blockAssists": "30",
+        "blockingErrors": "1",
+        "totalBlocks": "15"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45931,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "100",
+        "kills": "56",
+        "attackErrors": "25",
+        "attackAttempts": "179",
+        "hittingPercentage": "0.173",
+        "assists": "54",
+        "setErrors": "0",
+        "setAttempts": "181",
+        "serviceAces": "5",
+        "serviceErrors": "14",
+        "serveAttempts": "101",
+        "digs": "75",
+        "receptionAttempts": "94",
+        "receptionErrors": "5",
+        "blockSolos": "3",
+        "blockAssists": "12",
+        "blockingErrors": "1",
+        "totalBlocks": "9"
+      }
+    }
+  ]
+}

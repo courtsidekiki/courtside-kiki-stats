@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625510,
+  "title": "WVB Boxscore",
+  "description": "Central Mich. vs Ohio",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46164",
+      "seoname": "central-mich",
+      "name6Char": "C MICH",
+      "nameFull": "Central Michigan University",
+      "nameShort": "Central Mich.",
+      "teamName": "Chippewas",
+      "color": "#6F263D"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46731",
+      "seoname": "ohio",
+      "name6Char": "OHIO",
+      "nameFull": "Ohio University",
+      "nameShort": "Ohio",
+      "teamName": "Bobcats",
+      "color": "#154734"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46164,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "58",
+        "kills": "32",
+        "attackErrors": "17",
+        "attackAttempts": "92",
+        "hittingPercentage": "0.163",
+        "assists": "31",
+        "setErrors": "0",
+        "setAttempts": "86",
+        "serviceAces": "5",
+        "serviceErrors": "6",
+        "serveAttempts": "60",
+        "digs": "33",
+        "receptionAttempts": "68",
+        "receptionErrors": "8",
+        "blockSolos": "4",
+        "blockAssists": "6",
+        "blockingErrors": "0",
+        "totalBlocks": "7"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46731,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "43",
+        "attackErrors": "14",
+        "attackAttempts": "97",
+        "hittingPercentage": "0.299",
+        "assists": "39",
+        "setErrors": "2",
+        "setAttempts": "90",
+        "serviceAces": "8",
+        "serviceErrors": "5",
+        "serveAttempts": "73",
+        "digs": "37",
+        "receptionAttempts": "54",
+        "receptionErrors": "5",
+        "blockSolos": "3",
+        "blockAssists": "12",
+        "blockingErrors": "2",
+        "totalBlocks": "9"
+      }
+    }
+  ]
+}

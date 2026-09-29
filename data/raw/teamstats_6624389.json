@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624389,
+  "title": "WVB Boxscore",
+  "description": "Illinois vs Southern California",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46312",
+      "seoname": "illinois",
+      "name6Char": "ILL",
+      "nameFull": "University of Illinois Urbana-Champaign",
+      "nameShort": "Illinois",
+      "teamName": "Fighting Illini",
+      "color": "#F15A22"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46121",
+      "seoname": "southern-california",
+      "name6Char": "USC",
+      "nameFull": "University of Southern California",
+      "nameShort": "Southern California",
+      "teamName": "Trojans",
+      "color": "#9D2235"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46312,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "44",
+        "attackErrors": "10",
+        "attackAttempts": "113",
+        "hittingPercentage": "0.301",
+        "assists": "39",
+        "setErrors": "1",
+        "setAttempts": "106",
+        "serviceAces": "4",
+        "serviceErrors": "11",
+        "serveAttempts": "74",
+        "digs": "54",
+        "receptionAttempts": "53",
+        "receptionErrors": "1",
+        "blockSolos": "0",
+        "blockAssists": "12",
+        "blockingErrors": "1",
+        "totalBlocks": "6"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46121,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "65",
+        "kills": "42",
+        "attackErrors": "14",
+        "attackAttempts": "125",
+        "hittingPercentage": "0.224",
+        "assists": "38",
+        "setErrors": "0",
+        "setAttempts": "116",
+        "serviceAces": "1",
+        "serviceErrors": "13",
+        "serveAttempts": "66",
+        "digs": "46",
+        "receptionAttempts": "63",
+        "receptionErrors": "4",
+        "blockSolos": "0",
+        "blockAssists": "13",
+        "blockingErrors": "2",
+        "totalBlocks": "6"
+      }
+    }
+  ]
+}

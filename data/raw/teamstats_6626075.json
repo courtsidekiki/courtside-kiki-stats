@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626075,
+  "title": "WVB Boxscore",
+  "description": "Niagara vs Sacred Heart",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46476",
+      "seoname": "niagara",
+      "name6Char": "NIAGRA",
+      "nameFull": "Niagara University",
+      "nameShort": "Niagara",
+      "teamName": "Purple Eagles",
+      "color": "#582C83"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46737",
+      "seoname": "sacred-heart",
+      "name6Char": "SACHRT",
+      "nameFull": "Sacred Heart University",
+      "nameShort": "Sacred Heart",
+      "teamName": "Pioneers",
+      "color": "#BA0C2F"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46476,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "81",
+        "kills": "39",
+        "attackErrors": "18",
+        "attackAttempts": "144",
+        "hittingPercentage": "0.146",
+        "assists": "38",
+        "setErrors": "1",
+        "setAttempts": "136",
+        "serviceAces": "2",
+        "serviceErrors": "14",
+        "serveAttempts": "82",
+        "digs": "57",
+        "receptionAttempts": "88",
+        "receptionErrors": "10",
+        "blockSolos": "8",
+        "blockAssists": "16",
+        "blockingErrors": "1",
+        "totalBlocks": "16"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46737,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "97",
+        "kills": "54",
+        "attackErrors": "31",
+        "attackAttempts": "159",
+        "hittingPercentage": "0.145",
+        "assists": "53",
+        "setErrors": "1",
+        "setAttempts": "154",
+        "serviceAces": "10",
+        "serviceErrors": "8",
+        "serveAttempts": "96",
+        "digs": "76",
+        "receptionAttempts": "68",
+        "receptionErrors": "2",
+        "blockSolos": "2",
+        "blockAssists": "6",
+        "blockingErrors": "1",
+        "totalBlocks": "5"
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624246,
+  "title": "WVB Boxscore",
+  "description": "Indiana vs Maryland",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46314",
+      "seoname": "indiana",
+      "name6Char": "IND",
+      "nameFull": "Indiana University, Bloomington",
+      "nameShort": "Indiana",
+      "teamName": "Hoosiers",
+      "color": "#970310"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46686",
+      "seoname": "maryland",
+      "name6Char": "MD",
+      "nameFull": "University of Maryland, College Park",
+      "nameShort": "Maryland",
+      "teamName": "Terrapins",
+      "color": "#C8102E"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46314,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "46",
+        "attackErrors": "11",
+        "attackAttempts": "97",
+        "hittingPercentage": "0.361",
+        "assists": "41",
+        "setErrors": "1",
+        "setAttempts": "89",
+        "serviceAces": "4",
+        "serviceErrors": "7",
+        "serveAttempts": "73",
+        "digs": "30",
+        "receptionAttempts": "51",
+        "receptionErrors": "1",
+        "blockSolos": "1",
+        "blockAssists": "18",
+        "blockingErrors": "1",
+        "totalBlocks": "10"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46686,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "55",
+        "kills": "35",
+        "attackErrors": "19",
+        "attackAttempts": "90",
+        "hittingPercentage": "0.178",
+        "assists": "32",
+        "setErrors": "0",
+        "setAttempts": "92",
+        "serviceAces": "1",
+        "serviceErrors": "6",
+        "serveAttempts": "57",
+        "digs": "32",
+        "receptionAttempts": "66",
+        "receptionErrors": "4",
+        "blockSolos": "2",
+        "blockAssists": "0",
+        "blockingErrors": "3",
+        "totalBlocks": "2"
+      }
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "contests": [
+    {
+      "__typename": "Contest",
+      "id": "6628475",
+      "sportCode": "WVB",
+      "sportUrl": "volleyball-women",
+      "division": 1,
+      "clock": null,
+      "currentPeriod": "FINAL",
+      "finalMessage": "FINAL",
+      "gameState": "F",
+      "statusCodeDisplay": "final",
+      "network": null,
+      "startTime": "12:00",
+      "startTimeEpoch": 1790352000,
+      "week": null,
+      "seasonYear": 2026,
+      "winner": 45871,
+      "hasStartTime": true,
+      "hasBoxscore": true,
+      "hasPbp": true,
+      "hasScoringSummary": false,
+      "hasPreview": false,
+      "hasRecap": false,
+      "hasTeamStats": true,
+      "linescores": [
+        {
+          "__typename": "Linescore",
+          "period": "1",
+          "home": "25",
+          "visit": "15"
+        },
+        {
+          "__typename": "Linescore",
+          "period": "2",
+          "home": "25",
+          "visit": "21"
+        },
+        {
+          "__typename": "Linescore",
+          "period": "3",
+          "home": "25",
+          "visit": "13"
+        }
+      ],
+      "teams": [
+        {
+          "__typename": "ContestTeam",
+          "teamId": "45871",
+          "isHome": true,
+          "color": "#b30838",
+          "seoname": "temple",
+          "nameFull": "Temple University",
+          "nameShort": "Temple",
+          "name6Char": "TEMPLE",
+          "teamRank": null,
+          "gameRank": null,
+          "score": 3,
+          "seed": null,
+          "record": "(8-4)",
+          "divisionName": "d1",
+          "division": 1,
+          "isWinner": true
+        },
+        {
+          "__typename": "ContestTeam",
+          "teamId": "46437",
+          "isHome": false,
+          "color": "#006341",
+          "seoname": "uab",
+          "nameFull": "University of Alabama at Birmingham",
+          "nameShort": "UAB",
+          "name6Char": "UAB",
+          "teamRank": null,
+          "gameRank": null,
+          "score": 0,
+          "seed": null,
+          "record": "(6-6)",
+          "divisionName": "d1",
+          "division": 1,
+          "isWinner": false
+        }
+      ],
+      "liveVideos": [],
+      "championship": null,
+      "championshipGame": null,
+      "links": [],
+      "location": null,
+      "stats": null
+    }
+  ]
+}

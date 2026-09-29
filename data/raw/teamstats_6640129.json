@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6640129,
+  "title": "WVB Boxscore",
+  "description": "UTRGV vs Nicholls",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45984",
+      "seoname": "utrgv",
+      "name6Char": "UTRGV",
+      "nameFull": "The University of Texas Rio Grande Valley",
+      "nameShort": "UTRGV",
+      "teamName": "Vaqueros",
+      "color": "#FF4D00"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46103",
+      "seoname": "nicholls-st",
+      "name6Char": "NICHST",
+      "nameFull": "Nicholls State University",
+      "nameShort": "Nicholls",
+      "teamName": "Colonels",
+      "color": "#A6192E"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45984,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "39",
+        "attackErrors": "17",
+        "attackAttempts": "106",
+        "hittingPercentage": "0.208",
+        "assists": "37",
+        "setErrors": "1",
+        "setAttempts": "103",
+        "serviceAces": "7",
+        "serviceErrors": "10",
+        "serveAttempts": "74",
+        "digs": "45",
+        "receptionAttempts": "58",
+        "receptionErrors": "6",
+        "blockSolos": "2",
+        "blockAssists": "6",
+        "blockingErrors": "3",
+        "totalBlocks": "5"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46103,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "63",
+        "kills": "29",
+        "attackErrors": "21",
+        "attackAttempts": "105",
+        "hittingPercentage": "0.076",
+        "assists": "26",
+        "setErrors": "1",
+        "setAttempts": "105",
+        "serviceAces": "6",
+        "serviceErrors": "6",
+        "serveAttempts": "64",
+        "digs": "43",
+        "receptionAttempts": "64",
+        "receptionErrors": "7",
+        "blockSolos": "1",
+        "blockAssists": "4",
+        "blockingErrors": "4",
+        "totalBlocks": "3"
+      }
+    }
+  ]
+}

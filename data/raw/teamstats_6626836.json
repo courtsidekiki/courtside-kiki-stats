@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626836,
+  "title": "WVB Boxscore",
+  "description": "Jackson St. vs Texas Southern",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45783",
+      "seoname": "jackson-st",
+      "name6Char": "JACKST",
+      "nameFull": "Jackson State University",
+      "nameShort": "Jackson St.",
+      "teamName": "Lady Tigers",
+      "color": "#041E42"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46252",
+      "seoname": "texas-southern",
+      "name6Char": "TX SOU",
+      "nameFull": "Texas Southern University",
+      "nameShort": "Texas Southern",
+      "teamName": "Lady Tigers",
+      "color": "#6F263D"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45783,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "91",
+        "kills": "50",
+        "attackErrors": "27",
+        "attackAttempts": "158",
+        "hittingPercentage": "0.146",
+        "assists": "47",
+        "setErrors": "2",
+        "setAttempts": "152",
+        "serviceAces": "4",
+        "serviceErrors": "13",
+        "serveAttempts": "90",
+        "digs": "64",
+        "receptionAttempts": "84",
+        "receptionErrors": "6",
+        "blockSolos": "5",
+        "blockAssists": "6",
+        "blockingErrors": "0",
+        "totalBlocks": "8"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46252,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "89",
+        "kills": "41",
+        "attackErrors": "28",
+        "attackAttempts": "144",
+        "hittingPercentage": "0.090",
+        "assists": "41",
+        "setErrors": "3",
+        "setAttempts": "146",
+        "serviceAces": "6",
+        "serviceErrors": "6",
+        "serveAttempts": "90",
+        "digs": "64",
+        "receptionAttempts": "77",
+        "receptionErrors": "4",
+        "blockSolos": "2",
+        "blockAssists": "18",
+        "blockingErrors": "0",
+        "totalBlocks": "11"
+      }
+    }
+  ]
+}

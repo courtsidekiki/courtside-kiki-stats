@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626245,
+  "title": "WVB Boxscore",
+  "description": "Providence vs Marquette",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45855",
+      "seoname": "providence",
+      "name6Char": "PROV",
+      "nameFull": "Providence College",
+      "nameShort": "Providence",
+      "teamName": "Friars",
+      "color": "#010101"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46200",
+      "seoname": "marquette",
+      "name6Char": "MARQ",
+      "nameFull": "Marquette University",
+      "nameShort": "Marquette",
+      "teamName": "Golden Eagles",
+      "color": "#1D2953"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45855,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "56",
+        "kills": "31",
+        "attackErrors": "22",
+        "attackAttempts": "103",
+        "hittingPercentage": "0.087",
+        "assists": "26",
+        "setErrors": "1",
+        "setAttempts": "96",
+        "serviceAces": "2",
+        "serviceErrors": "6",
+        "serveAttempts": "58",
+        "digs": "34",
+        "receptionAttempts": "69",
+        "receptionErrors": "4",
+        "blockSolos": "1",
+        "blockAssists": "14",
+        "blockingErrors": "2",
+        "totalBlocks": "8"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46200,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "42",
+        "attackErrors": "18",
+        "attackAttempts": "108",
+        "hittingPercentage": "0.222",
+        "assists": "37",
+        "setErrors": "1",
+        "setAttempts": "100",
+        "serviceAces": "4",
+        "serviceErrors": "4",
+        "serveAttempts": "73",
+        "digs": "41",
+        "receptionAttempts": "52",
+        "receptionErrors": "2",
+        "blockSolos": "1",
+        "blockAssists": "10",
+        "blockingErrors": "1",
+        "totalBlocks": "6"
+      }
+    }
+  ]
+}

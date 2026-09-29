@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625935,
+  "title": "WVB Boxscore",
+  "description": "Western Ill. vs Southeast Mo. St.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46633",
+      "seoname": "western-ill",
+      "name6Char": "W ILL",
+      "nameFull": "Western Illinois University",
+      "nameShort": "Western Ill.",
+      "teamName": "Leathernecks",
+      "color": "#59327E"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46496",
+      "seoname": "southeast-mo-st",
+      "name6Char": "SEMO",
+      "nameFull": "Southeast Missouri State University",
+      "nameShort": "Southeast Mo. St.",
+      "teamName": "Redhawks",
+      "color": "#010101"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46633,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "43",
+        "kills": "24",
+        "attackErrors": "24",
+        "attackAttempts": "98",
+        "hittingPercentage": ".000",
+        "assists": "22",
+        "setErrors": "1",
+        "setAttempts": "106",
+        "serviceAces": "4",
+        "serviceErrors": "9",
+        "serveAttempts": "45",
+        "digs": "42",
+        "receptionAttempts": "70",
+        "receptionErrors": "4",
+        "blockSolos": "1",
+        "blockAssists": "4",
+        "blockingErrors": "0",
+        "totalBlocks": "3"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46496,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "36",
+        "attackErrors": "9",
+        "attackAttempts": "94",
+        "hittingPercentage": "0.287",
+        "assists": "34",
+        "setErrors": "0",
+        "setAttempts": "95",
+        "serviceAces": "4",
+        "serviceErrors": "5",
+        "serveAttempts": "73",
+        "digs": "45",
+        "receptionAttempts": "37",
+        "receptionErrors": "4",
+        "blockSolos": "4",
+        "blockAssists": "12",
+        "blockingErrors": "0",
+        "totalBlocks": "10"
+      }
+    }
+  ]
+}

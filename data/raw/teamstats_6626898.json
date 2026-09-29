@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626898,
+  "title": "WVB Boxscore",
+  "description": "SIUE vs UT Martin",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46499",
+      "seoname": "siu-edwardsville",
+      "name6Char": "SIUE",
+      "nameFull": "Southern Illinois University Edwardsville",
+      "nameShort": "SIUE",
+      "teamName": "Cougars",
+      "color": "#DB372F"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46506",
+      "seoname": "ut-martin",
+      "name6Char": "UT MAR",
+      "nameFull": "University of Tennessee at Martin",
+      "nameShort": "UT Martin",
+      "teamName": "Skyhawks",
+      "color": "#0C2340"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46499,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "100",
+        "kills": "53",
+        "attackErrors": "25",
+        "attackAttempts": "146",
+        "hittingPercentage": "0.192",
+        "assists": "51",
+        "setErrors": "5",
+        "setAttempts": "153",
+        "serviceAces": "11",
+        "serviceErrors": "16",
+        "serveAttempts": "99",
+        "digs": "65",
+        "receptionAttempts": "95",
+        "receptionErrors": "9",
+        "blockSolos": "2",
+        "blockAssists": "2",
+        "blockingErrors": "0",
+        "totalBlocks": "3"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46506,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "106",
+        "kills": "51",
+        "attackErrors": "23",
+        "attackAttempts": "145",
+        "hittingPercentage": "0.193",
+        "assists": "43",
+        "setErrors": "1",
+        "setAttempts": "133",
+        "serviceAces": "9",
+        "serviceErrors": "12",
+        "serveAttempts": "107",
+        "digs": "54",
+        "receptionAttempts": "83",
+        "receptionErrors": "11",
+        "blockSolos": "5",
+        "blockAssists": "14",
+        "blockingErrors": "0",
+        "totalBlocks": "12"
+      }
+    }
+  ]
+}

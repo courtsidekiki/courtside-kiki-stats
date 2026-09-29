@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624555,
+  "title": "WVB Boxscore",
+  "description": "Lamar University vs Southeastern La.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45922",
+      "seoname": "lamar",
+      "name6Char": "LAMAR",
+      "nameFull": "Lamar University",
+      "nameShort": "Lamar University",
+      "teamName": "Cardinals",
+      "color": "#D50032"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46622",
+      "seoname": "southeastern-la",
+      "name6Char": "SE LA",
+      "nameFull": "Southeastern Louisiana University",
+      "nameShort": "Southeastern La.",
+      "teamName": "Lady Lions",
+      "color": "#1D4C30"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45922,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "93",
+        "kills": "57",
+        "attackErrors": "25",
+        "attackAttempts": "154",
+        "hittingPercentage": "0.208",
+        "assists": "54",
+        "setErrors": "0",
+        "setAttempts": "152",
+        "serviceAces": "11",
+        "serviceErrors": "18",
+        "serveAttempts": "94",
+        "digs": "59",
+        "receptionAttempts": "87",
+        "receptionErrors": "1",
+        "blockSolos": "2",
+        "blockAssists": "2",
+        "blockingErrors": "0",
+        "totalBlocks": "3"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46622,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "98",
+        "kills": "54",
+        "attackErrors": "14",
+        "attackAttempts": "137",
+        "hittingPercentage": "0.292",
+        "assists": "48",
+        "setErrors": "1",
+        "setAttempts": "128",
+        "serviceAces": "1",
+        "serviceErrors": "10",
+        "serveAttempts": "97",
+        "digs": "61",
+        "receptionAttempts": "76",
+        "receptionErrors": "11",
+        "blockSolos": "2",
+        "blockAssists": "14",
+        "blockingErrors": "2",
+        "totalBlocks": "9"
+      }
+    }
+  ]
+}

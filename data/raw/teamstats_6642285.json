@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6642285,
+  "title": "WVB Boxscore",
+  "description": "San Francisco vs Pepperdine",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46247",
+      "seoname": "san-francisco",
+      "name6Char": "S FRAN",
+      "nameFull": "University of San Francisco",
+      "nameShort": "San Francisco",
+      "teamName": "Dons",
+      "color": "#205C40"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46240",
+      "seoname": "pepperdine",
+      "name6Char": "PEPPER",
+      "nameFull": "Pepperdine University",
+      "nameShort": "Pepperdine",
+      "teamName": "Waves",
+      "color": "#00205B"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46247,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "91",
+        "kills": "51",
+        "attackErrors": "19",
+        "attackAttempts": "135",
+        "hittingPercentage": "0.237",
+        "assists": "48",
+        "setErrors": "2",
+        "setAttempts": "144",
+        "serviceAces": "4",
+        "serviceErrors": "7",
+        "serveAttempts": "92",
+        "digs": "53",
+        "receptionAttempts": "81",
+        "receptionErrors": "10",
+        "blockSolos": "2",
+        "blockAssists": "10",
+        "blockingErrors": "1",
+        "totalBlocks": "7"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46240,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "97",
+        "kills": "59",
+        "attackErrors": "21",
+        "attackAttempts": "148",
+        "hittingPercentage": "0.257",
+        "assists": "56",
+        "setErrors": "0",
+        "setAttempts": "146",
+        "serviceAces": "10",
+        "serviceErrors": "15",
+        "serveAttempts": "96",
+        "digs": "49",
+        "receptionAttempts": "85",
+        "receptionErrors": "4",
+        "blockSolos": "0",
+        "blockAssists": "14",
+        "blockingErrors": "0",
+        "totalBlocks": "7"
+      }
+    }
+  ]
+}

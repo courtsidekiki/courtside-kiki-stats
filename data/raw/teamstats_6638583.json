@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6638583,
+  "title": "WVB Boxscore",
+  "description": "North Texas vs Tulane",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46237",
+      "seoname": "north-texas",
+      "name6Char": "NO TEX",
+      "nameFull": "University of North Texas",
+      "nameShort": "North Texas",
+      "teamName": "Mean Green",
+      "color": "#007A33"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46255",
+      "seoname": "tulane",
+      "name6Char": "TULANE",
+      "nameFull": "Tulane University",
+      "nameShort": "Tulane",
+      "teamName": "Green Wave",
+      "color": "#006747"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46237,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "71",
+        "kills": "28",
+        "attackErrors": "24",
+        "attackAttempts": "90",
+        "hittingPercentage": "0.044",
+        "assists": "25",
+        "setErrors": "0",
+        "setAttempts": "96",
+        "serviceAces": "8",
+        "serviceErrors": "6",
+        "serveAttempts": "72",
+        "digs": "26",
+        "receptionAttempts": "65",
+        "receptionErrors": "7",
+        "blockSolos": "1",
+        "blockAssists": "16",
+        "blockingErrors": "0",
+        "totalBlocks": "9"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46255,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "78",
+        "kills": "41",
+        "attackErrors": "23",
+        "attackAttempts": "95",
+        "hittingPercentage": "0.189",
+        "assists": "33",
+        "setErrors": "0",
+        "setAttempts": "95",
+        "serviceAces": "7",
+        "serviceErrors": "12",
+        "serveAttempts": "77",
+        "digs": "35",
+        "receptionAttempts": "66",
+        "receptionErrors": "8",
+        "blockSolos": "1",
+        "blockAssists": "24",
+        "blockingErrors": "0",
+        "totalBlocks": "13"
+      }
+    }
+  ]
+}

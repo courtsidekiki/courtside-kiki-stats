@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626858,
+  "title": "WVB Boxscore",
+  "description": "Saint Peter's vs Siena",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46618",
+      "seoname": "st-peters",
+      "name6Char": "ST PTR",
+      "nameFull": "Saint Peter's University",
+      "nameShort": "Saint Peter's",
+      "teamName": "Peacocks",
+      "color": "#21375C"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46248",
+      "seoname": "siena",
+      "name6Char": "SIENA",
+      "nameFull": "Siena University",
+      "nameShort": "Siena",
+      "teamName": "Saints",
+      "color": "#006747"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46618,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "100",
+        "kills": "61",
+        "attackErrors": "26",
+        "attackAttempts": "157",
+        "hittingPercentage": "0.223",
+        "assists": "58",
+        "setErrors": "0",
+        "setAttempts": "157",
+        "serviceAces": "14",
+        "serviceErrors": "5",
+        "serveAttempts": "99",
+        "digs": "69",
+        "receptionAttempts": "82",
+        "receptionErrors": "6",
+        "blockSolos": "2",
+        "blockAssists": "10",
+        "blockingErrors": "1",
+        "totalBlocks": "7"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46248,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "84",
+        "kills": "47",
+        "attackErrors": "20",
+        "attackAttempts": "149",
+        "hittingPercentage": "0.181",
+        "assists": "45",
+        "setErrors": "2",
+        "setAttempts": "158",
+        "serviceAces": "6",
+        "serviceErrors": "3",
+        "serveAttempts": "85",
+        "digs": "59",
+        "receptionAttempts": "94",
+        "receptionErrors": "14",
+        "blockSolos": "3",
+        "blockAssists": "12",
+        "blockingErrors": "3",
+        "totalBlocks": "9"
+      }
+    }
+  ]
+}

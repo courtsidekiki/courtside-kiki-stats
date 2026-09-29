@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627762,
+  "title": "WVB Boxscore",
+  "description": "American vs Lafayette",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46071",
+      "seoname": "american",
+      "name6Char": "AMER",
+      "nameFull": "American University",
+      "nameShort": "American",
+      "teamName": "Eagles",
+      "color": "#A6192E"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46193",
+      "seoname": "lafayette",
+      "name6Char": "LAFAYE",
+      "nameFull": "Lafayette College",
+      "nameShort": "Lafayette",
+      "teamName": "Leopards",
+      "color": "#862633"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46071,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "86",
+        "kills": "54",
+        "attackErrors": "13",
+        "attackAttempts": "123",
+        "hittingPercentage": "0.333",
+        "assists": "54",
+        "setErrors": "0",
+        "setAttempts": "127",
+        "serviceAces": "9",
+        "serviceErrors": "10",
+        "serveAttempts": "84",
+        "digs": "63",
+        "receptionAttempts": "65",
+        "receptionErrors": "7",
+        "blockSolos": "0",
+        "blockAssists": "12",
+        "blockingErrors": "2",
+        "totalBlocks": "6"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46193,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "70",
+        "kills": "40",
+        "attackErrors": "14",
+        "attackAttempts": "127",
+        "hittingPercentage": "0.205",
+        "assists": "36",
+        "setErrors": "2",
+        "setAttempts": "132",
+        "serviceAces": "7",
+        "serviceErrors": "7",
+        "serveAttempts": "72",
+        "digs": "52",
+        "receptionAttempts": "74",
+        "receptionErrors": "9",
+        "blockSolos": "0",
+        "blockAssists": "14",
+        "blockingErrors": "1",
+        "totalBlocks": "7"
+      }
+    }
+  ]
+}

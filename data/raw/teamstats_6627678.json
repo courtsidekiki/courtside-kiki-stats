@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627678,
+  "title": "WVB Boxscore",
+  "description": "Presbyterian vs Charleston So.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45966",
+      "seoname": "presbyterian",
+      "name6Char": "PRESBY",
+      "nameFull": "Presbyterian College",
+      "nameShort": "Presbyterian",
+      "teamName": "Blue Hose",
+      "color": "#005394"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46074",
+      "seoname": "charleston-so",
+      "name6Char": "CHARSO",
+      "nameFull": "Charleston Southern University",
+      "nameShort": "Charleston So.",
+      "teamName": "Buccaneers",
+      "color": "#15233C"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45966,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "94",
+        "kills": "53",
+        "attackErrors": "14",
+        "attackAttempts": "135",
+        "hittingPercentage": "0.289",
+        "assists": "45",
+        "setErrors": "4",
+        "setAttempts": "126",
+        "serviceAces": "6",
+        "serviceErrors": "16",
+        "serveAttempts": "93",
+        "digs": "50",
+        "receptionAttempts": "79",
+        "receptionErrors": "6",
+        "blockSolos": "6",
+        "blockAssists": "16",
+        "blockingErrors": "1",
+        "totalBlocks": "14"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46074,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "84",
+        "kills": "42",
+        "attackErrors": "24",
+        "attackAttempts": "131",
+        "hittingPercentage": "0.137",
+        "assists": "40",
+        "setErrors": "3",
+        "setAttempts": "140",
+        "serviceAces": "6",
+        "serviceErrors": "6",
+        "serveAttempts": "85",
+        "digs": "56",
+        "receptionAttempts": "77",
+        "receptionErrors": "6",
+        "blockSolos": "1",
+        "blockAssists": "6",
+        "blockingErrors": "3",
+        "totalBlocks": "4"
+      }
+    }
+  ]
+}

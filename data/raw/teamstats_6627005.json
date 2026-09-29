@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627005,
+  "title": "WVB Boxscore",
+  "description": "UCF vs Kansas St.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46040",
+      "seoname": "ucf",
+      "name6Char": "UCF",
+      "nameFull": "University of Central Florida",
+      "nameShort": "UCF",
+      "teamName": "Knights",
+      "color": "#010101"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46557",
+      "seoname": "kansas-st",
+      "name6Char": "KAN ST",
+      "nameFull": "Kansas State University",
+      "nameShort": "Kansas St.",
+      "teamName": "Wildcats",
+      "color": "#582C83"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46040,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "97",
+        "kills": "55",
+        "attackErrors": "26",
+        "attackAttempts": "141",
+        "hittingPercentage": "0.206",
+        "assists": "50",
+        "setErrors": "3",
+        "setAttempts": "140",
+        "serviceAces": "6",
+        "serviceErrors": "16",
+        "serveAttempts": "97",
+        "digs": "48",
+        "receptionAttempts": "97",
+        "receptionErrors": "6",
+        "blockSolos": "3",
+        "blockAssists": "16",
+        "blockingErrors": "1",
+        "totalBlocks": "11"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46557,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "106",
+        "kills": "55",
+        "attackErrors": "26",
+        "attackAttempts": "135",
+        "hittingPercentage": "0.215",
+        "assists": "47",
+        "setErrors": "1",
+        "setAttempts": "137",
+        "serviceAces": "6",
+        "serviceErrors": "9",
+        "serveAttempts": "106",
+        "digs": "52",
+        "receptionAttempts": "81",
+        "receptionErrors": "6",
+        "blockSolos": "3",
+        "blockAssists": "16",
+        "blockingErrors": "0",
+        "totalBlocks": "11"
+      }
+    }
+  ]
+}

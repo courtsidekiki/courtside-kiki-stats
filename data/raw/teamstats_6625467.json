@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625467,
+  "title": "WVB Boxscore",
+  "description": "Army West Point vs Colgate",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46257",
+      "seoname": "army",
+      "name6Char": "ARMY",
+      "nameFull": "U.S. Military Academy",
+      "nameShort": "Army West Point",
+      "teamName": "Black Knights",
+      "color": "#010101"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46043",
+      "seoname": "colgate",
+      "name6Char": "COLGAT",
+      "nameFull": "Colgate University",
+      "nameShort": "Colgate",
+      "teamName": "Raiders",
+      "color": "#772430"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46257,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "81",
+        "kills": "50",
+        "attackErrors": "17",
+        "attackAttempts": "137",
+        "hittingPercentage": "0.241",
+        "assists": "46",
+        "setErrors": "0",
+        "setAttempts": "126",
+        "serviceAces": "7",
+        "serviceErrors": "4",
+        "serveAttempts": "79",
+        "digs": "64",
+        "receptionAttempts": "62",
+        "receptionErrors": "7",
+        "blockSolos": "2",
+        "blockAssists": "6",
+        "blockingErrors": "0",
+        "totalBlocks": "5"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46043,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "70",
+        "kills": "42",
+        "attackErrors": "14",
+        "attackAttempts": "126",
+        "hittingPercentage": "0.222",
+        "assists": "40",
+        "setErrors": "0",
+        "setAttempts": "128",
+        "serviceAces": "7",
+        "serviceErrors": "10",
+        "serveAttempts": "72",
+        "digs": "60",
+        "receptionAttempts": "75",
+        "receptionErrors": "7",
+        "blockSolos": "1",
+        "blockAssists": "10",
+        "blockingErrors": "1",
+        "totalBlocks": "6"
+      }
+    }
+  ]
+}

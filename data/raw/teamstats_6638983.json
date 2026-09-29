@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6638983,
+  "title": "WVB Boxscore",
+  "description": "Bellarmine vs Lipscomb",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46573",
+      "seoname": "bellarmine",
+      "name6Char": "BELLAR",
+      "nameFull": "Bellarmine University",
+      "nameShort": "Bellarmine",
+      "teamName": "Knights",
+      "color": "#772f40"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46768",
+      "seoname": "lipscomb",
+      "name6Char": "LIPSCO",
+      "nameFull": "Lipscomb University",
+      "nameShort": "Lipscomb",
+      "teamName": "Bisons",
+      "color": "#2E1A47"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46573,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "40",
+        "attackErrors": "12",
+        "attackAttempts": "108",
+        "hittingPercentage": "0.259",
+        "assists": "37",
+        "setErrors": "0",
+        "setAttempts": "97",
+        "serviceAces": "12",
+        "serviceErrors": "4",
+        "serveAttempts": "74",
+        "digs": "47",
+        "receptionAttempts": "55",
+        "receptionErrors": "5",
+        "blockSolos": "1",
+        "blockAssists": "6",
+        "blockingErrors": "0",
+        "totalBlocks": "4"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46768,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "62",
+        "kills": "41",
+        "attackErrors": "15",
+        "attackAttempts": "112",
+        "hittingPercentage": "0.232",
+        "assists": "39",
+        "setErrors": "0",
+        "setAttempts": "108",
+        "serviceAces": "5",
+        "serviceErrors": "8",
+        "serveAttempts": "63",
+        "digs": "53",
+        "receptionAttempts": "70",
+        "receptionErrors": "12",
+        "blockSolos": "0",
+        "blockAssists": "8",
+        "blockingErrors": "1",
+        "totalBlocks": "4"
+      }
+    }
+  ]
+}

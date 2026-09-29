@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625179,
+  "title": "WVB Boxscore",
+  "description": "Samford vs ETSU",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45864",
+      "seoname": "samford",
+      "name6Char": "SAMFRD",
+      "nameFull": "Samford University",
+      "nameShort": "Samford",
+      "teamName": "Bulldogs",
+      "color": "#0C2340"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45768",
+      "seoname": "east-tenn-st",
+      "name6Char": "ETSU",
+      "nameFull": "East Tennessee State University",
+      "nameShort": "ETSU",
+      "teamName": "Buccaneers (Bucs)",
+      "color": "#041E42"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45864,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "99",
+        "kills": "51",
+        "attackErrors": "10",
+        "attackAttempts": "122",
+        "hittingPercentage": "0.336",
+        "assists": "47",
+        "setErrors": "0",
+        "setAttempts": "121",
+        "serviceAces": "11",
+        "serviceErrors": "11",
+        "serveAttempts": "99",
+        "digs": "53",
+        "receptionAttempts": "71",
+        "receptionErrors": "5",
+        "blockSolos": "1",
+        "blockAssists": "30",
+        "blockingErrors": "5",
+        "totalBlocks": "16"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45768,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "77",
+        "kills": "51",
+        "attackErrors": "29",
+        "attackAttempts": "149",
+        "hittingPercentage": "0.148",
+        "assists": "48",
+        "setErrors": "1",
+        "setAttempts": "153",
+        "serviceAces": "5",
+        "serviceErrors": "6",
+        "serveAttempts": "77",
+        "digs": "59",
+        "receptionAttempts": "88",
+        "receptionErrors": "11",
+        "blockSolos": "1",
+        "blockAssists": "6",
+        "blockingErrors": "0",
+        "totalBlocks": "4"
+      }
+    }
+  ]
+}

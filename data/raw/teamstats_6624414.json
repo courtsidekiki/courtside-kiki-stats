@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624414,
+  "title": "WVB Boxscore",
+  "description": "Morehead St. vs Lindenwood",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46341",
+      "seoname": "morehead-st",
+      "name6Char": "MOREST",
+      "nameFull": "Morehead State University",
+      "nameShort": "Morehead St.",
+      "teamName": "Eagles",
+      "color": "#0032A0"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "51330",
+      "seoname": "lindenwood-mo",
+      "name6Char": "LINWOD",
+      "nameFull": "Lindenwood University",
+      "nameShort": "Lindenwood",
+      "teamName": "Lions",
+      "color": "#010101"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46341,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "54",
+        "kills": "33",
+        "attackErrors": "20",
+        "attackAttempts": "109",
+        "hittingPercentage": "0.119",
+        "assists": "33",
+        "setErrors": "0",
+        "setAttempts": "111",
+        "serviceAces": "4",
+        "serviceErrors": "9",
+        "serveAttempts": "55",
+        "digs": "41",
+        "receptionAttempts": "69",
+        "receptionErrors": "4",
+        "blockSolos": "1",
+        "blockAssists": "8",
+        "blockingErrors": "8",
+        "totalBlocks": "5"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 51330,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "42",
+        "attackErrors": "12",
+        "attackAttempts": "102",
+        "hittingPercentage": "0.294",
+        "assists": "38",
+        "setErrors": "0",
+        "setAttempts": "94",
+        "serviceAces": "4",
+        "serviceErrors": "5",
+        "serveAttempts": "74",
+        "digs": "49",
+        "receptionAttempts": "46",
+        "receptionErrors": "4",
+        "blockSolos": "2",
+        "blockAssists": "16",
+        "blockingErrors": "2",
+        "totalBlocks": "10"
+      }
+    }
+  ]
+}

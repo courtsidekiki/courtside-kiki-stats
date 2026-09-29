@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627147,
+  "title": "WVB Boxscore",
+  "description": "Portland St. vs Southern Utah",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45987",
+      "seoname": "portland-st",
+      "name6Char": "PORTST",
+      "nameFull": "Portland State University",
+      "nameShort": "Portland St.",
+      "teamName": "Vikings",
+      "color": "#154734"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46002",
+      "seoname": "southern-utah",
+      "name6Char": "S UTAH",
+      "nameFull": "Southern Utah University",
+      "nameShort": "Southern Utah",
+      "teamName": "Thunderbirds",
+      "color": "#BA0C2F"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45987,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "90",
+        "kills": "50",
+        "attackErrors": "15",
+        "attackAttempts": "119",
+        "hittingPercentage": "0.294",
+        "assists": "47",
+        "setErrors": "0",
+        "setAttempts": "120",
+        "serviceAces": "8",
+        "serviceErrors": "8",
+        "serveAttempts": "89",
+        "digs": "64",
+        "receptionAttempts": "56",
+        "receptionErrors": "8",
+        "blockSolos": "1",
+        "blockAssists": "22",
+        "blockingErrors": "1",
+        "totalBlocks": "12"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46002,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "64",
+        "kills": "33",
+        "attackErrors": "19",
+        "attackAttempts": "122",
+        "hittingPercentage": "0.115",
+        "assists": "30",
+        "setErrors": "4",
+        "setAttempts": "124",
+        "serviceAces": "8",
+        "serviceErrors": "9",
+        "serveAttempts": "65",
+        "digs": "48",
+        "receptionAttempts": "81",
+        "receptionErrors": "8",
+        "blockSolos": "4",
+        "blockAssists": "10",
+        "blockingErrors": "0",
+        "totalBlocks": "9"
+      }
+    }
+  ]
+}

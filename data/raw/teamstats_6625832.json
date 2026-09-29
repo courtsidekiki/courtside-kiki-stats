@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625832,
+  "title": "WVB Boxscore",
+  "description": "BYU vs Baylor",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46575",
+      "seoname": "byu",
+      "name6Char": "BYU",
+      "nameFull": "Brigham Young University",
+      "nameShort": "BYU",
+      "teamName": "Cougars",
+      "color": "#0047BA"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45943",
+      "seoname": "baylor",
+      "name6Char": "BAYLOR",
+      "nameFull": "Baylor University",
+      "nameShort": "Baylor",
+      "teamName": "Bears",
+      "color": "#1B3E30"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46575,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "108",
+        "kills": "67",
+        "attackErrors": "20",
+        "attackAttempts": "150",
+        "hittingPercentage": "0.313",
+        "assists": "62",
+        "setErrors": "1",
+        "setAttempts": "156",
+        "serviceAces": "9",
+        "serviceErrors": "4",
+        "serveAttempts": "107",
+        "digs": "46",
+        "receptionAttempts": "89",
+        "receptionErrors": "2",
+        "blockSolos": "1",
+        "blockAssists": "16",
+        "blockingErrors": "1",
+        "totalBlocks": "9"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45943,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "102",
+        "kills": "75",
+        "attackErrors": "18",
+        "attackAttempts": "145",
+        "hittingPercentage": "0.393",
+        "assists": "70",
+        "setErrors": "0",
+        "setAttempts": "151",
+        "serviceAces": "2",
+        "serviceErrors": "14",
+        "serveAttempts": "103",
+        "digs": "47",
+        "receptionAttempts": "103",
+        "receptionErrors": "9",
+        "blockSolos": "3",
+        "blockAssists": "14",
+        "blockingErrors": "0",
+        "totalBlocks": "10"
+      }
+    }
+  ]
+}

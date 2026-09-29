@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625539,
+  "title": "WVB Boxscore",
+  "description": "Wichita St. vs Memphis",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46705",
+      "seoname": "wichita-st",
+      "name6Char": "WICHST",
+      "nameFull": "Wichita State University",
+      "nameShort": "Wichita St.",
+      "teamName": "Shockers",
+      "color": "#010101"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46688",
+      "seoname": "memphis",
+      "name6Char": "MEM",
+      "nameFull": "University of Memphis",
+      "nameShort": "Memphis",
+      "teamName": "Tigers",
+      "color": "#173B70"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46705,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "96",
+        "kills": "54",
+        "attackErrors": "18",
+        "attackAttempts": "150",
+        "hittingPercentage": "0.240",
+        "assists": "47",
+        "setErrors": "0",
+        "setAttempts": "145",
+        "serviceAces": "5",
+        "serviceErrors": "7",
+        "serveAttempts": "95",
+        "digs": "67",
+        "receptionAttempts": "80",
+        "receptionErrors": "8",
+        "blockSolos": "0",
+        "blockAssists": "16",
+        "blockingErrors": "1",
+        "totalBlocks": "8"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46688,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "88",
+        "kills": "54",
+        "attackErrors": "27",
+        "attackAttempts": "159",
+        "hittingPercentage": "0.170",
+        "assists": "51",
+        "setErrors": "1",
+        "setAttempts": "145",
+        "serviceAces": "8",
+        "serviceErrors": "9",
+        "serveAttempts": "89",
+        "digs": "69",
+        "receptionAttempts": "88",
+        "receptionErrors": "5",
+        "blockSolos": "0",
+        "blockAssists": "16",
+        "blockingErrors": "0",
+        "totalBlocks": "8"
+      }
+    }
+  ]
+}

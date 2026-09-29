@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627327,
+  "title": "WVB Boxscore",
+  "description": "A&M-Corpus Christi vs McNeese",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46137",
+      "seoname": "am-corpus-chris",
+      "name6Char": "TAMUCC",
+      "nameFull": "Texas A&M University-Corpus Christi",
+      "nameShort": "A&M-Corpus Christi",
+      "teamName": "Islanders",
+      "color": "#007AC1"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46201",
+      "seoname": "mcneese",
+      "name6Char": "MCNEES",
+      "nameFull": "McNeese State University",
+      "nameShort": "McNeese",
+      "teamName": "Cowgirls",
+      "color": "#003087"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46137,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "96",
+        "kills": "58",
+        "attackErrors": "15",
+        "attackAttempts": "139",
+        "hittingPercentage": "0.309",
+        "assists": "53",
+        "setErrors": "3",
+        "setAttempts": "143",
+        "serviceAces": "9",
+        "serviceErrors": "14",
+        "serveAttempts": "95",
+        "digs": "58",
+        "receptionAttempts": "80",
+        "receptionErrors": "6",
+        "blockSolos": "4",
+        "blockAssists": "2",
+        "blockingErrors": "0",
+        "totalBlocks": "5"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46201,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "87",
+        "kills": "49",
+        "attackErrors": "18",
+        "attackAttempts": "138",
+        "hittingPercentage": "0.225",
+        "assists": "43",
+        "setErrors": "3",
+        "setAttempts": "141",
+        "serviceAces": "6",
+        "serviceErrors": "8",
+        "serveAttempts": "88",
+        "digs": "55",
+        "receptionAttempts": "81",
+        "receptionErrors": "9",
+        "blockSolos": "1",
+        "blockAssists": "8",
+        "blockingErrors": "0",
+        "totalBlocks": "5"
+      }
+    }
+  ]
+}

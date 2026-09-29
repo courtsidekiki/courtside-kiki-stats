@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625617,
+  "title": "WVB Boxscore",
+  "description": "Mississippi St. vs LSU",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45937",
+      "seoname": "mississippi-st",
+      "name6Char": "MISSST",
+      "nameFull": "Mississippi State University",
+      "nameShort": "Mississippi St.",
+      "teamName": "Bulldogs",
+      "color": "#5D1725"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46059",
+      "seoname": "lsu",
+      "name6Char": "LSU",
+      "nameFull": "Louisiana State University",
+      "nameShort": "LSU",
+      "teamName": "Tigers",
+      "color": "#582C83"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45937,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "107",
+        "kills": "69",
+        "attackErrors": "25",
+        "attackAttempts": "180",
+        "hittingPercentage": "0.244",
+        "assists": "67",
+        "setErrors": "1",
+        "setAttempts": "191",
+        "serviceAces": "5",
+        "serviceErrors": "1",
+        "serveAttempts": "106",
+        "digs": "83",
+        "receptionAttempts": "92",
+        "receptionErrors": "2",
+        "blockSolos": "3",
+        "blockAssists": "8",
+        "blockingErrors": "7",
+        "totalBlocks": "7"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46059,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "101",
+        "kills": "72",
+        "attackErrors": "23",
+        "attackAttempts": "187",
+        "hittingPercentage": "0.262",
+        "assists": "70",
+        "setErrors": "0",
+        "setAttempts": "186",
+        "serviceAces": "2",
+        "serviceErrors": "10",
+        "serveAttempts": "102",
+        "digs": "70",
+        "receptionAttempts": "105",
+        "receptionErrors": "5",
+        "blockSolos": "1",
+        "blockAssists": "14",
+        "blockingErrors": "5",
+        "totalBlocks": "8"
+      }
+    }
+  ]
+}

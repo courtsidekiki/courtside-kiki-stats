@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6638263,
+  "title": "WVB Boxscore",
+  "description": "Kent St. vs Akron",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46558",
+      "seoname": "kent-st",
+      "name6Char": "KENT",
+      "nameFull": "Kent State University",
+      "nameShort": "Kent St.",
+      "teamName": "Golden Flashes",
+      "color": "#003976"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46692",
+      "seoname": "akron",
+      "name6Char": "AKRON",
+      "nameFull": "University of Akron",
+      "nameShort": "Akron",
+      "teamName": "Zips",
+      "color": "#0F192B"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46558,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "47",
+        "kills": "26",
+        "attackErrors": "16",
+        "attackAttempts": "95",
+        "hittingPercentage": "0.105",
+        "assists": "24",
+        "setErrors": "1",
+        "setAttempts": "92",
+        "serviceAces": "4",
+        "serviceErrors": "4",
+        "serveAttempts": "49",
+        "digs": "31",
+        "receptionAttempts": "70",
+        "receptionErrors": "11",
+        "blockSolos": "0",
+        "blockAssists": "4",
+        "blockingErrors": "0",
+        "totalBlocks": "2"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46692,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "43",
+        "attackErrors": "14",
+        "attackAttempts": "96",
+        "hittingPercentage": "0.302",
+        "assists": "41",
+        "setErrors": "0",
+        "setAttempts": "91",
+        "serviceAces": "11",
+        "serviceErrors": "3",
+        "serveAttempts": "73",
+        "digs": "46",
+        "receptionAttempts": "45",
+        "receptionErrors": "4",
+        "blockSolos": "1",
+        "blockAssists": "10",
+        "blockingErrors": "3",
+        "totalBlocks": "6"
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625074,
+  "title": "WVB Boxscore",
+  "description": "San Diego vs Pacific",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46493",
+      "seoname": "san-diego",
+      "name6Char": "USD",
+      "nameFull": "University of San Diego",
+      "nameShort": "San Diego",
+      "teamName": "Toreros",
+      "color": "#00205B"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46482",
+      "seoname": "pacific",
+      "name6Char": "PACIF",
+      "nameFull": "University of the Pacific",
+      "nameShort": "Pacific",
+      "teamName": "Tigers",
+      "color": "#E35205"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46493,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "44",
+        "attackErrors": "13",
+        "attackAttempts": "86",
+        "hittingPercentage": "0.360",
+        "assists": "40",
+        "setErrors": "0",
+        "setAttempts": "82",
+        "serviceAces": "7",
+        "serviceErrors": "12",
+        "serveAttempts": "73",
+        "digs": "36",
+        "receptionAttempts": "47",
+        "receptionErrors": "1",
+        "blockSolos": "2",
+        "blockAssists": "12",
+        "blockingErrors": "1",
+        "totalBlocks": "8"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46482,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "52",
+        "kills": "26",
+        "attackErrors": "15",
+        "attackAttempts": "87",
+        "hittingPercentage": "0.126",
+        "assists": "24",
+        "setErrors": "2",
+        "setAttempts": "84",
+        "serviceAces": "1",
+        "serviceErrors": "7",
+        "serveAttempts": "54",
+        "digs": "26",
+        "receptionAttempts": "61",
+        "receptionErrors": "7",
+        "blockSolos": "1",
+        "blockAssists": "6",
+        "blockingErrors": "1",
+        "totalBlocks": "4"
+      }
+    }
+  ]
+}

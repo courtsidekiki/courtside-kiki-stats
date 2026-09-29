@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626164,
+  "title": "WVB Boxscore",
+  "description": "Rice vs East Carolina",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45859",
+      "seoname": "rice",
+      "name6Char": "RICE",
+      "nameFull": "Rice University",
+      "nameShort": "Rice",
+      "teamName": "Owls",
+      "color": "#00205B"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46668",
+      "seoname": "east-carolina",
+      "name6Char": "E CAR",
+      "nameFull": "East Carolina University",
+      "nameShort": "East Carolina",
+      "teamName": "Pirates",
+      "color": "#582C83"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45859,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "85",
+        "kills": "49",
+        "attackErrors": "22",
+        "attackAttempts": "172",
+        "hittingPercentage": "0.157",
+        "assists": "46",
+        "setErrors": "1",
+        "setAttempts": "169",
+        "serviceAces": "4",
+        "serviceErrors": "6",
+        "serveAttempts": "86",
+        "digs": "65",
+        "receptionAttempts": "83",
+        "receptionErrors": "4",
+        "blockSolos": "1",
+        "blockAssists": "12",
+        "blockingErrors": "8",
+        "totalBlocks": "7"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46668,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "93",
+        "kills": "60",
+        "attackErrors": "21",
+        "attackAttempts": "161",
+        "hittingPercentage": "0.242",
+        "assists": "50",
+        "setErrors": "1",
+        "setAttempts": "160",
+        "serviceAces": "4",
+        "serviceErrors": "9",
+        "serveAttempts": "92",
+        "digs": "84",
+        "receptionAttempts": "80",
+        "receptionErrors": "4",
+        "blockSolos": "2",
+        "blockAssists": "14",
+        "blockingErrors": "4",
+        "totalBlocks": "9"
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624388,
+  "title": "WVB Boxscore",
+  "description": "Illinois vs Minnesota",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46312",
+      "seoname": "illinois",
+      "name6Char": "ILL",
+      "nameFull": "University of Illinois Urbana-Champaign",
+      "nameShort": "Illinois",
+      "teamName": "Fighting Illini",
+      "color": "#F15A22"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46204",
+      "seoname": "minnesota",
+      "name6Char": "MINN",
+      "nameFull": "University of Minnesota, Twin Cities",
+      "nameShort": "Minnesota",
+      "teamName": "Golden Gophers",
+      "color": "#861F41"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46312,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "89",
+        "kills": "48",
+        "attackErrors": "15",
+        "attackAttempts": "139",
+        "hittingPercentage": "0.237",
+        "assists": "41",
+        "setErrors": "1",
+        "setAttempts": "128",
+        "serviceAces": "4",
+        "serviceErrors": "9",
+        "serveAttempts": "88",
+        "digs": "54",
+        "receptionAttempts": "77",
+        "receptionErrors": "5",
+        "blockSolos": "1",
+        "blockAssists": "12",
+        "blockingErrors": "0",
+        "totalBlocks": "7"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46204,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "87",
+        "kills": "57",
+        "attackErrors": "25",
+        "attackAttempts": "149",
+        "hittingPercentage": "0.215",
+        "assists": "54",
+        "setErrors": "1",
+        "setAttempts": "138",
+        "serviceAces": "5",
+        "serviceErrors": "11",
+        "serveAttempts": "88",
+        "digs": "68",
+        "receptionAttempts": "79",
+        "receptionErrors": "4",
+        "blockSolos": "2",
+        "blockAssists": "10",
+        "blockingErrors": "2",
+        "totalBlocks": "7"
+      }
+    }
+  ]
+}

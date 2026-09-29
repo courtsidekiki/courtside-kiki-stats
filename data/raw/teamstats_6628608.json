@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628608,
+  "title": "WVB Boxscore",
+  "description": "Santa Clara vs Pepperdine",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46362",
+      "seoname": "santa-clara",
+      "name6Char": "STCLAR",
+      "nameFull": "Santa Clara University",
+      "nameShort": "Santa Clara",
+      "teamName": "Broncos",
+      "color": "#862633"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46240",
+      "seoname": "pepperdine",
+      "name6Char": "PEPPER",
+      "nameFull": "Pepperdine University",
+      "nameShort": "Pepperdine",
+      "teamName": "Waves",
+      "color": "#00205B"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46362,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "98",
+        "kills": "65",
+        "attackErrors": "30",
+        "attackAttempts": "161",
+        "hittingPercentage": "0.217",
+        "assists": "61",
+        "setErrors": "2",
+        "setAttempts": "161",
+        "serviceAces": "1",
+        "serviceErrors": "13",
+        "serveAttempts": "99",
+        "digs": "62",
+        "receptionAttempts": "93",
+        "receptionErrors": "2",
+        "blockSolos": "0",
+        "blockAssists": "18",
+        "blockingErrors": "1",
+        "totalBlocks": "9"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46240,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "101",
+        "kills": "54",
+        "attackErrors": "24",
+        "attackAttempts": "153",
+        "hittingPercentage": "0.196",
+        "assists": "51",
+        "setErrors": "1",
+        "setAttempts": "146",
+        "serviceAces": "2",
+        "serviceErrors": "7",
+        "serveAttempts": "100",
+        "digs": "52",
+        "receptionAttempts": "86",
+        "receptionErrors": "1",
+        "blockSolos": "0",
+        "blockAssists": "24",
+        "blockingErrors": "0",
+        "totalBlocks": "12"
+      }
+    }
+  ]
+}

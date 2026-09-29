@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625638,
+  "title": "WVB Boxscore",
+  "description": "Texas A&M vs South Carolina",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46006",
+      "seoname": "texas-am",
+      "name6Char": "TX A&M",
+      "nameFull": "Texas A&M University, College Station",
+      "nameShort": "Texas A&M",
+      "teamName": "Aggies",
+      "color": "#5D0025"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46363",
+      "seoname": "south-carolina",
+      "name6Char": "S CAR",
+      "nameFull": "University of South Carolina, Columbia",
+      "nameShort": "South Carolina",
+      "teamName": "Gamecocks",
+      "color": "#862633"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46006,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "48",
+        "attackErrors": "13",
+        "attackAttempts": "91",
+        "hittingPercentage": "0.385",
+        "assists": "42",
+        "setErrors": "0",
+        "setAttempts": "84",
+        "serviceAces": "2",
+        "serviceErrors": "11",
+        "serveAttempts": "73",
+        "digs": "32",
+        "receptionAttempts": "39",
+        "receptionErrors": "1",
+        "blockSolos": "0",
+        "blockAssists": "16",
+        "blockingErrors": "0",
+        "totalBlocks": "8"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46363,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "46",
+        "kills": "21",
+        "attackErrors": "16",
+        "attackAttempts": "81",
+        "hittingPercentage": "0.062",
+        "assists": "20",
+        "setErrors": "0",
+        "setAttempts": "89",
+        "serviceAces": "1",
+        "serviceErrors": "9",
+        "serveAttempts": "48",
+        "digs": "25",
+        "receptionAttempts": "62",
+        "receptionErrors": "2",
+        "blockSolos": "1",
+        "blockAssists": "12",
+        "blockingErrors": "0",
+        "totalBlocks": "7"
+      }
+    }
+  ]
+}

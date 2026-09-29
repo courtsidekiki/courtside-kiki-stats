@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6637016,
+  "title": "WVB Boxscore",
+  "description": "Wright St. vs NIU",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45818",
+      "seoname": "wright-st",
+      "name6Char": "WRIGHT",
+      "nameFull": "Wright State University",
+      "nameShort": "Wright St.",
+      "teamName": "Raiders",
+      "color": "#046A38"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45981",
+      "seoname": "northern-ill",
+      "name6Char": "NIU",
+      "nameFull": "Northern Illinois University",
+      "nameShort": "NIU",
+      "teamName": "Huskies",
+      "color": "#BA0C2F"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45818,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "55",
+        "attackErrors": "10",
+        "attackAttempts": "112",
+        "hittingPercentage": "0.402",
+        "assists": "53",
+        "setErrors": "0",
+        "setAttempts": "113",
+        "serviceAces": "1",
+        "serviceErrors": "8",
+        "serveAttempts": "73",
+        "digs": "57",
+        "receptionAttempts": "54",
+        "receptionErrors": "3",
+        "blockSolos": "0",
+        "blockAssists": "8",
+        "blockingErrors": "0",
+        "totalBlocks": "4"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45981,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "55",
+        "kills": "34",
+        "attackErrors": "14",
+        "attackAttempts": "112",
+        "hittingPercentage": "0.179",
+        "assists": "32",
+        "setErrors": "2",
+        "setAttempts": "113",
+        "serviceAces": "3",
+        "serviceErrors": "3",
+        "serveAttempts": "57",
+        "digs": "41",
+        "receptionAttempts": "65",
+        "receptionErrors": "1",
+        "blockSolos": "0",
+        "blockAssists": "4",
+        "blockingErrors": "1",
+        "totalBlocks": "2"
+      }
+    }
+  ]
+}

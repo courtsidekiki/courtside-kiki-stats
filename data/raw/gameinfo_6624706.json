@@ -1,0 +1,98 @@
+{
+  "contests": [
+    {
+      "__typename": "Contest",
+      "id": "6624706",
+      "sportCode": "WVB",
+      "sportUrl": "volleyball-women",
+      "division": 1,
+      "clock": null,
+      "currentPeriod": "FINAL",
+      "finalMessage": "FINAL",
+      "gameState": "F",
+      "statusCodeDisplay": "final",
+      "network": null,
+      "startTime": "18:00",
+      "startTimeEpoch": 1790287200,
+      "week": null,
+      "seasonYear": 2026,
+      "winner": 46045,
+      "hasStartTime": true,
+      "hasBoxscore": true,
+      "hasPbp": true,
+      "hasScoringSummary": false,
+      "hasPreview": false,
+      "hasRecap": false,
+      "hasTeamStats": true,
+      "linescores": [
+        {
+          "__typename": "Linescore",
+          "period": "1",
+          "home": "16",
+          "visit": "25"
+        },
+        {
+          "__typename": "Linescore",
+          "period": "2",
+          "home": "17",
+          "visit": "25"
+        },
+        {
+          "__typename": "Linescore",
+          "period": "3",
+          "home": "20",
+          "visit": "25"
+        }
+      ],
+      "teams": [
+        {
+          "__typename": "ContestTeam",
+          "teamId": "45779",
+          "isHome": true,
+          "color": "#00263E",
+          "seoname": "howard",
+          "nameFull": "Howard University",
+          "nameShort": "Howard",
+          "name6Char": "HOWARD",
+          "teamRank": null,
+          "gameRank": null,
+          "score": 0,
+          "seed": null,
+          "record": "(1-10)",
+          "divisionName": "d1",
+          "division": 1,
+          "isWinner": false
+        },
+        {
+          "__typename": "ContestTeam",
+          "teamId": "46045",
+          "isHome": false,
+          "color": "#0c3354",
+          "seoname": "coppin-st",
+          "nameFull": "Coppin State University",
+          "nameShort": "Coppin St.",
+          "name6Char": "COPPIN",
+          "teamRank": null,
+          "gameRank": null,
+          "score": 3,
+          "seed": null,
+          "record": "(8-5)",
+          "divisionName": "d1",
+          "division": 1,
+          "isWinner": true
+        }
+      ],
+      "liveVideos": [],
+      "championship": null,
+      "championshipGame": null,
+      "links": [],
+      "location": {
+        "__typename": "Location",
+        "venue": "Burr Gymnasium",
+        "city": "Washington",
+        "stateUsps": "DC"
+      },
+      "stats": null
+    }
+  ]
+}

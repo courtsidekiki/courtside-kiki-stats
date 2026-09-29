@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625366,
+  "title": "WVB Boxscore",
+  "description": "Chattanooga vs Wofford",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46505",
+      "seoname": "chattanooga",
+      "name6Char": "CHAT",
+      "nameFull": "University of Tennessee at Chattanooga",
+      "nameShort": "Chattanooga",
+      "teamName": "Mocs",
+      "color": "#00416D"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46650",
+      "seoname": "wofford",
+      "name6Char": "WOFFRD",
+      "nameFull": "Wofford College",
+      "nameShort": "Wofford",
+      "teamName": "Terriers",
+      "color": "#8A6E4B"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46505,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "80",
+        "kills": "46",
+        "attackErrors": "16",
+        "attackAttempts": "157",
+        "hittingPercentage": "0.191",
+        "assists": "42",
+        "setErrors": "4",
+        "setAttempts": "155",
+        "serviceAces": "7",
+        "serviceErrors": "8",
+        "serveAttempts": "81",
+        "digs": "75",
+        "receptionAttempts": "88",
+        "receptionErrors": "8",
+        "blockSolos": "2",
+        "blockAssists": "8",
+        "blockingErrors": "1",
+        "totalBlocks": "6"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46650,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "96",
+        "kills": "60",
+        "attackErrors": "20",
+        "attackAttempts": "167",
+        "hittingPercentage": "0.240",
+        "assists": "54",
+        "setErrors": "0",
+        "setAttempts": "159",
+        "serviceAces": "8",
+        "serviceErrors": "7",
+        "serveAttempts": "95",
+        "digs": "90",
+        "receptionAttempts": "73",
+        "receptionErrors": "7",
+        "blockSolos": "4",
+        "blockAssists": "4",
+        "blockingErrors": "1",
+        "totalBlocks": "6"
+      }
+    }
+  ]
+}

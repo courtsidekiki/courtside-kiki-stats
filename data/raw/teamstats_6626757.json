@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626757,
+  "title": "WVB Boxscore",
+  "description": "UIW vs Northwestern St.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46648",
+      "seoname": "uiw",
+      "name6Char": "INCWRD",
+      "nameFull": "University of the Incarnate Word",
+      "nameShort": "UIW",
+      "teamName": "Cardinals",
+      "color": "#CB333B"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46107",
+      "seoname": "northwestern-st",
+      "name6Char": "NW ST",
+      "nameFull": "Northwestern State University",
+      "nameShort": "Northwestern St.",
+      "teamName": "Lady Demons",
+      "color": "#54209e"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46648,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "98",
+        "kills": "64",
+        "attackErrors": "22",
+        "attackAttempts": "166",
+        "hittingPercentage": "0.253",
+        "assists": "62",
+        "setErrors": "1",
+        "setAttempts": "165",
+        "serviceAces": "4",
+        "serviceErrors": "7",
+        "serveAttempts": "97",
+        "digs": "73",
+        "receptionAttempts": "72",
+        "receptionErrors": "3",
+        "blockSolos": "8",
+        "blockAssists": "4",
+        "blockingErrors": "2",
+        "totalBlocks": "10"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46107,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "77",
+        "kills": "44",
+        "attackErrors": "21",
+        "attackAttempts": "148",
+        "hittingPercentage": "0.155",
+        "assists": "42",
+        "setErrors": "3",
+        "setAttempts": "156",
+        "serviceAces": "3",
+        "serviceErrors": "6",
+        "serveAttempts": "78",
+        "digs": "67",
+        "receptionAttempts": "90",
+        "receptionErrors": "4",
+        "blockSolos": "4",
+        "blockAssists": "6",
+        "blockingErrors": "0",
+        "totalBlocks": "7"
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6638113,
+  "title": "WVB Boxscore",
+  "description": "Kansas City vs Oral Roberts",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46391",
+      "seoname": "umkc",
+      "name6Char": "KC",
+      "nameFull": "University of Missouri-Kansas City",
+      "nameShort": "Kansas City",
+      "teamName": "Roos",
+      "color": "#004B87"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46480",
+      "seoname": "oral-roberts",
+      "name6Char": "ORU",
+      "nameFull": "Oral Roberts University",
+      "nameShort": "Oral Roberts",
+      "teamName": "Golden Eagles",
+      "color": "#011E41"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46391,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "47",
+        "attackErrors": "11",
+        "attackAttempts": "117",
+        "hittingPercentage": "0.308",
+        "assists": "43",
+        "setErrors": "2",
+        "setAttempts": "114",
+        "serviceAces": "6",
+        "serviceErrors": "4",
+        "serveAttempts": "73",
+        "digs": "55",
+        "receptionAttempts": "55",
+        "receptionErrors": "6",
+        "blockSolos": "1",
+        "blockAssists": "10",
+        "blockingErrors": "0",
+        "totalBlocks": "6"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46480,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "59",
+        "kills": "36",
+        "attackErrors": "16",
+        "attackAttempts": "117",
+        "hittingPercentage": "0.171",
+        "assists": "36",
+        "setErrors": "0",
+        "setAttempts": "113",
+        "serviceAces": "6",
+        "serviceErrors": "6",
+        "serveAttempts": "61",
+        "digs": "52",
+        "receptionAttempts": "69",
+        "receptionErrors": "6",
+        "blockSolos": "1",
+        "blockAssists": "8",
+        "blockingErrors": "1",
+        "totalBlocks": "5"
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624707,
+  "title": "WVB Boxscore",
+  "description": "Morgan St. vs Howard",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45841",
+      "seoname": "morgan-st",
+      "name6Char": "MORGAN",
+      "nameFull": "Morgan State University",
+      "nameShort": "Morgan St.",
+      "teamName": "Lady Bears",
+      "color": "#FC4C02"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45779",
+      "seoname": "howard",
+      "name6Char": "HOWARD",
+      "nameFull": "Howard University",
+      "nameShort": "Howard",
+      "teamName": "Bison",
+      "color": "#00263E"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45841,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "85",
+        "kills": "42",
+        "attackErrors": "25",
+        "attackAttempts": "138",
+        "hittingPercentage": "0.123",
+        "assists": "36",
+        "setErrors": "2",
+        "setAttempts": "142",
+        "serviceAces": "4",
+        "serviceErrors": "9",
+        "serveAttempts": "86",
+        "digs": "61",
+        "receptionAttempts": "81",
+        "receptionErrors": "6",
+        "blockSolos": "6",
+        "blockAssists": "6",
+        "blockingErrors": "0",
+        "totalBlocks": "9"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45779,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "97",
+        "kills": "55",
+        "attackErrors": "23",
+        "attackAttempts": "158",
+        "hittingPercentage": "0.203",
+        "assists": "49",
+        "setErrors": "1",
+        "setAttempts": "159",
+        "serviceAces": "6",
+        "serviceErrors": "15",
+        "serveAttempts": "96",
+        "digs": "59",
+        "receptionAttempts": "77",
+        "receptionErrors": "4",
+        "blockSolos": "1",
+        "blockAssists": "4",
+        "blockingErrors": "0",
+        "totalBlocks": "3"
+      }
+    }
+  ]
+}

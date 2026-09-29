@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626869,
+  "title": "WVB Boxscore",
+  "description": "Syracuse vs Louisville",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46126",
+      "seoname": "syracuse",
+      "name6Char": "SYR",
+      "nameFull": "Syracuse University",
+      "nameShort": "Syracuse",
+      "teamName": "Orange",
+      "color": "#DC4405"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46061",
+      "seoname": "louisville",
+      "name6Char": "LOUIS",
+      "nameFull": "University of Louisville",
+      "nameShort": "Louisville",
+      "teamName": "Cardinals",
+      "color": "#EE2722"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46126,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "40",
+        "kills": "23",
+        "attackErrors": "22",
+        "attackAttempts": "100",
+        "hittingPercentage": "0.010",
+        "assists": "21",
+        "setErrors": "0",
+        "setAttempts": "105",
+        "serviceAces": "2",
+        "serviceErrors": "3",
+        "serveAttempts": "41",
+        "digs": "28",
+        "receptionAttempts": "68",
+        "receptionErrors": "10",
+        "blockSolos": "2",
+        "blockAssists": "0",
+        "blockingErrors": "0",
+        "totalBlocks": "2"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46061,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "40",
+        "attackErrors": "8",
+        "attackAttempts": "87",
+        "hittingPercentage": "0.368",
+        "assists": "37",
+        "setErrors": "1",
+        "setAttempts": "84",
+        "serviceAces": "10",
+        "serviceErrors": "6",
+        "serveAttempts": "74",
+        "digs": "38",
+        "receptionAttempts": "38",
+        "receptionErrors": "2",
+        "blockSolos": "2",
+        "blockAssists": "19",
+        "blockingErrors": "0",
+        "totalBlocks": "11"
+      }
+    }
+  ]
+}

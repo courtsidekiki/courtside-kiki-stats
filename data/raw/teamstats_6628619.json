@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628619,
+  "title": "WVB Boxscore",
+  "description": "Old Dominion vs App State",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "1387136",
+      "seoname": "old-dominion",
+      "name6Char": "ODU",
+      "nameFull": "Old Dominion University",
+      "nameShort": "Old Dominion",
+      "teamName": "Monarchs",
+      "color": "#0B4071"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46571",
+      "seoname": "appalachian-st",
+      "name6Char": "APP ST",
+      "nameFull": "Appalachian State University",
+      "nameShort": "App State",
+      "teamName": "Mountaineers",
+      "color": "#010101"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 1387136,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "36",
+        "kills": "18",
+        "attackErrors": "23",
+        "attackAttempts": "93",
+        "hittingPercentage": "-0.054",
+        "assists": "17",
+        "setErrors": "0",
+        "setAttempts": "95",
+        "serviceAces": "1",
+        "serviceErrors": "1",
+        "serveAttempts": "38",
+        "digs": "32",
+        "receptionAttempts": "66",
+        "receptionErrors": "10",
+        "blockSolos": "1",
+        "blockAssists": "8",
+        "blockingErrors": "3",
+        "totalBlocks": "5"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46571,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "41",
+        "attackErrors": "10",
+        "attackAttempts": "87",
+        "hittingPercentage": "0.356",
+        "assists": "38",
+        "setErrors": "0",
+        "setAttempts": "81",
+        "serviceAces": "10",
+        "serviceErrors": "7",
+        "serveAttempts": "73",
+        "digs": "43",
+        "receptionAttempts": "37",
+        "receptionErrors": "1",
+        "blockSolos": "0",
+        "blockAssists": "22",
+        "blockingErrors": "1",
+        "totalBlocks": "11"
+      }
+    }
+  ]
+}

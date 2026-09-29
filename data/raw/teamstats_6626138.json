@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626138,
+  "title": "WVB Boxscore",
+  "description": "NC State vs Duke",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45846",
+      "seoname": "north-carolina-st",
+      "name6Char": "NC ST",
+      "nameFull": "North Carolina State University",
+      "nameShort": "NC State",
+      "teamName": "Wolfpack",
+      "color": "#C8102E"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46409",
+      "seoname": "duke",
+      "name6Char": "DUKE",
+      "nameFull": "Duke University",
+      "nameShort": "Duke",
+      "teamName": "Blue Devils",
+      "color": "#002D72"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45846,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "95",
+        "kills": "53",
+        "attackErrors": "17",
+        "attackAttempts": "130",
+        "hittingPercentage": "0.277",
+        "assists": "48",
+        "setErrors": "0",
+        "setAttempts": "128",
+        "serviceAces": "7",
+        "serviceErrors": "15",
+        "serveAttempts": "94",
+        "digs": "49",
+        "receptionAttempts": "76",
+        "receptionErrors": "5",
+        "blockSolos": "2",
+        "blockAssists": "16",
+        "blockingErrors": "0",
+        "totalBlocks": "10"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46409,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "86",
+        "kills": "49",
+        "attackErrors": "23",
+        "attackAttempts": "131",
+        "hittingPercentage": "0.198",
+        "assists": "45",
+        "setErrors": "1",
+        "setAttempts": "133",
+        "serviceAces": "5",
+        "serviceErrors": "11",
+        "serveAttempts": "87",
+        "digs": "51",
+        "receptionAttempts": "79",
+        "receptionErrors": "7",
+        "blockSolos": "0",
+        "blockAssists": "6",
+        "blockingErrors": "0",
+        "totalBlocks": "3"
+      }
+    }
+  ]
+}

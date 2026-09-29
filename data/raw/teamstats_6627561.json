@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627561,
+  "title": "WVB Boxscore",
+  "description": "IU Indy vs Robert Morris",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46148",
+      "seoname": "iu-indy",
+      "name6Char": "IUINDY",
+      "nameFull": "Indiana University Indianapolis",
+      "nameShort": "IU Indy",
+      "teamName": "Jaguars",
+      "color": "#A90533"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46735",
+      "seoname": "robert-morris",
+      "name6Char": "ROBMOR",
+      "nameFull": "Robert Morris University",
+      "nameShort": "Robert Morris",
+      "teamName": "Colonials",
+      "color": "#041E42"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46148,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "42",
+        "attackErrors": "10",
+        "attackAttempts": "86",
+        "hittingPercentage": "0.372",
+        "assists": "39",
+        "setErrors": "0",
+        "setAttempts": "79",
+        "serviceAces": "7",
+        "serviceErrors": "15",
+        "serveAttempts": "74",
+        "digs": "37",
+        "receptionAttempts": "45",
+        "receptionErrors": "4",
+        "blockSolos": "1",
+        "blockAssists": "2",
+        "blockingErrors": "2",
+        "totalBlocks": "2"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46735,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "55",
+        "kills": "26",
+        "attackErrors": "15",
+        "attackAttempts": "80",
+        "hittingPercentage": "0.138",
+        "assists": "25",
+        "setErrors": "0",
+        "setAttempts": "77",
+        "serviceAces": "4",
+        "serviceErrors": "11",
+        "serveAttempts": "56",
+        "digs": "27",
+        "receptionAttempts": "59",
+        "receptionErrors": "7",
+        "blockSolos": "1",
+        "blockAssists": "2",
+        "blockingErrors": "1",
+        "totalBlocks": "2"
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627761,
+  "title": "WVB Boxscore",
+  "description": "American vs Lehigh",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46071",
+      "seoname": "american",
+      "name6Char": "AMER",
+      "nameFull": "American University",
+      "nameShort": "American",
+      "teamName": "Eagles",
+      "color": "#A6192E"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46316",
+      "seoname": "lehigh",
+      "name6Char": "LEHIGH",
+      "nameFull": "Lehigh University",
+      "nameShort": "Lehigh",
+      "teamName": "Mountain Hawks",
+      "color": "#653819"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46071,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "104",
+        "kills": "68",
+        "attackErrors": "29",
+        "attackAttempts": "181",
+        "hittingPercentage": "0.215",
+        "assists": "66",
+        "setErrors": "3",
+        "setAttempts": "183",
+        "serviceAces": "6",
+        "serviceErrors": "9",
+        "serveAttempts": "104",
+        "digs": "76",
+        "receptionAttempts": "98",
+        "receptionErrors": "4",
+        "blockSolos": "3",
+        "blockAssists": "6",
+        "blockingErrors": "1",
+        "totalBlocks": "6"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46316,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "105",
+        "kills": "60",
+        "attackErrors": "22",
+        "attackAttempts": "172",
+        "hittingPercentage": "0.221",
+        "assists": "55",
+        "setErrors": "1",
+        "setAttempts": "175",
+        "serviceAces": "4",
+        "serviceErrors": "7",
+        "serveAttempts": "105",
+        "digs": "76",
+        "receptionAttempts": "95",
+        "receptionErrors": "6",
+        "blockSolos": "3",
+        "blockAssists": "19",
+        "blockingErrors": "2",
+        "totalBlocks": "12"
+      }
+    }
+  ]
+}

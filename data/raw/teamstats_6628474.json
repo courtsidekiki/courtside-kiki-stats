@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628474,
+  "title": "WVB Boxscore",
+  "description": "FDU vs Temple",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45907",
+      "seoname": "fdu",
+      "name6Char": "FDU",
+      "nameFull": "Fairleigh Dickinson University, Metropolitan Campus",
+      "nameShort": "FDU",
+      "teamName": "Knights",
+      "color": "#72293c"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45871",
+      "seoname": "temple",
+      "name6Char": "TEMPLE",
+      "nameFull": "Temple University",
+      "nameShort": "Temple",
+      "teamName": "Owls",
+      "color": "#b30838"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45907,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "91",
+        "kills": "48",
+        "attackErrors": "24",
+        "attackAttempts": "176",
+        "hittingPercentage": "0.136",
+        "assists": "44",
+        "setErrors": "2",
+        "setAttempts": "177",
+        "serviceAces": "6",
+        "serviceErrors": "4",
+        "serveAttempts": "92",
+        "digs": "69",
+        "receptionAttempts": "99",
+        "receptionErrors": "5",
+        "blockSolos": "1",
+        "blockAssists": "26",
+        "blockingErrors": "3",
+        "totalBlocks": "14"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45871,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "105",
+        "kills": "70",
+        "attackErrors": "30",
+        "attackAttempts": "187",
+        "hittingPercentage": "0.214",
+        "assists": "64",
+        "setErrors": "1",
+        "setAttempts": "189",
+        "serviceAces": "5",
+        "serviceErrors": "5",
+        "serveAttempts": "104",
+        "digs": "92",
+        "receptionAttempts": "88",
+        "receptionErrors": "6",
+        "blockSolos": "5",
+        "blockAssists": "12",
+        "blockingErrors": "4",
+        "totalBlocks": "11"
+      }
+    }
+  ]
+}

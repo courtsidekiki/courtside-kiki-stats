@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625313,
+  "title": "WVB Boxscore",
+  "description": "Marist vs New Haven",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46561",
+      "seoname": "marist",
+      "name6Char": "MARIST",
+      "nameFull": "Marist University",
+      "nameShort": "Marist",
+      "teamName": "Red Foxes",
+      "color": "#C8102E"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46234",
+      "seoname": "new-haven",
+      "name6Char": "NEWHAV",
+      "nameFull": "University of New Haven",
+      "nameShort": "New Haven",
+      "teamName": "Chargers",
+      "color": "#102B4E"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46561,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "45",
+        "attackErrors": "10",
+        "attackAttempts": "90",
+        "hittingPercentage": "0.389",
+        "assists": "41",
+        "setErrors": "0",
+        "setAttempts": "88",
+        "serviceAces": "10",
+        "serviceErrors": "6",
+        "serveAttempts": "74",
+        "digs": "46",
+        "receptionAttempts": "39",
+        "receptionErrors": "1",
+        "blockSolos": "0",
+        "blockAssists": "14",
+        "blockingErrors": "1",
+        "totalBlocks": "7"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46234,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "44",
+        "kills": "27",
+        "attackErrors": "14",
+        "attackAttempts": "95",
+        "hittingPercentage": "0.137",
+        "assists": "22",
+        "setErrors": "0",
+        "setAttempts": "92",
+        "serviceAces": "1",
+        "serviceErrors": "6",
+        "serveAttempts": "45",
+        "digs": "30",
+        "receptionAttempts": "68",
+        "receptionErrors": "10",
+        "blockSolos": "0",
+        "blockAssists": "10",
+        "blockingErrors": "2",
+        "totalBlocks": "5"
+      }
+    }
+  ]
+}

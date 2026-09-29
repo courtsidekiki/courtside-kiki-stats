@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628242,
+  "title": "WVB Boxscore",
+  "description": "Pittsburgh vs Stanford",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45986",
+      "seoname": "pittsburgh",
+      "name6Char": "PITT",
+      "nameFull": "University of Pittsburgh",
+      "nameShort": "Pittsburgh",
+      "teamName": "Panthers",
+      "color": "#003594"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46501",
+      "seoname": "stanford",
+      "name6Char": "STAN",
+      "nameFull": "Stanford University",
+      "nameShort": "Stanford",
+      "teamName": "Cardinal",
+      "color": "#9D2235"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45986,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "49",
+        "attackErrors": "10",
+        "attackAttempts": "120",
+        "hittingPercentage": "0.325",
+        "assists": "43",
+        "setErrors": "0",
+        "setAttempts": "117",
+        "serviceAces": "1",
+        "serviceErrors": "6",
+        "serveAttempts": "73",
+        "digs": "45",
+        "receptionAttempts": "63",
+        "receptionErrors": "3",
+        "blockSolos": "0",
+        "blockAssists": "23",
+        "blockingErrors": "1",
+        "totalBlocks": "11"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46501,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "65",
+        "kills": "46",
+        "attackErrors": "18",
+        "attackAttempts": "123",
+        "hittingPercentage": "0.228",
+        "assists": "45",
+        "setErrors": "2",
+        "setAttempts": "130",
+        "serviceAces": "3",
+        "serviceErrors": "4",
+        "serveAttempts": "67",
+        "digs": "54",
+        "receptionAttempts": "67",
+        "receptionErrors": "1",
+        "blockSolos": "1",
+        "blockAssists": "10",
+        "blockingErrors": "0",
+        "totalBlocks": "6"
+      }
+    }
+  ]
+}

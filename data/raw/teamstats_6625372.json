@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625372,
+  "title": "WVB Boxscore",
+  "description": "Iowa vs Rutgers",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46553",
+      "seoname": "iowa",
+      "name6Char": "IOWA",
+      "nameFull": "University of Iowa",
+      "nameShort": "Iowa",
+      "teamName": "Hawkeyes",
+      "color": "#010101"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46617",
+      "seoname": "rutgers",
+      "name6Char": "RUTGER",
+      "nameFull": "Rutgers, The State University of New Jersey, New Brunswick",
+      "nameShort": "Rutgers",
+      "teamName": "Scarlet Knights",
+      "color": "#C8102E"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46553,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "44",
+        "attackErrors": "15",
+        "attackAttempts": "107",
+        "hittingPercentage": "0.271",
+        "assists": "42",
+        "setErrors": "1",
+        "setAttempts": "102",
+        "serviceAces": "6",
+        "serviceErrors": "3",
+        "serveAttempts": "73",
+        "digs": "48",
+        "receptionAttempts": "55",
+        "receptionErrors": "7",
+        "blockSolos": "1",
+        "blockAssists": "6",
+        "blockingErrors": "0",
+        "totalBlocks": "4"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46617,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "60",
+        "kills": "34",
+        "attackErrors": "18",
+        "attackAttempts": "110",
+        "hittingPercentage": "0.145",
+        "assists": "34",
+        "setErrors": "0",
+        "setAttempts": "111",
+        "serviceAces": "7",
+        "serviceErrors": "7",
+        "serveAttempts": "62",
+        "digs": "44",
+        "receptionAttempts": "70",
+        "receptionErrors": "6",
+        "blockSolos": "2",
+        "blockAssists": "14",
+        "blockingErrors": "0",
+        "totalBlocks": "9"
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627527,
+  "title": "WVB Boxscore",
+  "description": "Cincinnati vs Arizona St.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46539",
+      "seoname": "cincinnati",
+      "name6Char": "CINCY",
+      "nameFull": "University of Cincinnati",
+      "nameShort": "Cincinnati",
+      "teamName": "Bearcats",
+      "color": "#C8102E"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45941",
+      "seoname": "arizona-st",
+      "name6Char": "AZ ST",
+      "nameFull": "Arizona State University",
+      "nameShort": "Arizona St.",
+      "teamName": "Sun Devils",
+      "color": "#8A0C3C"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46539,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "76",
+        "kills": "39",
+        "attackErrors": "26",
+        "attackAttempts": "121",
+        "hittingPercentage": "0.107",
+        "assists": "34",
+        "setErrors": "2",
+        "setAttempts": "124",
+        "serviceAces": "6",
+        "serviceErrors": "7",
+        "serveAttempts": "77",
+        "digs": "37",
+        "receptionAttempts": "86",
+        "receptionErrors": "3",
+        "blockSolos": "1",
+        "blockAssists": "14",
+        "blockingErrors": "4",
+        "totalBlocks": "8"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45941,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "97",
+        "kills": "59",
+        "attackErrors": "21",
+        "attackAttempts": "125",
+        "hittingPercentage": "0.304",
+        "assists": "55",
+        "setErrors": "0",
+        "setAttempts": "123",
+        "serviceAces": "3",
+        "serviceErrors": "10",
+        "serveAttempts": "96",
+        "digs": "53",
+        "receptionAttempts": "70",
+        "receptionErrors": "6",
+        "blockSolos": "3",
+        "blockAssists": "18",
+        "blockingErrors": "2",
+        "totalBlocks": "12"
+      }
+    }
+  ]
+}

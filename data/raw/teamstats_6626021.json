@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626021,
+  "title": "WVB Boxscore",
+  "description": "Mercer vs The Citadel",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46567",
+      "seoname": "mercer",
+      "name6Char": "MERCER",
+      "nameFull": "Mercer University",
+      "nameShort": "Mercer",
+      "teamName": "Bears",
+      "color": "#E87722"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46662",
+      "seoname": "citadel",
+      "name6Char": "CITDEL",
+      "nameFull": "The Citadel",
+      "nameShort": "The Citadel",
+      "teamName": "Bulldogs",
+      "color": "#77A5C3"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46567,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "37",
+        "attackErrors": "14",
+        "attackAttempts": "112",
+        "hittingPercentage": "0.205",
+        "assists": "34",
+        "setErrors": "0",
+        "setAttempts": "117",
+        "serviceAces": "6",
+        "serviceErrors": "5",
+        "serveAttempts": "74",
+        "digs": "59",
+        "receptionAttempts": "53",
+        "receptionErrors": "4",
+        "blockSolos": "0",
+        "blockAssists": "12",
+        "blockingErrors": "4",
+        "totalBlocks": "6"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46662,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "59",
+        "kills": "36",
+        "attackErrors": "25",
+        "attackAttempts": "123",
+        "hittingPercentage": "0.089",
+        "assists": "35",
+        "setErrors": "0",
+        "setAttempts": "127",
+        "serviceAces": "4",
+        "serviceErrors": "7",
+        "serveAttempts": "60",
+        "digs": "56",
+        "receptionAttempts": "69",
+        "receptionErrors": "6",
+        "blockSolos": "2",
+        "blockAssists": "10",
+        "blockingErrors": "1",
+        "totalBlocks": "7"
+      }
+    }
+  ]
+}

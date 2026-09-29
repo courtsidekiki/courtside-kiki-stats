@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627375,
+  "title": "WVB Boxscore",
+  "description": "Houston Christian vs East Texas A&M",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "51287",
+      "seoname": "houston-christian",
+      "name6Char": "HOUCHR",
+      "nameFull": "Houston Christian University",
+      "nameShort": "Houston Christian",
+      "teamName": "Huskies",
+      "color": "#002F87"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45903",
+      "seoname": "tex-am-commerce",
+      "name6Char": "TAMUCO",
+      "nameFull": "East Texas A&M University",
+      "nameShort": "East Texas A&M",
+      "teamName": "Lions",
+      "color": "#00205B"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 51287,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "97",
+        "kills": "57",
+        "attackErrors": "26",
+        "attackAttempts": "173",
+        "hittingPercentage": "0.179",
+        "assists": "53",
+        "setErrors": "5",
+        "setAttempts": "175",
+        "serviceAces": "4",
+        "serviceErrors": "5",
+        "serveAttempts": "98",
+        "digs": "75",
+        "receptionAttempts": "87",
+        "receptionErrors": "9",
+        "blockSolos": "2",
+        "blockAssists": "8",
+        "blockingErrors": "0",
+        "totalBlocks": "6"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45903,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "106",
+        "kills": "61",
+        "attackErrors": "16",
+        "attackAttempts": "176",
+        "hittingPercentage": "0.256",
+        "assists": "55",
+        "setErrors": "2",
+        "setAttempts": "179",
+        "serviceAces": "9",
+        "serviceErrors": "18",
+        "serveAttempts": "105",
+        "digs": "68",
+        "receptionAttempts": "93",
+        "receptionErrors": "4",
+        "blockSolos": "1",
+        "blockAssists": "6",
+        "blockingErrors": "0",
+        "totalBlocks": "4"
+      }
+    }
+  ]
+}

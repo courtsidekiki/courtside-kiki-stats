@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6639310,
+  "title": "WVB Boxscore",
+  "description": "Bethune-Cookman vs Alabama St.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46699",
+      "seoname": "bethune-cookman",
+      "name6Char": "BECOOK",
+      "nameFull": "Bethune-Cookman University",
+      "nameShort": "Bethune-Cookman",
+      "teamName": "Wildcats",
+      "color": "#6F263D"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46436",
+      "seoname": "alabama-st",
+      "name6Char": "ALA ST",
+      "nameFull": "Alabama State University",
+      "nameShort": "Alabama St.",
+      "teamName": "Lady Hornets",
+      "color": "#010101"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46699,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "97",
+        "kills": "54",
+        "attackErrors": "18",
+        "attackAttempts": "131",
+        "hittingPercentage": "0.275",
+        "assists": "48",
+        "setErrors": "0",
+        "setAttempts": "133",
+        "serviceAces": "6",
+        "serviceErrors": "3",
+        "serveAttempts": "96",
+        "digs": "47",
+        "receptionAttempts": "78",
+        "receptionErrors": "12",
+        "blockSolos": "3",
+        "blockAssists": "14",
+        "blockingErrors": "2",
+        "totalBlocks": "10"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46436,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "84",
+        "kills": "51",
+        "attackErrors": "27",
+        "attackAttempts": "140",
+        "hittingPercentage": "0.171",
+        "assists": "49",
+        "setErrors": "3",
+        "setAttempts": "146",
+        "serviceAces": "12",
+        "serviceErrors": "7",
+        "serveAttempts": "85",
+        "digs": "46",
+        "receptionAttempts": "93",
+        "receptionErrors": "6",
+        "blockSolos": "1",
+        "blockAssists": "8",
+        "blockingErrors": "2",
+        "totalBlocks": "5"
+      }
+    }
+  ]
+}

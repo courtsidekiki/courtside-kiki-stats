@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626244,
+  "title": "WVB Boxscore",
+  "description": "Providence vs DePaul",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45855",
+      "seoname": "providence",
+      "name6Char": "PROV",
+      "nameFull": "Providence College",
+      "nameShort": "Providence",
+      "teamName": "Friars",
+      "color": "#010101"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45902",
+      "seoname": "depaul",
+      "name6Char": "DEPAUL",
+      "nameFull": "DePaul University",
+      "nameShort": "DePaul",
+      "teamName": "Blue Demons",
+      "color": "#003DA5"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45855,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "56",
+        "kills": "33",
+        "attackErrors": "17",
+        "attackAttempts": "103",
+        "hittingPercentage": "0.155",
+        "assists": "29",
+        "setErrors": "0",
+        "setAttempts": "101",
+        "serviceAces": "1",
+        "serviceErrors": "8",
+        "serveAttempts": "57",
+        "digs": "47",
+        "receptionAttempts": "66",
+        "receptionErrors": "10",
+        "blockSolos": "0",
+        "blockAssists": "12",
+        "blockingErrors": "2",
+        "totalBlocks": "6"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45902,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "40",
+        "attackErrors": "13",
+        "attackAttempts": "110",
+        "hittingPercentage": "0.245",
+        "assists": "36",
+        "setErrors": "1",
+        "setAttempts": "106",
+        "serviceAces": "10",
+        "serviceErrors": "8",
+        "serveAttempts": "74",
+        "digs": "46",
+        "receptionAttempts": "49",
+        "receptionErrors": "1",
+        "blockSolos": "1",
+        "blockAssists": "8",
+        "blockingErrors": "2",
+        "totalBlocks": "5"
+      }
+    }
+  ]
+}

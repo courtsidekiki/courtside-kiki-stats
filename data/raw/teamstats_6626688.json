@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626688,
+  "title": "WVB Boxscore",
+  "description": "UC Irvine vs Long Beach St.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46400",
+      "seoname": "uc-irvine",
+      "name6Char": "UC IRV",
+      "nameFull": "University of California, Irvine",
+      "nameShort": "UC Irvine",
+      "teamName": "Anteaters",
+      "color": "#0C2340"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46160",
+      "seoname": "long-beach-st",
+      "name6Char": "LBSU",
+      "nameFull": "Long Beach State University",
+      "nameShort": "Long Beach St.",
+      "teamName": "Beach",
+      "color": "#010101"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46400,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "48",
+        "kills": "25",
+        "attackErrors": "29",
+        "attackAttempts": "116",
+        "hittingPercentage": "-0.034",
+        "assists": "24",
+        "setErrors": "3",
+        "setAttempts": "113",
+        "serviceAces": "2",
+        "serviceErrors": "5",
+        "serveAttempts": "49",
+        "digs": "51",
+        "receptionAttempts": "61",
+        "receptionErrors": "1",
+        "blockSolos": "2",
+        "blockAssists": "4",
+        "blockingErrors": "1",
+        "totalBlocks": "4"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46160,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "36",
+        "attackErrors": "9",
+        "attackAttempts": "102",
+        "hittingPercentage": "0.265",
+        "assists": "30",
+        "setErrors": "0",
+        "setAttempts": "89",
+        "serviceAces": "1",
+        "serviceErrors": "11",
+        "serveAttempts": "72",
+        "digs": "49",
+        "receptionAttempts": "44",
+        "receptionErrors": "2",
+        "blockSolos": "4",
+        "blockAssists": "16",
+        "blockingErrors": "2",
+        "totalBlocks": "12"
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624834,
+  "title": "WVB Boxscore",
+  "description": "Minnesota vs Oregon",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46204",
+      "seoname": "minnesota",
+      "name6Char": "MINN",
+      "nameFull": "University of Minnesota, Twin Cities",
+      "nameShort": "Minnesota",
+      "teamName": "Golden Gophers",
+      "color": "#861F41"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46613",
+      "seoname": "oregon",
+      "name6Char": "OREGN",
+      "nameFull": "University of Oregon",
+      "nameShort": "Oregon",
+      "teamName": "Ducks",
+      "color": "#173F35"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46204,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "90",
+        "kills": "56",
+        "attackErrors": "21",
+        "attackAttempts": "159",
+        "hittingPercentage": "0.220",
+        "assists": "53",
+        "setErrors": "0",
+        "setAttempts": "154",
+        "serviceAces": "9",
+        "serviceErrors": "10",
+        "serveAttempts": "91",
+        "digs": "64",
+        "receptionAttempts": "94",
+        "receptionErrors": "7",
+        "blockSolos": "3",
+        "blockAssists": "20",
+        "blockingErrors": "0",
+        "totalBlocks": "13"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46613,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "100",
+        "kills": "62",
+        "attackErrors": "19",
+        "attackAttempts": "148",
+        "hittingPercentage": "0.291",
+        "assists": "55",
+        "setErrors": "2",
+        "setAttempts": "142",
+        "serviceAces": "7",
+        "serviceErrors": "5",
+        "serveAttempts": "99",
+        "digs": "72",
+        "receptionAttempts": "81",
+        "receptionErrors": "9",
+        "blockSolos": "1",
+        "blockAssists": "20",
+        "blockingErrors": "2",
+        "totalBlocks": "11"
+      }
+    }
+  ]
+}

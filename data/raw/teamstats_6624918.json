@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624918,
+  "title": "WVB Boxscore",
+  "description": "Buffalo vs Kent St.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46444",
+      "seoname": "buffalo",
+      "name6Char": "BUFF",
+      "nameFull": "University at Buffalo, the State University of New York",
+      "nameShort": "Buffalo",
+      "teamName": "Bulls",
+      "color": "#0057B8"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46558",
+      "seoname": "kent-st",
+      "name6Char": "KENT",
+      "nameFull": "Kent State University",
+      "nameShort": "Kent St.",
+      "teamName": "Golden Flashes",
+      "color": "#003976"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46444,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "76",
+        "kills": "46",
+        "attackErrors": "18",
+        "attackAttempts": "119",
+        "hittingPercentage": "0.235",
+        "assists": "44",
+        "setErrors": "0",
+        "setAttempts": "120",
+        "serviceAces": "2",
+        "serviceErrors": "3",
+        "serveAttempts": "75",
+        "digs": "56",
+        "receptionAttempts": "58",
+        "receptionErrors": "1",
+        "blockSolos": "8",
+        "blockAssists": "4",
+        "blockingErrors": "0",
+        "totalBlocks": "10"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46558,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "61",
+        "kills": "39",
+        "attackErrors": "23",
+        "attackAttempts": "124",
+        "hittingPercentage": "0.129",
+        "assists": "34",
+        "setErrors": "0",
+        "setAttempts": "117",
+        "serviceAces": "1",
+        "serviceErrors": "4",
+        "serveAttempts": "62",
+        "digs": "46",
+        "receptionAttempts": "72",
+        "receptionErrors": "2",
+        "blockSolos": "5",
+        "blockAssists": "4",
+        "blockingErrors": "1",
+        "totalBlocks": "7"
+      }
+    }
+  ]
+}

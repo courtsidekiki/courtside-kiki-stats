@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627432,
+  "title": "WVB Boxscore",
+  "description": "Queens (NC) vs West Florida",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46656",
+      "seoname": "queens-nc",
+      "name6Char": "QUENNC",
+      "nameFull": "Queens University of Charlotte",
+      "nameShort": "Queens (NC)",
+      "teamName": "Royals",
+      "color": "#0D2D6C"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46157",
+      "seoname": "west-florida",
+      "name6Char": "W FLA",
+      "nameFull": "University of West Florida",
+      "nameShort": "West Florida",
+      "teamName": "Argonauts",
+      "color": "#0072CE"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46656,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "53",
+        "kills": "30",
+        "attackErrors": "16",
+        "attackAttempts": "85",
+        "hittingPercentage": "0.165",
+        "assists": "30",
+        "setErrors": "0",
+        "setAttempts": "91",
+        "serviceAces": "3",
+        "serviceErrors": "13",
+        "serveAttempts": "54",
+        "digs": "27",
+        "receptionAttempts": "69",
+        "receptionErrors": "6",
+        "blockSolos": "0",
+        "blockAssists": "12",
+        "blockingErrors": "2",
+        "totalBlocks": "6"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46157,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "40",
+        "attackErrors": "14",
+        "attackAttempts": "86",
+        "hittingPercentage": "0.302",
+        "assists": "37",
+        "setErrors": "1",
+        "setAttempts": "86",
+        "serviceAces": "6",
+        "serviceErrors": "5",
+        "serveAttempts": "74",
+        "digs": "36",
+        "receptionAttempts": "41",
+        "receptionErrors": "3",
+        "blockSolos": "1",
+        "blockAssists": "18",
+        "blockingErrors": "1",
+        "totalBlocks": "10"
+      }
+    }
+  ]
+}

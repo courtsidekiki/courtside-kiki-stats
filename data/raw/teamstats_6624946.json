@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624946,
+  "title": "WVB Boxscore",
+  "description": "Green Bay vs Oakland",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46327",
+      "seoname": "green-bay",
+      "name6Char": "GRNBAY",
+      "nameFull": "University of Wisconsin-Green Bay",
+      "nameShort": "Green Bay",
+      "teamName": "Phoenix",
+      "color": "#0F5640"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46108",
+      "seoname": "oakland",
+      "name6Char": "OAK",
+      "nameFull": "Oakland University",
+      "nameShort": "Oakland",
+      "teamName": "Golden Grizzlies",
+      "color": "#010101"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46327,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "102",
+        "kills": "63",
+        "attackErrors": "19",
+        "attackAttempts": "188",
+        "hittingPercentage": "0.234",
+        "assists": "56",
+        "setErrors": "2",
+        "setAttempts": "181",
+        "serviceAces": "6",
+        "serviceErrors": "6",
+        "serveAttempts": "101",
+        "digs": "94",
+        "receptionAttempts": "81",
+        "receptionErrors": "4",
+        "blockSolos": "0",
+        "blockAssists": "18",
+        "blockingErrors": "0",
+        "totalBlocks": "9"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46108,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "89",
+        "kills": "58",
+        "attackErrors": "24",
+        "attackAttempts": "193",
+        "hittingPercentage": "0.176",
+        "assists": "54",
+        "setErrors": "0",
+        "setAttempts": "190",
+        "serviceAces": "4",
+        "serviceErrors": "9",
+        "serveAttempts": "90",
+        "digs": "98",
+        "receptionAttempts": "95",
+        "receptionErrors": "6",
+        "blockSolos": "3",
+        "blockAssists": "10",
+        "blockingErrors": "0",
+        "totalBlocks": "8"
+      }
+    }
+  ]
+}

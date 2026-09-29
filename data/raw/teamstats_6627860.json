@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627860,
+  "title": "WVB Boxscore",
+  "description": "New Hampshire vs Binghamton",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45975",
+      "seoname": "new-hampshire",
+      "name6Char": "UNH",
+      "nameFull": "University of New Hampshire",
+      "nameShort": "New Hampshire",
+      "teamName": "Wildcats",
+      "color": "#041E42"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46443",
+      "seoname": "binghamton",
+      "name6Char": "BINGHA",
+      "nameFull": "Binghamton University",
+      "nameShort": "Binghamton",
+      "teamName": "Bearcats",
+      "color": "#006747"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45975,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "77",
+        "kills": "45",
+        "attackErrors": "18",
+        "attackAttempts": "129",
+        "hittingPercentage": "0.209",
+        "assists": "45",
+        "setErrors": "0",
+        "setAttempts": "123",
+        "serviceAces": "3",
+        "serviceErrors": "8",
+        "serveAttempts": "75",
+        "digs": "61",
+        "receptionAttempts": "64",
+        "receptionErrors": "6",
+        "blockSolos": "2",
+        "blockAssists": "12",
+        "blockingErrors": "0",
+        "totalBlocks": "8"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46443,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "68",
+        "kills": "36",
+        "attackErrors": "23",
+        "attackAttempts": "128",
+        "hittingPercentage": "0.102",
+        "assists": "35",
+        "setErrors": "0",
+        "setAttempts": "126",
+        "serviceAces": "6",
+        "serviceErrors": "6",
+        "serveAttempts": "70",
+        "digs": "54",
+        "receptionAttempts": "67",
+        "receptionErrors": "3",
+        "blockSolos": "0",
+        "blockAssists": "6",
+        "blockingErrors": "0",
+        "totalBlocks": "3"
+      }
+    }
+  ]
+}

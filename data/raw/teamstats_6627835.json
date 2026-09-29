@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627835,
+  "title": "WVB Boxscore",
+  "description": "Little Rock vs Austin Peay",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45805",
+      "seoname": "ualr",
+      "name6Char": "UALR",
+      "nameFull": "University of Arkansas at Little Rock",
+      "nameShort": "Little Rock",
+      "teamName": "Trojans",
+      "color": "#6F263D"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45942",
+      "seoname": "austin-peay",
+      "name6Char": "A PEAY",
+      "nameFull": "Austin Peay State University",
+      "nameShort": "Austin Peay",
+      "teamName": "Governors",
+      "color": "#BA0C2F"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45805,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "86",
+        "kills": "46",
+        "attackErrors": "29",
+        "attackAttempts": "143",
+        "hittingPercentage": "0.119",
+        "assists": "40",
+        "setErrors": "2",
+        "setAttempts": "140",
+        "serviceAces": "9",
+        "serviceErrors": "17",
+        "serveAttempts": "87",
+        "digs": "59",
+        "receptionAttempts": "83",
+        "receptionErrors": "8",
+        "blockSolos": "1",
+        "blockAssists": "13",
+        "blockingErrors": "2",
+        "totalBlocks": "7"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45942,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "101",
+        "kills": "44",
+        "attackErrors": "12",
+        "attackAttempts": "125",
+        "hittingPercentage": "0.256",
+        "assists": "39",
+        "setErrors": "1",
+        "setAttempts": "123",
+        "serviceAces": "8",
+        "serviceErrors": "17",
+        "serveAttempts": "100",
+        "digs": "61",
+        "receptionAttempts": "70",
+        "receptionErrors": "9",
+        "blockSolos": "4",
+        "blockAssists": "18",
+        "blockingErrors": "3",
+        "totalBlocks": "13"
+      }
+    }
+  ]
+}

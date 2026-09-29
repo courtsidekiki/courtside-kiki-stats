@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6640985,
+  "title": "WVB Boxscore",
+  "description": "Nebraska vs Missouri",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46474",
+      "seoname": "nebraska",
+      "name6Char": "NEB",
+      "nameFull": "University of Nebraska-Lincoln",
+      "nameShort": "Nebraska",
+      "teamName": "Huskers",
+      "color": "#C8102E"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45939",
+      "seoname": "missouri",
+      "name6Char": "MIZZOU",
+      "nameFull": "University of Missouri, Columbia",
+      "nameShort": "Missouri",
+      "teamName": "Tigers",
+      "color": "#010101"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46474,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "43",
+        "attackErrors": "8",
+        "attackAttempts": "92",
+        "hittingPercentage": "0.380",
+        "assists": "36",
+        "setErrors": "0",
+        "setAttempts": "87",
+        "serviceAces": "4",
+        "serviceErrors": "6",
+        "serveAttempts": "74",
+        "digs": "47",
+        "receptionAttempts": "36",
+        "receptionErrors": "3",
+        "blockSolos": "2",
+        "blockAssists": "14",
+        "blockingErrors": "0",
+        "totalBlocks": "9"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45939,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "41",
+        "kills": "24",
+        "attackErrors": "22",
+        "attackAttempts": "98",
+        "hittingPercentage": "0.020",
+        "assists": "24",
+        "setErrors": "1",
+        "setAttempts": "103",
+        "serviceAces": "3",
+        "serviceErrors": "6",
+        "serveAttempts": "42",
+        "digs": "38",
+        "receptionAttempts": "68",
+        "receptionErrors": "4",
+        "blockSolos": "0",
+        "blockAssists": "8",
+        "blockingErrors": "2",
+        "totalBlocks": "4"
+      }
+    }
+  ]
+}

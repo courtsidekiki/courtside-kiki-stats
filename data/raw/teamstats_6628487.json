@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628487,
+  "title": "WVB Boxscore",
+  "description": "Rice vs UAB",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45859",
+      "seoname": "rice",
+      "name6Char": "RICE",
+      "nameFull": "Rice University",
+      "nameShort": "Rice",
+      "teamName": "Owls",
+      "color": "#00205B"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46437",
+      "seoname": "uab",
+      "name6Char": "UAB",
+      "nameFull": "University of Alabama at Birmingham",
+      "nameShort": "UAB",
+      "teamName": "Blazers",
+      "color": "#006341"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45859,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "111",
+        "kills": "69",
+        "attackErrors": "22",
+        "attackAttempts": "172",
+        "hittingPercentage": "0.273",
+        "assists": "63",
+        "setErrors": "2",
+        "setAttempts": "177",
+        "serviceAces": "7",
+        "serviceErrors": "8",
+        "serveAttempts": "111",
+        "digs": "84",
+        "receptionAttempts": "84",
+        "receptionErrors": "7",
+        "blockSolos": "0",
+        "blockAssists": "14",
+        "blockingErrors": "1",
+        "totalBlocks": "7"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46437,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "95",
+        "kills": "56",
+        "attackErrors": "23",
+        "attackAttempts": "174",
+        "hittingPercentage": "0.190",
+        "assists": "51",
+        "setErrors": "1",
+        "setAttempts": "179",
+        "serviceAces": "7",
+        "serviceErrors": "11",
+        "serveAttempts": "95",
+        "digs": "67",
+        "receptionAttempts": "103",
+        "receptionErrors": "7",
+        "blockSolos": "1",
+        "blockAssists": "6",
+        "blockingErrors": "3",
+        "totalBlocks": "4"
+      }
+    }
+  ]
+}

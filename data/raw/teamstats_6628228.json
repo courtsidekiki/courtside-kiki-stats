@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628228,
+  "title": "WVB Boxscore",
+  "description": "Colorado vs Arizona",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46542",
+      "seoname": "colorado",
+      "name6Char": "COLO",
+      "nameFull": "University of Colorado Boulder",
+      "nameShort": "Colorado",
+      "teamName": "Buffaloes",
+      "color": "#010101"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46211",
+      "seoname": "arizona",
+      "name6Char": "ARIZ",
+      "nameFull": "University of Arizona",
+      "nameShort": "Arizona",
+      "teamName": "Wildcats",
+      "color": "#00205B"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46542,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "105",
+        "kills": "69",
+        "attackErrors": "21",
+        "attackAttempts": "172",
+        "hittingPercentage": "0.279",
+        "assists": "67",
+        "setErrors": "0",
+        "setAttempts": "169",
+        "serviceAces": "9",
+        "serviceErrors": "6",
+        "serveAttempts": "104",
+        "digs": "76",
+        "receptionAttempts": "90",
+        "receptionErrors": "8",
+        "blockSolos": "1",
+        "blockAssists": "6",
+        "blockingErrors": "3",
+        "totalBlocks": "4"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46211,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "98",
+        "kills": "63",
+        "attackErrors": "17",
+        "attackAttempts": "163",
+        "hittingPercentage": "0.282",
+        "assists": "59",
+        "setErrors": "0",
+        "setAttempts": "166",
+        "serviceAces": "8",
+        "serviceErrors": "9",
+        "serveAttempts": "99",
+        "digs": "72",
+        "receptionAttempts": "98",
+        "receptionErrors": "9",
+        "blockSolos": "2",
+        "blockAssists": "10",
+        "blockingErrors": "0",
+        "totalBlocks": "7"
+      }
+    }
+  ]
+}

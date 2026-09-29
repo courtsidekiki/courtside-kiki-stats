@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626756,
+  "title": "WVB Boxscore",
+  "description": "UIW vs East Texas A&M",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46648",
+      "seoname": "uiw",
+      "name6Char": "INCWRD",
+      "nameFull": "University of the Incarnate Word",
+      "nameShort": "UIW",
+      "teamName": "Cardinals",
+      "color": "#CB333B"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45903",
+      "seoname": "tex-am-commerce",
+      "name6Char": "TAMUCO",
+      "nameFull": "East Texas A&M University",
+      "nameShort": "East Texas A&M",
+      "teamName": "Lions",
+      "color": "#00205B"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46648,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "94",
+        "kills": "47",
+        "attackErrors": "22",
+        "attackAttempts": "142",
+        "hittingPercentage": "0.176",
+        "assists": "47",
+        "setErrors": "0",
+        "setAttempts": "146",
+        "serviceAces": "7",
+        "serviceErrors": "8",
+        "serveAttempts": "93",
+        "digs": "67",
+        "receptionAttempts": "73",
+        "receptionErrors": "6",
+        "blockSolos": "1",
+        "blockAssists": "22",
+        "blockingErrors": "1",
+        "totalBlocks": "12"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45903,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "81",
+        "kills": "44",
+        "attackErrors": "30",
+        "attackAttempts": "149",
+        "hittingPercentage": "0.094",
+        "assists": "44",
+        "setErrors": "1",
+        "setAttempts": "153",
+        "serviceAces": "6",
+        "serviceErrors": "9",
+        "serveAttempts": "82",
+        "digs": "65",
+        "receptionAttempts": "85",
+        "receptionErrors": "7",
+        "blockSolos": "1",
+        "blockAssists": "16",
+        "blockingErrors": "3",
+        "totalBlocks": "9"
+      }
+    }
+  ]
+}

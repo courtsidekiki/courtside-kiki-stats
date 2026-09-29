@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626271,
+  "title": "WVB Boxscore",
+  "description": "SMU vs Stanford",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46250",
+      "seoname": "smu",
+      "name6Char": "SMU",
+      "nameFull": "Southern Methodist University",
+      "nameShort": "SMU",
+      "teamName": "Mustangs",
+      "color": "#A80000"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46501",
+      "seoname": "stanford",
+      "name6Char": "STAN",
+      "nameFull": "Stanford University",
+      "nameShort": "Stanford",
+      "teamName": "Cardinal",
+      "color": "#9D2235"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46250,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "46",
+        "attackErrors": "11",
+        "attackAttempts": "86",
+        "hittingPercentage": "0.407",
+        "assists": "43",
+        "setErrors": "0",
+        "setAttempts": "83",
+        "serviceAces": "2",
+        "serviceErrors": "12",
+        "serveAttempts": "73",
+        "digs": "41",
+        "receptionAttempts": "43",
+        "receptionErrors": "4",
+        "blockSolos": "1",
+        "blockAssists": "20",
+        "blockingErrors": "0",
+        "totalBlocks": "11"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46501,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "51",
+        "kills": "24",
+        "attackErrors": "16",
+        "attackAttempts": "88",
+        "hittingPercentage": "0.091",
+        "assists": "24",
+        "setErrors": "1",
+        "setAttempts": "91",
+        "serviceAces": "4",
+        "serviceErrors": "10",
+        "serveAttempts": "53",
+        "digs": "24",
+        "receptionAttempts": "61",
+        "receptionErrors": "2",
+        "blockSolos": "1",
+        "blockAssists": "8",
+        "blockingErrors": "0",
+        "totalBlocks": "5"
+      }
+    }
+  ]
+}

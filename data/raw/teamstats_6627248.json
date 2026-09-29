@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627248,
+  "title": "WVB Boxscore",
+  "description": "Purdue Fort Wayne vs Cleveland St.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45781",
+      "seoname": "ipfw",
+      "name6Char": "IPFW",
+      "nameFull": "Purdue University Fort Wayne",
+      "nameShort": "Purdue Fort Wayne",
+      "teamName": "Mastodons",
+      "color": "#1f3d7c"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46406",
+      "seoname": "cleveland-st",
+      "name6Char": "CLE ST",
+      "nameFull": "Cleveland State University",
+      "nameShort": "Cleveland St.",
+      "teamName": "Vikings",
+      "color": "#115740"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45781,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "94",
+        "kills": "40",
+        "attackErrors": "17",
+        "attackAttempts": "104",
+        "hittingPercentage": "0.221",
+        "assists": "39",
+        "setErrors": "0",
+        "setAttempts": "109",
+        "serviceAces": "10",
+        "serviceErrors": "12",
+        "serveAttempts": "93",
+        "digs": "43",
+        "receptionAttempts": "67",
+        "receptionErrors": "6",
+        "blockSolos": "3",
+        "blockAssists": "30",
+        "blockingErrors": "2",
+        "totalBlocks": "18"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46406,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "77",
+        "kills": "42",
+        "attackErrors": "33",
+        "attackAttempts": "124",
+        "hittingPercentage": "0.073",
+        "assists": "39",
+        "setErrors": "0",
+        "setAttempts": "118",
+        "serviceAces": "6",
+        "serviceErrors": "11",
+        "serveAttempts": "78",
+        "digs": "39",
+        "receptionAttempts": "81",
+        "receptionErrors": "10",
+        "blockSolos": "1",
+        "blockAssists": "14",
+        "blockingErrors": "3",
+        "totalBlocks": "8"
+      }
+    }
+  ]
+}

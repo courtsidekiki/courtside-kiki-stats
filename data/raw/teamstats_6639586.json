@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6639586,
+  "title": "WVB Boxscore",
+  "description": "UMES vs South Carolina St.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46563",
+      "seoname": "umes",
+      "name6Char": "UMES",
+      "nameFull": "University of Maryland Eastern Shore",
+      "nameShort": "UMES",
+      "teamName": "Hawks",
+      "color": "#5D0024"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45866",
+      "seoname": "south-carolina-st",
+      "name6Char": "SC ST",
+      "nameFull": "South Carolina State University",
+      "nameShort": "South Carolina St.",
+      "teamName": "Lady Bulldogs",
+      "color": "#862633"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46563,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "97",
+        "kills": "44",
+        "attackErrors": "22",
+        "attackAttempts": "111",
+        "hittingPercentage": "0.198",
+        "assists": "42",
+        "setErrors": "1",
+        "setAttempts": "120",
+        "serviceAces": "8",
+        "serviceErrors": "8",
+        "serveAttempts": "96",
+        "digs": "39",
+        "receptionAttempts": "73",
+        "receptionErrors": "3",
+        "blockSolos": "2",
+        "blockAssists": "17",
+        "blockingErrors": "0",
+        "totalBlocks": "10"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45866,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "87",
+        "kills": "53",
+        "attackErrors": "29",
+        "attackAttempts": "136",
+        "hittingPercentage": "0.176",
+        "assists": "48",
+        "setErrors": "1",
+        "setAttempts": "140",
+        "serviceAces": "3",
+        "serviceErrors": "15",
+        "serveAttempts": "88",
+        "digs": "35",
+        "receptionAttempts": "88",
+        "receptionErrors": "8",
+        "blockSolos": "1",
+        "blockAssists": "8",
+        "blockingErrors": "0",
+        "totalBlocks": "5"
+      }
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "contests": [
+    {
+      "__typename": "Contest",
+      "id": "6628134",
+      "sportCode": "WVB",
+      "sportUrl": "volleyball-women",
+      "division": 1,
+      "clock": null,
+      "currentPeriod": "FINAL",
+      "finalMessage": "FINAL",
+      "gameState": "F",
+      "statusCodeDisplay": "final",
+      "network": null,
+      "startTime": "12:00",
+      "startTimeEpoch": 1790179200,
+      "week": null,
+      "seasonYear": 2026,
+      "winner": 46137,
+      "hasStartTime": true,
+      "hasBoxscore": true,
+      "hasPbp": true,
+      "hasScoringSummary": false,
+      "hasPreview": false,
+      "hasRecap": false,
+      "hasTeamStats": true,
+      "linescores": [
+        {
+          "__typename": "Linescore",
+          "period": "1",
+          "home": "19",
+          "visit": "25"
+        },
+        {
+          "__typename": "Linescore",
+          "period": "2",
+          "home": "25",
+          "visit": "13"
+        },
+        {
+          "__typename": "Linescore",
+          "period": "3",
+          "home": "20",
+          "visit": "25"
+        },
+        {
+          "__typename": "Linescore",
+          "period": "4",
+          "home": "17",
+          "visit": "25"
+        }
+      ],
+      "teams": [
+        {
+          "__typename": "ContestTeam",
+          "teamId": "46103",
+          "isHome": true,
+          "color": "#A6192E",
+          "seoname": "nicholls-st",
+          "nameFull": "Nicholls State University",
+          "nameShort": "Nicholls",
+          "name6Char": "NICHST",
+          "teamRank": null,
+          "gameRank": null,
+          "score": 1,
+          "seed": null,
+          "record": "(7-6)",
+          "divisionName": "d1",
+          "division": 1,
+          "isWinner": false
+        },
+        {
+          "__typename": "ContestTeam",
+          "teamId": "46137",
+          "isHome": false,
+          "color": "#007AC1",
+          "seoname": "am-corpus-chris",
+          "nameFull": "Texas A&M University-Corpus Christi",
+          "nameShort": "A&M-Corpus Christi",
+          "name6Char": "TAMUCC",
+          "teamRank": null,
+          "gameRank": null,
+          "score": 3,
+          "seed": null,
+          "record": "(2-9)",
+          "divisionName": "d1",
+          "division": 1,
+          "isWinner": true
+        }
+      ],
+      "liveVideos": [],
+      "championship": null,
+      "championshipGame": null,
+      "links": [],
+      "location": {
+        "__typename": "Location",
+        "venue": "David Stopher Gymnasium",
+        "city": "Thibodaux",
+        "stateUsps": "LA"
+      },
+      "stats": null
+    }
+  ]
+}

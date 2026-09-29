@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626566,
+  "title": "WVB Boxscore",
+  "description": "West Virginia vs TCU",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46511",
+      "seoname": "west-virginia",
+      "name6Char": "WVU",
+      "nameFull": "West Virginia University",
+      "nameShort": "West Virginia",
+      "teamName": "Mountaineers",
+      "color": "#0F2D52"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46507",
+      "seoname": "tcu",
+      "name6Char": "TCU",
+      "nameFull": "Texas Christian University",
+      "nameShort": "TCU",
+      "teamName": "Horned Frogs",
+      "color": "#592D82"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46511,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "83",
+        "kills": "49",
+        "attackErrors": "19",
+        "attackAttempts": "149",
+        "hittingPercentage": "0.201",
+        "assists": "45",
+        "setErrors": "2",
+        "setAttempts": "148",
+        "serviceAces": "6",
+        "serviceErrors": "10",
+        "serveAttempts": "84",
+        "digs": "60",
+        "receptionAttempts": "83",
+        "receptionErrors": "9",
+        "blockSolos": "2",
+        "blockAssists": "14",
+        "blockingErrors": "2",
+        "totalBlocks": "9"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46507,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "93",
+        "kills": "53",
+        "attackErrors": "18",
+        "attackAttempts": "138",
+        "hittingPercentage": "0.254",
+        "assists": "48",
+        "setErrors": "1",
+        "setAttempts": "136",
+        "serviceAces": "9",
+        "serviceErrors": "9",
+        "serveAttempts": "92",
+        "digs": "67",
+        "receptionAttempts": "74",
+        "receptionErrors": "6",
+        "blockSolos": "0",
+        "blockAssists": "12",
+        "blockingErrors": "2",
+        "totalBlocks": "6"
+      }
+    }
+  ]
+}

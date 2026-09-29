@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624778,
+  "title": "WVB Boxscore",
+  "description": "Troy vs Louisiana",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46254",
+      "seoname": "troy",
+      "name6Char": "TROY",
+      "nameFull": "Troy University",
+      "nameShort": "Troy",
+      "teamName": "Trojans",
+      "color": "#9D2235"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46003",
+      "seoname": "la-lafayette",
+      "name6Char": "LA",
+      "nameFull": "University of Louisiana at Lafayette",
+      "nameShort": "Louisiana",
+      "teamName": "Ragin' Cajuns",
+      "color": "#C8102E"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46254,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "103",
+        "kills": "57",
+        "attackErrors": "26",
+        "attackAttempts": "161",
+        "hittingPercentage": "0.193",
+        "assists": "53",
+        "setErrors": "1",
+        "setAttempts": "168",
+        "serviceAces": "11",
+        "serviceErrors": "11",
+        "serveAttempts": "104",
+        "digs": "71",
+        "receptionAttempts": "91",
+        "receptionErrors": "4",
+        "blockSolos": "1",
+        "blockAssists": "22",
+        "blockingErrors": "0",
+        "totalBlocks": "12"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46003,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "102",
+        "kills": "60",
+        "attackErrors": "25",
+        "attackAttempts": "173",
+        "hittingPercentage": "0.202",
+        "assists": "56",
+        "setErrors": "0",
+        "setAttempts": "174",
+        "serviceAces": "4",
+        "serviceErrors": "10",
+        "serveAttempts": "101",
+        "digs": "68",
+        "receptionAttempts": "93",
+        "receptionErrors": "11",
+        "blockSolos": "0",
+        "blockAssists": "30",
+        "blockingErrors": "1",
+        "totalBlocks": "15"
+      }
+    }
+  ]
+}

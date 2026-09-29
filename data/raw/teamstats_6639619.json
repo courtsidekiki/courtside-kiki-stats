@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6639619,
+  "title": "WVB Boxscore",
+  "description": "Central Ark. vs Eastern Ky.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45955",
+      "seoname": "central-ark",
+      "name6Char": "C ARK",
+      "nameFull": "University of Central Arkansas",
+      "nameShort": "Central Ark.",
+      "teamName": "Bears",
+      "color": "#582C83"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45770",
+      "seoname": "eastern-ky",
+      "name6Char": "E KY",
+      "nameFull": "Eastern Kentucky University",
+      "nameShort": "Eastern Ky.",
+      "teamName": "Colonels",
+      "color": "#6F263D"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45955,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "90",
+        "kills": "55",
+        "attackErrors": "22",
+        "attackAttempts": "154",
+        "hittingPercentage": "0.214",
+        "assists": "44",
+        "setErrors": "2",
+        "setAttempts": "143",
+        "serviceAces": "3",
+        "serviceErrors": "6",
+        "serveAttempts": "91",
+        "digs": "54",
+        "receptionAttempts": "87",
+        "receptionErrors": "3",
+        "blockSolos": "0",
+        "blockAssists": "20",
+        "blockingErrors": "2",
+        "totalBlocks": "10"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45770,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "98",
+        "kills": "64",
+        "attackErrors": "22",
+        "attackAttempts": "152",
+        "hittingPercentage": "0.276",
+        "assists": "61",
+        "setErrors": "0",
+        "setAttempts": "154",
+        "serviceAces": "3",
+        "serviceErrors": "10",
+        "serveAttempts": "97",
+        "digs": "62",
+        "receptionAttempts": "85",
+        "receptionErrors": "3",
+        "blockSolos": "1",
+        "blockAssists": "22",
+        "blockingErrors": "0",
+        "totalBlocks": "12"
+      }
+    }
+  ]
+}

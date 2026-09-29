@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626816,
+  "title": "WVB Boxscore",
+  "description": "Vanderbilt vs Kentucky",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "1389023",
+      "seoname": "vanderbilt",
+      "name6Char": "VANDY",
+      "nameFull": "Vanderbilt University",
+      "nameShort": "Vanderbilt",
+      "teamName": "Commodores",
+      "color": "#010101"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45920",
+      "seoname": "kentucky",
+      "name6Char": "UK",
+      "nameFull": "University of Kentucky",
+      "nameShort": "Kentucky",
+      "teamName": "Wildcats",
+      "color": "#3258AF"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 1389023,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "82",
+        "kills": "54",
+        "attackErrors": "18",
+        "attackAttempts": "132",
+        "hittingPercentage": "0.273",
+        "assists": "49",
+        "setErrors": "1",
+        "setAttempts": "127",
+        "serviceAces": "4",
+        "serviceErrors": "8",
+        "serveAttempts": "83",
+        "digs": "42",
+        "receptionAttempts": "80",
+        "receptionErrors": "5",
+        "blockSolos": "0",
+        "blockAssists": "4",
+        "blockingErrors": "1",
+        "totalBlocks": "2"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45920,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "96",
+        "kills": "64",
+        "attackErrors": "9",
+        "attackAttempts": "124",
+        "hittingPercentage": "0.444",
+        "assists": "62",
+        "setErrors": "0",
+        "setAttempts": "124",
+        "serviceAces": "5",
+        "serviceErrors": "15",
+        "serveAttempts": "95",
+        "digs": "47",
+        "receptionAttempts": "75",
+        "receptionErrors": "4",
+        "blockSolos": "3",
+        "blockAssists": "18",
+        "blockingErrors": "0",
+        "totalBlocks": "12"
+      }
+    }
+  ]
+}

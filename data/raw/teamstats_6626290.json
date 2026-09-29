@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626290,
+  "title": "WVB Boxscore",
+  "description": "UConn vs Marquette",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46408",
+      "seoname": "uconn",
+      "name6Char": "UCONN",
+      "nameFull": "University of Connecticut",
+      "nameShort": "UConn",
+      "teamName": "Huskies",
+      "color": "#0C2340"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46200",
+      "seoname": "marquette",
+      "name6Char": "MARQ",
+      "nameFull": "Marquette University",
+      "nameShort": "Marquette",
+      "teamName": "Golden Eagles",
+      "color": "#1D2953"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46408,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "54",
+        "kills": "34",
+        "attackErrors": "16",
+        "attackAttempts": "99",
+        "hittingPercentage": "0.182",
+        "assists": "31",
+        "setErrors": "1",
+        "setAttempts": "96",
+        "serviceAces": "4",
+        "serviceErrors": "5",
+        "serveAttempts": "56",
+        "digs": "25",
+        "receptionAttempts": "68",
+        "receptionErrors": "7",
+        "blockSolos": "1",
+        "blockAssists": "14",
+        "blockingErrors": "0",
+        "totalBlocks": "8"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46200,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "46",
+        "attackErrors": "11",
+        "attackAttempts": "90",
+        "hittingPercentage": "0.389",
+        "assists": "39",
+        "setErrors": "0",
+        "setAttempts": "83",
+        "serviceAces": "7",
+        "serviceErrors": "5",
+        "serveAttempts": "73",
+        "digs": "38",
+        "receptionAttempts": "51",
+        "receptionErrors": "4",
+        "blockSolos": "1",
+        "blockAssists": "4",
+        "blockingErrors": "0",
+        "totalBlocks": "3"
+      }
+    }
+  ]
+}

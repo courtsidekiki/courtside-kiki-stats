@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625674,
+  "title": "WVB Boxscore",
+  "description": "Southern U. vs Ark.-Pine Bluff",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46123",
+      "seoname": "southern-u",
+      "name6Char": "SOUTHR",
+      "nameFull": "Southern University, Baton Rouge",
+      "nameShort": "Southern U.",
+      "teamName": "Lady Jaguars",
+      "color": "#69B3E7"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46646",
+      "seoname": "ark-pine-bluff",
+      "name6Char": "ARK PB",
+      "nameFull": "University of Arkansas, Pine Bluff",
+      "nameShort": "Ark.-Pine Bluff",
+      "teamName": "Lady Lions",
+      "color": "#010101"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46123,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "103",
+        "kills": "52",
+        "attackErrors": "30",
+        "attackAttempts": "162",
+        "hittingPercentage": "0.136",
+        "assists": "51",
+        "setErrors": "2",
+        "setAttempts": "166",
+        "serviceAces": "9",
+        "serviceErrors": "10",
+        "serveAttempts": "102",
+        "digs": "68",
+        "receptionAttempts": "85",
+        "receptionErrors": "7",
+        "blockSolos": "2",
+        "blockAssists": "14",
+        "blockingErrors": "0",
+        "totalBlocks": "9"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46646,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "97",
+        "kills": "47",
+        "attackErrors": "25",
+        "attackAttempts": "147",
+        "hittingPercentage": "0.150",
+        "assists": "37",
+        "setErrors": "4",
+        "setAttempts": "141",
+        "serviceAces": "7",
+        "serviceErrors": "13",
+        "serveAttempts": "98",
+        "digs": "59",
+        "receptionAttempts": "92",
+        "receptionErrors": "9",
+        "blockSolos": "1",
+        "blockAssists": "16",
+        "blockingErrors": "0",
+        "totalBlocks": "9"
+      }
+    }
+  ]
+}

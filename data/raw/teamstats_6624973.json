@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624973,
+  "title": "WVB Boxscore",
+  "description": "Col. of Charleston vs Towson",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46585",
+      "seoname": "col-of-charleston",
+      "name6Char": "C OF C",
+      "nameFull": "College of Charleston (South Carolina)",
+      "nameShort": "Col. of Charleston",
+      "teamName": "Cougars",
+      "color": "#76232F"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46128",
+      "seoname": "towson",
+      "name6Char": "TOWSON",
+      "nameFull": "Towson University",
+      "nameShort": "Towson",
+      "teamName": "Tigers",
+      "color": "#010101"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46585,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "38",
+        "attackErrors": "13",
+        "attackAttempts": "94",
+        "hittingPercentage": "0.266",
+        "assists": "35",
+        "setErrors": "0",
+        "setAttempts": "92",
+        "serviceAces": "7",
+        "serviceErrors": "4",
+        "serveAttempts": "74",
+        "digs": "38",
+        "receptionAttempts": "46",
+        "receptionErrors": "4",
+        "blockSolos": "1",
+        "blockAssists": "8",
+        "blockingErrors": "0",
+        "totalBlocks": "5"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46128,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "55",
+        "kills": "34",
+        "attackErrors": "19",
+        "attackAttempts": "96",
+        "hittingPercentage": "0.156",
+        "assists": "32",
+        "setErrors": "1",
+        "setAttempts": "100",
+        "serviceAces": "4",
+        "serviceErrors": "10",
+        "serveAttempts": "56",
+        "digs": "34",
+        "receptionAttempts": "70",
+        "receptionErrors": "7",
+        "blockSolos": "0",
+        "blockAssists": "8",
+        "blockingErrors": "1",
+        "totalBlocks": "4"
+      }
+    }
+  ]
+}

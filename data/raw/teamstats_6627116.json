@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627116,
+  "title": "WVB Boxscore",
+  "description": "Northern Colo. vs Montana",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46478",
+      "seoname": "northern-colo",
+      "name6Char": "N COLO",
+      "nameFull": "University of Northern Colorado",
+      "nameShort": "Northern Colo.",
+      "teamName": "Bears",
+      "color": "#002855"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46724",
+      "seoname": "montana",
+      "name6Char": "MONT",
+      "nameFull": "University of Montana",
+      "nameShort": "Montana",
+      "teamName": "Grizzlies",
+      "color": "#6F2C3F"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46478,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "97",
+        "kills": "68",
+        "attackErrors": "16",
+        "attackAttempts": "137",
+        "hittingPercentage": "0.380",
+        "assists": "59",
+        "setErrors": "0",
+        "setAttempts": "135",
+        "serviceAces": "4",
+        "serviceErrors": "7",
+        "serveAttempts": "96",
+        "digs": "66",
+        "receptionAttempts": "75",
+        "receptionErrors": "7",
+        "blockSolos": "2",
+        "blockAssists": "6",
+        "blockingErrors": "0",
+        "totalBlocks": "5"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46724,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "80",
+        "kills": "49",
+        "attackErrors": "17",
+        "attackAttempts": "138",
+        "hittingPercentage": "0.232",
+        "assists": "45",
+        "setErrors": "2",
+        "setAttempts": "139",
+        "serviceAces": "7",
+        "serviceErrors": "6",
+        "serveAttempts": "81",
+        "digs": "46",
+        "receptionAttempts": "89",
+        "receptionErrors": "4",
+        "blockSolos": "4",
+        "blockAssists": "8",
+        "blockingErrors": "0",
+        "totalBlocks": "8"
+      }
+    }
+  ]
+}

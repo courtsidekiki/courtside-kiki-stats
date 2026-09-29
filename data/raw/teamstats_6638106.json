@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6638106,
+  "title": "WVB Boxscore",
+  "description": "Wake Forest vs North Carolina",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46133",
+      "seoname": "wake-forest",
+      "name6Char": "WAKE",
+      "nameFull": "Wake Forest University",
+      "nameShort": "Wake Forest",
+      "teamName": "Demon Deacons",
+      "color": "#010101"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46471",
+      "seoname": "north-carolina",
+      "name6Char": "UNC",
+      "nameFull": "University of North Carolina, Chapel Hill",
+      "nameShort": "North Carolina",
+      "teamName": "Tar Heels",
+      "color": "#7BAFD4"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46133,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "111",
+        "kills": "77",
+        "attackErrors": "34",
+        "attackAttempts": "196",
+        "hittingPercentage": "0.219",
+        "assists": "71",
+        "setErrors": "1",
+        "setAttempts": "198",
+        "serviceAces": "3",
+        "serviceErrors": "11",
+        "serveAttempts": "111",
+        "digs": "66",
+        "receptionAttempts": "111",
+        "receptionErrors": "4",
+        "blockSolos": "2",
+        "blockAssists": "14",
+        "blockingErrors": "4",
+        "totalBlocks": "9"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46471,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "119",
+        "kills": "69",
+        "attackErrors": "21",
+        "attackAttempts": "170",
+        "hittingPercentage": "0.282",
+        "assists": "65",
+        "setErrors": "0",
+        "setAttempts": "182",
+        "serviceAces": "4",
+        "serviceErrors": "8",
+        "serveAttempts": "119",
+        "digs": "70",
+        "receptionAttempts": "100",
+        "receptionErrors": "3",
+        "blockSolos": "1",
+        "blockAssists": "26",
+        "blockingErrors": "4",
+        "totalBlocks": "14"
+      }
+    }
+  ]
+}

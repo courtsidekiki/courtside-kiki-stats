@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628560,
+  "title": "WVB Boxscore",
+  "description": "Rider vs Siena",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45990",
+      "seoname": "rider",
+      "name6Char": "RIDER",
+      "nameFull": "Rider University",
+      "nameShort": "Rider",
+      "teamName": "Broncs",
+      "color": "#9D2235"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46248",
+      "seoname": "siena",
+      "name6Char": "SIENA",
+      "nameFull": "Siena University",
+      "nameShort": "Siena",
+      "teamName": "Saints",
+      "color": "#006747"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45990,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "58",
+        "kills": "33",
+        "attackErrors": "24",
+        "attackAttempts": "129",
+        "hittingPercentage": "0.070",
+        "assists": "31",
+        "setErrors": "1",
+        "setAttempts": "136",
+        "serviceAces": "2",
+        "serviceErrors": "8",
+        "serveAttempts": "59",
+        "digs": "58",
+        "receptionAttempts": "69",
+        "receptionErrors": "8",
+        "blockSolos": "0",
+        "blockAssists": "18",
+        "blockingErrors": "1",
+        "totalBlocks": "9"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46248,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "76",
+        "kills": "35",
+        "attackErrors": "17",
+        "attackAttempts": "117",
+        "hittingPercentage": "0.154",
+        "assists": "33",
+        "setErrors": "0",
+        "setAttempts": "118",
+        "serviceAces": "8",
+        "serviceErrors": "6",
+        "serveAttempts": "75",
+        "digs": "57",
+        "receptionAttempts": "51",
+        "receptionErrors": "2",
+        "blockSolos": "1",
+        "blockAssists": "14",
+        "blockingErrors": "3",
+        "totalBlocks": "8"
+      }
+    }
+  ]
+}

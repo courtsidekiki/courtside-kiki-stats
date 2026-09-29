@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625341,
+  "title": "WVB Boxscore",
+  "description": "Coastal Carolina vs Ga. Southern",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46170",
+      "seoname": "coastal-caro",
+      "name6Char": "CO CAR",
+      "nameFull": "Coastal Carolina University",
+      "nameShort": "Coastal Carolina",
+      "teamName": "Chanticleers",
+      "color": "#007377"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45910",
+      "seoname": "ga-southern",
+      "name6Char": "GA SOU",
+      "nameFull": "Georgia Southern University",
+      "nameShort": "Ga. Southern",
+      "teamName": "Eagles",
+      "color": "#041E42"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46170,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "52",
+        "kills": "25",
+        "attackErrors": "25",
+        "attackAttempts": "111",
+        "hittingPercentage": ".000",
+        "assists": "25",
+        "setErrors": "0",
+        "setAttempts": "120",
+        "serviceAces": "2",
+        "serviceErrors": "4",
+        "serveAttempts": "53",
+        "digs": "51",
+        "receptionAttempts": "65",
+        "receptionErrors": "5",
+        "blockSolos": "3",
+        "blockAssists": "10",
+        "blockingErrors": "0",
+        "totalBlocks": "8"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45910,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "41",
+        "attackErrors": "14",
+        "attackAttempts": "118",
+        "hittingPercentage": "0.229",
+        "assists": "38",
+        "setErrors": "1",
+        "setAttempts": "118",
+        "serviceAces": "5",
+        "serviceErrors": "9",
+        "serveAttempts": "74",
+        "digs": "52",
+        "receptionAttempts": "49",
+        "receptionErrors": "2",
+        "blockSolos": "4",
+        "blockAssists": "16",
+        "blockingErrors": "0",
+        "totalBlocks": "12"
+      }
+    }
+  ]
+}

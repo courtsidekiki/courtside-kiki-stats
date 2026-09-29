@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626625,
+  "title": "WVB Boxscore",
+  "description": "UConn vs DePaul",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46408",
+      "seoname": "uconn",
+      "name6Char": "UCONN",
+      "nameFull": "University of Connecticut",
+      "nameShort": "UConn",
+      "teamName": "Huskies",
+      "color": "#0C2340"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45902",
+      "seoname": "depaul",
+      "name6Char": "DEPAUL",
+      "nameFull": "DePaul University",
+      "nameShort": "DePaul",
+      "teamName": "Blue Demons",
+      "color": "#003DA5"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46408,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "108",
+        "kills": "63",
+        "attackErrors": "20",
+        "attackAttempts": "164",
+        "hittingPercentage": "0.262",
+        "assists": "58",
+        "setErrors": "1",
+        "setAttempts": "176",
+        "serviceAces": "8",
+        "serviceErrors": "18",
+        "serveAttempts": "109",
+        "digs": "66",
+        "receptionAttempts": "101",
+        "receptionErrors": "13",
+        "blockSolos": "1",
+        "blockAssists": "12",
+        "blockingErrors": "0",
+        "totalBlocks": "7"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45902,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "115",
+        "kills": "62",
+        "attackErrors": "22",
+        "attackAttempts": "170",
+        "hittingPercentage": "0.235",
+        "assists": "57",
+        "setErrors": "2",
+        "setAttempts": "178",
+        "serviceAces": "13",
+        "serviceErrors": "13",
+        "serveAttempts": "114",
+        "digs": "66",
+        "receptionAttempts": "91",
+        "receptionErrors": "8",
+        "blockSolos": "2",
+        "blockAssists": "6",
+        "blockingErrors": "0",
+        "totalBlocks": "5"
+      }
+    }
+  ]
+}

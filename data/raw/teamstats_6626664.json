@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626664,
+  "title": "WVB Boxscore",
+  "description": "Stony Brook vs Hofstra",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46753",
+      "seoname": "stony-brook",
+      "name6Char": "STONY",
+      "nameFull": "Stony Brook University",
+      "nameShort": "Stony Brook",
+      "teamName": "Seawolves",
+      "color": "#A6192E"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45914",
+      "seoname": "hofstra",
+      "name6Char": "HOFSTR",
+      "nameFull": "Hofstra University",
+      "nameShort": "Hofstra",
+      "teamName": "Pride",
+      "color": "#003594"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46753,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "71",
+        "kills": "38",
+        "attackErrors": "21",
+        "attackAttempts": "129",
+        "hittingPercentage": "0.132",
+        "assists": "34",
+        "setErrors": "2",
+        "setAttempts": "127",
+        "serviceAces": "7",
+        "serviceErrors": "3",
+        "serveAttempts": "73",
+        "digs": "55",
+        "receptionAttempts": "70",
+        "receptionErrors": "5",
+        "blockSolos": "1",
+        "blockAssists": "20",
+        "blockingErrors": "4",
+        "totalBlocks": "11"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45914,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "78",
+        "kills": "46",
+        "attackErrors": "18",
+        "attackAttempts": "134",
+        "hittingPercentage": "0.209",
+        "assists": "43",
+        "setErrors": "2",
+        "setAttempts": "141",
+        "serviceAces": "5",
+        "serviceErrors": "6",
+        "serveAttempts": "76",
+        "digs": "60",
+        "receptionAttempts": "70",
+        "receptionErrors": "7",
+        "blockSolos": "2",
+        "blockAssists": "14",
+        "blockingErrors": "2",
+        "totalBlocks": "9"
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626364,
+  "title": "WVB Boxscore",
+  "description": "High Point vs Radford",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46635",
+      "seoname": "high-point",
+      "name6Char": "HIGHPT",
+      "nameFull": "High Point University",
+      "nameShort": "High Point",
+      "teamName": "Panthers",
+      "color": "#330072"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46241",
+      "seoname": "radford",
+      "name6Char": "RADFRD",
+      "nameFull": "Radford University",
+      "nameShort": "Radford",
+      "teamName": "Highlanders",
+      "color": "#C8102E"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46635,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "79",
+        "kills": "39",
+        "attackErrors": "9",
+        "attackAttempts": "80",
+        "hittingPercentage": "0.375",
+        "assists": "38",
+        "setErrors": "2",
+        "setAttempts": "85",
+        "serviceAces": "9",
+        "serviceErrors": "6",
+        "serveAttempts": "77",
+        "digs": "39",
+        "receptionAttempts": "44",
+        "receptionErrors": "0",
+        "blockSolos": "0",
+        "blockAssists": "8",
+        "blockingErrors": "1",
+        "totalBlocks": "4"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46241,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "53",
+        "kills": "36",
+        "attackErrors": "18",
+        "attackAttempts": "99",
+        "hittingPercentage": "0.182",
+        "assists": "32",
+        "setErrors": "2",
+        "setAttempts": "97",
+        "serviceAces": "0",
+        "serviceErrors": "11",
+        "serveAttempts": "55",
+        "digs": "26",
+        "receptionAttempts": "71",
+        "receptionErrors": "9",
+        "blockSolos": "1",
+        "blockAssists": "10",
+        "blockingErrors": "1",
+        "totalBlocks": "6"
+      }
+    }
+  ]
+}

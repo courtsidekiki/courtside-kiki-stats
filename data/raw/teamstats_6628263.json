@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628263,
+  "title": "WVB Boxscore",
+  "description": "UMES vs N.C. Central",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46563",
+      "seoname": "umes",
+      "name6Char": "UMES",
+      "nameFull": "University of Maryland Eastern Shore",
+      "nameShort": "UMES",
+      "teamName": "Hawks",
+      "color": "#5D0024"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45845",
+      "seoname": "nc-central",
+      "name6Char": "NC CEN",
+      "nameFull": "North Carolina Central University",
+      "nameShort": "N.C. Central",
+      "teamName": "Eagles",
+      "color": "#862633"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46563,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "101",
+        "kills": "41",
+        "attackErrors": "19",
+        "attackAttempts": "131",
+        "hittingPercentage": "0.168",
+        "assists": "35",
+        "setErrors": "4",
+        "setAttempts": "137",
+        "serviceAces": "6",
+        "serviceErrors": "9",
+        "serveAttempts": "102",
+        "digs": "50",
+        "receptionAttempts": "91",
+        "receptionErrors": "13",
+        "blockSolos": "7",
+        "blockAssists": "6",
+        "blockingErrors": "0",
+        "totalBlocks": "10"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45845,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "113",
+        "kills": "68",
+        "attackErrors": "30",
+        "attackAttempts": "163",
+        "hittingPercentage": "0.233",
+        "assists": "65",
+        "setErrors": "3",
+        "setAttempts": "173",
+        "serviceAces": "13",
+        "serviceErrors": "21",
+        "serveAttempts": "112",
+        "digs": "57",
+        "receptionAttempts": "93",
+        "receptionErrors": "6",
+        "blockSolos": "3",
+        "blockAssists": "10",
+        "blockingErrors": "0",
+        "totalBlocks": "8"
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626818,
+  "title": "WVB Boxscore",
+  "description": "Kentucky vs Texas",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45920",
+      "seoname": "kentucky",
+      "name6Char": "UK",
+      "nameFull": "University of Kentucky",
+      "nameShort": "Kentucky",
+      "teamName": "Wildcats",
+      "color": "#3258AF"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46755",
+      "seoname": "texas",
+      "name6Char": "TEXAS",
+      "nameFull": "University of Texas at Austin",
+      "nameShort": "Texas",
+      "teamName": "Longhorns",
+      "color": "#CB6015"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45920,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "47",
+        "attackErrors": "18",
+        "attackAttempts": "108",
+        "hittingPercentage": "0.269",
+        "assists": "44",
+        "setErrors": "0",
+        "setAttempts": "103",
+        "serviceAces": "1",
+        "serviceErrors": "6",
+        "serveAttempts": "74",
+        "digs": "43",
+        "receptionAttempts": "56",
+        "receptionErrors": "1",
+        "blockSolos": "1",
+        "blockAssists": "14",
+        "blockingErrors": "1",
+        "totalBlocks": "8"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46755,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "64",
+        "kills": "39",
+        "attackErrors": "18",
+        "attackAttempts": "112",
+        "hittingPercentage": "0.188",
+        "assists": "37",
+        "setErrors": "0",
+        "setAttempts": "108",
+        "serviceAces": "1",
+        "serviceErrors": "9",
+        "serveAttempts": "65",
+        "digs": "36",
+        "receptionAttempts": "68",
+        "receptionErrors": "1",
+        "blockSolos": "4",
+        "blockAssists": "14",
+        "blockingErrors": "1",
+        "totalBlocks": "11"
+      }
+    }
+  ]
+}

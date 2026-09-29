@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626945,
+  "title": "WVB Boxscore",
+  "description": "Butler vs Georgetown",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46219",
+      "seoname": "butler",
+      "name6Char": "BUTLER",
+      "nameFull": "Butler University",
+      "nameShort": "Butler",
+      "teamName": "Bulldogs",
+      "color": "#13294B"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46417",
+      "seoname": "georgetown",
+      "name6Char": "GTOWN",
+      "nameFull": "Georgetown University",
+      "nameShort": "Georgetown",
+      "teamName": "Hoyas",
+      "color": "#141F35"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46219,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "96",
+        "kills": "55",
+        "attackErrors": "19",
+        "attackAttempts": "121",
+        "hittingPercentage": "0.298",
+        "assists": "51",
+        "setErrors": "0",
+        "setAttempts": "114",
+        "serviceAces": "10",
+        "serviceErrors": "15",
+        "serveAttempts": "95",
+        "digs": "40",
+        "receptionAttempts": "63",
+        "receptionErrors": "3",
+        "blockSolos": "2",
+        "blockAssists": "4",
+        "blockingErrors": "3",
+        "totalBlocks": "4"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46417,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "69",
+        "kills": "32",
+        "attackErrors": "22",
+        "attackAttempts": "103",
+        "hittingPercentage": "0.097",
+        "assists": "32",
+        "setErrors": "2",
+        "setAttempts": "109",
+        "serviceAces": "3",
+        "serviceErrors": "7",
+        "serveAttempts": "70",
+        "digs": "39",
+        "receptionAttempts": "80",
+        "receptionErrors": "10",
+        "blockSolos": "2",
+        "blockAssists": "11",
+        "blockingErrors": "4",
+        "totalBlocks": "7"
+      }
+    }
+  ]
+}

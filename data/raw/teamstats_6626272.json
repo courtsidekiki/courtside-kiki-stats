@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626272,
+  "title": "WVB Boxscore",
+  "description": "SMU vs California",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46250",
+      "seoname": "smu",
+      "name6Char": "SMU",
+      "nameFull": "Southern Methodist University",
+      "nameShort": "SMU",
+      "teamName": "Mustangs",
+      "color": "#A80000"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45760",
+      "seoname": "california",
+      "name6Char": "CAL",
+      "nameFull": "University of California, Berkeley",
+      "nameShort": "California",
+      "teamName": "Golden Bears",
+      "color": "#041E42"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46250,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "94",
+        "kills": "56",
+        "attackErrors": "18",
+        "attackAttempts": "106",
+        "hittingPercentage": "0.358",
+        "assists": "52",
+        "setErrors": "2",
+        "setAttempts": "99",
+        "serviceAces": "6",
+        "serviceErrors": "13",
+        "serveAttempts": "93",
+        "digs": "35",
+        "receptionAttempts": "63",
+        "receptionErrors": "2",
+        "blockSolos": "2",
+        "blockAssists": "10",
+        "blockingErrors": "2",
+        "totalBlocks": "7"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45760,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "76",
+        "kills": "41",
+        "attackErrors": "17",
+        "attackAttempts": "105",
+        "hittingPercentage": "0.229",
+        "assists": "41",
+        "setErrors": "1",
+        "setAttempts": "102",
+        "serviceAces": "2",
+        "serviceErrors": "14",
+        "serveAttempts": "77",
+        "digs": "27",
+        "receptionAttempts": "80",
+        "receptionErrors": "6",
+        "blockSolos": "1",
+        "blockAssists": "16",
+        "blockingErrors": "3",
+        "totalBlocks": "9"
+      }
+    }
+  ]
+}

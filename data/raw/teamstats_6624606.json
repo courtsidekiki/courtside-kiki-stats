@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624606,
+  "title": "WVB Boxscore",
+  "description": "UT Arlington vs West Ga.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45873",
+      "seoname": "texas-arlington",
+      "name6Char": "TX ARL",
+      "nameFull": "University of Texas at Arlington",
+      "nameShort": "UT Arlington",
+      "teamName": "Mavericks",
+      "color": "#003DA5"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46381",
+      "seoname": "west-ga",
+      "name6Char": "W GA",
+      "nameFull": "University of West Georgia",
+      "nameShort": "West Ga.",
+      "teamName": "Wolves",
+      "color": "#0032A0"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45873,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "113",
+        "kills": "64",
+        "attackErrors": "30",
+        "attackAttempts": "162",
+        "hittingPercentage": "0.210",
+        "assists": "60",
+        "setErrors": "4",
+        "setAttempts": "169",
+        "serviceAces": "1",
+        "serviceErrors": "12",
+        "serveAttempts": "111",
+        "digs": "66",
+        "receptionAttempts": "90",
+        "receptionErrors": "5",
+        "blockSolos": "3",
+        "blockAssists": "14",
+        "blockingErrors": "3",
+        "totalBlocks": "10"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46381,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "104",
+        "kills": "53",
+        "attackErrors": "30",
+        "attackAttempts": "162",
+        "hittingPercentage": "0.142",
+        "assists": "49",
+        "setErrors": "2",
+        "setAttempts": "170",
+        "serviceAces": "5",
+        "serviceErrors": "15",
+        "serveAttempts": "105",
+        "digs": "57",
+        "receptionAttempts": "99",
+        "receptionErrors": "1",
+        "blockSolos": "4",
+        "blockAssists": "10",
+        "blockingErrors": "0",
+        "totalBlocks": "9"
+      }
+    }
+  ]
+}

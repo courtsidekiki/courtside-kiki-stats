@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625073,
+  "title": "WVB Boxscore",
+  "description": "Denver vs Pacific",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46048",
+      "seoname": "denver",
+      "name6Char": "DENVER",
+      "nameFull": "University of Denver",
+      "nameShort": "Denver",
+      "teamName": "Pioneers",
+      "color": "#B90C2F"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46482",
+      "seoname": "pacific",
+      "name6Char": "PACIF",
+      "nameFull": "University of the Pacific",
+      "nameShort": "Pacific",
+      "teamName": "Tigers",
+      "color": "#E35205"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46048,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "79",
+        "kills": "50",
+        "attackErrors": "17",
+        "attackAttempts": "126",
+        "hittingPercentage": "0.262",
+        "assists": "46",
+        "setErrors": "1",
+        "setAttempts": "130",
+        "serviceAces": "3",
+        "serviceErrors": "9",
+        "serveAttempts": "77",
+        "digs": "51",
+        "receptionAttempts": "60",
+        "receptionErrors": "1",
+        "blockSolos": "1",
+        "blockAssists": "18",
+        "blockingErrors": "2",
+        "totalBlocks": "10"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46482,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "60",
+        "kills": "32",
+        "attackErrors": "24",
+        "attackAttempts": "115",
+        "hittingPercentage": "0.070",
+        "assists": "31",
+        "setErrors": "0",
+        "setAttempts": "121",
+        "serviceAces": "1",
+        "serviceErrors": "2",
+        "serveAttempts": "62",
+        "digs": "46",
+        "receptionAttempts": "68",
+        "receptionErrors": "3",
+        "blockSolos": "4",
+        "blockAssists": "12",
+        "blockingErrors": "7",
+        "totalBlocks": "10"
+      }
+    }
+  ]
+}

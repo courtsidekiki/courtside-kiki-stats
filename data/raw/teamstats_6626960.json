@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626960,
+  "title": "WVB Boxscore",
+  "description": "Hampton vs Elon",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46679",
+      "seoname": "hampton",
+      "name6Char": "HAMPTN",
+      "nameFull": "Hampton University",
+      "nameShort": "Hampton",
+      "teamName": "Lady Pirates",
+      "color": "#0033A0"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45957",
+      "seoname": "elon",
+      "name6Char": "ELON",
+      "nameFull": "Elon University",
+      "nameShort": "Elon",
+      "teamName": "Phoenix",
+      "color": "#76232F"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46679,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "45",
+        "kills": "24",
+        "attackErrors": "19",
+        "attackAttempts": "92",
+        "hittingPercentage": "0.054",
+        "assists": "20",
+        "setErrors": "1",
+        "setAttempts": "93",
+        "serviceAces": "3",
+        "serviceErrors": "5",
+        "serveAttempts": "47",
+        "digs": "27",
+        "receptionAttempts": "68",
+        "receptionErrors": "9",
+        "blockSolos": "0",
+        "blockAssists": "10",
+        "blockingErrors": "0",
+        "totalBlocks": "5"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45957,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "41",
+        "attackErrors": "11",
+        "attackAttempts": "84",
+        "hittingPercentage": "0.357",
+        "assists": "36",
+        "setErrors": "2",
+        "setAttempts": "83",
+        "serviceAces": "9",
+        "serviceErrors": "5",
+        "serveAttempts": "73",
+        "digs": "40",
+        "receptionAttempts": "42",
+        "receptionErrors": "3",
+        "blockSolos": "3",
+        "blockAssists": "10",
+        "blockingErrors": "0",
+        "totalBlocks": "8"
+      }
+    }
+  ]
+}

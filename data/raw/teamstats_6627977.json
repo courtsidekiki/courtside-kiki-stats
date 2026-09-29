@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627977,
+  "title": "WVB Boxscore",
+  "description": "Arkansas vs Auburn",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46212",
+      "seoname": "arkansas",
+      "name6Char": "ARK",
+      "nameFull": "University of Arkansas, Fayetteville",
+      "nameShort": "Arkansas",
+      "teamName": "Razorbacks",
+      "color": "#9D2235"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45808",
+      "seoname": "auburn",
+      "name6Char": "AUBURN",
+      "nameFull": "Auburn University",
+      "nameShort": "Auburn",
+      "teamName": "Tigers",
+      "color": "#FA4616"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46212,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "104",
+        "kills": "48",
+        "attackErrors": "29",
+        "attackAttempts": "173",
+        "hittingPercentage": "0.110",
+        "assists": "42",
+        "setErrors": "1",
+        "setAttempts": "167",
+        "serviceAces": "4",
+        "serviceErrors": "9",
+        "serveAttempts": "105",
+        "digs": "66",
+        "receptionAttempts": "93",
+        "receptionErrors": "9",
+        "blockSolos": "5",
+        "blockAssists": "12",
+        "blockingErrors": "1",
+        "totalBlocks": "11"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45808,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "112",
+        "kills": "64",
+        "attackErrors": "34",
+        "attackAttempts": "180",
+        "hittingPercentage": "0.167",
+        "assists": "62",
+        "setErrors": "0",
+        "setAttempts": "175",
+        "serviceAces": "9",
+        "serviceErrors": "18",
+        "serveAttempts": "111",
+        "digs": "82",
+        "receptionAttempts": "96",
+        "receptionErrors": "4",
+        "blockSolos": "0",
+        "blockAssists": "14",
+        "blockingErrors": "2",
+        "totalBlocks": "7"
+      }
+    }
+  ]
+}
