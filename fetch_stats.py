@@ -312,103 +312,122 @@ GAME_TEMPLATE = """
 <div class="game">
   <div class="matchup">
     <span>{away} @ {home}</span>
-    <span class="score">{away_score} – {home_score}</span>
+    <span class="score">{away_score} &ndash; {home_score}</span>
   </div>
-  <h4>Game Leaders</h4>
-  {game_leaders_html}
-  <h4>Team Stats</h4>
-  {team_stats_html}
+  <div class="empty">{status}</div>
+  {body}
 </div>
 """
 
-
-# Stat fields (as they commonly appear in ncaa.com box scores) we want to
-# crown a "leader" for, within a single game.
-GAME_LEADER_STATS = ["Kills", "Assists", "Digs", "Aces", "Blocks", "Block Solos", "Block Assists", "Points"]
-
-NAME_KEYS = ("Name", "name", "PlayerName", "player_name", "Player")
-
-
-def find_player_rows(obj, found=None):
-    """
-    Recursively hunt through a box score JSON blob (whose exact shape is
-    unconfirmed) for lists of dicts that look like individual player stat
-    lines: something with a name-like field plus at least one numeric stat.
-    """
-    if found is None:
-        found = []
-    if isinstance(obj, dict):
-        has_name = any(k in obj for k in NAME_KEYS)
-        has_number = any(isinstance(v, (int, float)) for v in obj.values())
-        if has_name and has_number:
-            found.append(obj)
-        else:
-            for v in obj.values():
-                find_player_rows(v, found)
-    elif isinstance(obj, list):
-        for item in obj:
-            find_player_rows(item, found)
-    return found
+GAME_BODY_TEMPLATE = """
+  <h4>Game Leaders</h4>
+  {game_leaders_html}
+  <h4>Set-by-Set</h4>
+  {set_html}
+  <h4>Team Totals</h4>
+  {team_stats_html}
+"""
 
 
-def player_name(row):
-    for k in NAME_KEYS:
-        if row.get(k):
-            return row[k]
-    return "?"
+# Per-game leaders, using the confirmed box score field names.
+# (field in playerStats, label shown)
+LEADER_FIELDS = [
+    ("kills", "Kills"),
+    ("assists", "Assists"),
+    ("digs", "Digs"),
+    ("serviceAces", "Aces"),
+    ("totalBlocks", "Blocks"),
+    ("points", "Points"),
+]
+MIN_ATTEMPTS_FOR_HITTING = 10
 
 
-def player_team(row):
-    for k in ("Team", "team", "TeamName"):
-        if row.get(k):
-            return row[k]
-    return ""
+def _num(v):
+    try:
+        return float(v)
+    except (TypeError, ValueError):
+        return None
+
+
+def _team_name_map(boxscore_json):
+    return {
+        str(t.get("teamId")): (t.get("nameShort") or t.get("nameFull") or "?")
+        for t in (boxscore_json.get("teams") or [])
+    }
 
 
 def compute_game_leaders(boxscore_json):
-    """Return {stat_label: (player_name, team, value)} for the top
-    performer in each tracked stat, for this single game."""
-    rows = find_player_rows(boxscore_json)
-    leaders = {}
-    for stat in GAME_LEADER_STATS:
-        best = None
-        for row in rows:
-            val = row.get(stat)
-            if isinstance(val, str):
-                try:
-                    val = float(val)
-                except ValueError:
-                    continue
-            if isinstance(val, (int, float)):
-                if best is None or val > best[2]:
-                    best = (player_name(row), player_team(row), val)
-        if best and best[2] > 0:
-            leaders[stat] = best
-    return leaders
+    """Return [(label, [(player, team, value), ...ties]), ...] for this game."""
+    if not boxscore_json:
+        return []
+    names = _team_name_map(boxscore_json)
+    players = []
+    for tb in boxscore_json.get("teamBoxscore") or []:
+        team = names.get(str(tb.get("teamId")), "")
+        for p in tb.get("playerStats") or []:
+            full = f"{p.get('firstName', '')} {p.get('lastName', '')}".strip() or "?"
+            players.append((full, team, p))
+
+    out = []
+    for field, label in LEADER_FIELDS:
+        vals = [(n, t, _num(p.get(field))) for n, t, p in players]
+        vals = [v for v in vals if v[2] is not None]
+        if not vals:
+            continue
+        top = max(v[2] for v in vals)
+        if top > 0:
+            out.append((label, [v for v in vals if v[2] == top]))
+
+    # Hitting % only counts with enough swings to mean something
+    hp = []
+    for n, t, p in players:
+        att, pct = _num(p.get("attackAttempts")), _num(p.get("hittingPercentage"))
+        if att is not None and pct is not None and att >= MIN_ATTEMPTS_FOR_HITTING:
+            hp.append((n, t, pct))
+    if hp:
+        top = max(v[2] for v in hp)
+        out.append((f"Hitting % (min {MIN_ATTEMPTS_FOR_HITTING} att.)", [v for v in hp if v[2] == top]))
+    return out
 
 
 def render_game_leaders_table(leaders):
     if not leaders:
         return ""
-    rows = "".join(
-        f"<tr><td>{stat}</td><td>{name}</td><td>{team}</td><td>{val:g}</td></tr>"
-        for stat, (name, team, val) in leaders.items()
-    )
-    return f"<table><tr><th>Stat</th><th>Leader</th><th>Team</th><th>Value</th></tr>{rows}</table>"
+    rows = []
+    for label, tied in leaders:
+        who = " / ".join(f"{n} ({t})" for n, t, _ in tied)
+        val = tied[0][2]
+        val_s = f"{val:.3f}" if "Hitting" in label else f"{val:g}"
+        rows.append(f"<tr><td>{label}</td><td>{who}</td><td>{val_s}</td></tr>")
+    return f"<table><tr><th>Stat</th><th>Leader</th><th>Value</th></tr>{''.join(rows)}</table>"
 
 
-# Key names (matched as substrings, case-insensitive) that are metadata/
-# plumbing rather than actual stats — filtered out of the Team Stats table.
-NOISE_KEY_PATTERNS = [
-    "seoname", "sportcode", "url", "logo", "color", "slug", "id",
-    "image", "link", "abbrev", "mascot", "conference", "division",
-    "sport", "gender", "seo", "code",
-]
-
-
-def is_noise_key(key):
-    k = key.lower()
-    return any(p in k for p in NOISE_KEY_PATTERNS)
+def render_set_table(boxscore_json):
+    """Set-by-set attacking (kills / errors / attempts / hitting %) per team.
+    The feed does not include set point scores, so this is what it offers."""
+    if not boxscore_json:
+        return ""
+    names = _team_name_map(boxscore_json)
+    per_team = []
+    for tb in boxscore_json.get("teamBoxscore") or []:
+        sets = (tb.get("teamStats") or {}).get("sets") or []
+        per_team.append((names.get(str(tb.get("teamId")), "?"), sets))
+    if not per_team or not any(s for _, s in per_team):
+        return ""
+    n_sets = max(len(s) for _, s in per_team)
+    head = "".join(f"<th>Set {i + 1}</th>" for i in range(n_sets))
+    rows = []
+    for name, sets in per_team:
+        cells = []
+        for i in range(n_sets):
+            s = sets[i] if i < len(sets) else None
+            if s:
+                cells.append(f"<td>{s.get('kills', '-')}-{s.get('attackErrors', '-')}-{s.get('attackAttempts', '-')}"
+                             f"<br><small>{s.get('hittingPercentage', '-')}</small></td>")
+            else:
+                cells.append("<td>-</td>")
+        rows.append(f"<tr><td>{name}</td>{''.join(cells)}</tr>")
+    return (f"<table><tr><th>Attacking (K-E-TA / hit %)</th>{head}</tr>{''.join(rows)}</table>")
 
 
 # Team totals, in display order, mapped from the confirmed real field names
@@ -464,28 +483,21 @@ def render_team_stats_table(team_stats_json):
     return f"<table><tr><th>Stat</th>{header}</tr>{''.join(body_rows)}</table>"
 
 
-def _unused_generic_team_stats_table(team_stats_json):
-    if not team_stats_json:
-        return '<p class="empty">Team stats not available for this game.</p>'
-    # Defensive: shape unconfirmed, so just pretty-print whatever key/value
-    # pairs we can find rather than guessing wrong and hiding data.
-    rows = []
-    def walk(obj, prefix=""):
-        if isinstance(obj, dict):
-            for k, v in obj.items():
-                if isinstance(v, (dict, list)):
-                    walk(v, f"{prefix}{k} ")
-                else:
-                    if not is_noise_key(k):
-                        rows.append((f"{prefix}{k}", v))
-        elif isinstance(obj, list):
-            for item in obj:
-                walk(item, prefix)
-    walk(team_stats_json)
-    if not rows:
-        return '<p class="empty">Team stats not available for this game.</p>'
-    body = "".join(f"<tr><td>{k}</td><td>{v}</td></tr>" for k, v in rows[:40])
-    return f"<table><tr><th>Stat</th><th>Value</th></tr>{body}</table>"
+def _side_label(game, side):
+    t = game.get(side, {}) or {}
+    name = (t.get("names") or {}).get("short") or side.title()
+    rank = t.get("rank")
+    label = f"#{rank} {name}" if rank else name
+    return f"<strong>{label}</strong>" if t.get("winner") else label
+
+
+def _status_text(game):
+    state = game.get("gameState")
+    if state == "final":
+        return "Final"
+    if state == "pre":
+        return f"Starts {game.get('startTime', '')}".strip()
+    return f"Live &middot; {game.get('currentPeriod', '')}".strip()
 
 
 def render_games_section(games, boxscores, team_stats_map):
@@ -493,20 +505,25 @@ def render_games_section(games, boxscores, team_stats_map):
         return '<div class="card"><h2>Games</h2><p class="empty">No D1 women\'s volleyball games found for this date.</p></div>'
     html_games = []
     for game in games:
-        home, away = team_names(game)
-        home_score = team_score(game, "home")
-        away_score = team_score(game, "away")
         gid = game_id_of(game)
-        ts_html = render_team_stats_table(team_stats_map.get(gid))
-        leaders = compute_game_leaders(boxscores.get(gid))
-        gl_html = render_game_leaders_table(leaders) or '<p class="empty">Player leaders not available for this game.</p>'
+        box = boxscores.get(gid)
+        if game.get("gameState") == "pre" or not box:
+            body = '<p class="empty">Stats appear once the match is underway.</p>' \
+                if game.get("gameState") == "pre" else '<p class="empty">Stats not available for this match.</p>'
+        else:
+            gl = render_game_leaders_table(compute_game_leaders(box)) \
+                or '<p class="empty">Player leaders not available.</p>'
+            body = GAME_BODY_TEMPLATE.format(
+                game_leaders_html=gl,
+                set_html=render_set_table(box) or '<p class="empty">Set data not available.</p>',
+                team_stats_html=render_team_stats_table(team_stats_map.get(gid)),
+            )
         html_games.append(GAME_TEMPLATE.format(
-            away=away, home=home,
-            away_score=away_score, home_score=home_score,
-            game_leaders_html=gl_html,
-            team_stats_html=ts_html,
+            away=_side_label(game, "away"), home=_side_label(game, "home"),
+            away_score=team_score(game, "away"), home_score=team_score(game, "home"),
+            status=_status_text(game), body=body,
         ))
-    return f'<div class="card"><h2>Today\'s Games & Box Scores</h2>{"".join(html_games)}</div>'
+    return f'<div class="card"><h2>Games &amp; Box Scores</h2>{"".join(html_games)}</div>'
 
 
 def render_leaders_section(leaders_by_category):
@@ -534,11 +551,20 @@ def build_day(date):
     games = extract_games(scoreboard)
 
     boxscores, team_stats_map = {}, {}
+    probed = False
     for game in games:
         gid = game_id_of(game)
-        if gid:
+        if gid and game.get("gameState") != "pre":  # nothing to fetch before first serve
             boxscores[gid] = get_boxscore(gid)
             team_stats_map[gid] = get_team_stats(gid)
+            if not probed and game.get("gameState") == "final":
+                # One-off probe: save the base game record so we can look for
+                # set point scores (25-20 style), which boxscore lacks.
+                time.sleep(REQUEST_DELAY_SECONDS)
+                info = api_get(f"/game/{gid}")
+                if info:
+                    dump_raw(f"gameinfo_{gid}", info)
+                probed = True
 
     sections = render_games_section(games, boxscores, team_stats_map)
 
