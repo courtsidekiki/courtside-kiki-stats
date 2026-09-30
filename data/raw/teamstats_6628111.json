@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628111,
+  "title": "WVB Boxscore",
+  "description": "Sacred Heart vs Fairfield",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46737",
+      "seoname": "sacred-heart",
+      "name6Char": "SACHRT",
+      "nameFull": "Sacred Heart University",
+      "nameShort": "Sacred Heart",
+      "teamName": "Pioneers",
+      "color": "#BA0C2F"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46300",
+      "seoname": "fairfield",
+      "name6Char": "FAIR",
+      "nameFull": "Fairfield University",
+      "nameShort": "Fairfield",
+      "teamName": "Stags",
+      "color": "#C8102E"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46737,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "103",
+        "kills": "61",
+        "attackErrors": "26",
+        "attackAttempts": "164",
+        "hittingPercentage": "0.213",
+        "assists": "60",
+        "setErrors": "0",
+        "setAttempts": "156",
+        "serviceAces": "11",
+        "serviceErrors": "5",
+        "serveAttempts": "103",
+        "digs": "77",
+        "receptionAttempts": "83",
+        "receptionErrors": "6",
+        "blockSolos": "1",
+        "blockAssists": "12",
+        "blockingErrors": "1",
+        "totalBlocks": "7"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46300,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "99",
+        "kills": "62",
+        "attackErrors": "14",
+        "attackAttempts": "160",
+        "hittingPercentage": "0.300",
+        "assists": "58",
+        "setErrors": "1",
+        "setAttempts": "148",
+        "serviceAces": "6",
+        "serviceErrors": "16",
+        "serveAttempts": "99",
+        "digs": "63",
+        "receptionAttempts": "98",
+        "receptionErrors": "11",
+        "blockSolos": "1",
+        "blockAssists": "31",
+        "blockingErrors": "3",
+        "totalBlocks": "16"
+      }
+    }
+  ]
+}

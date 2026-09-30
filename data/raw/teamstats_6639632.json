@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6639632,
+  "title": "WVB Boxscore",
+  "description": "Quinnipiac vs Merrimack",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46112",
+      "seoname": "quinnipiac",
+      "name6Char": "QUINN",
+      "nameFull": "Quinnipiac University",
+      "nameShort": "Quinnipiac",
+      "teamName": "Bobcats",
+      "color": "#0C2340"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46433",
+      "seoname": "merrimack",
+      "name6Char": "MERMCK",
+      "nameFull": "Merrimack College",
+      "nameShort": "Merrimack",
+      "teamName": "Warriors",
+      "color": "#003057"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46112,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "107",
+        "kills": "58",
+        "attackErrors": "31",
+        "attackAttempts": "155",
+        "hittingPercentage": "0.174",
+        "assists": "50",
+        "setErrors": "4",
+        "setAttempts": "161",
+        "serviceAces": "7",
+        "serviceErrors": "10",
+        "serveAttempts": "106",
+        "digs": "67",
+        "receptionAttempts": "80",
+        "receptionErrors": "5",
+        "blockSolos": "3",
+        "blockAssists": "14",
+        "blockingErrors": "2",
+        "totalBlocks": "10"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46433,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "93",
+        "kills": "43",
+        "attackErrors": "24",
+        "attackAttempts": "154",
+        "hittingPercentage": "0.123",
+        "assists": "40",
+        "setErrors": "4",
+        "setAttempts": "159",
+        "serviceAces": "5",
+        "serviceErrors": "14",
+        "serveAttempts": "94",
+        "digs": "52",
+        "receptionAttempts": "96",
+        "receptionErrors": "7",
+        "blockSolos": "8",
+        "blockAssists": "18",
+        "blockingErrors": "3",
+        "totalBlocks": "17"
+      }
+    }
+  ]
+}

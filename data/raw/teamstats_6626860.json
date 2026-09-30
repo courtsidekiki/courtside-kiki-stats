@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626860,
+  "title": "WVB Boxscore",
+  "description": "Saint Peter's vs Rider",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46618",
+      "seoname": "st-peters",
+      "name6Char": "ST PTR",
+      "nameFull": "Saint Peter's University",
+      "nameShort": "Saint Peter's",
+      "teamName": "Peacocks",
+      "color": "#21375C"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45990",
+      "seoname": "rider",
+      "name6Char": "RIDER",
+      "nameFull": "Rider University",
+      "nameShort": "Rider",
+      "teamName": "Broncs",
+      "color": "#9D2235"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46618,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "40",
+        "attackErrors": "17",
+        "attackAttempts": "99",
+        "hittingPercentage": "0.232",
+        "assists": "34",
+        "setErrors": "0",
+        "setAttempts": "99",
+        "serviceAces": "6",
+        "serviceErrors": "2",
+        "serveAttempts": "73",
+        "digs": "44",
+        "receptionAttempts": "47",
+        "receptionErrors": "1",
+        "blockSolos": "0",
+        "blockAssists": "12",
+        "blockingErrors": "3",
+        "totalBlocks": "6"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45990,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "49",
+        "kills": "29",
+        "attackErrors": "25",
+        "attackAttempts": "105",
+        "hittingPercentage": "0.038",
+        "assists": "28",
+        "setErrors": "0",
+        "setAttempts": "107",
+        "serviceAces": "1",
+        "serviceErrors": "4",
+        "serveAttempts": "51",
+        "digs": "35",
+        "receptionAttempts": "71",
+        "receptionErrors": "6",
+        "blockSolos": "0",
+        "blockAssists": "10",
+        "blockingErrors": "1",
+        "totalBlocks": "5"
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624859,
+  "title": "WVB Boxscore",
+  "description": "Coppin St. vs Loyola Maryland",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46045",
+      "seoname": "coppin-st",
+      "name6Char": "COPPIN",
+      "nameFull": "Coppin State University",
+      "nameShort": "Coppin St.",
+      "teamName": "Eagles",
+      "color": "#0c3354"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46062",
+      "seoname": "loyola-maryland",
+      "name6Char": "LOY MD",
+      "nameFull": "Loyola University Maryland",
+      "nameShort": "Loyola Maryland",
+      "teamName": "Greyhounds",
+      "color": "#115740"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46045,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "109",
+        "kills": "64",
+        "attackErrors": "19",
+        "attackAttempts": "160",
+        "hittingPercentage": "0.281",
+        "assists": "59",
+        "setErrors": "1",
+        "setAttempts": "170",
+        "serviceAces": "7",
+        "serviceErrors": "11",
+        "serveAttempts": "109",
+        "digs": "68",
+        "receptionAttempts": "84",
+        "receptionErrors": "5",
+        "blockSolos": "2",
+        "blockAssists": "12",
+        "blockingErrors": "0",
+        "totalBlocks": "8"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46062,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "95",
+        "kills": "59",
+        "attackErrors": "22",
+        "attackAttempts": "162",
+        "hittingPercentage": "0.228",
+        "assists": "57",
+        "setErrors": "5",
+        "setAttempts": "175",
+        "serviceAces": "5",
+        "serviceErrors": "11",
+        "serveAttempts": "95",
+        "digs": "67",
+        "receptionAttempts": "98",
+        "receptionErrors": "7",
+        "blockSolos": "5",
+        "blockAssists": "8",
+        "blockingErrors": "2",
+        "totalBlocks": "9"
+      }
+    }
+  ]
+}

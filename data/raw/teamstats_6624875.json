@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624875,
+  "title": "WVB Boxscore",
+  "description": "Utah Tech vs Southern Utah",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45886",
+      "seoname": "utah-tech",
+      "name6Char": "UTTECH",
+      "nameFull": "Utah Tech University",
+      "nameShort": "Utah Tech",
+      "teamName": "Trailblazers ",
+      "color": "#BA1C21"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46002",
+      "seoname": "southern-utah",
+      "name6Char": "S UTAH",
+      "nameFull": "Southern Utah University",
+      "nameShort": "Southern Utah",
+      "teamName": "Thunderbirds",
+      "color": "#BA0C2F"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45886,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "98",
+        "kills": "55",
+        "attackErrors": "26",
+        "attackAttempts": "155",
+        "hittingPercentage": "0.187",
+        "assists": "52",
+        "setErrors": "3",
+        "setAttempts": "155",
+        "serviceAces": "2",
+        "serviceErrors": "13",
+        "serveAttempts": "97",
+        "digs": "67",
+        "receptionAttempts": "73",
+        "receptionErrors": "2",
+        "blockSolos": "8",
+        "blockAssists": "8",
+        "blockingErrors": "0",
+        "totalBlocks": "12"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46002,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "82",
+        "kills": "38",
+        "attackErrors": "29",
+        "attackAttempts": "147",
+        "hittingPercentage": "0.061",
+        "assists": "37",
+        "setErrors": "2",
+        "setAttempts": "153",
+        "serviceAces": "2",
+        "serviceErrors": "10",
+        "serveAttempts": "83",
+        "digs": "58",
+        "receptionAttempts": "84",
+        "receptionErrors": "2",
+        "blockSolos": "6",
+        "blockAssists": "6",
+        "blockingErrors": "0",
+        "totalBlocks": "9"
+      }
+    }
+  ]
+}

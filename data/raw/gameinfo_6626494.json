@@ -1,0 +1,98 @@
+{
+  "contests": [
+    {
+      "__typename": "Contest",
+      "id": "6626494",
+      "sportCode": "WVB",
+      "sportUrl": "volleyball-women",
+      "division": 1,
+      "clock": null,
+      "currentPeriod": "FINAL",
+      "finalMessage": "FINAL",
+      "gameState": "F",
+      "statusCodeDisplay": "final",
+      "network": null,
+      "startTime": "17:00",
+      "startTimeEpoch": 1790715600,
+      "week": null,
+      "seasonYear": 2026,
+      "winner": 46317,
+      "hasStartTime": true,
+      "hasBoxscore": true,
+      "hasPbp": true,
+      "hasScoringSummary": false,
+      "hasPreview": false,
+      "hasRecap": false,
+      "hasTeamStats": true,
+      "linescores": [
+        {
+          "__typename": "Linescore",
+          "period": "1",
+          "home": "25",
+          "visit": "15"
+        },
+        {
+          "__typename": "Linescore",
+          "period": "2",
+          "home": "25",
+          "visit": "22"
+        },
+        {
+          "__typename": "Linescore",
+          "period": "3",
+          "home": "25",
+          "visit": "21"
+        }
+      ],
+      "teams": [
+        {
+          "__typename": "ContestTeam",
+          "teamId": "46317",
+          "isHome": true,
+          "color": "#861F41",
+          "seoname": "loyola-chicago",
+          "nameFull": "Loyola University Chicago",
+          "nameShort": "Loyola Chicago",
+          "name6Char": "LOYCHI",
+          "teamRank": null,
+          "gameRank": null,
+          "score": 3,
+          "seed": null,
+          "record": "(4-8)",
+          "divisionName": "d1",
+          "division": 1,
+          "isWinner": true
+        },
+        {
+          "__typename": "ContestTeam",
+          "teamId": "46744",
+          "isHome": false,
+          "color": "#003DA5",
+          "seoname": "saint-louis",
+          "nameFull": "Saint Louis University",
+          "nameShort": "Saint Louis",
+          "name6Char": "ST LOU",
+          "teamRank": null,
+          "gameRank": null,
+          "score": 0,
+          "seed": null,
+          "record": "(6-7)",
+          "divisionName": "d1",
+          "division": 1,
+          "isWinner": false
+        }
+      ],
+      "liveVideos": [],
+      "championship": null,
+      "championshipGame": null,
+      "links": [],
+      "location": {
+        "__typename": "Location",
+        "venue": "Joseph J. Gentile Arena",
+        "city": "Chicago",
+        "stateUsps": "IL"
+      },
+      "stats": null
+    }
+  ]
+}
