@@ -225,11 +225,24 @@ PAGE_TEMPLATE = """<!doctype html>
     border-radius: 8px;
     transform: rotate(-1deg);
   }}
+  .conference {{ margin-top: 1.5rem; }}
+  .conference:first-of-type {{ margin-top: 0; }}
+  .conf-name {{
+    display: inline-block;
+    background: var(--purple);
+    color: var(--paper);
+    padding: .25rem 1rem;
+    border: 3px solid var(--ink);
+    border-radius: 10px;
+    box-shadow: 4px 4px 0 var(--ink);
+    transform: rotate(-1deg);
+    margin: 0 0 .25rem;
+  }}
   .game {{
     border-top: 2px dashed #ccc;
     padding: .85rem 0;
   }}
-  .game:first-of-type {{ border-top: none; }}
+  .conference .game:first-of-type {{ border-top: none; }}
   .matchup {{ display: flex; justify-content: space-between; font-weight: bold; font-size: 1.1rem; }}
   .score {{ color: var(--pink); }}
   table {{ width: 100%; border-collapse: collapse; font-size: .92rem; margin-top: .5rem; }}
@@ -306,6 +319,13 @@ PAGE_TEMPLATE = """<!doctype html>
 <p class="updated">Last refreshed {timestamp} · data via ncaa.com</p>
 </body>
 </html>
+"""
+
+CONFERENCE_BLOCK_TEMPLATE = """
+<div class="conference">
+  <h3 class="conf-name">{conf_name}</h3>
+  {games_html}
+</div>
 """
 
 GAME_TEMPLATE = """
@@ -570,30 +590,110 @@ def _status_text(game):
     return f"Live &middot; {game.get('currentPeriod', '')}".strip()
 
 
+# ---------------------------------------------------------------------------
+# Conference grouping
+# ---------------------------------------------------------------------------
+# Shown first, in this order. Matched against each team's conferenceSeo
+# (preferred) or conferenceName (fallback) from the scoreboard JSON's
+# "conferences" list. If a priority conference isn't grouping correctly,
+# check a saved data/raw/scoreboard_*.json for the real seo/name NCAA is
+# sending and add it to CONFERENCE_NAME_ALIASES below.
+CONFERENCE_PRIORITY = ["big-ten", "sec", "acc", "pac-12"]
+
+CONFERENCE_DISPLAY_NAMES = {
+    "big-ten": "Big Ten",
+    "sec": "SEC",
+    "acc": "ACC",
+    "pac-12": "Pac-12",
+}
+
+CONFERENCE_NAME_ALIASES = {
+    "big ten": "big-ten",
+    "big ten conference": "big-ten",
+    "southeastern conference": "sec",
+    "atlantic coast conference": "acc",
+    "pac-12": "pac-12",
+    "pac 12": "pac-12",
+    "pac-12 conference": "pac-12",
+}
+
+
+def _team_conference(team):
+    """A team's real conference (slug, display name), skipping NCAA's
+    'Top 25' pseudo-tag that rides along with the real conference for
+    ranked teams."""
+    for c in (team or {}).get("conferences") or []:
+        name = (c.get("conferenceName") or "").strip()
+        seo = (c.get("conferenceSeo") or "").strip().lower()
+        if seo == "top-25" or name.lower() == "top 25":
+            continue
+        if seo:
+            return seo, name
+        if name:
+            return CONFERENCE_NAME_ALIASES.get(name.lower(), name.lower().replace(" ", "-")), name
+    return None, None
+
+
+def game_conference(game):
+    """(slug, display_name) used to group this game — home team's conference,
+    falling back to the away team's, then an 'Other' bucket."""
+    for side in ("home", "away"):
+        seo, name = _team_conference(game.get(side))
+        if seo:
+            return seo, CONFERENCE_DISPLAY_NAMES.get(seo, name or seo.replace("-", " ").title())
+    return "other", "Other Conferences"
+
+
+def group_games_by_conference(games):
+    """[(display_name, [games]), ...] — Big Ten, SEC, ACC, Pac-12 first (in
+    that order), then every remaining conference alphabetically."""
+    buckets, display = {}, {}
+    for game in games:
+        slug, name = game_conference(game)
+        buckets.setdefault(slug, []).append(game)
+        display[slug] = name
+
+    def sort_key(slug):
+        if slug in CONFERENCE_PRIORITY:
+            return (0, CONFERENCE_PRIORITY.index(slug))
+        if slug == "other":
+            return (2, "")
+        return (1, display[slug].lower())
+
+    return [(display[slug], buckets[slug]) for slug in sorted(buckets, key=sort_key)]
+
+
 def render_games_section(games, boxscores, team_stats_map):
     if not games:
         return '<div class="card"><h2>Games</h2><p class="empty">No D1 women\'s volleyball games found for this date.</p></div>'
-    html_games = []
-    for game in games:
-        gid = game_id_of(game)
-        box = boxscores.get(gid)
-        if game.get("gameState") == "pre" or not box:
-            body = '<p class="empty">Stats appear once the match is underway.</p>' \
-                if game.get("gameState") == "pre" else '<p class="empty">Stats not available for this match.</p>'
-        else:
-            gl = render_team_leaders_table(compute_team_leaders(box)) \
-                or '<p class="empty">Player leaders not available.</p>'
-            body = GAME_BODY_TEMPLATE.format(
-                game_leaders_html=gl,
-                set_html=render_set_table(box) or '<p class="empty">Set data not available.</p>',
-                team_stats_html=render_team_stats_table(team_stats_map.get(gid)),
-            )
-        html_games.append(GAME_TEMPLATE.format(
-            away=_side_label(game, "away"), home=_side_label(game, "home"),
-            away_score=team_score(game, "away"), home_score=team_score(game, "home"),
-            status=_status_text(game), body=body,
+
+    conf_blocks = []
+    for conf_name, conf_games in group_games_by_conference(games):
+        html_games = []
+        for game in conf_games:
+            gid = game_id_of(game)
+            box = boxscores.get(gid)
+            if game.get("gameState") == "pre" or not box:
+                body = '<p class="empty">Stats appear once the match is underway.</p>' \
+                    if game.get("gameState") == "pre" else '<p class="empty">Stats not available for this match.</p>'
+            else:
+                gl = render_team_leaders_table(compute_team_leaders(box)) \
+                    or '<p class="empty">Player leaders not available.</p>'
+                body = GAME_BODY_TEMPLATE.format(
+                    game_leaders_html=gl,
+                    set_html=render_set_table(box) or '<p class="empty">Set data not available.</p>',
+                    team_stats_html=render_team_stats_table(team_stats_map.get(gid)),
+                )
+            html_games.append(GAME_TEMPLATE.format(
+                away=_side_label(game, "away"), home=_side_label(game, "home"),
+                away_score=team_score(game, "away"), home_score=team_score(game, "home"),
+                status=_status_text(game), body=body,
+            ))
+        conf_blocks.append(CONFERENCE_BLOCK_TEMPLATE.format(
+            conf_name=conf_name, games_html="".join(html_games),
         ))
-    return f'<div class="card"><h2>Games &amp; Box Scores</h2>{"".join(html_games)}</div>'
+
+    return f'<div class="card"><h2>Games &amp; Box Scores</h2>{"".join(conf_blocks)}</div>'
 
 
 def render_leaders_section(leaders_by_category):
