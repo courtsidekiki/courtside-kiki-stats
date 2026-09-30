@@ -50,11 +50,24 @@
     border-radius: 8px;
     transform: rotate(-1deg);
   }
+  .conference { margin-top: 1.5rem; }
+  .conference:first-of-type { margin-top: 0; }
+  .conf-name {
+    display: inline-block;
+    background: var(--purple);
+    color: var(--paper);
+    padding: .25rem 1rem;
+    border: 3px solid var(--ink);
+    border-radius: 10px;
+    box-shadow: 4px 4px 0 var(--ink);
+    transform: rotate(-1deg);
+    margin: 0 0 .25rem;
+  }
   .game {
     border-top: 2px dashed #ccc;
     padding: .85rem 0;
   }
-  .game:first-of-type { border-top: none; }
+  .conference .game:first-of-type { border-top: none; }
   .matchup { display: flex; justify-content: space-between; font-weight: bold; font-size: 1.1rem; }
   .score { color: var(--pink); }
   table { width: 100%; border-collapse: collapse; font-size: .92rem; margin-top: .5rem; }
@@ -128,6 +141,6 @@
   show(days.includes(fromHash) ? fromHash : days[0]);
 })();
 </script>
-<p class="updated">Last refreshed 2026-09-30 11:10 UTC · data via ncaa.com</p>
+<p class="updated">Last refreshed 2026-09-30 18:05 UTC · data via ncaa.com</p>
 </body>
 </html>
