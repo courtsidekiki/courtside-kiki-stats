@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626438,
+  "title": "WVB Boxscore",
+  "description": "Valparaiso vs UIC",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46757",
+      "seoname": "valparaiso",
+      "name6Char": "VALPO",
+      "nameFull": "Valparaiso University",
+      "nameShort": "Valparaiso",
+      "teamName": "Beacons",
+      "color": "#693F23"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45916",
+      "seoname": "ill-chicago",
+      "name6Char": "UIC",
+      "nameFull": "University of Illinois Chicago",
+      "nameShort": "UIC",
+      "teamName": "Flames",
+      "color": "#DB0032"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46757,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "98",
+        "kills": "53",
+        "attackErrors": "30",
+        "attackAttempts": "144",
+        "hittingPercentage": "0.160",
+        "assists": "51",
+        "setErrors": "0",
+        "setAttempts": "141",
+        "serviceAces": "6",
+        "serviceErrors": "6",
+        "serveAttempts": "97",
+        "digs": "58",
+        "receptionAttempts": "84",
+        "receptionErrors": "6",
+        "blockSolos": "1",
+        "blockAssists": "12",
+        "blockingErrors": "3",
+        "totalBlocks": "7"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45916,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "92",
+        "kills": "50",
+        "attackErrors": "28",
+        "attackAttempts": "140",
+        "hittingPercentage": "0.157",
+        "assists": "48",
+        "setErrors": "2",
+        "setAttempts": "142",
+        "serviceAces": "6",
+        "serviceErrors": "9",
+        "serveAttempts": "93",
+        "digs": "51",
+        "receptionAttempts": "91",
+        "receptionErrors": "6",
+        "blockSolos": "3",
+        "blockAssists": "26",
+        "blockingErrors": "1",
+        "totalBlocks": "16"
+      }
+    }
+  ]
+}

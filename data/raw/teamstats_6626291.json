@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626291,
+  "title": "WVB Boxscore",
+  "description": "DePaul vs Marquette",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45902",
+      "seoname": "depaul",
+      "name6Char": "DEPAUL",
+      "nameFull": "DePaul University",
+      "nameShort": "DePaul",
+      "teamName": "Blue Demons",
+      "color": "#003DA5"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46200",
+      "seoname": "marquette",
+      "name6Char": "MARQ",
+      "nameFull": "Marquette University",
+      "nameShort": "Marquette",
+      "teamName": "Golden Eagles",
+      "color": "#1D2953"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45902,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "95",
+        "kills": "59",
+        "attackErrors": "24",
+        "attackAttempts": "148",
+        "hittingPercentage": "0.236",
+        "assists": "56",
+        "setErrors": "5",
+        "setAttempts": "154",
+        "serviceAces": "7",
+        "serviceErrors": "9",
+        "serveAttempts": "95",
+        "digs": "52",
+        "receptionAttempts": "97",
+        "receptionErrors": "4",
+        "blockSolos": "2",
+        "blockAssists": "8",
+        "blockingErrors": "1",
+        "totalBlocks": "6"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46200,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "105",
+        "kills": "63",
+        "attackErrors": "17",
+        "attackAttempts": "148",
+        "hittingPercentage": "0.311",
+        "assists": "57",
+        "setErrors": "4",
+        "setAttempts": "151",
+        "serviceAces": "4",
+        "serviceErrors": "8",
+        "serveAttempts": "105",
+        "digs": "55",
+        "receptionAttempts": "86",
+        "receptionErrors": "7",
+        "blockSolos": "6",
+        "blockAssists": "20",
+        "blockingErrors": "0",
+        "totalBlocks": "16"
+      }
+    }
+  ]
+}

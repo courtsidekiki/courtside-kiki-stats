@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627735,
+  "title": "WVB Boxscore",
+  "description": "Ark.-Pine Bluff vs Grambling",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46646",
+      "seoname": "ark-pine-bluff",
+      "name6Char": "ARK PB",
+      "nameFull": "University of Arkansas, Pine Bluff",
+      "nameShort": "Ark.-Pine Bluff",
+      "teamName": "Lady Lions",
+      "color": "#010101"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46051",
+      "seoname": "grambling",
+      "name6Char": "GRAMB",
+      "nameFull": "Grambling State University",
+      "nameShort": "Grambling",
+      "teamName": "Lady Tigers",
+      "color": "#010101"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46646,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "64",
+        "kills": "39",
+        "attackErrors": "25",
+        "attackAttempts": "135",
+        "hittingPercentage": "0.104",
+        "assists": "33",
+        "setErrors": "6",
+        "setAttempts": "146",
+        "serviceAces": "3",
+        "serviceErrors": "5",
+        "serveAttempts": "65",
+        "digs": "51",
+        "receptionAttempts": "93",
+        "receptionErrors": "11",
+        "blockSolos": "6",
+        "blockAssists": "2",
+        "blockingErrors": "0",
+        "totalBlocks": "7"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46051,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "100",
+        "kills": "53",
+        "attackErrors": "14",
+        "attackAttempts": "130",
+        "hittingPercentage": "0.300",
+        "assists": "46",
+        "setErrors": "2",
+        "setAttempts": "127",
+        "serviceAces": "11",
+        "serviceErrors": "6",
+        "serveAttempts": "99",
+        "digs": "63",
+        "receptionAttempts": "60",
+        "receptionErrors": "3",
+        "blockSolos": "6",
+        "blockAssists": "2",
+        "blockingErrors": "0",
+        "totalBlocks": "7"
+      }
+    }
+  ]
+}
