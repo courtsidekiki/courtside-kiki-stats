@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626697,
+  "title": "WVB Boxscore",
+  "description": "UC Davis vs Air Force",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46036",
+      "seoname": "uc-davis",
+      "name6Char": "UC DAV",
+      "nameFull": "University of California, Davis",
+      "nameShort": "UC Davis",
+      "teamName": "Aggies",
+      "color": "#002855"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46129",
+      "seoname": "air-force",
+      "name6Char": "AIRFOR",
+      "nameFull": "U.S. Air Force Academy",
+      "nameShort": "Air Force",
+      "teamName": "Falcons",
+      "color": "#0032A0"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46036,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "58",
+        "attackErrors": "14",
+        "attackAttempts": "140",
+        "hittingPercentage": "0.314",
+        "assists": "54",
+        "setErrors": "0",
+        "setAttempts": "136",
+        "serviceAces": "1",
+        "serviceErrors": "10",
+        "serveAttempts": "74",
+        "digs": "70",
+        "receptionAttempts": "58",
+        "receptionErrors": "4",
+        "blockSolos": "0",
+        "blockAssists": "6",
+        "blockingErrors": "0",
+        "totalBlocks": "3"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46129,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "59",
+        "kills": "31",
+        "attackErrors": "12",
+        "attackAttempts": "125",
+        "hittingPercentage": "0.152",
+        "assists": "30",
+        "setErrors": "2",
+        "setAttempts": "130",
+        "serviceAces": "4",
+        "serviceErrors": "2",
+        "serveAttempts": "60",
+        "digs": "53",
+        "receptionAttempts": "64",
+        "receptionErrors": "1",
+        "blockSolos": "0",
+        "blockAssists": "10",
+        "blockingErrors": "0",
+        "totalBlocks": "5"
+      }
+    }
+  ]
+}

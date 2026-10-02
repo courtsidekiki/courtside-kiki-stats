@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625434,
+  "title": "WVB Boxscore",
+  "description": "East Texas A&M vs LSU New Orleans ",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45903",
+      "seoname": "tex-am-commerce",
+      "name6Char": "TAMUCO",
+      "nameFull": "East Texas A&M University",
+      "nameShort": "East Texas A&M",
+      "teamName": "Lions",
+      "color": "#00205B"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46726",
+      "seoname": "new-orleans",
+      "name6Char": "UNO",
+      "nameFull": "LSU New Orleans",
+      "nameShort": "LSU New Orleans ",
+      "teamName": "Privateers",
+      "color": "#0057B8"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45903,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "96",
+        "kills": "56",
+        "attackErrors": "18",
+        "attackAttempts": "149",
+        "hittingPercentage": "0.255",
+        "assists": "51",
+        "setErrors": "1",
+        "setAttempts": "150",
+        "serviceAces": "10",
+        "serviceErrors": "9",
+        "serveAttempts": "95",
+        "digs": "82",
+        "receptionAttempts": "77",
+        "receptionErrors": "7",
+        "blockSolos": "1",
+        "blockAssists": "16",
+        "blockingErrors": "1",
+        "totalBlocks": "9"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46726,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "81",
+        "kills": "46",
+        "attackErrors": "24",
+        "attackAttempts": "162",
+        "hittingPercentage": "0.136",
+        "assists": "43",
+        "setErrors": "1",
+        "setAttempts": "163",
+        "serviceAces": "7",
+        "serviceErrors": "5",
+        "serveAttempts": "82",
+        "digs": "73",
+        "receptionAttempts": "86",
+        "receptionErrors": "10",
+        "blockSolos": "2",
+        "blockAssists": "12",
+        "blockingErrors": "5",
+        "totalBlocks": "8"
+      }
+    }
+  ]
+}

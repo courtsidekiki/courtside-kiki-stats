@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624708,
+  "title": "WVB Boxscore",
+  "description": "Howard vs Delaware St.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45779",
+      "seoname": "howard",
+      "name6Char": "HOWARD",
+      "nameFull": "Howard University",
+      "nameShort": "Howard",
+      "teamName": "Bison",
+      "color": "#00263E"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46175",
+      "seoname": "delaware-st",
+      "name6Char": "DEL ST",
+      "nameFull": "Delaware State University",
+      "nameShort": "Delaware St.",
+      "teamName": "Hornets",
+      "color": "#DA291C"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45779,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "98",
+        "kills": "47",
+        "attackErrors": "22",
+        "attackAttempts": "118",
+        "hittingPercentage": "0.212",
+        "assists": "46",
+        "setErrors": "3",
+        "setAttempts": "127",
+        "serviceAces": "7",
+        "serviceErrors": "9",
+        "serveAttempts": "97",
+        "digs": "42",
+        "receptionAttempts": "78",
+        "receptionErrors": "6",
+        "blockSolos": "3",
+        "blockAssists": "24",
+        "blockingErrors": "1",
+        "totalBlocks": "15"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46175,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "87",
+        "kills": "47",
+        "attackErrors": "33",
+        "attackAttempts": "134",
+        "hittingPercentage": "0.104",
+        "assists": "42",
+        "setErrors": "1",
+        "setAttempts": "137",
+        "serviceAces": "6",
+        "serviceErrors": "10",
+        "serveAttempts": "88",
+        "digs": "43",
+        "receptionAttempts": "88",
+        "receptionErrors": "7",
+        "blockSolos": "1",
+        "blockAssists": "16",
+        "blockingErrors": "0",
+        "totalBlocks": "9"
+      }
+    }
+  ]
+}

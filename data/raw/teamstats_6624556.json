@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624556,
+  "title": "WVB Boxscore",
+  "description": "Nicholls vs Lamar University",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46103",
+      "seoname": "nicholls-st",
+      "name6Char": "NICHST",
+      "nameFull": "Nicholls State University",
+      "nameShort": "Nicholls",
+      "teamName": "Colonels",
+      "color": "#A6192E"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45922",
+      "seoname": "lamar",
+      "name6Char": "LAMAR",
+      "nameFull": "Lamar University",
+      "nameShort": "Lamar University",
+      "teamName": "Cardinals",
+      "color": "#D50032"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46103,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "35",
+        "attackErrors": "9",
+        "attackAttempts": "87",
+        "hittingPercentage": "0.299",
+        "assists": "33",
+        "setErrors": "0",
+        "setAttempts": "85",
+        "serviceAces": "10",
+        "serviceErrors": "6",
+        "serveAttempts": "74",
+        "digs": "41",
+        "receptionAttempts": "42",
+        "receptionErrors": "4",
+        "blockSolos": "1",
+        "blockAssists": "14",
+        "blockingErrors": "0",
+        "totalBlocks": "8"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45922,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "50",
+        "kills": "31",
+        "attackErrors": "21",
+        "attackAttempts": "96",
+        "hittingPercentage": "0.104",
+        "assists": "29",
+        "setErrors": "0",
+        "setAttempts": "98",
+        "serviceAces": "4",
+        "serviceErrors": "9",
+        "serveAttempts": "51",
+        "digs": "40",
+        "receptionAttempts": "68",
+        "receptionErrors": "10",
+        "blockSolos": "1",
+        "blockAssists": "2",
+        "blockingErrors": "0",
+        "totalBlocks": "2"
+      }
+    }
+  ]
+}

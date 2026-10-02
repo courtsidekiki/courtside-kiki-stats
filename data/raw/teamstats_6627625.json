@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627625,
+  "title": "WVB Boxscore",
+  "description": "Gonzaga vs Colorado St.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46304",
+      "seoname": "gonzaga",
+      "name6Char": "GONZ",
+      "nameFull": "Gonzaga University",
+      "nameShort": "Gonzaga",
+      "teamName": "Bulldogs",
+      "color": "#041E42"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46172",
+      "seoname": "colorado-st",
+      "name6Char": "CO ST",
+      "nameFull": "Colorado State University",
+      "nameShort": "Colorado St.",
+      "teamName": "Rams",
+      "color": "#2C5234"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46304,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "98",
+        "kills": "51",
+        "attackErrors": "29",
+        "attackAttempts": "179",
+        "hittingPercentage": "0.123",
+        "assists": "48",
+        "setErrors": "0",
+        "setAttempts": "179",
+        "serviceAces": "3",
+        "serviceErrors": "7",
+        "serveAttempts": "99",
+        "digs": "83",
+        "receptionAttempts": "97",
+        "receptionErrors": "9",
+        "blockSolos": "3",
+        "blockAssists": "22",
+        "blockingErrors": "0",
+        "totalBlocks": "14"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46172,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "112",
+        "kills": "65",
+        "attackErrors": "30",
+        "attackAttempts": "189",
+        "hittingPercentage": "0.185",
+        "assists": "59",
+        "setErrors": "0",
+        "setAttempts": "187",
+        "serviceAces": "9",
+        "serviceErrors": "14",
+        "serveAttempts": "111",
+        "digs": "86",
+        "receptionAttempts": "92",
+        "receptionErrors": "3",
+        "blockSolos": "5",
+        "blockAssists": "18",
+        "blockingErrors": "1",
+        "totalBlocks": "14"
+      }
+    }
+  ]
+}

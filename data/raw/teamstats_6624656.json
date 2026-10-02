@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624656,
+  "title": "WVB Boxscore",
+  "description": "Abilene Christian vs Austin Peay",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45940",
+      "seoname": "abilene-christian",
+      "name6Char": "ABILCH",
+      "nameFull": "Abilene Christian University",
+      "nameShort": "Abilene Christian",
+      "teamName": "Wildcats",
+      "color": "#582C83"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45942",
+      "seoname": "austin-peay",
+      "name6Char": "A PEAY",
+      "nameFull": "Austin Peay State University",
+      "nameShort": "Austin Peay",
+      "teamName": "Governors",
+      "color": "#BA0C2F"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45940,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "48",
+        "attackErrors": "17",
+        "attackAttempts": "112",
+        "hittingPercentage": "0.277",
+        "assists": "42",
+        "setErrors": "0",
+        "setAttempts": "100",
+        "serviceAces": "4",
+        "serviceErrors": "7",
+        "serveAttempts": "74",
+        "digs": "37",
+        "receptionAttempts": "50",
+        "receptionErrors": "3",
+        "blockSolos": "0",
+        "blockAssists": "10",
+        "blockingErrors": "1",
+        "totalBlocks": "5"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45942,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "55",
+        "kills": "28",
+        "attackErrors": "16",
+        "attackAttempts": "83",
+        "hittingPercentage": "0.145",
+        "assists": "25",
+        "setErrors": "0",
+        "setAttempts": "94",
+        "serviceAces": "3",
+        "serviceErrors": "6",
+        "serveAttempts": "56",
+        "digs": "38",
+        "receptionAttempts": "67",
+        "receptionErrors": "4",
+        "blockSolos": "1",
+        "blockAssists": "6",
+        "blockingErrors": "1",
+        "totalBlocks": "4"
+      }
+    }
+  ]
+}

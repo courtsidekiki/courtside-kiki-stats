@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625368,
+  "title": "WVB Boxscore",
+  "description": "Furman vs Chattanooga",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46415",
+      "seoname": "furman",
+      "name6Char": "FURMAN",
+      "nameFull": "Furman University",
+      "nameShort": "Furman",
+      "teamName": "Paladins",
+      "color": "#582C83"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46505",
+      "seoname": "chattanooga",
+      "name6Char": "CHAT",
+      "nameFull": "University of Tennessee at Chattanooga",
+      "nameShort": "Chattanooga",
+      "teamName": "Mocs",
+      "color": "#00416D"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46415,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "107",
+        "kills": "66",
+        "attackErrors": "21",
+        "attackAttempts": "167",
+        "hittingPercentage": "0.269",
+        "assists": "59",
+        "setErrors": "4",
+        "setAttempts": "176",
+        "serviceAces": "10",
+        "serviceErrors": "9",
+        "serveAttempts": "106",
+        "digs": "68",
+        "receptionAttempts": "88",
+        "receptionErrors": "3",
+        "blockSolos": "3",
+        "blockAssists": "16",
+        "blockingErrors": "1",
+        "totalBlocks": "11"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46505,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "91",
+        "kills": "53",
+        "attackErrors": "25",
+        "attackAttempts": "158",
+        "hittingPercentage": "0.177",
+        "assists": "51",
+        "setErrors": "2",
+        "setAttempts": "162",
+        "serviceAces": "3",
+        "serviceErrors": "4",
+        "serveAttempts": "92",
+        "digs": "61",
+        "receptionAttempts": "97",
+        "receptionErrors": "10",
+        "blockSolos": "3",
+        "blockAssists": "20",
+        "blockingErrors": "0",
+        "totalBlocks": "13"
+      }
+    }
+  ]
+}

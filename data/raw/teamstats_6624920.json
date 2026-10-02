@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624920,
+  "title": "WVB Boxscore",
+  "description": "Miami (OH) vs Buffalo",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45931",
+      "seoname": "miami-oh",
+      "name6Char": "MIA OH",
+      "nameFull": "Miami University (Ohio)",
+      "nameShort": "Miami (OH)",
+      "teamName": "RedHawks",
+      "color": "#C8102E"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46444",
+      "seoname": "buffalo",
+      "name6Char": "BUFF",
+      "nameFull": "University at Buffalo, the State University of New York",
+      "nameShort": "Buffalo",
+      "teamName": "Bulls",
+      "color": "#0057B8"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45931,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "39",
+        "attackErrors": "13",
+        "attackAttempts": "97",
+        "hittingPercentage": "0.268",
+        "assists": "36",
+        "setErrors": "0",
+        "setAttempts": "96",
+        "serviceAces": "5",
+        "serviceErrors": "2",
+        "serveAttempts": "74",
+        "digs": "41",
+        "receptionAttempts": "49",
+        "receptionErrors": "3",
+        "blockSolos": "1",
+        "blockAssists": "14",
+        "blockingErrors": "0",
+        "totalBlocks": "8"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46444,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "56",
+        "kills": "38",
+        "attackErrors": "22",
+        "attackAttempts": "106",
+        "hittingPercentage": "0.151",
+        "assists": "37",
+        "setErrors": "1",
+        "setAttempts": "107",
+        "serviceAces": "3",
+        "serviceErrors": "8",
+        "serveAttempts": "57",
+        "digs": "39",
+        "receptionAttempts": "72",
+        "receptionErrors": "5",
+        "blockSolos": "0",
+        "blockAssists": "12",
+        "blockingErrors": "1",
+        "totalBlocks": "6"
+      }
+    }
+  ]
+}

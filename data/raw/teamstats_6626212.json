@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626212,
+  "title": "WVB Boxscore",
+  "description": "Utah St. vs Fresno St.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46756",
+      "seoname": "utah-st",
+      "name6Char": "UT ST",
+      "nameFull": "Utah State University",
+      "nameShort": "Utah St.",
+      "teamName": "Aggies",
+      "color": "#00263A"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46660",
+      "seoname": "fresno-st",
+      "name6Char": "FRESNO",
+      "nameFull": "California State University, Fresno",
+      "nameShort": "Fresno St.",
+      "teamName": "Bulldogs",
+      "color": "#D50032"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46756,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "98",
+        "kills": "58",
+        "attackErrors": "21",
+        "attackAttempts": "138",
+        "hittingPercentage": "0.268",
+        "assists": "54",
+        "setErrors": "2",
+        "setAttempts": "143",
+        "serviceAces": "5",
+        "serviceErrors": "7",
+        "serveAttempts": "97",
+        "digs": "62",
+        "receptionAttempts": "70",
+        "receptionErrors": "5",
+        "blockSolos": "1",
+        "blockAssists": "30",
+        "blockingErrors": "4",
+        "totalBlocks": "16"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46660,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "73",
+        "kills": "38",
+        "attackErrors": "27",
+        "attackAttempts": "137",
+        "hittingPercentage": "0.080",
+        "assists": "32",
+        "setErrors": "4",
+        "setAttempts": "140",
+        "serviceAces": "5",
+        "serviceErrors": "4",
+        "serveAttempts": "74",
+        "digs": "46",
+        "receptionAttempts": "90",
+        "receptionErrors": "5",
+        "blockSolos": "1",
+        "blockAssists": "16",
+        "blockingErrors": "0",
+        "totalBlocks": "9"
+      }
+    }
+  ]
+}

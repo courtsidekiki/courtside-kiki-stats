@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624578,
+  "title": "WVB Boxscore",
+  "description": "Portland vs Santa Clara",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46351",
+      "seoname": "portland",
+      "name6Char": "PORT",
+      "nameFull": "University of Portland",
+      "nameShort": "Portland",
+      "teamName": "Pilots",
+      "color": "#31006F"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46362",
+      "seoname": "santa-clara",
+      "name6Char": "STCLAR",
+      "nameFull": "Santa Clara University",
+      "nameShort": "Santa Clara",
+      "teamName": "Broncos",
+      "color": "#862633"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46351,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "55",
+        "kills": "36",
+        "attackErrors": "13",
+        "attackAttempts": "96",
+        "hittingPercentage": "0.240",
+        "assists": "35",
+        "setErrors": "1",
+        "setAttempts": "103",
+        "serviceAces": "5",
+        "serviceErrors": "6",
+        "serveAttempts": "56",
+        "digs": "31",
+        "receptionAttempts": "70",
+        "receptionErrors": "6",
+        "blockSolos": "0",
+        "blockAssists": "4",
+        "blockingErrors": "0",
+        "totalBlocks": "2"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46362,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "49",
+        "attackErrors": "9",
+        "attackAttempts": "99",
+        "hittingPercentage": "0.404",
+        "assists": "47",
+        "setErrors": "1",
+        "setAttempts": "101",
+        "serviceAces": "6",
+        "serviceErrors": "4",
+        "serveAttempts": "74",
+        "digs": "39",
+        "receptionAttempts": "50",
+        "receptionErrors": "5",
+        "blockSolos": "1",
+        "blockAssists": "6",
+        "blockingErrors": "1",
+        "totalBlocks": "4"
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627974,
+  "title": "WVB Boxscore",
+  "description": "Oregon St. vs Texas St.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46348",
+      "seoname": "oregon-st",
+      "name6Char": "ORE ST",
+      "nameFull": "Oregon State University",
+      "nameShort": "Oregon St.",
+      "teamName": "Beavers",
+      "color": "#DC4405"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46124",
+      "seoname": "texas-st",
+      "name6Char": "TX ST",
+      "nameFull": "Texas State University",
+      "nameShort": "Texas St.",
+      "teamName": "Bobcats",
+      "color": "#572932"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46348,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "97",
+        "kills": "57",
+        "attackErrors": "20",
+        "attackAttempts": "126",
+        "hittingPercentage": "0.294",
+        "assists": "52",
+        "setErrors": "2",
+        "setAttempts": "119",
+        "serviceAces": "7",
+        "serviceErrors": "13",
+        "serveAttempts": "96",
+        "digs": "45",
+        "receptionAttempts": "70",
+        "receptionErrors": "9",
+        "blockSolos": "1",
+        "blockAssists": "8",
+        "blockingErrors": "5",
+        "totalBlocks": "5"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46124,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "83",
+        "kills": "39",
+        "attackErrors": "19",
+        "attackAttempts": "114",
+        "hittingPercentage": "0.175",
+        "assists": "37",
+        "setErrors": "0",
+        "setAttempts": "113",
+        "serviceAces": "9",
+        "serviceErrors": "14",
+        "serveAttempts": "84",
+        "digs": "41",
+        "receptionAttempts": "83",
+        "receptionErrors": "7",
+        "blockSolos": "1",
+        "blockAssists": "6",
+        "blockingErrors": "2",
+        "totalBlocks": "4"
+      }
+    }
+  ]
+}

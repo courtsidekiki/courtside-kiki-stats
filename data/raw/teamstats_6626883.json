@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626883,
+  "title": "WVB Boxscore",
+  "description": "Kansas St. vs BYU",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46557",
+      "seoname": "kansas-st",
+      "name6Char": "KAN ST",
+      "nameFull": "Kansas State University",
+      "nameShort": "Kansas St.",
+      "teamName": "Wildcats",
+      "color": "#582C83"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46575",
+      "seoname": "byu",
+      "name6Char": "BYU",
+      "nameFull": "Brigham Young University",
+      "nameShort": "BYU",
+      "teamName": "Cougars",
+      "color": "#0047BA"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46557,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "87",
+        "kills": "52",
+        "attackErrors": "24",
+        "attackAttempts": "151",
+        "hittingPercentage": "0.185",
+        "assists": "48",
+        "setErrors": "0",
+        "setAttempts": "149",
+        "serviceAces": "7",
+        "serviceErrors": "9",
+        "serveAttempts": "88",
+        "digs": "48",
+        "receptionAttempts": "89",
+        "receptionErrors": "5",
+        "blockSolos": "2",
+        "blockAssists": "12",
+        "blockingErrors": "0",
+        "totalBlocks": "8"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46575,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "101",
+        "kills": "63",
+        "attackErrors": "16",
+        "attackAttempts": "140",
+        "hittingPercentage": "0.336",
+        "assists": "57",
+        "setErrors": "1",
+        "setAttempts": "136",
+        "serviceAces": "5",
+        "serviceErrors": "11",
+        "serveAttempts": "100",
+        "digs": "55",
+        "receptionAttempts": "79",
+        "receptionErrors": "7",
+        "blockSolos": "0",
+        "blockAssists": "28",
+        "blockingErrors": "2",
+        "totalBlocks": "14"
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624609,
+  "title": "WVB Boxscore",
+  "description": "West Ga. vs Central Ark.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46381",
+      "seoname": "west-ga",
+      "name6Char": "W GA",
+      "nameFull": "University of West Georgia",
+      "nameShort": "West Ga.",
+      "teamName": "Wolves",
+      "color": "#0032A0"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45955",
+      "seoname": "central-ark",
+      "name6Char": "C ARK",
+      "nameFull": "University of Central Arkansas",
+      "nameShort": "Central Ark.",
+      "teamName": "Bears",
+      "color": "#582C83"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46381,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "82",
+        "kills": "44",
+        "attackErrors": "20",
+        "attackAttempts": "147",
+        "hittingPercentage": "0.163",
+        "assists": "40",
+        "setErrors": "2",
+        "setAttempts": "146",
+        "serviceAces": "5",
+        "serviceErrors": "4",
+        "serveAttempts": "83",
+        "digs": "59",
+        "receptionAttempts": "87",
+        "receptionErrors": "8",
+        "blockSolos": "2",
+        "blockAssists": "6",
+        "blockingErrors": "0",
+        "totalBlocks": "5"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45955,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "95",
+        "kills": "61",
+        "attackErrors": "22",
+        "attackAttempts": "153",
+        "hittingPercentage": "0.255",
+        "assists": "57",
+        "setErrors": "4",
+        "setAttempts": "158",
+        "serviceAces": "8",
+        "serviceErrors": "7",
+        "serveAttempts": "94",
+        "digs": "74",
+        "receptionAttempts": "79",
+        "receptionErrors": "5",
+        "blockSolos": "7",
+        "blockAssists": "4",
+        "blockingErrors": "0",
+        "totalBlocks": "9"
+      }
+    }
+  ]
+}

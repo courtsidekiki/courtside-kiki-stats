@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628172,
+  "title": "WVB Boxscore",
+  "description": "Northwestern St. vs Southeastern La.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46107",
+      "seoname": "northwestern-st",
+      "name6Char": "NW ST",
+      "nameFull": "Northwestern State University",
+      "nameShort": "Northwestern St.",
+      "teamName": "Lady Demons",
+      "color": "#54209e"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46622",
+      "seoname": "southeastern-la",
+      "name6Char": "SE LA",
+      "nameFull": "Southeastern Louisiana University",
+      "nameShort": "Southeastern La.",
+      "teamName": "Lady Lions",
+      "color": "#1D4C30"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46107,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "95",
+        "kills": "56",
+        "attackErrors": "22",
+        "attackAttempts": "161",
+        "hittingPercentage": "0.211",
+        "assists": "51",
+        "setErrors": "2",
+        "setAttempts": "170",
+        "serviceAces": "14",
+        "serviceErrors": "10",
+        "serveAttempts": "97",
+        "digs": "56",
+        "receptionAttempts": "98",
+        "receptionErrors": "8",
+        "blockSolos": "0",
+        "blockAssists": "2",
+        "blockingErrors": "0",
+        "totalBlocks": "1"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46622,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "106",
+        "kills": "63",
+        "attackErrors": "18",
+        "attackAttempts": "146",
+        "hittingPercentage": "0.308",
+        "assists": "53",
+        "setErrors": "1",
+        "setAttempts": "152",
+        "serviceAces": "8",
+        "serviceErrors": "6",
+        "serveAttempts": "104",
+        "digs": "63",
+        "receptionAttempts": "87",
+        "receptionErrors": "14",
+        "blockSolos": "3",
+        "blockAssists": "12",
+        "blockingErrors": "0",
+        "totalBlocks": "9"
+      }
+    }
+  ]
+}

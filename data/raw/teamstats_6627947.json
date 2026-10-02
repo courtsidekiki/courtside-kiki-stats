@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627947,
+  "title": "WVB Boxscore",
+  "description": "Montana vs Eastern Wash.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46724",
+      "seoname": "montana",
+      "name6Char": "MONT",
+      "nameFull": "University of Montana",
+      "nameShort": "Montana",
+      "teamName": "Grizzlies",
+      "color": "#6F2C3F"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46180",
+      "seoname": "eastern-wash",
+      "name6Char": "E WASH",
+      "nameFull": "Eastern Washington University",
+      "nameShort": "Eastern Wash.",
+      "teamName": "Eagles",
+      "color": "#A6192E"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46724,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "81",
+        "kills": "41",
+        "attackErrors": "27",
+        "attackAttempts": "160",
+        "hittingPercentage": "0.087",
+        "assists": "40",
+        "setErrors": "2",
+        "setAttempts": "172",
+        "serviceAces": "8",
+        "serviceErrors": "6",
+        "serveAttempts": "82",
+        "digs": "80",
+        "receptionAttempts": "85",
+        "receptionErrors": "3",
+        "blockSolos": "3",
+        "blockAssists": "6",
+        "blockingErrors": "2",
+        "totalBlocks": "6"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46180,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "92",
+        "kills": "54",
+        "attackErrors": "26",
+        "attackAttempts": "167",
+        "hittingPercentage": "0.168",
+        "assists": "50",
+        "setErrors": "0",
+        "setAttempts": "162",
+        "serviceAces": "3",
+        "serviceErrors": "6",
+        "serveAttempts": "91",
+        "digs": "79",
+        "receptionAttempts": "76",
+        "receptionErrors": "8",
+        "blockSolos": "4",
+        "blockAssists": "16",
+        "blockingErrors": "1",
+        "totalBlocks": "12"
+      }
+    }
+  ]
+}

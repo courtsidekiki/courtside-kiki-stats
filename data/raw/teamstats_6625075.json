@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625075,
+  "title": "WVB Boxscore",
+  "description": "Pepperdine vs Pacific",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46240",
+      "seoname": "pepperdine",
+      "name6Char": "PEPPER",
+      "nameFull": "Pepperdine University",
+      "nameShort": "Pepperdine",
+      "teamName": "Waves",
+      "color": "#00205B"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46482",
+      "seoname": "pacific",
+      "name6Char": "PACIF",
+      "nameFull": "University of the Pacific",
+      "nameShort": "Pacific",
+      "teamName": "Tigers",
+      "color": "#E35205"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46240,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "39",
+        "attackErrors": "9",
+        "attackAttempts": "72",
+        "hittingPercentage": "0.417",
+        "assists": "39",
+        "setErrors": "1",
+        "setAttempts": "80",
+        "serviceAces": "9",
+        "serviceErrors": "14",
+        "serveAttempts": "73",
+        "digs": "29",
+        "receptionAttempts": "42",
+        "receptionErrors": "1",
+        "blockSolos": "4",
+        "blockAssists": "14",
+        "blockingErrors": "0",
+        "totalBlocks": "11"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46482,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "44",
+        "kills": "19",
+        "attackErrors": "19",
+        "attackAttempts": "76",
+        "hittingPercentage": ".000",
+        "assists": "18",
+        "setErrors": "4",
+        "setAttempts": "87",
+        "serviceAces": "1",
+        "serviceErrors": "4",
+        "serveAttempts": "46",
+        "digs": "19",
+        "receptionAttempts": "59",
+        "receptionErrors": "9",
+        "blockSolos": "2",
+        "blockAssists": "4",
+        "blockingErrors": "0",
+        "totalBlocks": "4"
+      }
+    }
+  ]
+}
