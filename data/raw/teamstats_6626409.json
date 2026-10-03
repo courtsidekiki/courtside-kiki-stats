@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626409,
+  "title": "WVB Boxscore",
+  "description": "Wofford vs UNC Greensboro",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46650",
+      "seoname": "wofford",
+      "name6Char": "WOFFRD",
+      "nameFull": "Wofford College",
+      "nameShort": "Wofford",
+      "teamName": "Terriers",
+      "color": "#8A6E4B"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46472",
+      "seoname": "unc-greensboro",
+      "name6Char": "UNC G",
+      "nameFull": "The University of North Carolina at Greensboro",
+      "nameShort": "UNC Greensboro",
+      "teamName": "Spartans",
+      "color": "#13294B"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46650,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "47",
+        "attackErrors": "7",
+        "attackAttempts": "87",
+        "hittingPercentage": "0.460",
+        "assists": "46",
+        "setErrors": "0",
+        "setAttempts": "87",
+        "serviceAces": "4",
+        "serviceErrors": "6",
+        "serveAttempts": "74",
+        "digs": "52",
+        "receptionAttempts": "40",
+        "receptionErrors": "4",
+        "blockSolos": "2",
+        "blockAssists": "16",
+        "blockingErrors": "0",
+        "totalBlocks": "10"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46472,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "47",
+        "kills": "30",
+        "attackErrors": "16",
+        "attackAttempts": "106",
+        "hittingPercentage": "0.132",
+        "assists": "29",
+        "setErrors": "0",
+        "setAttempts": "104",
+        "serviceAces": "4",
+        "serviceErrors": "8",
+        "serveAttempts": "48",
+        "digs": "29",
+        "receptionAttempts": "68",
+        "receptionErrors": "4",
+        "blockSolos": "0",
+        "blockAssists": "4",
+        "blockingErrors": "0",
+        "totalBlocks": "2"
+      }
+    }
+  ]
+}

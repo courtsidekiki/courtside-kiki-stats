@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625666,
+  "title": "WVB Boxscore",
+  "description": "Princeton vs Columbia",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46352",
+      "seoname": "princeton",
+      "name6Char": "PRINCE",
+      "nameFull": "Princeton University",
+      "nameShort": "Princeton",
+      "teamName": "Tigers",
+      "color": "#E87722"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46407",
+      "seoname": "columbia",
+      "name6Char": "COLUMB",
+      "nameFull": "Columbia University-Barnard College",
+      "nameShort": "Columbia",
+      "teamName": "Lions",
+      "color": "#97CAEB"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46352,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "37",
+        "attackErrors": "9",
+        "attackAttempts": "81",
+        "hittingPercentage": "0.346",
+        "assists": "35",
+        "setErrors": "0",
+        "setAttempts": "80",
+        "serviceAces": "10",
+        "serviceErrors": "11",
+        "serveAttempts": "73",
+        "digs": "29",
+        "receptionAttempts": "40",
+        "receptionErrors": "2",
+        "blockSolos": "1",
+        "blockAssists": "8",
+        "blockingErrors": "1",
+        "totalBlocks": "5"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46407,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "47",
+        "kills": "25",
+        "attackErrors": "16",
+        "attackAttempts": "71",
+        "hittingPercentage": "0.127",
+        "assists": "25",
+        "setErrors": "1",
+        "setAttempts": "76",
+        "serviceAces": "2",
+        "serviceErrors": "9",
+        "serveAttempts": "49",
+        "digs": "30",
+        "receptionAttempts": "62",
+        "receptionErrors": "10",
+        "blockSolos": "2",
+        "blockAssists": "6",
+        "blockingErrors": "1",
+        "totalBlocks": "5"
+      }
+    }
+  ]
+}

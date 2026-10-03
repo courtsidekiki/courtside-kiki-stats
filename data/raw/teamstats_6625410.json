@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625410,
+  "title": "WVB Boxscore",
+  "description": "Georgia St. vs James Madison",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46676",
+      "seoname": "georgia-st",
+      "name6Char": "GA ST",
+      "nameFull": "Georgia State University",
+      "nameShort": "Georgia St.",
+      "teamName": "Panthers",
+      "color": "#264391"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45785",
+      "seoname": "james-madison",
+      "name6Char": "JMU",
+      "nameFull": "James Madison University",
+      "nameShort": "James Madison",
+      "teamName": "Dukes",
+      "color": "#330072"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46676,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "105",
+        "kills": "71",
+        "attackErrors": "24",
+        "attackAttempts": "170",
+        "hittingPercentage": "0.276",
+        "assists": "68",
+        "setErrors": "1",
+        "setAttempts": "174",
+        "serviceAces": "8",
+        "serviceErrors": "8",
+        "serveAttempts": "106",
+        "digs": "79",
+        "receptionAttempts": "92",
+        "receptionErrors": "10",
+        "blockSolos": "0",
+        "blockAssists": "4",
+        "blockingErrors": "1",
+        "totalBlocks": "2"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45785,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "103",
+        "kills": "60",
+        "attackErrors": "14",
+        "attackAttempts": "165",
+        "hittingPercentage": "0.279",
+        "assists": "57",
+        "setErrors": "2",
+        "setAttempts": "165",
+        "serviceAces": "10",
+        "serviceErrors": "10",
+        "serveAttempts": "102",
+        "digs": "64",
+        "receptionAttempts": "98",
+        "receptionErrors": "8",
+        "blockSolos": "6",
+        "blockAssists": "14",
+        "blockingErrors": "6",
+        "totalBlocks": "13"
+      }
+    }
+  ]
+}

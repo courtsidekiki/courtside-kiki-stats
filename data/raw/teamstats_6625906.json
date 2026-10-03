@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625906,
+  "title": "WVB Boxscore",
+  "description": "Miami (FL) vs Wake Forest",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46066",
+      "seoname": "miami-fl",
+      "name6Char": "MIAMI",
+      "nameFull": "University of Miami (Florida)",
+      "nameShort": "Miami (FL)",
+      "teamName": "Hurricanes",
+      "color": "#154734"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46133",
+      "seoname": "wake-forest",
+      "name6Char": "WAKE",
+      "nameFull": "Wake Forest University",
+      "nameShort": "Wake Forest",
+      "teamName": "Demon Deacons",
+      "color": "#010101"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46066,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "99",
+        "kills": "60",
+        "attackErrors": "17",
+        "attackAttempts": "134",
+        "hittingPercentage": "0.321",
+        "assists": "50",
+        "setErrors": "0",
+        "setAttempts": "130",
+        "serviceAces": "8",
+        "serviceErrors": "15",
+        "serveAttempts": "98",
+        "digs": "41",
+        "receptionAttempts": "75",
+        "receptionErrors": "5",
+        "blockSolos": "1",
+        "blockAssists": "11",
+        "blockingErrors": "1",
+        "totalBlocks": "6"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46133,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "82",
+        "kills": "45",
+        "attackErrors": "17",
+        "attackAttempts": "111",
+        "hittingPercentage": "0.252",
+        "assists": "41",
+        "setErrors": "5",
+        "setAttempts": "119",
+        "serviceAces": "5",
+        "serviceErrors": "8",
+        "serveAttempts": "83",
+        "digs": "43",
+        "receptionAttempts": "83",
+        "receptionErrors": "8",
+        "blockSolos": "0",
+        "blockAssists": "12",
+        "blockingErrors": "3",
+        "totalBlocks": "6"
+      }
+    }
+  ]
+}

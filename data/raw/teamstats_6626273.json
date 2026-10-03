@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626273,
+  "title": "WVB Boxscore",
+  "description": "Syracuse vs SMU",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46126",
+      "seoname": "syracuse",
+      "name6Char": "SYR",
+      "nameFull": "Syracuse University",
+      "nameShort": "Syracuse",
+      "teamName": "Orange",
+      "color": "#DC4405"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46250",
+      "seoname": "smu",
+      "name6Char": "SMU",
+      "nameFull": "Southern Methodist University",
+      "nameShort": "SMU",
+      "teamName": "Mustangs",
+      "color": "#A80000"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46126,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "53",
+        "kills": "26",
+        "attackErrors": "26",
+        "attackAttempts": "89",
+        "hittingPercentage": ".000",
+        "assists": "24",
+        "setErrors": "4",
+        "setAttempts": "95",
+        "serviceAces": "4",
+        "serviceErrors": "1",
+        "serveAttempts": "55",
+        "digs": "31",
+        "receptionAttempts": "61",
+        "receptionErrors": "5",
+        "blockSolos": "1",
+        "blockAssists": "4",
+        "blockingErrors": "1",
+        "totalBlocks": "3"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46250,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "39",
+        "attackErrors": "9",
+        "attackAttempts": "88",
+        "hittingPercentage": "0.341",
+        "assists": "37",
+        "setErrors": "2",
+        "setAttempts": "97",
+        "serviceAces": "5",
+        "serviceErrors": "12",
+        "serveAttempts": "73",
+        "digs": "33",
+        "receptionAttempts": "54",
+        "receptionErrors": "4",
+        "blockSolos": "2",
+        "blockAssists": "20",
+        "blockingErrors": "0",
+        "totalBlocks": "12"
+      }
+    }
+  ]
+}

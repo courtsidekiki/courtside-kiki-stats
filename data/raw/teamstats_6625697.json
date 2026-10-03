@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625697,
+  "title": "WVB Boxscore",
+  "description": "USC Upstate vs High Point",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45891",
+      "seoname": "usc-upstate",
+      "name6Char": "SC UPS",
+      "nameFull": "University of South Carolina Upstate",
+      "nameShort": "USC Upstate",
+      "teamName": "Spartans",
+      "color": "#008445"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46635",
+      "seoname": "high-point",
+      "name6Char": "HIGHPT",
+      "nameFull": "High Point University",
+      "nameShort": "High Point",
+      "teamName": "Panthers",
+      "color": "#330072"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45891,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "41",
+        "kills": "22",
+        "attackErrors": "20",
+        "attackAttempts": "108",
+        "hittingPercentage": "0.019",
+        "assists": "20",
+        "setErrors": "2",
+        "setAttempts": "107",
+        "serviceAces": "0",
+        "serviceErrors": "5",
+        "serveAttempts": "43",
+        "digs": "42",
+        "receptionAttempts": "66",
+        "receptionErrors": "4",
+        "blockSolos": "2",
+        "blockAssists": "10",
+        "blockingErrors": "0",
+        "totalBlocks": "7"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46635,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "44",
+        "attackErrors": "12",
+        "attackAttempts": "104",
+        "hittingPercentage": "0.308",
+        "assists": "42",
+        "setErrors": "0",
+        "setAttempts": "100",
+        "serviceAces": "4",
+        "serviceErrors": "7",
+        "serveAttempts": "73",
+        "digs": "59",
+        "receptionAttempts": "38",
+        "receptionErrors": "0",
+        "blockSolos": "1",
+        "blockAssists": "8",
+        "blockingErrors": "0",
+        "totalBlocks": "5"
+      }
+    }
+  ]
+}

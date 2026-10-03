@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624501,
+  "title": "WVB Boxscore",
+  "description": "St. John's (NY) vs Xavier",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45995",
+      "seoname": "st-johns-ny",
+      "name6Char": "STJOHN",
+      "nameFull": "St. John's University (New York)",
+      "nameShort": "St. John's (NY)",
+      "teamName": "Red Storm",
+      "color": "#BA0C2F"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46708",
+      "seoname": "xavier",
+      "name6Char": "XAVIER",
+      "nameFull": "Xavier University",
+      "nameShort": "Xavier",
+      "teamName": "Musketeers",
+      "color": "#0C2340"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45995,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "103",
+        "kills": "65",
+        "attackErrors": "27",
+        "attackAttempts": "177",
+        "hittingPercentage": "0.215",
+        "assists": "64",
+        "setErrors": "3",
+        "setAttempts": "184",
+        "serviceAces": "5",
+        "serviceErrors": "5",
+        "serveAttempts": "102",
+        "digs": "79",
+        "receptionAttempts": "98",
+        "receptionErrors": "3",
+        "blockSolos": "4",
+        "blockAssists": "17",
+        "blockingErrors": "3",
+        "totalBlocks": "12"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46708,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "104",
+        "kills": "65",
+        "attackErrors": "24",
+        "attackAttempts": "183",
+        "hittingPercentage": "0.224",
+        "assists": "58",
+        "setErrors": "1",
+        "setAttempts": "176",
+        "serviceAces": "3",
+        "serviceErrors": "7",
+        "serveAttempts": "105",
+        "digs": "74",
+        "receptionAttempts": "97",
+        "receptionErrors": "5",
+        "blockSolos": "2",
+        "blockAssists": "14",
+        "blockingErrors": "3",
+        "totalBlocks": "9"
+      }
+    }
+  ]
+}

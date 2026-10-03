@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628522,
+  "title": "WVB Boxscore",
+  "description": "Houston vs Cincinnati",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46054",
+      "seoname": "houston",
+      "name6Char": "HOU",
+      "nameFull": "University of Houston",
+      "nameShort": "Houston",
+      "teamName": "Cougars",
+      "color": "#E51636"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46539",
+      "seoname": "cincinnati",
+      "name6Char": "CINCY",
+      "nameFull": "University of Cincinnati",
+      "nameShort": "Cincinnati",
+      "teamName": "Bearcats",
+      "color": "#C8102E"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46054,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "98",
+        "kills": "59",
+        "attackErrors": "17",
+        "attackAttempts": "146",
+        "hittingPercentage": "0.288",
+        "assists": "56",
+        "setErrors": "1",
+        "setAttempts": "149",
+        "serviceAces": "4",
+        "serviceErrors": "7",
+        "serveAttempts": "97",
+        "digs": "60",
+        "receptionAttempts": "77",
+        "receptionErrors": "6",
+        "blockSolos": "1",
+        "blockAssists": "16",
+        "blockingErrors": "0",
+        "totalBlocks": "9"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46539,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "87",
+        "kills": "56",
+        "attackErrors": "21",
+        "attackAttempts": "148",
+        "hittingPercentage": "0.236",
+        "assists": "53",
+        "setErrors": "3",
+        "setAttempts": "157",
+        "serviceAces": "6",
+        "serviceErrors": "11",
+        "serveAttempts": "88",
+        "digs": "54",
+        "receptionAttempts": "90",
+        "receptionErrors": "4",
+        "blockSolos": "1",
+        "blockAssists": "12",
+        "blockingErrors": "3",
+        "totalBlocks": "7"
+      }
+    }
+  ]
+}

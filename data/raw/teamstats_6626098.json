@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626098,
+  "title": "WVB Boxscore",
+  "description": "Jacksonville St. vs Liberty",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45784",
+      "seoname": "jacksonville-st",
+      "name6Char": "JAX ST",
+      "nameFull": "Jacksonville State University",
+      "nameShort": "Jacksonville St.",
+      "teamName": "Gamecocks",
+      "color": "#C8102E"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45925",
+      "seoname": "liberty",
+      "name6Char": "LIBRTY",
+      "nameFull": "Liberty University",
+      "nameShort": "Liberty",
+      "teamName": "Lady Flames",
+      "color": "#971A1F"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45784,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "50",
+        "kills": "30",
+        "attackErrors": "13",
+        "attackAttempts": "105",
+        "hittingPercentage": "0.162",
+        "assists": "29",
+        "setErrors": "1",
+        "setAttempts": "115",
+        "serviceAces": "0",
+        "serviceErrors": "5",
+        "serveAttempts": "52",
+        "digs": "39",
+        "receptionAttempts": "65",
+        "receptionErrors": "7",
+        "blockSolos": "1",
+        "blockAssists": "6",
+        "blockingErrors": "0",
+        "totalBlocks": "4"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45925,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "48",
+        "attackErrors": "10",
+        "attackAttempts": "100",
+        "hittingPercentage": "0.380",
+        "assists": "47",
+        "setErrors": "1",
+        "setAttempts": "108",
+        "serviceAces": "7",
+        "serviceErrors": "8",
+        "serveAttempts": "73",
+        "digs": "52",
+        "receptionAttempts": "47",
+        "receptionErrors": "0",
+        "blockSolos": "1",
+        "blockAssists": "8",
+        "blockingErrors": "0",
+        "totalBlocks": "5"
+      }
+    }
+  ]
+}

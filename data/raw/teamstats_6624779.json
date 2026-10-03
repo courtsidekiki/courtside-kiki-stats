@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624779,
+  "title": "WVB Boxscore",
+  "description": "Youngstown St. vs IU Indy",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46583",
+      "seoname": "youngstown-st",
+      "name6Char": "YSU",
+      "nameFull": "Youngstown State University",
+      "nameShort": "Youngstown St.",
+      "teamName": "Penguins",
+      "color": "#C8102E"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46148",
+      "seoname": "iu-indy",
+      "name6Char": "IUINDY",
+      "nameFull": "Indiana University Indianapolis",
+      "nameShort": "IU Indy",
+      "teamName": "Jaguars",
+      "color": "#A90533"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46583,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "32",
+        "attackErrors": "10",
+        "attackAttempts": "85",
+        "hittingPercentage": "0.259",
+        "assists": "29",
+        "setErrors": "1",
+        "setAttempts": "80",
+        "serviceAces": "7",
+        "serviceErrors": "10",
+        "serveAttempts": "73",
+        "digs": "43",
+        "receptionAttempts": "47",
+        "receptionErrors": "5",
+        "blockSolos": "0",
+        "blockAssists": "4",
+        "blockingErrors": "0",
+        "totalBlocks": "2"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46148,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "59",
+        "kills": "33",
+        "attackErrors": "21",
+        "attackAttempts": "106",
+        "hittingPercentage": "0.113",
+        "assists": "33",
+        "setErrors": "1",
+        "setAttempts": "101",
+        "serviceAces": "5",
+        "serviceErrors": "14",
+        "serveAttempts": "61",
+        "digs": "40",
+        "receptionAttempts": "63",
+        "receptionErrors": "7",
+        "blockSolos": "1",
+        "blockAssists": "2",
+        "blockingErrors": "2",
+        "totalBlocks": "2"
+      }
+    }
+  ]
+}

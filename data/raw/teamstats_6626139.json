@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626139,
+  "title": "WVB Boxscore",
+  "description": "Duke vs Georgia Tech",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46409",
+      "seoname": "duke",
+      "name6Char": "DUKE",
+      "nameFull": "Duke University",
+      "nameShort": "Duke",
+      "teamName": "Blue Devils",
+      "color": "#002D72"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46549",
+      "seoname": "georgia-tech",
+      "name6Char": "GATECH",
+      "nameFull": "Georgia Institute of Technology",
+      "nameShort": "Georgia Tech",
+      "teamName": "Yellow Jackets",
+      "color": "#B3A369"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46409,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "81",
+        "kills": "45",
+        "attackErrors": "20",
+        "attackAttempts": "126",
+        "hittingPercentage": "0.198",
+        "assists": "44",
+        "setErrors": "1",
+        "setAttempts": "135",
+        "serviceAces": "5",
+        "serviceErrors": "9",
+        "serveAttempts": "82",
+        "digs": "39",
+        "receptionAttempts": "89",
+        "receptionErrors": "7",
+        "blockSolos": "2",
+        "blockAssists": "16",
+        "blockingErrors": "0",
+        "totalBlocks": "10"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46549,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "98",
+        "kills": "60",
+        "attackErrors": "22",
+        "attackAttempts": "126",
+        "hittingPercentage": "0.302",
+        "assists": "57",
+        "setErrors": "1",
+        "setAttempts": "127",
+        "serviceAces": "7",
+        "serviceErrors": "8",
+        "serveAttempts": "97",
+        "digs": "48",
+        "receptionAttempts": "73",
+        "receptionErrors": "5",
+        "blockSolos": "0",
+        "blockAssists": "16",
+        "blockingErrors": "1",
+        "totalBlocks": "8"
+      }
+    }
+  ]
+}

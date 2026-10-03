@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624888,
+  "title": "WVB Boxscore",
+  "description": "FIU vs Kennesaw St.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46546",
+      "seoname": "fiu",
+      "name6Char": "FIU",
+      "nameFull": "Florida International University",
+      "nameShort": "FIU",
+      "teamName": "Panthers",
+      "color": "#091F3F"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45832",
+      "seoname": "kennesaw-st",
+      "name6Char": "KENSAW",
+      "nameFull": "Kennesaw State University",
+      "nameShort": "Kennesaw St.",
+      "teamName": "Owls",
+      "color": "#010101"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46546,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "105",
+        "kills": "61",
+        "attackErrors": "40",
+        "attackAttempts": "177",
+        "hittingPercentage": "0.119",
+        "assists": "54",
+        "setErrors": "1",
+        "setAttempts": "168",
+        "serviceAces": "9",
+        "serviceErrors": "9",
+        "serveAttempts": "105",
+        "digs": "66",
+        "receptionAttempts": "90",
+        "receptionErrors": "5",
+        "blockSolos": "1",
+        "blockAssists": "16",
+        "blockingErrors": "0",
+        "totalBlocks": "9"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45832,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "98",
+        "kills": "43",
+        "attackErrors": "26",
+        "attackAttempts": "143",
+        "hittingPercentage": "0.119",
+        "assists": "36",
+        "setErrors": "1",
+        "setAttempts": "142",
+        "serviceAces": "5",
+        "serviceErrors": "8",
+        "serveAttempts": "98",
+        "digs": "66",
+        "receptionAttempts": "96",
+        "receptionErrors": "9",
+        "blockSolos": "4",
+        "blockAssists": "20",
+        "blockingErrors": "0",
+        "totalBlocks": "14"
+      }
+    }
+  ]
+}

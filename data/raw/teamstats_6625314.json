@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625314,
+  "title": "WVB Boxscore",
+  "description": "New Haven vs Central Conn. St.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46234",
+      "seoname": "new-haven",
+      "name6Char": "NEWHAV",
+      "nameFull": "University of New Haven",
+      "nameShort": "New Haven",
+      "teamName": "Chargers",
+      "color": "#102B4E"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46039",
+      "seoname": "central-conn-st",
+      "name6Char": "C CONN",
+      "nameFull": "Central Connecticut State University",
+      "nameShort": "Central Conn. St.",
+      "teamName": "Blue Devils",
+      "color": "#003087"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46234,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "91",
+        "kills": "44",
+        "attackErrors": "20",
+        "attackAttempts": "116",
+        "hittingPercentage": "0.207",
+        "assists": "41",
+        "setErrors": "1",
+        "setAttempts": "118",
+        "serviceAces": "11",
+        "serviceErrors": "6",
+        "serveAttempts": "90",
+        "digs": "47",
+        "receptionAttempts": "61",
+        "receptionErrors": "8",
+        "blockSolos": "6",
+        "blockAssists": "10",
+        "blockingErrors": "0",
+        "totalBlocks": "11"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46039,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "70",
+        "kills": "35",
+        "attackErrors": "24",
+        "attackAttempts": "117",
+        "hittingPercentage": "0.094",
+        "assists": "33",
+        "setErrors": "1",
+        "setAttempts": "127",
+        "serviceAces": "8",
+        "serviceErrors": "10",
+        "serveAttempts": "71",
+        "digs": "36",
+        "receptionAttempts": "84",
+        "receptionErrors": "11",
+        "blockSolos": "2",
+        "blockAssists": "14",
+        "blockingErrors": "0",
+        "totalBlocks": "9"
+      }
+    }
+  ]
+}

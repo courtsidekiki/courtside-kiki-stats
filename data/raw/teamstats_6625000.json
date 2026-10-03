@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625000,
+  "title": "WVB Boxscore",
+  "description": "Bradley vs UNI",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46700",
+      "seoname": "bradley",
+      "name6Char": "BRAD",
+      "nameFull": "Bradley University",
+      "nameShort": "Bradley",
+      "teamName": "Braves",
+      "color": "#A21B21"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45848",
+      "seoname": "uni",
+      "name6Char": "N IOWA",
+      "nameFull": "University of Northern Iowa",
+      "nameShort": "UNI",
+      "teamName": "Panthers",
+      "color": "#470A68"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46700,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "57",
+        "kills": "19",
+        "attackErrors": "18",
+        "attackAttempts": "101",
+        "hittingPercentage": "0.010",
+        "assists": "19",
+        "setErrors": "1",
+        "setAttempts": "107",
+        "serviceAces": "5",
+        "serviceErrors": "5",
+        "serveAttempts": "59",
+        "digs": "45",
+        "receptionAttempts": "66",
+        "receptionErrors": "5",
+        "blockSolos": "4",
+        "blockAssists": "22",
+        "blockingErrors": "2",
+        "totalBlocks": "15"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45848,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "45",
+        "attackErrors": "24",
+        "attackAttempts": "121",
+        "hittingPercentage": "0.174",
+        "assists": "40",
+        "setErrors": "2",
+        "setAttempts": "117",
+        "serviceAces": "5",
+        "serviceErrors": "7",
+        "serveAttempts": "73",
+        "digs": "56",
+        "receptionAttempts": "54",
+        "receptionErrors": "5",
+        "blockSolos": "3",
+        "blockAssists": "8",
+        "blockingErrors": "2",
+        "totalBlocks": "7"
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628692,
+  "title": "WVB Boxscore",
+  "description": "Texas A&M vs Alabama",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46006",
+      "seoname": "texas-am",
+      "name6Char": "TX A&M",
+      "nameFull": "Texas A&M University, College Station",
+      "nameShort": "Texas A&M",
+      "teamName": "Aggies",
+      "color": "#5D0025"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46207",
+      "seoname": "alabama",
+      "name6Char": "ALA",
+      "nameFull": "University of Alabama",
+      "nameShort": "Alabama",
+      "teamName": "Crimson Tide",
+      "color": "#9D2235"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46006,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "42",
+        "attackErrors": "24",
+        "attackAttempts": "108",
+        "hittingPercentage": "0.167",
+        "assists": "34",
+        "setErrors": "0",
+        "setAttempts": "102",
+        "serviceAces": "6",
+        "serviceErrors": "5",
+        "serveAttempts": "74",
+        "digs": "37",
+        "receptionAttempts": "55",
+        "receptionErrors": "2",
+        "blockSolos": "0",
+        "blockAssists": "24",
+        "blockingErrors": "1",
+        "totalBlocks": "12"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46207,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "59",
+        "kills": "28",
+        "attackErrors": "21",
+        "attackAttempts": "92",
+        "hittingPercentage": "0.076",
+        "assists": "20",
+        "setErrors": "1",
+        "setAttempts": "86",
+        "serviceAces": "2",
+        "serviceErrors": "5",
+        "serveAttempts": "60",
+        "digs": "31",
+        "receptionAttempts": "69",
+        "receptionErrors": "6",
+        "blockSolos": "1",
+        "blockAssists": "22",
+        "blockingErrors": "2",
+        "totalBlocks": "12"
+      }
+    }
+  ]
+}

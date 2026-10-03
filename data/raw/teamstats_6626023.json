@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626023,
+  "title": "WVB Boxscore",
+  "description": "The Citadel vs Tennessee Tech",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46662",
+      "seoname": "citadel",
+      "name6Char": "CITDEL",
+      "nameFull": "The Citadel",
+      "nameShort": "The Citadel",
+      "teamName": "Bulldogs",
+      "color": "#77A5C3"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46504",
+      "seoname": "tennessee-tech",
+      "name6Char": "TNTECH",
+      "nameFull": "Tennessee Technological University",
+      "nameShort": "Tennessee Tech",
+      "teamName": "Golden Eagles",
+      "color": "#753BBD"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46662,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "52",
+        "kills": "27",
+        "attackErrors": "16",
+        "attackAttempts": "120",
+        "hittingPercentage": "0.092",
+        "assists": "26",
+        "setErrors": "2",
+        "setAttempts": "122",
+        "serviceAces": "5",
+        "serviceErrors": "6",
+        "serveAttempts": "53",
+        "digs": "45",
+        "receptionAttempts": "69",
+        "receptionErrors": "5",
+        "blockSolos": "3",
+        "blockAssists": "0",
+        "blockingErrors": "2",
+        "totalBlocks": "3"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46504,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "44",
+        "attackErrors": "15",
+        "attackAttempts": "107",
+        "hittingPercentage": "0.271",
+        "assists": "44",
+        "setErrors": "0",
+        "setAttempts": "111",
+        "serviceAces": "5",
+        "serviceErrors": "5",
+        "serveAttempts": "74",
+        "digs": "65",
+        "receptionAttempts": "47",
+        "receptionErrors": "5",
+        "blockSolos": "2",
+        "blockAssists": "8",
+        "blockingErrors": "2",
+        "totalBlocks": "6"
+      }
+    }
+  ]
+}

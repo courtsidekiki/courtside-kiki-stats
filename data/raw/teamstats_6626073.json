@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626073,
+  "title": "WVB Boxscore",
+  "description": "Saint Peter's vs Niagara",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46618",
+      "seoname": "st-peters",
+      "name6Char": "ST PTR",
+      "nameFull": "Saint Peter's University",
+      "nameShort": "Saint Peter's",
+      "teamName": "Peacocks",
+      "color": "#21375C"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46476",
+      "seoname": "niagara",
+      "name6Char": "NIAGRA",
+      "nameFull": "Niagara University",
+      "nameShort": "Niagara",
+      "teamName": "Purple Eagles",
+      "color": "#582C83"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46618,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "85",
+        "kills": "50",
+        "attackErrors": "16",
+        "attackAttempts": "110",
+        "hittingPercentage": "0.309",
+        "assists": "49",
+        "setErrors": "0",
+        "setAttempts": "111",
+        "serviceAces": "4",
+        "serviceErrors": "9",
+        "serveAttempts": "83",
+        "digs": "42",
+        "receptionAttempts": "64",
+        "receptionErrors": "4",
+        "blockSolos": "1",
+        "blockAssists": "6",
+        "blockingErrors": "1",
+        "totalBlocks": "4"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46476,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "66",
+        "kills": "37",
+        "attackErrors": "25",
+        "attackAttempts": "114",
+        "hittingPercentage": "0.105",
+        "assists": "33",
+        "setErrors": "1",
+        "setAttempts": "114",
+        "serviceAces": "4",
+        "serviceErrors": "4",
+        "serveAttempts": "68",
+        "digs": "36",
+        "receptionAttempts": "74",
+        "receptionErrors": "4",
+        "blockSolos": "1",
+        "blockAssists": "14",
+        "blockingErrors": "5",
+        "totalBlocks": "8"
+      }
+    }
+  ]
+}

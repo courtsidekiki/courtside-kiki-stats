@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628445,
+  "title": "WVB Boxscore",
+  "description": "Texas vs Mississippi St.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46755",
+      "seoname": "texas",
+      "name6Char": "TEXAS",
+      "nameFull": "University of Texas at Austin",
+      "nameShort": "Texas",
+      "teamName": "Longhorns",
+      "color": "#CB6015"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45937",
+      "seoname": "mississippi-st",
+      "name6Char": "MISSST",
+      "nameFull": "Mississippi State University",
+      "nameShort": "Mississippi St.",
+      "teamName": "Bulldogs",
+      "color": "#5D1725"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46755,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "53",
+        "attackErrors": "7",
+        "attackAttempts": "105",
+        "hittingPercentage": "0.438",
+        "assists": "49",
+        "setErrors": "0",
+        "setAttempts": "104",
+        "serviceAces": "2",
+        "serviceErrors": "12",
+        "serveAttempts": "73",
+        "digs": "46",
+        "receptionAttempts": "50",
+        "receptionErrors": "3",
+        "blockSolos": "0",
+        "blockAssists": "8",
+        "blockingErrors": "3",
+        "totalBlocks": "4"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45937,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "56",
+        "kills": "34",
+        "attackErrors": "10",
+        "attackAttempts": "98",
+        "hittingPercentage": "0.245",
+        "assists": "33",
+        "setErrors": "2",
+        "setAttempts": "102",
+        "serviceAces": "3",
+        "serviceErrors": "8",
+        "serveAttempts": "58",
+        "digs": "40",
+        "receptionAttempts": "61",
+        "receptionErrors": "2",
+        "blockSolos": "0",
+        "blockAssists": "6",
+        "blockingErrors": "2",
+        "totalBlocks": "3"
+      }
+    }
+  ]
+}

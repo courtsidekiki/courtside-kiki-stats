@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624862,
+  "title": "WVB Boxscore",
+  "description": "South Carolina St. vs Coppin St.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45866",
+      "seoname": "south-carolina-st",
+      "name6Char": "SC ST",
+      "nameFull": "South Carolina State University",
+      "nameShort": "South Carolina St.",
+      "teamName": "Lady Bulldogs",
+      "color": "#862633"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46045",
+      "seoname": "coppin-st",
+      "name6Char": "COPPIN",
+      "nameFull": "Coppin State University",
+      "nameShort": "Coppin St.",
+      "teamName": "Eagles",
+      "color": "#0c3354"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45866,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "49",
+        "kills": "23",
+        "attackErrors": "15",
+        "attackAttempts": "84",
+        "hittingPercentage": "0.095",
+        "assists": "19",
+        "setErrors": "4",
+        "setAttempts": "88",
+        "serviceAces": "2",
+        "serviceErrors": "3",
+        "serveAttempts": "50",
+        "digs": "31",
+        "receptionAttempts": "62",
+        "receptionErrors": "7",
+        "blockSolos": "5",
+        "blockAssists": "0",
+        "blockingErrors": "5",
+        "totalBlocks": "5"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46045,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "46",
+        "attackErrors": "11",
+        "attackAttempts": "93",
+        "hittingPercentage": "0.376",
+        "assists": "37",
+        "setErrors": "0",
+        "setAttempts": "88",
+        "serviceAces": "7",
+        "serviceErrors": "12",
+        "serveAttempts": "74",
+        "digs": "42",
+        "receptionAttempts": "47",
+        "receptionErrors": "2",
+        "blockSolos": "3",
+        "blockAssists": "0",
+        "blockingErrors": "3",
+        "totalBlocks": "3"
+      }
+    }
+  ]
+}

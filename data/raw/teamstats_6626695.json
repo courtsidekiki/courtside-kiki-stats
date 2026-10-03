@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626695,
+  "title": "WVB Boxscore",
+  "description": "CSUN vs Long Beach St.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46289",
+      "seoname": "cal-st-northridge",
+      "name6Char": "CSUN",
+      "nameFull": "California State University, Northridge",
+      "nameShort": "CSUN",
+      "teamName": "Matadors",
+      "color": "#BB2531"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46160",
+      "seoname": "long-beach-st",
+      "name6Char": "LBSU",
+      "nameFull": "Long Beach State University",
+      "nameShort": "Long Beach St.",
+      "teamName": "Beach",
+      "color": "#010101"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46289,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "45",
+        "attackErrors": "12",
+        "attackAttempts": "87",
+        "hittingPercentage": "0.379",
+        "assists": "37",
+        "setErrors": "1",
+        "setAttempts": "79",
+        "serviceAces": "5",
+        "serviceErrors": "6",
+        "serveAttempts": "74",
+        "digs": "31",
+        "receptionAttempts": "46",
+        "receptionErrors": "2",
+        "blockSolos": "0",
+        "blockAssists": "18",
+        "blockingErrors": "0",
+        "totalBlocks": "9"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46160,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "50",
+        "kills": "29",
+        "attackErrors": "19",
+        "attackAttempts": "88",
+        "hittingPercentage": "0.114",
+        "assists": "27",
+        "setErrors": "1",
+        "setAttempts": "84",
+        "serviceAces": "2",
+        "serviceErrors": "5",
+        "serveAttempts": "51",
+        "digs": "24",
+        "receptionAttempts": "68",
+        "receptionErrors": "5",
+        "blockSolos": "2",
+        "blockAssists": "2",
+        "blockingErrors": "5",
+        "totalBlocks": "3"
+      }
+    }
+  ]
+}

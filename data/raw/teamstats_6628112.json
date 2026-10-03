@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628112,
+  "title": "WVB Boxscore",
+  "description": "Fairfield vs Quinnipiac",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46300",
+      "seoname": "fairfield",
+      "name6Char": "FAIR",
+      "nameFull": "Fairfield University",
+      "nameShort": "Fairfield",
+      "teamName": "Stags",
+      "color": "#C8102E"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46112",
+      "seoname": "quinnipiac",
+      "name6Char": "QUINN",
+      "nameFull": "Quinnipiac University",
+      "nameShort": "Quinnipiac",
+      "teamName": "Bobcats",
+      "color": "#0C2340"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46300,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "78",
+        "kills": "40",
+        "attackErrors": "9",
+        "attackAttempts": "91",
+        "hittingPercentage": "0.341",
+        "assists": "36",
+        "setErrors": "1",
+        "setAttempts": "85",
+        "serviceAces": "5",
+        "serviceErrors": "8",
+        "serveAttempts": "77",
+        "digs": "33",
+        "receptionAttempts": "49",
+        "receptionErrors": "3",
+        "blockSolos": "0",
+        "blockAssists": "26",
+        "blockingErrors": "0",
+        "totalBlocks": "13"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46112,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "53",
+        "kills": "32",
+        "attackErrors": "28",
+        "attackAttempts": "114",
+        "hittingPercentage": "0.035",
+        "assists": "27",
+        "setErrors": "0",
+        "setAttempts": "109",
+        "serviceAces": "3",
+        "serviceErrors": "5",
+        "serveAttempts": "54",
+        "digs": "34",
+        "receptionAttempts": "69",
+        "receptionErrors": "5",
+        "blockSolos": "1",
+        "blockAssists": "6",
+        "blockingErrors": "0",
+        "totalBlocks": "4"
+      }
+    }
+  ]
+}

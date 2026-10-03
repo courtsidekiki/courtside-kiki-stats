@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628088,
+  "title": "WVB Boxscore",
+  "description": "Boston College vs Pittsburgh",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46216",
+      "seoname": "boston-college",
+      "name6Char": "BC",
+      "nameFull": "Boston College",
+      "nameShort": "Boston College",
+      "teamName": "Eagles",
+      "color": "#862633"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45986",
+      "seoname": "pittsburgh",
+      "name6Char": "PITT",
+      "nameFull": "University of Pittsburgh",
+      "nameShort": "Pittsburgh",
+      "teamName": "Panthers",
+      "color": "#003594"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46216,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "51",
+        "kills": "32",
+        "attackErrors": "19",
+        "attackAttempts": "101",
+        "hittingPercentage": "0.129",
+        "assists": "31",
+        "setErrors": "2",
+        "setAttempts": "111",
+        "serviceAces": "2",
+        "serviceErrors": "6",
+        "serveAttempts": "53",
+        "digs": "39",
+        "receptionAttempts": "69",
+        "receptionErrors": "10",
+        "blockSolos": "2",
+        "blockAssists": "12",
+        "blockingErrors": "0",
+        "totalBlocks": "8"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45986,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "76",
+        "kills": "39",
+        "attackErrors": "12",
+        "attackAttempts": "99",
+        "hittingPercentage": "0.273",
+        "assists": "36",
+        "setErrors": "0",
+        "setAttempts": "100",
+        "serviceAces": "10",
+        "serviceErrors": "5",
+        "serveAttempts": "74",
+        "digs": "42",
+        "receptionAttempts": "47",
+        "receptionErrors": "2",
+        "blockSolos": "2",
+        "blockAssists": "16",
+        "blockingErrors": "4",
+        "totalBlocks": "10"
+      }
+    }
+  ]
+}

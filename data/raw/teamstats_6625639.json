@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625639,
+  "title": "WVB Boxscore",
+  "description": "South Carolina vs Oklahoma",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46363",
+      "seoname": "south-carolina",
+      "name6Char": "S CAR",
+      "nameFull": "University of South Carolina, Columbia",
+      "nameShort": "South Carolina",
+      "teamName": "Gamecocks",
+      "color": "#862633"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46346",
+      "seoname": "oklahoma",
+      "name6Char": "OKLA",
+      "nameFull": "University of Oklahoma",
+      "nameShort": "Oklahoma",
+      "teamName": "Sooners",
+      "color": "#9D2235"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46363,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "78",
+        "kills": "36",
+        "attackErrors": "19",
+        "attackAttempts": "118",
+        "hittingPercentage": "0.144",
+        "assists": "35",
+        "setErrors": "2",
+        "setAttempts": "130",
+        "serviceAces": "8",
+        "serviceErrors": "7",
+        "serveAttempts": "79",
+        "digs": "50",
+        "receptionAttempts": "82",
+        "receptionErrors": "5",
+        "blockSolos": "2",
+        "blockAssists": "10",
+        "blockingErrors": "4",
+        "totalBlocks": "7"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46346,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "98",
+        "kills": "65",
+        "attackErrors": "18",
+        "attackAttempts": "141",
+        "hittingPercentage": "0.333",
+        "assists": "61",
+        "setErrors": "1",
+        "setAttempts": "131",
+        "serviceAces": "5",
+        "serviceErrors": "15",
+        "serveAttempts": "97",
+        "digs": "57",
+        "receptionAttempts": "72",
+        "receptionErrors": "8",
+        "blockSolos": "1",
+        "blockAssists": "12",
+        "blockingErrors": "0",
+        "totalBlocks": "7"
+      }
+    }
+  ]
+}

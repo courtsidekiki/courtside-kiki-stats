@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627172,
+  "title": "WVB Boxscore",
+  "description": "Georgia vs Arkansas",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45911",
+      "seoname": "georgia",
+      "name6Char": "UGA",
+      "nameFull": "University of Georgia",
+      "nameShort": "Georgia",
+      "teamName": "Bulldogs",
+      "color": "#DA291C"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46212",
+      "seoname": "arkansas",
+      "name6Char": "ARK",
+      "nameFull": "University of Arkansas, Fayetteville",
+      "nameShort": "Arkansas",
+      "teamName": "Razorbacks",
+      "color": "#9D2235"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45911,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "92",
+        "kills": "51",
+        "attackErrors": "22",
+        "attackAttempts": "142",
+        "hittingPercentage": "0.204",
+        "assists": "47",
+        "setErrors": "3",
+        "setAttempts": "144",
+        "serviceAces": "8",
+        "serviceErrors": "9",
+        "serveAttempts": "91",
+        "digs": "57",
+        "receptionAttempts": "77",
+        "receptionErrors": "6",
+        "blockSolos": "0",
+        "blockAssists": "24",
+        "blockingErrors": "2",
+        "totalBlocks": "12"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46212,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "85",
+        "kills": "45",
+        "attackErrors": "23",
+        "attackAttempts": "137",
+        "hittingPercentage": "0.161",
+        "assists": "43",
+        "setErrors": "1",
+        "setAttempts": "142",
+        "serviceAces": "6",
+        "serviceErrors": "9",
+        "serveAttempts": "86",
+        "digs": "57",
+        "receptionAttempts": "82",
+        "receptionErrors": "8",
+        "blockSolos": "1",
+        "blockAssists": "10",
+        "blockingErrors": "0",
+        "totalBlocks": "6"
+      }
+    }
+  ]
+}

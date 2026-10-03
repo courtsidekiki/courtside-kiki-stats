@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626567,
+  "title": "WVB Boxscore",
+  "description": "Texas Tech vs West Virginia",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46253",
+      "seoname": "texas-tech",
+      "name6Char": "TXTECH",
+      "nameFull": "Texas Tech University",
+      "nameShort": "Texas Tech",
+      "teamName": "Red Raiders",
+      "color": "#ED1F2A"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46511",
+      "seoname": "west-virginia",
+      "name6Char": "WVU",
+      "nameFull": "West Virginia University",
+      "nameShort": "West Virginia",
+      "teamName": "Mountaineers",
+      "color": "#0F2D52"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46253,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "96",
+        "kills": "64",
+        "attackErrors": "37",
+        "attackAttempts": "165",
+        "hittingPercentage": "0.164",
+        "assists": "61",
+        "setErrors": "2",
+        "setAttempts": "172",
+        "serviceAces": "4",
+        "serviceErrors": "13",
+        "serveAttempts": "97",
+        "digs": "65",
+        "receptionAttempts": "108",
+        "receptionErrors": "4",
+        "blockSolos": "1",
+        "blockAssists": "14",
+        "blockingErrors": "1",
+        "totalBlocks": "8"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46511,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "115",
+        "kills": "59",
+        "attackErrors": "22",
+        "attackAttempts": "155",
+        "hittingPercentage": "0.239",
+        "assists": "56",
+        "setErrors": "0",
+        "setAttempts": "149",
+        "serviceAces": "4",
+        "serviceErrors": "6",
+        "serveAttempts": "114",
+        "digs": "51",
+        "receptionAttempts": "84",
+        "receptionErrors": "4",
+        "blockSolos": "5",
+        "blockAssists": "16",
+        "blockingErrors": "6",
+        "totalBlocks": "13"
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627083,
+  "title": "WVB Boxscore",
+  "description": "Robert Morris vs Purdue Fort Wayne",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46735",
+      "seoname": "robert-morris",
+      "name6Char": "ROBMOR",
+      "nameFull": "Robert Morris University",
+      "nameShort": "Robert Morris",
+      "teamName": "Colonials",
+      "color": "#041E42"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45781",
+      "seoname": "ipfw",
+      "name6Char": "IPFW",
+      "nameFull": "Purdue University Fort Wayne",
+      "nameShort": "Purdue Fort Wayne",
+      "teamName": "Mastodons",
+      "color": "#1f3d7c"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46735,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "95",
+        "kills": "51",
+        "attackErrors": "29",
+        "attackAttempts": "167",
+        "hittingPercentage": "0.132",
+        "assists": "49",
+        "setErrors": "1",
+        "setAttempts": "165",
+        "serviceAces": "9",
+        "serviceErrors": "12",
+        "serveAttempts": "96",
+        "digs": "58",
+        "receptionAttempts": "94",
+        "receptionErrors": "6",
+        "blockSolos": "4",
+        "blockAssists": "10",
+        "blockingErrors": "0",
+        "totalBlocks": "9"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45781,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "107",
+        "kills": "59",
+        "attackErrors": "18",
+        "attackAttempts": "144",
+        "hittingPercentage": "0.285",
+        "assists": "57",
+        "setErrors": "5",
+        "setAttempts": "149",
+        "serviceAces": "6",
+        "serviceErrors": "12",
+        "serveAttempts": "106",
+        "digs": "71",
+        "receptionAttempts": "84",
+        "receptionErrors": "9",
+        "blockSolos": "1",
+        "blockAssists": "18",
+        "blockingErrors": "1",
+        "totalBlocks": "10"
+      }
+    }
+  ]
+}

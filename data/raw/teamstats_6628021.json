@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628021,
+  "title": "WVB Boxscore",
+  "description": "Fla. Atlantic vs Temple",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45773",
+      "seoname": "fla-atlantic",
+      "name6Char": "FAU",
+      "nameFull": "Florida Atlantic University",
+      "nameShort": "Fla. Atlantic",
+      "teamName": "Owls",
+      "color": "#002855"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45871",
+      "seoname": "temple",
+      "name6Char": "TEMPLE",
+      "nameFull": "Temple University",
+      "nameShort": "Temple",
+      "teamName": "Owls",
+      "color": "#b30838"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45773,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "105",
+        "kills": "59",
+        "attackErrors": "27",
+        "attackAttempts": "160",
+        "hittingPercentage": "0.200",
+        "assists": "53",
+        "setErrors": "0",
+        "setAttempts": "156",
+        "serviceAces": "6",
+        "serviceErrors": "7",
+        "serveAttempts": "104",
+        "digs": "69",
+        "receptionAttempts": "86",
+        "receptionErrors": "5",
+        "blockSolos": "5",
+        "blockAssists": "16",
+        "blockingErrors": "0",
+        "totalBlocks": "13"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45871,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "98",
+        "kills": "59",
+        "attackErrors": "24",
+        "attackAttempts": "167",
+        "hittingPercentage": "0.210",
+        "assists": "55",
+        "setErrors": "3",
+        "setAttempts": "165",
+        "serviceAces": "5",
+        "serviceErrors": "13",
+        "serveAttempts": "99",
+        "digs": "68",
+        "receptionAttempts": "97",
+        "receptionErrors": "6",
+        "blockSolos": "2",
+        "blockAssists": "18",
+        "blockingErrors": "0",
+        "totalBlocks": "11"
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6637947,
+  "title": "WVB Boxscore",
+  "description": "Kent St. vs Bowling Green",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46558",
+      "seoname": "kent-st",
+      "name6Char": "KENT",
+      "nameFull": "Kent State University",
+      "nameShort": "Kent St.",
+      "teamName": "Golden Flashes",
+      "color": "#003976"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46217",
+      "seoname": "bowling-green",
+      "name6Char": "BGSU",
+      "nameFull": "Bowling Green State University",
+      "nameShort": "Bowling Green",
+      "teamName": "Falcons",
+      "color": "#FE5000"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46558,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "102",
+        "kills": "57",
+        "attackErrors": "16",
+        "attackAttempts": "179",
+        "hittingPercentage": "0.229",
+        "assists": "53",
+        "setErrors": "0",
+        "setAttempts": "172",
+        "serviceAces": "5",
+        "serviceErrors": "8",
+        "serveAttempts": "102",
+        "digs": "83",
+        "receptionAttempts": "97",
+        "receptionErrors": "8",
+        "blockSolos": "2",
+        "blockAssists": "22",
+        "blockingErrors": "2",
+        "totalBlocks": "13"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46217,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "104",
+        "kills": "72",
+        "attackErrors": "32",
+        "attackAttempts": "201",
+        "hittingPercentage": "0.199",
+        "assists": "72",
+        "setErrors": "1",
+        "setAttempts": "195",
+        "serviceAces": "8",
+        "serviceErrors": "7",
+        "serveAttempts": "104",
+        "digs": "89",
+        "receptionAttempts": "94",
+        "receptionErrors": "5",
+        "blockSolos": "1",
+        "blockAssists": "10",
+        "blockingErrors": "3",
+        "totalBlocks": "6"
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624947,
+  "title": "WVB Boxscore",
+  "description": "Oakland vs Wright St.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46108",
+      "seoname": "oakland",
+      "name6Char": "OAK",
+      "nameFull": "Oakland University",
+      "nameShort": "Oakland",
+      "teamName": "Golden Grizzlies",
+      "color": "#010101"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45818",
+      "seoname": "wright-st",
+      "name6Char": "WRIGHT",
+      "nameFull": "Wright State University",
+      "nameShort": "Wright St.",
+      "teamName": "Raiders",
+      "color": "#046A38"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46108,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "62",
+        "kills": "42",
+        "attackErrors": "19",
+        "attackAttempts": "115",
+        "hittingPercentage": "0.200",
+        "assists": "40",
+        "setErrors": "1",
+        "setAttempts": "119",
+        "serviceAces": "4",
+        "serviceErrors": "3",
+        "serveAttempts": "64",
+        "digs": "46",
+        "receptionAttempts": "66",
+        "receptionErrors": "2",
+        "blockSolos": "0",
+        "blockAssists": "4",
+        "blockingErrors": "3",
+        "totalBlocks": "2"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45818,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "76",
+        "kills": "51",
+        "attackErrors": "7",
+        "attackAttempts": "114",
+        "hittingPercentage": "0.386",
+        "assists": "45",
+        "setErrors": "1",
+        "setAttempts": "109",
+        "serviceAces": "2",
+        "serviceErrors": "8",
+        "serveAttempts": "74",
+        "digs": "43",
+        "receptionAttempts": "61",
+        "receptionErrors": "4",
+        "blockSolos": "2",
+        "blockAssists": "12",
+        "blockingErrors": "2",
+        "totalBlocks": "8"
+      }
+    }
+  ]
+}

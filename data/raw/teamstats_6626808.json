@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626808,
+  "title": "WVB Boxscore",
+  "description": "Brown vs Dartmouth",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46218",
+      "seoname": "brown",
+      "name6Char": "BROWN",
+      "nameFull": "Brown University",
+      "nameShort": "Brown",
+      "teamName": "Bears",
+      "color": "#4E3629"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46046",
+      "seoname": "dartmouth",
+      "name6Char": "DART",
+      "nameFull": "Dartmouth College",
+      "nameShort": "Dartmouth",
+      "teamName": "Big Green",
+      "color": "#046A38"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46218,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "107",
+        "kills": "68",
+        "attackErrors": "22",
+        "attackAttempts": "160",
+        "hittingPercentage": "0.287",
+        "assists": "58",
+        "setErrors": "2",
+        "setAttempts": "160",
+        "serviceAces": "4",
+        "serviceErrors": "10",
+        "serveAttempts": "107",
+        "digs": "72",
+        "receptionAttempts": "88",
+        "receptionErrors": "6",
+        "blockSolos": "2",
+        "blockAssists": "8",
+        "blockingErrors": "0",
+        "totalBlocks": "6"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46046,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "100",
+        "kills": "60",
+        "attackErrors": "21",
+        "attackAttempts": "165",
+        "hittingPercentage": "0.236",
+        "assists": "56",
+        "setErrors": "2",
+        "setAttempts": "169",
+        "serviceAces": "6",
+        "serviceErrors": "12",
+        "serveAttempts": "100",
+        "digs": "63",
+        "receptionAttempts": "97",
+        "receptionErrors": "4",
+        "blockSolos": "2",
+        "blockAssists": "12",
+        "blockingErrors": "2",
+        "totalBlocks": "8"
+      }
+    }
+  ]
+}

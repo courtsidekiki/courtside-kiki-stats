@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627354,
+  "title": "WVB Boxscore",
+  "description": "UC Riverside vs UC Irvine",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46536",
+      "seoname": "uc-riverside",
+      "name6Char": "UC RIV",
+      "nameFull": "University of California, Riverside",
+      "nameShort": "UC Riverside",
+      "teamName": "Highlanders",
+      "color": "#1E437B"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46400",
+      "seoname": "uc-irvine",
+      "name6Char": "UC IRV",
+      "nameFull": "University of California, Irvine",
+      "nameShort": "UC Irvine",
+      "teamName": "Anteaters",
+      "color": "#0C2340"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46536,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "77",
+        "kills": "37",
+        "attackErrors": "22",
+        "attackAttempts": "121",
+        "hittingPercentage": "0.124",
+        "assists": "31",
+        "setErrors": "4",
+        "setAttempts": "133",
+        "serviceAces": "8",
+        "serviceErrors": "6",
+        "serveAttempts": "78",
+        "digs": "43",
+        "receptionAttempts": "84",
+        "receptionErrors": "5",
+        "blockSolos": "0",
+        "blockAssists": "16",
+        "blockingErrors": "2",
+        "totalBlocks": "8"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46400,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "98",
+        "kills": "60",
+        "attackErrors": "17",
+        "attackAttempts": "129",
+        "hittingPercentage": "0.333",
+        "assists": "54",
+        "setErrors": "2",
+        "setAttempts": "129",
+        "serviceAces": "5",
+        "serviceErrors": "13",
+        "serveAttempts": "97",
+        "digs": "47",
+        "receptionAttempts": "72",
+        "receptionErrors": "8",
+        "blockSolos": "1",
+        "blockAssists": "12",
+        "blockingErrors": "1",
+        "totalBlocks": "7"
+      }
+    }
+  ]
+}

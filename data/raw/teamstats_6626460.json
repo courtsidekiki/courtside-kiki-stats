@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626460,
+  "title": "WVB Boxscore",
+  "description": "Tennessee St. vs Western Ill.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45872",
+      "seoname": "tennessee-st",
+      "name6Char": "TENNST",
+      "nameFull": "Tennessee State University",
+      "nameShort": "Tennessee St.",
+      "teamName": "Lady Tigers",
+      "color": "#272E63"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46633",
+      "seoname": "western-ill",
+      "name6Char": "W ILL",
+      "nameFull": "Western Illinois University",
+      "nameShort": "Western Ill.",
+      "teamName": "Leathernecks",
+      "color": "#59327E"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45872,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "80",
+        "kills": "49",
+        "attackErrors": "19",
+        "attackAttempts": "129",
+        "hittingPercentage": "0.233",
+        "assists": "41",
+        "setErrors": "3",
+        "setAttempts": "125",
+        "serviceAces": "4",
+        "serviceErrors": "7",
+        "serveAttempts": "81",
+        "digs": "50",
+        "receptionAttempts": "89",
+        "receptionErrors": "11",
+        "blockSolos": "0",
+        "blockAssists": "12",
+        "blockingErrors": "0",
+        "totalBlocks": "6"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46633,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "97",
+        "kills": "57",
+        "attackErrors": "18",
+        "attackAttempts": "135",
+        "hittingPercentage": "0.289",
+        "assists": "52",
+        "setErrors": "2",
+        "setAttempts": "138",
+        "serviceAces": "11",
+        "serviceErrors": "7",
+        "serveAttempts": "96",
+        "digs": "57",
+        "receptionAttempts": "74",
+        "receptionErrors": "4",
+        "blockSolos": "1",
+        "blockAssists": "2",
+        "blockingErrors": "1",
+        "totalBlocks": "2"
+      }
+    }
+  ]
+}

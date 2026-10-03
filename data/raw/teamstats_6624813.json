@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624813,
+  "title": "WVB Boxscore",
+  "description": "Southern Miss. vs Troy",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45868",
+      "seoname": "southern-miss",
+      "name6Char": "S MISS",
+      "nameFull": "The University of Southern Mississippi",
+      "nameShort": "Southern Miss.",
+      "teamName": "Golden Eagles",
+      "color": "#010101"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46254",
+      "seoname": "troy",
+      "name6Char": "TROY",
+      "nameFull": "Troy University",
+      "nameShort": "Troy",
+      "teamName": "Trojans",
+      "color": "#9D2235"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45868,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "97",
+        "kills": "49",
+        "attackErrors": "28",
+        "attackAttempts": "156",
+        "hittingPercentage": "0.135",
+        "assists": "43",
+        "setErrors": "0",
+        "setAttempts": "156",
+        "serviceAces": "10",
+        "serviceErrors": "13",
+        "serveAttempts": "98",
+        "digs": "66",
+        "receptionAttempts": "91",
+        "receptionErrors": "10",
+        "blockSolos": "3",
+        "blockAssists": "22",
+        "blockingErrors": "4",
+        "totalBlocks": "14"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46254,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "105",
+        "kills": "54",
+        "attackErrors": "22",
+        "attackAttempts": "155",
+        "hittingPercentage": "0.206",
+        "assists": "51",
+        "setErrors": "3",
+        "setAttempts": "157",
+        "serviceAces": "10",
+        "serviceErrors": "13",
+        "serveAttempts": "104",
+        "digs": "67",
+        "receptionAttempts": "85",
+        "receptionErrors": "10",
+        "blockSolos": "2",
+        "blockAssists": "22",
+        "blockingErrors": "3",
+        "totalBlocks": "13"
+      }
+    }
+  ]
+}

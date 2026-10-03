@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627587,
+  "title": "WVB Boxscore",
+  "description": "Grand Canyon vs Hawaii",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46590",
+      "seoname": "grand-canyon",
+      "name6Char": "GCANYN",
+      "nameFull": "Grand Canyon University",
+      "nameShort": "Grand Canyon",
+      "teamName": "Lopes",
+      "color": "#5F259F"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46419",
+      "seoname": "hawaii",
+      "name6Char": "HAWAII",
+      "nameFull": "University of Hawaii, Manoa",
+      "nameShort": "Hawaii",
+      "teamName": "Rainbow Wahine",
+      "color": "#154734"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46590,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "66",
+        "kills": "35",
+        "attackErrors": "13",
+        "attackAttempts": "123",
+        "hittingPercentage": "0.179",
+        "assists": "30",
+        "setErrors": "2",
+        "setAttempts": "119",
+        "serviceAces": "3",
+        "serviceErrors": "12",
+        "serveAttempts": "68",
+        "digs": "61",
+        "receptionAttempts": "65",
+        "receptionErrors": "6",
+        "blockSolos": "0",
+        "blockAssists": "16",
+        "blockingErrors": "0",
+        "totalBlocks": "8"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46419,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "42",
+        "attackErrors": "19",
+        "attackAttempts": "139",
+        "hittingPercentage": "0.165",
+        "assists": "40",
+        "setErrors": "0",
+        "setAttempts": "130",
+        "serviceAces": "6",
+        "serviceErrors": "8",
+        "serveAttempts": "73",
+        "digs": "66",
+        "receptionAttempts": "56",
+        "receptionErrors": "3",
+        "blockSolos": "2",
+        "blockAssists": "6",
+        "blockingErrors": "0",
+        "totalBlocks": "5"
+      }
+    }
+  ]
+}

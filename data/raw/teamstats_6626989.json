@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626989,
+  "title": "WVB Boxscore",
+  "description": "Gardner-Webb vs Presbyterian",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45828",
+      "seoname": "gardner-webb",
+      "name6Char": "G WEBB",
+      "nameFull": "Gardner-Webb University",
+      "nameShort": "Gardner-Webb",
+      "teamName": "Runnin' Bulldogs",
+      "color": "#A82931"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45966",
+      "seoname": "presbyterian",
+      "name6Char": "PRESBY",
+      "nameFull": "Presbyterian College",
+      "nameShort": "Presbyterian",
+      "teamName": "Blue Hose",
+      "color": "#005394"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45828,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "76",
+        "kills": "42",
+        "attackErrors": "17",
+        "attackAttempts": "124",
+        "hittingPercentage": "0.202",
+        "assists": "37",
+        "setErrors": "3",
+        "setAttempts": "132",
+        "serviceAces": "5",
+        "serviceErrors": "9",
+        "serveAttempts": "75",
+        "digs": "51",
+        "receptionAttempts": "53",
+        "receptionErrors": "2",
+        "blockSolos": "1",
+        "blockAssists": "12",
+        "blockingErrors": "1",
+        "totalBlocks": "7"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45966,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "63",
+        "kills": "32",
+        "attackErrors": "15",
+        "attackAttempts": "115",
+        "hittingPercentage": "0.148",
+        "assists": "28",
+        "setErrors": "2",
+        "setAttempts": "126",
+        "serviceAces": "2",
+        "serviceErrors": "11",
+        "serveAttempts": "64",
+        "digs": "42",
+        "receptionAttempts": "66",
+        "receptionErrors": "5",
+        "blockSolos": "0",
+        "blockAssists": "6",
+        "blockingErrors": "3",
+        "totalBlocks": "3"
+      }
+    }
+  ]
+}

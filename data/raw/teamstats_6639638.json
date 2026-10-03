@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6639638,
+  "title": "WVB Boxscore",
+  "description": "Siena vs Manhattan",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46248",
+      "seoname": "siena",
+      "name6Char": "SIENA",
+      "nameFull": "Siena University",
+      "nameShort": "Siena",
+      "teamName": "Saints",
+      "color": "#006747"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46198",
+      "seoname": "manhattan",
+      "name6Char": "MANHAT",
+      "nameFull": "Manhattan University",
+      "nameShort": "Manhattan",
+      "teamName": "Jaspers",
+      "color": "#046A38"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46248,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "95",
+        "kills": "63",
+        "attackErrors": "18",
+        "attackAttempts": "155",
+        "hittingPercentage": "0.290",
+        "assists": "61",
+        "setErrors": "1",
+        "setAttempts": "165",
+        "serviceAces": "6",
+        "serviceErrors": "8",
+        "serveAttempts": "94",
+        "digs": "78",
+        "receptionAttempts": "80",
+        "receptionErrors": "3",
+        "blockSolos": "3",
+        "blockAssists": "12",
+        "blockingErrors": "0",
+        "totalBlocks": "9"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46198,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "81",
+        "kills": "51",
+        "attackErrors": "23",
+        "attackAttempts": "159",
+        "hittingPercentage": "0.176",
+        "assists": "46",
+        "setErrors": "0",
+        "setAttempts": "151",
+        "serviceAces": "3",
+        "serviceErrors": "2",
+        "serveAttempts": "82",
+        "digs": "63",
+        "receptionAttempts": "86",
+        "receptionErrors": "6",
+        "blockSolos": "0",
+        "blockAssists": "18",
+        "blockingErrors": "1",
+        "totalBlocks": "9"
+      }
+    }
+  ]
+}

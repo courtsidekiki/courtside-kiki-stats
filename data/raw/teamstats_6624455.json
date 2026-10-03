@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624455,
+  "title": "WVB Boxscore",
+  "description": "Davidson vs George Mason",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46174",
+      "seoname": "davidson",
+      "name6Char": "DAVID",
+      "nameFull": "Davidson College",
+      "nameShort": "Davidson",
+      "teamName": "Wildcats",
+      "color": "#C8102E"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45798",
+      "seoname": "george-mason",
+      "name6Char": "GMU",
+      "nameFull": "George Mason University",
+      "nameShort": "George Mason",
+      "teamName": "Patriots",
+      "color": "#1A5632"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46174,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "83",
+        "kills": "49",
+        "attackErrors": "23",
+        "attackAttempts": "154",
+        "hittingPercentage": "0.169",
+        "assists": "45",
+        "setErrors": "1",
+        "setAttempts": "159",
+        "serviceAces": "5",
+        "serviceErrors": "7",
+        "serveAttempts": "84",
+        "digs": "63",
+        "receptionAttempts": "84",
+        "receptionErrors": "7",
+        "blockSolos": "1",
+        "blockAssists": "8",
+        "blockingErrors": "1",
+        "totalBlocks": "5"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45798,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "92",
+        "kills": "54",
+        "attackErrors": "20",
+        "attackAttempts": "143",
+        "hittingPercentage": "0.238",
+        "assists": "54",
+        "setErrors": "2",
+        "setAttempts": "153",
+        "serviceAces": "7",
+        "serviceErrors": "7",
+        "serveAttempts": "91",
+        "digs": "71",
+        "receptionAttempts": "77",
+        "receptionErrors": "5",
+        "blockSolos": "1",
+        "blockAssists": "14",
+        "blockingErrors": "2",
+        "totalBlocks": "8"
+      }
+    }
+  ]
+}

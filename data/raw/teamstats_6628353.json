@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628353,
+  "title": "WVB Boxscore",
+  "description": "Bellarmine vs Jacksonville",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46573",
+      "seoname": "bellarmine",
+      "name6Char": "BELLAR",
+      "nameFull": "Bellarmine University",
+      "nameShort": "Bellarmine",
+      "teamName": "Knights",
+      "color": "#772f40"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45917",
+      "seoname": "jacksonville",
+      "name6Char": "JVILLE",
+      "nameFull": "Jacksonville University",
+      "nameShort": "Jacksonville",
+      "teamName": "Dolphins",
+      "color": "#004E42"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46573,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "80",
+        "kills": "42",
+        "attackErrors": "22",
+        "attackAttempts": "147",
+        "hittingPercentage": "0.136",
+        "assists": "39",
+        "setErrors": "1",
+        "setAttempts": "140",
+        "serviceAces": "8",
+        "serviceErrors": "9",
+        "serveAttempts": "81",
+        "digs": "51",
+        "receptionAttempts": "82",
+        "receptionErrors": "8",
+        "blockSolos": "1",
+        "blockAssists": "4",
+        "blockingErrors": "1",
+        "totalBlocks": "3"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45917,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "93",
+        "kills": "53",
+        "attackErrors": "17",
+        "attackAttempts": "135",
+        "hittingPercentage": "0.267",
+        "assists": "52",
+        "setErrors": "3",
+        "setAttempts": "145",
+        "serviceAces": "8",
+        "serviceErrors": "10",
+        "serveAttempts": "92",
+        "digs": "70",
+        "receptionAttempts": "72",
+        "receptionErrors": "8",
+        "blockSolos": "0",
+        "blockAssists": "12",
+        "blockingErrors": "0",
+        "totalBlocks": "6"
+      }
+    }
+  ]
+}

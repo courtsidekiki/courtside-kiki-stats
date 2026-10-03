@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626837,
+  "title": "WVB Boxscore",
+  "description": "Jackson St. vs Bethune-Cookman",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45783",
+      "seoname": "jackson-st",
+      "name6Char": "JACKST",
+      "nameFull": "Jackson State University",
+      "nameShort": "Jackson St.",
+      "teamName": "Lady Tigers",
+      "color": "#041E42"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46699",
+      "seoname": "bethune-cookman",
+      "name6Char": "BECOOK",
+      "nameFull": "Bethune-Cookman University",
+      "nameShort": "Bethune-Cookman",
+      "teamName": "Wildcats",
+      "color": "#6F263D"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45783,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "90",
+        "kills": "47",
+        "attackErrors": "31",
+        "attackAttempts": "139",
+        "hittingPercentage": "0.115",
+        "assists": "46",
+        "setErrors": "1",
+        "setAttempts": "138",
+        "serviceAces": "9",
+        "serviceErrors": "14",
+        "serveAttempts": "91",
+        "digs": "62",
+        "receptionAttempts": "85",
+        "receptionErrors": "7",
+        "blockSolos": "4",
+        "blockAssists": "6",
+        "blockingErrors": "1",
+        "totalBlocks": "7"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46699,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "97",
+        "kills": "44",
+        "attackErrors": "20",
+        "attackAttempts": "132",
+        "hittingPercentage": "0.182",
+        "assists": "38",
+        "setErrors": "3",
+        "setAttempts": "126",
+        "serviceAces": "7",
+        "serviceErrors": "11",
+        "serveAttempts": "96",
+        "digs": "57",
+        "receptionAttempts": "77",
+        "receptionErrors": "9",
+        "blockSolos": "5",
+        "blockAssists": "4",
+        "blockingErrors": "1",
+        "totalBlocks": "7"
+      }
+    }
+  ]
+}

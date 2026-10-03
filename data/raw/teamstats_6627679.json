@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627679,
+  "title": "WVB Boxscore",
+  "description": "Winthrop vs Charleston So.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45817",
+      "seoname": "winthrop",
+      "name6Char": "WINTHR",
+      "nameFull": "Winthrop University",
+      "nameShort": "Winthrop",
+      "teamName": "Eagles",
+      "color": "#9D2235"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46074",
+      "seoname": "charleston-so",
+      "name6Char": "CHARSO",
+      "nameFull": "Charleston Southern University",
+      "nameShort": "Charleston So.",
+      "teamName": "Buccaneers",
+      "color": "#15233C"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45817,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "103",
+        "kills": "60",
+        "attackErrors": "18",
+        "attackAttempts": "151",
+        "hittingPercentage": "0.278",
+        "assists": "58",
+        "setErrors": "2",
+        "setAttempts": "156",
+        "serviceAces": "6",
+        "serviceErrors": "14",
+        "serveAttempts": "102",
+        "digs": "64",
+        "receptionAttempts": "93",
+        "receptionErrors": "6",
+        "blockSolos": "1",
+        "blockAssists": "16",
+        "blockingErrors": "1",
+        "totalBlocks": "9"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46074,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "101",
+        "kills": "58",
+        "attackErrors": "27",
+        "attackAttempts": "170",
+        "hittingPercentage": "0.182",
+        "assists": "52",
+        "setErrors": "0",
+        "setAttempts": "169",
+        "serviceAces": "6",
+        "serviceErrors": "9",
+        "serveAttempts": "102",
+        "digs": "62",
+        "receptionAttempts": "88",
+        "receptionErrors": "6",
+        "blockSolos": "0",
+        "blockAssists": "8",
+        "blockingErrors": "1",
+        "totalBlocks": "4"
+      }
+    }
+  ]
+}

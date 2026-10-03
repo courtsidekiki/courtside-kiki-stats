@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627942,
+  "title": "WVB Boxscore",
+  "description": "LIU vs Le Moyne",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45791",
+      "seoname": "long-island",
+      "name6Char": "LIU",
+      "nameFull": "Long Island University",
+      "nameShort": "LIU",
+      "teamName": "Sharks",
+      "color": "#68A8D0"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46684",
+      "seoname": "le-moyne",
+      "name6Char": "LEMOYN",
+      "nameFull": "Le Moyne College",
+      "nameShort": "Le Moyne",
+      "teamName": "Dolphins",
+      "color": "#154734"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45791,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "43",
+        "attackErrors": "10",
+        "attackAttempts": "77",
+        "hittingPercentage": "0.429",
+        "assists": "39",
+        "setErrors": "0",
+        "setAttempts": "70",
+        "serviceAces": "10",
+        "serviceErrors": "8",
+        "serveAttempts": "74",
+        "digs": "30",
+        "receptionAttempts": "33",
+        "receptionErrors": "3",
+        "blockSolos": "1",
+        "blockAssists": "14",
+        "blockingErrors": "0",
+        "totalBlocks": "8"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46684,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "36",
+        "kills": "15",
+        "attackErrors": "18",
+        "attackAttempts": "66",
+        "hittingPercentage": "-0.045",
+        "assists": "14",
+        "setErrors": "0",
+        "setAttempts": "70",
+        "serviceAces": "3",
+        "serviceErrors": "4",
+        "serveAttempts": "37",
+        "digs": "17",
+        "receptionAttempts": "66",
+        "receptionErrors": "10",
+        "blockSolos": "2",
+        "blockAssists": "8",
+        "blockingErrors": "2",
+        "totalBlocks": "6"
+      }
+    }
+  ]
+}

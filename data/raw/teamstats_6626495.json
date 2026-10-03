@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626495,
+  "title": "WVB Boxscore",
+  "description": "Saint Louis vs Duquesne",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46744",
+      "seoname": "saint-louis",
+      "name6Char": "ST LOU",
+      "nameFull": "Saint Louis University",
+      "nameShort": "Saint Louis",
+      "teamName": "Billikens",
+      "color": "#003DA5"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46297",
+      "seoname": "duquesne",
+      "name6Char": "DUQSNE",
+      "nameFull": "Duquesne University",
+      "nameShort": "Duquesne",
+      "teamName": "Dukes",
+      "color": "#BA0C2F"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46744,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "95",
+        "kills": "57",
+        "attackErrors": "21",
+        "attackAttempts": "145",
+        "hittingPercentage": "0.248",
+        "assists": "56",
+        "setErrors": "0",
+        "setAttempts": "132",
+        "serviceAces": "2",
+        "serviceErrors": "12",
+        "serveAttempts": "94",
+        "digs": "48",
+        "receptionAttempts": "77",
+        "receptionErrors": "4",
+        "blockSolos": "2",
+        "blockAssists": "22",
+        "blockingErrors": "0",
+        "totalBlocks": "13"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46297,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "86",
+        "kills": "49",
+        "attackErrors": "26",
+        "attackAttempts": "134",
+        "hittingPercentage": "0.172",
+        "assists": "45",
+        "setErrors": "0",
+        "setAttempts": "126",
+        "serviceAces": "4",
+        "serviceErrors": "9",
+        "serveAttempts": "86",
+        "digs": "56",
+        "receptionAttempts": "82",
+        "receptionErrors": "2",
+        "blockSolos": "2",
+        "blockAssists": "17",
+        "blockingErrors": "1",
+        "totalBlocks": "10"
+      }
+    }
+  ]
+}

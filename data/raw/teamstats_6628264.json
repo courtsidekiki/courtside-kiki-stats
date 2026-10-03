@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628264,
+  "title": "WVB Boxscore",
+  "description": "N.C. Central vs Morgan St.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45845",
+      "seoname": "nc-central",
+      "name6Char": "NC CEN",
+      "nameFull": "North Carolina Central University",
+      "nameShort": "N.C. Central",
+      "teamName": "Eagles",
+      "color": "#862633"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45841",
+      "seoname": "morgan-st",
+      "name6Char": "MORGAN",
+      "nameFull": "Morgan State University",
+      "nameShort": "Morgan St.",
+      "teamName": "Lady Bears",
+      "color": "#FC4C02"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45845,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "103",
+        "kills": "63",
+        "attackErrors": "33",
+        "attackAttempts": "171",
+        "hittingPercentage": "0.175",
+        "assists": "62",
+        "setErrors": "0",
+        "setAttempts": "173",
+        "serviceAces": "9",
+        "serviceErrors": "12",
+        "serveAttempts": "102",
+        "digs": "60",
+        "receptionAttempts": "92",
+        "receptionErrors": "7",
+        "blockSolos": "2",
+        "blockAssists": "2",
+        "blockingErrors": "1",
+        "totalBlocks": "3"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45841,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "103",
+        "kills": "51",
+        "attackErrors": "17",
+        "attackAttempts": "138",
+        "hittingPercentage": "0.246",
+        "assists": "45",
+        "setErrors": "2",
+        "setAttempts": "138",
+        "serviceAces": "7",
+        "serviceErrors": "12",
+        "serveAttempts": "104",
+        "digs": "57",
+        "receptionAttempts": "90",
+        "receptionErrors": "9",
+        "blockSolos": "7",
+        "blockAssists": "4",
+        "blockingErrors": "1",
+        "totalBlocks": "9"
+      }
+    }
+  ]
+}

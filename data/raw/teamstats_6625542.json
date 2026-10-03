@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625542,
+  "title": "WVB Boxscore",
+  "description": "Memphis vs Tulane",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46688",
+      "seoname": "memphis",
+      "name6Char": "MEM",
+      "nameFull": "University of Memphis",
+      "nameShort": "Memphis",
+      "teamName": "Tigers",
+      "color": "#173B70"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46255",
+      "seoname": "tulane",
+      "name6Char": "TULANE",
+      "nameFull": "Tulane University",
+      "nameShort": "Tulane",
+      "teamName": "Green Wave",
+      "color": "#006747"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46688,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "99",
+        "kills": "59",
+        "attackErrors": "27",
+        "attackAttempts": "146",
+        "hittingPercentage": "0.219",
+        "assists": "54",
+        "setErrors": "1",
+        "setAttempts": "137",
+        "serviceAces": "4",
+        "serviceErrors": "7",
+        "serveAttempts": "99",
+        "digs": "57",
+        "receptionAttempts": "93",
+        "receptionErrors": "9",
+        "blockSolos": "3",
+        "blockAssists": "12",
+        "blockingErrors": "1",
+        "totalBlocks": "9"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46255,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "107",
+        "kills": "63",
+        "attackErrors": "21",
+        "attackAttempts": "150",
+        "hittingPercentage": "0.280",
+        "assists": "59",
+        "setErrors": "1",
+        "setAttempts": "144",
+        "serviceAces": "9",
+        "serviceErrors": "14",
+        "serveAttempts": "107",
+        "digs": "53",
+        "receptionAttempts": "92",
+        "receptionErrors": "4",
+        "blockSolos": "3",
+        "blockAssists": "12",
+        "blockingErrors": "1",
+        "totalBlocks": "9"
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625064,
+  "title": "WVB Boxscore",
+  "description": "Norfolk St. vs UMES",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45976",
+      "seoname": "norfolk-st",
+      "name6Char": "NORFLK",
+      "nameFull": "Norfolk State University",
+      "nameShort": "Norfolk St.",
+      "teamName": "Spartans",
+      "color": "#007A53"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46563",
+      "seoname": "umes",
+      "name6Char": "UMES",
+      "nameFull": "University of Maryland Eastern Shore",
+      "nameShort": "UMES",
+      "teamName": "Hawks",
+      "color": "#5D0024"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45976,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "106",
+        "kills": "59",
+        "attackErrors": "15",
+        "attackAttempts": "138",
+        "hittingPercentage": "0.319",
+        "assists": "56",
+        "setErrors": "3",
+        "setAttempts": "130",
+        "serviceAces": "10",
+        "serviceErrors": "11",
+        "serveAttempts": "105",
+        "digs": "48",
+        "receptionAttempts": "79",
+        "receptionErrors": "4",
+        "blockSolos": "9",
+        "blockAssists": "12",
+        "blockingErrors": "0",
+        "totalBlocks": "15"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46563,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "83",
+        "kills": "50",
+        "attackErrors": "31",
+        "attackAttempts": "141",
+        "hittingPercentage": "0.135",
+        "assists": "48",
+        "setErrors": "1",
+        "setAttempts": "141",
+        "serviceAces": "4",
+        "serviceErrors": "5",
+        "serveAttempts": "84",
+        "digs": "55",
+        "receptionAttempts": "94",
+        "receptionErrors": "10",
+        "blockSolos": "2",
+        "blockAssists": "6",
+        "blockingErrors": "0",
+        "totalBlocks": "5"
+      }
+    }
+  ]
+}

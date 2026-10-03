@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6638150,
+  "title": "WVB Boxscore",
+  "description": "Lipscomb vs North Florida",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46768",
+      "seoname": "lipscomb",
+      "name6Char": "LIPSCO",
+      "nameFull": "Lipscomb University",
+      "nameShort": "Lipscomb",
+      "teamName": "Bisons",
+      "color": "#2E1A47"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46392",
+      "seoname": "north-florida",
+      "name6Char": "NO FLA",
+      "nameFull": "University of North Florida",
+      "nameShort": "North Florida",
+      "teamName": "Ospreys",
+      "color": "#001B49"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46768,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "102",
+        "kills": "58",
+        "attackErrors": "26",
+        "attackAttempts": "167",
+        "hittingPercentage": "0.192",
+        "assists": "56",
+        "setErrors": "1",
+        "setAttempts": "158",
+        "serviceAces": "7",
+        "serviceErrors": "8",
+        "serveAttempts": "102",
+        "digs": "65",
+        "receptionAttempts": "91",
+        "receptionErrors": "5",
+        "blockSolos": "3",
+        "blockAssists": "8",
+        "blockingErrors": "1",
+        "totalBlocks": "7"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46392,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "103",
+        "kills": "62",
+        "attackErrors": "24",
+        "attackAttempts": "165",
+        "hittingPercentage": "0.230",
+        "assists": "59",
+        "setErrors": "1",
+        "setAttempts": "167",
+        "serviceAces": "5",
+        "serviceErrors": "12",
+        "serveAttempts": "103",
+        "digs": "72",
+        "receptionAttempts": "94",
+        "receptionErrors": "7",
+        "blockSolos": "2",
+        "blockAssists": "20",
+        "blockingErrors": "6",
+        "totalBlocks": "12"
+      }
+    }
+  ]
+}
