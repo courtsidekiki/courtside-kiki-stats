@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624579,
+  "title": "WVB Boxscore",
+  "description": "Portland vs San Francisco",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46351",
+      "seoname": "portland",
+      "name6Char": "PORT",
+      "nameFull": "University of Portland",
+      "nameShort": "Portland",
+      "teamName": "Pilots",
+      "color": "#31006F"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46247",
+      "seoname": "san-francisco",
+      "name6Char": "S FRAN",
+      "nameFull": "University of San Francisco",
+      "nameShort": "San Francisco",
+      "teamName": "Dons",
+      "color": "#205C40"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46351,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "77",
+        "kills": "49",
+        "attackErrors": "14",
+        "attackAttempts": "114",
+        "hittingPercentage": "0.307",
+        "assists": "43",
+        "setErrors": "4",
+        "setAttempts": "120",
+        "serviceAces": "9",
+        "serviceErrors": "12",
+        "serveAttempts": "74",
+        "digs": "46",
+        "receptionAttempts": "63",
+        "receptionErrors": "6",
+        "blockSolos": "1",
+        "blockAssists": "4",
+        "blockingErrors": "0",
+        "totalBlocks": "3"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46247,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "67",
+        "kills": "29",
+        "attackErrors": "11",
+        "attackAttempts": "95",
+        "hittingPercentage": "0.189",
+        "assists": "27",
+        "setErrors": "2",
+        "setAttempts": "100",
+        "serviceAces": "6",
+        "serviceErrors": "6",
+        "serveAttempts": "69",
+        "digs": "40",
+        "receptionAttempts": "62",
+        "receptionErrors": "9",
+        "blockSolos": "3",
+        "blockAssists": "8",
+        "blockingErrors": "1",
+        "totalBlocks": "7"
+      }
+    }
+  ]
+}

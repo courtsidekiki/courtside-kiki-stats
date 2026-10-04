@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626274,
+  "title": "WVB Boxscore",
+  "description": "Boston College vs SMU",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "1ST SET",
+  "status": "I",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46216",
+      "seoname": "boston-college",
+      "name6Char": "BC",
+      "nameFull": "Boston College",
+      "nameShort": "Boston College",
+      "teamName": "Eagles",
+      "color": "#862633"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46250",
+      "seoname": "smu",
+      "name6Char": "SMU",
+      "nameFull": "Southern Methodist University",
+      "nameShort": "SMU",
+      "teamName": "Mustangs",
+      "color": "#A80000"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46216,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "19",
+        "kills": "12",
+        "attackErrors": "8",
+        "attackAttempts": "28",
+        "hittingPercentage": "0.143",
+        "assists": "9",
+        "setErrors": "0",
+        "setAttempts": "27",
+        "serviceAces": "0",
+        "serviceErrors": "2",
+        "serveAttempts": "20",
+        "digs": "6",
+        "receptionAttempts": "21",
+        "receptionErrors": "0",
+        "blockSolos": "1",
+        "blockAssists": "2",
+        "blockingErrors": "0",
+        "totalBlocks": "3"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46250,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "25",
+        "kills": "15",
+        "attackErrors": "3",
+        "attackAttempts": "27",
+        "hittingPercentage": "0.444",
+        "assists": "13",
+        "setErrors": "1",
+        "setAttempts": "28",
+        "serviceAces": "0",
+        "serviceErrors": "3",
+        "serveAttempts": "24",
+        "digs": "7",
+        "receptionAttempts": "18",
+        "receptionErrors": "0",
+        "blockSolos": "2",
+        "blockAssists": "10",
+        "blockingErrors": "1",
+        "totalBlocks": "12"
+      }
+    }
+  ]
+}

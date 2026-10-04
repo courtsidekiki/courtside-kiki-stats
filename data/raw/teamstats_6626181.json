@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626181,
+  "title": "WVB Boxscore",
+  "description": "Lehigh vs Holy Cross",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46316",
+      "seoname": "lehigh",
+      "name6Char": "LEHIGH",
+      "nameFull": "Lehigh University",
+      "nameShort": "Lehigh",
+      "teamName": "Mountain Hawks",
+      "color": "#653819"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45915",
+      "seoname": "holy-cross",
+      "name6Char": "HOLYCR",
+      "nameFull": "College of the Holy Cross",
+      "nameShort": "Holy Cross",
+      "teamName": "Crusaders",
+      "color": "#582C83"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46316,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "95",
+        "kills": "55",
+        "attackErrors": "22",
+        "attackAttempts": "123",
+        "hittingPercentage": "0.268",
+        "assists": "51",
+        "setErrors": "1",
+        "setAttempts": "129",
+        "serviceAces": "8",
+        "serviceErrors": "10",
+        "serveAttempts": "94",
+        "digs": "52",
+        "receptionAttempts": "71",
+        "receptionErrors": "6",
+        "blockSolos": "0",
+        "blockAssists": "22",
+        "blockingErrors": "2",
+        "totalBlocks": "11"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45915,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "78",
+        "kills": "38",
+        "attackErrors": "24",
+        "attackAttempts": "126",
+        "hittingPercentage": "0.111",
+        "assists": "35",
+        "setErrors": "0",
+        "setAttempts": "130",
+        "serviceAces": "6",
+        "serviceErrors": "8",
+        "serveAttempts": "79",
+        "digs": "34",
+        "receptionAttempts": "84",
+        "receptionErrors": "8",
+        "blockSolos": "3",
+        "blockAssists": "8",
+        "blockingErrors": "0",
+        "totalBlocks": "7"
+      }
+    }
+  ]
+}

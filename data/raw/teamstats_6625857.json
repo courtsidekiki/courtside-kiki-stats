@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625857,
+  "title": "WVB Boxscore",
+  "description": "Chicago St. vs Stonehill",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46167",
+      "seoname": "chicago-st",
+      "name6Char": "CHI ST",
+      "nameFull": "Chicago State University",
+      "nameShort": "Chicago St.",
+      "teamName": "Cougars",
+      "color": "#006747"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46366",
+      "seoname": "stonehill",
+      "name6Char": "STONEH",
+      "nameFull": "Stonehill College",
+      "nameShort": "Stonehill",
+      "teamName": "Skyhawks",
+      "color": "#582C83"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46167,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "110",
+        "kills": "52",
+        "attackErrors": "23",
+        "attackAttempts": "134",
+        "hittingPercentage": "0.216",
+        "assists": "48",
+        "setErrors": "3",
+        "setAttempts": "146",
+        "serviceAces": "10",
+        "serviceErrors": "7",
+        "serveAttempts": "110",
+        "digs": "49",
+        "receptionAttempts": "97",
+        "receptionErrors": "11",
+        "blockSolos": "4",
+        "blockAssists": "24",
+        "blockingErrors": "0",
+        "totalBlocks": "16"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46366,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "114",
+        "kills": "70",
+        "attackErrors": "28",
+        "attackAttempts": "154",
+        "hittingPercentage": "0.273",
+        "assists": "65",
+        "setErrors": "2",
+        "setAttempts": "162",
+        "serviceAces": "11",
+        "serviceErrors": "17",
+        "serveAttempts": "114",
+        "digs": "53",
+        "receptionAttempts": "103",
+        "receptionErrors": "10",
+        "blockSolos": "0",
+        "blockAssists": "8",
+        "blockingErrors": "0",
+        "totalBlocks": "4"
+      }
+    }
+  ]
+}

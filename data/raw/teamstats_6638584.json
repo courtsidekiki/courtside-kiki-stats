@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6638584,
+  "title": "WVB Boxscore",
+  "description": "Charlotte vs North Texas",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "1ST SET",
+  "status": "I",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46232",
+      "seoname": "charlotte",
+      "name6Char": "CHAR",
+      "nameFull": "The University of North Carolina at Charlotte",
+      "nameShort": "Charlotte",
+      "teamName": "49ers",
+      "color": "#124D39"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46237",
+      "seoname": "north-texas",
+      "name6Char": "NO TEX",
+      "nameFull": "University of North Texas",
+      "nameShort": "North Texas",
+      "teamName": "Mean Green",
+      "color": "#007A33"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46232,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "23",
+        "kills": "10",
+        "attackErrors": "3",
+        "attackAttempts": "38",
+        "hittingPercentage": "0.184",
+        "assists": "9",
+        "setErrors": "0",
+        "setAttempts": "38",
+        "serviceAces": "1",
+        "serviceErrors": "2",
+        "serveAttempts": "23",
+        "digs": "18",
+        "receptionAttempts": "18",
+        "receptionErrors": "1",
+        "blockSolos": "2",
+        "blockAssists": "4",
+        "blockingErrors": "1",
+        "totalBlocks": "6"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46237,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "21",
+        "kills": "15",
+        "attackErrors": "9",
+        "attackAttempts": "47",
+        "hittingPercentage": "0.128",
+        "assists": "13",
+        "setErrors": "0",
+        "setAttempts": "46",
+        "serviceAces": "1",
+        "serviceErrors": "3",
+        "serveAttempts": "21",
+        "digs": "20",
+        "receptionAttempts": "21",
+        "receptionErrors": "1",
+        "blockSolos": "0",
+        "blockAssists": "0",
+        "blockingErrors": "0",
+        "totalBlocks": "0"
+      }
+    }
+  ]
+}

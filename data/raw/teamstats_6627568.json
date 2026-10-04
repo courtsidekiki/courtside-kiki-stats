@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627568,
+  "title": "WVB Boxscore",
+  "description": "Prairie View vs Alcorn",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "1ST SET",
+  "status": "I",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46734",
+      "seoname": "prairie-view",
+      "name6Char": "PV A&M",
+      "nameFull": "Prairie View A&M University",
+      "nameShort": "Prairie View",
+      "teamName": "Lady Panthers",
+      "color": "#582C83"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46694",
+      "seoname": "alcorn",
+      "name6Char": "ALCORN",
+      "nameFull": "Alcorn State University",
+      "nameShort": "Alcorn",
+      "teamName": "Lady Braves",
+      "color": "#512D6D"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46734,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "20",
+        "kills": "10",
+        "attackErrors": "3",
+        "attackAttempts": "25",
+        "hittingPercentage": "0.280",
+        "assists": "9",
+        "setErrors": "2",
+        "setAttempts": "26",
+        "serviceAces": "1",
+        "serviceErrors": "2",
+        "serveAttempts": "20",
+        "digs": "17",
+        "receptionAttempts": "12",
+        "receptionErrors": "1",
+        "blockSolos": "1",
+        "blockAssists": "2",
+        "blockingErrors": "0",
+        "totalBlocks": "3"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46694,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "16",
+        "kills": "8",
+        "attackErrors": "5",
+        "attackAttempts": "31",
+        "hittingPercentage": "0.097",
+        "assists": "7",
+        "setErrors": "0",
+        "setAttempts": "29",
+        "serviceAces": "1",
+        "serviceErrors": "4",
+        "serveAttempts": "16",
+        "digs": "12",
+        "receptionAttempts": "18",
+        "receptionErrors": "1",
+        "blockSolos": "1",
+        "blockAssists": "0",
+        "blockingErrors": "0",
+        "totalBlocks": "1"
+      }
+    }
+  ]
+}

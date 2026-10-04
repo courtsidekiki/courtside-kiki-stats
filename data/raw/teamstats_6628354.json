@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628354,
+  "title": "WVB Boxscore",
+  "description": "Lipscomb vs Jacksonville",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46768",
+      "seoname": "lipscomb",
+      "name6Char": "LIPSCO",
+      "nameFull": "Lipscomb University",
+      "nameShort": "Lipscomb",
+      "teamName": "Bisons",
+      "color": "#2E1A47"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45917",
+      "seoname": "jacksonville",
+      "name6Char": "JVILLE",
+      "nameFull": "Jacksonville University",
+      "nameShort": "Jacksonville",
+      "teamName": "Dolphins",
+      "color": "#004E42"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46768,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "100",
+        "kills": "66",
+        "attackErrors": "27",
+        "attackAttempts": "170",
+        "hittingPercentage": "0.229",
+        "assists": "64",
+        "setErrors": "0",
+        "setAttempts": "165",
+        "serviceAces": "6",
+        "serviceErrors": "9",
+        "serveAttempts": "99",
+        "digs": "83",
+        "receptionAttempts": "81",
+        "receptionErrors": "4",
+        "blockSolos": "0",
+        "blockAssists": "10",
+        "blockingErrors": "0",
+        "totalBlocks": "10"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45917,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "90",
+        "kills": "50",
+        "attackErrors": "16",
+        "attackAttempts": "162",
+        "hittingPercentage": "0.210",
+        "assists": "49",
+        "setErrors": "2",
+        "setAttempts": "167",
+        "serviceAces": "4",
+        "serviceErrors": "10",
+        "serveAttempts": "91",
+        "digs": "69",
+        "receptionAttempts": "90",
+        "receptionErrors": "6",
+        "blockSolos": "0",
+        "blockAssists": "26",
+        "blockingErrors": "2",
+        "totalBlocks": "26"
+      }
+    }
+  ]
+}

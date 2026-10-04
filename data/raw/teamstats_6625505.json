@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625505,
+  "title": "WVB Boxscore",
+  "description": "Army West Point vs Lafayette",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46257",
+      "seoname": "army",
+      "name6Char": "ARMY",
+      "nameFull": "U.S. Military Academy",
+      "nameShort": "Army West Point",
+      "teamName": "Black Knights",
+      "color": "#010101"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46193",
+      "seoname": "lafayette",
+      "name6Char": "LAFAYE",
+      "nameFull": "Lafayette College",
+      "nameShort": "Lafayette",
+      "teamName": "Leopards",
+      "color": "#862633"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46257,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "45",
+        "attackErrors": "18",
+        "attackAttempts": "129",
+        "hittingPercentage": "0.209",
+        "assists": "41",
+        "setErrors": "0",
+        "setAttempts": "120",
+        "serviceAces": "3",
+        "serviceErrors": "3",
+        "serveAttempts": "73",
+        "digs": "72",
+        "receptionAttempts": "48",
+        "receptionErrors": "3",
+        "blockSolos": "2",
+        "blockAssists": "10",
+        "blockingErrors": "2",
+        "totalBlocks": "7"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46193,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "51",
+        "kills": "27",
+        "attackErrors": "22",
+        "attackAttempts": "131",
+        "hittingPercentage": "0.038",
+        "assists": "25",
+        "setErrors": "0",
+        "setAttempts": "129",
+        "serviceAces": "3",
+        "serviceErrors": "5",
+        "serveAttempts": "53",
+        "digs": "57",
+        "receptionAttempts": "70",
+        "receptionErrors": "3",
+        "blockSolos": "2",
+        "blockAssists": "8",
+        "blockingErrors": "1",
+        "totalBlocks": "6"
+      }
+    }
+  ]
+}

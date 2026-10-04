@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628022,
+  "title": "WVB Boxscore",
+  "description": "Fla. Atlantic vs Rice",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "1ST SET",
+  "status": "I",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45773",
+      "seoname": "fla-atlantic",
+      "name6Char": "FAU",
+      "nameFull": "Florida Atlantic University",
+      "nameShort": "Fla. Atlantic",
+      "teamName": "Owls",
+      "color": "#002855"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45859",
+      "seoname": "rice",
+      "name6Char": "RICE",
+      "nameFull": "Rice University",
+      "nameShort": "Rice",
+      "teamName": "Owls",
+      "color": "#00205B"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45773,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "22",
+        "kills": "15",
+        "attackErrors": "6",
+        "attackAttempts": "39",
+        "hittingPercentage": "0.231",
+        "assists": "12",
+        "setErrors": "0",
+        "setAttempts": "36",
+        "serviceAces": "1",
+        "serviceErrors": "1",
+        "serveAttempts": "22",
+        "digs": "17",
+        "receptionAttempts": "19",
+        "receptionErrors": "1",
+        "blockSolos": "1",
+        "blockAssists": "6",
+        "blockingErrors": "1",
+        "totalBlocks": "7"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45859,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "20",
+        "kills": "12",
+        "attackErrors": "5",
+        "attackAttempts": "36",
+        "hittingPercentage": "0.194",
+        "assists": "12",
+        "setErrors": "0",
+        "setAttempts": "35",
+        "serviceAces": "1",
+        "serviceErrors": "1",
+        "serveAttempts": "20",
+        "digs": "14",
+        "receptionAttempts": "21",
+        "receptionErrors": "1",
+        "blockSolos": "3",
+        "blockAssists": "0",
+        "blockingErrors": "2",
+        "totalBlocks": "3"
+      }
+    }
+  ]
+}

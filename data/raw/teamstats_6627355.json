@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627355,
+  "title": "WVB Boxscore",
+  "description": "California Baptist vs UC Irvine",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "51173",
+      "seoname": "california-baptist",
+      "name6Char": "CALBAP",
+      "nameFull": "California Baptist University",
+      "nameShort": "California Baptist",
+      "teamName": "Lancers",
+      "color": "#171F3B"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46400",
+      "seoname": "uc-irvine",
+      "name6Char": "UC IRV",
+      "nameFull": "University of California, Irvine",
+      "nameShort": "UC Irvine",
+      "teamName": "Anteaters",
+      "color": "#0C2340"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 51173,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "109",
+        "kills": "58",
+        "attackErrors": "33",
+        "attackAttempts": "178",
+        "hittingPercentage": "0.140",
+        "assists": "51",
+        "setErrors": "2",
+        "setAttempts": "174",
+        "serviceAces": "5",
+        "serviceErrors": "11",
+        "serveAttempts": "109",
+        "digs": "68",
+        "receptionAttempts": "101",
+        "receptionErrors": "5",
+        "blockSolos": "7",
+        "blockAssists": "20",
+        "blockingErrors": "0",
+        "totalBlocks": "17"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46400,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "109",
+        "kills": "58",
+        "attackErrors": "35",
+        "attackAttempts": "181",
+        "hittingPercentage": "0.127",
+        "assists": "53",
+        "setErrors": "3",
+        "setAttempts": "177",
+        "serviceAces": "5",
+        "serviceErrors": "8",
+        "serveAttempts": "109",
+        "digs": "69",
+        "receptionAttempts": "98",
+        "receptionErrors": "5",
+        "blockSolos": "7",
+        "blockAssists": "14",
+        "blockingErrors": "1",
+        "totalBlocks": "14"
+      }
+    }
+  ]
+}

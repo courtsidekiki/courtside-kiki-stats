@@ -1,0 +1,98 @@
+{
+  "contests": [
+    {
+      "__typename": "Contest",
+      "id": "6625065",
+      "sportCode": "WVB",
+      "sportUrl": "volleyball-women",
+      "division": 1,
+      "clock": null,
+      "currentPeriod": "FINAL",
+      "finalMessage": "FINAL",
+      "gameState": "F",
+      "statusCodeDisplay": "final",
+      "network": null,
+      "startTime": "13:00",
+      "startTimeEpoch": 1791133200,
+      "week": null,
+      "seasonYear": 2026,
+      "winner": 46175,
+      "hasStartTime": true,
+      "hasBoxscore": true,
+      "hasPbp": true,
+      "hasScoringSummary": false,
+      "hasPreview": false,
+      "hasRecap": false,
+      "hasTeamStats": true,
+      "linescores": [
+        {
+          "__typename": "Linescore",
+          "period": "1",
+          "home": "25",
+          "visit": "20"
+        },
+        {
+          "__typename": "Linescore",
+          "period": "2",
+          "home": "25",
+          "visit": "19"
+        },
+        {
+          "__typename": "Linescore",
+          "period": "3",
+          "home": "25",
+          "visit": "18"
+        }
+      ],
+      "teams": [
+        {
+          "__typename": "ContestTeam",
+          "teamId": "46175",
+          "isHome": true,
+          "color": "#DA291C",
+          "seoname": "delaware-st",
+          "nameFull": "Delaware State University",
+          "nameShort": "Delaware St.",
+          "name6Char": "DEL ST",
+          "teamRank": null,
+          "gameRank": null,
+          "score": 3,
+          "seed": null,
+          "record": "(11-6)",
+          "divisionName": "d1",
+          "division": 1,
+          "isWinner": true
+        },
+        {
+          "__typename": "ContestTeam",
+          "teamId": "45976",
+          "isHome": false,
+          "color": "#007A53",
+          "seoname": "norfolk-st",
+          "nameFull": "Norfolk State University",
+          "nameShort": "Norfolk St.",
+          "name6Char": "NORFLK",
+          "teamRank": null,
+          "gameRank": null,
+          "score": 0,
+          "seed": null,
+          "record": "(5-11)",
+          "divisionName": "d1",
+          "division": 1,
+          "isWinner": false
+        }
+      ],
+      "liveVideos": [],
+      "championship": null,
+      "championshipGame": null,
+      "links": [],
+      "location": {
+        "__typename": "Location",
+        "venue": "Memorial Hall",
+        "city": "Dover",
+        "stateUsps": "DE"
+      },
+      "stats": null
+    }
+  ]
+}

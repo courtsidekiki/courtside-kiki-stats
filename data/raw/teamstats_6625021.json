@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625021,
+  "title": "WVB Boxscore",
+  "description": "Fordham vs Dayton",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46302",
+      "seoname": "fordham",
+      "name6Char": "FORDHM",
+      "nameFull": "Fordham University",
+      "nameShort": "Fordham",
+      "teamName": "Rams",
+      "color": "#6F263D"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46047",
+      "seoname": "dayton",
+      "name6Char": "DAYTON",
+      "nameFull": "University of Dayton",
+      "nameShort": "Dayton",
+      "teamName": "Flyers",
+      "color": "#D50032"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46302,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "51",
+        "kills": "31",
+        "attackErrors": "14",
+        "attackAttempts": "102",
+        "hittingPercentage": "0.167",
+        "assists": "30",
+        "setErrors": "7",
+        "setAttempts": "119",
+        "serviceAces": "4",
+        "serviceErrors": "9",
+        "serveAttempts": "53",
+        "digs": "39",
+        "receptionAttempts": "68",
+        "receptionErrors": "9",
+        "blockSolos": "3",
+        "blockAssists": "0",
+        "blockingErrors": "0",
+        "totalBlocks": "3"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46047,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "34",
+        "attackErrors": "8",
+        "attackAttempts": "98",
+        "hittingPercentage": "0.265",
+        "assists": "34",
+        "setErrors": "3",
+        "setAttempts": "105",
+        "serviceAces": "9",
+        "serviceErrors": "5",
+        "serveAttempts": "73",
+        "digs": "40",
+        "receptionAttempts": "44",
+        "receptionErrors": "4",
+        "blockSolos": "0",
+        "blockAssists": "0",
+        "blockingErrors": "0",
+        "totalBlocks": "0"
+      }
+    }
+  ]
+}

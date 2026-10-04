@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6639589,
+  "title": "WVB Boxscore",
+  "description": "South Carolina St. vs Morgan St.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "1ST SET",
+  "status": "I",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45866",
+      "seoname": "south-carolina-st",
+      "name6Char": "SC ST",
+      "nameFull": "South Carolina State University",
+      "nameShort": "South Carolina St.",
+      "teamName": "Lady Bulldogs",
+      "color": "#862633"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45841",
+      "seoname": "morgan-st",
+      "name6Char": "MORGAN",
+      "nameFull": "Morgan State University",
+      "nameShort": "Morgan St.",
+      "teamName": "Lady Bears",
+      "color": "#FC4C02"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45866,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "18",
+        "kills": "12",
+        "attackErrors": "3",
+        "attackAttempts": "32",
+        "hittingPercentage": "0.281",
+        "assists": "12",
+        "setErrors": "1",
+        "setAttempts": "36",
+        "serviceAces": "1",
+        "serviceErrors": "2",
+        "serveAttempts": "19",
+        "digs": "8",
+        "receptionAttempts": "15",
+        "receptionErrors": "1",
+        "blockSolos": "0",
+        "blockAssists": "0",
+        "blockingErrors": "2",
+        "totalBlocks": "0"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45841,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "17",
+        "kills": "10",
+        "attackErrors": "3",
+        "attackAttempts": "25",
+        "hittingPercentage": "0.280",
+        "assists": "9",
+        "setErrors": "1",
+        "setAttempts": "32",
+        "serviceAces": "1",
+        "serviceErrors": "1",
+        "serveAttempts": "16",
+        "digs": "10",
+        "receptionAttempts": "17",
+        "receptionErrors": "1",
+        "blockSolos": "0",
+        "blockAssists": "0",
+        "blockingErrors": "5",
+        "totalBlocks": "0"
+      }
+    }
+  ]
+}

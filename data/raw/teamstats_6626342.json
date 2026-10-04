@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626342,
+  "title": "WVB Boxscore",
+  "description": "Notre Dame vs Louisville",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46610",
+      "seoname": "notre-dame",
+      "name6Char": "N DAME",
+      "nameFull": "University of Notre Dame",
+      "nameShort": "Notre Dame",
+      "teamName": "Fighting Irish",
+      "color": "#0C2340"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46061",
+      "seoname": "louisville",
+      "name6Char": "LOUIS",
+      "nameFull": "University of Louisville",
+      "nameShort": "Louisville",
+      "teamName": "Cardinals",
+      "color": "#EE2722"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46610,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "44",
+        "kills": "26",
+        "attackErrors": "20",
+        "attackAttempts": "99",
+        "hittingPercentage": "0.061",
+        "assists": "25",
+        "setErrors": "2",
+        "setAttempts": "100",
+        "serviceAces": "3",
+        "serviceErrors": "6",
+        "serveAttempts": "45",
+        "digs": "34",
+        "receptionAttempts": "67",
+        "receptionErrors": "7",
+        "blockSolos": "0",
+        "blockAssists": "2",
+        "blockingErrors": "2",
+        "totalBlocks": "1"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46061,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "40",
+        "attackErrors": "7",
+        "attackAttempts": "87",
+        "hittingPercentage": "0.379",
+        "assists": "36",
+        "setErrors": "1",
+        "setAttempts": "80",
+        "serviceAces": "7",
+        "serviceErrors": "7",
+        "serveAttempts": "74",
+        "digs": "41",
+        "receptionAttempts": "39",
+        "receptionErrors": "3",
+        "blockSolos": "3",
+        "blockAssists": "14",
+        "blockingErrors": "2",
+        "totalBlocks": "10"
+      }
+    }
+  ]
+}

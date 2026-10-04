@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627626,
+  "title": "WVB Boxscore",
+  "description": "Utah St. vs Colorado St.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46756",
+      "seoname": "utah-st",
+      "name6Char": "UT ST",
+      "nameFull": "Utah State University",
+      "nameShort": "Utah St.",
+      "teamName": "Aggies",
+      "color": "#00263A"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46172",
+      "seoname": "colorado-st",
+      "name6Char": "CO ST",
+      "nameFull": "Colorado State University",
+      "nameShort": "Colorado St.",
+      "teamName": "Rams",
+      "color": "#2C5234"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46756,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "108",
+        "kills": "67",
+        "attackErrors": "31",
+        "attackAttempts": "204",
+        "hittingPercentage": "0.176",
+        "assists": "65",
+        "setErrors": "4",
+        "setAttempts": "209",
+        "serviceAces": "5",
+        "serviceErrors": "15",
+        "serveAttempts": "108",
+        "digs": "94",
+        "receptionAttempts": "102",
+        "receptionErrors": "4",
+        "blockSolos": "1",
+        "blockAssists": "19",
+        "blockingErrors": "1",
+        "totalBlocks": "10"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46172,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "106",
+        "kills": "52",
+        "attackErrors": "31",
+        "attackAttempts": "188",
+        "hittingPercentage": "0.112",
+        "assists": "47",
+        "setErrors": "1",
+        "setAttempts": "186",
+        "serviceAces": "4",
+        "serviceErrors": "4",
+        "serveAttempts": "106",
+        "digs": "83",
+        "receptionAttempts": "93",
+        "receptionErrors": "5",
+        "blockSolos": "2",
+        "blockAssists": "24",
+        "blockingErrors": "2",
+        "totalBlocks": "14"
+      }
+    }
+  ]
+}

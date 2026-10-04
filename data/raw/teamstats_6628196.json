@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628196,
+  "title": "WVB Boxscore",
+  "description": "Florida St. vs Wake Forest",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "1ST SET",
+  "status": "I",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46674",
+      "seoname": "florida-st",
+      "name6Char": "FSU",
+      "nameFull": "Florida State University",
+      "nameShort": "Florida St.",
+      "teamName": "Seminoles",
+      "color": "#76253A"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46133",
+      "seoname": "wake-forest",
+      "name6Char": "WAKE",
+      "nameFull": "Wake Forest University",
+      "nameShort": "Wake Forest",
+      "teamName": "Demon Deacons",
+      "color": "#010101"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46674,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "25",
+        "kills": "11",
+        "attackErrors": "5",
+        "attackAttempts": "28",
+        "hittingPercentage": "0.214",
+        "assists": "11",
+        "setErrors": "0",
+        "setAttempts": "28",
+        "serviceAces": "2",
+        "serviceErrors": "2",
+        "serveAttempts": "25",
+        "digs": "12",
+        "receptionAttempts": "19",
+        "receptionErrors": "2",
+        "blockSolos": "0",
+        "blockAssists": "6",
+        "blockingErrors": "0",
+        "totalBlocks": "6"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46133,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "20",
+        "kills": "10",
+        "attackErrors": "8",
+        "attackAttempts": "32",
+        "hittingPercentage": "0.063",
+        "assists": "8",
+        "setErrors": "0",
+        "setAttempts": "30",
+        "serviceAces": "2",
+        "serviceErrors": "1",
+        "serveAttempts": "20",
+        "digs": "10",
+        "receptionAttempts": "23",
+        "receptionErrors": "2",
+        "blockSolos": "0",
+        "blockAssists": "4",
+        "blockingErrors": "0",
+        "totalBlocks": "4"
+      }
+    }
+  ]
+}

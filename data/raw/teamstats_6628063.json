@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628063,
+  "title": "WVB Boxscore",
+  "description": "Toledo vs Ball St.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46007",
+      "seoname": "toledo",
+      "name6Char": "TOLEDO",
+      "nameFull": "University of Toledo",
+      "nameShort": "Toledo",
+      "teamName": "Rockets",
+      "color": "#00205B"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46572",
+      "seoname": "ball-st",
+      "name6Char": "BALLST",
+      "nameFull": "Ball State University",
+      "nameShort": "Ball St.",
+      "teamName": "Cardinals",
+      "color": "#BA0C2F"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46007,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "92",
+        "kills": "46",
+        "attackErrors": "18",
+        "attackAttempts": "141",
+        "hittingPercentage": "0.199",
+        "assists": "45",
+        "setErrors": "1",
+        "setAttempts": "145",
+        "serviceAces": "6",
+        "serviceErrors": "7",
+        "serveAttempts": "91",
+        "digs": "62",
+        "receptionAttempts": "70",
+        "receptionErrors": "3",
+        "blockSolos": "2",
+        "blockAssists": "17",
+        "blockingErrors": "0",
+        "totalBlocks": "10"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46572,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "74",
+        "kills": "45",
+        "attackErrors": "32",
+        "attackAttempts": "148",
+        "hittingPercentage": "0.088",
+        "assists": "43",
+        "setErrors": "3",
+        "setAttempts": "155",
+        "serviceAces": "3",
+        "serviceErrors": "5",
+        "serveAttempts": "75",
+        "digs": "70",
+        "receptionAttempts": "84",
+        "receptionErrors": "6",
+        "blockSolos": "1",
+        "blockAssists": "10",
+        "blockingErrors": "0",
+        "totalBlocks": "6"
+      }
+    }
+  ]
+}

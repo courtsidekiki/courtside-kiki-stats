@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626143,
+  "title": "WVB Boxscore",
+  "description": "East Carolina vs UTSA",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "1ST SET",
+  "status": "I",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46668",
+      "seoname": "east-carolina",
+      "name6Char": "E CAR",
+      "nameFull": "East Carolina University",
+      "nameShort": "East Carolina",
+      "teamName": "Pirates",
+      "color": "#582C83"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46369",
+      "seoname": "utsa",
+      "name6Char": "UTSA",
+      "nameFull": "University of Texas at San Antonio",
+      "nameShort": "UTSA",
+      "teamName": "Roadrunners",
+      "color": "#0A2240"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46668,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "25",
+        "kills": "12",
+        "attackErrors": "4",
+        "attackAttempts": "30",
+        "hittingPercentage": "0.267",
+        "assists": "9",
+        "setErrors": "0",
+        "setAttempts": "28",
+        "serviceAces": "1",
+        "serviceErrors": "2",
+        "serveAttempts": "25",
+        "digs": "12",
+        "receptionAttempts": "16",
+        "receptionErrors": "0",
+        "blockSolos": "1",
+        "blockAssists": "4",
+        "blockingErrors": "0",
+        "totalBlocks": "5"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46369,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "17",
+        "kills": "10",
+        "attackErrors": "7",
+        "attackAttempts": "31",
+        "hittingPercentage": "0.097",
+        "assists": "9",
+        "setErrors": "4",
+        "setAttempts": "39",
+        "serviceAces": "0",
+        "serviceErrors": "1",
+        "serveAttempts": "17",
+        "digs": "13",
+        "receptionAttempts": "23",
+        "receptionErrors": "1",
+        "blockSolos": "0",
+        "blockAssists": "2",
+        "blockingErrors": "0",
+        "totalBlocks": "2"
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625585,
+  "title": "WVB Boxscore",
+  "description": "Bradley vs Drake",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46700",
+      "seoname": "bradley",
+      "name6Char": "BRAD",
+      "nameFull": "Bradley University",
+      "nameShort": "Bradley",
+      "teamName": "Braves",
+      "color": "#A21B21"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46177",
+      "seoname": "drake",
+      "name6Char": "DRAKE",
+      "nameFull": "Drake University",
+      "nameShort": "Drake",
+      "teamName": "Bulldogs",
+      "color": "#002F6C"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46700,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "108",
+        "kills": "66",
+        "attackErrors": "31",
+        "attackAttempts": "212",
+        "hittingPercentage": "0.165",
+        "assists": "62",
+        "setErrors": "0",
+        "setAttempts": "219",
+        "serviceAces": "3",
+        "serviceErrors": "6",
+        "serveAttempts": "107",
+        "digs": "90",
+        "receptionAttempts": "103",
+        "receptionErrors": "3",
+        "blockSolos": "1",
+        "blockAssists": "18",
+        "blockingErrors": "1",
+        "totalBlocks": "10"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46177,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "109",
+        "kills": "69",
+        "attackErrors": "30",
+        "attackAttempts": "198",
+        "hittingPercentage": "0.197",
+        "assists": "67",
+        "setErrors": "2",
+        "setAttempts": "214",
+        "serviceAces": "3",
+        "serviceErrors": "7",
+        "serveAttempts": "110",
+        "digs": "96",
+        "receptionAttempts": "101",
+        "receptionErrors": "3",
+        "blockSolos": "2",
+        "blockAssists": "16",
+        "blockingErrors": "3",
+        "totalBlocks": "10"
+      }
+    }
+  ]
+}

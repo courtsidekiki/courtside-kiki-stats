@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624530,
+  "title": "WVB Boxscore",
+  "description": "Sacramento St. vs UC Santa Barbara",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46290",
+      "seoname": "sacramento-st",
+      "name6Char": "SAC ST",
+      "nameFull": "California State University, Sacramento",
+      "nameShort": "Sacramento St.",
+      "teamName": "Hornets",
+      "color": "#115740"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45895",
+      "seoname": "uc-santa-barbara",
+      "name6Char": "UCSB",
+      "nameFull": "University of California, Santa Barbara",
+      "nameShort": "UC Santa Barbara",
+      "teamName": "Gauchos",
+      "color": "#0032A0"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46290,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "81",
+        "kills": "46",
+        "attackErrors": "16",
+        "attackAttempts": "112",
+        "hittingPercentage": "0.268",
+        "assists": "40",
+        "setErrors": "2",
+        "setAttempts": "106",
+        "serviceAces": "9",
+        "serviceErrors": "13",
+        "serveAttempts": "82",
+        "digs": "28",
+        "receptionAttempts": "80",
+        "receptionErrors": "9",
+        "blockSolos": "2",
+        "blockAssists": "12",
+        "blockingErrors": "0",
+        "totalBlocks": "8"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45895,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "88",
+        "kills": "48",
+        "attackErrors": "16",
+        "attackAttempts": "95",
+        "hittingPercentage": "0.337",
+        "assists": "46",
+        "setErrors": "3",
+        "setAttempts": "99",
+        "serviceAces": "9",
+        "serviceErrors": "7",
+        "serveAttempts": "87",
+        "digs": "42",
+        "receptionAttempts": "69",
+        "receptionErrors": "9",
+        "blockSolos": "2",
+        "blockAssists": "6",
+        "blockingErrors": "3",
+        "totalBlocks": "5"
+      }
+    }
+  ]
+}

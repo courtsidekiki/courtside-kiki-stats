@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625604,
+  "title": "WVB Boxscore",
+  "description": "Middle Tenn. vs Delaware",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46067",
+      "seoname": "middle-tenn",
+      "name6Char": "MIDTEN",
+      "nameFull": "Middle Tennessee State University",
+      "nameShort": "Middle Tenn.",
+      "teamName": "Blue Raiders",
+      "color": "#006FAB"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46667",
+      "seoname": "delaware",
+      "name6Char": "DEL",
+      "nameFull": "University of Delaware",
+      "nameShort": "Delaware",
+      "teamName": "Blue Hens",
+      "color": "#006095"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46067,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "78",
+        "kills": "49",
+        "attackErrors": "22",
+        "attackAttempts": "115",
+        "hittingPercentage": "0.235",
+        "assists": "43",
+        "setErrors": "0",
+        "setAttempts": "113",
+        "serviceAces": "8",
+        "serviceErrors": "7",
+        "serveAttempts": "77",
+        "digs": "46",
+        "receptionAttempts": "57",
+        "receptionErrors": "2",
+        "blockSolos": "4",
+        "blockAssists": "12",
+        "blockingErrors": "1",
+        "totalBlocks": "10"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46667,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "57",
+        "kills": "26",
+        "attackErrors": "19",
+        "attackAttempts": "101",
+        "hittingPercentage": "0.069",
+        "assists": "24",
+        "setErrors": "1",
+        "setAttempts": "108",
+        "serviceAces": "2",
+        "serviceErrors": "1",
+        "serveAttempts": "58",
+        "digs": "39",
+        "receptionAttempts": "70",
+        "receptionErrors": "8",
+        "blockSolos": "1",
+        "blockAssists": "10",
+        "blockingErrors": "4",
+        "totalBlocks": "6"
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625677,
+  "title": "WVB Boxscore",
+  "description": "Texas Southern vs Southern U.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "1ST SET",
+  "status": "I",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46252",
+      "seoname": "texas-southern",
+      "name6Char": "TX SOU",
+      "nameFull": "Texas Southern University",
+      "nameShort": "Texas Southern",
+      "teamName": "Lady Tigers",
+      "color": "#6F263D"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46123",
+      "seoname": "southern-u",
+      "name6Char": "SOUTHR",
+      "nameFull": "Southern University, Baton Rouge",
+      "nameShort": "Southern U.",
+      "teamName": "Lady Jaguars",
+      "color": "#69B3E7"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46252,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "15",
+        "kills": "8",
+        "attackErrors": "10",
+        "attackAttempts": "45",
+        "hittingPercentage": "-0.044",
+        "assists": "8",
+        "setErrors": "1",
+        "setAttempts": "47",
+        "serviceAces": "1",
+        "serviceErrors": "0",
+        "serveAttempts": "16",
+        "digs": "18",
+        "receptionAttempts": "23",
+        "receptionErrors": "0",
+        "blockSolos": "1",
+        "blockAssists": "2",
+        "blockingErrors": "0",
+        "totalBlocks": "3"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46123,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "23",
+        "kills": "12",
+        "attackErrors": "6",
+        "attackAttempts": "38",
+        "hittingPercentage": "0.158",
+        "assists": "11",
+        "setErrors": "0",
+        "setAttempts": "37",
+        "serviceAces": "0",
+        "serviceErrors": "0",
+        "serveAttempts": "23",
+        "digs": "24",
+        "receptionAttempts": "16",
+        "receptionErrors": "1",
+        "blockSolos": "0",
+        "blockAssists": "6",
+        "blockingErrors": "0",
+        "totalBlocks": "6"
+      }
+    }
+  ]
+}

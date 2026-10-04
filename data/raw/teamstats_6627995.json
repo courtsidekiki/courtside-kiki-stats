@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627995,
+  "title": "WVB Boxscore",
+  "description": "App State vs Coastal Carolina",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46571",
+      "seoname": "appalachian-st",
+      "name6Char": "APP ST",
+      "nameFull": "Appalachian State University",
+      "nameShort": "App State",
+      "teamName": "Mountaineers",
+      "color": "#010101"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46170",
+      "seoname": "coastal-caro",
+      "name6Char": "CO CAR",
+      "nameFull": "Coastal Carolina University",
+      "nameShort": "Coastal Carolina",
+      "teamName": "Chanticleers",
+      "color": "#007377"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46571,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "101",
+        "kills": "63",
+        "attackErrors": "33",
+        "attackAttempts": "190",
+        "hittingPercentage": "0.158",
+        "assists": "57",
+        "setErrors": "3",
+        "setAttempts": "188",
+        "serviceAces": "7",
+        "serviceErrors": "11",
+        "serveAttempts": "101",
+        "digs": "81",
+        "receptionAttempts": "95",
+        "receptionErrors": "5",
+        "blockSolos": "1",
+        "blockAssists": "14",
+        "blockingErrors": "0",
+        "totalBlocks": "8"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46170,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "107",
+        "kills": "55",
+        "attackErrors": "18",
+        "attackAttempts": "169",
+        "hittingPercentage": "0.219",
+        "assists": "54",
+        "setErrors": "1",
+        "setAttempts": "181",
+        "serviceAces": "5",
+        "serviceErrors": "12",
+        "serveAttempts": "107",
+        "digs": "77",
+        "receptionAttempts": "90",
+        "receptionErrors": "7",
+        "blockSolos": "4",
+        "blockAssists": "26",
+        "blockingErrors": "0",
+        "totalBlocks": "17"
+      }
+    }
+  ]
+}

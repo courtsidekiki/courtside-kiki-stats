@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625619,
+  "title": "WVB Boxscore",
+  "description": "LSU vs Missouri",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "1ST SET",
+  "status": "I",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46059",
+      "seoname": "lsu",
+      "name6Char": "LSU",
+      "nameFull": "Louisiana State University",
+      "nameShort": "LSU",
+      "teamName": "Tigers",
+      "color": "#582C83"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45939",
+      "seoname": "missouri",
+      "name6Char": "MIZZOU",
+      "nameFull": "University of Missouri, Columbia",
+      "nameShort": "Missouri",
+      "teamName": "Tigers",
+      "color": "#010101"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46059,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "17",
+        "kills": "8",
+        "attackErrors": "5",
+        "attackAttempts": "26",
+        "hittingPercentage": "0.115",
+        "assists": "8",
+        "setErrors": "1",
+        "setAttempts": "28",
+        "serviceAces": "1",
+        "serviceErrors": "1",
+        "serveAttempts": "18",
+        "digs": "8",
+        "receptionAttempts": "22",
+        "receptionErrors": "3",
+        "blockSolos": "0",
+        "blockAssists": "6",
+        "blockingErrors": "0",
+        "totalBlocks": "6"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45939,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "25",
+        "kills": "15",
+        "attackErrors": "5",
+        "attackAttempts": "28",
+        "hittingPercentage": "0.357",
+        "assists": "13",
+        "setErrors": "1",
+        "setAttempts": "29",
+        "serviceAces": "3",
+        "serviceErrors": "2",
+        "serveAttempts": "24",
+        "digs": "10",
+        "receptionAttempts": "17",
+        "receptionErrors": "1",
+        "blockSolos": "0",
+        "blockAssists": "6",
+        "blockingErrors": "0",
+        "totalBlocks": "6"
+      }
+    }
+  ]
+}

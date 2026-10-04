@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626838,
+  "title": "WVB Boxscore",
+  "description": "Jackson St. vs Florida A&M",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "1ST SET",
+  "status": "I",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45783",
+      "seoname": "jackson-st",
+      "name6Char": "JACKST",
+      "nameFull": "Jackson State University",
+      "nameShort": "Jackson St.",
+      "teamName": "Lady Tigers",
+      "color": "#041E42"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46412",
+      "seoname": "florida-am",
+      "name6Char": "FL A&M",
+      "nameFull": "Florida A&M University",
+      "nameShort": "Florida A&M",
+      "teamName": "Lady Rattlers ",
+      "color": "#FF8200"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45783,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "17",
+        "kills": "9",
+        "attackErrors": "8",
+        "attackAttempts": "27",
+        "hittingPercentage": "0.037",
+        "assists": "8",
+        "setErrors": "0",
+        "setAttempts": "25",
+        "serviceAces": "3",
+        "serviceErrors": "0",
+        "serveAttempts": "17",
+        "digs": "7",
+        "receptionAttempts": "21",
+        "receptionErrors": "4",
+        "blockSolos": "0",
+        "blockAssists": "4",
+        "blockingErrors": "1",
+        "totalBlocks": "4"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46412,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "23",
+        "kills": "11",
+        "attackErrors": "2",
+        "attackAttempts": "22",
+        "hittingPercentage": "0.409",
+        "assists": "11",
+        "setErrors": "0",
+        "setAttempts": "22",
+        "serviceAces": "4",
+        "serviceErrors": "3",
+        "serveAttempts": "24",
+        "digs": "7",
+        "receptionAttempts": "17",
+        "receptionErrors": "3",
+        "blockSolos": "2",
+        "blockAssists": "0",
+        "blockingErrors": "0",
+        "totalBlocks": "2"
+      }
+    }
+  ]
+}

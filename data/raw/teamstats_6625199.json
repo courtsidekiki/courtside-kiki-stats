@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625199,
+  "title": "WVB Boxscore",
+  "description": "Belmont vs Evansville",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46399",
+      "seoname": "belmont",
+      "name6Char": "BELMNT",
+      "nameFull": "Belmont University",
+      "nameShort": "Belmont",
+      "teamName": "Bruins",
+      "color": "#0D2C6B"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46672",
+      "seoname": "evansville",
+      "name6Char": "EVANS",
+      "nameFull": "University of Evansville",
+      "nameShort": "Evansville",
+      "teamName": "Purple Aces",
+      "color": "#470A68"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46399,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "41",
+        "attackErrors": "13",
+        "attackAttempts": "88",
+        "hittingPercentage": "0.318",
+        "assists": "38",
+        "setErrors": "1",
+        "setAttempts": "84",
+        "serviceAces": "9",
+        "serviceErrors": "4",
+        "serveAttempts": "73",
+        "digs": "41",
+        "receptionAttempts": "44",
+        "receptionErrors": "4",
+        "blockSolos": "2",
+        "blockAssists": "2",
+        "blockingErrors": "2",
+        "totalBlocks": "3"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46672,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "51",
+        "kills": "29",
+        "attackErrors": "15",
+        "attackAttempts": "89",
+        "hittingPercentage": "0.157",
+        "assists": "27",
+        "setErrors": "1",
+        "setAttempts": "92",
+        "serviceAces": "4",
+        "serviceErrors": "9",
+        "serveAttempts": "53",
+        "digs": "32",
+        "receptionAttempts": "69",
+        "receptionErrors": "9",
+        "blockSolos": "2",
+        "blockAssists": "4",
+        "blockingErrors": "3",
+        "totalBlocks": "4"
+      }
+    }
+  ]
+}

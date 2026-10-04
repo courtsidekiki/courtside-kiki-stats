@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624948,
+  "title": "WVB Boxscore",
+  "description": "Oakland vs Northern Ky.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46108",
+      "seoname": "oakland",
+      "name6Char": "OAK",
+      "nameFull": "Oakland University",
+      "nameShort": "Oakland",
+      "teamName": "Golden Grizzlies",
+      "color": "#010101"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46608",
+      "seoname": "northern-ky",
+      "name6Char": "N KY",
+      "nameFull": "Northern Kentucky University",
+      "nameShort": "Northern Ky.",
+      "teamName": "Norse",
+      "color": "#010101"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46108,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "71",
+        "kills": "51",
+        "attackErrors": "23",
+        "attackAttempts": "151",
+        "hittingPercentage": "0.185",
+        "assists": "49",
+        "setErrors": "1",
+        "setAttempts": "156",
+        "serviceAces": "2",
+        "serviceErrors": "7",
+        "serveAttempts": "72",
+        "digs": "56",
+        "receptionAttempts": "86",
+        "receptionErrors": "7",
+        "blockSolos": "2",
+        "blockAssists": "4",
+        "blockingErrors": "1",
+        "totalBlocks": "6"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46608,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "95",
+        "kills": "57",
+        "attackErrors": "10",
+        "attackAttempts": "132",
+        "hittingPercentage": "0.356",
+        "assists": "56",
+        "setErrors": "0",
+        "setAttempts": "138",
+        "serviceAces": "7",
+        "serviceErrors": "8",
+        "serveAttempts": "94",
+        "digs": "63",
+        "receptionAttempts": "65",
+        "receptionErrors": "2",
+        "blockSolos": "2",
+        "blockAssists": "16",
+        "blockingErrors": "0",
+        "totalBlocks": "18"
+      }
+    }
+  ]
+}

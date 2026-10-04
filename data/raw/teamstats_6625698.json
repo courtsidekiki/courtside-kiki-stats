@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625698,
+  "title": "WVB Boxscore",
+  "description": "USC Upstate vs Radford",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45891",
+      "seoname": "usc-upstate",
+      "name6Char": "SC UPS",
+      "nameFull": "University of South Carolina Upstate",
+      "nameShort": "USC Upstate",
+      "teamName": "Spartans",
+      "color": "#008445"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46241",
+      "seoname": "radford",
+      "name6Char": "RADFRD",
+      "nameFull": "Radford University",
+      "nameShort": "Radford",
+      "teamName": "Highlanders",
+      "color": "#C8102E"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45891,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "91",
+        "kills": "46",
+        "attackErrors": "18",
+        "attackAttempts": "155",
+        "hittingPercentage": "0.181",
+        "assists": "39",
+        "setErrors": "0",
+        "setAttempts": "145",
+        "serviceAces": "4",
+        "serviceErrors": "8",
+        "serveAttempts": "92",
+        "digs": "65",
+        "receptionAttempts": "82",
+        "receptionErrors": "7",
+        "blockSolos": "2",
+        "blockAssists": "16",
+        "blockingErrors": "0",
+        "totalBlocks": "10"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46241,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "96",
+        "kills": "63",
+        "attackErrors": "25",
+        "attackAttempts": "165",
+        "hittingPercentage": "0.230",
+        "assists": "59",
+        "setErrors": "2",
+        "setAttempts": "161",
+        "serviceAces": "7",
+        "serviceErrors": "13",
+        "serveAttempts": "95",
+        "digs": "79",
+        "receptionAttempts": "84",
+        "receptionErrors": "4",
+        "blockSolos": "5",
+        "blockAssists": "8",
+        "blockingErrors": "0",
+        "totalBlocks": "9"
+      }
+    }
+  ]
+}

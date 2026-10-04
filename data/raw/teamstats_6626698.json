@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626698,
+  "title": "WVB Boxscore",
+  "description": "UC Davis vs Air Force",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46036",
+      "seoname": "uc-davis",
+      "name6Char": "UC DAV",
+      "nameFull": "University of California, Davis",
+      "nameShort": "UC Davis",
+      "teamName": "Aggies",
+      "color": "#002855"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46129",
+      "seoname": "air-force",
+      "name6Char": "AIRFOR",
+      "nameFull": "U.S. Air Force Academy",
+      "nameShort": "Air Force",
+      "teamName": "Falcons",
+      "color": "#0032A0"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46036,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "98",
+        "kills": "58",
+        "attackErrors": "15",
+        "attackAttempts": "132",
+        "hittingPercentage": "0.326",
+        "assists": "51",
+        "setErrors": "2",
+        "setAttempts": "130",
+        "serviceAces": "12",
+        "serviceErrors": "9",
+        "serveAttempts": "97",
+        "digs": "57",
+        "receptionAttempts": "68",
+        "receptionErrors": "5",
+        "blockSolos": "5",
+        "blockAssists": "10",
+        "blockingErrors": "2",
+        "totalBlocks": "15"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46129,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "74",
+        "kills": "43",
+        "attackErrors": "19",
+        "attackAttempts": "130",
+        "hittingPercentage": "0.185",
+        "assists": "42",
+        "setErrors": "2",
+        "setAttempts": "141",
+        "serviceAces": "5",
+        "serviceErrors": "7",
+        "serveAttempts": "75",
+        "digs": "54",
+        "receptionAttempts": "88",
+        "receptionErrors": "12",
+        "blockSolos": "1",
+        "blockAssists": "4",
+        "blockingErrors": "1",
+        "totalBlocks": "5"
+      }
+    }
+  ]
+}

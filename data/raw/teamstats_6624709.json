@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624709,
+  "title": "WVB Boxscore",
+  "description": "UMES vs Howard",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "1ST SET",
+  "status": "I",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46563",
+      "seoname": "umes",
+      "name6Char": "UMES",
+      "nameFull": "University of Maryland Eastern Shore",
+      "nameShort": "UMES",
+      "teamName": "Hawks",
+      "color": "#5D0024"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45779",
+      "seoname": "howard",
+      "name6Char": "HOWARD",
+      "nameFull": "Howard University",
+      "nameShort": "Howard",
+      "teamName": "Bison",
+      "color": "#00263E"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46563,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "14",
+        "kills": "10",
+        "attackErrors": "7",
+        "attackAttempts": "31",
+        "hittingPercentage": "0.097",
+        "assists": "9",
+        "setErrors": "1",
+        "setAttempts": "31",
+        "serviceAces": "1",
+        "serviceErrors": "1",
+        "serveAttempts": "15",
+        "digs": "11",
+        "receptionAttempts": "24",
+        "receptionErrors": "4",
+        "blockSolos": "1",
+        "blockAssists": "0",
+        "blockingErrors": "1",
+        "totalBlocks": "1"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45779,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "25",
+        "kills": "12",
+        "attackErrors": "2",
+        "attackAttempts": "26",
+        "hittingPercentage": "0.385",
+        "assists": "11",
+        "setErrors": "1",
+        "setAttempts": "26",
+        "serviceAces": "4",
+        "serviceErrors": "0",
+        "serveAttempts": "24",
+        "digs": "14",
+        "receptionAttempts": "14",
+        "receptionErrors": "1",
+        "blockSolos": "1",
+        "blockAssists": "0",
+        "blockingErrors": "0",
+        "totalBlocks": "1"
+      }
+    }
+  ]
+}

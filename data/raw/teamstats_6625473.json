@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625473,
+  "title": "WVB Boxscore",
+  "description": "Bucknell vs Colgate",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45948",
+      "seoname": "bucknell",
+      "name6Char": "BUCKNL",
+      "nameFull": "Bucknell University",
+      "nameShort": "Bucknell",
+      "teamName": "Bison",
+      "color": "#071D49"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46043",
+      "seoname": "colgate",
+      "name6Char": "COLGAT",
+      "nameFull": "Colgate University",
+      "nameShort": "Colgate",
+      "teamName": "Raiders",
+      "color": "#772430"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45948,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "107",
+        "kills": "75",
+        "attackErrors": "16",
+        "attackAttempts": "159",
+        "hittingPercentage": "0.371",
+        "assists": "67",
+        "setErrors": "0",
+        "setAttempts": "158",
+        "serviceAces": "7",
+        "serviceErrors": "18",
+        "serveAttempts": "106",
+        "digs": "63",
+        "receptionAttempts": "95",
+        "receptionErrors": "8",
+        "blockSolos": "5",
+        "blockAssists": "8",
+        "blockingErrors": "1",
+        "totalBlocks": "9"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46043,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "101",
+        "kills": "59",
+        "attackErrors": "18",
+        "attackAttempts": "153",
+        "hittingPercentage": "0.268",
+        "assists": "52",
+        "setErrors": "0",
+        "setAttempts": "160",
+        "serviceAces": "8",
+        "serviceErrors": "7",
+        "serveAttempts": "102",
+        "digs": "56",
+        "receptionAttempts": "88",
+        "receptionErrors": "7",
+        "blockSolos": "1",
+        "blockAssists": "14",
+        "blockingErrors": "4",
+        "totalBlocks": "8"
+      }
+    }
+  ]
+}

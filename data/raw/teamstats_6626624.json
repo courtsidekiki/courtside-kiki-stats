@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626624,
+  "title": "WVB Boxscore",
+  "description": "South Alabama vs Louisiana Tech",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46120",
+      "seoname": "south-ala",
+      "name6Char": "S ALA",
+      "nameFull": "University of South Alabama",
+      "nameShort": "South Alabama",
+      "teamName": "Jaguars",
+      "color": "#BF0D3E"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46060",
+      "seoname": "louisiana-tech",
+      "name6Char": "LATECH",
+      "nameFull": "Louisiana Tech University",
+      "nameShort": "Louisiana Tech",
+      "teamName": "Bulldogs",
+      "color": "#003087"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46120,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "103",
+        "kills": "50",
+        "attackErrors": "12",
+        "attackAttempts": "127",
+        "hittingPercentage": "0.299",
+        "assists": "45",
+        "setErrors": "1",
+        "setAttempts": "125",
+        "serviceAces": "12",
+        "serviceErrors": "16",
+        "serveAttempts": "102",
+        "digs": "42",
+        "receptionAttempts": "74",
+        "receptionErrors": "10",
+        "blockSolos": "0",
+        "blockAssists": "16",
+        "blockingErrors": "0",
+        "totalBlocks": "8"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46060,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "87",
+        "kills": "48",
+        "attackErrors": "23",
+        "attackAttempts": "127",
+        "hittingPercentage": "0.197",
+        "assists": "44",
+        "setErrors": "4",
+        "setAttempts": "135",
+        "serviceAces": "10",
+        "serviceErrors": "13",
+        "serveAttempts": "87",
+        "digs": "47",
+        "receptionAttempts": "86",
+        "receptionErrors": "12",
+        "blockSolos": "1",
+        "blockAssists": "6",
+        "blockingErrors": "1",
+        "totalBlocks": "4"
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624557,
+  "title": "WVB Boxscore",
+  "description": "McNeese vs Lamar University",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46201",
+      "seoname": "mcneese",
+      "name6Char": "MCNEES",
+      "nameFull": "McNeese State University",
+      "nameShort": "McNeese",
+      "teamName": "Cowgirls",
+      "color": "#003087"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45922",
+      "seoname": "lamar",
+      "name6Char": "LAMAR",
+      "nameFull": "Lamar University",
+      "nameShort": "Lamar University",
+      "teamName": "Cardinals",
+      "color": "#D50032"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46201,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "78",
+        "kills": "43",
+        "attackErrors": "9",
+        "attackAttempts": "127",
+        "hittingPercentage": "0.268",
+        "assists": "40",
+        "setErrors": "1",
+        "setAttempts": "126",
+        "serviceAces": "3",
+        "serviceErrors": "4",
+        "serveAttempts": "76",
+        "digs": "54",
+        "receptionAttempts": "55",
+        "receptionErrors": "1",
+        "blockSolos": "2",
+        "blockAssists": "4",
+        "blockingErrors": "3",
+        "totalBlocks": "4"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45922,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "63",
+        "kills": "48",
+        "attackErrors": "22",
+        "attackAttempts": "134",
+        "hittingPercentage": "0.194",
+        "assists": "45",
+        "setErrors": "0",
+        "setAttempts": "131",
+        "serviceAces": "1",
+        "serviceErrors": "10",
+        "serveAttempts": "65",
+        "digs": "56",
+        "receptionAttempts": "72",
+        "receptionErrors": "3",
+        "blockSolos": "1",
+        "blockAssists": "4",
+        "blockingErrors": "2",
+        "totalBlocks": "3"
+      }
+    }
+  ]
+}

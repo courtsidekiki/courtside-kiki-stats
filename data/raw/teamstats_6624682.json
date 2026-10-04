@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624682,
+  "title": "WVB Boxscore",
+  "description": "Rhode Island vs Loyola Chicago",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "2ND SET",
+  "status": "I",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46242",
+      "seoname": "rhode-island",
+      "name6Char": "URI",
+      "nameFull": "University of Rhode Island",
+      "nameShort": "Rhode Island",
+      "teamName": "Rams",
+      "color": "#041E42"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46317",
+      "seoname": "loyola-chicago",
+      "name6Char": "LOYCHI",
+      "nameFull": "Loyola University Chicago",
+      "nameShort": "Loyola Chicago",
+      "teamName": "Ramblers",
+      "color": "#861F41"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46242,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "20",
+        "kills": "12",
+        "attackErrors": "8",
+        "attackAttempts": "38",
+        "hittingPercentage": "0.105",
+        "assists": "11",
+        "setErrors": "2",
+        "setAttempts": "39",
+        "serviceAces": "1",
+        "serviceErrors": "1",
+        "serveAttempts": "21",
+        "digs": "13",
+        "receptionAttempts": "29",
+        "receptionErrors": "4",
+        "blockSolos": "0",
+        "blockAssists": "0",
+        "blockingErrors": "0",
+        "totalBlocks": "0"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46317,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "34",
+        "kills": "19",
+        "attackErrors": "3",
+        "attackAttempts": "38",
+        "hittingPercentage": "0.421",
+        "assists": "18",
+        "setErrors": "0",
+        "setAttempts": "38",
+        "serviceAces": "4",
+        "serviceErrors": "4",
+        "serveAttempts": "33",
+        "digs": "14",
+        "receptionAttempts": "20",
+        "receptionErrors": "1",
+        "blockSolos": "1",
+        "blockAssists": "4",
+        "blockingErrors": "0",
+        "totalBlocks": "5"
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626005,
+  "title": "WVB Boxscore",
+  "description": "Sam Houston vs New Mexico St.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45863",
+      "seoname": "sam-houston-st",
+      "name6Char": "SAMHOU",
+      "nameFull": "Sam Houston State University",
+      "nameShort": "Sam Houston",
+      "teamName": "Bearkats",
+      "color": "#DF502A"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46605",
+      "seoname": "new-mexico-st",
+      "name6Char": "NM ST",
+      "nameFull": "New Mexico State University",
+      "nameShort": "New Mexico St.",
+      "teamName": "Aggies",
+      "color": "#891619"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45863,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "95",
+        "kills": "48",
+        "attackErrors": "24",
+        "attackAttempts": "140",
+        "hittingPercentage": "0.171",
+        "assists": "39",
+        "setErrors": "0",
+        "setAttempts": "136",
+        "serviceAces": "8",
+        "serviceErrors": "8",
+        "serveAttempts": "96",
+        "digs": "63",
+        "receptionAttempts": "80",
+        "receptionErrors": "13",
+        "blockSolos": "0",
+        "blockAssists": "8",
+        "blockingErrors": "1",
+        "totalBlocks": "8"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46605,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "97",
+        "kills": "52",
+        "attackErrors": "21",
+        "attackAttempts": "152",
+        "hittingPercentage": "0.204",
+        "assists": "51",
+        "setErrors": "2",
+        "setAttempts": "154",
+        "serviceAces": "13",
+        "serviceErrors": "16",
+        "serveAttempts": "96",
+        "digs": "58",
+        "receptionAttempts": "88",
+        "receptionErrors": "8",
+        "blockSolos": "0",
+        "blockAssists": "18",
+        "blockingErrors": "1",
+        "totalBlocks": "18"
+      }
+    }
+  ]
+}

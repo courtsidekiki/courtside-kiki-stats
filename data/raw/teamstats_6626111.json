@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626111,
+  "title": "WVB Boxscore",
+  "description": "ULM vs Marshall",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46106",
+      "seoname": "la-monroe",
+      "name6Char": "LA MON",
+      "nameFull": "University of Louisiana Monroe",
+      "nameShort": "ULM",
+      "teamName": "Warhawks",
+      "color": "#8A2432"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46318",
+      "seoname": "marshall",
+      "name6Char": "MARSH",
+      "nameFull": "Marshall University",
+      "nameShort": "Marshall",
+      "teamName": "Thundering Herd",
+      "color": "#00B140"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46106,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "106",
+        "kills": "60",
+        "attackErrors": "26",
+        "attackAttempts": "166",
+        "hittingPercentage": "0.205",
+        "assists": "58",
+        "setErrors": "5",
+        "setAttempts": "179",
+        "serviceAces": "8",
+        "serviceErrors": "10",
+        "serveAttempts": "105",
+        "digs": "66",
+        "receptionAttempts": "97",
+        "receptionErrors": "4",
+        "blockSolos": "4",
+        "blockAssists": "12",
+        "blockingErrors": "1",
+        "totalBlocks": "10"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46318,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "107",
+        "kills": "62",
+        "attackErrors": "25",
+        "attackAttempts": "165",
+        "hittingPercentage": "0.224",
+        "assists": "58",
+        "setErrors": "2",
+        "setAttempts": "178",
+        "serviceAces": "4",
+        "serviceErrors": "11",
+        "serveAttempts": "108",
+        "digs": "68",
+        "receptionAttempts": "95",
+        "receptionErrors": "8",
+        "blockSolos": "3",
+        "blockAssists": "14",
+        "blockingErrors": "2",
+        "totalBlocks": "10"
+      }
+    }
+  ]
+}

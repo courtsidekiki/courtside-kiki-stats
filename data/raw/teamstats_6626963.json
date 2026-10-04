@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626963,
+  "title": "WVB Boxscore",
+  "description": "Elon vs Stony Brook",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45957",
+      "seoname": "elon",
+      "name6Char": "ELON",
+      "nameFull": "Elon University",
+      "nameShort": "Elon",
+      "teamName": "Phoenix",
+      "color": "#76232F"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46753",
+      "seoname": "stony-brook",
+      "name6Char": "STONY",
+      "nameFull": "Stony Brook University",
+      "nameShort": "Stony Brook",
+      "teamName": "Seawolves",
+      "color": "#A6192E"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45957,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "80",
+        "kills": "40",
+        "attackErrors": "26",
+        "attackAttempts": "127",
+        "hittingPercentage": "0.110",
+        "assists": "38",
+        "setErrors": "0",
+        "setAttempts": "128",
+        "serviceAces": "7",
+        "serviceErrors": "10",
+        "serveAttempts": "81",
+        "digs": "56",
+        "receptionAttempts": "82",
+        "receptionErrors": "13",
+        "blockSolos": "3",
+        "blockAssists": "6",
+        "blockingErrors": "2",
+        "totalBlocks": "6"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46753,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "95",
+        "kills": "45",
+        "attackErrors": "20",
+        "attackAttempts": "134",
+        "hittingPercentage": "0.187",
+        "assists": "43",
+        "setErrors": "1",
+        "setAttempts": "131",
+        "serviceAces": "13",
+        "serviceErrors": "12",
+        "serveAttempts": "94",
+        "digs": "54",
+        "receptionAttempts": "71",
+        "receptionErrors": "7",
+        "blockSolos": "4",
+        "blockAssists": "10",
+        "blockingErrors": "0",
+        "totalBlocks": "9"
+      }
+    }
+  ]
+}

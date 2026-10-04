@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628076,
+  "title": "WVB Boxscore",
+  "description": "Binghamton vs Bryant",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46443",
+      "seoname": "binghamton",
+      "name6Char": "BINGHA",
+      "nameFull": "Binghamton University",
+      "nameShort": "Binghamton",
+      "teamName": "Bearcats",
+      "color": "#006747"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45813",
+      "seoname": "bryant",
+      "name6Char": "BRYANT",
+      "nameFull": "Bryant University",
+      "nameShort": "Bryant",
+      "teamName": "Bulldogs",
+      "color": "#010101"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46443,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "108",
+        "kills": "59",
+        "attackErrors": "18",
+        "attackAttempts": "174",
+        "hittingPercentage": "0.236",
+        "assists": "52",
+        "setErrors": "0",
+        "setAttempts": "176",
+        "serviceAces": "5",
+        "serviceErrors": "9",
+        "serveAttempts": "109",
+        "digs": "84",
+        "receptionAttempts": "95",
+        "receptionErrors": "6",
+        "blockSolos": "1",
+        "blockAssists": "31",
+        "blockingErrors": "0",
+        "totalBlocks": "16"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45813,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "104",
+        "kills": "71",
+        "attackErrors": "35",
+        "attackAttempts": "219",
+        "hittingPercentage": "0.164",
+        "assists": "65",
+        "setErrors": "1",
+        "setAttempts": "211",
+        "serviceAces": "6",
+        "serviceErrors": "8",
+        "serveAttempts": "103",
+        "digs": "84",
+        "receptionAttempts": "100",
+        "receptionErrors": "5",
+        "blockSolos": "2",
+        "blockAssists": "10",
+        "blockingErrors": "0",
+        "totalBlocks": "7"
+      }
+    }
+  ]
+}

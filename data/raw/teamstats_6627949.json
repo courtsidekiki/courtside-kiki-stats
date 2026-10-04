@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627949,
+  "title": "WVB Boxscore",
+  "description": "Montana vs Idaho",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46724",
+      "seoname": "montana",
+      "name6Char": "MONT",
+      "nameFull": "University of Montana",
+      "nameShort": "Montana",
+      "teamName": "Grizzlies",
+      "color": "#6F2C3F"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46311",
+      "seoname": "idaho",
+      "name6Char": "IDAHO",
+      "nameFull": "University of Idaho",
+      "nameShort": "Idaho",
+      "teamName": "Vandals",
+      "color": "#010101"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46724,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "78",
+        "kills": "44",
+        "attackErrors": "12",
+        "attackAttempts": "99",
+        "hittingPercentage": "0.323",
+        "assists": "42",
+        "setErrors": "1",
+        "setAttempts": "104",
+        "serviceAces": "7",
+        "serviceErrors": "3",
+        "serveAttempts": "77",
+        "digs": "39",
+        "receptionAttempts": "60",
+        "receptionErrors": "5",
+        "blockSolos": "0",
+        "blockAssists": "14",
+        "blockingErrors": "5",
+        "totalBlocks": "7"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46311,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "63",
+        "kills": "42",
+        "attackErrors": "22",
+        "attackAttempts": "107",
+        "hittingPercentage": "0.187",
+        "assists": "39",
+        "setErrors": "1",
+        "setAttempts": "108",
+        "serviceAces": "5",
+        "serviceErrors": "4",
+        "serveAttempts": "64",
+        "digs": "34",
+        "receptionAttempts": "74",
+        "receptionErrors": "7",
+        "blockSolos": "0",
+        "blockAssists": "6",
+        "blockingErrors": "2",
+        "totalBlocks": "3"
+      }
+    }
+  ]
+}
