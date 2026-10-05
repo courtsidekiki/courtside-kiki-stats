@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626197,
+  "title": "WVB Boxscore",
+  "description": "Tulane vs Wichita St.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46255",
+      "seoname": "tulane",
+      "name6Char": "TULANE",
+      "nameFull": "Tulane University",
+      "nameShort": "Tulane",
+      "teamName": "Green Wave",
+      "color": "#006747"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46705",
+      "seoname": "wichita-st",
+      "name6Char": "WICHST",
+      "nameFull": "Wichita State University",
+      "nameShort": "Wichita St.",
+      "teamName": "Shockers",
+      "color": "#010101"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46255,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "97",
+        "kills": "64",
+        "attackErrors": "14",
+        "attackAttempts": "163",
+        "hittingPercentage": "0.307",
+        "assists": "62",
+        "setErrors": "1",
+        "setAttempts": "156",
+        "serviceAces": "3",
+        "serviceErrors": "6",
+        "serveAttempts": "96",
+        "digs": "72",
+        "receptionAttempts": "81",
+        "receptionErrors": "4",
+        "blockSolos": "3",
+        "blockAssists": "12",
+        "blockingErrors": "0",
+        "totalBlocks": "9"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46705,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "86",
+        "kills": "61",
+        "attackErrors": "23",
+        "attackAttempts": "166",
+        "hittingPercentage": "0.229",
+        "assists": "57",
+        "setErrors": "1",
+        "setAttempts": "170",
+        "serviceAces": "4",
+        "serviceErrors": "6",
+        "serveAttempts": "87",
+        "digs": "76",
+        "receptionAttempts": "90",
+        "receptionErrors": "3",
+        "blockSolos": "0",
+        "blockAssists": "2",
+        "blockingErrors": "0",
+        "totalBlocks": "1"
+      }
+    }
+  ]
+}

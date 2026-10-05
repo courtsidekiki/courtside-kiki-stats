@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625042,
+  "title": "WVB Boxscore",
+  "description": "UMBC vs NJIT",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46562",
+      "seoname": "umbc",
+      "name6Char": "UMBC",
+      "nameFull": "University of Maryland, Baltimore County",
+      "nameShort": "UMBC",
+      "teamName": "Retrievers",
+      "color": "#010101"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46725",
+      "seoname": "njit",
+      "name6Char": "NJIT",
+      "nameFull": "New Jersey Institute of Technology",
+      "nameShort": "NJIT",
+      "teamName": "Highlanders",
+      "color": "#D7282F"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46562,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "46",
+        "attackErrors": "13",
+        "attackAttempts": "107",
+        "hittingPercentage": "0.308",
+        "assists": "43",
+        "setErrors": "2",
+        "setAttempts": "106",
+        "serviceAces": "6",
+        "serviceErrors": "6",
+        "serveAttempts": "73",
+        "digs": "48",
+        "receptionAttempts": "50",
+        "receptionErrors": "4",
+        "blockSolos": "0",
+        "blockAssists": "22",
+        "blockingErrors": "2",
+        "totalBlocks": "11"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46725,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "52",
+        "kills": "27",
+        "attackErrors": "19",
+        "attackAttempts": "99",
+        "hittingPercentage": "0.081",
+        "assists": "26",
+        "setErrors": "0",
+        "setAttempts": "103",
+        "serviceAces": "4",
+        "serviceErrors": "4",
+        "serveAttempts": "54",
+        "digs": "38",
+        "receptionAttempts": "67",
+        "receptionErrors": "6",
+        "blockSolos": "1",
+        "blockAssists": "10",
+        "blockingErrors": "3",
+        "totalBlocks": "6"
+      }
+    }
+  ]
+}

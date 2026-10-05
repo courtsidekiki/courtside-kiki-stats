@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626292,
+  "title": "WVB Boxscore",
+  "description": "Creighton vs Marquette",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46664",
+      "seoname": "creighton",
+      "name6Char": "CREIGH",
+      "nameFull": "Creighton University",
+      "nameShort": "Creighton",
+      "teamName": "Bluejays",
+      "color": "#0032A0"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46200",
+      "seoname": "marquette",
+      "name6Char": "MARQ",
+      "nameFull": "Marquette University",
+      "nameShort": "Marquette",
+      "teamName": "Golden Eagles",
+      "color": "#1D2953"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46664,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "110",
+        "kills": "69",
+        "attackErrors": "19",
+        "attackAttempts": "175",
+        "hittingPercentage": "0.286",
+        "assists": "60",
+        "setErrors": "1",
+        "setAttempts": "176",
+        "serviceAces": "5",
+        "serviceErrors": "15",
+        "serveAttempts": "111",
+        "digs": "83",
+        "receptionAttempts": "94",
+        "receptionErrors": "11",
+        "blockSolos": "1",
+        "blockAssists": "18",
+        "blockingErrors": "1",
+        "totalBlocks": "10"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46200,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "102",
+        "kills": "56",
+        "attackErrors": "27",
+        "attackAttempts": "181",
+        "hittingPercentage": "0.160",
+        "assists": "51",
+        "setErrors": "1",
+        "setAttempts": "174",
+        "serviceAces": "11",
+        "serviceErrors": "7",
+        "serveAttempts": "101",
+        "digs": "70",
+        "receptionAttempts": "96",
+        "receptionErrors": "5",
+        "blockSolos": "1",
+        "blockAssists": "10",
+        "blockingErrors": "3",
+        "totalBlocks": "6"
+      }
+    }
+  ]
+}

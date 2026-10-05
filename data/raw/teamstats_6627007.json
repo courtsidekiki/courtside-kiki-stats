@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627007,
+  "title": "WVB Boxscore",
+  "description": "TCU vs UCF",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46507",
+      "seoname": "tcu",
+      "name6Char": "TCU",
+      "nameFull": "Texas Christian University",
+      "nameShort": "TCU",
+      "teamName": "Horned Frogs",
+      "color": "#592D82"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46040",
+      "seoname": "ucf",
+      "name6Char": "UCF",
+      "nameFull": "University of Central Florida",
+      "nameShort": "UCF",
+      "teamName": "Knights",
+      "color": "#010101"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46507,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "106",
+        "kills": "61",
+        "attackErrors": "14",
+        "attackAttempts": "141",
+        "hittingPercentage": "0.333",
+        "assists": "55",
+        "setErrors": "1",
+        "setAttempts": "136",
+        "serviceAces": "12",
+        "serviceErrors": "9",
+        "serveAttempts": "105",
+        "digs": "63",
+        "receptionAttempts": "74",
+        "receptionErrors": "3",
+        "blockSolos": "1",
+        "blockAssists": "19",
+        "blockingErrors": "1",
+        "totalBlocks": "10"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46040,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "82",
+        "kills": "55",
+        "attackErrors": "23",
+        "attackAttempts": "154",
+        "hittingPercentage": "0.208",
+        "assists": "52",
+        "setErrors": "1",
+        "setAttempts": "150",
+        "serviceAces": "3",
+        "serviceErrors": "9",
+        "serveAttempts": "83",
+        "digs": "58",
+        "receptionAttempts": "96",
+        "receptionErrors": "12",
+        "blockSolos": "1",
+        "blockAssists": "10",
+        "blockingErrors": "1",
+        "totalBlocks": "6"
+      }
+    }
+  ]
+}

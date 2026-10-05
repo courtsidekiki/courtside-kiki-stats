@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626822,
+  "title": "WVB Boxscore",
+  "description": "Florida vs Kentucky",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46301",
+      "seoname": "florida",
+      "name6Char": "FLA",
+      "nameFull": "University of Florida",
+      "nameShort": "Florida",
+      "teamName": "Gators",
+      "color": "#003087"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45920",
+      "seoname": "kentucky",
+      "name6Char": "UK",
+      "nameFull": "University of Kentucky",
+      "nameShort": "Kentucky",
+      "teamName": "Wildcats",
+      "color": "#3258AF"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46301,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "112",
+        "kills": "61",
+        "attackErrors": "25",
+        "attackAttempts": "159",
+        "hittingPercentage": "0.226",
+        "assists": "56",
+        "setErrors": "3",
+        "setAttempts": "161",
+        "serviceAces": "7",
+        "serviceErrors": "15",
+        "serveAttempts": "112",
+        "digs": "72",
+        "receptionAttempts": "94",
+        "receptionErrors": "10",
+        "blockSolos": "3",
+        "blockAssists": "24",
+        "blockingErrors": "0",
+        "totalBlocks": "15"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45920,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "106",
+        "kills": "53",
+        "attackErrors": "31",
+        "attackAttempts": "166",
+        "hittingPercentage": "0.133",
+        "assists": "50",
+        "setErrors": "1",
+        "setAttempts": "169",
+        "serviceAces": "10",
+        "serviceErrors": "12",
+        "serveAttempts": "106",
+        "digs": "61",
+        "receptionAttempts": "97",
+        "receptionErrors": "7",
+        "blockSolos": "0",
+        "blockAssists": "18",
+        "blockingErrors": "2",
+        "totalBlocks": "9"
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627173,
+  "title": "WVB Boxscore",
+  "description": "Georgia vs Oklahoma",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45911",
+      "seoname": "georgia",
+      "name6Char": "UGA",
+      "nameFull": "University of Georgia",
+      "nameShort": "Georgia",
+      "teamName": "Bulldogs",
+      "color": "#DA291C"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46346",
+      "seoname": "oklahoma",
+      "name6Char": "OKLA",
+      "nameFull": "University of Oklahoma",
+      "nameShort": "Oklahoma",
+      "teamName": "Sooners",
+      "color": "#9D2235"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45911,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "95",
+        "kills": "41",
+        "attackErrors": "20",
+        "attackAttempts": "114",
+        "hittingPercentage": "0.184",
+        "assists": "40",
+        "setErrors": "0",
+        "setAttempts": "119",
+        "serviceAces": "13",
+        "serviceErrors": "9",
+        "serveAttempts": "94",
+        "digs": "35",
+        "receptionAttempts": "74",
+        "receptionErrors": "6",
+        "blockSolos": "1",
+        "blockAssists": "26",
+        "blockingErrors": "3",
+        "totalBlocks": "14"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46346,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "83",
+        "kills": "48",
+        "attackErrors": "31",
+        "attackAttempts": "123",
+        "hittingPercentage": "0.138",
+        "assists": "46",
+        "setErrors": "0",
+        "setAttempts": "126",
+        "serviceAces": "6",
+        "serviceErrors": "10",
+        "serveAttempts": "84",
+        "digs": "38",
+        "receptionAttempts": "85",
+        "receptionErrors": "13",
+        "blockSolos": "1",
+        "blockAssists": "8",
+        "blockingErrors": "1",
+        "totalBlocks": "5"
+      }
+    }
+  ]
+}

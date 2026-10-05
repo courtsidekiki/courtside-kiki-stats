@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625102,
+  "title": "WVB Boxscore",
+  "description": "Mississippi Val. vs Bethune-Cookman",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45803",
+      "seoname": "mississippi-val",
+      "name6Char": "MS VAL",
+      "nameFull": "Mississippi Valley State University",
+      "nameShort": "Mississippi Val.",
+      "teamName": "Devilettes",
+      "color": "#046A38"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46699",
+      "seoname": "bethune-cookman",
+      "name6Char": "BECOOK",
+      "nameFull": "Bethune-Cookman University",
+      "nameShort": "Bethune-Cookman",
+      "teamName": "Wildcats",
+      "color": "#6F263D"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45803,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "42",
+        "kills": "21",
+        "attackErrors": "15",
+        "attackAttempts": "103",
+        "hittingPercentage": "0.058",
+        "assists": "19",
+        "setErrors": "7",
+        "setAttempts": "129",
+        "serviceAces": "1",
+        "serviceErrors": "2",
+        "serveAttempts": "43",
+        "digs": "35",
+        "receptionAttempts": "71",
+        "receptionErrors": "9",
+        "blockSolos": "1",
+        "blockAssists": "6",
+        "blockingErrors": "0",
+        "totalBlocks": "4"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46699,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "42",
+        "attackErrors": "13",
+        "attackAttempts": "102",
+        "hittingPercentage": "0.284",
+        "assists": "31",
+        "setErrors": "4",
+        "setAttempts": "118",
+        "serviceAces": "9",
+        "serviceErrors": "3",
+        "serveAttempts": "74",
+        "digs": "50",
+        "receptionAttempts": "41",
+        "receptionErrors": "1",
+        "blockSolos": "1",
+        "blockAssists": "4",
+        "blockingErrors": "0",
+        "totalBlocks": "3"
+      }
+    }
+  ]
+}

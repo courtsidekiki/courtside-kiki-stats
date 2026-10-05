@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627861,
+  "title": "WVB Boxscore",
+  "description": "UAlbany vs New Hampshire",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46569",
+      "seoname": "albany-ny",
+      "name6Char": "ALBANY",
+      "nameFull": "University at Albany",
+      "nameShort": "UAlbany",
+      "teamName": "Great Danes",
+      "color": "#46166B"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45975",
+      "seoname": "new-hampshire",
+      "name6Char": "UNH",
+      "nameFull": "University of New Hampshire",
+      "nameShort": "New Hampshire",
+      "teamName": "Wildcats",
+      "color": "#041E42"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46569,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "57",
+        "kills": "37",
+        "attackErrors": "17",
+        "attackAttempts": "131",
+        "hittingPercentage": "0.153",
+        "assists": "33",
+        "setErrors": "1",
+        "setAttempts": "126",
+        "serviceAces": "5",
+        "serviceErrors": "9",
+        "serveAttempts": "59",
+        "digs": "47",
+        "receptionAttempts": "69",
+        "receptionErrors": "7",
+        "blockSolos": "2",
+        "blockAssists": "6",
+        "blockingErrors": "0",
+        "totalBlocks": "5"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45975,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "40",
+        "attackErrors": "11",
+        "attackAttempts": "108",
+        "hittingPercentage": "0.269",
+        "assists": "35",
+        "setErrors": "0",
+        "setAttempts": "100",
+        "serviceAces": "7",
+        "serviceErrors": "4",
+        "serveAttempts": "73",
+        "digs": "61",
+        "receptionAttempts": "50",
+        "receptionErrors": "5",
+        "blockSolos": "0",
+        "blockAssists": "16",
+        "blockingErrors": "1",
+        "totalBlocks": "8"
+      }
+    }
+  ]
+}
