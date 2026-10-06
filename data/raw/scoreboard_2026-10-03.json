@@ -1,7 +1,7 @@
 {
-  "inputMD5Sum": "59c7ad3d7a564b9eef0df572a6e6cf31",
+  "inputMD5Sum": "68c400966fb26b0e968144342e1d14f5",
   "instanceId": "d41d8cd98f00b204e9800998ecf8427e",
-  "updated_at": "2026-10-05 11:08:23",
+  "updated_at": "2026-10-06 11:07:54",
   "games": [
     {
       "game": {
@@ -2751,14 +2751,14 @@
       "game": {
         "gameID": "6624975",
         "away": {
-          "score": "",
+          "score": "3",
           "names": {
             "char6": "C OF C",
             "short": "Col. of Charleston",
             "seo": "col-of-charleston",
             "full": ""
           },
-          "winner": false,
+          "winner": true,
           "seed": "",
           "description": "",
           "rank": "",
@@ -2769,12 +2769,12 @@
             }
           ]
         },
-        "finalMessage": "",
+        "finalMessage": "FINAL",
         "title": "Col. of Charleston N.C. A&T",
         "url": "/game/6624975",
         "network": "",
         "home": {
-          "score": "",
+          "score": "1",
           "names": {
             "char6": "NC A&T",
             "short": "N.C. A&T",
@@ -2795,9 +2795,9 @@
         "liveVideoEnabled": false,
         "startTime": "3:00 PM ET",
         "startTimeEpoch": "1791054000",
-        "gameState": "pre",
+        "gameState": "final",
         "startDate": "10/03/2026",
-        "currentPeriod": "",
+        "currentPeriod": "FINAL",
         "contestClock": "0:00",
         "bracketId": "",
         "bracketRound": ""

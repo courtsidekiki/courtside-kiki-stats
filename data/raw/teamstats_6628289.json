@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628289,
+  "title": "WVB Boxscore",
+  "description": "Ark.-Pine Bluff vs ULM",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46646",
+      "seoname": "ark-pine-bluff",
+      "name6Char": "ARK PB",
+      "nameFull": "University of Arkansas, Pine Bluff",
+      "nameShort": "Ark.-Pine Bluff",
+      "teamName": "Lady Lions",
+      "color": "#010101"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46106",
+      "seoname": "la-monroe",
+      "name6Char": "LA MON",
+      "nameFull": "University of Louisiana Monroe",
+      "nameShort": "ULM",
+      "teamName": "Warhawks",
+      "color": "#8A2432"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46646,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "49",
+        "kills": "20",
+        "attackErrors": "23",
+        "attackAttempts": "86",
+        "hittingPercentage": "-0.035",
+        "assists": "18",
+        "setErrors": "4",
+        "setAttempts": "92",
+        "serviceAces": "3",
+        "serviceErrors": "5",
+        "serveAttempts": "51",
+        "digs": "29",
+        "receptionAttempts": "61",
+        "receptionErrors": "4",
+        "blockSolos": "3",
+        "blockAssists": "0",
+        "blockingErrors": "0",
+        "totalBlocks": "3"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46106,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "39",
+        "attackErrors": "9",
+        "attackAttempts": "90",
+        "hittingPercentage": "0.333",
+        "assists": "33",
+        "setErrors": "4",
+        "setAttempts": "93",
+        "serviceAces": "4",
+        "serviceErrors": "12",
+        "serveAttempts": "73",
+        "digs": "35",
+        "receptionAttempts": "46",
+        "receptionErrors": "3",
+        "blockSolos": "6",
+        "blockAssists": "4",
+        "blockingErrors": "0",
+        "totalBlocks": "8"
+      }
+    }
+  ]
+}

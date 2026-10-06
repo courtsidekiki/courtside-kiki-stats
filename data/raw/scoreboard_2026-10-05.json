@@ -1,20 +1,20 @@
 {
-  "inputMD5Sum": "a36426cab8f282c4167aea6448d68a2a",
+  "inputMD5Sum": "85c02fea5a06da37b0c5f6553129cd1f",
   "instanceId": "d41d8cd98f00b204e9800998ecf8427e",
-  "updated_at": "2026-10-05 11:11:19",
+  "updated_at": "2026-10-06 11:11:49",
   "games": [
     {
       "game": {
         "gameID": "6628289",
         "away": {
-          "score": "",
+          "score": "3",
           "names": {
             "char6": "LA MON",
             "short": "ULM",
             "seo": "la-monroe",
             "full": ""
           },
-          "winner": false,
+          "winner": true,
           "seed": "",
           "description": "",
           "rank": "",
@@ -25,12 +25,12 @@
             }
           ]
         },
-        "finalMessage": "",
+        "finalMessage": "FINAL",
         "title": "ULM Ark.-Pine Bluff",
         "url": "/game/6628289",
         "network": "",
         "home": {
-          "score": "",
+          "score": "0",
           "names": {
             "char6": "ARK PB",
             "short": "Ark.-Pine Bluff",
@@ -51,9 +51,9 @@
         "liveVideoEnabled": false,
         "startTime": "7:00 PM ET",
         "startTimeEpoch": "1791241200",
-        "gameState": "pre",
+        "gameState": "final",
         "startDate": "10/05/2026",
-        "currentPeriod": "",
+        "currentPeriod": "FINAL",
         "contestClock": "0:00",
         "bracketId": "",
         "bracketRound": ""
