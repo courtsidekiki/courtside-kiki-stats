@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627615,
+  "title": "WVB Boxscore",
+  "description": "ETSU vs UNC Greensboro",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45768",
+      "seoname": "east-tenn-st",
+      "name6Char": "ETSU",
+      "nameFull": "East Tennessee State University",
+      "nameShort": "ETSU",
+      "teamName": "Buccaneers (Bucs)",
+      "color": "#041E42"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46472",
+      "seoname": "unc-greensboro",
+      "name6Char": "UNC G",
+      "nameFull": "The University of North Carolina at Greensboro",
+      "nameShort": "UNC Greensboro",
+      "teamName": "Spartans",
+      "color": "#13294B"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45768,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "101",
+        "kills": "64",
+        "attackErrors": "25",
+        "attackAttempts": "183",
+        "hittingPercentage": "0.213",
+        "assists": "60",
+        "setErrors": "1",
+        "setAttempts": "178",
+        "serviceAces": "3",
+        "serviceErrors": "6",
+        "serveAttempts": "101",
+        "digs": "71",
+        "receptionAttempts": "95",
+        "receptionErrors": "8",
+        "blockSolos": "2",
+        "blockAssists": "18",
+        "blockingErrors": "1",
+        "totalBlocks": "11"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46472,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "102",
+        "kills": "61",
+        "attackErrors": "27",
+        "attackAttempts": "177",
+        "hittingPercentage": "0.192",
+        "assists": "60",
+        "setErrors": "0",
+        "setAttempts": "182",
+        "serviceAces": "8",
+        "serviceErrors": "7",
+        "serveAttempts": "102",
+        "digs": "80",
+        "receptionAttempts": "95",
+        "receptionErrors": "3",
+        "blockSolos": "2",
+        "blockAssists": "8",
+        "blockingErrors": "0",
+        "totalBlocks": "6"
+      }
+    }
+  ]
+}

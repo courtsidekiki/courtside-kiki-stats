@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626182,
+  "title": "WVB Boxscore",
+  "description": "Holy Cross vs Bryant",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45915",
+      "seoname": "holy-cross",
+      "name6Char": "HOLYCR",
+      "nameFull": "College of the Holy Cross",
+      "nameShort": "Holy Cross",
+      "teamName": "Crusaders",
+      "color": "#582C83"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45813",
+      "seoname": "bryant",
+      "name6Char": "BRYANT",
+      "nameFull": "Bryant University",
+      "nameShort": "Bryant",
+      "teamName": "Bulldogs",
+      "color": "#010101"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45915,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "41",
+        "attackErrors": "17",
+        "attackAttempts": "118",
+        "hittingPercentage": "0.203",
+        "assists": "37",
+        "setErrors": "0",
+        "setAttempts": "115",
+        "serviceAces": "6",
+        "serviceErrors": "7",
+        "serveAttempts": "74",
+        "digs": "52",
+        "receptionAttempts": "59",
+        "receptionErrors": "7",
+        "blockSolos": "2",
+        "blockAssists": "18",
+        "blockingErrors": "4",
+        "totalBlocks": "11"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45813,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "62",
+        "kills": "30",
+        "attackErrors": "21",
+        "attackAttempts": "109",
+        "hittingPercentage": "0.083",
+        "assists": "27",
+        "setErrors": "2",
+        "setAttempts": "110",
+        "serviceAces": "7",
+        "serviceErrors": "4",
+        "serveAttempts": "63",
+        "digs": "51",
+        "receptionAttempts": "67",
+        "receptionErrors": "6",
+        "blockSolos": "0",
+        "blockAssists": "2",
+        "blockingErrors": "0",
+        "totalBlocks": "1"
+      }
+    }
+  ]
+}

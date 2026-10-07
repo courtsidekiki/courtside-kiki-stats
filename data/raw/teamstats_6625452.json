@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625452,
+  "title": "WVB Boxscore",
+  "description": "Eastern Ky. vs Austin Peay",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45770",
+      "seoname": "eastern-ky",
+      "name6Char": "E KY",
+      "nameFull": "Eastern Kentucky University",
+      "nameShort": "Eastern Ky.",
+      "teamName": "Colonels",
+      "color": "#6F263D"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45942",
+      "seoname": "austin-peay",
+      "name6Char": "A PEAY",
+      "nameFull": "Austin Peay State University",
+      "nameShort": "Austin Peay",
+      "teamName": "Governors",
+      "color": "#BA0C2F"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45770,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "47",
+        "attackErrors": "10",
+        "attackAttempts": "106",
+        "hittingPercentage": "0.349",
+        "assists": "44",
+        "setErrors": "0",
+        "setAttempts": "102",
+        "serviceAces": "6",
+        "serviceErrors": "8",
+        "serveAttempts": "74",
+        "digs": "39",
+        "receptionAttempts": "54",
+        "receptionErrors": "3",
+        "blockSolos": "1",
+        "blockAssists": "16",
+        "blockingErrors": "1",
+        "totalBlocks": "9"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45942,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "59",
+        "kills": "38",
+        "attackErrors": "15",
+        "attackAttempts": "97",
+        "hittingPercentage": "0.237",
+        "assists": "37",
+        "setErrors": "1",
+        "setAttempts": "100",
+        "serviceAces": "3",
+        "serviceErrors": "6",
+        "serveAttempts": "60",
+        "digs": "39",
+        "receptionAttempts": "66",
+        "receptionErrors": "6",
+        "blockSolos": "2",
+        "blockAssists": "6",
+        "blockingErrors": "2",
+        "totalBlocks": "5"
+      }
+    }
+  ]
+}

@@ -1,17 +1,73 @@
 {
-  "inputMD5Sum": "75d3d3367fea46b00c68c9ee9b0a0e6b",
+  "inputMD5Sum": "9e245e3d672cad0536ab94b687b18f99",
   "instanceId": "d41d8cd98f00b204e9800998ecf8427e",
-  "updated_at": "2026-10-07 11:12:09",
+  "updated_at": "2026-10-07 11:12:08",
   "games": [
     {
       "game": {
-        "gameID": "6625022",
+        "gameID": "6628185",
         "away": {
+          "score": "3",
+          "names": {
+            "char6": "IDAHO",
+            "short": "Idaho",
+            "seo": "idaho",
+            "full": ""
+          },
+          "winner": true,
+          "seed": "",
+          "description": "",
+          "rank": "",
+          "conferences": [
+            {
+              "conferenceName": "",
+              "conferenceSeo": "big-sky"
+            }
+          ]
+        },
+        "finalMessage": "FINAL",
+        "title": "Idaho Eastern Wash.",
+        "url": "/game/6628185",
+        "network": "",
+        "home": {
           "score": "1",
           "names": {
-            "char6": "DUQSNE",
-            "short": "Duquesne",
-            "seo": "duquesne",
+            "char6": "E WASH",
+            "short": "Eastern Wash.",
+            "seo": "eastern-wash",
+            "full": ""
+          },
+          "winner": false,
+          "seed": "",
+          "description": "",
+          "rank": "",
+          "conferences": [
+            {
+              "conferenceName": "",
+              "conferenceSeo": "big-sky"
+            }
+          ]
+        },
+        "liveVideoEnabled": false,
+        "startTime": "12:00 AM ET",
+        "startTimeEpoch": "1791345600",
+        "gameState": "final",
+        "startDate": "10/07/2026",
+        "currentPeriod": "FINAL",
+        "contestClock": "0:00",
+        "bracketId": "",
+        "bracketRound": ""
+      }
+    },
+    {
+      "game": {
+        "gameID": "6624683",
+        "away": {
+          "score": "",
+          "names": {
+            "char6": "FORDHM",
+            "short": "Fordham",
+            "seo": "fordham",
             "full": ""
           },
           "winner": false,
@@ -25,19 +81,19 @@
             }
           ]
         },
-        "finalMessage": "FINAL",
-        "title": "Duquesne Dayton",
-        "url": "/game/6625022",
+        "finalMessage": "",
+        "title": "Fordham Rhode Island",
+        "url": "/game/6624683",
         "network": "",
         "home": {
-          "score": "3",
+          "score": "",
           "names": {
-            "char6": "DAYTON",
-            "short": "Dayton",
-            "seo": "dayton",
+            "char6": "URI",
+            "short": "Rhode Island",
+            "seo": "rhode-island",
             "full": ""
           },
-          "winner": true,
+          "winner": false,
           "seed": "",
           "description": "",
           "rank": "",
@@ -50,10 +106,10 @@
         },
         "liveVideoEnabled": false,
         "startTime": "5:00 PM ET",
-        "startTimeEpoch": "1791320400",
-        "gameState": "final",
-        "startDate": "10/06/2026",
-        "currentPeriod": "FINAL",
+        "startTimeEpoch": "1791406800",
+        "gameState": "pre",
+        "startDate": "10/07/2026",
+        "currentPeriod": "",
         "contestClock": "0:00",
         "bracketId": "",
         "bracketRound": ""
@@ -61,36 +117,13 @@
     },
     {
       "game": {
-        "gameID": "6637455",
+        "gameID": "6628348",
         "away": {
-          "score": "3",
+          "score": "",
           "names": {
-            "char6": "VCU",
-            "short": "VCU",
-            "seo": "vcu",
-            "full": ""
-          },
-          "winner": true,
-          "seed": "",
-          "description": "",
-          "rank": "",
-          "conferences": [
-            {
-              "conferenceName": "",
-              "conferenceSeo": "atlantic-10"
-            }
-          ]
-        },
-        "finalMessage": "FINAL",
-        "title": "VCU Davidson",
-        "url": "/game/6637455",
-        "network": "",
-        "home": {
-          "score": "2",
-          "names": {
-            "char6": "DAVID",
-            "short": "Davidson",
-            "seo": "davidson",
+            "char6": "ST PTR",
+            "short": "Saint Peter's",
+            "seo": "st-peters",
             "full": ""
           },
           "winner": false,
@@ -100,310 +133,20 @@
           "conferences": [
             {
               "conferenceName": "",
-              "conferenceSeo": "atlantic-10"
+              "conferenceSeo": "metro"
             }
           ]
         },
-        "liveVideoEnabled": false,
-        "startTime": "5:00 PM ET",
-        "startTimeEpoch": "1791320400",
-        "gameState": "final",
-        "startDate": "10/06/2026",
-        "currentPeriod": "FINAL",
-        "contestClock": "0:00",
-        "bracketId": "",
-        "bracketRound": ""
-      }
-    },
-    {
-      "game": {
-        "gameID": "6624431",
-        "away": {
-          "score": "0",
-          "names": {
-            "char6": "W CAR",
-            "short": "Western Caro.",
-            "seo": "western-caro",
-            "full": ""
-          },
-          "winner": false,
-          "seed": "",
-          "description": "",
-          "rank": "",
-          "conferences": [
-            {
-              "conferenceName": "",
-              "conferenceSeo": "socon"
-            }
-          ]
-        },
-        "finalMessage": "FINAL",
-        "title": "Western Caro. Wofford",
-        "url": "/game/6624431",
+        "finalMessage": "",
+        "title": "Saint Peter's NJIT",
+        "url": "/game/6628348",
         "network": "",
         "home": {
-          "score": "3",
+          "score": "",
           "names": {
-            "char6": "WOFFRD",
-            "short": "Wofford",
-            "seo": "wofford",
-            "full": ""
-          },
-          "winner": true,
-          "seed": "",
-          "description": "",
-          "rank": "",
-          "conferences": [
-            {
-              "conferenceName": "",
-              "conferenceSeo": "socon"
-            }
-          ]
-        },
-        "liveVideoEnabled": false,
-        "startTime": "6:00 PM ET",
-        "startTimeEpoch": "1791324000",
-        "gameState": "final",
-        "startDate": "10/06/2026",
-        "currentPeriod": "FINAL",
-        "contestClock": "0:00",
-        "bracketId": "",
-        "bracketRound": ""
-      }
-    },
-    {
-      "game": {
-        "gameID": "6624782",
-        "away": {
-          "score": "0",
-          "names": {
-            "char6": "ROBMOR",
-            "short": "Robert Morris",
-            "seo": "robert-morris",
-            "full": ""
-          },
-          "winner": false,
-          "seed": "",
-          "description": "",
-          "rank": "",
-          "conferences": [
-            {
-              "conferenceName": "",
-              "conferenceSeo": "horizon"
-            }
-          ]
-        },
-        "finalMessage": "FINAL",
-        "title": "Robert Morris Youngstown St.",
-        "url": "/game/6624782",
-        "network": "",
-        "home": {
-          "score": "3",
-          "names": {
-            "char6": "YSU",
-            "short": "Youngstown St.",
-            "seo": "youngstown-st",
-            "full": ""
-          },
-          "winner": true,
-          "seed": "",
-          "description": "",
-          "rank": "",
-          "conferences": [
-            {
-              "conferenceName": "",
-              "conferenceSeo": "horizon"
-            }
-          ]
-        },
-        "liveVideoEnabled": false,
-        "startTime": "6:00 PM ET",
-        "startTimeEpoch": "1791324000",
-        "gameState": "final",
-        "startDate": "10/06/2026",
-        "currentPeriod": "FINAL",
-        "contestClock": "0:00",
-        "bracketId": "",
-        "bracketRound": ""
-      }
-    },
-    {
-      "game": {
-        "gameID": "6624976",
-        "away": {
-          "score": "2",
-          "names": {
-            "char6": "HIGHPT",
-            "short": "High Point",
-            "seo": "high-point",
-            "full": ""
-          },
-          "winner": false,
-          "seed": "",
-          "description": "",
-          "rank": "",
-          "conferences": [
-            {
-              "conferenceName": "",
-              "conferenceSeo": "big-south"
-            }
-          ]
-        },
-        "finalMessage": "FINAL",
-        "title": "High Point Col. of Charleston",
-        "url": "/game/6624976",
-        "network": "",
-        "home": {
-          "score": "3",
-          "names": {
-            "char6": "C OF C",
-            "short": "Col. of Charleston",
-            "seo": "col-of-charleston",
-            "full": ""
-          },
-          "winner": true,
-          "seed": "",
-          "description": "",
-          "rank": "",
-          "conferences": [
-            {
-              "conferenceName": "",
-              "conferenceSeo": "caa"
-            }
-          ]
-        },
-        "liveVideoEnabled": false,
-        "startTime": "6:00 PM ET",
-        "startTimeEpoch": "1791324000",
-        "gameState": "final",
-        "startDate": "10/06/2026",
-        "currentPeriod": "FINAL",
-        "contestClock": "0:00",
-        "bracketId": "",
-        "bracketRound": ""
-      }
-    },
-    {
-      "game": {
-        "gameID": "6625452",
-        "away": {
-          "score": "0",
-          "names": {
-            "char6": "A PEAY",
-            "short": "Austin Peay",
-            "seo": "austin-peay",
-            "full": ""
-          },
-          "winner": false,
-          "seed": "",
-          "description": "",
-          "rank": "",
-          "conferences": [
-            {
-              "conferenceName": "",
-              "conferenceSeo": "uac-"
-            }
-          ]
-        },
-        "finalMessage": "FINAL",
-        "title": "Austin Peay Eastern Ky.",
-        "url": "/game/6625452",
-        "network": "",
-        "home": {
-          "score": "3",
-          "names": {
-            "char6": "E KY",
-            "short": "Eastern Ky.",
-            "seo": "eastern-ky",
-            "full": ""
-          },
-          "winner": true,
-          "seed": "",
-          "description": "",
-          "rank": "",
-          "conferences": [
-            {
-              "conferenceName": "",
-              "conferenceSeo": "uac-"
-            }
-          ]
-        },
-        "liveVideoEnabled": false,
-        "startTime": "6:00 PM ET",
-        "startTimeEpoch": "1791324000",
-        "gameState": "final",
-        "startDate": "10/06/2026",
-        "currentPeriod": "FINAL",
-        "contestClock": "0:00",
-        "bracketId": "",
-        "bracketRound": ""
-      }
-    },
-    {
-      "game": {
-        "gameID": "6626025",
-        "away": {
-          "score": "1",
-          "names": {
-            "char6": "FURMAN",
-            "short": "Furman",
-            "seo": "furman",
-            "full": ""
-          },
-          "winner": false,
-          "seed": "",
-          "description": "",
-          "rank": "",
-          "conferences": [
-            {
-              "conferenceName": "",
-              "conferenceSeo": "socon"
-            }
-          ]
-        },
-        "finalMessage": "FINAL",
-        "title": "Furman The Citadel",
-        "url": "/game/6626025",
-        "network": "",
-        "home": {
-          "score": "3",
-          "names": {
-            "char6": "CITDEL",
-            "short": "The Citadel",
-            "seo": "citadel",
-            "full": ""
-          },
-          "winner": true,
-          "seed": "",
-          "description": "",
-          "rank": "",
-          "conferences": [
-            {
-              "conferenceName": "",
-              "conferenceSeo": "socon"
-            }
-          ]
-        },
-        "liveVideoEnabled": false,
-        "startTime": "6:00 PM ET",
-        "startTimeEpoch": "1791324000",
-        "gameState": "final",
-        "startDate": "10/06/2026",
-        "currentPeriod": "FINAL",
-        "contestClock": "0:00",
-        "bracketId": "",
-        "bracketRound": ""
-      }
-    },
-    {
-      "game": {
-        "gameID": "6626182",
-        "away": {
-          "score": "0",
-          "names": {
-            "char6": "BRYANT",
-            "short": "Bryant",
-            "seo": "bryant",
+            "char6": "NJIT",
+            "short": "NJIT",
+            "seo": "njit",
             "full": ""
           },
           "winner": false,
@@ -417,35 +160,12 @@
             }
           ]
         },
-        "finalMessage": "FINAL",
-        "title": "Bryant Holy Cross",
-        "url": "/game/6626182",
-        "network": "",
-        "home": {
-          "score": "3",
-          "names": {
-            "char6": "HOLYCR",
-            "short": "Holy Cross",
-            "seo": "holy-cross",
-            "full": ""
-          },
-          "winner": true,
-          "seed": "",
-          "description": "",
-          "rank": "",
-          "conferences": [
-            {
-              "conferenceName": "",
-              "conferenceSeo": "patriot"
-            }
-          ]
-        },
         "liveVideoEnabled": false,
-        "startTime": "6:00 PM ET",
-        "startTimeEpoch": "1791324000",
-        "gameState": "final",
-        "startDate": "10/06/2026",
-        "currentPeriod": "FINAL",
+        "startTime": "5:00 PM ET",
+        "startTimeEpoch": "1791406800",
+        "gameState": "pre",
+        "startDate": "10/07/2026",
+        "currentPeriod": "",
         "contestClock": "0:00",
         "bracketId": "",
         "bracketRound": ""
@@ -453,13 +173,13 @@
     },
     {
       "game": {
-        "gameID": "6627615",
+        "gameID": "6624457",
         "away": {
-          "score": "2",
+          "score": "",
           "names": {
-            "char6": "UNC G",
-            "short": "UNC Greensboro",
-            "seo": "unc-greensboro",
+            "char6": "G WASH",
+            "short": "George Washington",
+            "seo": "george-washington",
             "full": ""
           },
           "winner": false,
@@ -469,76 +189,20 @@
           "conferences": [
             {
               "conferenceName": "",
-              "conferenceSeo": "socon"
+              "conferenceSeo": "atlantic-10"
             }
           ]
         },
-        "finalMessage": "FINAL",
-        "title": "UNC Greensboro ETSU",
-        "url": "/game/6627615",
+        "finalMessage": "",
+        "title": "George Washington George Mason",
+        "url": "/game/6624457",
         "network": "",
         "home": {
-          "score": "3",
+          "score": "",
           "names": {
-            "char6": "ETSU",
-            "short": "ETSU",
-            "seo": "east-tenn-st",
-            "full": ""
-          },
-          "winner": true,
-          "seed": "",
-          "description": "",
-          "rank": "",
-          "conferences": [
-            {
-              "conferenceName": "",
-              "conferenceSeo": "socon"
-            }
-          ]
-        },
-        "liveVideoEnabled": false,
-        "startTime": "6:00 PM ET",
-        "startTimeEpoch": "1791324000",
-        "gameState": "final",
-        "startDate": "10/06/2026",
-        "currentPeriod": "FINAL",
-        "contestClock": "0:00",
-        "bracketId": "",
-        "bracketRound": ""
-      }
-    },
-    {
-      "game": {
-        "gameID": "6628573",
-        "away": {
-          "score": "3",
-          "names": {
-            "char6": "MIA OH",
-            "short": "Miami (OH)",
-            "seo": "miami-oh",
-            "full": ""
-          },
-          "winner": true,
-          "seed": "",
-          "description": "",
-          "rank": "",
-          "conferences": [
-            {
-              "conferenceName": "",
-              "conferenceSeo": "mac"
-            }
-          ]
-        },
-        "finalMessage": "FINAL",
-        "title": "Miami (OH) Ball St.",
-        "url": "/game/6628573",
-        "network": "",
-        "home": {
-          "score": "1",
-          "names": {
-            "char6": "BALLST",
-            "short": "Ball St.",
-            "seo": "ball-st",
+            "char6": "GMU",
+            "short": "George Mason",
+            "seo": "george-mason",
             "full": ""
           },
           "winner": false,
@@ -548,16 +212,16 @@
           "conferences": [
             {
               "conferenceName": "",
-              "conferenceSeo": "mac"
+              "conferenceSeo": "atlantic-10"
             }
           ]
         },
         "liveVideoEnabled": false,
         "startTime": "6:00 PM ET",
-        "startTimeEpoch": "1791324000",
-        "gameState": "final",
-        "startDate": "10/06/2026",
-        "currentPeriod": "FINAL",
+        "startTimeEpoch": "1791410400",
+        "gameState": "pre",
+        "startDate": "10/07/2026",
+        "currentPeriod": "",
         "contestClock": "0:00",
         "bracketId": "",
         "bracketRound": ""
@@ -565,13 +229,13 @@
     },
     {
       "game": {
-        "gameID": "6625370",
+        "gameID": "6626166",
         "away": {
-          "score": "1",
+          "score": "",
           "names": {
-            "char6": "CHAT",
-            "short": "Chattanooga",
-            "seo": "chattanooga",
+            "char6": "E CAR",
+            "short": "East Carolina",
+            "seo": "east-carolina",
             "full": ""
           },
           "winner": false,
@@ -581,39 +245,263 @@
           "conferences": [
             {
               "conferenceName": "",
-              "conferenceSeo": "socon"
+              "conferenceSeo": "american"
             }
           ]
         },
-        "finalMessage": "FINAL",
-        "title": "Chattanooga Tennessee Tech",
-        "url": "/game/6625370",
+        "finalMessage": "",
+        "title": "East Carolina Charlotte",
+        "url": "/game/6626166",
         "network": "",
         "home": {
-          "score": "3",
+          "score": "",
           "names": {
-            "char6": "TNTECH",
-            "short": "Tennessee Tech",
-            "seo": "tennessee-tech",
+            "char6": "CHAR",
+            "short": "Charlotte",
+            "seo": "charlotte",
             "full": ""
           },
-          "winner": true,
+          "winner": false,
           "seed": "",
           "description": "",
           "rank": "",
           "conferences": [
             {
               "conferenceName": "",
-              "conferenceSeo": "socon"
+              "conferenceSeo": "american"
+            }
+          ]
+        },
+        "liveVideoEnabled": false,
+        "startTime": "6:00 PM ET",
+        "startTimeEpoch": "1791410400",
+        "gameState": "pre",
+        "startDate": "10/07/2026",
+        "currentPeriod": "",
+        "contestClock": "0:00",
+        "bracketId": "",
+        "bracketRound": ""
+      }
+    },
+    {
+      "game": {
+        "gameID": "6628355",
+        "away": {
+          "score": "",
+          "names": {
+            "char6": "JVILLE",
+            "short": "Jacksonville",
+            "seo": "jacksonville",
+            "full": ""
+          },
+          "winner": false,
+          "seed": "",
+          "description": "",
+          "rank": "",
+          "conferences": [
+            {
+              "conferenceName": "",
+              "conferenceSeo": "asun"
+            }
+          ]
+        },
+        "finalMessage": "",
+        "title": "Jacksonville Florida St.",
+        "url": "/game/6628355",
+        "network": "",
+        "home": {
+          "score": "",
+          "names": {
+            "char6": "FSU",
+            "short": "Florida St.",
+            "seo": "florida-st",
+            "full": ""
+          },
+          "winner": false,
+          "seed": "",
+          "description": "",
+          "rank": "",
+          "conferences": [
+            {
+              "conferenceName": "",
+              "conferenceSeo": "acc"
+            }
+          ]
+        },
+        "liveVideoEnabled": false,
+        "startTime": "6:00 PM ET",
+        "startTimeEpoch": "1791410400",
+        "gameState": "pre",
+        "startDate": "10/07/2026",
+        "currentPeriod": "",
+        "contestClock": "0:00",
+        "bracketId": "",
+        "bracketRound": ""
+      }
+    },
+    {
+      "game": {
+        "gameID": "6639606",
+        "away": {
+          "score": "",
+          "names": {
+            "char6": "ALBANY",
+            "short": "UAlbany",
+            "seo": "albany-ny",
+            "full": ""
+          },
+          "winner": false,
+          "seed": "",
+          "description": "",
+          "rank": "",
+          "conferences": [
+            {
+              "conferenceName": "",
+              "conferenceSeo": "america-east"
+            }
+          ]
+        },
+        "finalMessage": "",
+        "title": "UAlbany Siena",
+        "url": "/game/6639606",
+        "network": "",
+        "home": {
+          "score": "",
+          "names": {
+            "char6": "SIENA",
+            "short": "Siena",
+            "seo": "siena",
+            "full": ""
+          },
+          "winner": false,
+          "seed": "",
+          "description": "",
+          "rank": "",
+          "conferences": [
+            {
+              "conferenceName": "",
+              "conferenceSeo": "metro"
+            }
+          ]
+        },
+        "liveVideoEnabled": false,
+        "startTime": "6:00 PM ET",
+        "startTimeEpoch": "1791410400",
+        "gameState": "pre",
+        "startDate": "10/07/2026",
+        "currentPeriod": "",
+        "contestClock": "0:00",
+        "bracketId": "",
+        "bracketRound": ""
+      }
+    },
+    {
+      "game": {
+        "gameID": "6639608",
+        "away": {
+          "score": "",
+          "names": {
+            "char6": "BECOOK",
+            "short": "Bethune-Cookman",
+            "seo": "bethune-cookman",
+            "full": ""
+          },
+          "winner": false,
+          "seed": "",
+          "description": "",
+          "rank": "",
+          "conferences": [
+            {
+              "conferenceName": "",
+              "conferenceSeo": "swac"
+            }
+          ]
+        },
+        "finalMessage": "",
+        "title": "Bethune-Cookman Florida A&M",
+        "url": "/game/6639608",
+        "network": "",
+        "home": {
+          "score": "",
+          "names": {
+            "char6": "FL A&M",
+            "short": "Florida A&M",
+            "seo": "florida-am",
+            "full": ""
+          },
+          "winner": false,
+          "seed": "",
+          "description": "",
+          "rank": "",
+          "conferences": [
+            {
+              "conferenceName": "",
+              "conferenceSeo": "swac"
+            }
+          ]
+        },
+        "liveVideoEnabled": false,
+        "startTime": "6:00 PM ET",
+        "startTimeEpoch": "1791410400",
+        "gameState": "pre",
+        "startDate": "10/07/2026",
+        "currentPeriod": "",
+        "contestClock": "0:00",
+        "bracketId": "",
+        "bracketRound": ""
+      }
+    },
+    {
+      "game": {
+        "gameID": "6625678",
+        "away": {
+          "score": "",
+          "names": {
+            "char6": "ALCORN",
+            "short": "Alcorn",
+            "seo": "alcorn",
+            "full": ""
+          },
+          "winner": false,
+          "seed": "",
+          "description": "",
+          "rank": "",
+          "conferences": [
+            {
+              "conferenceName": "",
+              "conferenceSeo": "swac"
+            }
+          ]
+        },
+        "finalMessage": "",
+        "title": "Alcorn Southern U.",
+        "url": "/game/6625678",
+        "network": "",
+        "home": {
+          "score": "",
+          "names": {
+            "char6": "SOUTHR",
+            "short": "Southern U.",
+            "seo": "southern-u",
+            "full": ""
+          },
+          "winner": false,
+          "seed": "",
+          "description": "",
+          "rank": "",
+          "conferences": [
+            {
+              "conferenceName": "",
+              "conferenceSeo": "swac"
             }
           ]
         },
         "liveVideoEnabled": false,
         "startTime": "7:00 PM ET",
-        "startTimeEpoch": "1791327600",
-        "gameState": "final",
-        "startDate": "10/06/2026",
-        "currentPeriod": "FINAL",
+        "startTimeEpoch": "1791414000",
+        "gameState": "pre",
+        "startDate": "10/07/2026",
+        "currentPeriod": "",
         "contestClock": "0:00",
         "bracketId": "",
         "bracketRound": ""
@@ -621,55 +509,55 @@
     },
     {
       "game": {
-        "gameID": "6627106",
+        "gameID": "6626276",
         "away": {
-          "score": "0",
+          "score": "",
           "names": {
-            "char6": "BRAD",
-            "short": "Bradley",
-            "seo": "bradley",
+            "char6": "SMU",
+            "short": "SMU",
+            "seo": "smu",
             "full": ""
           },
           "winner": false,
           "seed": "",
           "description": "",
-          "rank": "",
+          "rank": "6",
           "conferences": [
             {
               "conferenceName": "",
-              "conferenceSeo": "mvc"
+              "conferenceSeo": "acc"
             }
           ]
         },
-        "finalMessage": "FINAL",
-        "title": "Bradley Illinois St.",
-        "url": "/game/6627106",
+        "finalMessage": "",
+        "title": "SMU Pittsburgh",
+        "url": "/game/6626276",
         "network": "",
         "home": {
-          "score": "3",
+          "score": "",
           "names": {
-            "char6": "ILL ST",
-            "short": "Illinois St.",
-            "seo": "illinois-st",
+            "char6": "PITT",
+            "short": "Pittsburgh",
+            "seo": "pittsburgh",
             "full": ""
           },
-          "winner": true,
+          "winner": false,
           "seed": "",
           "description": "",
-          "rank": "",
+          "rank": "2",
           "conferences": [
             {
               "conferenceName": "",
-              "conferenceSeo": "mvc"
+              "conferenceSeo": "acc"
             }
           ]
         },
         "liveVideoEnabled": false,
         "startTime": "7:00 PM ET",
-        "startTimeEpoch": "1791327600",
-        "gameState": "final",
-        "startDate": "10/06/2026",
-        "currentPeriod": "FINAL",
+        "startTimeEpoch": "1791414000",
+        "gameState": "pre",
+        "startDate": "10/07/2026",
+        "currentPeriod": "",
         "contestClock": "0:00",
         "bracketId": "",
         "bracketRound": ""
@@ -677,13 +565,13 @@
     },
     {
       "game": {
-        "gameID": "6625181",
+        "gameID": "6626946",
         "away": {
-          "score": "1",
+          "score": "",
           "names": {
-            "char6": "MERCER",
-            "short": "Mercer",
-            "seo": "mercer",
+            "char6": "XAVIER",
+            "short": "Xavier",
+            "seo": "xavier",
             "full": ""
           },
           "winner": false,
@@ -693,39 +581,95 @@
           "conferences": [
             {
               "conferenceName": "",
-              "conferenceSeo": "socon"
+              "conferenceSeo": "big-east"
             }
           ]
         },
-        "finalMessage": "FINAL",
-        "title": "Mercer Samford",
-        "url": "/game/6625181",
+        "finalMessage": "",
+        "title": "Xavier Butler",
+        "url": "/game/6626946",
         "network": "",
         "home": {
-          "score": "3",
+          "score": "",
           "names": {
-            "char6": "SAMFRD",
-            "short": "Samford",
-            "seo": "samford",
+            "char6": "BUTLER",
+            "short": "Butler",
+            "seo": "butler",
             "full": ""
           },
-          "winner": true,
+          "winner": false,
           "seed": "",
           "description": "",
           "rank": "",
           "conferences": [
             {
               "conferenceName": "",
-              "conferenceSeo": "socon"
+              "conferenceSeo": "big-east"
             }
           ]
         },
         "liveVideoEnabled": false,
-        "startTime": "7:30 PM ET",
-        "startTimeEpoch": "1791329400",
-        "gameState": "final",
-        "startDate": "10/06/2026",
-        "currentPeriod": "FINAL",
+        "startTime": "7:00 PM ET",
+        "startTimeEpoch": "1791414000",
+        "gameState": "pre",
+        "startDate": "10/07/2026",
+        "currentPeriod": "",
+        "contestClock": "0:00",
+        "bracketId": "",
+        "bracketRound": ""
+      }
+    },
+    {
+      "game": {
+        "gameID": "6628693",
+        "away": {
+          "score": "",
+          "names": {
+            "char6": "TX A&M",
+            "short": "Texas A&M",
+            "seo": "texas-am",
+            "full": ""
+          },
+          "winner": false,
+          "seed": "",
+          "description": "",
+          "rank": "12",
+          "conferences": [
+            {
+              "conferenceName": "",
+              "conferenceSeo": "sec"
+            }
+          ]
+        },
+        "finalMessage": "",
+        "title": "Texas A&M Oklahoma",
+        "url": "/game/6628693",
+        "network": "",
+        "home": {
+          "score": "",
+          "names": {
+            "char6": "OKLA",
+            "short": "Oklahoma",
+            "seo": "oklahoma",
+            "full": ""
+          },
+          "winner": false,
+          "seed": "",
+          "description": "",
+          "rank": "",
+          "conferences": [
+            {
+              "conferenceName": "",
+              "conferenceSeo": "sec"
+            }
+          ]
+        },
+        "liveVideoEnabled": false,
+        "startTime": "7:00 PM ET",
+        "startTimeEpoch": "1791414000",
+        "gameState": "pre",
+        "startDate": "10/07/2026",
+        "currentPeriod": "",
         "contestClock": "0:00",
         "bracketId": "",
         "bracketRound": ""

@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624782,
+  "title": "WVB Boxscore",
+  "description": "Youngstown St. vs Robert Morris",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46583",
+      "seoname": "youngstown-st",
+      "name6Char": "YSU",
+      "nameFull": "Youngstown State University",
+      "nameShort": "Youngstown St.",
+      "teamName": "Penguins",
+      "color": "#C8102E"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46735",
+      "seoname": "robert-morris",
+      "name6Char": "ROBMOR",
+      "nameFull": "Robert Morris University",
+      "nameShort": "Robert Morris",
+      "teamName": "Colonials",
+      "color": "#041E42"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46583,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "44",
+        "attackErrors": "10",
+        "attackAttempts": "115",
+        "hittingPercentage": "0.296",
+        "assists": "43",
+        "setErrors": "0",
+        "setAttempts": "112",
+        "serviceAces": "1",
+        "serviceErrors": "10",
+        "serveAttempts": "73",
+        "digs": "64",
+        "receptionAttempts": "54",
+        "receptionErrors": "1",
+        "blockSolos": "1",
+        "blockAssists": "14",
+        "blockingErrors": "0",
+        "totalBlocks": "8"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46735,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "57",
+        "kills": "36",
+        "attackErrors": "25",
+        "attackAttempts": "129",
+        "hittingPercentage": "0.085",
+        "assists": "36",
+        "setErrors": "0",
+        "setAttempts": "120",
+        "serviceAces": "1",
+        "serviceErrors": "5",
+        "serveAttempts": "59",
+        "digs": "58",
+        "receptionAttempts": "63",
+        "receptionErrors": "1",
+        "blockSolos": "1",
+        "blockAssists": "2",
+        "blockingErrors": "3",
+        "totalBlocks": "2"
+      }
+    }
+  ]
+}

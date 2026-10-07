@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628573,
+  "title": "WVB Boxscore",
+  "description": "Ball St. vs Miami (OH)",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46572",
+      "seoname": "ball-st",
+      "name6Char": "BALLST",
+      "nameFull": "Ball State University",
+      "nameShort": "Ball St.",
+      "teamName": "Cardinals",
+      "color": "#BA0C2F"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45931",
+      "seoname": "miami-oh",
+      "name6Char": "MIA OH",
+      "nameFull": "Miami University (Ohio)",
+      "nameShort": "Miami (OH)",
+      "teamName": "RedHawks",
+      "color": "#C8102E"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46572,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "79",
+        "kills": "55",
+        "attackErrors": "21",
+        "attackAttempts": "153",
+        "hittingPercentage": "0.222",
+        "assists": "54",
+        "setErrors": "0",
+        "setAttempts": "150",
+        "serviceAces": "3",
+        "serviceErrors": "10",
+        "serveAttempts": "80",
+        "digs": "67",
+        "receptionAttempts": "89",
+        "receptionErrors": "7",
+        "blockSolos": "2",
+        "blockAssists": "14",
+        "blockingErrors": "1",
+        "totalBlocks": "9"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45931,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "94",
+        "kills": "56",
+        "attackErrors": "17",
+        "attackAttempts": "152",
+        "hittingPercentage": "0.257",
+        "assists": "54",
+        "setErrors": "0",
+        "setAttempts": "147",
+        "serviceAces": "7",
+        "serviceErrors": "4",
+        "serveAttempts": "93",
+        "digs": "70",
+        "receptionAttempts": "70",
+        "receptionErrors": "3",
+        "blockSolos": "0",
+        "blockAssists": "22",
+        "blockingErrors": "0",
+        "totalBlocks": "11"
+      }
+    }
+  ]
+}

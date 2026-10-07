@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625181,
+  "title": "WVB Boxscore",
+  "description": "Samford vs Mercer",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45864",
+      "seoname": "samford",
+      "name6Char": "SAMFRD",
+      "nameFull": "Samford University",
+      "nameShort": "Samford",
+      "teamName": "Bulldogs",
+      "color": "#0C2340"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46567",
+      "seoname": "mercer",
+      "name6Char": "MERCER",
+      "nameFull": "Mercer University",
+      "nameShort": "Mercer",
+      "teamName": "Bears",
+      "color": "#E87722"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45864,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "95",
+        "kills": "51",
+        "attackErrors": "11",
+        "attackAttempts": "139",
+        "hittingPercentage": "0.288",
+        "assists": "48",
+        "setErrors": "0",
+        "setAttempts": "145",
+        "serviceAces": "8",
+        "serviceErrors": "7",
+        "serveAttempts": "94",
+        "digs": "68",
+        "receptionAttempts": "74",
+        "receptionErrors": "3",
+        "blockSolos": "5",
+        "blockAssists": "20",
+        "blockingErrors": "2",
+        "totalBlocks": "15"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46567,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "78",
+        "kills": "57",
+        "attackErrors": "28",
+        "attackAttempts": "161",
+        "hittingPercentage": "0.180",
+        "assists": "52",
+        "setErrors": "2",
+        "setAttempts": "158",
+        "serviceAces": "3",
+        "serviceErrors": "5",
+        "serveAttempts": "79",
+        "digs": "68",
+        "receptionAttempts": "87",
+        "receptionErrors": "8",
+        "blockSolos": "0",
+        "blockAssists": "4",
+        "blockingErrors": "2",
+        "totalBlocks": "2"
+      }
+    }
+  ]
+}

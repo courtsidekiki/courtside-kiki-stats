@@ -1,0 +1,104 @@
+{
+  "contests": [
+    {
+      "__typename": "Contest",
+      "id": "6628185",
+      "sportCode": "WVB",
+      "sportUrl": "volleyball-women",
+      "division": 1,
+      "clock": null,
+      "currentPeriod": "FINAL",
+      "finalMessage": "FINAL",
+      "gameState": "F",
+      "statusCodeDisplay": "final",
+      "network": null,
+      "startTime": "00:00",
+      "startTimeEpoch": 1791345600,
+      "week": null,
+      "seasonYear": 2026,
+      "winner": 46311,
+      "hasStartTime": false,
+      "hasBoxscore": true,
+      "hasPbp": true,
+      "hasScoringSummary": false,
+      "hasPreview": false,
+      "hasRecap": false,
+      "hasTeamStats": true,
+      "linescores": [
+        {
+          "__typename": "Linescore",
+          "period": "1",
+          "home": "27",
+          "visit": "29"
+        },
+        {
+          "__typename": "Linescore",
+          "period": "2",
+          "home": "16",
+          "visit": "25"
+        },
+        {
+          "__typename": "Linescore",
+          "period": "3",
+          "home": "25",
+          "visit": "20"
+        },
+        {
+          "__typename": "Linescore",
+          "period": "4",
+          "home": "22",
+          "visit": "25"
+        }
+      ],
+      "teams": [
+        {
+          "__typename": "ContestTeam",
+          "teamId": "46180",
+          "isHome": true,
+          "color": "#A6192E",
+          "seoname": "eastern-wash",
+          "nameFull": "Eastern Washington University",
+          "nameShort": "Eastern Wash.",
+          "name6Char": "E WASH",
+          "teamRank": null,
+          "gameRank": null,
+          "score": 1,
+          "seed": null,
+          "record": "(8-9)",
+          "divisionName": "d1",
+          "division": 1,
+          "isWinner": false
+        },
+        {
+          "__typename": "ContestTeam",
+          "teamId": "46311",
+          "isHome": false,
+          "color": "#010101",
+          "seoname": "idaho",
+          "nameFull": "University of Idaho",
+          "nameShort": "Idaho",
+          "name6Char": "IDAHO",
+          "teamRank": null,
+          "gameRank": null,
+          "score": 3,
+          "seed": null,
+          "record": "(10-7)",
+          "divisionName": "d1",
+          "division": 1,
+          "isWinner": true
+        }
+      ],
+      "liveVideos": [],
+      "championship": null,
+      "championshipGame": null,
+      "links": [],
+      "location": {
+        "__typename": "Location",
+        "venue": "Reese Court",
+        "city": "Cheney",
+        "stateUsps": "WA"
+      },
+      "stats": null
+    }
+  ]
+}
