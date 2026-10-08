@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626276,
+  "title": "WVB Boxscore",
+  "description": "Pittsburgh vs SMU",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45986",
+      "seoname": "pittsburgh",
+      "name6Char": "PITT",
+      "nameFull": "University of Pittsburgh",
+      "nameShort": "Pittsburgh",
+      "teamName": "Panthers",
+      "color": "#003594"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46250",
+      "seoname": "smu",
+      "name6Char": "SMU",
+      "nameFull": "Southern Methodist University",
+      "nameShort": "SMU",
+      "teamName": "Mustangs",
+      "color": "#A80000"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45986,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "102",
+        "kills": "61",
+        "attackErrors": "21",
+        "attackAttempts": "159",
+        "hittingPercentage": "0.252",
+        "assists": "53",
+        "setErrors": "1",
+        "setAttempts": "150",
+        "serviceAces": "3",
+        "serviceErrors": "12",
+        "serveAttempts": "103",
+        "digs": "48",
+        "receptionAttempts": "91",
+        "receptionErrors": "6",
+        "blockSolos": "0",
+        "blockAssists": "12",
+        "blockingErrors": "1",
+        "totalBlocks": "6"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46250,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "109",
+        "kills": "69",
+        "attackErrors": "18",
+        "attackAttempts": "147",
+        "hittingPercentage": "0.347",
+        "assists": "66",
+        "setErrors": "3",
+        "setAttempts": "151",
+        "serviceAces": "6",
+        "serviceErrors": "17",
+        "serveAttempts": "108",
+        "digs": "61",
+        "receptionAttempts": "91",
+        "receptionErrors": "3",
+        "blockSolos": "2",
+        "blockAssists": "21",
+        "blockingErrors": "0",
+        "totalBlocks": "12"
+      }
+    }
+  ]
+}

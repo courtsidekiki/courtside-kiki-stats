@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626166,
+  "title": "WVB Boxscore",
+  "description": "Charlotte vs East Carolina",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46232",
+      "seoname": "charlotte",
+      "name6Char": "CHAR",
+      "nameFull": "The University of North Carolina at Charlotte",
+      "nameShort": "Charlotte",
+      "teamName": "49ers",
+      "color": "#124D39"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46668",
+      "seoname": "east-carolina",
+      "name6Char": "E CAR",
+      "nameFull": "East Carolina University",
+      "nameShort": "East Carolina",
+      "teamName": "Pirates",
+      "color": "#582C83"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46232,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "50",
+        "kills": "31",
+        "attackErrors": "19",
+        "attackAttempts": "103",
+        "hittingPercentage": "0.117",
+        "assists": "31",
+        "setErrors": "1",
+        "setAttempts": "107",
+        "serviceAces": "1",
+        "serviceErrors": "6",
+        "serveAttempts": "51",
+        "digs": "44",
+        "receptionAttempts": "64",
+        "receptionErrors": "3",
+        "blockSolos": "0",
+        "blockAssists": "2",
+        "blockingErrors": "0",
+        "totalBlocks": "1"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46668,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "46",
+        "attackErrors": "7",
+        "attackAttempts": "102",
+        "hittingPercentage": "0.382",
+        "assists": "37",
+        "setErrors": "1",
+        "setAttempts": "91",
+        "serviceAces": "3",
+        "serviceErrors": "10",
+        "serveAttempts": "74",
+        "digs": "46",
+        "receptionAttempts": "45",
+        "receptionErrors": "1",
+        "blockSolos": "2",
+        "blockAssists": "14",
+        "blockingErrors": "0",
+        "totalBlocks": "9"
+      }
+    }
+  ]
+}

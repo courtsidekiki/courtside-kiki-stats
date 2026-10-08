@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626946,
+  "title": "WVB Boxscore",
+  "description": "Butler vs Xavier",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46219",
+      "seoname": "butler",
+      "name6Char": "BUTLER",
+      "nameFull": "Butler University",
+      "nameShort": "Butler",
+      "teamName": "Bulldogs",
+      "color": "#13294B"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46708",
+      "seoname": "xavier",
+      "name6Char": "XAVIER",
+      "nameFull": "Xavier University",
+      "nameShort": "Xavier",
+      "teamName": "Musketeers",
+      "color": "#0C2340"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46219,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "58",
+        "kills": "35",
+        "attackErrors": "14",
+        "attackAttempts": "94",
+        "hittingPercentage": "0.223",
+        "assists": "33",
+        "setErrors": "3",
+        "setAttempts": "96",
+        "serviceAces": "4",
+        "serviceErrors": "5",
+        "serveAttempts": "59",
+        "digs": "31",
+        "receptionAttempts": "68",
+        "receptionErrors": "6",
+        "blockSolos": "0",
+        "blockAssists": "2",
+        "blockingErrors": "0",
+        "totalBlocks": "1"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46708,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "47",
+        "attackErrors": "13",
+        "attackAttempts": "100",
+        "hittingPercentage": "0.340",
+        "assists": "42",
+        "setErrors": "0",
+        "setAttempts": "94",
+        "serviceAces": "6",
+        "serviceErrors": "6",
+        "serveAttempts": "74",
+        "digs": "40",
+        "receptionAttempts": "54",
+        "receptionErrors": "4",
+        "blockSolos": "0",
+        "blockAssists": "10",
+        "blockingErrors": "1",
+        "totalBlocks": "5"
+      }
+    }
+  ]
+}

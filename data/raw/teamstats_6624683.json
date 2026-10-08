@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624683,
+  "title": "WVB Boxscore",
+  "description": "Rhode Island vs Fordham",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46242",
+      "seoname": "rhode-island",
+      "name6Char": "URI",
+      "nameFull": "University of Rhode Island",
+      "nameShort": "Rhode Island",
+      "teamName": "Rams",
+      "color": "#041E42"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46302",
+      "seoname": "fordham",
+      "name6Char": "FORDHM",
+      "nameFull": "Fordham University",
+      "nameShort": "Fordham",
+      "teamName": "Rams",
+      "color": "#6F263D"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46242,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "54",
+        "kills": "38",
+        "attackErrors": "20",
+        "attackAttempts": "102",
+        "hittingPercentage": "0.176",
+        "assists": "34",
+        "setErrors": "1",
+        "setAttempts": "100",
+        "serviceAces": "1",
+        "serviceErrors": "5",
+        "serveAttempts": "55",
+        "digs": "30",
+        "receptionAttempts": "70",
+        "receptionErrors": "9",
+        "blockSolos": "0",
+        "blockAssists": "8",
+        "blockingErrors": "1",
+        "totalBlocks": "4"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46302,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "40",
+        "attackErrors": "10",
+        "attackAttempts": "88",
+        "hittingPercentage": "0.341",
+        "assists": "38",
+        "setErrors": "1",
+        "setAttempts": "89",
+        "serviceAces": "9",
+        "serviceErrors": "4",
+        "serveAttempts": "74",
+        "digs": "39",
+        "receptionAttempts": "50",
+        "receptionErrors": "1",
+        "blockSolos": "3",
+        "blockAssists": "10",
+        "blockingErrors": "1",
+        "totalBlocks": "8"
+      }
+    }
+  ]
+}

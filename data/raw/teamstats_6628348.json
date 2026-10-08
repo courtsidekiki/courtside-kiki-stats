@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628348,
+  "title": "WVB Boxscore",
+  "description": "NJIT vs Saint Peter's",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46725",
+      "seoname": "njit",
+      "name6Char": "NJIT",
+      "nameFull": "New Jersey Institute of Technology",
+      "nameShort": "NJIT",
+      "teamName": "Highlanders",
+      "color": "#D7282F"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46618",
+      "seoname": "st-peters",
+      "name6Char": "ST PTR",
+      "nameFull": "Saint Peter's University",
+      "nameShort": "Saint Peter's",
+      "teamName": "Peacocks",
+      "color": "#21375C"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46725,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "85",
+        "kills": "58",
+        "attackErrors": "25",
+        "attackAttempts": "156",
+        "hittingPercentage": "0.212",
+        "assists": "54",
+        "setErrors": "3",
+        "setAttempts": "164",
+        "serviceAces": "3",
+        "serviceErrors": "4",
+        "serveAttempts": "86",
+        "digs": "70",
+        "receptionAttempts": "87",
+        "receptionErrors": "9",
+        "blockSolos": "1",
+        "blockAssists": "12",
+        "blockingErrors": "4",
+        "totalBlocks": "7"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46618,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "92",
+        "kills": "51",
+        "attackErrors": "18",
+        "attackAttempts": "154",
+        "hittingPercentage": "0.214",
+        "assists": "47",
+        "setErrors": "2",
+        "setAttempts": "156",
+        "serviceAces": "9",
+        "serviceErrors": "4",
+        "serveAttempts": "91",
+        "digs": "60",
+        "receptionAttempts": "82",
+        "receptionErrors": "3",
+        "blockSolos": "3",
+        "blockAssists": "4",
+        "blockingErrors": "3",
+        "totalBlocks": "5"
+      }
+    }
+  ]
+}

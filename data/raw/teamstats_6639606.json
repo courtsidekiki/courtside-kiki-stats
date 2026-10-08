@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6639606,
+  "title": "WVB Boxscore",
+  "description": "Siena vs UAlbany",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46248",
+      "seoname": "siena",
+      "name6Char": "SIENA",
+      "nameFull": "Siena University",
+      "nameShort": "Siena",
+      "teamName": "Saints",
+      "color": "#006747"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46569",
+      "seoname": "albany-ny",
+      "name6Char": "ALBANY",
+      "nameFull": "University at Albany",
+      "nameShort": "UAlbany",
+      "teamName": "Great Danes",
+      "color": "#46166B"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46248,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "94",
+        "kills": "55",
+        "attackErrors": "19",
+        "attackAttempts": "160",
+        "hittingPercentage": "0.225",
+        "assists": "51",
+        "setErrors": "1",
+        "setAttempts": "157",
+        "serviceAces": "10",
+        "serviceErrors": "5",
+        "serveAttempts": "95",
+        "digs": "73",
+        "receptionAttempts": "80",
+        "receptionErrors": "7",
+        "blockSolos": "0",
+        "blockAssists": "8",
+        "blockingErrors": "1",
+        "totalBlocks": "4"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46569,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "87",
+        "kills": "55",
+        "attackErrors": "21",
+        "attackAttempts": "157",
+        "hittingPercentage": "0.217",
+        "assists": "51",
+        "setErrors": "1",
+        "setAttempts": "153",
+        "serviceAces": "7",
+        "serviceErrors": "6",
+        "serveAttempts": "86",
+        "digs": "66",
+        "receptionAttempts": "90",
+        "receptionErrors": "10",
+        "blockSolos": "4",
+        "blockAssists": "18",
+        "blockingErrors": "1",
+        "totalBlocks": "13"
+      }
+    }
+  ]
+}
