@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626642,
+  "title": "WVB Boxscore",
+  "description": "Akron vs Western Mich.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46692",
+      "seoname": "akron",
+      "name6Char": "AKRON",
+      "nameFull": "University of Akron",
+      "nameShort": "Akron",
+      "teamName": "Zips",
+      "color": "#0F192B"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45950",
+      "seoname": "western-mich",
+      "name6Char": "W MICH",
+      "nameFull": "Western Michigan University",
+      "nameShort": "Western Mich.",
+      "teamName": "Broncos",
+      "color": "#511B00"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46692,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "104",
+        "kills": "66",
+        "attackErrors": "18",
+        "attackAttempts": "175",
+        "hittingPercentage": "0.274",
+        "assists": "65",
+        "setErrors": "5",
+        "setAttempts": "181",
+        "serviceAces": "6",
+        "serviceErrors": "8",
+        "serveAttempts": "103",
+        "digs": "72",
+        "receptionAttempts": "100",
+        "receptionErrors": "6",
+        "blockSolos": "5",
+        "blockAssists": "18",
+        "blockingErrors": "0",
+        "totalBlocks": "14"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45950,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "104",
+        "kills": "67",
+        "attackErrors": "24",
+        "attackAttempts": "176",
+        "hittingPercentage": "0.244",
+        "assists": "62",
+        "setErrors": "3",
+        "setAttempts": "178",
+        "serviceAces": "6",
+        "serviceErrors": "5",
+        "serveAttempts": "105",
+        "digs": "83",
+        "receptionAttempts": "95",
+        "receptionErrors": "6",
+        "blockSolos": "0",
+        "blockAssists": "16",
+        "blockingErrors": "0",
+        "totalBlocks": "8"
+      }
+    }
+  ]
+}

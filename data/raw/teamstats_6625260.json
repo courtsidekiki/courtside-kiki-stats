@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625260,
+  "title": "WVB Boxscore",
+  "description": "Saint Mary's (CA) vs Seattle U",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46490",
+      "seoname": "st-marys-ca",
+      "name6Char": "STMARY",
+      "nameFull": "Saint Mary's College of California",
+      "nameShort": "Saint Mary's (CA)",
+      "teamName": "Gaels",
+      "color": "#E51B24"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46096",
+      "seoname": "seattle",
+      "name6Char": "SEATTL",
+      "nameFull": "Seattle University",
+      "nameShort": "Seattle U",
+      "teamName": "Redhawks",
+      "color": "#BA0C2F"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46490,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "79",
+        "kills": "50",
+        "attackErrors": "18",
+        "attackAttempts": "95",
+        "hittingPercentage": "0.337",
+        "assists": "47",
+        "setErrors": "0",
+        "setAttempts": "91",
+        "serviceAces": "8",
+        "serviceErrors": "9",
+        "serveAttempts": "78",
+        "digs": "39",
+        "receptionAttempts": "56",
+        "receptionErrors": "4",
+        "blockSolos": "3",
+        "blockAssists": "2",
+        "blockingErrors": "1",
+        "totalBlocks": "4"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46096,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "61",
+        "kills": "30",
+        "attackErrors": "15",
+        "attackAttempts": "88",
+        "hittingPercentage": "0.170",
+        "assists": "27",
+        "setErrors": "0",
+        "setAttempts": "85",
+        "serviceAces": "4",
+        "serviceErrors": "6",
+        "serveAttempts": "62",
+        "digs": "21",
+        "receptionAttempts": "69",
+        "receptionErrors": "8",
+        "blockSolos": "10",
+        "blockAssists": "2",
+        "blockingErrors": "0",
+        "totalBlocks": "11"
+      }
+    }
+  ]
+}

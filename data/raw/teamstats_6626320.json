@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626320,
+  "title": "WVB Boxscore",
+  "description": "Denver vs Pepperdine",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46048",
+      "seoname": "denver",
+      "name6Char": "DENVER",
+      "nameFull": "University of Denver",
+      "nameShort": "Denver",
+      "teamName": "Pioneers",
+      "color": "#B90C2F"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46240",
+      "seoname": "pepperdine",
+      "name6Char": "PEPPER",
+      "nameFull": "Pepperdine University",
+      "nameShort": "Pepperdine",
+      "teamName": "Waves",
+      "color": "#00205B"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46048,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "52",
+        "kills": "28",
+        "attackErrors": "18",
+        "attackAttempts": "113",
+        "hittingPercentage": "0.088",
+        "assists": "28",
+        "setErrors": "0",
+        "setAttempts": "127",
+        "serviceAces": "1",
+        "serviceErrors": "2",
+        "serveAttempts": "53",
+        "digs": "47",
+        "receptionAttempts": "67",
+        "receptionErrors": "5",
+        "blockSolos": "1",
+        "blockAssists": "10",
+        "blockingErrors": "0",
+        "totalBlocks": "6"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46240,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "50",
+        "attackErrors": "16",
+        "attackAttempts": "126",
+        "hittingPercentage": "0.270",
+        "assists": "50",
+        "setErrors": "0",
+        "setAttempts": "124",
+        "serviceAces": "5",
+        "serviceErrors": "7",
+        "serveAttempts": "74",
+        "digs": "55",
+        "receptionAttempts": "51",
+        "receptionErrors": "1",
+        "blockSolos": "1",
+        "blockAssists": "24",
+        "blockingErrors": "0",
+        "totalBlocks": "13"
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626440,
+  "title": "WVB Boxscore",
+  "description": "Valparaiso vs Evansville",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46757",
+      "seoname": "valparaiso",
+      "name6Char": "VALPO",
+      "nameFull": "Valparaiso University",
+      "nameShort": "Valparaiso",
+      "teamName": "Beacons",
+      "color": "#693F23"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46672",
+      "seoname": "evansville",
+      "name6Char": "EVANS",
+      "nameFull": "University of Evansville",
+      "nameShort": "Evansville",
+      "teamName": "Purple Aces",
+      "color": "#470A68"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46757,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "107",
+        "kills": "64",
+        "attackErrors": "26",
+        "attackAttempts": "174",
+        "hittingPercentage": "0.218",
+        "assists": "61",
+        "setErrors": "0",
+        "setAttempts": "169",
+        "serviceAces": "12",
+        "serviceErrors": "11",
+        "serveAttempts": "106",
+        "digs": "86",
+        "receptionAttempts": "90",
+        "receptionErrors": "8",
+        "blockSolos": "0",
+        "blockAssists": "14",
+        "blockingErrors": "0",
+        "totalBlocks": "7"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46672,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "94",
+        "kills": "49",
+        "attackErrors": "25",
+        "attackAttempts": "176",
+        "hittingPercentage": "0.136",
+        "assists": "48",
+        "setErrors": "1",
+        "setAttempts": "164",
+        "serviceAces": "8",
+        "serviceErrors": "5",
+        "serveAttempts": "95",
+        "digs": "73",
+        "receptionAttempts": "95",
+        "receptionErrors": "12",
+        "blockSolos": "1",
+        "blockAssists": "18",
+        "blockingErrors": "4",
+        "totalBlocks": "10"
+      }
+    }
+  ]
+}

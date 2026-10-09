@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627149,
+  "title": "WVB Boxscore",
+  "description": "Portland St. vs Montana",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45987",
+      "seoname": "portland-st",
+      "name6Char": "PORTST",
+      "nameFull": "Portland State University",
+      "nameShort": "Portland St.",
+      "teamName": "Vikings",
+      "color": "#154734"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46724",
+      "seoname": "montana",
+      "name6Char": "MONT",
+      "nameFull": "University of Montana",
+      "nameShort": "Montana",
+      "teamName": "Grizzlies",
+      "color": "#6F2C3F"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45987,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "100",
+        "kills": "61",
+        "attackErrors": "27",
+        "attackAttempts": "175",
+        "hittingPercentage": "0.194",
+        "assists": "54",
+        "setErrors": "3",
+        "setAttempts": "168",
+        "serviceAces": "4",
+        "serviceErrors": "14",
+        "serveAttempts": "99",
+        "digs": "68",
+        "receptionAttempts": "83",
+        "receptionErrors": "3",
+        "blockSolos": "2",
+        "blockAssists": "24",
+        "blockingErrors": "2",
+        "totalBlocks": "14"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46724,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "89",
+        "kills": "42",
+        "attackErrors": "28",
+        "attackAttempts": "155",
+        "hittingPercentage": "0.090",
+        "assists": "39",
+        "setErrors": "0",
+        "setAttempts": "157",
+        "serviceAces": "3",
+        "serviceErrors": "7",
+        "serveAttempts": "90",
+        "digs": "71",
+        "receptionAttempts": "85",
+        "receptionErrors": "4",
+        "blockSolos": "1",
+        "blockAssists": "14",
+        "blockingErrors": "3",
+        "totalBlocks": "8"
+      }
+    }
+  ]
+}

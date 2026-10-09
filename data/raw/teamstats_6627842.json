@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627842,
+  "title": "WVB Boxscore",
+  "description": "Austin Peay vs North Ala.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45942",
+      "seoname": "austin-peay",
+      "name6Char": "A PEAY",
+      "nameFull": "Austin Peay State University",
+      "nameShort": "Austin Peay",
+      "teamName": "Governors",
+      "color": "#BA0C2F"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46105",
+      "seoname": "north-ala",
+      "name6Char": "N ALA",
+      "nameFull": "University of North Alabama",
+      "nameShort": "North Ala.",
+      "teamName": "Lions",
+      "color": "#582C83"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45942,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "102",
+        "kills": "61",
+        "attackErrors": "28",
+        "attackAttempts": "170",
+        "hittingPercentage": "0.194",
+        "assists": "60",
+        "setErrors": "2",
+        "setAttempts": "173",
+        "serviceAces": "6",
+        "serviceErrors": "11",
+        "serveAttempts": "103",
+        "digs": "73",
+        "receptionAttempts": "102",
+        "receptionErrors": "8",
+        "blockSolos": "3",
+        "blockAssists": "12",
+        "blockingErrors": "4",
+        "totalBlocks": "9"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46105,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "112",
+        "kills": "63",
+        "attackErrors": "25",
+        "attackAttempts": "170",
+        "hittingPercentage": "0.224",
+        "assists": "59",
+        "setErrors": "1",
+        "setAttempts": "162",
+        "serviceAces": "8",
+        "serviceErrors": "9",
+        "serveAttempts": "111",
+        "digs": "75",
+        "receptionAttempts": "92",
+        "receptionErrors": "6",
+        "blockSolos": "2",
+        "blockAssists": "16",
+        "blockingErrors": "1",
+        "totalBlocks": "10"
+      }
+    }
+  ]
+}

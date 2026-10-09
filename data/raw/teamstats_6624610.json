@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624610,
+  "title": "WVB Boxscore",
+  "description": "Little Rock vs West Ga.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45805",
+      "seoname": "ualr",
+      "name6Char": "UALR",
+      "nameFull": "University of Arkansas at Little Rock",
+      "nameShort": "Little Rock",
+      "teamName": "Trojans",
+      "color": "#6F263D"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46381",
+      "seoname": "west-ga",
+      "name6Char": "W GA",
+      "nameFull": "University of West Georgia",
+      "nameShort": "West Ga.",
+      "teamName": "Wolves",
+      "color": "#0032A0"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45805,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "98",
+        "kills": "41",
+        "attackErrors": "21",
+        "attackAttempts": "108",
+        "hittingPercentage": "0.185",
+        "assists": "36",
+        "setErrors": "0",
+        "setAttempts": "103",
+        "serviceAces": "12",
+        "serviceErrors": "12",
+        "serveAttempts": "97",
+        "digs": "47",
+        "receptionAttempts": "64",
+        "receptionErrors": "9",
+        "blockSolos": "6",
+        "blockAssists": "12",
+        "blockingErrors": "1",
+        "totalBlocks": "12"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46381,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "80",
+        "kills": "36",
+        "attackErrors": "27",
+        "attackAttempts": "118",
+        "hittingPercentage": "0.076",
+        "assists": "35",
+        "setErrors": "0",
+        "setAttempts": "118",
+        "serviceAces": "9",
+        "serviceErrors": "17",
+        "serveAttempts": "81",
+        "digs": "39",
+        "receptionAttempts": "85",
+        "receptionErrors": "12",
+        "blockSolos": "4",
+        "blockAssists": "2",
+        "blockingErrors": "0",
+        "totalBlocks": "5"
+      }
+    }
+  ]
+}

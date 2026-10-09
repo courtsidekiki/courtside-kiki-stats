@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627661,
+  "title": "WVB Boxscore",
+  "description": "Texas St. vs Gonzaga",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46124",
+      "seoname": "texas-st",
+      "name6Char": "TX ST",
+      "nameFull": "Texas State University",
+      "nameShort": "Texas St.",
+      "teamName": "Bobcats",
+      "color": "#572932"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46304",
+      "seoname": "gonzaga",
+      "name6Char": "GONZ",
+      "nameFull": "Gonzaga University",
+      "nameShort": "Gonzaga",
+      "teamName": "Bulldogs",
+      "color": "#041E42"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46124,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "92",
+        "kills": "52",
+        "attackErrors": "15",
+        "attackAttempts": "111",
+        "hittingPercentage": "0.333",
+        "assists": "51",
+        "setErrors": "4",
+        "setAttempts": "120",
+        "serviceAces": "4",
+        "serviceErrors": "7",
+        "serveAttempts": "91",
+        "digs": "38",
+        "receptionAttempts": "73",
+        "receptionErrors": "3",
+        "blockSolos": "2",
+        "blockAssists": "18",
+        "blockingErrors": "1",
+        "totalBlocks": "11"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46304,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "82",
+        "kills": "53",
+        "attackErrors": "24",
+        "attackAttempts": "126",
+        "hittingPercentage": "0.230",
+        "assists": "49",
+        "setErrors": "1",
+        "setAttempts": "123",
+        "serviceAces": "3",
+        "serviceErrors": "10",
+        "serveAttempts": "83",
+        "digs": "36",
+        "receptionAttempts": "84",
+        "receptionErrors": "4",
+        "blockSolos": "1",
+        "blockAssists": "6",
+        "blockingErrors": "1",
+        "totalBlocks": "4"
+      }
+    }
+  ]
+}

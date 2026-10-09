@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627377,
+  "title": "WVB Boxscore",
+  "description": "East Texas A&M vs A&M-Corpus Christi",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45903",
+      "seoname": "tex-am-commerce",
+      "name6Char": "TAMUCO",
+      "nameFull": "East Texas A&M University",
+      "nameShort": "East Texas A&M",
+      "teamName": "Lions",
+      "color": "#00205B"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46137",
+      "seoname": "am-corpus-chris",
+      "name6Char": "TAMUCC",
+      "nameFull": "Texas A&M University-Corpus Christi",
+      "nameShort": "A&M-Corpus Christi",
+      "teamName": "Islanders",
+      "color": "#007AC1"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45903,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "90",
+        "kills": "58",
+        "attackErrors": "18",
+        "attackAttempts": "153",
+        "hittingPercentage": "0.261",
+        "assists": "49",
+        "setErrors": "0",
+        "setAttempts": "154",
+        "serviceAces": "5",
+        "serviceErrors": "10",
+        "serveAttempts": "91",
+        "digs": "67",
+        "receptionAttempts": "85",
+        "receptionErrors": "5",
+        "blockSolos": "2",
+        "blockAssists": "14",
+        "blockingErrors": "5",
+        "totalBlocks": "9"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46137,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "93",
+        "kills": "60",
+        "attackErrors": "20",
+        "attackAttempts": "155",
+        "hittingPercentage": "0.258",
+        "assists": "54",
+        "setErrors": "0",
+        "setAttempts": "144",
+        "serviceAces": "5",
+        "serviceErrors": "7",
+        "serveAttempts": "92",
+        "digs": "72",
+        "receptionAttempts": "81",
+        "receptionErrors": "5",
+        "blockSolos": "1",
+        "blockAssists": "8",
+        "blockingErrors": "2",
+        "totalBlocks": "5"
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625436,
+  "title": "WVB Boxscore",
+  "description": "LSU New Orleans  vs Nicholls",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46726",
+      "seoname": "new-orleans",
+      "name6Char": "UNO",
+      "nameFull": "LSU New Orleans",
+      "nameShort": "LSU New Orleans ",
+      "teamName": "Privateers",
+      "color": "#0057B8"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46103",
+      "seoname": "nicholls-st",
+      "name6Char": "NICHST",
+      "nameFull": "Nicholls State University",
+      "nameShort": "Nicholls",
+      "teamName": "Colonels",
+      "color": "#A6192E"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46726,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "90",
+        "kills": "54",
+        "attackErrors": "27",
+        "attackAttempts": "155",
+        "hittingPercentage": "0.174",
+        "assists": "51",
+        "setErrors": "1",
+        "setAttempts": "155",
+        "serviceAces": "8",
+        "serviceErrors": "9",
+        "serveAttempts": "91",
+        "digs": "64",
+        "receptionAttempts": "92",
+        "receptionErrors": "8",
+        "blockSolos": "1",
+        "blockAssists": "12",
+        "blockingErrors": "3",
+        "totalBlocks": "7"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46103,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "100",
+        "kills": "54",
+        "attackErrors": "19",
+        "attackAttempts": "146",
+        "hittingPercentage": "0.240",
+        "assists": "52",
+        "setErrors": "2",
+        "setAttempts": "150",
+        "serviceAces": "8",
+        "serviceErrors": "7",
+        "serveAttempts": "99",
+        "digs": "64",
+        "receptionAttempts": "82",
+        "receptionErrors": "8",
+        "blockSolos": "1",
+        "blockAssists": "10",
+        "blockingErrors": "3",
+        "totalBlocks": "6"
+      }
+    }
+  ]
+}

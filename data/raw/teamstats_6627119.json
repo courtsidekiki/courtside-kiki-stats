@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627119,
+  "title": "WVB Boxscore",
+  "description": "Northern Colo. vs Eastern Wash.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46478",
+      "seoname": "northern-colo",
+      "name6Char": "N COLO",
+      "nameFull": "University of Northern Colorado",
+      "nameShort": "Northern Colo.",
+      "teamName": "Bears",
+      "color": "#002855"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46180",
+      "seoname": "eastern-wash",
+      "name6Char": "E WASH",
+      "nameFull": "Eastern Washington University",
+      "nameShort": "Eastern Wash.",
+      "teamName": "Eagles",
+      "color": "#A6192E"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46478,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "51",
+        "attackErrors": "13",
+        "attackAttempts": "121",
+        "hittingPercentage": "0.314",
+        "assists": "47",
+        "setErrors": "1",
+        "setAttempts": "123",
+        "serviceAces": "4",
+        "serviceErrors": "9",
+        "serveAttempts": "73",
+        "digs": "57",
+        "receptionAttempts": "57",
+        "receptionErrors": "4",
+        "blockSolos": "0",
+        "blockAssists": "6",
+        "blockingErrors": "0",
+        "totalBlocks": "3"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46180,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "57",
+        "kills": "30",
+        "attackErrors": "17",
+        "attackAttempts": "110",
+        "hittingPercentage": "0.118",
+        "assists": "24",
+        "setErrors": "0",
+        "setAttempts": "115",
+        "serviceAces": "4",
+        "serviceErrors": "2",
+        "serveAttempts": "59",
+        "digs": "41",
+        "receptionAttempts": "64",
+        "receptionErrors": "4",
+        "blockSolos": "3",
+        "blockAssists": "2",
+        "blockingErrors": "0",
+        "totalBlocks": "4"
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626702,
+  "title": "WVB Boxscore",
+  "description": "Wyoming vs Air Force",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46082",
+      "seoname": "wyoming",
+      "name6Char": "WYO",
+      "nameFull": "University of Wyoming",
+      "nameShort": "Wyoming",
+      "teamName": "Cowgirls",
+      "color": "#4E3629"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46129",
+      "seoname": "air-force",
+      "name6Char": "AIRFOR",
+      "nameFull": "U.S. Air Force Academy",
+      "nameShort": "Air Force",
+      "teamName": "Falcons",
+      "color": "#0032A0"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46082,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "97",
+        "kills": "62",
+        "attackErrors": "25",
+        "attackAttempts": "162",
+        "hittingPercentage": "0.228",
+        "assists": "56",
+        "setErrors": "0",
+        "setAttempts": "154",
+        "serviceAces": "3",
+        "serviceErrors": "12",
+        "serveAttempts": "96",
+        "digs": "64",
+        "receptionAttempts": "82",
+        "receptionErrors": "4",
+        "blockSolos": "2",
+        "blockAssists": "13",
+        "blockingErrors": "1",
+        "totalBlocks": "8"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46129,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "92",
+        "kills": "51",
+        "attackErrors": "21",
+        "attackAttempts": "160",
+        "hittingPercentage": "0.188",
+        "assists": "49",
+        "setErrors": "0",
+        "setAttempts": "156",
+        "serviceAces": "4",
+        "serviceErrors": "11",
+        "serveAttempts": "93",
+        "digs": "60",
+        "receptionAttempts": "84",
+        "receptionErrors": "3",
+        "blockSolos": "4",
+        "blockAssists": "14",
+        "blockingErrors": "1",
+        "totalBlocks": "11"
+      }
+    }
+  ]
+}

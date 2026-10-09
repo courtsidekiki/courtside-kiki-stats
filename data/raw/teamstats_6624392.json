@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624392,
+  "title": "WVB Boxscore",
+  "description": "Illinois vs Wisconsin",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46312",
+      "seoname": "illinois",
+      "name6Char": "ILL",
+      "nameFull": "University of Illinois Urbana-Champaign",
+      "nameShort": "Illinois",
+      "teamName": "Fighting Illini",
+      "color": "#F15A22"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46580",
+      "seoname": "wisconsin",
+      "name6Char": "WISC",
+      "nameFull": "University of Wisconsin-Madison",
+      "nameShort": "Wisconsin",
+      "teamName": "Badgers",
+      "color": "#BA0C2F"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46312,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "59",
+        "kills": "39",
+        "attackErrors": "20",
+        "attackAttempts": "108",
+        "hittingPercentage": "0.176",
+        "assists": "32",
+        "setErrors": "0",
+        "setAttempts": "99",
+        "serviceAces": "1",
+        "serviceErrors": "8",
+        "serveAttempts": "61",
+        "digs": "30",
+        "receptionAttempts": "67",
+        "receptionErrors": "1",
+        "blockSolos": "2",
+        "blockAssists": "6",
+        "blockingErrors": "0",
+        "totalBlocks": "5"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46580,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "46",
+        "attackErrors": "11",
+        "attackAttempts": "97",
+        "hittingPercentage": "0.361",
+        "assists": "38",
+        "setErrors": "2",
+        "setAttempts": "90",
+        "serviceAces": "1",
+        "serviceErrors": "6",
+        "serveAttempts": "73",
+        "digs": "37",
+        "receptionAttempts": "53",
+        "receptionErrors": "1",
+        "blockSolos": "0",
+        "blockAssists": "16",
+        "blockingErrors": "1",
+        "totalBlocks": "8"
+      }
+    }
+  ]
+}

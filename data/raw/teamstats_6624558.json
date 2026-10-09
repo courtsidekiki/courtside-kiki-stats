@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624558,
+  "title": "WVB Boxscore",
+  "description": "Lamar University vs Houston Christian",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45922",
+      "seoname": "lamar",
+      "name6Char": "LAMAR",
+      "nameFull": "Lamar University",
+      "nameShort": "Lamar University",
+      "teamName": "Cardinals",
+      "color": "#D50032"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "51287",
+      "seoname": "houston-christian",
+      "name6Char": "HOUCHR",
+      "nameFull": "Houston Christian University",
+      "nameShort": "Houston Christian",
+      "teamName": "Huskies",
+      "color": "#002F87"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45922,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "109",
+        "kills": "66",
+        "attackErrors": "20",
+        "attackAttempts": "181",
+        "hittingPercentage": "0.254",
+        "assists": "63",
+        "setErrors": "0",
+        "setAttempts": "176",
+        "serviceAces": "7",
+        "serviceErrors": "9",
+        "serveAttempts": "108",
+        "digs": "77",
+        "receptionAttempts": "94",
+        "receptionErrors": "5",
+        "blockSolos": "3",
+        "blockAssists": "8",
+        "blockingErrors": "0",
+        "totalBlocks": "7"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 51287,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "99",
+        "kills": "65",
+        "attackErrors": "27",
+        "attackAttempts": "189",
+        "hittingPercentage": "0.201",
+        "assists": "62",
+        "setErrors": "3",
+        "setAttempts": "183",
+        "serviceAces": "5",
+        "serviceErrors": "6",
+        "serveAttempts": "100",
+        "digs": "82",
+        "receptionAttempts": "99",
+        "receptionErrors": "7",
+        "blockSolos": "1",
+        "blockAssists": "16",
+        "blockingErrors": "0",
+        "totalBlocks": "9"
+      }
+    }
+  ]
+}

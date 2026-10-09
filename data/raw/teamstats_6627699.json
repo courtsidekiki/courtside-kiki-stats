@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627699,
+  "title": "WVB Boxscore",
+  "description": "South Dakota St. vs Kansas City",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46001",
+      "seoname": "south-dakota-st",
+      "name6Char": "SDAKST",
+      "nameFull": "South Dakota State University",
+      "nameShort": "South Dakota St.",
+      "teamName": "Jackrabbits",
+      "color": "#0032A0"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46391",
+      "seoname": "umkc",
+      "name6Char": "KC",
+      "nameFull": "University of Missouri-Kansas City",
+      "nameShort": "Kansas City",
+      "teamName": "Roos",
+      "color": "#004B87"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46001,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "89",
+        "kills": "51",
+        "attackErrors": "20",
+        "attackAttempts": "131",
+        "hittingPercentage": "0.237",
+        "assists": "48",
+        "setErrors": "0",
+        "setAttempts": "131",
+        "serviceAces": "14",
+        "serviceErrors": "5",
+        "serveAttempts": "88",
+        "digs": "61",
+        "receptionAttempts": "75",
+        "receptionErrors": "5",
+        "blockSolos": "0",
+        "blockAssists": "16",
+        "blockingErrors": "0",
+        "totalBlocks": "8"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46391,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "81",
+        "kills": "49",
+        "attackErrors": "16",
+        "attackAttempts": "142",
+        "hittingPercentage": "0.232",
+        "assists": "43",
+        "setErrors": "1",
+        "setAttempts": "145",
+        "serviceAces": "5",
+        "serviceErrors": "7",
+        "serveAttempts": "82",
+        "digs": "56",
+        "receptionAttempts": "83",
+        "receptionErrors": "14",
+        "blockSolos": "1",
+        "blockAssists": "16",
+        "blockingErrors": "2",
+        "totalBlocks": "9"
+      }
+    }
+  ]
+}

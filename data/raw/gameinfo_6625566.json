@@ -1,0 +1,99 @@
+{
+  "contests": [
+    {
+      "__typename": "Contest",
+      "id": "6625566",
+      "sportCode": "WVB",
+      "sportUrl": "volleyball-women",
+      "division": 1,
+      "clock": null,
+      "currentPeriod": "FINAL",
+      "finalMessage": "FINAL",
+      "gameState": "F",
+      "statusCodeDisplay": "final",
+      "network": null,
+      "startTime": "15:00",
+      "startTimeEpoch": 1791572400,
+      "week": null,
+      "seasonYear": 2026,
+      "winner": 46676,
+      "hasStartTime": true,
+      "hasBoxscore": true,
+      "hasPbp": true,
+      "hasScoringSummary": false,
+      "hasPreview": false,
+      "hasRecap": false,
+      "hasTeamStats": true,
+      "linescores": [
+        {
+          "__typename": "Linescore",
+          "period": "1",
+          "home": "20",
+          "visit": "25"
+        },
+        {
+          "__typename": "Linescore",
+          "period": "2",
+          "home": "25",
+          "visit": "20"
+        },
+        {
+          "__typename": "Linescore",
+          "period": "3",
+          "home": "20",
+          "visit": "25"
+        },
+        {
+          "__typename": "Linescore",
+          "period": "4",
+          "home": "20",
+          "visit": "25"
+        }
+      ],
+      "teams": [
+        {
+          "__typename": "ContestTeam",
+          "teamId": "45868",
+          "isHome": true,
+          "color": "#010101",
+          "seoname": "southern-miss",
+          "nameFull": "The University of Southern Mississippi",
+          "nameShort": "Southern Miss.",
+          "name6Char": "S MISS",
+          "teamRank": null,
+          "gameRank": null,
+          "score": 1,
+          "seed": null,
+          "record": "(11-4)",
+          "divisionName": "d1",
+          "division": 1,
+          "isWinner": false
+        },
+        {
+          "__typename": "ContestTeam",
+          "teamId": "46676",
+          "isHome": false,
+          "color": "#264391",
+          "seoname": "georgia-st",
+          "nameFull": "Georgia State University",
+          "nameShort": "Georgia St.",
+          "name6Char": "GA ST",
+          "teamRank": null,
+          "gameRank": null,
+          "score": 3,
+          "seed": null,
+          "record": "(6-10)",
+          "divisionName": "d1",
+          "division": 1,
+          "isWinner": true
+        }
+      ],
+      "liveVideos": [],
+      "championship": null,
+      "championshipGame": null,
+      "links": [],
+      "location": null,
+      "stats": null
+    }
+  ]
+}

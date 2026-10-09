@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627627,
+  "title": "WVB Boxscore",
+  "description": "Colorado St. vs Washington St.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46172",
+      "seoname": "colorado-st",
+      "name6Char": "CO ST",
+      "nameFull": "Colorado State University",
+      "nameShort": "Colorado St.",
+      "teamName": "Rams",
+      "color": "#2C5234"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46630",
+      "seoname": "washington-st",
+      "name6Char": "WASHST",
+      "nameFull": "Washington State University",
+      "nameShort": "Washington St.",
+      "teamName": "Cougars",
+      "color": "#9D2235"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46172,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "43",
+        "attackErrors": "12",
+        "attackAttempts": "90",
+        "hittingPercentage": "0.344",
+        "assists": "42",
+        "setErrors": "1",
+        "setAttempts": "89",
+        "serviceAces": "3",
+        "serviceErrors": "6",
+        "serveAttempts": "74",
+        "digs": "39",
+        "receptionAttempts": "47",
+        "receptionErrors": "3",
+        "blockSolos": "1",
+        "blockAssists": "20",
+        "blockingErrors": "0",
+        "totalBlocks": "11"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46630,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "52",
+        "kills": "30",
+        "attackErrors": "20",
+        "attackAttempts": "102",
+        "hittingPercentage": "0.098",
+        "assists": "29",
+        "setErrors": "2",
+        "setAttempts": "102",
+        "serviceAces": "3",
+        "serviceErrors": "6",
+        "serveAttempts": "53",
+        "digs": "27",
+        "receptionAttempts": "68",
+        "receptionErrors": "3",
+        "blockSolos": "2",
+        "blockAssists": "10",
+        "blockingErrors": "3",
+        "totalBlocks": "7"
+      }
+    }
+  ]
+}

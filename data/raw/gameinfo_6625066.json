@@ -1,0 +1,105 @@
+{
+  "contests": [
+    {
+      "__typename": "Contest",
+      "id": "6625066",
+      "sportCode": "WVB",
+      "sportUrl": "volleyball-women",
+      "division": 1,
+      "clock": null,
+      "currentPeriod": "FINAL",
+      "finalMessage": "FINAL",
+      "gameState": "F",
+      "statusCodeDisplay": "final",
+      "network": null,
+      "startTime": "18:00",
+      "startTimeEpoch": 1791496800,
+      "week": null,
+      "seasonYear": 2026,
+      "winner": 45976,
+      "hasStartTime": true,
+      "hasBoxscore": true,
+      "hasPbp": true,
+      "hasScoringSummary": false,
+      "hasPreview": false,
+      "hasRecap": false,
+      "hasTeamStats": true,
+      "linescores": [
+        {
+          "__typename": "Linescore",
+          "period": "1",
+          "home": "25",
+          "visit": "16"
+        },
+        {
+          "__typename": "Linescore",
+          "period": "2",
+          "home": "23",
+          "visit": "25"
+        },
+        {
+          "__typename": "Linescore",
+          "period": "3",
+          "home": "21",
+          "visit": "25"
+        },
+        {
+          "__typename": "Linescore",
+          "period": "4",
+          "home": "25",
+          "visit": "23"
+        },
+        {
+          "__typename": "Linescore",
+          "period": "5",
+          "home": "15",
+          "visit": "10"
+        }
+      ],
+      "teams": [
+        {
+          "__typename": "ContestTeam",
+          "teamId": "45976",
+          "isHome": true,
+          "color": "#007A53",
+          "seoname": "norfolk-st",
+          "nameFull": "Norfolk State University",
+          "nameShort": "Norfolk St.",
+          "name6Char": "NORFLK",
+          "teamRank": null,
+          "gameRank": null,
+          "score": 3,
+          "seed": null,
+          "record": "(5-12)",
+          "divisionName": "d1",
+          "division": 1,
+          "isWinner": true
+        },
+        {
+          "__typename": "ContestTeam",
+          "teamId": "45845",
+          "isHome": false,
+          "color": "#862633",
+          "seoname": "nc-central",
+          "nameFull": "North Carolina Central University",
+          "nameShort": "N.C. Central",
+          "name6Char": "NC CEN",
+          "teamRank": null,
+          "gameRank": null,
+          "score": 2,
+          "seed": null,
+          "record": "(4-11)",
+          "divisionName": "d1",
+          "division": 1,
+          "isWinner": false
+        }
+      ],
+      "liveVideos": [],
+      "championship": null,
+      "championshipGame": null,
+      "links": [],
+      "location": null,
+      "stats": null
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625001,
+  "title": "WVB Boxscore",
+  "description": "UNI vs Drake",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45848",
+      "seoname": "uni",
+      "name6Char": "N IOWA",
+      "nameFull": "University of Northern Iowa",
+      "nameShort": "UNI",
+      "teamName": "Panthers",
+      "color": "#470A68"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46177",
+      "seoname": "drake",
+      "name6Char": "DRAKE",
+      "nameFull": "Drake University",
+      "nameShort": "Drake",
+      "teamName": "Bulldogs",
+      "color": "#002F6C"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45848,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "80",
+        "kills": "53",
+        "attackErrors": "25",
+        "attackAttempts": "147",
+        "hittingPercentage": "0.190",
+        "assists": "50",
+        "setErrors": "0",
+        "setAttempts": "149",
+        "serviceAces": "2",
+        "serviceErrors": "5",
+        "serveAttempts": "78",
+        "digs": "80",
+        "receptionAttempts": "63",
+        "receptionErrors": "2",
+        "blockSolos": "1",
+        "blockAssists": "10",
+        "blockingErrors": "2",
+        "totalBlocks": "6"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46177,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "64",
+        "kills": "32",
+        "attackErrors": "21",
+        "attackAttempts": "149",
+        "hittingPercentage": "0.074",
+        "assists": "30",
+        "setErrors": "1",
+        "setAttempts": "152",
+        "serviceAces": "2",
+        "serviceErrors": "3",
+        "serveAttempts": "66",
+        "digs": "64",
+        "receptionAttempts": "73",
+        "receptionErrors": "2",
+        "blockSolos": "0",
+        "blockAssists": "18",
+        "blockingErrors": "0",
+        "totalBlocks": "9"
+      }
+    }
+  ]
+}
