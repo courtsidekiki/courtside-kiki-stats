@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627862,
+  "title": "WVB Boxscore",
+  "description": "New Hampshire vs Bryant",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45975",
+      "seoname": "new-hampshire",
+      "name6Char": "UNH",
+      "nameFull": "University of New Hampshire",
+      "nameShort": "New Hampshire",
+      "teamName": "Wildcats",
+      "color": "#041E42"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45813",
+      "seoname": "bryant",
+      "name6Char": "BRYANT",
+      "nameFull": "Bryant University",
+      "nameShort": "Bryant",
+      "teamName": "Bulldogs",
+      "color": "#010101"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45975,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "107",
+        "kills": "56",
+        "attackErrors": "40",
+        "attackAttempts": "190",
+        "hittingPercentage": "0.084",
+        "assists": "50",
+        "setErrors": "1",
+        "setAttempts": "187",
+        "serviceAces": "6",
+        "serviceErrors": "13",
+        "serveAttempts": "107",
+        "digs": "87",
+        "receptionAttempts": "101",
+        "receptionErrors": "10",
+        "blockSolos": "4",
+        "blockAssists": "14",
+        "blockingErrors": "0",
+        "totalBlocks": "11"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45813,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "113",
+        "kills": "49",
+        "attackErrors": "31",
+        "attackAttempts": "184",
+        "hittingPercentage": "0.098",
+        "assists": "48",
+        "setErrors": "2",
+        "setAttempts": "190",
+        "serviceAces": "10",
+        "serviceErrors": "12",
+        "serveAttempts": "113",
+        "digs": "82",
+        "receptionAttempts": "94",
+        "receptionErrors": "6",
+        "blockSolos": "2",
+        "blockAssists": "14",
+        "blockingErrors": "0",
+        "totalBlocks": "9"
+      }
+    }
+  ]
+}

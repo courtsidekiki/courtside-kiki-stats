@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624710,
+  "title": "WVB Boxscore",
+  "description": "Howard vs N.C. Central",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45779",
+      "seoname": "howard",
+      "name6Char": "HOWARD",
+      "nameFull": "Howard University",
+      "nameShort": "Howard",
+      "teamName": "Bison",
+      "color": "#00263E"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45845",
+      "seoname": "nc-central",
+      "name6Char": "NC CEN",
+      "nameFull": "North Carolina Central University",
+      "nameShort": "N.C. Central",
+      "teamName": "Eagles",
+      "color": "#862633"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45779,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "89",
+        "kills": "40",
+        "attackErrors": "25",
+        "attackAttempts": "101",
+        "hittingPercentage": "0.149",
+        "assists": "36",
+        "setErrors": "0",
+        "setAttempts": "102",
+        "serviceAces": "10",
+        "serviceErrors": "12",
+        "serveAttempts": "88",
+        "digs": "36",
+        "receptionAttempts": "65",
+        "receptionErrors": "10",
+        "blockSolos": "2",
+        "blockAssists": "8",
+        "blockingErrors": "2",
+        "totalBlocks": "6"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45845,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "84",
+        "kills": "37",
+        "attackErrors": "17",
+        "attackAttempts": "95",
+        "hittingPercentage": "0.211",
+        "assists": "35",
+        "setErrors": "2",
+        "setAttempts": "99",
+        "serviceAces": "10",
+        "serviceErrors": "20",
+        "serveAttempts": "85",
+        "digs": "28",
+        "receptionAttempts": "76",
+        "receptionErrors": "10",
+        "blockSolos": "2",
+        "blockAssists": "10",
+        "blockingErrors": "1",
+        "totalBlocks": "7"
+      }
+    }
+  ]
+}

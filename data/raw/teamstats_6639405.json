@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6639405,
+  "title": "WVB Boxscore",
+  "description": "Delaware vs Kennesaw St.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46667",
+      "seoname": "delaware",
+      "name6Char": "DEL",
+      "nameFull": "University of Delaware",
+      "nameShort": "Delaware",
+      "teamName": "Blue Hens",
+      "color": "#006095"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45832",
+      "seoname": "kennesaw-st",
+      "name6Char": "KENSAW",
+      "nameFull": "Kennesaw State University",
+      "nameShort": "Kennesaw St.",
+      "teamName": "Owls",
+      "color": "#010101"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46667,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "73",
+        "kills": "34",
+        "attackErrors": "26",
+        "attackAttempts": "127",
+        "hittingPercentage": "0.063",
+        "assists": "32",
+        "setErrors": "1",
+        "setAttempts": "125",
+        "serviceAces": "8",
+        "serviceErrors": "7",
+        "serveAttempts": "74",
+        "digs": "48",
+        "receptionAttempts": "82",
+        "receptionErrors": "7",
+        "blockSolos": "0",
+        "blockAssists": "8",
+        "blockingErrors": "1",
+        "totalBlocks": "4"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45832,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "95",
+        "kills": "54",
+        "attackErrors": "19",
+        "attackAttempts": "133",
+        "hittingPercentage": "0.263",
+        "assists": "52",
+        "setErrors": "0",
+        "setAttempts": "130",
+        "serviceAces": "7",
+        "serviceErrors": "12",
+        "serveAttempts": "94",
+        "digs": "62",
+        "receptionAttempts": "67",
+        "receptionErrors": "8",
+        "blockSolos": "0",
+        "blockAssists": "26",
+        "blockingErrors": "0",
+        "totalBlocks": "13"
+      }
+    }
+  ]
+}

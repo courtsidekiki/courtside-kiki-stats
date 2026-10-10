@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624432,
+  "title": "WVB Boxscore",
+  "description": "Western Caro. vs Furman",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46382",
+      "seoname": "western-caro",
+      "name6Char": "W CAR",
+      "nameFull": "Western Carolina University",
+      "nameShort": "Western Caro.",
+      "teamName": "Catamounts",
+      "color": "#5F259F"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46415",
+      "seoname": "furman",
+      "name6Char": "FURMAN",
+      "nameFull": "Furman University",
+      "nameShort": "Furman",
+      "teamName": "Paladins",
+      "color": "#582C83"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46382,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "49",
+        "kills": "32",
+        "attackErrors": "12",
+        "attackAttempts": "110",
+        "hittingPercentage": "0.182",
+        "assists": "30",
+        "setErrors": "1",
+        "setAttempts": "109",
+        "serviceAces": "3",
+        "serviceErrors": "4",
+        "serveAttempts": "50",
+        "digs": "39",
+        "receptionAttempts": "70",
+        "receptionErrors": "11",
+        "blockSolos": "1",
+        "blockAssists": "2",
+        "blockingErrors": "0",
+        "totalBlocks": "2"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46415,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "47",
+        "attackErrors": "10",
+        "attackAttempts": "103",
+        "hittingPercentage": "0.359",
+        "assists": "44",
+        "setErrors": "0",
+        "setAttempts": "107",
+        "serviceAces": "11",
+        "serviceErrors": "4",
+        "serveAttempts": "74",
+        "digs": "59",
+        "receptionAttempts": "46",
+        "receptionErrors": "3",
+        "blockSolos": "3",
+        "blockAssists": "8",
+        "blockingErrors": "1",
+        "totalBlocks": "7"
+      }
+    }
+  ]
+}

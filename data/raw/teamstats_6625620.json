@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625620,
+  "title": "WVB Boxscore",
+  "description": "Kentucky vs LSU",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45920",
+      "seoname": "kentucky",
+      "name6Char": "UK",
+      "nameFull": "University of Kentucky",
+      "nameShort": "Kentucky",
+      "teamName": "Wildcats",
+      "color": "#3258AF"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46059",
+      "seoname": "lsu",
+      "name6Char": "LSU",
+      "nameFull": "Louisiana State University",
+      "nameShort": "LSU",
+      "teamName": "Tigers",
+      "color": "#582C83"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45920,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "46",
+        "attackErrors": "15",
+        "attackAttempts": "112",
+        "hittingPercentage": "0.277",
+        "assists": "44",
+        "setErrors": "1",
+        "setAttempts": "113",
+        "serviceAces": "3",
+        "serviceErrors": "8",
+        "serveAttempts": "73",
+        "digs": "54",
+        "receptionAttempts": "53",
+        "receptionErrors": "2",
+        "blockSolos": "1",
+        "blockAssists": "18",
+        "blockingErrors": "0",
+        "totalBlocks": "10"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46059,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "58",
+        "kills": "32",
+        "attackErrors": "19",
+        "attackAttempts": "116",
+        "hittingPercentage": "0.112",
+        "assists": "27",
+        "setErrors": "0",
+        "setAttempts": "108",
+        "serviceAces": "2",
+        "serviceErrors": "7",
+        "serveAttempts": "60",
+        "digs": "42",
+        "receptionAttempts": "65",
+        "receptionErrors": "3",
+        "blockSolos": "3",
+        "blockAssists": "6",
+        "blockingErrors": "0",
+        "totalBlocks": "6"
+      }
+    }
+  ]
+}

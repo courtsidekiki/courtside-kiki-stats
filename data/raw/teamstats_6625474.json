@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625474,
+  "title": "WVB Boxscore",
+  "description": "American vs Colgate",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46071",
+      "seoname": "american",
+      "name6Char": "AMER",
+      "nameFull": "American University",
+      "nameShort": "American",
+      "teamName": "Eagles",
+      "color": "#A6192E"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46043",
+      "seoname": "colgate",
+      "name6Char": "COLGAT",
+      "nameFull": "Colgate University",
+      "nameShort": "Colgate",
+      "teamName": "Raiders",
+      "color": "#772430"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46071,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "48",
+        "attackErrors": "10",
+        "attackAttempts": "92",
+        "hittingPercentage": "0.413",
+        "assists": "43",
+        "setErrors": "0",
+        "setAttempts": "85",
+        "serviceAces": "8",
+        "serviceErrors": "11",
+        "serveAttempts": "74",
+        "digs": "42",
+        "receptionAttempts": "46",
+        "receptionErrors": "4",
+        "blockSolos": "2",
+        "blockAssists": "6",
+        "blockingErrors": "0",
+        "totalBlocks": "5"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46043,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "52",
+        "kills": "27",
+        "attackErrors": "11",
+        "attackAttempts": "86",
+        "hittingPercentage": "0.186",
+        "assists": "25",
+        "setErrors": "1",
+        "setAttempts": "90",
+        "serviceAces": "4",
+        "serviceErrors": "7",
+        "serveAttempts": "53",
+        "digs": "30",
+        "receptionAttempts": "63",
+        "receptionErrors": "8",
+        "blockSolos": "0",
+        "blockAssists": "12",
+        "blockingErrors": "3",
+        "totalBlocks": "6"
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624634,
+  "title": "WVB Boxscore",
+  "description": "Maryland vs UCLA",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46686",
+      "seoname": "maryland",
+      "name6Char": "MD",
+      "nameFull": "University of Maryland, College Park",
+      "nameShort": "Maryland",
+      "teamName": "Terrapins",
+      "color": "#C8102E"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45896",
+      "seoname": "ucla",
+      "name6Char": "UCLA",
+      "nameFull": "University of California, Los Angeles",
+      "nameShort": "UCLA",
+      "teamName": "Bruins",
+      "color": "#0072CE"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46686,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "95",
+        "kills": "65",
+        "attackErrors": "25",
+        "attackAttempts": "171",
+        "hittingPercentage": "0.234",
+        "assists": "61",
+        "setErrors": "1",
+        "setAttempts": "172",
+        "serviceAces": "2",
+        "serviceErrors": "9",
+        "serveAttempts": "96",
+        "digs": "62",
+        "receptionAttempts": "100",
+        "receptionErrors": "2",
+        "blockSolos": "1",
+        "blockAssists": "8",
+        "blockingErrors": "1",
+        "totalBlocks": "5"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45896,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "109",
+        "kills": "70",
+        "attackErrors": "20",
+        "attackAttempts": "161",
+        "hittingPercentage": "0.311",
+        "assists": "63",
+        "setErrors": "0",
+        "setAttempts": "157",
+        "serviceAces": "2",
+        "serviceErrors": "8",
+        "serveAttempts": "108",
+        "digs": "69",
+        "receptionAttempts": "87",
+        "receptionErrors": "2",
+        "blockSolos": "3",
+        "blockAssists": "22",
+        "blockingErrors": "1",
+        "totalBlocks": "14"
+      }
+    }
+  ]
+}

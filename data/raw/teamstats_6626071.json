@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626071,
+  "title": "WVB Boxscore",
+  "description": "Manhattan vs Niagara",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46198",
+      "seoname": "manhattan",
+      "name6Char": "MANHAT",
+      "nameFull": "Manhattan University",
+      "nameShort": "Manhattan",
+      "teamName": "Jaspers",
+      "color": "#046A38"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46476",
+      "seoname": "niagara",
+      "name6Char": "NIAGRA",
+      "nameFull": "Niagara University",
+      "nameShort": "Niagara",
+      "teamName": "Purple Eagles",
+      "color": "#582C83"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46198,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "109",
+        "kills": "54",
+        "attackErrors": "24",
+        "attackAttempts": "152",
+        "hittingPercentage": "0.197",
+        "assists": "49",
+        "setErrors": "2",
+        "setAttempts": "154",
+        "serviceAces": "13",
+        "serviceErrors": "9",
+        "serveAttempts": "108",
+        "digs": "52",
+        "receptionAttempts": "104",
+        "receptionErrors": "12",
+        "blockSolos": "2",
+        "blockAssists": "24",
+        "blockingErrors": "0",
+        "totalBlocks": "14"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46476,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "112",
+        "kills": "63",
+        "attackErrors": "33",
+        "attackAttempts": "156",
+        "hittingPercentage": "0.192",
+        "assists": "60",
+        "setErrors": "0",
+        "setAttempts": "157",
+        "serviceAces": "12",
+        "serviceErrors": "9",
+        "serveAttempts": "113",
+        "digs": "60",
+        "receptionAttempts": "99",
+        "receptionErrors": "13",
+        "blockSolos": "1",
+        "blockAssists": "14",
+        "blockingErrors": "0",
+        "totalBlocks": "8"
+      }
+    }
+  ]
+}

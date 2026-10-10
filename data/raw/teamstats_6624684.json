@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624684,
+  "title": "WVB Boxscore",
+  "description": "VCU vs Rhode Island",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46375",
+      "seoname": "vcu",
+      "name6Char": "VCU",
+      "nameFull": "Virginia Commonwealth University",
+      "nameShort": "VCU",
+      "teamName": "Rams",
+      "color": "#010101"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46242",
+      "seoname": "rhode-island",
+      "name6Char": "URI",
+      "nameFull": "University of Rhode Island",
+      "nameShort": "Rhode Island",
+      "teamName": "Rams",
+      "color": "#041E42"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46375,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "87",
+        "kills": "49",
+        "attackErrors": "18",
+        "attackAttempts": "121",
+        "hittingPercentage": "0.256",
+        "assists": "44",
+        "setErrors": "1",
+        "setAttempts": "120",
+        "serviceAces": "11",
+        "serviceErrors": "11",
+        "serveAttempts": "86",
+        "digs": "43",
+        "receptionAttempts": "71",
+        "receptionErrors": "7",
+        "blockSolos": "4",
+        "blockAssists": "6",
+        "blockingErrors": "0",
+        "totalBlocks": "7"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46242,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "78",
+        "kills": "40",
+        "attackErrors": "17",
+        "attackAttempts": "108",
+        "hittingPercentage": "0.213",
+        "assists": "37",
+        "setErrors": "2",
+        "setAttempts": "108",
+        "serviceAces": "7",
+        "serviceErrors": "8",
+        "serveAttempts": "79",
+        "digs": "48",
+        "receptionAttempts": "75",
+        "receptionErrors": "11",
+        "blockSolos": "2",
+        "blockAssists": "14",
+        "blockingErrors": "0",
+        "totalBlocks": "9"
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627501,
+  "title": "WVB Boxscore",
+  "description": "California Baptist vs CSU Bakersfield",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "51173",
+      "seoname": "california-baptist",
+      "name6Char": "CALBAP",
+      "nameFull": "California Baptist University",
+      "nameShort": "California Baptist",
+      "teamName": "Lancers",
+      "color": "#171F3B"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46035",
+      "seoname": "bakersfield",
+      "name6Char": "CSUBAK",
+      "nameFull": "California State University, Bakersfield",
+      "nameShort": "CSU Bakersfield",
+      "teamName": "Roadrunners",
+      "color": "#0032A0"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 51173,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "64",
+        "kills": "34",
+        "attackErrors": "24",
+        "attackAttempts": "113",
+        "hittingPercentage": "0.088",
+        "assists": "32",
+        "setErrors": "2",
+        "setAttempts": "118",
+        "serviceAces": "4",
+        "serviceErrors": "6",
+        "serveAttempts": "65",
+        "digs": "47",
+        "receptionAttempts": "68",
+        "receptionErrors": "3",
+        "blockSolos": "2",
+        "blockAssists": "10",
+        "blockingErrors": "3",
+        "totalBlocks": "7"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46035,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "77",
+        "kills": "42",
+        "attackErrors": "16",
+        "attackAttempts": "118",
+        "hittingPercentage": "0.220",
+        "assists": "39",
+        "setErrors": "2",
+        "setAttempts": "120",
+        "serviceAces": "3",
+        "serviceErrors": "8",
+        "serveAttempts": "76",
+        "digs": "47",
+        "receptionAttempts": "59",
+        "receptionErrors": "4",
+        "blockSolos": "3",
+        "blockAssists": "14",
+        "blockingErrors": "1",
+        "totalBlocks": "10"
+      }
+    }
+  ]
+}

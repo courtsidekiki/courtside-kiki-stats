@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624785,
+  "title": "WVB Boxscore",
+  "description": "Louisiana vs Louisiana Tech",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46003",
+      "seoname": "la-lafayette",
+      "name6Char": "LA",
+      "nameFull": "University of Louisiana at Lafayette",
+      "nameShort": "Louisiana",
+      "teamName": "Ragin' Cajuns",
+      "color": "#C8102E"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46060",
+      "seoname": "louisiana-tech",
+      "name6Char": "LATECH",
+      "nameFull": "Louisiana Tech University",
+      "nameShort": "Louisiana Tech",
+      "teamName": "Bulldogs",
+      "color": "#003087"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46003,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "48",
+        "attackErrors": "12",
+        "attackAttempts": "102",
+        "hittingPercentage": "0.353",
+        "assists": "48",
+        "setErrors": "0",
+        "setAttempts": "0",
+        "serviceAces": "0",
+        "serviceErrors": "11",
+        "serveAttempts": "0",
+        "digs": "37",
+        "receptionAttempts": "0",
+        "receptionErrors": "0",
+        "blockSolos": "1",
+        "blockAssists": "6",
+        "blockingErrors": "1",
+        "totalBlocks": "4"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46060,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "58",
+        "kills": "33",
+        "attackErrors": "12",
+        "attackAttempts": "86",
+        "hittingPercentage": "0.244",
+        "assists": "31",
+        "setErrors": "0",
+        "setAttempts": "0",
+        "serviceAces": "0",
+        "serviceErrors": "10",
+        "serveAttempts": "0",
+        "digs": "35",
+        "receptionAttempts": "0",
+        "receptionErrors": "0",
+        "blockSolos": "1",
+        "blockAssists": "10",
+        "blockingErrors": "5",
+        "totalBlocks": "6"
+      }
+    }
+  ]
+}

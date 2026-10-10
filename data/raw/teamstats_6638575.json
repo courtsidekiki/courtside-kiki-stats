@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6638575,
+  "title": "WVB Boxscore",
+  "description": "UC Riverside vs CSUN",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46536",
+      "seoname": "uc-riverside",
+      "name6Char": "UC RIV",
+      "nameFull": "University of California, Riverside",
+      "nameShort": "UC Riverside",
+      "teamName": "Highlanders",
+      "color": "#1E437B"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46289",
+      "seoname": "cal-st-northridge",
+      "name6Char": "CSUN",
+      "nameFull": "California State University, Northridge",
+      "nameShort": "CSUN",
+      "teamName": "Matadors",
+      "color": "#BB2531"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46536,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "50",
+        "kills": "19",
+        "attackErrors": "21",
+        "attackAttempts": "90",
+        "hittingPercentage": "-0.022",
+        "assists": "19",
+        "setErrors": "1",
+        "setAttempts": "91",
+        "serviceAces": "3",
+        "serviceErrors": "4",
+        "serveAttempts": "52",
+        "digs": "26",
+        "receptionAttempts": "63",
+        "receptionErrors": "4",
+        "blockSolos": "0",
+        "blockAssists": "14",
+        "blockingErrors": "1",
+        "totalBlocks": "7"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46289,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "41",
+        "attackErrors": "17",
+        "attackAttempts": "97",
+        "hittingPercentage": "0.247",
+        "assists": "37",
+        "setErrors": "0",
+        "setAttempts": "92",
+        "serviceAces": "4",
+        "serviceErrors": "10",
+        "serveAttempts": "73",
+        "digs": "40",
+        "receptionAttempts": "48",
+        "receptionErrors": "3",
+        "blockSolos": "2",
+        "blockAssists": "10",
+        "blockingErrors": "1",
+        "totalBlocks": "7"
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628249,
+  "title": "WVB Boxscore",
+  "description": "TCU vs Arizona",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46507",
+      "seoname": "tcu",
+      "name6Char": "TCU",
+      "nameFull": "Texas Christian University",
+      "nameShort": "TCU",
+      "teamName": "Horned Frogs",
+      "color": "#592D82"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46211",
+      "seoname": "arizona",
+      "name6Char": "ARIZ",
+      "nameFull": "University of Arizona",
+      "nameShort": "Arizona",
+      "teamName": "Wildcats",
+      "color": "#00205B"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46507,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "43",
+        "attackErrors": "12",
+        "attackAttempts": "97",
+        "hittingPercentage": "0.320",
+        "assists": "40",
+        "setErrors": "2",
+        "setAttempts": "96",
+        "serviceAces": "2",
+        "serviceErrors": "5",
+        "serveAttempts": "73",
+        "digs": "47",
+        "receptionAttempts": "51",
+        "receptionErrors": "5",
+        "blockSolos": "1",
+        "blockAssists": "16",
+        "blockingErrors": "0",
+        "totalBlocks": "9"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46211,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "60",
+        "kills": "35",
+        "attackErrors": "19",
+        "attackAttempts": "104",
+        "hittingPercentage": "0.154",
+        "assists": "33",
+        "setErrors": "0",
+        "setAttempts": "98",
+        "serviceAces": "5",
+        "serviceErrors": "11",
+        "serveAttempts": "62",
+        "digs": "39",
+        "receptionAttempts": "68",
+        "receptionErrors": "2",
+        "blockSolos": "0",
+        "blockAssists": "8",
+        "blockingErrors": "2",
+        "totalBlocks": "4"
+      }
+    }
+  ]
+}

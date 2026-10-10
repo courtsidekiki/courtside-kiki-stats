@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627193,
+  "title": "WVB Boxscore",
+  "description": "Purdue vs Southern California",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46616",
+      "seoname": "purdue",
+      "name6Char": "PURDUE",
+      "nameFull": "Purdue University",
+      "nameShort": "Purdue",
+      "teamName": "Boilermakers",
+      "color": "#010101"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46121",
+      "seoname": "southern-california",
+      "name6Char": "USC",
+      "nameFull": "University of Southern California",
+      "nameShort": "Southern California",
+      "teamName": "Trojans",
+      "color": "#9D2235"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46616,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "48",
+        "attackErrors": "10",
+        "attackAttempts": "102",
+        "hittingPercentage": "0.373",
+        "assists": "47",
+        "setErrors": "0",
+        "setAttempts": "99",
+        "serviceAces": "1",
+        "serviceErrors": "10",
+        "serveAttempts": "74",
+        "digs": "43",
+        "receptionAttempts": "53",
+        "receptionErrors": "1",
+        "blockSolos": "3",
+        "blockAssists": "14",
+        "blockingErrors": "0",
+        "totalBlocks": "10"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46121,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "57",
+        "kills": "36",
+        "attackErrors": "20",
+        "attackAttempts": "109",
+        "hittingPercentage": "0.147",
+        "assists": "33",
+        "setErrors": "0",
+        "setAttempts": "103",
+        "serviceAces": "1",
+        "serviceErrors": "5",
+        "serveAttempts": "58",
+        "digs": "36",
+        "receptionAttempts": "64",
+        "receptionErrors": "1",
+        "blockSolos": "0",
+        "blockAssists": "8",
+        "blockingErrors": "2",
+        "totalBlocks": "4"
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628389,
+  "title": "WVB Boxscore",
+  "description": "Campbell vs Towson",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46162",
+      "seoname": "campbell",
+      "name6Char": "CAMPBL",
+      "nameFull": "Campbell University",
+      "nameShort": "Campbell",
+      "teamName": "Camels",
+      "color": "#FF4713"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46128",
+      "seoname": "towson",
+      "name6Char": "TOWSON",
+      "nameFull": "Towson University",
+      "nameShort": "Towson",
+      "teamName": "Tigers",
+      "color": "#010101"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46162,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "99",
+        "kills": "55",
+        "attackErrors": "22",
+        "attackAttempts": "166",
+        "hittingPercentage": "0.199",
+        "assists": "52",
+        "setErrors": "2",
+        "setAttempts": "164",
+        "serviceAces": "6",
+        "serviceErrors": "6",
+        "serveAttempts": "98",
+        "digs": "81",
+        "receptionAttempts": "79",
+        "receptionErrors": "6",
+        "blockSolos": "4",
+        "blockAssists": "15",
+        "blockingErrors": "1",
+        "totalBlocks": "11"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46128,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "87",
+        "kills": "51",
+        "attackErrors": "27",
+        "attackAttempts": "171",
+        "hittingPercentage": "0.140",
+        "assists": "50",
+        "setErrors": "2",
+        "setAttempts": "171",
+        "serviceAces": "6",
+        "serviceErrors": "9",
+        "serveAttempts": "88",
+        "digs": "76",
+        "receptionAttempts": "92",
+        "receptionErrors": "6",
+        "blockSolos": "0",
+        "blockAssists": "18",
+        "blockingErrors": "1",
+        "totalBlocks": "9"
+      }
+    }
+  ]
+}

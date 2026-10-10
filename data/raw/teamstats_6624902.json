@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624902,
+  "title": "WVB Boxscore",
+  "description": "Middle Tenn. vs FIU",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46067",
+      "seoname": "middle-tenn",
+      "name6Char": "MIDTEN",
+      "nameFull": "Middle Tennessee State University",
+      "nameShort": "Middle Tenn.",
+      "teamName": "Blue Raiders",
+      "color": "#006FAB"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46546",
+      "seoname": "fiu",
+      "name6Char": "FIU",
+      "nameFull": "Florida International University",
+      "nameShort": "FIU",
+      "teamName": "Panthers",
+      "color": "#091F3F"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46067,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "96",
+        "kills": "55",
+        "attackErrors": "24",
+        "attackAttempts": "131",
+        "hittingPercentage": "0.237",
+        "assists": "53",
+        "setErrors": "1",
+        "setAttempts": "131",
+        "serviceAces": "7",
+        "serviceErrors": "8",
+        "serveAttempts": "95",
+        "digs": "51",
+        "receptionAttempts": "75",
+        "receptionErrors": "7",
+        "blockSolos": "4",
+        "blockAssists": "18",
+        "blockingErrors": "2",
+        "totalBlocks": "13"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46546,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "83",
+        "kills": "43",
+        "attackErrors": "24",
+        "attackAttempts": "137",
+        "hittingPercentage": "0.139",
+        "assists": "43",
+        "setErrors": "1",
+        "setAttempts": "144",
+        "serviceAces": "7",
+        "serviceErrors": "9",
+        "serveAttempts": "84",
+        "digs": "44",
+        "receptionAttempts": "87",
+        "receptionErrors": "7",
+        "blockSolos": "1",
+        "blockAssists": "10",
+        "blockingErrors": "4",
+        "totalBlocks": "6"
+      }
+    }
+  ]
+}

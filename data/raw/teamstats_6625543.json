@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625543,
+  "title": "WVB Boxscore",
+  "description": "UAB vs Memphis",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46437",
+      "seoname": "uab",
+      "name6Char": "UAB",
+      "nameFull": "University of Alabama at Birmingham",
+      "nameShort": "UAB",
+      "teamName": "Blazers",
+      "color": "#006341"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46688",
+      "seoname": "memphis",
+      "name6Char": "MEM",
+      "nameFull": "University of Memphis",
+      "nameShort": "Memphis",
+      "teamName": "Tigers",
+      "color": "#173B70"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46437,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "99",
+        "kills": "57",
+        "attackErrors": "19",
+        "attackAttempts": "130",
+        "hittingPercentage": "0.292",
+        "assists": "54",
+        "setErrors": "1",
+        "setAttempts": "124",
+        "serviceAces": "7",
+        "serviceErrors": "12",
+        "serveAttempts": "98",
+        "digs": "51",
+        "receptionAttempts": "74",
+        "receptionErrors": "4",
+        "blockSolos": "1",
+        "blockAssists": "22",
+        "blockingErrors": "1",
+        "totalBlocks": "12"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46688,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "80",
+        "kills": "43",
+        "attackErrors": "23",
+        "attackAttempts": "134",
+        "hittingPercentage": "0.149",
+        "assists": "42",
+        "setErrors": "4",
+        "setAttempts": "133",
+        "serviceAces": "4",
+        "serviceErrors": "7",
+        "serveAttempts": "81",
+        "digs": "47",
+        "receptionAttempts": "86",
+        "receptionErrors": "7",
+        "blockSolos": "0",
+        "blockAssists": "14",
+        "blockingErrors": "2",
+        "totalBlocks": "7"
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626059,
+  "title": "WVB Boxscore",
+  "description": "Tulsa vs UTSA",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45876",
+      "seoname": "tulsa",
+      "name6Char": "TULSA",
+      "nameFull": "The University of Tulsa",
+      "nameShort": "Tulsa",
+      "teamName": "Golden Hurricane",
+      "color": "#002D72"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46369",
+      "seoname": "utsa",
+      "name6Char": "UTSA",
+      "nameFull": "University of Texas at San Antonio",
+      "nameShort": "UTSA",
+      "teamName": "Roadrunners",
+      "color": "#0A2240"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45876,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "49",
+        "attackErrors": "12",
+        "attackAttempts": "121",
+        "hittingPercentage": "0.306",
+        "assists": "47",
+        "setErrors": "0",
+        "setAttempts": "119",
+        "serviceAces": "5",
+        "serviceErrors": "5",
+        "serveAttempts": "73",
+        "digs": "61",
+        "receptionAttempts": "54",
+        "receptionErrors": "3",
+        "blockSolos": "1",
+        "blockAssists": "6",
+        "blockingErrors": "1",
+        "totalBlocks": "4"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46369,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "57",
+        "kills": "37",
+        "attackErrors": "16",
+        "attackAttempts": "121",
+        "hittingPercentage": "0.174",
+        "assists": "34",
+        "setErrors": "0",
+        "setAttempts": "118",
+        "serviceAces": "3",
+        "serviceErrors": "5",
+        "serveAttempts": "59",
+        "digs": "53",
+        "receptionAttempts": "68",
+        "receptionErrors": "5",
+        "blockSolos": "1",
+        "blockAssists": "0",
+        "blockingErrors": "1",
+        "totalBlocks": "1"
+      }
+    }
+  ]
+}

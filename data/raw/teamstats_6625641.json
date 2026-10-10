@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625641,
+  "title": "WVB Boxscore",
+  "description": "Alabama vs South Carolina",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46207",
+      "seoname": "alabama",
+      "name6Char": "ALA",
+      "nameFull": "University of Alabama",
+      "nameShort": "Alabama",
+      "teamName": "Crimson Tide",
+      "color": "#9D2235"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46363",
+      "seoname": "south-carolina",
+      "name6Char": "S CAR",
+      "nameFull": "University of South Carolina, Columbia",
+      "nameShort": "South Carolina",
+      "teamName": "Gamecocks",
+      "color": "#862633"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46207,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "97",
+        "kills": "50",
+        "attackErrors": "22",
+        "attackAttempts": "110",
+        "hittingPercentage": "0.255",
+        "assists": "44",
+        "setErrors": "2",
+        "setAttempts": "103",
+        "serviceAces": "8",
+        "serviceErrors": "15",
+        "serveAttempts": "96",
+        "digs": "37",
+        "receptionAttempts": "64",
+        "receptionErrors": "1",
+        "blockSolos": "0",
+        "blockAssists": "18",
+        "blockingErrors": "1",
+        "totalBlocks": "9"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46363,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "78",
+        "kills": "38",
+        "attackErrors": "22",
+        "attackAttempts": "107",
+        "hittingPercentage": "0.150",
+        "assists": "35",
+        "setErrors": "1",
+        "setAttempts": "114",
+        "serviceAces": "1",
+        "serviceErrors": "15",
+        "serveAttempts": "79",
+        "digs": "33",
+        "receptionAttempts": "81",
+        "receptionErrors": "8",
+        "blockSolos": "1",
+        "blockAssists": "10",
+        "blockingErrors": "1",
+        "totalBlocks": "6"
+      }
+    }
+  ]
+}

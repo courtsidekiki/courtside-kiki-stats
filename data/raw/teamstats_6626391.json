@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626391,
+  "title": "WVB Boxscore",
+  "description": "DePaul vs Villanova",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45902",
+      "seoname": "depaul",
+      "name6Char": "DEPAUL",
+      "nameFull": "DePaul University",
+      "nameShort": "DePaul",
+      "teamName": "Blue Demons",
+      "color": "#003DA5"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46508",
+      "seoname": "villanova",
+      "name6Char": "NOVA",
+      "nameFull": "Villanova University",
+      "nameShort": "Villanova",
+      "teamName": "Wildcats",
+      "color": "#001F5B"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45902,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "99",
+        "kills": "46",
+        "attackErrors": "18",
+        "attackAttempts": "123",
+        "hittingPercentage": "0.228",
+        "assists": "43",
+        "setErrors": "0",
+        "setAttempts": "126",
+        "serviceAces": "6",
+        "serviceErrors": "13",
+        "serveAttempts": "98",
+        "digs": "55",
+        "receptionAttempts": "70",
+        "receptionErrors": "5",
+        "blockSolos": "5",
+        "blockAssists": "10",
+        "blockingErrors": "0",
+        "totalBlocks": "10"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46508,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "80",
+        "kills": "44",
+        "attackErrors": "33",
+        "attackAttempts": "147",
+        "hittingPercentage": "0.075",
+        "assists": "36",
+        "setErrors": "1",
+        "setAttempts": "143",
+        "serviceAces": "5",
+        "serviceErrors": "11",
+        "serveAttempts": "81",
+        "digs": "50",
+        "receptionAttempts": "85",
+        "receptionErrors": "6",
+        "blockSolos": "1",
+        "blockAssists": "6",
+        "blockingErrors": "0",
+        "totalBlocks": "4"
+      }
+    }
+  ]
+}

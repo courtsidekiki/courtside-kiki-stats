@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624815,
+  "title": "WVB Boxscore",
+  "description": "Troy vs ULM",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46254",
+      "seoname": "troy",
+      "name6Char": "TROY",
+      "nameFull": "Troy University",
+      "nameShort": "Troy",
+      "teamName": "Trojans",
+      "color": "#9D2235"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46106",
+      "seoname": "la-monroe",
+      "name6Char": "LA MON",
+      "nameFull": "University of Louisiana Monroe",
+      "nameShort": "ULM",
+      "teamName": "Warhawks",
+      "color": "#8A2432"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46254,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "97",
+        "kills": "54",
+        "attackErrors": "25",
+        "attackAttempts": "141",
+        "hittingPercentage": "0.206",
+        "assists": "50",
+        "setErrors": "0",
+        "setAttempts": "142",
+        "serviceAces": "8",
+        "serviceErrors": "10",
+        "serveAttempts": "96",
+        "digs": "59",
+        "receptionAttempts": "67",
+        "receptionErrors": "7",
+        "blockSolos": "1",
+        "blockAssists": "16",
+        "blockingErrors": "1",
+        "totalBlocks": "9"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46106,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "76",
+        "kills": "34",
+        "attackErrors": "24",
+        "attackAttempts": "125",
+        "hittingPercentage": "0.080",
+        "assists": "33",
+        "setErrors": "1",
+        "setAttempts": "130",
+        "serviceAces": "7",
+        "serviceErrors": "10",
+        "serveAttempts": "77",
+        "digs": "45",
+        "receptionAttempts": "86",
+        "receptionErrors": "8",
+        "blockSolos": "3",
+        "blockAssists": "18",
+        "blockingErrors": "1",
+        "totalBlocks": "12"
+      }
+    }
+  ]
+}

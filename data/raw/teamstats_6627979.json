@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627979,
+  "title": "WVB Boxscore",
+  "description": "Vanderbilt vs Auburn",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "1389023",
+      "seoname": "vanderbilt",
+      "name6Char": "VANDY",
+      "nameFull": "Vanderbilt University",
+      "nameShort": "Vanderbilt",
+      "teamName": "Commodores",
+      "color": "#010101"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45808",
+      "seoname": "auburn",
+      "name6Char": "AUBURN",
+      "nameFull": "Auburn University",
+      "nameShort": "Auburn",
+      "teamName": "Tigers",
+      "color": "#FA4616"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 1389023,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "39",
+        "attackErrors": "17",
+        "attackAttempts": "108",
+        "hittingPercentage": "0.204",
+        "assists": "37",
+        "setErrors": "3",
+        "setAttempts": "105",
+        "serviceAces": "12",
+        "serviceErrors": "4",
+        "serveAttempts": "74",
+        "digs": "50",
+        "receptionAttempts": "42",
+        "receptionErrors": "2",
+        "blockSolos": "1",
+        "blockAssists": "8",
+        "blockingErrors": "1",
+        "totalBlocks": "5"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45808,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "52",
+        "kills": "26",
+        "attackErrors": "12",
+        "attackAttempts": "97",
+        "hittingPercentage": "0.144",
+        "assists": "25",
+        "setErrors": "1",
+        "setAttempts": "94",
+        "serviceAces": "2",
+        "serviceErrors": "11",
+        "serveAttempts": "53",
+        "digs": "42",
+        "receptionAttempts": "70",
+        "receptionErrors": "12",
+        "blockSolos": "2",
+        "blockAssists": "12",
+        "blockingErrors": "1",
+        "totalBlocks": "8"
+      }
+    }
+  ]
+}

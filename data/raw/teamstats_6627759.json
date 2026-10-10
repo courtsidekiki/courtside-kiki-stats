@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627759,
+  "title": "WVB Boxscore",
+  "description": "UNC Asheville vs Presbyterian",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46102",
+      "seoname": "unc-asheville",
+      "name6Char": "UNC A",
+      "nameFull": "University of North Carolina Asheville",
+      "nameShort": "UNC Asheville",
+      "teamName": "Bulldogs",
+      "color": "#002F6C"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45966",
+      "seoname": "presbyterian",
+      "name6Char": "PRESBY",
+      "nameFull": "Presbyterian College",
+      "nameShort": "Presbyterian",
+      "teamName": "Blue Hose",
+      "color": "#005394"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46102,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "95",
+        "kills": "55",
+        "attackErrors": "22",
+        "attackAttempts": "133",
+        "hittingPercentage": "0.248",
+        "assists": "54",
+        "setErrors": "3",
+        "setAttempts": "140",
+        "serviceAces": "10",
+        "serviceErrors": "13",
+        "serveAttempts": "94",
+        "digs": "65",
+        "receptionAttempts": "70",
+        "receptionErrors": "5",
+        "blockSolos": "1",
+        "blockAssists": "22",
+        "blockingErrors": "0",
+        "totalBlocks": "12"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45966,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "78",
+        "kills": "35",
+        "attackErrors": "21",
+        "attackAttempts": "125",
+        "hittingPercentage": "0.112",
+        "assists": "35",
+        "setErrors": "0",
+        "setAttempts": "119",
+        "serviceAces": "5",
+        "serviceErrors": "9",
+        "serveAttempts": "79",
+        "digs": "49",
+        "receptionAttempts": "81",
+        "receptionErrors": "10",
+        "blockSolos": "0",
+        "blockAssists": "14",
+        "blockingErrors": "0",
+        "totalBlocks": "7"
+      }
+    }
+  ]
+}

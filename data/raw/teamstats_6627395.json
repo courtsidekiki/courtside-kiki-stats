@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627395,
+  "title": "WVB Boxscore",
+  "description": "North Texas vs South Fla.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46237",
+      "seoname": "north-texas",
+      "name6Char": "NO TEX",
+      "nameFull": "University of North Texas",
+      "nameShort": "North Texas",
+      "teamName": "Mean Green",
+      "color": "#007A33"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46621",
+      "seoname": "south-fla",
+      "name6Char": "USF",
+      "nameFull": "University of South Florida",
+      "nameShort": "South Fla.",
+      "teamName": "Bulls",
+      "color": "#006747"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46237,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "108",
+        "kills": "58",
+        "attackErrors": "31",
+        "attackAttempts": "176",
+        "hittingPercentage": "0.153",
+        "assists": "55",
+        "setErrors": "1",
+        "setAttempts": "179",
+        "serviceAces": "4",
+        "serviceErrors": "14",
+        "serveAttempts": "107",
+        "digs": "62",
+        "receptionAttempts": "93",
+        "receptionErrors": "6",
+        "blockSolos": "1",
+        "blockAssists": "12",
+        "blockingErrors": "2",
+        "totalBlocks": "7"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46621,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "104",
+        "kills": "52",
+        "attackErrors": "30",
+        "attackAttempts": "155",
+        "hittingPercentage": "0.142",
+        "assists": "47",
+        "setErrors": "1",
+        "setAttempts": "157",
+        "serviceAces": "6",
+        "serviceErrors": "12",
+        "serveAttempts": "105",
+        "digs": "65",
+        "receptionAttempts": "93",
+        "receptionErrors": "4",
+        "blockSolos": "2",
+        "blockAssists": "34",
+        "blockingErrors": "1",
+        "totalBlocks": "19"
+      }
+    }
+  ]
+}

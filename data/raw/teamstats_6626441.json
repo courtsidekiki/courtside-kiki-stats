@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626441,
+  "title": "WVB Boxscore",
+  "description": "Valparaiso vs Murray St.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46757",
+      "seoname": "valparaiso",
+      "name6Char": "VALPO",
+      "nameFull": "Valparaiso University",
+      "nameShort": "Valparaiso",
+      "teamName": "Beacons",
+      "color": "#693F23"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46604",
+      "seoname": "murray-st",
+      "name6Char": "MURRAY",
+      "nameFull": "Murray State University",
+      "nameShort": "Murray St.",
+      "teamName": "Racers",
+      "color": "#0C2340"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46757,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "49",
+        "attackErrors": "13",
+        "attackAttempts": "116",
+        "hittingPercentage": "0.310",
+        "assists": "46",
+        "setErrors": "1",
+        "setAttempts": "109",
+        "serviceAces": "4",
+        "serviceErrors": "7",
+        "serveAttempts": "73",
+        "digs": "47",
+        "receptionAttempts": "63",
+        "receptionErrors": "4",
+        "blockSolos": "0",
+        "blockAssists": "12",
+        "blockingErrors": "0",
+        "totalBlocks": "6"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46604,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "67",
+        "kills": "42",
+        "attackErrors": "16",
+        "attackAttempts": "114",
+        "hittingPercentage": "0.228",
+        "assists": "37",
+        "setErrors": "0",
+        "setAttempts": "108",
+        "serviceAces": "4",
+        "serviceErrors": "6",
+        "serveAttempts": "69",
+        "digs": "44",
+        "receptionAttempts": "66",
+        "receptionErrors": "4",
+        "blockSolos": "1",
+        "blockAssists": "2",
+        "blockingErrors": "1",
+        "totalBlocks": "2"
+      }
+    }
+  ]
+}

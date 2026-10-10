@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625858,
+  "title": "WVB Boxscore",
+  "description": "Stonehill vs Mercyhurst",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46366",
+      "seoname": "stonehill",
+      "name6Char": "STONEH",
+      "nameFull": "Stonehill College",
+      "nameShort": "Stonehill",
+      "teamName": "Skyhawks",
+      "color": "#582C83"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45799",
+      "seoname": "mercyhurst",
+      "name6Char": "MERCYH",
+      "nameFull": "Mercyhurst University",
+      "nameShort": "Mercyhurst",
+      "teamName": "Lakers",
+      "color": "#00594C"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46366,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "98",
+        "kills": "65",
+        "attackErrors": "25",
+        "attackAttempts": "176",
+        "hittingPercentage": "0.227",
+        "assists": "61",
+        "setErrors": "2",
+        "setAttempts": "184",
+        "serviceAces": "8",
+        "serviceErrors": "10",
+        "serveAttempts": "97",
+        "digs": "77",
+        "receptionAttempts": "97",
+        "receptionErrors": "8",
+        "blockSolos": "0",
+        "blockAssists": "12",
+        "blockingErrors": "0",
+        "totalBlocks": "6"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45799,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "100",
+        "kills": "55",
+        "attackErrors": "18",
+        "attackAttempts": "158",
+        "hittingPercentage": "0.234",
+        "assists": "53",
+        "setErrors": "2",
+        "setAttempts": "168",
+        "serviceAces": "8",
+        "serviceErrors": "4",
+        "serveAttempts": "101",
+        "digs": "69",
+        "receptionAttempts": "87",
+        "receptionErrors": "8",
+        "blockSolos": "0",
+        "blockAssists": "10",
+        "blockingErrors": "0",
+        "totalBlocks": "5"
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625149,
+  "title": "WVB Boxscore",
+  "description": "Penn vs Brown",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46615",
+      "seoname": "penn",
+      "name6Char": "PENN",
+      "nameFull": "University of Pennsylvania",
+      "nameShort": "Penn",
+      "teamName": "Quakers",
+      "color": "#002D72"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46218",
+      "seoname": "brown",
+      "name6Char": "BROWN",
+      "nameFull": "Brown University",
+      "nameShort": "Brown",
+      "teamName": "Bears",
+      "color": "#4E3629"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46615,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "107",
+        "kills": "61",
+        "attackErrors": "23",
+        "attackAttempts": "183",
+        "hittingPercentage": "0.208",
+        "assists": "60",
+        "setErrors": "1",
+        "setAttempts": "188",
+        "serviceAces": "6",
+        "serviceErrors": "8",
+        "serveAttempts": "106",
+        "digs": "84",
+        "receptionAttempts": "89",
+        "receptionErrors": "7",
+        "blockSolos": "1",
+        "blockAssists": "16",
+        "blockingErrors": "3",
+        "totalBlocks": "9"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46218,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "98",
+        "kills": "59",
+        "attackErrors": "28",
+        "attackAttempts": "177",
+        "hittingPercentage": "0.175",
+        "assists": "54",
+        "setErrors": "1",
+        "setAttempts": "184",
+        "serviceAces": "7",
+        "serviceErrors": "10",
+        "serveAttempts": "99",
+        "digs": "84",
+        "receptionAttempts": "98",
+        "receptionErrors": "6",
+        "blockSolos": "2",
+        "blockAssists": "20",
+        "blockingErrors": "2",
+        "totalBlocks": "12"
+      }
+    }
+  ]
+}

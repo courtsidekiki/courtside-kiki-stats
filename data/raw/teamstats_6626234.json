@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626234,
+  "title": "WVB Boxscore",
+  "description": "Missouri vs Florida",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45939",
+      "seoname": "missouri",
+      "name6Char": "MIZZOU",
+      "nameFull": "University of Missouri, Columbia",
+      "nameShort": "Missouri",
+      "teamName": "Tigers",
+      "color": "#010101"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46301",
+      "seoname": "florida",
+      "name6Char": "FLA",
+      "nameFull": "University of Florida",
+      "nameShort": "Florida",
+      "teamName": "Gators",
+      "color": "#003087"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45939,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "50",
+        "kills": "29",
+        "attackErrors": "15",
+        "attackAttempts": "94",
+        "hittingPercentage": "0.149",
+        "assists": "28",
+        "setErrors": "2",
+        "setAttempts": "104",
+        "serviceAces": "3",
+        "serviceErrors": "8",
+        "serveAttempts": "51",
+        "digs": "29",
+        "receptionAttempts": "62",
+        "receptionErrors": "6",
+        "blockSolos": "0",
+        "blockAssists": "0",
+        "blockingErrors": "1",
+        "totalBlocks": "0"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46301,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "76",
+        "kills": "44",
+        "attackErrors": "3",
+        "attackAttempts": "79",
+        "hittingPercentage": "0.519",
+        "assists": "41",
+        "setErrors": "1",
+        "setAttempts": "86",
+        "serviceAces": "6",
+        "serviceErrors": "13",
+        "serveAttempts": "75",
+        "digs": "38",
+        "receptionAttempts": "43",
+        "receptionErrors": "3",
+        "blockSolos": "2",
+        "blockAssists": "8",
+        "blockingErrors": "0",
+        "totalBlocks": "6"
+      }
+    }
+  ]
+}

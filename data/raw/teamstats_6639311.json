@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6639311,
+  "title": "WVB Boxscore",
+  "description": "Texas Southern vs Alabama St.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46252",
+      "seoname": "texas-southern",
+      "name6Char": "TX SOU",
+      "nameFull": "Texas Southern University",
+      "nameShort": "Texas Southern",
+      "teamName": "Lady Tigers",
+      "color": "#6F263D"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46436",
+      "seoname": "alabama-st",
+      "name6Char": "ALA ST",
+      "nameFull": "Alabama State University",
+      "nameShort": "Alabama St.",
+      "teamName": "Lady Hornets",
+      "color": "#010101"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46252,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "97",
+        "kills": "58",
+        "attackErrors": "27",
+        "attackAttempts": "156",
+        "hittingPercentage": "0.199",
+        "assists": "56",
+        "setErrors": "1",
+        "setAttempts": "156",
+        "serviceAces": "4",
+        "serviceErrors": "3",
+        "serveAttempts": "96",
+        "digs": "66",
+        "receptionAttempts": "90",
+        "receptionErrors": "11",
+        "blockSolos": "1",
+        "blockAssists": "6",
+        "blockingErrors": "0",
+        "totalBlocks": "4"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46436,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "94",
+        "kills": "49",
+        "attackErrors": "29",
+        "attackAttempts": "151",
+        "hittingPercentage": "0.132",
+        "assists": "47",
+        "setErrors": "1",
+        "setAttempts": "160",
+        "serviceAces": "11",
+        "serviceErrors": "5",
+        "serveAttempts": "95",
+        "digs": "63",
+        "receptionAttempts": "93",
+        "receptionErrors": "4",
+        "blockSolos": "1",
+        "blockAssists": "14",
+        "blockingErrors": "1",
+        "totalBlocks": "8"
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6637636,
+  "title": "WVB Boxscore",
+  "description": "Ohio St. vs Washington",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45982",
+      "seoname": "ohio-st",
+      "name6Char": "OHIOST",
+      "nameFull": "The Ohio State University",
+      "nameShort": "Ohio St.",
+      "teamName": "Buckeyes",
+      "color": "#CE0F3E"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46759",
+      "seoname": "washington",
+      "name6Char": "WASH",
+      "nameFull": "University of Washington",
+      "nameShort": "Washington",
+      "teamName": "Huskies",
+      "color": "#33006f"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45982,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "41",
+        "kills": "23",
+        "attackErrors": "21",
+        "attackAttempts": "106",
+        "hittingPercentage": "0.019",
+        "assists": "21",
+        "setErrors": "2",
+        "setAttempts": "107",
+        "serviceAces": "2",
+        "serviceErrors": "7",
+        "serveAttempts": "43",
+        "digs": "38",
+        "receptionAttempts": "66",
+        "receptionErrors": "7",
+        "blockSolos": "2",
+        "blockAssists": "2",
+        "blockingErrors": "1",
+        "totalBlocks": "3"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46759,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "38",
+        "attackErrors": "7",
+        "attackAttempts": "93",
+        "hittingPercentage": "0.333",
+        "assists": "31",
+        "setErrors": "2",
+        "setAttempts": "86",
+        "serviceAces": "7",
+        "serviceErrors": "7",
+        "serveAttempts": "73",
+        "digs": "45",
+        "receptionAttempts": "36",
+        "receptionErrors": "2",
+        "blockSolos": "5",
+        "blockAssists": "4",
+        "blockingErrors": "0",
+        "totalBlocks": "7"
+      }
+    }
+  ]
+}

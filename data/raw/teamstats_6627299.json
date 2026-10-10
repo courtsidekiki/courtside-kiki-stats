@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627299,
+  "title": "WVB Boxscore",
+  "description": "William & Mary vs N.C. A&T",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46446",
+      "seoname": "william-mary",
+      "name6Char": "WM&MRY",
+      "nameFull": "William & Mary",
+      "nameShort": "William & Mary",
+      "teamName": "Tribe",
+      "color": "#095540"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46344",
+      "seoname": "nc-at",
+      "name6Char": "NC A&T",
+      "nameFull": "North Carolina A&T State University",
+      "nameShort": "N.C. A&T",
+      "teamName": "Aggies",
+      "color": "#002D72"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46446,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "56",
+        "kills": "37",
+        "attackErrors": "16",
+        "attackAttempts": "112",
+        "hittingPercentage": "0.188",
+        "assists": "33",
+        "setErrors": "1",
+        "setAttempts": "114",
+        "serviceAces": "1",
+        "serviceErrors": "7",
+        "serveAttempts": "58",
+        "digs": "38",
+        "receptionAttempts": "70",
+        "receptionErrors": "5",
+        "blockSolos": "3",
+        "blockAssists": "12",
+        "blockingErrors": "0",
+        "totalBlocks": "9"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46344,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "46",
+        "attackErrors": "14",
+        "attackAttempts": "108",
+        "hittingPercentage": "0.296",
+        "assists": "40",
+        "setErrors": "1",
+        "setAttempts": "108",
+        "serviceAces": "5",
+        "serviceErrors": "3",
+        "serveAttempts": "73",
+        "digs": "46",
+        "receptionAttempts": "51",
+        "receptionErrors": "1",
+        "blockSolos": "4",
+        "blockAssists": "12",
+        "blockingErrors": "0",
+        "totalBlocks": "10"
+      }
+    }
+  ]
+}

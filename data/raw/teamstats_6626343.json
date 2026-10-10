@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626343,
+  "title": "WVB Boxscore",
+  "description": "Notre Dame vs Stanford",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46610",
+      "seoname": "notre-dame",
+      "name6Char": "N DAME",
+      "nameFull": "University of Notre Dame",
+      "nameShort": "Notre Dame",
+      "teamName": "Fighting Irish",
+      "color": "#0C2340"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46501",
+      "seoname": "stanford",
+      "name6Char": "STAN",
+      "nameFull": "Stanford University",
+      "nameShort": "Stanford",
+      "teamName": "Cardinal",
+      "color": "#9D2235"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46610,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "89",
+        "kills": "58",
+        "attackErrors": "26",
+        "attackAttempts": "169",
+        "hittingPercentage": "0.189",
+        "assists": "53",
+        "setErrors": "4",
+        "setAttempts": "172",
+        "serviceAces": "4",
+        "serviceErrors": "8",
+        "serveAttempts": "90",
+        "digs": "65",
+        "receptionAttempts": "87",
+        "receptionErrors": "3",
+        "blockSolos": "1",
+        "blockAssists": "4",
+        "blockingErrors": "1",
+        "totalBlocks": "3"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46501,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "98",
+        "kills": "57",
+        "attackErrors": "15",
+        "attackAttempts": "154",
+        "hittingPercentage": "0.273",
+        "assists": "53",
+        "setErrors": "2",
+        "setAttempts": "154",
+        "serviceAces": "3",
+        "serviceErrors": "10",
+        "serveAttempts": "97",
+        "digs": "73",
+        "receptionAttempts": "82",
+        "receptionErrors": "4",
+        "blockSolos": "5",
+        "blockAssists": "16",
+        "blockingErrors": "3",
+        "totalBlocks": "13"
+      }
+    }
+  ]
+}

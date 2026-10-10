@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625977,
+  "title": "WVB Boxscore",
+  "description": "Southern Ind. vs Morehead St.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46500",
+      "seoname": "southern-ind",
+      "name6Char": "S IND",
+      "nameFull": "University of Southern Indiana",
+      "nameShort": "Southern Ind.",
+      "teamName": "Screaming Eagles",
+      "color": "#002855"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46341",
+      "seoname": "morehead-st",
+      "name6Char": "MOREST",
+      "nameFull": "Morehead State University",
+      "nameShort": "Morehead St.",
+      "teamName": "Eagles",
+      "color": "#0032A0"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46500,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "111",
+        "kills": "66",
+        "attackErrors": "33",
+        "attackAttempts": "214",
+        "hittingPercentage": "0.154",
+        "assists": "60",
+        "setErrors": "2",
+        "setAttempts": "207",
+        "serviceAces": "6",
+        "serviceErrors": "10",
+        "serveAttempts": "112",
+        "digs": "103",
+        "receptionAttempts": "96",
+        "receptionErrors": "6",
+        "blockSolos": "1",
+        "blockAssists": "14",
+        "blockingErrors": "0",
+        "totalBlocks": "8"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46341,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "110",
+        "kills": "59",
+        "attackErrors": "23",
+        "attackAttempts": "194",
+        "hittingPercentage": "0.186",
+        "assists": "55",
+        "setErrors": "1",
+        "setAttempts": "195",
+        "serviceAces": "6",
+        "serviceErrors": "13",
+        "serveAttempts": "109",
+        "digs": "97",
+        "receptionAttempts": "102",
+        "receptionErrors": "6",
+        "blockSolos": "4",
+        "blockAssists": "12",
+        "blockingErrors": "1",
+        "totalBlocks": "10"
+      }
+    }
+  ]
+}

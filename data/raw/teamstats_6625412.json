@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625412,
+  "title": "WVB Boxscore",
+  "description": "Marshall vs James Madison",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46318",
+      "seoname": "marshall",
+      "name6Char": "MARSH",
+      "nameFull": "Marshall University",
+      "nameShort": "Marshall",
+      "teamName": "Thundering Herd",
+      "color": "#00B140"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45785",
+      "seoname": "james-madison",
+      "name6Char": "JMU",
+      "nameFull": "James Madison University",
+      "nameShort": "James Madison",
+      "teamName": "Dukes",
+      "color": "#330072"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46318,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "90",
+        "kills": "57",
+        "attackErrors": "16",
+        "attackAttempts": "137",
+        "hittingPercentage": "0.299",
+        "assists": "53",
+        "setErrors": "1",
+        "setAttempts": "135",
+        "serviceAces": "6",
+        "serviceErrors": "9",
+        "serveAttempts": "89",
+        "digs": "63",
+        "receptionAttempts": "64",
+        "receptionErrors": "4",
+        "blockSolos": "3",
+        "blockAssists": "6",
+        "blockingErrors": "0",
+        "totalBlocks": "6"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45785,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "73",
+        "kills": "43",
+        "attackErrors": "17",
+        "attackAttempts": "128",
+        "hittingPercentage": "0.203",
+        "assists": "40",
+        "setErrors": "0",
+        "setAttempts": "132",
+        "serviceAces": "4",
+        "serviceErrors": "10",
+        "serveAttempts": "74",
+        "digs": "53",
+        "receptionAttempts": "80",
+        "receptionErrors": "6",
+        "blockSolos": "2",
+        "blockAssists": "14",
+        "blockingErrors": "1",
+        "totalBlocks": "9"
+      }
+    }
+  ]
+}

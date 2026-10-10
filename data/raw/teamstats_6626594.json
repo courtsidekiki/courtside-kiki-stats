@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626594,
+  "title": "WVB Boxscore",
+  "description": "Northeastern vs Elon",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46728",
+      "seoname": "northeastern",
+      "name6Char": "NOEAST",
+      "nameFull": "Northeastern University",
+      "nameShort": "Northeastern",
+      "teamName": "Huskies",
+      "color": "#C8102E"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45957",
+      "seoname": "elon",
+      "name6Char": "ELON",
+      "nameFull": "Elon University",
+      "nameShort": "Elon",
+      "teamName": "Phoenix",
+      "color": "#76232F"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46728,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "84",
+        "kills": "38",
+        "attackErrors": "25",
+        "attackAttempts": "113",
+        "hittingPercentage": "0.115",
+        "assists": "37",
+        "setErrors": "1",
+        "setAttempts": "112",
+        "serviceAces": "14",
+        "serviceErrors": "3",
+        "serveAttempts": "85",
+        "digs": "36",
+        "receptionAttempts": "79",
+        "receptionErrors": "9",
+        "blockSolos": "3",
+        "blockAssists": "12",
+        "blockingErrors": "1",
+        "totalBlocks": "9"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45957,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "89",
+        "kills": "51",
+        "attackErrors": "22",
+        "attackAttempts": "116",
+        "hittingPercentage": "0.250",
+        "assists": "47",
+        "setErrors": "1",
+        "setAttempts": "110",
+        "serviceAces": "9",
+        "serviceErrors": "9",
+        "serveAttempts": "88",
+        "digs": "40",
+        "receptionAttempts": "82",
+        "receptionErrors": "14",
+        "blockSolos": "0",
+        "blockAssists": "26",
+        "blockingErrors": "1",
+        "totalBlocks": "13"
+      }
+    }
+  ]
+}

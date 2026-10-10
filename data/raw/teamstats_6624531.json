@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624531,
+  "title": "WVB Boxscore",
+  "description": "Long Beach St. vs UC Santa Barbara",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46160",
+      "seoname": "long-beach-st",
+      "name6Char": "LBSU",
+      "nameFull": "Long Beach State University",
+      "nameShort": "Long Beach St.",
+      "teamName": "Beach",
+      "color": "#010101"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45895",
+      "seoname": "uc-santa-barbara",
+      "name6Char": "UCSB",
+      "nameFull": "University of California, Santa Barbara",
+      "nameShort": "UC Santa Barbara",
+      "teamName": "Gauchos",
+      "color": "#0032A0"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46160,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "98",
+        "kills": "47",
+        "attackErrors": "16",
+        "attackAttempts": "125",
+        "hittingPercentage": "0.248",
+        "assists": "37",
+        "setErrors": "0",
+        "setAttempts": "110",
+        "serviceAces": "8",
+        "serviceErrors": "13",
+        "serveAttempts": "97",
+        "digs": "57",
+        "receptionAttempts": "65",
+        "receptionErrors": "7",
+        "blockSolos": "1",
+        "blockAssists": "18",
+        "blockingErrors": "0",
+        "totalBlocks": "10"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45895,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "80",
+        "kills": "44",
+        "attackErrors": "27",
+        "attackAttempts": "140",
+        "hittingPercentage": "0.121",
+        "assists": "42",
+        "setErrors": "0",
+        "setAttempts": "133",
+        "serviceAces": "7",
+        "serviceErrors": "16",
+        "serveAttempts": "81",
+        "digs": "53",
+        "receptionAttempts": "84",
+        "receptionErrors": "8",
+        "blockSolos": "2",
+        "blockAssists": "12",
+        "blockingErrors": "1",
+        "totalBlocks": "8"
+      }
+    }
+  ]
+}

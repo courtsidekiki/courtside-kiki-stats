@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624475,
+  "title": "WVB Boxscore",
+  "description": "UC Irvine vs Utah Valley",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46400",
+      "seoname": "uc-irvine",
+      "name6Char": "UC IRV",
+      "nameFull": "University of California, Irvine",
+      "nameShort": "UC Irvine",
+      "teamName": "Anteaters",
+      "color": "#0C2340"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46016",
+      "seoname": "utah-valley",
+      "name6Char": "UT VAL",
+      "nameFull": "Utah Valley University",
+      "nameShort": "Utah Valley",
+      "teamName": "Wolverines",
+      "color": "#275D38"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46400,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "45",
+        "attackErrors": "18",
+        "attackAttempts": "108",
+        "hittingPercentage": "0.250",
+        "assists": "42",
+        "setErrors": "2",
+        "setAttempts": "108",
+        "serviceAces": "3",
+        "serviceErrors": "10",
+        "serveAttempts": "73",
+        "digs": "50",
+        "receptionAttempts": "55",
+        "receptionErrors": "2",
+        "blockSolos": "1",
+        "blockAssists": "10",
+        "blockingErrors": "0",
+        "totalBlocks": "6"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46016,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "63",
+        "kills": "31",
+        "attackErrors": "17",
+        "attackAttempts": "108",
+        "hittingPercentage": "0.130",
+        "assists": "29",
+        "setErrors": "0",
+        "setAttempts": "106",
+        "serviceAces": "2",
+        "serviceErrors": "10",
+        "serveAttempts": "65",
+        "digs": "37",
+        "receptionAttempts": "63",
+        "receptionErrors": "3",
+        "blockSolos": "0",
+        "blockAssists": "14",
+        "blockingErrors": "0",
+        "totalBlocks": "7"
+      }
+    }
+  ]
+}

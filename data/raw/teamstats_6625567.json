@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625567,
+  "title": "WVB Boxscore",
+  "description": "Southern Miss. vs Georgia St.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45868",
+      "seoname": "southern-miss",
+      "name6Char": "S MISS",
+      "nameFull": "The University of Southern Mississippi",
+      "nameShort": "Southern Miss.",
+      "teamName": "Golden Eagles",
+      "color": "#010101"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46676",
+      "seoname": "georgia-st",
+      "name6Char": "GA ST",
+      "nameFull": "Georgia State University",
+      "nameShort": "Georgia St.",
+      "teamName": "Panthers",
+      "color": "#264391"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45868,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "98",
+        "kills": "68",
+        "attackErrors": "29",
+        "attackAttempts": "187",
+        "hittingPercentage": "0.209",
+        "assists": "64",
+        "setErrors": "4",
+        "setAttempts": "183",
+        "serviceAces": "5",
+        "serviceErrors": "9",
+        "serveAttempts": "97",
+        "digs": "85",
+        "receptionAttempts": "85",
+        "receptionErrors": "3",
+        "blockSolos": "1",
+        "blockAssists": "12",
+        "blockingErrors": "6",
+        "totalBlocks": "7"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46676,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "89",
+        "kills": "44",
+        "attackErrors": "20",
+        "attackAttempts": "163",
+        "hittingPercentage": "0.147",
+        "assists": "41",
+        "setErrors": "0",
+        "setAttempts": "158",
+        "serviceAces": "3",
+        "serviceErrors": "5",
+        "serveAttempts": "90",
+        "digs": "73",
+        "receptionAttempts": "88",
+        "receptionErrors": "5",
+        "blockSolos": "4",
+        "blockAssists": "14",
+        "blockingErrors": "0",
+        "totalBlocks": "11"
+      }
+    }
+  ]
+}

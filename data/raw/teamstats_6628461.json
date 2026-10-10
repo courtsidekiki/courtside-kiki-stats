@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628461,
+  "title": "WVB Boxscore",
+  "description": "Merrimack vs Marist",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46433",
+      "seoname": "merrimack",
+      "name6Char": "MERMCK",
+      "nameFull": "Merrimack College",
+      "nameShort": "Merrimack",
+      "teamName": "Warriors",
+      "color": "#003057"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46561",
+      "seoname": "marist",
+      "name6Char": "MARIST",
+      "nameFull": "Marist University",
+      "nameShort": "Marist",
+      "teamName": "Red Foxes",
+      "color": "#C8102E"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46433,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "99",
+        "kills": "56",
+        "attackErrors": "16",
+        "attackAttempts": "162",
+        "hittingPercentage": "0.247",
+        "assists": "51",
+        "setErrors": "4",
+        "setAttempts": "159",
+        "serviceAces": "4",
+        "serviceErrors": "10",
+        "serveAttempts": "98",
+        "digs": "79",
+        "receptionAttempts": "87",
+        "receptionErrors": "9",
+        "blockSolos": "2",
+        "blockAssists": "4",
+        "blockingErrors": "0",
+        "totalBlocks": "4"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46561,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "101",
+        "kills": "61",
+        "attackErrors": "21",
+        "attackAttempts": "177",
+        "hittingPercentage": "0.226",
+        "assists": "55",
+        "setErrors": "3",
+        "setAttempts": "168",
+        "serviceAces": "9",
+        "serviceErrors": "15",
+        "serveAttempts": "102",
+        "digs": "83",
+        "receptionAttempts": "88",
+        "receptionErrors": "4",
+        "blockSolos": "1",
+        "blockAssists": "10",
+        "blockingErrors": "0",
+        "totalBlocks": "6"
+      }
+    }
+  ]
+}

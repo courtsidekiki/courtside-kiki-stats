@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624977,
+  "title": "WVB Boxscore",
+  "description": "Col. of Charleston vs Hampton",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46585",
+      "seoname": "col-of-charleston",
+      "name6Char": "C OF C",
+      "nameFull": "College of Charleston (South Carolina)",
+      "nameShort": "Col. of Charleston",
+      "teamName": "Cougars",
+      "color": "#76232F"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46679",
+      "seoname": "hampton",
+      "name6Char": "HAMPTN",
+      "nameFull": "Hampton University",
+      "nameShort": "Hampton",
+      "teamName": "Lady Pirates",
+      "color": "#0033A0"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46585,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "50",
+        "attackErrors": "9",
+        "attackAttempts": "93",
+        "hittingPercentage": "0.441",
+        "assists": "46",
+        "setErrors": "2",
+        "setAttempts": "91",
+        "serviceAces": "5",
+        "serviceErrors": "5",
+        "serveAttempts": "73",
+        "digs": "49",
+        "receptionAttempts": "38",
+        "receptionErrors": "1",
+        "blockSolos": "0",
+        "blockAssists": "22",
+        "blockingErrors": "1",
+        "totalBlocks": "11"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46679,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "37",
+        "kills": "20",
+        "attackErrors": "19",
+        "attackAttempts": "93",
+        "hittingPercentage": "0.011",
+        "assists": "17",
+        "setErrors": "0",
+        "setAttempts": "90",
+        "serviceAces": "1",
+        "serviceErrors": "1",
+        "serveAttempts": "39",
+        "digs": "26",
+        "receptionAttempts": "68",
+        "receptionErrors": "5",
+        "blockSolos": "0",
+        "blockAssists": "4",
+        "blockingErrors": "1",
+        "totalBlocks": "2"
+      }
+    }
+  ]
+}

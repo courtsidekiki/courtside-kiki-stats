@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625125,
+  "title": "WVB Boxscore",
+  "description": "Prairie View vs Alabama A&M",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46734",
+      "seoname": "prairie-view",
+      "name6Char": "PV A&M",
+      "nameFull": "Prairie View A&M University",
+      "nameShort": "Prairie View",
+      "teamName": "Lady Panthers",
+      "color": "#582C83"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46068",
+      "seoname": "alabama-am",
+      "name6Char": "AL A&M",
+      "nameFull": "Alabama A&M University",
+      "nameShort": "Alabama A&M",
+      "teamName": "Bulldogs",
+      "color": "#862633"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46734,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "85",
+        "kills": "47",
+        "attackErrors": "21",
+        "attackAttempts": "143",
+        "hittingPercentage": "0.182",
+        "assists": "45",
+        "setErrors": "3",
+        "setAttempts": "142",
+        "serviceAces": "2",
+        "serviceErrors": "15",
+        "serveAttempts": "86",
+        "digs": "55",
+        "receptionAttempts": "92",
+        "receptionErrors": "8",
+        "blockSolos": "2",
+        "blockAssists": "20",
+        "blockingErrors": "0",
+        "totalBlocks": "12"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46068,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "99",
+        "kills": "52",
+        "attackErrors": "28",
+        "attackAttempts": "148",
+        "hittingPercentage": "0.162",
+        "assists": "50",
+        "setErrors": "2",
+        "setAttempts": "148",
+        "serviceAces": "8",
+        "serviceErrors": "6",
+        "serveAttempts": "98",
+        "digs": "64",
+        "receptionAttempts": "71",
+        "receptionErrors": "2",
+        "blockSolos": "1",
+        "blockAssists": "14",
+        "blockingErrors": "0",
+        "totalBlocks": "8"
+      }
+    }
+  ]
+}

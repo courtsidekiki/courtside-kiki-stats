@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625067,
+  "title": "WVB Boxscore",
+  "description": "Norfolk St. vs South Carolina St.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45976",
+      "seoname": "norfolk-st",
+      "name6Char": "NORFLK",
+      "nameFull": "Norfolk State University",
+      "nameShort": "Norfolk St.",
+      "teamName": "Spartans",
+      "color": "#007A53"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45866",
+      "seoname": "south-carolina-st",
+      "name6Char": "SC ST",
+      "nameFull": "South Carolina State University",
+      "nameShort": "South Carolina St.",
+      "teamName": "Lady Bulldogs",
+      "color": "#862633"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45976,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "37",
+        "attackErrors": "10",
+        "attackAttempts": "81",
+        "hittingPercentage": "0.333",
+        "assists": "36",
+        "setErrors": "2",
+        "setAttempts": "89",
+        "serviceAces": "12",
+        "serviceErrors": "7",
+        "serveAttempts": "74",
+        "digs": "39",
+        "receptionAttempts": "47",
+        "receptionErrors": "6",
+        "blockSolos": "0",
+        "blockAssists": "6",
+        "blockingErrors": "1",
+        "totalBlocks": "3"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45866,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "51",
+        "kills": "25",
+        "attackErrors": "17",
+        "attackAttempts": "85",
+        "hittingPercentage": "0.094",
+        "assists": "19",
+        "setErrors": "3",
+        "setAttempts": "83",
+        "serviceAces": "6",
+        "serviceErrors": "5",
+        "serveAttempts": "52",
+        "digs": "26",
+        "receptionAttempts": "67",
+        "receptionErrors": "12",
+        "blockSolos": "1",
+        "blockAssists": "10",
+        "blockingErrors": "0",
+        "totalBlocks": "6"
+      }
+    }
+  ]
+}

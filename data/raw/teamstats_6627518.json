@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627518,
+  "title": "WVB Boxscore",
+  "description": "Iowa St. vs Kansas St.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46190",
+      "seoname": "iowa-st",
+      "name6Char": "IOWAST",
+      "nameFull": "Iowa State University",
+      "nameShort": "Iowa St.",
+      "teamName": "Cyclones",
+      "color": "#A6192E"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46557",
+      "seoname": "kansas-st",
+      "name6Char": "KAN ST",
+      "nameFull": "Kansas State University",
+      "nameShort": "Kansas St.",
+      "teamName": "Wildcats",
+      "color": "#582C83"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46190,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "40",
+        "attackErrors": "9",
+        "attackAttempts": "90",
+        "hittingPercentage": "0.344",
+        "assists": "34",
+        "setErrors": "0",
+        "setAttempts": "80",
+        "serviceAces": "5",
+        "serviceErrors": "7",
+        "serveAttempts": "73",
+        "digs": "42",
+        "receptionAttempts": "46",
+        "receptionErrors": "4",
+        "blockSolos": "2",
+        "blockAssists": "8",
+        "blockingErrors": "0",
+        "totalBlocks": "6"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46557,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "53",
+        "kills": "33",
+        "attackErrors": "21",
+        "attackAttempts": "105",
+        "hittingPercentage": "0.114",
+        "assists": "30",
+        "setErrors": "0",
+        "setAttempts": "96",
+        "serviceAces": "4",
+        "serviceErrors": "9",
+        "serveAttempts": "55",
+        "digs": "37",
+        "receptionAttempts": "66",
+        "receptionErrors": "5",
+        "blockSolos": "1",
+        "blockAssists": "6",
+        "blockingErrors": "0",
+        "totalBlocks": "4"
+      }
+    }
+  ]
+}

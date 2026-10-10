@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628378,
+  "title": "WVB Boxscore",
+  "description": "Omaha vs St. Thomas (MN)",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46342",
+      "seoname": "neb-omaha",
+      "name6Char": "OMAHA",
+      "nameFull": "University of Nebraska at Omaha",
+      "nameShort": "Omaha",
+      "teamName": "Mavericks",
+      "color": "#010101"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45998",
+      "seoname": "st-thomas-mn",
+      "name6Char": "STTHOM",
+      "nameFull": "University of St. Thomas (Minnesota)",
+      "nameShort": "St. Thomas (MN)",
+      "teamName": "Tommies",
+      "color": "#412784"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46342,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "56",
+        "kills": "36",
+        "attackErrors": "28",
+        "attackAttempts": "113",
+        "hittingPercentage": "0.071",
+        "assists": "35",
+        "setErrors": "0",
+        "setAttempts": "117",
+        "serviceAces": "4",
+        "serviceErrors": "11",
+        "serveAttempts": "57",
+        "digs": "43",
+        "receptionAttempts": "70",
+        "receptionErrors": "7",
+        "blockSolos": "1",
+        "blockAssists": "10",
+        "blockingErrors": "3",
+        "totalBlocks": "6"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45998,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "29",
+        "attackErrors": "12",
+        "attackAttempts": "93",
+        "hittingPercentage": "0.183",
+        "assists": "27",
+        "setErrors": "0",
+        "setAttempts": "91",
+        "serviceAces": "7",
+        "serviceErrors": "4",
+        "serveAttempts": "74",
+        "digs": "43",
+        "receptionAttempts": "46",
+        "receptionErrors": "4",
+        "blockSolos": "6",
+        "blockAssists": "6",
+        "blockingErrors": "1",
+        "totalBlocks": "9"
+      }
+    }
+  ]
+}

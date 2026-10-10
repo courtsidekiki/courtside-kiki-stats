@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627809,
+  "title": "WVB Boxscore",
+  "description": "Cornell vs Dartmouth",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46173",
+      "seoname": "cornell",
+      "name6Char": "CORN",
+      "nameFull": "Cornell University",
+      "nameShort": "Cornell",
+      "teamName": "Big Red",
+      "color": "#B32025"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46046",
+      "seoname": "dartmouth",
+      "name6Char": "DART",
+      "nameFull": "Dartmouth College",
+      "nameShort": "Dartmouth",
+      "teamName": "Big Green",
+      "color": "#046A38"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46173,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "42",
+        "attackErrors": "6",
+        "attackAttempts": "74",
+        "hittingPercentage": "0.486",
+        "assists": "37",
+        "setErrors": "0",
+        "setAttempts": "85",
+        "serviceAces": "6",
+        "serviceErrors": "7",
+        "serveAttempts": "74",
+        "digs": "45",
+        "receptionAttempts": "30",
+        "receptionErrors": "2",
+        "blockSolos": "4",
+        "blockAssists": "8",
+        "blockingErrors": "0",
+        "totalBlocks": "8"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46046,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "35",
+        "kills": "20",
+        "attackErrors": "18",
+        "attackAttempts": "92",
+        "hittingPercentage": "0.022",
+        "assists": "18",
+        "setErrors": "2",
+        "setAttempts": "99",
+        "serviceAces": "2",
+        "serviceErrors": "6",
+        "serveAttempts": "36",
+        "digs": "27",
+        "receptionAttempts": "67",
+        "receptionErrors": "6",
+        "blockSolos": "1",
+        "blockAssists": "6",
+        "blockingErrors": "0",
+        "totalBlocks": "4"
+      }
+    }
+  ]
+}

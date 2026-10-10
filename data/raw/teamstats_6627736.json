@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627736,
+  "title": "WVB Boxscore",
+  "description": "Bethune-Cookman vs Grambling",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46699",
+      "seoname": "bethune-cookman",
+      "name6Char": "BECOOK",
+      "nameFull": "Bethune-Cookman University",
+      "nameShort": "Bethune-Cookman",
+      "teamName": "Wildcats",
+      "color": "#6F263D"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46051",
+      "seoname": "grambling",
+      "name6Char": "GRAMB",
+      "nameFull": "Grambling State University",
+      "nameShort": "Grambling",
+      "teamName": "Lady Tigers",
+      "color": "#010101"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46699,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "94",
+        "kills": "58",
+        "attackErrors": "21",
+        "attackAttempts": "138",
+        "hittingPercentage": "0.268",
+        "assists": "52",
+        "setErrors": "1",
+        "setAttempts": "135",
+        "serviceAces": "5",
+        "serviceErrors": "2",
+        "serveAttempts": "93",
+        "digs": "63",
+        "receptionAttempts": "68",
+        "receptionErrors": "7",
+        "blockSolos": "2",
+        "blockAssists": "8",
+        "blockingErrors": "2",
+        "totalBlocks": "6"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46051,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "76",
+        "kills": "45",
+        "attackErrors": "20",
+        "attackAttempts": "142",
+        "hittingPercentage": "0.176",
+        "assists": "44",
+        "setErrors": "2",
+        "setAttempts": "146",
+        "serviceAces": "7",
+        "serviceErrors": "9",
+        "serveAttempts": "77",
+        "digs": "56",
+        "receptionAttempts": "91",
+        "receptionErrors": "5",
+        "blockSolos": "0",
+        "blockAssists": "12",
+        "blockingErrors": "0",
+        "totalBlocks": "6"
+      }
+    }
+  ]
+}

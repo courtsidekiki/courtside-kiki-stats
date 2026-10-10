@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627321,
+  "title": "WVB Boxscore",
+  "description": "Hawaii vs San Jose St.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46419",
+      "seoname": "hawaii",
+      "name6Char": "HAWAII",
+      "nameFull": "University of Hawaii, Manoa",
+      "nameShort": "Hawaii",
+      "teamName": "Rainbow Wahine",
+      "color": "#154734"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46494",
+      "seoname": "san-jose-st",
+      "name6Char": "SJSU",
+      "nameFull": "San Jose State University",
+      "nameShort": "San Jose St.",
+      "teamName": "Spartans",
+      "color": "#233A82"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46419,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "51",
+        "attackErrors": "9",
+        "attackAttempts": "114",
+        "hittingPercentage": "0.368",
+        "assists": "47",
+        "setErrors": "1",
+        "setAttempts": "106",
+        "serviceAces": "3",
+        "serviceErrors": "8",
+        "serveAttempts": "73",
+        "digs": "58",
+        "receptionAttempts": "45",
+        "receptionErrors": "4",
+        "blockSolos": "0",
+        "blockAssists": "8",
+        "blockingErrors": "3",
+        "totalBlocks": "4"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46494,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "49",
+        "kills": "27",
+        "attackErrors": "15",
+        "attackAttempts": "107",
+        "hittingPercentage": "0.112",
+        "assists": "26",
+        "setErrors": "0",
+        "setAttempts": "106",
+        "serviceAces": "4",
+        "serviceErrors": "6",
+        "serveAttempts": "51",
+        "digs": "44",
+        "receptionAttempts": "65",
+        "receptionErrors": "3",
+        "blockSolos": "0",
+        "blockAssists": "6",
+        "blockingErrors": "3",
+        "totalBlocks": "3"
+      }
+    }
+  ]
+}

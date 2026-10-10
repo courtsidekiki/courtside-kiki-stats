@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626839,
+  "title": "WVB Boxscore",
+  "description": "Alcorn vs Jackson St.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46694",
+      "seoname": "alcorn",
+      "name6Char": "ALCORN",
+      "nameFull": "Alcorn State University",
+      "nameShort": "Alcorn",
+      "teamName": "Lady Braves",
+      "color": "#512D6D"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45783",
+      "seoname": "jackson-st",
+      "name6Char": "JACKST",
+      "nameFull": "Jackson State University",
+      "nameShort": "Jackson St.",
+      "teamName": "Lady Tigers",
+      "color": "#041E42"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46694,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "101",
+        "kills": "62",
+        "attackErrors": "19",
+        "attackAttempts": "149",
+        "hittingPercentage": "0.289",
+        "assists": "57",
+        "setErrors": "5",
+        "setAttempts": "178",
+        "serviceAces": "9",
+        "serviceErrors": "14",
+        "serveAttempts": "101",
+        "digs": "64",
+        "receptionAttempts": "108",
+        "receptionErrors": "7",
+        "blockSolos": "2",
+        "blockAssists": "8",
+        "blockingErrors": "0",
+        "totalBlocks": "6"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45783,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "114",
+        "kills": "69",
+        "attackErrors": "23",
+        "attackAttempts": "160",
+        "hittingPercentage": "0.287",
+        "assists": "63",
+        "setErrors": "1",
+        "setAttempts": "165",
+        "serviceAces": "7",
+        "serviceErrors": "6",
+        "serveAttempts": "114",
+        "digs": "60",
+        "receptionAttempts": "87",
+        "receptionErrors": "9",
+        "blockSolos": "4",
+        "blockAssists": "4",
+        "blockingErrors": "0",
+        "totalBlocks": "6"
+      }
+    }
+  ]
+}

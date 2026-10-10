@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628629,
+  "title": "WVB Boxscore",
+  "description": "Stetson vs Lipscomb",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46502",
+      "seoname": "stetson",
+      "name6Char": "STETSN",
+      "nameFull": "Stetson University",
+      "nameShort": "Stetson",
+      "teamName": "Hatters",
+      "color": "#006747"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46768",
+      "seoname": "lipscomb",
+      "name6Char": "LIPSCO",
+      "nameFull": "Lipscomb University",
+      "nameShort": "Lipscomb",
+      "teamName": "Bisons",
+      "color": "#2E1A47"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46502,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "66",
+        "kills": "38",
+        "attackErrors": "14",
+        "attackAttempts": "115",
+        "hittingPercentage": "0.209",
+        "assists": "36",
+        "setErrors": "1",
+        "setAttempts": "133",
+        "serviceAces": "2",
+        "serviceErrors": "2",
+        "serveAttempts": "68",
+        "digs": "65",
+        "receptionAttempts": "66",
+        "receptionErrors": "3",
+        "blockSolos": "1",
+        "blockAssists": "6",
+        "blockingErrors": "2",
+        "totalBlocks": "4"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46768,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "55",
+        "attackErrors": "17",
+        "attackAttempts": "146",
+        "hittingPercentage": "0.260",
+        "assists": "52",
+        "setErrors": "2",
+        "setAttempts": "141",
+        "serviceAces": "3",
+        "serviceErrors": "7",
+        "serveAttempts": "73",
+        "digs": "56",
+        "receptionAttempts": "66",
+        "receptionErrors": "2",
+        "blockSolos": "2",
+        "blockAssists": "8",
+        "blockingErrors": "1",
+        "totalBlocks": "6"
+      }
+    }
+  ]
+}

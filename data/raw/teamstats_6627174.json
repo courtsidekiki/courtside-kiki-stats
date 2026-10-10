@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627174,
+  "title": "WVB Boxscore",
+  "description": "Mississippi St. vs Georgia",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45937",
+      "seoname": "mississippi-st",
+      "name6Char": "MISSST",
+      "nameFull": "Mississippi State University",
+      "nameShort": "Mississippi St.",
+      "teamName": "Bulldogs",
+      "color": "#5D1725"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45911",
+      "seoname": "georgia",
+      "name6Char": "UGA",
+      "nameFull": "University of Georgia",
+      "nameShort": "Georgia",
+      "teamName": "Bulldogs",
+      "color": "#DA291C"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45937,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "55",
+        "attackErrors": "10",
+        "attackAttempts": "129",
+        "hittingPercentage": "0.349",
+        "assists": "52",
+        "setErrors": "0",
+        "setAttempts": "124",
+        "serviceAces": "1",
+        "serviceErrors": "6",
+        "serveAttempts": "73",
+        "digs": "57",
+        "receptionAttempts": "55",
+        "receptionErrors": "0",
+        "blockSolos": "2",
+        "blockAssists": "2",
+        "blockingErrors": "2",
+        "totalBlocks": "3"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45911,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "59",
+        "kills": "43",
+        "attackErrors": "13",
+        "attackAttempts": "118",
+        "hittingPercentage": "0.254",
+        "assists": "40",
+        "setErrors": "0",
+        "setAttempts": "121",
+        "serviceAces": "0",
+        "serviceErrors": "6",
+        "serveAttempts": "61",
+        "digs": "54",
+        "receptionAttempts": "67",
+        "receptionErrors": "1",
+        "blockSolos": "0",
+        "blockAssists": "4",
+        "blockingErrors": "0",
+        "totalBlocks": "2"
+      }
+    }
+  ]
+}

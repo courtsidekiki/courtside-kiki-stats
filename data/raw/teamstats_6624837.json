@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624837,
+  "title": "WVB Boxscore",
+  "description": "Rutgers vs Minnesota",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46617",
+      "seoname": "rutgers",
+      "name6Char": "RUTGER",
+      "nameFull": "Rutgers, The State University of New Jersey, New Brunswick",
+      "nameShort": "Rutgers",
+      "teamName": "Scarlet Knights",
+      "color": "#C8102E"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46204",
+      "seoname": "minnesota",
+      "name6Char": "MINN",
+      "nameFull": "University of Minnesota, Twin Cities",
+      "nameShort": "Minnesota",
+      "teamName": "Golden Gophers",
+      "color": "#861F41"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46617,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "84",
+        "kills": "62",
+        "attackErrors": "20",
+        "attackAttempts": "158",
+        "hittingPercentage": "0.266",
+        "assists": "60",
+        "setErrors": "0",
+        "setAttempts": "158",
+        "serviceAces": "1",
+        "serviceErrors": "10",
+        "serveAttempts": "85",
+        "digs": "67",
+        "receptionAttempts": "90",
+        "receptionErrors": "7",
+        "blockSolos": "1",
+        "blockAssists": "2",
+        "blockingErrors": "0",
+        "totalBlocks": "2"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46204,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "98",
+        "kills": "61",
+        "attackErrors": "13",
+        "attackAttempts": "150",
+        "hittingPercentage": "0.320",
+        "assists": "56",
+        "setErrors": "1",
+        "setAttempts": "143",
+        "serviceAces": "7",
+        "serviceErrors": "7",
+        "serveAttempts": "97",
+        "digs": "66",
+        "receptionAttempts": "75",
+        "receptionErrors": "1",
+        "blockSolos": "2",
+        "blockAssists": "18",
+        "blockingErrors": "1",
+        "totalBlocks": "11"
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626006,
+  "title": "WVB Boxscore",
+  "description": "Missouri St. vs Sam Houston",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46751",
+      "seoname": "missouri-st",
+      "name6Char": "MO ST",
+      "nameFull": "Missouri State University",
+      "nameShort": "Missouri St.",
+      "teamName": "Bears",
+      "color": "#6F2C3F"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45863",
+      "seoname": "sam-houston-st",
+      "name6Char": "SAMHOU",
+      "nameFull": "Sam Houston State University",
+      "nameShort": "Sam Houston",
+      "teamName": "Bearkats",
+      "color": "#DF502A"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46751,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "99",
+        "kills": "53",
+        "attackErrors": "22",
+        "attackAttempts": "165",
+        "hittingPercentage": "0.188",
+        "assists": "50",
+        "setErrors": "1",
+        "setAttempts": "161",
+        "serviceAces": "6",
+        "serviceErrors": "9",
+        "serveAttempts": "98",
+        "digs": "80",
+        "receptionAttempts": "83",
+        "receptionErrors": "2",
+        "blockSolos": "5",
+        "blockAssists": "17",
+        "blockingErrors": "1",
+        "totalBlocks": "13"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45863,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "85",
+        "kills": "51",
+        "attackErrors": "33",
+        "attackAttempts": "175",
+        "hittingPercentage": "0.103",
+        "assists": "49",
+        "setErrors": "4",
+        "setAttempts": "180",
+        "serviceAces": "2",
+        "serviceErrors": "3",
+        "serveAttempts": "86",
+        "digs": "82",
+        "receptionAttempts": "89",
+        "receptionErrors": "6",
+        "blockSolos": "1",
+        "blockAssists": "20",
+        "blockingErrors": "0",
+        "totalBlocks": "11"
+      }
+    }
+  ]
+}

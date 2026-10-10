@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628469,
+  "title": "WVB Boxscore",
+  "description": "NC State vs Syracuse",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45846",
+      "seoname": "north-carolina-st",
+      "name6Char": "NC ST",
+      "nameFull": "North Carolina State University",
+      "nameShort": "NC State",
+      "teamName": "Wolfpack",
+      "color": "#C8102E"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46126",
+      "seoname": "syracuse",
+      "name6Char": "SYR",
+      "nameFull": "Syracuse University",
+      "nameShort": "Syracuse",
+      "teamName": "Orange",
+      "color": "#DC4405"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45846,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "97",
+        "kills": "59",
+        "attackErrors": "20",
+        "attackAttempts": "154",
+        "hittingPercentage": "0.253",
+        "assists": "46",
+        "setErrors": "2",
+        "setAttempts": "140",
+        "serviceAces": "7",
+        "serviceErrors": "14",
+        "serveAttempts": "96",
+        "digs": "64",
+        "receptionAttempts": "68",
+        "receptionErrors": "5",
+        "blockSolos": "1",
+        "blockAssists": "16",
+        "blockingErrors": "0",
+        "totalBlocks": "9"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46126,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "72",
+        "kills": "31",
+        "attackErrors": "26",
+        "attackAttempts": "134",
+        "hittingPercentage": "0.037",
+        "assists": "29",
+        "setErrors": "0",
+        "setAttempts": "137",
+        "serviceAces": "5",
+        "serviceErrors": "5",
+        "serveAttempts": "73",
+        "digs": "62",
+        "receptionAttempts": "82",
+        "receptionErrors": "7",
+        "blockSolos": "0",
+        "blockAssists": "16",
+        "blockingErrors": "0",
+        "totalBlocks": "8"
+      }
+    }
+  ]
+}

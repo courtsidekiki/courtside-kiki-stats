@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625232,
+  "title": "WVB Boxscore",
+  "description": "Tennessee vs Ole Miss",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46005",
+      "seoname": "tennessee",
+      "name6Char": "TENN",
+      "nameFull": "University of Tennessee, Knoxville",
+      "nameShort": "Tennessee",
+      "teamName": "Volunteers",
+      "color": "#FF8200"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45938",
+      "seoname": "ole-miss",
+      "name6Char": "MISS",
+      "nameFull": "University of Mississippi",
+      "nameShort": "Ole Miss",
+      "teamName": "Rebels",
+      "color": "#C8102E"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46005,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "37",
+        "attackErrors": "10",
+        "attackAttempts": "75",
+        "hittingPercentage": "0.360",
+        "assists": "32",
+        "setErrors": "0",
+        "setAttempts": "72",
+        "serviceAces": "12",
+        "serviceErrors": "10",
+        "serveAttempts": "73",
+        "digs": "29",
+        "receptionAttempts": "36",
+        "receptionErrors": "1",
+        "blockSolos": "2",
+        "blockAssists": "10",
+        "blockingErrors": "0",
+        "totalBlocks": "7"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45938,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "40",
+        "kills": "19",
+        "attackErrors": "18",
+        "attackAttempts": "71",
+        "hittingPercentage": "0.014",
+        "assists": "19",
+        "setErrors": "2",
+        "setAttempts": "75",
+        "serviceAces": "1",
+        "serviceErrors": "6",
+        "serveAttempts": "42",
+        "digs": "24",
+        "receptionAttempts": "63",
+        "receptionErrors": "12",
+        "blockSolos": "1",
+        "blockAssists": "6",
+        "blockingErrors": "0",
+        "totalBlocks": "4"
+      }
+    }
+  ]
+}

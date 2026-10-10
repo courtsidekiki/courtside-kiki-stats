@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624864,
+  "title": "WVB Boxscore",
+  "description": "Coppin St. vs UMES",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46045",
+      "seoname": "coppin-st",
+      "name6Char": "COPPIN",
+      "nameFull": "Coppin State University",
+      "nameShort": "Coppin St.",
+      "teamName": "Eagles",
+      "color": "#0c3354"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46563",
+      "seoname": "umes",
+      "name6Char": "UMES",
+      "nameFull": "University of Maryland Eastern Shore",
+      "nameShort": "UMES",
+      "teamName": "Hawks",
+      "color": "#5D0024"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46045,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "48",
+        "attackErrors": "18",
+        "attackAttempts": "102",
+        "hittingPercentage": "0.294",
+        "assists": "43",
+        "setErrors": "1",
+        "setAttempts": "98",
+        "serviceAces": "6",
+        "serviceErrors": "12",
+        "serveAttempts": "73",
+        "digs": "29",
+        "receptionAttempts": "55",
+        "receptionErrors": "1",
+        "blockSolos": "2",
+        "blockAssists": "10",
+        "blockingErrors": "0",
+        "totalBlocks": "7"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46563,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "56",
+        "kills": "24",
+        "attackErrors": "15",
+        "attackAttempts": "73",
+        "hittingPercentage": "0.123",
+        "assists": "22",
+        "setErrors": "3",
+        "setAttempts": "80",
+        "serviceAces": "1",
+        "serviceErrors": "3",
+        "serveAttempts": "58",
+        "digs": "30",
+        "receptionAttempts": "61",
+        "receptionErrors": "6",
+        "blockSolos": "1",
+        "blockAssists": "10",
+        "blockingErrors": "1",
+        "totalBlocks": "6"
+      }
+    }
+  ]
+}

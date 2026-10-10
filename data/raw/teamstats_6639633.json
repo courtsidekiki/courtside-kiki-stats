@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6639633,
+  "title": "WVB Boxscore",
+  "description": "Quinnipiac vs Siena",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46112",
+      "seoname": "quinnipiac",
+      "name6Char": "QUINN",
+      "nameFull": "Quinnipiac University",
+      "nameShort": "Quinnipiac",
+      "teamName": "Bobcats",
+      "color": "#0C2340"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46248",
+      "seoname": "siena",
+      "name6Char": "SIENA",
+      "nameFull": "Siena University",
+      "nameShort": "Siena",
+      "teamName": "Saints",
+      "color": "#006747"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46112,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "90",
+        "kills": "54",
+        "attackErrors": "25",
+        "attackAttempts": "159",
+        "hittingPercentage": "0.182",
+        "assists": "47",
+        "setErrors": "6",
+        "setAttempts": "165",
+        "serviceAces": "2",
+        "serviceErrors": "6",
+        "serveAttempts": "91",
+        "digs": "68",
+        "receptionAttempts": "77",
+        "receptionErrors": "3",
+        "blockSolos": "6",
+        "blockAssists": "4",
+        "blockingErrors": "1",
+        "totalBlocks": "8"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46248,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "89",
+        "kills": "49",
+        "attackErrors": "17",
+        "attackAttempts": "145",
+        "hittingPercentage": "0.221",
+        "assists": "45",
+        "setErrors": "6",
+        "setAttempts": "161",
+        "serviceAces": "3",
+        "serviceErrors": "11",
+        "serveAttempts": "88",
+        "digs": "68",
+        "receptionAttempts": "85",
+        "receptionErrors": "2",
+        "blockSolos": "4",
+        "blockAssists": "14",
+        "blockingErrors": "3",
+        "totalBlocks": "11"
+      }
+    }
+  ]
+}

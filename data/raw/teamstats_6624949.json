@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624949,
+  "title": "WVB Boxscore",
+  "description": "Oakland vs IU Indy",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46108",
+      "seoname": "oakland",
+      "name6Char": "OAK",
+      "nameFull": "Oakland University",
+      "nameShort": "Oakland",
+      "teamName": "Golden Grizzlies",
+      "color": "#010101"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46148",
+      "seoname": "iu-indy",
+      "name6Char": "IUINDY",
+      "nameFull": "Indiana University Indianapolis",
+      "nameShort": "IU Indy",
+      "teamName": "Jaguars",
+      "color": "#A90533"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46108,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "110",
+        "kills": "63",
+        "attackErrors": "29",
+        "attackAttempts": "174",
+        "hittingPercentage": "0.195",
+        "assists": "54",
+        "setErrors": "0",
+        "setAttempts": "173",
+        "serviceAces": "9",
+        "serviceErrors": "10",
+        "serveAttempts": "110",
+        "digs": "64",
+        "receptionAttempts": "108",
+        "receptionErrors": "7",
+        "blockSolos": "1",
+        "blockAssists": "12",
+        "blockingErrors": "5",
+        "totalBlocks": "7"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46148,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "119",
+        "kills": "73",
+        "attackErrors": "23",
+        "attackAttempts": "175",
+        "hittingPercentage": "0.286",
+        "assists": "63",
+        "setErrors": "4",
+        "setAttempts": "182",
+        "serviceAces": "7",
+        "serviceErrors": "11",
+        "serveAttempts": "119",
+        "digs": "74",
+        "receptionAttempts": "100",
+        "receptionErrors": "9",
+        "blockSolos": "5",
+        "blockAssists": "8",
+        "blockingErrors": "1",
+        "totalBlocks": "9"
+      }
+    }
+  ]
+}

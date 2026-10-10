@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626183,
+  "title": "WVB Boxscore",
+  "description": "Holy Cross vs Loyola Maryland",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45915",
+      "seoname": "holy-cross",
+      "name6Char": "HOLYCR",
+      "nameFull": "College of the Holy Cross",
+      "nameShort": "Holy Cross",
+      "teamName": "Crusaders",
+      "color": "#582C83"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46062",
+      "seoname": "loyola-maryland",
+      "name6Char": "LOY MD",
+      "nameFull": "Loyola University Maryland",
+      "nameShort": "Loyola Maryland",
+      "teamName": "Greyhounds",
+      "color": "#115740"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45915,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "100",
+        "kills": "49",
+        "attackErrors": "18",
+        "attackAttempts": "130",
+        "hittingPercentage": "0.238",
+        "assists": "48",
+        "setErrors": "4",
+        "setAttempts": "131",
+        "serviceAces": "6",
+        "serviceErrors": "9",
+        "serveAttempts": "99",
+        "digs": "64",
+        "receptionAttempts": "73",
+        "receptionErrors": "4",
+        "blockSolos": "4",
+        "blockAssists": "20",
+        "blockingErrors": "3",
+        "totalBlocks": "14"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46062,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "83",
+        "kills": "47",
+        "attackErrors": "34",
+        "attackAttempts": "151",
+        "hittingPercentage": "0.086",
+        "assists": "45",
+        "setErrors": "0",
+        "setAttempts": "153",
+        "serviceAces": "4",
+        "serviceErrors": "11",
+        "serveAttempts": "84",
+        "digs": "57",
+        "receptionAttempts": "90",
+        "receptionErrors": "6",
+        "blockSolos": "6",
+        "blockAssists": "6",
+        "blockingErrors": "2",
+        "totalBlocks": "9"
+      }
+    }
+  ]
+}

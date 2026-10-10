@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628549,
+  "title": "WVB Boxscore",
+  "description": "Bowling Green vs Ohio",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46217",
+      "seoname": "bowling-green",
+      "name6Char": "BGSU",
+      "nameFull": "Bowling Green State University",
+      "nameShort": "Bowling Green",
+      "teamName": "Falcons",
+      "color": "#FE5000"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46731",
+      "seoname": "ohio",
+      "name6Char": "OHIO",
+      "nameFull": "Ohio University",
+      "nameShort": "Ohio",
+      "teamName": "Bobcats",
+      "color": "#154734"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46217,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "115",
+        "kills": "66",
+        "attackErrors": "23",
+        "attackAttempts": "167",
+        "hittingPercentage": "0.257",
+        "assists": "62",
+        "setErrors": "0",
+        "setAttempts": "154",
+        "serviceAces": "3",
+        "serviceErrors": "14",
+        "serveAttempts": "114",
+        "digs": "59",
+        "receptionAttempts": "87",
+        "receptionErrors": "3",
+        "blockSolos": "4",
+        "blockAssists": "16",
+        "blockingErrors": "0",
+        "totalBlocks": "12"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46731,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "101",
+        "kills": "61",
+        "attackErrors": "29",
+        "attackAttempts": "165",
+        "hittingPercentage": "0.194",
+        "assists": "59",
+        "setErrors": "2",
+        "setAttempts": "167",
+        "serviceAces": "3",
+        "serviceErrors": "15",
+        "serveAttempts": "102",
+        "digs": "58",
+        "receptionAttempts": "100",
+        "receptionErrors": "3",
+        "blockSolos": "5",
+        "blockAssists": "12",
+        "blockingErrors": "0",
+        "totalBlocks": "11"
+      }
+    }
+  ]
+}
