@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625773,
+  "title": "WVB Boxscore",
+  "description": "Iona vs Niagara",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45782",
+      "seoname": "iona",
+      "name6Char": "IONA",
+      "nameFull": "Iona University",
+      "nameShort": "Iona",
+      "teamName": "Gaels",
+      "color": "#6F2C3F"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46476",
+      "seoname": "niagara",
+      "name6Char": "NIAGRA",
+      "nameFull": "Niagara University",
+      "nameShort": "Niagara",
+      "teamName": "Purple Eagles",
+      "color": "#582C83"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45782,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "81",
+        "kills": "40",
+        "attackErrors": "16",
+        "attackAttempts": "111",
+        "hittingPercentage": "0.216",
+        "assists": "38",
+        "setErrors": "0",
+        "setAttempts": "112",
+        "serviceAces": "8",
+        "serviceErrors": "4",
+        "serveAttempts": "80",
+        "digs": "44",
+        "receptionAttempts": "64",
+        "receptionErrors": "3",
+        "blockSolos": "1",
+        "blockAssists": "22",
+        "blockingErrors": "1",
+        "totalBlocks": "12"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46476,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "68",
+        "kills": "44",
+        "attackErrors": "28",
+        "attackAttempts": "123",
+        "hittingPercentage": "0.130",
+        "assists": "40",
+        "setErrors": "0",
+        "setAttempts": "119",
+        "serviceAces": "3",
+        "serviceErrors": "5",
+        "serveAttempts": "69",
+        "digs": "47",
+        "receptionAttempts": "76",
+        "receptionErrors": "8",
+        "blockSolos": "3",
+        "blockAssists": "8",
+        "blockingErrors": "1",
+        "totalBlocks": "7"
+      }
+    }
+  ]
+}

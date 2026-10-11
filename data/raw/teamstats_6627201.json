@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627201,
+  "title": "WVB Boxscore",
+  "description": "Wright St. vs Green Bay",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45818",
+      "seoname": "wright-st",
+      "name6Char": "WRIGHT",
+      "nameFull": "Wright State University",
+      "nameShort": "Wright St.",
+      "teamName": "Raiders",
+      "color": "#046A38"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46327",
+      "seoname": "green-bay",
+      "name6Char": "GRNBAY",
+      "nameFull": "University of Wisconsin-Green Bay",
+      "nameShort": "Green Bay",
+      "teamName": "Phoenix",
+      "color": "#0F5640"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45818,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "108",
+        "kills": "56",
+        "attackErrors": "28",
+        "attackAttempts": "168",
+        "hittingPercentage": "0.167",
+        "assists": "53",
+        "setErrors": "0",
+        "setAttempts": "160",
+        "serviceAces": "6",
+        "serviceErrors": "9",
+        "serveAttempts": "107",
+        "digs": "71",
+        "receptionAttempts": "93",
+        "receptionErrors": "7",
+        "blockSolos": "6",
+        "blockAssists": "6",
+        "blockingErrors": "2",
+        "totalBlocks": "12"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46327,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "105",
+        "kills": "61",
+        "attackErrors": "29",
+        "attackAttempts": "173",
+        "hittingPercentage": "0.185",
+        "assists": "57",
+        "setErrors": "4",
+        "setAttempts": "171",
+        "serviceAces": "7",
+        "serviceErrors": "13",
+        "serveAttempts": "106",
+        "digs": "73",
+        "receptionAttempts": "98",
+        "receptionErrors": "6",
+        "blockSolos": "9",
+        "blockAssists": "2",
+        "blockingErrors": "1",
+        "totalBlocks": "11"
+      }
+    }
+  ]
+}

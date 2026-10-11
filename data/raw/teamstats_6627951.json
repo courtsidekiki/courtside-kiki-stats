@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627951,
+  "title": "WVB Boxscore",
+  "description": "Northern Ariz. vs Montana",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46729",
+      "seoname": "northern-ariz",
+      "name6Char": "NAU",
+      "nameFull": "Northern Arizona University",
+      "nameShort": "Northern Ariz.",
+      "teamName": "Lumberjacks",
+      "color": "#00205B"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46724",
+      "seoname": "montana",
+      "name6Char": "MONT",
+      "nameFull": "University of Montana",
+      "nameShort": "Montana",
+      "teamName": "Grizzlies",
+      "color": "#6F2C3F"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46729,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "78",
+        "kills": "41",
+        "attackErrors": "17",
+        "attackAttempts": "139",
+        "hittingPercentage": "0.173",
+        "assists": "39",
+        "setErrors": "5",
+        "setAttempts": "150",
+        "serviceAces": "3",
+        "serviceErrors": "8",
+        "serveAttempts": "77",
+        "digs": "69",
+        "receptionAttempts": "65",
+        "receptionErrors": "2",
+        "blockSolos": "3",
+        "blockAssists": "16",
+        "blockingErrors": "0",
+        "totalBlocks": "11"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46724,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "70",
+        "kills": "38",
+        "attackErrors": "23",
+        "attackAttempts": "139",
+        "hittingPercentage": "0.108",
+        "assists": "34",
+        "setErrors": "2",
+        "setAttempts": "139",
+        "serviceAces": "2",
+        "serviceErrors": "6",
+        "serveAttempts": "71",
+        "digs": "65",
+        "receptionAttempts": "69",
+        "receptionErrors": "3",
+        "blockSolos": "0",
+        "blockAssists": "12",
+        "blockingErrors": "0",
+        "totalBlocks": "6"
+      }
+    }
+  ]
+}

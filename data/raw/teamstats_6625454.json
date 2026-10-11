@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625454,
+  "title": "WVB Boxscore",
+  "description": "Eastern Ky. vs North Ala.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45770",
+      "seoname": "eastern-ky",
+      "name6Char": "E KY",
+      "nameFull": "Eastern Kentucky University",
+      "nameShort": "Eastern Ky.",
+      "teamName": "Colonels",
+      "color": "#6F263D"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46105",
+      "seoname": "north-ala",
+      "name6Char": "N ALA",
+      "nameFull": "University of North Alabama",
+      "nameShort": "North Ala.",
+      "teamName": "Lions",
+      "color": "#582C83"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45770,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "76",
+        "kills": "44",
+        "attackErrors": "10",
+        "attackAttempts": "114",
+        "hittingPercentage": "0.298",
+        "assists": "41",
+        "setErrors": "0",
+        "setAttempts": "109",
+        "serviceAces": "3",
+        "serviceErrors": "8",
+        "serveAttempts": "75",
+        "digs": "54",
+        "receptionAttempts": "56",
+        "receptionErrors": "2",
+        "blockSolos": "2",
+        "blockAssists": "18",
+        "blockingErrors": "0",
+        "totalBlocks": "11"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46105,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "62",
+        "kills": "42",
+        "attackErrors": "20",
+        "attackAttempts": "120",
+        "hittingPercentage": "0.183",
+        "assists": "39",
+        "setErrors": "1",
+        "setAttempts": "114",
+        "serviceAces": "2",
+        "serviceErrors": "7",
+        "serveAttempts": "63",
+        "digs": "51",
+        "receptionAttempts": "67",
+        "receptionErrors": "3",
+        "blockSolos": "0",
+        "blockAssists": "6",
+        "blockingErrors": "3",
+        "totalBlocks": "3"
+      }
+    }
+  ]
+}

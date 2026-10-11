@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624418,
+  "title": "WVB Boxscore",
+  "description": "Southeast Mo. St. vs Lindenwood",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46496",
+      "seoname": "southeast-mo-st",
+      "name6Char": "SEMO",
+      "nameFull": "Southeast Missouri State University",
+      "nameShort": "Southeast Mo. St.",
+      "teamName": "Redhawks",
+      "color": "#010101"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "51330",
+      "seoname": "lindenwood-mo",
+      "name6Char": "LINWOD",
+      "nameFull": "Lindenwood University",
+      "nameShort": "Lindenwood",
+      "teamName": "Lions",
+      "color": "#010101"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46496,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "97",
+        "kills": "53",
+        "attackErrors": "9",
+        "attackAttempts": "125",
+        "hittingPercentage": "0.352",
+        "assists": "41",
+        "setErrors": "2",
+        "setAttempts": "129",
+        "serviceAces": "4",
+        "serviceErrors": "12",
+        "serveAttempts": "96",
+        "digs": "60",
+        "receptionAttempts": "65",
+        "receptionErrors": "6",
+        "blockSolos": "5",
+        "blockAssists": "14",
+        "blockingErrors": "1",
+        "totalBlocks": "19"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 51330,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "74",
+        "kills": "44",
+        "attackErrors": "27",
+        "attackAttempts": "150",
+        "hittingPercentage": "0.113",
+        "assists": "38",
+        "setErrors": "3",
+        "setAttempts": "153",
+        "serviceAces": "6",
+        "serviceErrors": "10",
+        "serveAttempts": "75",
+        "digs": "57",
+        "receptionAttempts": "84",
+        "receptionErrors": "4",
+        "blockSolos": "0",
+        "blockAssists": "10",
+        "blockingErrors": "4",
+        "totalBlocks": "10"
+      }
+    }
+  ]
+}

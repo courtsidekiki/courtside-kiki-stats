@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626367,
+  "title": "WVB Boxscore",
+  "description": "High Point vs Winthrop",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46635",
+      "seoname": "high-point",
+      "name6Char": "HIGHPT",
+      "nameFull": "High Point University",
+      "nameShort": "High Point",
+      "teamName": "Panthers",
+      "color": "#330072"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45817",
+      "seoname": "winthrop",
+      "name6Char": "WINTHR",
+      "nameFull": "Winthrop University",
+      "nameShort": "Winthrop",
+      "teamName": "Eagles",
+      "color": "#9D2235"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46635,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "97",
+        "kills": "53",
+        "attackErrors": "12",
+        "attackAttempts": "106",
+        "hittingPercentage": "0.387",
+        "assists": "50",
+        "setErrors": "2",
+        "setAttempts": "108",
+        "serviceAces": "3",
+        "serviceErrors": "12",
+        "serveAttempts": "96",
+        "digs": "50",
+        "receptionAttempts": "66",
+        "receptionErrors": "7",
+        "blockSolos": "0",
+        "blockAssists": "30",
+        "blockingErrors": "1",
+        "totalBlocks": "15"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45817,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "78",
+        "kills": "44",
+        "attackErrors": "26",
+        "attackAttempts": "129",
+        "hittingPercentage": "0.140",
+        "assists": "43",
+        "setErrors": "2",
+        "setAttempts": "130",
+        "serviceAces": "7",
+        "serviceErrors": "13",
+        "serveAttempts": "79",
+        "digs": "35",
+        "receptionAttempts": "84",
+        "receptionErrors": "3",
+        "blockSolos": "1",
+        "blockAssists": "6",
+        "blockingErrors": "1",
+        "totalBlocks": "4"
+      }
+    }
+  ]
+}

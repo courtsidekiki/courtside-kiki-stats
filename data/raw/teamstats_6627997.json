@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627997,
+  "title": "WVB Boxscore",
+  "description": "Old Dominion vs Coastal Carolina",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "1387136",
+      "seoname": "old-dominion",
+      "name6Char": "ODU",
+      "nameFull": "Old Dominion University",
+      "nameShort": "Old Dominion",
+      "teamName": "Monarchs",
+      "color": "#0B4071"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46170",
+      "seoname": "coastal-caro",
+      "name6Char": "CO CAR",
+      "nameFull": "Coastal Carolina University",
+      "nameShort": "Coastal Carolina",
+      "teamName": "Chanticleers",
+      "color": "#007377"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 1387136,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "78",
+        "kills": "40",
+        "attackErrors": "43",
+        "attackAttempts": "122",
+        "hittingPercentage": "-0.025",
+        "assists": "38",
+        "setErrors": "0",
+        "setAttempts": "118",
+        "serviceAces": "8",
+        "serviceErrors": "7",
+        "serveAttempts": "79",
+        "digs": "28",
+        "receptionAttempts": "90",
+        "receptionErrors": "6",
+        "blockSolos": "0",
+        "blockAssists": "14",
+        "blockingErrors": "1",
+        "totalBlocks": "7"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46170,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "101",
+        "kills": "45",
+        "attackErrors": "20",
+        "attackAttempts": "98",
+        "hittingPercentage": "0.255",
+        "assists": "43",
+        "setErrors": "0",
+        "setAttempts": "102",
+        "serviceAces": "6",
+        "serviceErrors": "10",
+        "serveAttempts": "100",
+        "digs": "31",
+        "receptionAttempts": "72",
+        "receptionErrors": "8",
+        "blockSolos": "4",
+        "blockAssists": "32",
+        "blockingErrors": "3",
+        "totalBlocks": "20"
+      }
+    }
+  ]
+}

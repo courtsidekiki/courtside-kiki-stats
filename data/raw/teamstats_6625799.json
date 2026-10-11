@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625799,
+  "title": "WVB Boxscore",
+  "description": "Denver vs LMU (CA)",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46048",
+      "seoname": "denver",
+      "name6Char": "DENVER",
+      "nameFull": "University of Denver",
+      "nameShort": "Denver",
+      "teamName": "Pioneers",
+      "color": "#B90C2F"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45792",
+      "seoname": "loyola-marymount",
+      "name6Char": "LMU",
+      "nameFull": "Loyola Marymount University",
+      "nameShort": "LMU (CA)",
+      "teamName": "Lions",
+      "color": "#AB0C2F"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46048,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "100",
+        "kills": "59",
+        "attackErrors": "30",
+        "attackAttempts": "176",
+        "hittingPercentage": "0.165",
+        "assists": "55",
+        "setErrors": "4",
+        "setAttempts": "180",
+        "serviceAces": "4",
+        "serviceErrors": "9",
+        "serveAttempts": "101",
+        "digs": "71",
+        "receptionAttempts": "101",
+        "receptionErrors": "11",
+        "blockSolos": "2",
+        "blockAssists": "14",
+        "blockingErrors": "0",
+        "totalBlocks": "16"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45792,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "110",
+        "kills": "55",
+        "attackErrors": "27",
+        "attackAttempts": "170",
+        "hittingPercentage": "0.165",
+        "assists": "53",
+        "setErrors": "0",
+        "setAttempts": "174",
+        "serviceAces": "11",
+        "serviceErrors": "8",
+        "serveAttempts": "109",
+        "digs": "67",
+        "receptionAttempts": "93",
+        "receptionErrors": "4",
+        "blockSolos": "2",
+        "blockAssists": "18",
+        "blockingErrors": "1",
+        "totalBlocks": "20"
+      }
+    }
+  ]
+}

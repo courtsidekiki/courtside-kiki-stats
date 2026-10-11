@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625586,
+  "title": "WVB Boxscore",
+  "description": "Indiana St. vs Drake",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46681",
+      "seoname": "indiana-st",
+      "name6Char": "IND ST",
+      "nameFull": "Indiana State University",
+      "nameShort": "Indiana St.",
+      "teamName": "Sycamores",
+      "color": "#1E437B"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46177",
+      "seoname": "drake",
+      "name6Char": "DRAKE",
+      "nameFull": "Drake University",
+      "nameShort": "Drake",
+      "teamName": "Bulldogs",
+      "color": "#002F6C"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46681,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "93",
+        "kills": "64",
+        "attackErrors": "21",
+        "attackAttempts": "165",
+        "hittingPercentage": "0.261",
+        "assists": "60",
+        "setErrors": "0",
+        "setAttempts": "159",
+        "serviceAces": "9",
+        "serviceErrors": "13",
+        "serveAttempts": "94",
+        "digs": "70",
+        "receptionAttempts": "83",
+        "receptionErrors": "2",
+        "blockSolos": "2",
+        "blockAssists": "12",
+        "blockingErrors": "2",
+        "totalBlocks": "14"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46177,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "94",
+        "kills": "58",
+        "attackErrors": "10",
+        "attackAttempts": "151",
+        "hittingPercentage": "0.318",
+        "assists": "55",
+        "setErrors": "0",
+        "setAttempts": "155",
+        "serviceAces": "2",
+        "serviceErrors": "10",
+        "serveAttempts": "93",
+        "digs": "69",
+        "receptionAttempts": "81",
+        "receptionErrors": "9",
+        "blockSolos": "2",
+        "blockAssists": "20",
+        "blockingErrors": "3",
+        "totalBlocks": "22"
+      }
+    }
+  ]
+}

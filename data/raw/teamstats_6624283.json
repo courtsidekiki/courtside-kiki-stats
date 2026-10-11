@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624283,
+  "title": "WVB Boxscore",
+  "description": "UConn vs Seton Hall",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46408",
+      "seoname": "uconn",
+      "name6Char": "UCONN",
+      "nameFull": "University of Connecticut",
+      "nameShort": "UConn",
+      "teamName": "Huskies",
+      "color": "#0C2340"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46495",
+      "seoname": "seton-hall",
+      "name6Char": "SETON",
+      "nameFull": "Seton Hall University",
+      "nameShort": "Seton Hall",
+      "teamName": "Pirates",
+      "color": "#1A5DAD"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46408,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "95",
+        "kills": "53",
+        "attackErrors": "19",
+        "attackAttempts": "133",
+        "hittingPercentage": "0.256",
+        "assists": "48",
+        "setErrors": "0",
+        "setAttempts": "136",
+        "serviceAces": "8",
+        "serviceErrors": "17",
+        "serveAttempts": "94",
+        "digs": "45",
+        "receptionAttempts": "79",
+        "receptionErrors": "4",
+        "blockSolos": "3",
+        "blockAssists": "26",
+        "blockingErrors": "0",
+        "totalBlocks": "16"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46495,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "85",
+        "kills": "45",
+        "attackErrors": "23",
+        "attackAttempts": "129",
+        "hittingPercentage": "0.171",
+        "assists": "41",
+        "setErrors": "4",
+        "setAttempts": "135",
+        "serviceAces": "4",
+        "serviceErrors": "7",
+        "serveAttempts": "86",
+        "digs": "50",
+        "receptionAttempts": "77",
+        "receptionErrors": "8",
+        "blockSolos": "2",
+        "blockAssists": "4",
+        "blockingErrors": "0",
+        "totalBlocks": "4"
+      }
+    }
+  ]
+}

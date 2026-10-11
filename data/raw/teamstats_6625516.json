@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625516,
+  "title": "WVB Boxscore",
+  "description": "Ball St. vs Central Mich.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46572",
+      "seoname": "ball-st",
+      "name6Char": "BALLST",
+      "nameFull": "Ball State University",
+      "nameShort": "Ball St.",
+      "teamName": "Cardinals",
+      "color": "#BA0C2F"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46164",
+      "seoname": "central-mich",
+      "name6Char": "C MICH",
+      "nameFull": "Central Michigan University",
+      "nameShort": "Central Mich.",
+      "teamName": "Chippewas",
+      "color": "#6F263D"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46572,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "43",
+        "attackErrors": "9",
+        "attackAttempts": "100",
+        "hittingPercentage": "0.340",
+        "assists": "34",
+        "setErrors": "0",
+        "setAttempts": "89",
+        "serviceAces": "13",
+        "serviceErrors": "8",
+        "serveAttempts": "73",
+        "digs": "36",
+        "receptionAttempts": "45",
+        "receptionErrors": "2",
+        "blockSolos": "1",
+        "blockAssists": "4",
+        "blockingErrors": "0",
+        "totalBlocks": "3"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46164,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "48",
+        "kills": "29",
+        "attackErrors": "13",
+        "attackAttempts": "82",
+        "hittingPercentage": "0.195",
+        "assists": "28",
+        "setErrors": "1",
+        "setAttempts": "81",
+        "serviceAces": "2",
+        "serviceErrors": "5",
+        "serveAttempts": "50",
+        "digs": "41",
+        "receptionAttempts": "65",
+        "receptionErrors": "13",
+        "blockSolos": "2",
+        "blockAssists": "2",
+        "blockingErrors": "1",
+        "totalBlocks": "3"
+      }
+    }
+  ]
+}

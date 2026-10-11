@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626481,
+  "title": "WVB Boxscore",
+  "description": "Arkansas St. vs South Alabama",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46322",
+      "seoname": "arkansas-st",
+      "name6Char": "ARK ST",
+      "nameFull": "Arkansas State University",
+      "nameShort": "Arkansas St.",
+      "teamName": "Red Wolves",
+      "color": "#C8102E"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46120",
+      "seoname": "south-ala",
+      "name6Char": "S ALA",
+      "nameFull": "University of South Alabama",
+      "nameShort": "South Alabama",
+      "teamName": "Jaguars",
+      "color": "#BF0D3E"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46322,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "99",
+        "kills": "69",
+        "attackErrors": "24",
+        "attackAttempts": "162",
+        "hittingPercentage": "0.278",
+        "assists": "68",
+        "setErrors": "1",
+        "setAttempts": "161",
+        "serviceAces": "7",
+        "serviceErrors": "6",
+        "serveAttempts": "98",
+        "digs": "68",
+        "receptionAttempts": "78",
+        "receptionErrors": "3",
+        "blockSolos": "2",
+        "blockAssists": "4",
+        "blockingErrors": "2",
+        "totalBlocks": "4"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46120,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "84",
+        "kills": "50",
+        "attackErrors": "15",
+        "attackAttempts": "137",
+        "hittingPercentage": "0.255",
+        "assists": "46",
+        "setErrors": "0",
+        "setAttempts": "132",
+        "serviceAces": "3",
+        "serviceErrors": "7",
+        "serveAttempts": "85",
+        "digs": "56",
+        "receptionAttempts": "92",
+        "receptionErrors": "7",
+        "blockSolos": "5",
+        "blockAssists": "14",
+        "blockingErrors": "5",
+        "totalBlocks": "12"
+      }
+    }
+  ]
+}

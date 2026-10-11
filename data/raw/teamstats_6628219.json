@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628219,
+  "title": "WVB Boxscore",
+  "description": "Southeastern La. vs Nicholls",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46622",
+      "seoname": "southeastern-la",
+      "name6Char": "SE LA",
+      "nameFull": "Southeastern Louisiana University",
+      "nameShort": "Southeastern La.",
+      "teamName": "Lady Lions",
+      "color": "#1D4C30"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46103",
+      "seoname": "nicholls-st",
+      "name6Char": "NICHST",
+      "nameFull": "Nicholls State University",
+      "nameShort": "Nicholls",
+      "teamName": "Colonels",
+      "color": "#A6192E"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46622,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "42",
+        "attackErrors": "18",
+        "attackAttempts": "100",
+        "hittingPercentage": "0.240",
+        "assists": "39",
+        "setErrors": "1",
+        "setAttempts": "100",
+        "serviceAces": "8",
+        "serviceErrors": "3",
+        "serveAttempts": "74",
+        "digs": "50",
+        "receptionAttempts": "47",
+        "receptionErrors": "3",
+        "blockSolos": "2",
+        "blockAssists": "15",
+        "blockingErrors": "1",
+        "totalBlocks": "9"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46103,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "50",
+        "kills": "25",
+        "attackErrors": "18",
+        "attackAttempts": "102",
+        "hittingPercentage": "0.069",
+        "assists": "24",
+        "setErrors": "3",
+        "setAttempts": "108",
+        "serviceAces": "3",
+        "serviceErrors": "4",
+        "serveAttempts": "51",
+        "digs": "34",
+        "receptionAttempts": "71",
+        "receptionErrors": "8",
+        "blockSolos": "1",
+        "blockAssists": "14",
+        "blockingErrors": "1",
+        "totalBlocks": "8"
+      }
+    }
+  ]
+}

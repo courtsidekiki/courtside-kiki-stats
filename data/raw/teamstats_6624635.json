@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624635,
+  "title": "WVB Boxscore",
+  "description": "Maryland vs Northwestern",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46686",
+      "seoname": "maryland",
+      "name6Char": "MD",
+      "nameFull": "University of Maryland, College Park",
+      "nameShort": "Maryland",
+      "teamName": "Terrapins",
+      "color": "#C8102E"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46238",
+      "seoname": "northwestern",
+      "name6Char": "NW",
+      "nameFull": "Northwestern University",
+      "nameShort": "Northwestern",
+      "teamName": "Wildcats",
+      "color": "#4E2A84"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46686,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "104",
+        "kills": "67",
+        "attackErrors": "20",
+        "attackAttempts": "169",
+        "hittingPercentage": "0.278",
+        "assists": "66",
+        "setErrors": "3",
+        "setAttempts": "180",
+        "serviceAces": "6",
+        "serviceErrors": "6",
+        "serveAttempts": "104",
+        "digs": "70",
+        "receptionAttempts": "100",
+        "receptionErrors": "11",
+        "blockSolos": "7",
+        "blockAssists": "12",
+        "blockingErrors": "0",
+        "totalBlocks": "19"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46238,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "104",
+        "kills": "63",
+        "attackErrors": "26",
+        "attackAttempts": "169",
+        "hittingPercentage": "0.219",
+        "assists": "59",
+        "setErrors": "1",
+        "setAttempts": "168",
+        "serviceAces": "11",
+        "serviceErrors": "4",
+        "serveAttempts": "104",
+        "digs": "66",
+        "receptionAttempts": "98",
+        "receptionErrors": "6",
+        "blockSolos": "4",
+        "blockAssists": "18",
+        "blockingErrors": "0",
+        "totalBlocks": "22"
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627778,
+  "title": "WVB Boxscore",
+  "description": "Bucknell vs American",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45948",
+      "seoname": "bucknell",
+      "name6Char": "BUCKNL",
+      "nameFull": "Bucknell University",
+      "nameShort": "Bucknell",
+      "teamName": "Bison",
+      "color": "#071D49"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46071",
+      "seoname": "american",
+      "name6Char": "AMER",
+      "nameFull": "American University",
+      "nameShort": "American",
+      "teamName": "Eagles",
+      "color": "#A6192E"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45948,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "55",
+        "kills": "29",
+        "attackErrors": "17",
+        "attackAttempts": "99",
+        "hittingPercentage": "0.121",
+        "assists": "22",
+        "setErrors": "0",
+        "setAttempts": "94",
+        "serviceAces": "0",
+        "serviceErrors": "8",
+        "serveAttempts": "56",
+        "digs": "36",
+        "receptionAttempts": "65",
+        "receptionErrors": "9",
+        "blockSolos": "2",
+        "blockAssists": "6",
+        "blockingErrors": "0",
+        "totalBlocks": "5"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46071,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "41",
+        "attackErrors": "16",
+        "attackAttempts": "104",
+        "hittingPercentage": "0.240",
+        "assists": "36",
+        "setErrors": "1",
+        "setAttempts": "102",
+        "serviceAces": "9",
+        "serviceErrors": "9",
+        "serveAttempts": "74",
+        "digs": "46",
+        "receptionAttempts": "48",
+        "receptionErrors": "0",
+        "blockSolos": "2",
+        "blockAssists": "10",
+        "blockingErrors": "3",
+        "totalBlocks": "7"
+      }
+    }
+  ]
+}

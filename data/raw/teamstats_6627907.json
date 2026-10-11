@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627907,
+  "title": "WVB Boxscore",
+  "description": "UC Davis vs New Mexico",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46036",
+      "seoname": "uc-davis",
+      "name6Char": "UC DAV",
+      "nameFull": "University of California, Davis",
+      "nameShort": "UC Davis",
+      "teamName": "Aggies",
+      "color": "#002855"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46235",
+      "seoname": "new-mexico",
+      "name6Char": "N MEX",
+      "nameFull": "University of New Mexico",
+      "nameShort": "New Mexico",
+      "teamName": "Lobos",
+      "color": "#BA0C2F"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46036,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "69",
+        "kills": "43",
+        "attackErrors": "22",
+        "attackAttempts": "132",
+        "hittingPercentage": "0.159",
+        "assists": "43",
+        "setErrors": "6",
+        "setAttempts": "143",
+        "serviceAces": "8",
+        "serviceErrors": "9",
+        "serveAttempts": "70",
+        "digs": "52",
+        "receptionAttempts": "89",
+        "receptionErrors": "9",
+        "blockSolos": "3",
+        "blockAssists": "8",
+        "blockingErrors": "1",
+        "totalBlocks": "7"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46235,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "95",
+        "kills": "48",
+        "attackErrors": "12",
+        "attackAttempts": "123",
+        "hittingPercentage": "0.293",
+        "assists": "43",
+        "setErrors": "1",
+        "setAttempts": "122",
+        "serviceAces": "9",
+        "serviceErrors": "5",
+        "serveAttempts": "94",
+        "digs": "59",
+        "receptionAttempts": "61",
+        "receptionErrors": "8",
+        "blockSolos": "4",
+        "blockAssists": "8",
+        "blockingErrors": "0",
+        "totalBlocks": "8"
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624923,
+  "title": "WVB Boxscore",
+  "description": "Buffalo vs Eastern Mich.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46444",
+      "seoname": "buffalo",
+      "name6Char": "BUFF",
+      "nameFull": "University at Buffalo, the State University of New York",
+      "nameShort": "Buffalo",
+      "teamName": "Bulls",
+      "color": "#0057B8"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46179",
+      "seoname": "eastern-mich",
+      "name6Char": "E MICH",
+      "nameFull": "Eastern Michigan University",
+      "nameShort": "Eastern Mich.",
+      "teamName": "Eagles",
+      "color": "#046A38"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46444,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "94",
+        "kills": "48",
+        "attackErrors": "24",
+        "attackAttempts": "160",
+        "hittingPercentage": "0.150",
+        "assists": "46",
+        "setErrors": "3",
+        "setAttempts": "161",
+        "serviceAces": "7",
+        "serviceErrors": "6",
+        "serveAttempts": "93",
+        "digs": "80",
+        "receptionAttempts": "70",
+        "receptionErrors": "3",
+        "blockSolos": "9",
+        "blockAssists": "6",
+        "blockingErrors": "4",
+        "totalBlocks": "12"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46179,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "77",
+        "kills": "42",
+        "attackErrors": "29",
+        "attackAttempts": "164",
+        "hittingPercentage": "0.079",
+        "assists": "37",
+        "setErrors": "0",
+        "setAttempts": "164",
+        "serviceAces": "3",
+        "serviceErrors": "8",
+        "serveAttempts": "78",
+        "digs": "77",
+        "receptionAttempts": "87",
+        "receptionErrors": "7",
+        "blockSolos": "11",
+        "blockAssists": "4",
+        "blockingErrors": "1",
+        "totalBlocks": "13"
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624786,
+  "title": "WVB Boxscore",
+  "description": "Purdue Fort Wayne vs Youngstown St.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45781",
+      "seoname": "ipfw",
+      "name6Char": "IPFW",
+      "nameFull": "Purdue University Fort Wayne",
+      "nameShort": "Purdue Fort Wayne",
+      "teamName": "Mastodons",
+      "color": "#1f3d7c"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46583",
+      "seoname": "youngstown-st",
+      "name6Char": "YSU",
+      "nameFull": "Youngstown State University",
+      "nameShort": "Youngstown St.",
+      "teamName": "Penguins",
+      "color": "#C8102E"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45781,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "95",
+        "kills": "57",
+        "attackErrors": "9",
+        "attackAttempts": "125",
+        "hittingPercentage": "0.384",
+        "assists": "55",
+        "setErrors": "1",
+        "setAttempts": "131",
+        "serviceAces": "6",
+        "serviceErrors": "9",
+        "serveAttempts": "94",
+        "digs": "65",
+        "receptionAttempts": "65",
+        "receptionErrors": "2",
+        "blockSolos": "1",
+        "blockAssists": "10",
+        "blockingErrors": "3",
+        "totalBlocks": "6"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46583,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "78",
+        "kills": "57",
+        "attackErrors": "18",
+        "attackAttempts": "155",
+        "hittingPercentage": "0.252",
+        "assists": "48",
+        "setErrors": "0",
+        "setAttempts": "146",
+        "serviceAces": "2",
+        "serviceErrors": "14",
+        "serveAttempts": "79",
+        "digs": "49",
+        "receptionAttempts": "85",
+        "receptionErrors": "6",
+        "blockSolos": "0",
+        "blockAssists": "6",
+        "blockingErrors": "1",
+        "totalBlocks": "3"
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624738,
+  "title": "WVB Boxscore",
+  "description": "Milwaukee vs Cleveland St.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45953",
+      "seoname": "milwaukee",
+      "name6Char": "MILWKE",
+      "nameFull": "University of Wisconsin-Milwaukee",
+      "nameShort": "Milwaukee",
+      "teamName": "Panthers",
+      "color": "#010101"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46406",
+      "seoname": "cleveland-st",
+      "name6Char": "CLE ST",
+      "nameFull": "Cleveland State University",
+      "nameShort": "Cleveland St.",
+      "teamName": "Vikings",
+      "color": "#115740"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45953,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "113",
+        "kills": "70",
+        "attackErrors": "30",
+        "attackAttempts": "186",
+        "hittingPercentage": "0.215",
+        "assists": "64",
+        "setErrors": "3",
+        "setAttempts": "179",
+        "serviceAces": "7",
+        "serviceErrors": "9",
+        "serveAttempts": "113",
+        "digs": "74",
+        "receptionAttempts": "93",
+        "receptionErrors": "9",
+        "blockSolos": "4",
+        "blockAssists": "8",
+        "blockingErrors": "2",
+        "totalBlocks": "12"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46406,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "107",
+        "kills": "56",
+        "attackErrors": "20",
+        "attackAttempts": "169",
+        "hittingPercentage": "0.213",
+        "assists": "54",
+        "setErrors": "2",
+        "setAttempts": "176",
+        "serviceAces": "9",
+        "serviceErrors": "14",
+        "serveAttempts": "107",
+        "digs": "75",
+        "receptionAttempts": "104",
+        "receptionErrors": "7",
+        "blockSolos": "4",
+        "blockAssists": "22",
+        "blockingErrors": "2",
+        "totalBlocks": "26"
+      }
+    }
+  ]
+}

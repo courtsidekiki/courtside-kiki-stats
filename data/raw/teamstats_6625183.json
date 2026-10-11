@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625183,
+  "title": "WVB Boxscore",
+  "description": "Samford vs Wofford",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45864",
+      "seoname": "samford",
+      "name6Char": "SAMFRD",
+      "nameFull": "Samford University",
+      "nameShort": "Samford",
+      "teamName": "Bulldogs",
+      "color": "#0C2340"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46650",
+      "seoname": "wofford",
+      "name6Char": "WOFFRD",
+      "nameFull": "Wofford College",
+      "nameShort": "Wofford",
+      "teamName": "Terriers",
+      "color": "#8A6E4B"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45864,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "83",
+        "kills": "58",
+        "attackErrors": "18",
+        "attackAttempts": "164",
+        "hittingPercentage": "0.244",
+        "assists": "55",
+        "setErrors": "0",
+        "setAttempts": "163",
+        "serviceAces": "7",
+        "serviceErrors": "8",
+        "serveAttempts": "84",
+        "digs": "77",
+        "receptionAttempts": "95",
+        "receptionErrors": "10",
+        "blockSolos": "2",
+        "blockAssists": "16",
+        "blockingErrors": "2",
+        "totalBlocks": "10"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46650,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "97",
+        "kills": "61",
+        "attackErrors": "16",
+        "attackAttempts": "172",
+        "hittingPercentage": "0.262",
+        "assists": "57",
+        "setErrors": "1",
+        "setAttempts": "169",
+        "serviceAces": "10",
+        "serviceErrors": "1",
+        "serveAttempts": "96",
+        "digs": "79",
+        "receptionAttempts": "76",
+        "receptionErrors": "7",
+        "blockSolos": "0",
+        "blockAssists": "4",
+        "blockingErrors": "1",
+        "totalBlocks": "2"
+      }
+    }
+  ]
+}

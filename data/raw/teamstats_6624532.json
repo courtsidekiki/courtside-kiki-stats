@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624532,
+  "title": "WVB Boxscore",
+  "description": "Cal St. Fullerton vs UC Santa Barbara",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45757",
+      "seoname": "cal-st-fullerton",
+      "name6Char": "CSFULL",
+      "nameFull": "California State University, Fullerton",
+      "nameShort": "Cal St. Fullerton",
+      "teamName": "Titans",
+      "color": "#FF671F"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45895",
+      "seoname": "uc-santa-barbara",
+      "name6Char": "UCSB",
+      "nameFull": "University of California, Santa Barbara",
+      "nameShort": "UC Santa Barbara",
+      "teamName": "Gauchos",
+      "color": "#0032A0"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45757,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "108",
+        "kills": "57",
+        "attackErrors": "14",
+        "attackAttempts": "152",
+        "hittingPercentage": "0.283",
+        "assists": "53",
+        "setErrors": "0",
+        "setAttempts": "140",
+        "serviceAces": "10",
+        "serviceErrors": "7",
+        "serveAttempts": "107",
+        "digs": "53",
+        "receptionAttempts": "91",
+        "receptionErrors": "7",
+        "blockSolos": "3",
+        "blockAssists": "18",
+        "blockingErrors": "1",
+        "totalBlocks": "21"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45895,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "102",
+        "kills": "74",
+        "attackErrors": "26",
+        "attackAttempts": "167",
+        "hittingPercentage": "0.287",
+        "assists": "68",
+        "setErrors": "2",
+        "setAttempts": "158",
+        "serviceAces": "7",
+        "serviceErrors": "12",
+        "serveAttempts": "103",
+        "digs": "68",
+        "receptionAttempts": "100",
+        "receptionErrors": "10",
+        "blockSolos": "1",
+        "blockAssists": "8",
+        "blockingErrors": "0",
+        "totalBlocks": "9"
+      }
+    }
+  ]
+}

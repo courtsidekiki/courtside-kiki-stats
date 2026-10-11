@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626248,
+  "title": "WVB Boxscore",
+  "description": "Providence vs St. John's (NY)",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45855",
+      "seoname": "providence",
+      "name6Char": "PROV",
+      "nameFull": "Providence College",
+      "nameShort": "Providence",
+      "teamName": "Friars",
+      "color": "#010101"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45995",
+      "seoname": "st-johns-ny",
+      "name6Char": "STJOHN",
+      "nameFull": "St. John's University (New York)",
+      "nameShort": "St. John's (NY)",
+      "teamName": "Red Storm",
+      "color": "#BA0C2F"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45855,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "86",
+        "kills": "38",
+        "attackErrors": "16",
+        "attackAttempts": "120",
+        "hittingPercentage": "0.183",
+        "assists": "35",
+        "setErrors": "2",
+        "setAttempts": "122",
+        "serviceAces": "4",
+        "serviceErrors": "11",
+        "serveAttempts": "87",
+        "digs": "51",
+        "receptionAttempts": "86",
+        "receptionErrors": "13",
+        "blockSolos": "3",
+        "blockAssists": "26",
+        "blockingErrors": "1",
+        "totalBlocks": "16"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45995,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "96",
+        "kills": "54",
+        "attackErrors": "34",
+        "attackAttempts": "154",
+        "hittingPercentage": "0.130",
+        "assists": "49",
+        "setErrors": "1",
+        "setAttempts": "148",
+        "serviceAces": "13",
+        "serviceErrors": "9",
+        "serveAttempts": "95",
+        "digs": "60",
+        "receptionAttempts": "76",
+        "receptionErrors": "4",
+        "blockSolos": "1",
+        "blockAssists": "12",
+        "blockingErrors": "4",
+        "totalBlocks": "7"
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626571,
+  "title": "WVB Boxscore",
+  "description": "BYU vs West Virginia",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46575",
+      "seoname": "byu",
+      "name6Char": "BYU",
+      "nameFull": "Brigham Young University",
+      "nameShort": "BYU",
+      "teamName": "Cougars",
+      "color": "#0047BA"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46511",
+      "seoname": "west-virginia",
+      "name6Char": "WVU",
+      "nameFull": "West Virginia University",
+      "nameShort": "West Virginia",
+      "teamName": "Mountaineers",
+      "color": "#0F2D52"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46575,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "43",
+        "attackErrors": "11",
+        "attackAttempts": "83",
+        "hittingPercentage": "0.386",
+        "assists": "40",
+        "setErrors": "0",
+        "setAttempts": "85",
+        "serviceAces": "6",
+        "serviceErrors": "10",
+        "serveAttempts": "73",
+        "digs": "36",
+        "receptionAttempts": "43",
+        "receptionErrors": "0",
+        "blockSolos": "1",
+        "blockAssists": "20",
+        "blockingErrors": "1",
+        "totalBlocks": "21"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46511,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "45",
+        "kills": "24",
+        "attackErrors": "21",
+        "attackAttempts": "91",
+        "hittingPercentage": "0.033",
+        "assists": "24",
+        "setErrors": "1",
+        "setAttempts": "93",
+        "serviceAces": "0",
+        "serviceErrors": "4",
+        "serveAttempts": "47",
+        "digs": "25",
+        "receptionAttempts": "63",
+        "receptionErrors": "6",
+        "blockSolos": "0",
+        "blockAssists": "4",
+        "blockingErrors": "1",
+        "totalBlocks": "4"
+      }
+    }
+  ]
+}

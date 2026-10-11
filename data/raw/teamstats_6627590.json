@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627590,
+  "title": "WVB Boxscore",
+  "description": "Grand Canyon vs UNLV",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46590",
+      "seoname": "grand-canyon",
+      "name6Char": "GCANYN",
+      "nameFull": "Grand Canyon University",
+      "nameShort": "Grand Canyon",
+      "teamName": "Lopes",
+      "color": "#5F259F"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45973",
+      "seoname": "unlv",
+      "name6Char": "UNLV",
+      "nameFull": "University of Nevada, Las Vegas",
+      "nameShort": "UNLV",
+      "teamName": "Rebels",
+      "color": "#C8102E"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46590,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "109",
+        "kills": "69",
+        "attackErrors": "29",
+        "attackAttempts": "190",
+        "hittingPercentage": "0.211",
+        "assists": "67",
+        "setErrors": "2",
+        "setAttempts": "189",
+        "serviceAces": "3",
+        "serviceErrors": "7",
+        "serveAttempts": "109",
+        "digs": "78",
+        "receptionAttempts": "84",
+        "receptionErrors": "5",
+        "blockSolos": "4",
+        "blockAssists": "14",
+        "blockingErrors": "0",
+        "totalBlocks": "18"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45973,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "95",
+        "kills": "52",
+        "attackErrors": "25",
+        "attackAttempts": "167",
+        "hittingPercentage": "0.162",
+        "assists": "45",
+        "setErrors": "1",
+        "setAttempts": "168",
+        "serviceAces": "5",
+        "serviceErrors": "11",
+        "serveAttempts": "95",
+        "digs": "65",
+        "receptionAttempts": "102",
+        "receptionErrors": "3",
+        "blockSolos": "1",
+        "blockAssists": "32",
+        "blockingErrors": "1",
+        "totalBlocks": "33"
+      }
+    }
+  ]
+}
