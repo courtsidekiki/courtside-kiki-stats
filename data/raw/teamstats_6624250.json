@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624250,
+  "title": "WVB Boxscore",
+  "description": "Indiana vs Southern California",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46314",
+      "seoname": "indiana",
+      "name6Char": "IND",
+      "nameFull": "Indiana University, Bloomington",
+      "nameShort": "Indiana",
+      "teamName": "Hoosiers",
+      "color": "#970310"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46121",
+      "seoname": "southern-california",
+      "name6Char": "USC",
+      "nameFull": "University of Southern California",
+      "nameShort": "Southern California",
+      "teamName": "Trojans",
+      "color": "#9D2235"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46314,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "65",
+        "kills": "40",
+        "attackErrors": "20",
+        "attackAttempts": "97",
+        "hittingPercentage": "0.206",
+        "assists": "37",
+        "setErrors": "0",
+        "setAttempts": "97",
+        "serviceAces": "3",
+        "serviceErrors": "10",
+        "serveAttempts": "67",
+        "digs": "32",
+        "receptionAttempts": "66",
+        "receptionErrors": "4",
+        "blockSolos": "0",
+        "blockAssists": "16",
+        "blockingErrors": "3",
+        "totalBlocks": "8"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46121,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "76",
+        "kills": "42",
+        "attackErrors": "14",
+        "attackAttempts": "101",
+        "hittingPercentage": "0.277",
+        "assists": "38",
+        "setErrors": "0",
+        "setAttempts": "98",
+        "serviceAces": "4",
+        "serviceErrors": "8",
+        "serveAttempts": "74",
+        "digs": "31",
+        "receptionAttempts": "57",
+        "receptionErrors": "3",
+        "blockSolos": "1",
+        "blockAssists": "18",
+        "blockingErrors": "1",
+        "totalBlocks": "10"
+      }
+    }
+  ]
+}

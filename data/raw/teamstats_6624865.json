@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624865,
+  "title": "WVB Boxscore",
+  "description": "Delaware St. vs Coppin St.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46175",
+      "seoname": "delaware-st",
+      "name6Char": "DEL ST",
+      "nameFull": "Delaware State University",
+      "nameShort": "Delaware St.",
+      "teamName": "Hornets",
+      "color": "#DA291C"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46045",
+      "seoname": "coppin-st",
+      "name6Char": "COPPIN",
+      "nameFull": "Coppin State University",
+      "nameShort": "Coppin St.",
+      "teamName": "Eagles",
+      "color": "#0c3354"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46175,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "52",
+        "kills": "23",
+        "attackErrors": "25",
+        "attackAttempts": "102",
+        "hittingPercentage": "-0.020",
+        "assists": "22",
+        "setErrors": "4",
+        "setAttempts": "114",
+        "serviceAces": "2",
+        "serviceErrors": "8",
+        "serveAttempts": "53",
+        "digs": "36",
+        "receptionAttempts": "63",
+        "receptionErrors": "4",
+        "blockSolos": "1",
+        "blockAssists": "0",
+        "blockingErrors": "2",
+        "totalBlocks": "1"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46045,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "34",
+        "attackErrors": "13",
+        "attackAttempts": "98",
+        "hittingPercentage": "0.214",
+        "assists": "29",
+        "setErrors": "3",
+        "setAttempts": "105",
+        "serviceAces": "4",
+        "serviceErrors": "11",
+        "serveAttempts": "74",
+        "digs": "39",
+        "receptionAttempts": "45",
+        "receptionErrors": "2",
+        "blockSolos": "7",
+        "blockAssists": "4",
+        "blockingErrors": "2",
+        "totalBlocks": "9"
+      }
+    }
+  ]
+}

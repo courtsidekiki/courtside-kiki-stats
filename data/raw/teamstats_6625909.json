@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625909,
+  "title": "WVB Boxscore",
+  "description": "Miami (FL) vs Georgia Tech",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46066",
+      "seoname": "miami-fl",
+      "name6Char": "MIAMI",
+      "nameFull": "University of Miami (Florida)",
+      "nameShort": "Miami (FL)",
+      "teamName": "Hurricanes",
+      "color": "#154734"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46549",
+      "seoname": "georgia-tech",
+      "name6Char": "GATECH",
+      "nameFull": "Georgia Institute of Technology",
+      "nameShort": "Georgia Tech",
+      "teamName": "Yellow Jackets",
+      "color": "#B3A369"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46066,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "110",
+        "kills": "69",
+        "attackErrors": "23",
+        "attackAttempts": "145",
+        "hittingPercentage": "0.317",
+        "assists": "63",
+        "setErrors": "0",
+        "setAttempts": "143",
+        "serviceAces": "7",
+        "serviceErrors": "14",
+        "serveAttempts": "109",
+        "digs": "51",
+        "receptionAttempts": "95",
+        "receptionErrors": "9",
+        "blockSolos": "0",
+        "blockAssists": "14",
+        "blockingErrors": "1",
+        "totalBlocks": "7"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46549,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "107",
+        "kills": "61",
+        "attackErrors": "21",
+        "attackAttempts": "145",
+        "hittingPercentage": "0.276",
+        "assists": "55",
+        "setErrors": "0",
+        "setAttempts": "143",
+        "serviceAces": "9",
+        "serviceErrors": "13",
+        "serveAttempts": "108",
+        "digs": "43",
+        "receptionAttempts": "95",
+        "receptionErrors": "7",
+        "blockSolos": "2",
+        "blockAssists": "20",
+        "blockingErrors": "4",
+        "totalBlocks": "12"
+      }
+    }
+  ]
+}

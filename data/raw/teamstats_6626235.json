@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626235,
+  "title": "WVB Boxscore",
+  "description": "Missouri vs Auburn",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45939",
+      "seoname": "missouri",
+      "name6Char": "MIZZOU",
+      "nameFull": "University of Missouri, Columbia",
+      "nameShort": "Missouri",
+      "teamName": "Tigers",
+      "color": "#010101"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45808",
+      "seoname": "auburn",
+      "name6Char": "AUBURN",
+      "nameFull": "Auburn University",
+      "nameShort": "Auburn",
+      "teamName": "Tigers",
+      "color": "#FA4616"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45939,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "104",
+        "kills": "63",
+        "attackErrors": "29",
+        "attackAttempts": "174",
+        "hittingPercentage": "0.195",
+        "assists": "57",
+        "setErrors": "4",
+        "setAttempts": "187",
+        "serviceAces": "1",
+        "serviceErrors": "8",
+        "serveAttempts": "104",
+        "digs": "72",
+        "receptionAttempts": "97",
+        "receptionErrors": "7",
+        "blockSolos": "2",
+        "blockAssists": "22",
+        "blockingErrors": "0",
+        "totalBlocks": "13"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45808,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "104",
+        "kills": "56",
+        "attackErrors": "29",
+        "attackAttempts": "176",
+        "hittingPercentage": "0.153",
+        "assists": "49",
+        "setErrors": "4",
+        "setAttempts": "186",
+        "serviceAces": "7",
+        "serviceErrors": "7",
+        "serveAttempts": "104",
+        "digs": "64",
+        "receptionAttempts": "96",
+        "receptionErrors": "1",
+        "blockSolos": "4",
+        "blockAssists": "12",
+        "blockingErrors": "0",
+        "totalBlocks": "10"
+      }
+    }
+  ]
+}

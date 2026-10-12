@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628198,
+  "title": "WVB Boxscore",
+  "description": "Florida St. vs Clemson",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46674",
+      "seoname": "florida-st",
+      "name6Char": "FSU",
+      "nameFull": "Florida State University",
+      "nameShort": "Florida St.",
+      "teamName": "Seminoles",
+      "color": "#76253A"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46294",
+      "seoname": "clemson",
+      "name6Char": "CLEM",
+      "nameFull": "Clemson University",
+      "nameShort": "Clemson",
+      "teamName": "Tigers",
+      "color": "#FF6720"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46674,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "45",
+        "attackErrors": "17",
+        "attackAttempts": "104",
+        "hittingPercentage": "0.269",
+        "assists": "37",
+        "setErrors": "1",
+        "setAttempts": "89",
+        "serviceAces": "6",
+        "serviceErrors": "15",
+        "serveAttempts": "74",
+        "digs": "37",
+        "receptionAttempts": "57",
+        "receptionErrors": "1",
+        "blockSolos": "1",
+        "blockAssists": "10",
+        "blockingErrors": "2",
+        "totalBlocks": "6"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46294,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "60",
+        "kills": "26",
+        "attackErrors": "18",
+        "attackAttempts": "79",
+        "hittingPercentage": "0.101",
+        "assists": "23",
+        "setErrors": "2",
+        "setAttempts": "75",
+        "serviceAces": "1",
+        "serviceErrors": "4",
+        "serveAttempts": "61",
+        "digs": "36",
+        "receptionAttempts": "59",
+        "receptionErrors": "6",
+        "blockSolos": "4",
+        "blockAssists": "10",
+        "blockingErrors": "2",
+        "totalBlocks": "9"
+      }
+    }
+  ]
+}

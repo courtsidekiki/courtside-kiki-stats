@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628477,
+  "title": "WVB Boxscore",
+  "description": "Temple vs North Texas",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45871",
+      "seoname": "temple",
+      "name6Char": "TEMPLE",
+      "nameFull": "Temple University",
+      "nameShort": "Temple",
+      "teamName": "Owls",
+      "color": "#b30838"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46237",
+      "seoname": "north-texas",
+      "name6Char": "NO TEX",
+      "nameFull": "University of North Texas",
+      "nameShort": "North Texas",
+      "teamName": "Mean Green",
+      "color": "#007A33"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45871,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "106",
+        "kills": "61",
+        "attackErrors": "20",
+        "attackAttempts": "163",
+        "hittingPercentage": "0.252",
+        "assists": "56",
+        "setErrors": "3",
+        "setAttempts": "161",
+        "serviceAces": "8",
+        "serviceErrors": "17",
+        "serveAttempts": "106",
+        "digs": "67",
+        "receptionAttempts": "92",
+        "receptionErrors": "8",
+        "blockSolos": "7",
+        "blockAssists": "4",
+        "blockingErrors": "0",
+        "totalBlocks": "9"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46237,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "99",
+        "kills": "50",
+        "attackErrors": "29",
+        "attackAttempts": "154",
+        "hittingPercentage": "0.136",
+        "assists": "49",
+        "setErrors": "1",
+        "setAttempts": "157",
+        "serviceAces": "8",
+        "serviceErrors": "7",
+        "serveAttempts": "99",
+        "digs": "72",
+        "receptionAttempts": "89",
+        "receptionErrors": "8",
+        "blockSolos": "6",
+        "blockAssists": "6",
+        "blockingErrors": "0",
+        "totalBlocks": "9"
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626081,
+  "title": "WVB Boxscore",
+  "description": "Tulsa vs Wichita St.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45876",
+      "seoname": "tulsa",
+      "name6Char": "TULSA",
+      "nameFull": "The University of Tulsa",
+      "nameShort": "Tulsa",
+      "teamName": "Golden Hurricane",
+      "color": "#002D72"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46705",
+      "seoname": "wichita-st",
+      "name6Char": "WICHST",
+      "nameFull": "Wichita State University",
+      "nameShort": "Wichita St.",
+      "teamName": "Shockers",
+      "color": "#010101"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45876,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "113",
+        "kills": "65",
+        "attackErrors": "27",
+        "attackAttempts": "195",
+        "hittingPercentage": "0.195",
+        "assists": "61",
+        "setErrors": "1",
+        "setAttempts": "201",
+        "serviceAces": "9",
+        "serviceErrors": "2",
+        "serveAttempts": "113",
+        "digs": "96",
+        "receptionAttempts": "90",
+        "receptionErrors": "5",
+        "blockSolos": "1",
+        "blockAssists": "20",
+        "blockingErrors": "2",
+        "totalBlocks": "11"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46705,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "98",
+        "kills": "62",
+        "attackErrors": "30",
+        "attackAttempts": "202",
+        "hittingPercentage": "0.158",
+        "assists": "57",
+        "setErrors": "1",
+        "setAttempts": "208",
+        "serviceAces": "5",
+        "serviceErrors": "8",
+        "serveAttempts": "98",
+        "digs": "90",
+        "receptionAttempts": "111",
+        "receptionErrors": "9",
+        "blockSolos": "0",
+        "blockAssists": "18",
+        "blockingErrors": "2",
+        "totalBlocks": "9"
+      }
+    }
+  ]
+}

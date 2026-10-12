@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628681,
+  "title": "WVB Boxscore",
+  "description": "Arkansas vs Texas A&M",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46212",
+      "seoname": "arkansas",
+      "name6Char": "ARK",
+      "nameFull": "University of Arkansas, Fayetteville",
+      "nameShort": "Arkansas",
+      "teamName": "Razorbacks",
+      "color": "#9D2235"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46006",
+      "seoname": "texas-am",
+      "name6Char": "TX A&M",
+      "nameFull": "Texas A&M University, College Station",
+      "nameShort": "Texas A&M",
+      "teamName": "Aggies",
+      "color": "#5D0025"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46212,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "95",
+        "kills": "44",
+        "attackErrors": "16",
+        "attackAttempts": "138",
+        "hittingPercentage": "0.203",
+        "assists": "40",
+        "setErrors": "2",
+        "setAttempts": "133",
+        "serviceAces": "5",
+        "serviceErrors": "15",
+        "serveAttempts": "94",
+        "digs": "46",
+        "receptionAttempts": "75",
+        "receptionErrors": "7",
+        "blockSolos": "3",
+        "blockAssists": "22",
+        "blockingErrors": "1",
+        "totalBlocks": "14"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46006,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "84",
+        "kills": "44",
+        "attackErrors": "33",
+        "attackAttempts": "147",
+        "hittingPercentage": "0.075",
+        "assists": "44",
+        "setErrors": "3",
+        "setAttempts": "152",
+        "serviceAces": "7",
+        "serviceErrors": "10",
+        "serveAttempts": "85",
+        "digs": "69",
+        "receptionAttempts": "79",
+        "receptionErrors": "5",
+        "blockSolos": "0",
+        "blockAssists": "18",
+        "blockingErrors": "1",
+        "totalBlocks": "9"
+      }
+    }
+  ]
+}

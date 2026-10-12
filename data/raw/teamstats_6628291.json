@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628291,
+  "title": "WVB Boxscore",
+  "description": "Bethune-Cookman vs Ark.-Pine Bluff",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46699",
+      "seoname": "bethune-cookman",
+      "name6Char": "BECOOK",
+      "nameFull": "Bethune-Cookman University",
+      "nameShort": "Bethune-Cookman",
+      "teamName": "Wildcats",
+      "color": "#6F263D"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46646",
+      "seoname": "ark-pine-bluff",
+      "name6Char": "ARK PB",
+      "nameFull": "University of Arkansas, Pine Bluff",
+      "nameShort": "Ark.-Pine Bluff",
+      "teamName": "Lady Lions",
+      "color": "#010101"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46699,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "36",
+        "attackErrors": "11",
+        "attackAttempts": "89",
+        "hittingPercentage": "0.281",
+        "assists": "30",
+        "setErrors": "1",
+        "setAttempts": "88",
+        "serviceAces": "7",
+        "serviceErrors": "4",
+        "serveAttempts": "74",
+        "digs": "43",
+        "receptionAttempts": "41",
+        "receptionErrors": "4",
+        "blockSolos": "4",
+        "blockAssists": "12",
+        "blockingErrors": "1",
+        "totalBlocks": "10"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46646,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "47",
+        "kills": "27",
+        "attackErrors": "24",
+        "attackAttempts": "97",
+        "hittingPercentage": "0.031",
+        "assists": "20",
+        "setErrors": "1",
+        "setAttempts": "93",
+        "serviceAces": "4",
+        "serviceErrors": "7",
+        "serveAttempts": "48",
+        "digs": "35",
+        "receptionAttempts": "70",
+        "receptionErrors": "7",
+        "blockSolos": "0",
+        "blockAssists": "4",
+        "blockingErrors": "2",
+        "totalBlocks": "2"
+      }
+    }
+  ]
+}

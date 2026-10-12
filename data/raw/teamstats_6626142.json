@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626142,
+  "title": "WVB Boxscore",
+  "description": "Virginia Tech vs Duke",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46509",
+      "seoname": "virginia-tech",
+      "name6Char": "VT",
+      "nameFull": "Virginia Polytechnic Institute and State University",
+      "nameShort": "Virginia Tech",
+      "teamName": "Hokies",
+      "color": "#861F41"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46409",
+      "seoname": "duke",
+      "name6Char": "DUKE",
+      "nameFull": "Duke University",
+      "nameShort": "Duke",
+      "teamName": "Blue Devils",
+      "color": "#002D72"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46509,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "100",
+        "kills": "54",
+        "attackErrors": "29",
+        "attackAttempts": "157",
+        "hittingPercentage": "0.159",
+        "assists": "49",
+        "setErrors": "5",
+        "setAttempts": "154",
+        "serviceAces": "3",
+        "serviceErrors": "9",
+        "serveAttempts": "101",
+        "digs": "59",
+        "receptionAttempts": "91",
+        "receptionErrors": "2",
+        "blockSolos": "5",
+        "blockAssists": "12",
+        "blockingErrors": "5",
+        "totalBlocks": "11"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46409,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "102",
+        "kills": "58",
+        "attackErrors": "32",
+        "attackAttempts": "157",
+        "hittingPercentage": "0.166",
+        "assists": "53",
+        "setErrors": "1",
+        "setAttempts": "158",
+        "serviceAces": "2",
+        "serviceErrors": "10",
+        "serveAttempts": "101",
+        "digs": "66",
+        "receptionAttempts": "92",
+        "receptionErrors": "3",
+        "blockSolos": "3",
+        "blockAssists": "8",
+        "blockingErrors": "8",
+        "totalBlocks": "7"
+      }
+    }
+  ]
+}
