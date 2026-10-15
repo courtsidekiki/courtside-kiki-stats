@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626392,
+  "title": "WVB Boxscore",
+  "description": "Villanova vs Georgetown",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46508",
+      "seoname": "villanova",
+      "name6Char": "NOVA",
+      "nameFull": "Villanova University",
+      "nameShort": "Villanova",
+      "teamName": "Wildcats",
+      "color": "#001F5B"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46417",
+      "seoname": "georgetown",
+      "name6Char": "GTOWN",
+      "nameFull": "Georgetown University",
+      "nameShort": "Georgetown",
+      "teamName": "Hoyas",
+      "color": "#141F35"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46508,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "96",
+        "kills": "47",
+        "attackErrors": "26",
+        "attackAttempts": "130",
+        "hittingPercentage": "0.162",
+        "assists": "43",
+        "setErrors": "1",
+        "setAttempts": "131",
+        "serviceAces": "8",
+        "serviceErrors": "10",
+        "serveAttempts": "95",
+        "digs": "53",
+        "receptionAttempts": "78",
+        "receptionErrors": "7",
+        "blockSolos": "3",
+        "blockAssists": "16",
+        "blockingErrors": "3",
+        "totalBlocks": "11"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46417,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "86",
+        "kills": "42",
+        "attackErrors": "29",
+        "attackAttempts": "128",
+        "hittingPercentage": "0.102",
+        "assists": "39",
+        "setErrors": "1",
+        "setAttempts": "132",
+        "serviceAces": "7",
+        "serviceErrors": "9",
+        "serveAttempts": "87",
+        "digs": "49",
+        "receptionAttempts": "85",
+        "receptionErrors": "8",
+        "blockSolos": "2",
+        "blockAssists": "16",
+        "blockingErrors": "4",
+        "totalBlocks": "10"
+      }
+    }
+  ]
+}
