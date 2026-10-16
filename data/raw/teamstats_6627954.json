@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627954,
+  "title": "WVB Boxscore",
+  "description": "Montana vs Southern Utah",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46724",
+      "seoname": "montana",
+      "name6Char": "MONT",
+      "nameFull": "University of Montana",
+      "nameShort": "Montana",
+      "teamName": "Grizzlies",
+      "color": "#6F2C3F"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46002",
+      "seoname": "southern-utah",
+      "name6Char": "S UTAH",
+      "nameFull": "Southern Utah University",
+      "nameShort": "Southern Utah",
+      "teamName": "Thunderbirds",
+      "color": "#BA0C2F"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46724,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "97",
+        "kills": "49",
+        "attackErrors": "22",
+        "attackAttempts": "132",
+        "hittingPercentage": "0.205",
+        "assists": "47",
+        "setErrors": "0",
+        "setAttempts": "134",
+        "serviceAces": "11",
+        "serviceErrors": "6",
+        "serveAttempts": "96",
+        "digs": "58",
+        "receptionAttempts": "64",
+        "receptionErrors": "6",
+        "blockSolos": "0",
+        "blockAssists": "10",
+        "blockingErrors": "1",
+        "totalBlocks": "5"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46002,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "41",
+        "attackErrors": "25",
+        "attackAttempts": "140",
+        "hittingPercentage": "0.114",
+        "assists": "39",
+        "setErrors": "0",
+        "setAttempts": "146",
+        "serviceAces": "6",
+        "serviceErrors": "12",
+        "serveAttempts": "76",
+        "digs": "49",
+        "receptionAttempts": "90",
+        "receptionErrors": "11",
+        "blockSolos": "1",
+        "blockAssists": "8",
+        "blockingErrors": "2",
+        "totalBlocks": "5"
+      }
+    }
+  ]
+}

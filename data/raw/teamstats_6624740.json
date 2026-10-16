@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624740,
+  "title": "WVB Boxscore",
+  "description": "NIU vs Milwaukee",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45981",
+      "seoname": "northern-ill",
+      "name6Char": "NIU",
+      "nameFull": "Northern Illinois University",
+      "nameShort": "NIU",
+      "teamName": "Huskies",
+      "color": "#BA0C2F"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45953",
+      "seoname": "milwaukee",
+      "name6Char": "MILWKE",
+      "nameFull": "University of Wisconsin-Milwaukee",
+      "nameShort": "Milwaukee",
+      "teamName": "Panthers",
+      "color": "#010101"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45981,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "52",
+        "kills": "32",
+        "attackErrors": "14",
+        "attackAttempts": "94",
+        "hittingPercentage": "0.191",
+        "assists": "30",
+        "setErrors": "0",
+        "setAttempts": "99",
+        "serviceAces": "4",
+        "serviceErrors": "9",
+        "serveAttempts": "54",
+        "digs": "33",
+        "receptionAttempts": "66",
+        "receptionErrors": "6",
+        "blockSolos": "0",
+        "blockAssists": "4",
+        "blockingErrors": "0",
+        "totalBlocks": "2"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45953,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "46",
+        "attackErrors": "6",
+        "attackAttempts": "92",
+        "hittingPercentage": "0.435",
+        "assists": "35",
+        "setErrors": "3",
+        "setAttempts": "89",
+        "serviceAces": "6",
+        "serviceErrors": "7",
+        "serveAttempts": "73",
+        "digs": "38",
+        "receptionAttempts": "45",
+        "receptionErrors": "4",
+        "blockSolos": "2",
+        "blockAssists": "6",
+        "blockingErrors": "0",
+        "totalBlocks": "5"
+      }
+    }
+  ]
+}

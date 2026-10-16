@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624477,
+  "title": "WVB Boxscore",
+  "description": "Utah Valley vs Long Beach St.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46016",
+      "seoname": "utah-valley",
+      "name6Char": "UT VAL",
+      "nameFull": "Utah Valley University",
+      "nameShort": "Utah Valley",
+      "teamName": "Wolverines",
+      "color": "#275D38"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46160",
+      "seoname": "long-beach-st",
+      "name6Char": "LBSU",
+      "nameFull": "Long Beach State University",
+      "nameShort": "Long Beach St.",
+      "teamName": "Beach",
+      "color": "#010101"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46016,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "106",
+        "kills": "57",
+        "attackErrors": "23",
+        "attackAttempts": "167",
+        "hittingPercentage": "0.204",
+        "assists": "54",
+        "setErrors": "1",
+        "setAttempts": "166",
+        "serviceAces": "7",
+        "serviceErrors": "14",
+        "serveAttempts": "107",
+        "digs": "64",
+        "receptionAttempts": "93",
+        "receptionErrors": "3",
+        "blockSolos": "1",
+        "blockAssists": "22",
+        "blockingErrors": "1",
+        "totalBlocks": "12"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46160,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "105",
+        "kills": "64",
+        "attackErrors": "31",
+        "attackAttempts": "170",
+        "hittingPercentage": "0.194",
+        "assists": "59",
+        "setErrors": "0",
+        "setAttempts": "173",
+        "serviceAces": "3",
+        "serviceErrors": "11",
+        "serveAttempts": "104",
+        "digs": "77",
+        "receptionAttempts": "93",
+        "receptionErrors": "7",
+        "blockSolos": "0",
+        "blockAssists": "19",
+        "blockingErrors": "2",
+        "totalBlocks": "9"
+      }
+    }
+  ]
+}

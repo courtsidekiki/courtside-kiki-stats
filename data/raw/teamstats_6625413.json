@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625413,
+  "title": "WVB Boxscore",
+  "description": "James Madison vs App State",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45785",
+      "seoname": "james-madison",
+      "name6Char": "JMU",
+      "nameFull": "James Madison University",
+      "nameShort": "James Madison",
+      "teamName": "Dukes",
+      "color": "#330072"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46571",
+      "seoname": "appalachian-st",
+      "name6Char": "APP ST",
+      "nameFull": "Appalachian State University",
+      "nameShort": "App State",
+      "teamName": "Mountaineers",
+      "color": "#010101"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45785,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "113",
+        "kills": "57",
+        "attackErrors": "27",
+        "attackAttempts": "155",
+        "hittingPercentage": "0.194",
+        "assists": "48",
+        "setErrors": "1",
+        "setAttempts": "156",
+        "serviceAces": "13",
+        "serviceErrors": "11",
+        "serveAttempts": "113",
+        "digs": "48",
+        "receptionAttempts": "96",
+        "receptionErrors": "8",
+        "blockSolos": "1",
+        "blockAssists": "30",
+        "blockingErrors": "0",
+        "totalBlocks": "16"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46571,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "109",
+        "kills": "62",
+        "attackErrors": "27",
+        "attackAttempts": "164",
+        "hittingPercentage": "0.213",
+        "assists": "52",
+        "setErrors": "3",
+        "setAttempts": "166",
+        "serviceAces": "8",
+        "serviceErrors": "13",
+        "serveAttempts": "109",
+        "digs": "49",
+        "receptionAttempts": "102",
+        "receptionErrors": "13",
+        "blockSolos": "0",
+        "blockAssists": "24",
+        "blockingErrors": "0",
+        "totalBlocks": "12"
+      }
+    }
+  ]
+}

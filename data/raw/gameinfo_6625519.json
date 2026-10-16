@@ -1,0 +1,104 @@
+{
+  "contests": [
+    {
+      "__typename": "Contest",
+      "id": "6625519",
+      "sportCode": "WVB",
+      "sportUrl": "volleyball-women",
+      "division": 1,
+      "clock": null,
+      "currentPeriod": "FINAL",
+      "finalMessage": "FINAL",
+      "gameState": "F",
+      "statusCodeDisplay": "final",
+      "network": null,
+      "startTime": "16:00",
+      "startTimeEpoch": 1792094400,
+      "week": null,
+      "seasonYear": 2026,
+      "winner": 46558,
+      "hasStartTime": true,
+      "hasBoxscore": true,
+      "hasPbp": true,
+      "hasScoringSummary": false,
+      "hasPreview": false,
+      "hasRecap": false,
+      "hasTeamStats": true,
+      "linescores": [
+        {
+          "__typename": "Linescore",
+          "period": "1",
+          "home": "20",
+          "visit": "25"
+        },
+        {
+          "__typename": "Linescore",
+          "period": "2",
+          "home": "25",
+          "visit": "21"
+        },
+        {
+          "__typename": "Linescore",
+          "period": "3",
+          "home": "24",
+          "visit": "26"
+        },
+        {
+          "__typename": "Linescore",
+          "period": "4",
+          "home": "17",
+          "visit": "25"
+        }
+      ],
+      "teams": [
+        {
+          "__typename": "ContestTeam",
+          "teamId": "46164",
+          "isHome": true,
+          "color": "#6F263D",
+          "seoname": "central-mich",
+          "nameFull": "Central Michigan University",
+          "nameShort": "Central Mich.",
+          "name6Char": "C MICH",
+          "teamRank": null,
+          "gameRank": null,
+          "score": 1,
+          "seed": null,
+          "record": "(0-20)",
+          "divisionName": "d1",
+          "division": 1,
+          "isWinner": false
+        },
+        {
+          "__typename": "ContestTeam",
+          "teamId": "46558",
+          "isHome": false,
+          "color": "#003976",
+          "seoname": "kent-st",
+          "nameFull": "Kent State University",
+          "nameShort": "Kent St.",
+          "name6Char": "KENT",
+          "teamRank": null,
+          "gameRank": null,
+          "score": 3,
+          "seed": null,
+          "record": "(8-10)",
+          "divisionName": "d1",
+          "division": 1,
+          "isWinner": true
+        }
+      ],
+      "liveVideos": [],
+      "championship": null,
+      "championshipGame": null,
+      "links": [],
+      "location": {
+        "__typename": "Location",
+        "venue": "McGuirk Arena",
+        "city": "Mount Pleasant",
+        "stateUsps": "MI"
+      },
+      "stats": null
+    }
+  ]
+}

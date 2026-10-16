@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6639467,
+  "title": "WVB Boxscore",
+  "description": "Eastern Wash. vs Northern Ariz.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46180",
+      "seoname": "eastern-wash",
+      "name6Char": "E WASH",
+      "nameFull": "Eastern Washington University",
+      "nameShort": "Eastern Wash.",
+      "teamName": "Eagles",
+      "color": "#A6192E"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46729",
+      "seoname": "northern-ariz",
+      "name6Char": "NAU",
+      "nameFull": "Northern Arizona University",
+      "nameShort": "Northern Ariz.",
+      "teamName": "Lumberjacks",
+      "color": "#00205B"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46180,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "101",
+        "kills": "58",
+        "attackErrors": "26",
+        "attackAttempts": "184",
+        "hittingPercentage": "0.174",
+        "assists": "52",
+        "setErrors": "0",
+        "setAttempts": "183",
+        "serviceAces": "3",
+        "serviceErrors": "11",
+        "serveAttempts": "102",
+        "digs": "88",
+        "receptionAttempts": "90",
+        "receptionErrors": "6",
+        "blockSolos": "8",
+        "blockAssists": "12",
+        "blockingErrors": "2",
+        "totalBlocks": "14"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46729,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "102",
+        "kills": "59",
+        "attackErrors": "28",
+        "attackAttempts": "188",
+        "hittingPercentage": "0.165",
+        "assists": "55",
+        "setErrors": "1",
+        "setAttempts": "197",
+        "serviceAces": "6",
+        "serviceErrors": "11",
+        "serveAttempts": "101",
+        "digs": "89",
+        "receptionAttempts": "91",
+        "receptionErrors": "3",
+        "blockSolos": "1",
+        "blockAssists": "8",
+        "blockingErrors": "2",
+        "totalBlocks": "5"
+      }
+    }
+  ]
+}

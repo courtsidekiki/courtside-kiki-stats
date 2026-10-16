@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627701,
+  "title": "WVB Boxscore",
+  "description": "North Dakota St. vs South Dakota St.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45847",
+      "seoname": "north-dakota-st",
+      "name6Char": "ND ST",
+      "nameFull": "North Dakota State University",
+      "nameShort": "North Dakota St.",
+      "teamName": "Bison",
+      "color": "#115740"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46001",
+      "seoname": "south-dakota-st",
+      "name6Char": "SDAKST",
+      "nameFull": "South Dakota State University",
+      "nameShort": "South Dakota St.",
+      "teamName": "Jackrabbits",
+      "color": "#0032A0"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45847,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "92",
+        "kills": "60",
+        "attackErrors": "26",
+        "attackAttempts": "149",
+        "hittingPercentage": "0.228",
+        "assists": "58",
+        "setErrors": "0",
+        "setAttempts": "155",
+        "serviceAces": "2",
+        "serviceErrors": "6",
+        "serveAttempts": "93",
+        "digs": "56",
+        "receptionAttempts": "88",
+        "receptionErrors": "8",
+        "blockSolos": "1",
+        "blockAssists": "12",
+        "blockingErrors": "2",
+        "totalBlocks": "7"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46001,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "100",
+        "kills": "59",
+        "attackErrors": "19",
+        "attackAttempts": "141",
+        "hittingPercentage": "0.284",
+        "assists": "57",
+        "setErrors": "0",
+        "setAttempts": "141",
+        "serviceAces": "8",
+        "serviceErrors": "11",
+        "serveAttempts": "99",
+        "digs": "52",
+        "receptionAttempts": "87",
+        "receptionErrors": "2",
+        "blockSolos": "3",
+        "blockAssists": "24",
+        "blockingErrors": "2",
+        "totalBlocks": "15"
+      }
+    }
+  ]
+}

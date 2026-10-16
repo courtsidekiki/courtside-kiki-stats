@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626215,
+  "title": "WVB Boxscore",
+  "description": "Gonzaga vs Fresno St.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46304",
+      "seoname": "gonzaga",
+      "name6Char": "GONZ",
+      "nameFull": "Gonzaga University",
+      "nameShort": "Gonzaga",
+      "teamName": "Bulldogs",
+      "color": "#041E42"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46660",
+      "seoname": "fresno-st",
+      "name6Char": "FRESNO",
+      "nameFull": "California State University, Fresno",
+      "nameShort": "Fresno St.",
+      "teamName": "Bulldogs",
+      "color": "#D50032"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46304,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "107",
+        "kills": "54",
+        "attackErrors": "25",
+        "attackAttempts": "148",
+        "hittingPercentage": "0.196",
+        "assists": "48",
+        "setErrors": "1",
+        "setAttempts": "147",
+        "serviceAces": "11",
+        "serviceErrors": "12",
+        "serveAttempts": "107",
+        "digs": "62",
+        "receptionAttempts": "95",
+        "receptionErrors": "8",
+        "blockSolos": "2",
+        "blockAssists": "16",
+        "blockingErrors": "2",
+        "totalBlocks": "10"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46660,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "104",
+        "kills": "58",
+        "attackErrors": "27",
+        "attackAttempts": "153",
+        "hittingPercentage": "0.203",
+        "assists": "54",
+        "setErrors": "5",
+        "setAttempts": "156",
+        "serviceAces": "8",
+        "serviceErrors": "9",
+        "serveAttempts": "104",
+        "digs": "60",
+        "receptionAttempts": "95",
+        "receptionErrors": "11",
+        "blockSolos": "3",
+        "blockAssists": "8",
+        "blockingErrors": "1",
+        "totalBlocks": "7"
+      }
+    }
+  ]
+}

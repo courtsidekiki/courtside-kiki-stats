@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627331,
+  "title": "WVB Boxscore",
+  "description": "McNeese vs East Texas A&M",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46201",
+      "seoname": "mcneese",
+      "name6Char": "MCNEES",
+      "nameFull": "McNeese State University",
+      "nameShort": "McNeese",
+      "teamName": "Cowgirls",
+      "color": "#003087"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45903",
+      "seoname": "tex-am-commerce",
+      "name6Char": "TAMUCO",
+      "nameFull": "East Texas A&M University",
+      "nameShort": "East Texas A&M",
+      "teamName": "Lions",
+      "color": "#00205B"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46201,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "97",
+        "kills": "62",
+        "attackErrors": "24",
+        "attackAttempts": "172",
+        "hittingPercentage": "0.221",
+        "assists": "59",
+        "setErrors": "1",
+        "setAttempts": "166",
+        "serviceAces": "5",
+        "serviceErrors": "4",
+        "serveAttempts": "96",
+        "digs": "86",
+        "receptionAttempts": "87",
+        "receptionErrors": "11",
+        "blockSolos": "1",
+        "blockAssists": "10",
+        "blockingErrors": "1",
+        "totalBlocks": "6"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45903,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "100",
+        "kills": "60",
+        "attackErrors": "16",
+        "attackAttempts": "168",
+        "hittingPercentage": "0.262",
+        "assists": "52",
+        "setErrors": "0",
+        "setAttempts": "158",
+        "serviceAces": "11",
+        "serviceErrors": "14",
+        "serveAttempts": "101",
+        "digs": "75",
+        "receptionAttempts": "92",
+        "receptionErrors": "5",
+        "blockSolos": "4",
+        "blockAssists": "8",
+        "blockingErrors": "3",
+        "totalBlocks": "8"
+      }
+    }
+  ]
+}

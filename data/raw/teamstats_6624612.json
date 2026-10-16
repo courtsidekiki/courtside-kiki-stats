@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624612,
+  "title": "WVB Boxscore",
+  "description": "West Ga. vs Eastern Ky.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46381",
+      "seoname": "west-ga",
+      "name6Char": "W GA",
+      "nameFull": "University of West Georgia",
+      "nameShort": "West Ga.",
+      "teamName": "Wolves",
+      "color": "#0032A0"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45770",
+      "seoname": "eastern-ky",
+      "name6Char": "E KY",
+      "nameFull": "Eastern Kentucky University",
+      "nameShort": "Eastern Ky.",
+      "teamName": "Colonels",
+      "color": "#6F263D"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46381,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "44",
+        "kills": "29",
+        "attackErrors": "19",
+        "attackAttempts": "101",
+        "hittingPercentage": "0.099",
+        "assists": "25",
+        "setErrors": "1",
+        "setAttempts": "98",
+        "serviceAces": "3",
+        "serviceErrors": "4",
+        "serveAttempts": "46",
+        "digs": "33",
+        "receptionAttempts": "69",
+        "receptionErrors": "1",
+        "blockSolos": "2",
+        "blockAssists": "6",
+        "blockingErrors": "0",
+        "totalBlocks": "5"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45770,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "50",
+        "attackErrors": "7",
+        "attackAttempts": "96",
+        "hittingPercentage": "0.448",
+        "assists": "46",
+        "setErrors": "1",
+        "setAttempts": "93",
+        "serviceAces": "1",
+        "serviceErrors": "4",
+        "serveAttempts": "73",
+        "digs": "50",
+        "receptionAttempts": "42",
+        "receptionErrors": "3",
+        "blockSolos": "3",
+        "blockAssists": "14",
+        "blockingErrors": "0",
+        "totalBlocks": "10"
+      }
+    }
+  ]
+}

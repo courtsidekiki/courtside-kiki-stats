@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628305,
+  "title": "WVB Boxscore",
+  "description": "North Ala. vs UT Arlington",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46105",
+      "seoname": "north-ala",
+      "name6Char": "N ALA",
+      "nameFull": "University of North Alabama",
+      "nameShort": "North Ala.",
+      "teamName": "Lions",
+      "color": "#582C83"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45873",
+      "seoname": "texas-arlington",
+      "name6Char": "TX ARL",
+      "nameFull": "University of Texas at Arlington",
+      "nameShort": "UT Arlington",
+      "teamName": "Mavericks",
+      "color": "#003DA5"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46105,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "108",
+        "kills": "65",
+        "attackErrors": "31",
+        "attackAttempts": "186",
+        "hittingPercentage": "0.183",
+        "assists": "61",
+        "setErrors": "0",
+        "setAttempts": "174",
+        "serviceAces": "5",
+        "serviceErrors": "11",
+        "serveAttempts": "107",
+        "digs": "70",
+        "receptionAttempts": "94",
+        "receptionErrors": "5",
+        "blockSolos": "2",
+        "blockAssists": "14",
+        "blockingErrors": "0",
+        "totalBlocks": "9"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45873,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "105",
+        "kills": "58",
+        "attackErrors": "25",
+        "attackAttempts": "164",
+        "hittingPercentage": "0.201",
+        "assists": "56",
+        "setErrors": "1",
+        "setAttempts": "176",
+        "serviceAces": "5",
+        "serviceErrors": "12",
+        "serveAttempts": "106",
+        "digs": "81",
+        "receptionAttempts": "96",
+        "receptionErrors": "5",
+        "blockSolos": "5",
+        "blockAssists": "18",
+        "blockingErrors": "0",
+        "totalBlocks": "14"
+      }
+    }
+  ]
+}

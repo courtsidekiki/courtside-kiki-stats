@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627151,
+  "title": "WVB Boxscore",
+  "description": "Idaho vs Portland St.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46311",
+      "seoname": "idaho",
+      "name6Char": "IDAHO",
+      "nameFull": "University of Idaho",
+      "nameShort": "Idaho",
+      "teamName": "Vandals",
+      "color": "#010101"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45987",
+      "seoname": "portland-st",
+      "name6Char": "PORTST",
+      "nameFull": "Portland State University",
+      "nameShort": "Portland St.",
+      "teamName": "Vikings",
+      "color": "#154734"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46311,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "99",
+        "kills": "55",
+        "attackErrors": "24",
+        "attackAttempts": "140",
+        "hittingPercentage": "0.221",
+        "assists": "50",
+        "setErrors": "1",
+        "setAttempts": "156",
+        "serviceAces": "12",
+        "serviceErrors": "8",
+        "serveAttempts": "98",
+        "digs": "65",
+        "receptionAttempts": "77",
+        "receptionErrors": "4",
+        "blockSolos": "0",
+        "blockAssists": "22",
+        "blockingErrors": "0",
+        "totalBlocks": "11"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45987,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "84",
+        "kills": "46",
+        "attackErrors": "23",
+        "attackAttempts": "144",
+        "hittingPercentage": "0.160",
+        "assists": "44",
+        "setErrors": "0",
+        "setAttempts": "149",
+        "serviceAces": "4",
+        "serviceErrors": "8",
+        "serveAttempts": "85",
+        "digs": "46",
+        "receptionAttempts": "90",
+        "receptionErrors": "12",
+        "blockSolos": "2",
+        "blockAssists": "10",
+        "blockingErrors": "0",
+        "totalBlocks": "7"
+      }
+    }
+  ]
+}

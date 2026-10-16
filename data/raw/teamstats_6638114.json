@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6638114,
+  "title": "WVB Boxscore",
+  "description": "Kansas City vs St. Thomas (MN)",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46391",
+      "seoname": "umkc",
+      "name6Char": "KC",
+      "nameFull": "University of Missouri-Kansas City",
+      "nameShort": "Kansas City",
+      "teamName": "Roos",
+      "color": "#004B87"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45998",
+      "seoname": "st-thomas-mn",
+      "name6Char": "STTHOM",
+      "nameFull": "University of St. Thomas (Minnesota)",
+      "nameShort": "St. Thomas (MN)",
+      "teamName": "Tommies",
+      "color": "#412784"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46391,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "41",
+        "kills": "25",
+        "attackErrors": "12",
+        "attackAttempts": "87",
+        "hittingPercentage": "0.149",
+        "assists": "21",
+        "setErrors": "2",
+        "setAttempts": "87",
+        "serviceAces": "3",
+        "serviceErrors": "7",
+        "serveAttempts": "42",
+        "digs": "27",
+        "receptionAttempts": "69",
+        "receptionErrors": "10",
+        "blockSolos": "0",
+        "blockAssists": "6",
+        "blockingErrors": "1",
+        "totalBlocks": "3"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45998,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "44",
+        "attackErrors": "8",
+        "attackAttempts": "83",
+        "hittingPercentage": "0.434",
+        "assists": "40",
+        "setErrors": "0",
+        "setAttempts": "78",
+        "serviceAces": "10",
+        "serviceErrors": "5",
+        "serveAttempts": "74",
+        "digs": "45",
+        "receptionAttempts": "35",
+        "receptionErrors": "3",
+        "blockSolos": "1",
+        "blockAssists": "6",
+        "blockingErrors": "1",
+        "totalBlocks": "4"
+      }
+    }
+  ]
+}

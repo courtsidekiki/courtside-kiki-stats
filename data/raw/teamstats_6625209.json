@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625209,
+  "title": "WVB Boxscore",
+  "description": "Murray St. vs Belmont",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46604",
+      "seoname": "murray-st",
+      "name6Char": "MURRAY",
+      "nameFull": "Murray State University",
+      "nameShort": "Murray St.",
+      "teamName": "Racers",
+      "color": "#0C2340"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46399",
+      "seoname": "belmont",
+      "name6Char": "BELMNT",
+      "nameFull": "Belmont University",
+      "nameShort": "Belmont",
+      "teamName": "Bruins",
+      "color": "#0D2C6B"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46604,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "56",
+        "kills": "38",
+        "attackErrors": "16",
+        "attackAttempts": "110",
+        "hittingPercentage": "0.200",
+        "assists": "35",
+        "setErrors": "2",
+        "setAttempts": "108",
+        "serviceAces": "5",
+        "serviceErrors": "6",
+        "serveAttempts": "58",
+        "digs": "38",
+        "receptionAttempts": "72",
+        "receptionErrors": "5",
+        "blockSolos": "0",
+        "blockAssists": "2",
+        "blockingErrors": "0",
+        "totalBlocks": "1"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46399,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "45",
+        "attackErrors": "9",
+        "attackAttempts": "100",
+        "hittingPercentage": "0.360",
+        "assists": "40",
+        "setErrors": "3",
+        "setAttempts": "101",
+        "serviceAces": "5",
+        "serviceErrors": "1",
+        "serveAttempts": "73",
+        "digs": "45",
+        "receptionAttempts": "52",
+        "receptionErrors": "5",
+        "blockSolos": "3",
+        "blockAssists": "8",
+        "blockingErrors": "0",
+        "totalBlocks": "7"
+      }
+    }
+  ]
+}

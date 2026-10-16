@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624713,
+  "title": "WVB Boxscore",
+  "description": "Norfolk St. vs Howard",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45976",
+      "seoname": "norfolk-st",
+      "name6Char": "NORFLK",
+      "nameFull": "Norfolk State University",
+      "nameShort": "Norfolk St.",
+      "teamName": "Spartans",
+      "color": "#007A53"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45779",
+      "seoname": "howard",
+      "name6Char": "HOWARD",
+      "nameFull": "Howard University",
+      "nameShort": "Howard",
+      "teamName": "Bison",
+      "color": "#00263E"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45976,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "77",
+        "kills": "41",
+        "attackErrors": "20",
+        "attackAttempts": "137",
+        "hittingPercentage": "0.153",
+        "assists": "38",
+        "setErrors": "2",
+        "setAttempts": "131",
+        "serviceAces": "13",
+        "serviceErrors": "6",
+        "serveAttempts": "78",
+        "digs": "55",
+        "receptionAttempts": "85",
+        "receptionErrors": "9",
+        "blockSolos": "4",
+        "blockAssists": "4",
+        "blockingErrors": "1",
+        "totalBlocks": "6"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45779,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "94",
+        "kills": "57",
+        "attackErrors": "15",
+        "attackAttempts": "132",
+        "hittingPercentage": "0.318",
+        "assists": "55",
+        "setErrors": "0",
+        "setAttempts": "132",
+        "serviceAces": "9",
+        "serviceErrors": "8",
+        "serveAttempts": "93",
+        "digs": "70",
+        "receptionAttempts": "72",
+        "receptionErrors": "13",
+        "blockSolos": "5",
+        "blockAssists": "10",
+        "blockingErrors": "0",
+        "totalBlocks": "10"
+      }
+    }
+  ]
+}
