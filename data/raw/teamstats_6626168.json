@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626168,
+  "title": "WVB Boxscore",
+  "description": "UAB vs East Carolina",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46437",
+      "seoname": "uab",
+      "name6Char": "UAB",
+      "nameFull": "University of Alabama at Birmingham",
+      "nameShort": "UAB",
+      "teamName": "Blazers",
+      "color": "#006341"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46668",
+      "seoname": "east-carolina",
+      "name6Char": "E CAR",
+      "nameFull": "East Carolina University",
+      "nameShort": "East Carolina",
+      "teamName": "Pirates",
+      "color": "#582C83"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46437,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "64",
+        "kills": "34",
+        "attackErrors": "13",
+        "attackAttempts": "102",
+        "hittingPercentage": "0.206",
+        "assists": "32",
+        "setErrors": "2",
+        "setAttempts": "104",
+        "serviceAces": "6",
+        "serviceErrors": "9",
+        "serveAttempts": "66",
+        "digs": "38",
+        "receptionAttempts": "71",
+        "receptionErrors": "6",
+        "blockSolos": "2",
+        "blockAssists": "14",
+        "blockingErrors": "0",
+        "totalBlocks": "9"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46668,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "79",
+        "kills": "49",
+        "attackErrors": "16",
+        "attackAttempts": "107",
+        "hittingPercentage": "0.308",
+        "assists": "44",
+        "setErrors": "2",
+        "setAttempts": "103",
+        "serviceAces": "6",
+        "serviceErrors": "6",
+        "serveAttempts": "77",
+        "digs": "50",
+        "receptionAttempts": "57",
+        "receptionErrors": "6",
+        "blockSolos": "0",
+        "blockAssists": "4",
+        "blockingErrors": "0",
+        "totalBlocks": "2"
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6639609,
+  "title": "WVB Boxscore",
+  "description": "Bethune-Cookman vs Florida A&M",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46699",
+      "seoname": "bethune-cookman",
+      "name6Char": "BECOOK",
+      "nameFull": "Bethune-Cookman University",
+      "nameShort": "Bethune-Cookman",
+      "teamName": "Wildcats",
+      "color": "#6F263D"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46412",
+      "seoname": "florida-am",
+      "name6Char": "FL A&M",
+      "nameFull": "Florida A&M University",
+      "nameShort": "Florida A&M",
+      "teamName": "Lady Rattlers ",
+      "color": "#FF8200"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46699,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "86",
+        "kills": "49",
+        "attackErrors": "17",
+        "attackAttempts": "133",
+        "hittingPercentage": "0.241",
+        "assists": "49",
+        "setErrors": "3",
+        "setAttempts": "136",
+        "serviceAces": "2",
+        "serviceErrors": "9",
+        "serveAttempts": "87",
+        "digs": "57",
+        "receptionAttempts": "89",
+        "receptionErrors": "3",
+        "blockSolos": "5",
+        "blockAssists": "20",
+        "blockingErrors": "4",
+        "totalBlocks": "15"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46412,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "97",
+        "kills": "65",
+        "attackErrors": "28",
+        "attackAttempts": "156",
+        "hittingPercentage": "0.237",
+        "assists": "60",
+        "setErrors": "0",
+        "setAttempts": "148",
+        "serviceAces": "3",
+        "serviceErrors": "7",
+        "serveAttempts": "96",
+        "digs": "61",
+        "receptionAttempts": "78",
+        "receptionErrors": "2",
+        "blockSolos": "0",
+        "blockAssists": "4",
+        "blockingErrors": "0",
+        "totalBlocks": "2"
+      }
+    }
+  ]
+}

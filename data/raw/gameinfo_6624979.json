@@ -1,0 +1,99 @@
+{
+  "contests": [
+    {
+      "__typename": "Contest",
+      "id": "6624979",
+      "sportCode": "WVB",
+      "sportUrl": "volleyball-women",
+      "division": 1,
+      "clock": null,
+      "currentPeriod": "FINAL",
+      "finalMessage": "FINAL",
+      "gameState": "F",
+      "statusCodeDisplay": "final",
+      "network": null,
+      "startTime": "12:00",
+      "startTimeEpoch": 1792166400,
+      "week": null,
+      "seasonYear": 2026,
+      "winner": 46585,
+      "hasStartTime": true,
+      "hasBoxscore": true,
+      "hasPbp": true,
+      "hasScoringSummary": false,
+      "hasPreview": false,
+      "hasRecap": false,
+      "hasTeamStats": true,
+      "linescores": [
+        {
+          "__typename": "Linescore",
+          "period": "1",
+          "home": "21",
+          "visit": "25"
+        },
+        {
+          "__typename": "Linescore",
+          "period": "2",
+          "home": "18",
+          "visit": "25"
+        },
+        {
+          "__typename": "Linescore",
+          "period": "3",
+          "home": "25",
+          "visit": "10"
+        },
+        {
+          "__typename": "Linescore",
+          "period": "4",
+          "home": "18",
+          "visit": "25"
+        }
+      ],
+      "teams": [
+        {
+          "__typename": "ContestTeam",
+          "teamId": "46753",
+          "isHome": true,
+          "color": "#A6192E",
+          "seoname": "stony-brook",
+          "nameFull": "Stony Brook University",
+          "nameShort": "Stony Brook",
+          "name6Char": "STONY",
+          "teamRank": null,
+          "gameRank": null,
+          "score": 1,
+          "seed": null,
+          "record": "(9-7)",
+          "divisionName": "d1",
+          "division": 1,
+          "isWinner": false
+        },
+        {
+          "__typename": "ContestTeam",
+          "teamId": "46585",
+          "isHome": false,
+          "color": "#76232F",
+          "seoname": "col-of-charleston",
+          "nameFull": "College of Charleston (South Carolina)",
+          "nameShort": "Col. of Charleston",
+          "name6Char": "C OF C",
+          "teamRank": null,
+          "gameRank": null,
+          "score": 3,
+          "seed": null,
+          "record": "(17-2)",
+          "divisionName": "d1",
+          "division": 1,
+          "isWinner": true
+        }
+      ],
+      "liveVideos": [],
+      "championship": null,
+      "championshipGame": null,
+      "links": [],
+      "location": null,
+      "stats": null
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625958,
+  "title": "WVB Boxscore",
+  "description": "UCLA vs Penn St.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45896",
+      "seoname": "ucla",
+      "name6Char": "UCLA",
+      "nameFull": "University of California, Los Angeles",
+      "nameShort": "UCLA",
+      "teamName": "Bruins",
+      "color": "#0072CE"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46614",
+      "seoname": "penn-st",
+      "name6Char": "PENNST",
+      "nameFull": "Pennsylvania State University",
+      "nameShort": "Penn St.",
+      "teamName": "Nittany Lions",
+      "color": "#041E42"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45896,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "98",
+        "kills": "55",
+        "attackErrors": "25",
+        "attackAttempts": "168",
+        "hittingPercentage": "0.179",
+        "assists": "53",
+        "setErrors": "1",
+        "setAttempts": "168",
+        "serviceAces": "8",
+        "serviceErrors": "4",
+        "serveAttempts": "97",
+        "digs": "79",
+        "receptionAttempts": "96",
+        "receptionErrors": "7",
+        "blockSolos": "1",
+        "blockAssists": "12",
+        "blockingErrors": "1",
+        "totalBlocks": "7"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46614,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "106",
+        "kills": "69",
+        "attackErrors": "23",
+        "attackAttempts": "188",
+        "hittingPercentage": "0.245",
+        "assists": "62",
+        "setErrors": "1",
+        "setAttempts": "175",
+        "serviceAces": "7",
+        "serviceErrors": "11",
+        "serveAttempts": "107",
+        "digs": "68",
+        "receptionAttempts": "93",
+        "receptionErrors": "8",
+        "blockSolos": "1",
+        "blockAssists": "20",
+        "blockingErrors": "4",
+        "totalBlocks": "11"
+      }
+    }
+  ]
+}

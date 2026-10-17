@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6639648,
+  "title": "WVB Boxscore",
+  "description": "Murray St. vs Southern Ill.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46604",
+      "seoname": "murray-st",
+      "name6Char": "MURRAY",
+      "nameFull": "Murray State University",
+      "nameShort": "Murray St.",
+      "teamName": "Racers",
+      "color": "#0C2340"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46498",
+      "seoname": "southern-ill",
+      "name6Char": "SIU",
+      "nameFull": "Southern Illinois University at Carbondale",
+      "nameShort": "Southern Ill.",
+      "teamName": "Salukis",
+      "color": "#6F263D"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46604,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "92",
+        "kills": "44",
+        "attackErrors": "30",
+        "attackAttempts": "148",
+        "hittingPercentage": "0.095",
+        "assists": "41",
+        "setErrors": "0",
+        "setAttempts": "153",
+        "serviceAces": "5",
+        "serviceErrors": "4",
+        "serveAttempts": "91",
+        "digs": "56",
+        "receptionAttempts": "88",
+        "receptionErrors": "10",
+        "blockSolos": "1",
+        "blockAssists": "18",
+        "blockingErrors": "2",
+        "totalBlocks": "10"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46498,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "100",
+        "kills": "56",
+        "attackErrors": "27",
+        "attackAttempts": "155",
+        "hittingPercentage": "0.187",
+        "assists": "50",
+        "setErrors": "2",
+        "setAttempts": "154",
+        "serviceAces": "10",
+        "serviceErrors": "13",
+        "serveAttempts": "101",
+        "digs": "54",
+        "receptionAttempts": "87",
+        "receptionErrors": "5",
+        "blockSolos": "3",
+        "blockAssists": "20",
+        "blockingErrors": "0",
+        "totalBlocks": "13"
+      }
+    }
+  ]
+}

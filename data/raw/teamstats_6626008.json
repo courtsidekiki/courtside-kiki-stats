@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626008,
+  "title": "WVB Boxscore",
+  "description": "Sam Houston vs Delaware",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45863",
+      "seoname": "sam-houston-st",
+      "name6Char": "SAMHOU",
+      "nameFull": "Sam Houston State University",
+      "nameShort": "Sam Houston",
+      "teamName": "Bearkats",
+      "color": "#DF502A"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46667",
+      "seoname": "delaware",
+      "name6Char": "DEL",
+      "nameFull": "University of Delaware",
+      "nameShort": "Delaware",
+      "teamName": "Blue Hens",
+      "color": "#006095"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45863,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "103",
+        "kills": "49",
+        "attackErrors": "26",
+        "attackAttempts": "149",
+        "hittingPercentage": "0.154",
+        "assists": "44",
+        "setErrors": "1",
+        "setAttempts": "145",
+        "serviceAces": "3",
+        "serviceErrors": "7",
+        "serveAttempts": "102",
+        "digs": "69",
+        "receptionAttempts": "83",
+        "receptionErrors": "12",
+        "blockSolos": "1",
+        "blockAssists": "30",
+        "blockingErrors": "1",
+        "totalBlocks": "16"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46667,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "94",
+        "kills": "48",
+        "attackErrors": "37",
+        "attackAttempts": "170",
+        "hittingPercentage": "0.065",
+        "assists": "42",
+        "setErrors": "2",
+        "setAttempts": "171",
+        "serviceAces": "12",
+        "serviceErrors": "12",
+        "serveAttempts": "95",
+        "digs": "64",
+        "receptionAttempts": "95",
+        "receptionErrors": "3",
+        "blockSolos": "1",
+        "blockAssists": "16",
+        "blockingErrors": "3",
+        "totalBlocks": "9"
+      }
+    }
+  ]
+}

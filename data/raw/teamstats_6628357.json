@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628357,
+  "title": "WVB Boxscore",
+  "description": "Jacksonville vs FGCU",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45917",
+      "seoname": "jacksonville",
+      "name6Char": "JVILLE",
+      "nameFull": "Jacksonville University",
+      "nameShort": "Jacksonville",
+      "teamName": "Dolphins",
+      "color": "#004E42"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46138",
+      "seoname": "fgcu",
+      "name6Char": "FGCU",
+      "nameFull": "Florida Gulf Coast University",
+      "nameShort": "FGCU",
+      "teamName": "Eagles",
+      "color": "#002D72"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45917,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "108",
+        "kills": "57",
+        "attackErrors": "30",
+        "attackAttempts": "173",
+        "hittingPercentage": "0.156",
+        "assists": "50",
+        "setErrors": "4",
+        "setAttempts": "170",
+        "serviceAces": "4",
+        "serviceErrors": "13",
+        "serveAttempts": "108",
+        "digs": "57",
+        "receptionAttempts": "102",
+        "receptionErrors": "8",
+        "blockSolos": "4",
+        "blockAssists": "26",
+        "blockingErrors": "1",
+        "totalBlocks": "17"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46138,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "112",
+        "kills": "55",
+        "attackErrors": "36",
+        "attackAttempts": "154",
+        "hittingPercentage": "0.123",
+        "assists": "46",
+        "setErrors": "0",
+        "setAttempts": "148",
+        "serviceAces": "8",
+        "serviceErrors": "10",
+        "serveAttempts": "112",
+        "digs": "71",
+        "receptionAttempts": "95",
+        "receptionErrors": "4",
+        "blockSolos": "2",
+        "blockAssists": "26",
+        "blockingErrors": "1",
+        "totalBlocks": "15"
+      }
+    }
+  ]
+}

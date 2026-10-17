@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624686,
+  "title": "WVB Boxscore",
+  "description": "Rhode Island vs Duquesne",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46242",
+      "seoname": "rhode-island",
+      "name6Char": "URI",
+      "nameFull": "University of Rhode Island",
+      "nameShort": "Rhode Island",
+      "teamName": "Rams",
+      "color": "#041E42"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46297",
+      "seoname": "duquesne",
+      "name6Char": "DUQSNE",
+      "nameFull": "Duquesne University",
+      "nameShort": "Duquesne",
+      "teamName": "Dukes",
+      "color": "#BA0C2F"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46242,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "104",
+        "kills": "55",
+        "attackErrors": "22",
+        "attackAttempts": "146",
+        "hittingPercentage": "0.226",
+        "assists": "52",
+        "setErrors": "1",
+        "setAttempts": "148",
+        "serviceAces": "11",
+        "serviceErrors": "11",
+        "serveAttempts": "104",
+        "digs": "64",
+        "receptionAttempts": "96",
+        "receptionErrors": "15",
+        "blockSolos": "1",
+        "blockAssists": "16",
+        "blockingErrors": "1",
+        "totalBlocks": "9"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46297,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "104",
+        "kills": "55",
+        "attackErrors": "30",
+        "attackAttempts": "160",
+        "hittingPercentage": "0.156",
+        "assists": "52",
+        "setErrors": "0",
+        "setAttempts": "159",
+        "serviceAces": "15",
+        "serviceErrors": "8",
+        "serveAttempts": "104",
+        "digs": "61",
+        "receptionAttempts": "93",
+        "receptionErrors": "11",
+        "blockSolos": "1",
+        "blockAssists": "14",
+        "blockingErrors": "3",
+        "totalBlocks": "8"
+      }
+    }
+  ]
+}

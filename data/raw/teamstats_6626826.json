@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626826,
+  "title": "WVB Boxscore",
+  "description": "Oklahoma vs Kentucky",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46346",
+      "seoname": "oklahoma",
+      "name6Char": "OKLA",
+      "nameFull": "University of Oklahoma",
+      "nameShort": "Oklahoma",
+      "teamName": "Sooners",
+      "color": "#9D2235"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45920",
+      "seoname": "kentucky",
+      "name6Char": "UK",
+      "nameFull": "University of Kentucky",
+      "nameShort": "Kentucky",
+      "teamName": "Wildcats",
+      "color": "#3258AF"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46346,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "86",
+        "kills": "53",
+        "attackErrors": "22",
+        "attackAttempts": "134",
+        "hittingPercentage": "0.231",
+        "assists": "49",
+        "setErrors": "1",
+        "setAttempts": "141",
+        "serviceAces": "1",
+        "serviceErrors": "12",
+        "serveAttempts": "87",
+        "digs": "50",
+        "receptionAttempts": "84",
+        "receptionErrors": "6",
+        "blockSolos": "0",
+        "blockAssists": "16",
+        "blockingErrors": "0",
+        "totalBlocks": "8"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45920,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "100",
+        "kills": "59",
+        "attackErrors": "17",
+        "attackAttempts": "134",
+        "hittingPercentage": "0.313",
+        "assists": "55",
+        "setErrors": "0",
+        "setAttempts": "133",
+        "serviceAces": "6",
+        "serviceErrors": "15",
+        "serveAttempts": "99",
+        "digs": "46",
+        "receptionAttempts": "75",
+        "receptionErrors": "1",
+        "blockSolos": "2",
+        "blockAssists": "24",
+        "blockingErrors": "0",
+        "totalBlocks": "14"
+      }
+    }
+  ]
+}

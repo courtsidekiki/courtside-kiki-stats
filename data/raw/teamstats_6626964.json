@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626964,
+  "title": "WVB Boxscore",
+  "description": "Elon vs William & Mary",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45957",
+      "seoname": "elon",
+      "name6Char": "ELON",
+      "nameFull": "Elon University",
+      "nameShort": "Elon",
+      "teamName": "Phoenix",
+      "color": "#76232F"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46446",
+      "seoname": "william-mary",
+      "name6Char": "WM&MRY",
+      "nameFull": "William & Mary",
+      "nameShort": "William & Mary",
+      "teamName": "Tribe",
+      "color": "#095540"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45957,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "41",
+        "attackErrors": "14",
+        "attackAttempts": "93",
+        "hittingPercentage": "0.290",
+        "assists": "38",
+        "setErrors": "3",
+        "setAttempts": "94",
+        "serviceAces": "6",
+        "serviceErrors": "7",
+        "serveAttempts": "73",
+        "digs": "39",
+        "receptionAttempts": "52",
+        "receptionErrors": "2",
+        "blockSolos": "1",
+        "blockAssists": "14",
+        "blockingErrors": "3",
+        "totalBlocks": "8"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46446,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "57",
+        "kills": "31",
+        "attackErrors": "17",
+        "attackAttempts": "96",
+        "hittingPercentage": "0.146",
+        "assists": "26",
+        "setErrors": "4",
+        "setAttempts": "97",
+        "serviceAces": "2",
+        "serviceErrors": "7",
+        "serveAttempts": "59",
+        "digs": "29",
+        "receptionAttempts": "66",
+        "receptionErrors": "6",
+        "blockSolos": "3",
+        "blockAssists": "4",
+        "blockingErrors": "3",
+        "totalBlocks": "5"
+      }
+    }
+  ]
+}

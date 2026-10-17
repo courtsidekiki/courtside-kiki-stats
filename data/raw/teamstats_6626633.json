@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626633,
+  "title": "WVB Boxscore",
+  "description": "Butler vs UConn",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46219",
+      "seoname": "butler",
+      "name6Char": "BUTLER",
+      "nameFull": "Butler University",
+      "nameShort": "Butler",
+      "teamName": "Bulldogs",
+      "color": "#13294B"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46408",
+      "seoname": "uconn",
+      "name6Char": "UCONN",
+      "nameFull": "University of Connecticut",
+      "nameShort": "UConn",
+      "teamName": "Huskies",
+      "color": "#0C2340"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46219,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "31",
+        "attackErrors": "13",
+        "attackAttempts": "71",
+        "hittingPercentage": "0.254",
+        "assists": "28",
+        "setErrors": "0",
+        "setAttempts": "69",
+        "serviceAces": "13",
+        "serviceErrors": "12",
+        "serveAttempts": "74",
+        "digs": "35",
+        "receptionAttempts": "42",
+        "receptionErrors": "5",
+        "blockSolos": "0",
+        "blockAssists": "8",
+        "blockingErrors": "0",
+        "totalBlocks": "4"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46408,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "51",
+        "kills": "21",
+        "attackErrors": "18",
+        "attackAttempts": "83",
+        "hittingPercentage": "0.036",
+        "assists": "21",
+        "setErrors": "3",
+        "setAttempts": "80",
+        "serviceAces": "5",
+        "serviceErrors": "10",
+        "serveAttempts": "52",
+        "digs": "25",
+        "receptionAttempts": "62",
+        "receptionErrors": "13",
+        "blockSolos": "4",
+        "blockAssists": "4",
+        "blockingErrors": "1",
+        "totalBlocks": "6"
+      }
+    }
+  ]
+}

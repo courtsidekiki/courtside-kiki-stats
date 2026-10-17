@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625318,
+  "title": "WVB Boxscore",
+  "description": "LIU vs New Haven",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45791",
+      "seoname": "long-island",
+      "name6Char": "LIU",
+      "nameFull": "Long Island University",
+      "nameShort": "LIU",
+      "teamName": "Sharks",
+      "color": "#68A8D0"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46234",
+      "seoname": "new-haven",
+      "name6Char": "NEWHAV",
+      "nameFull": "University of New Haven",
+      "nameShort": "New Haven",
+      "teamName": "Chargers",
+      "color": "#102B4E"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45791,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "76",
+        "kills": "46",
+        "attackErrors": "14",
+        "attackAttempts": "120",
+        "hittingPercentage": "0.267",
+        "assists": "43",
+        "setErrors": "0",
+        "setAttempts": "120",
+        "serviceAces": "5",
+        "serviceErrors": "8",
+        "serveAttempts": "74",
+        "digs": "56",
+        "receptionAttempts": "52",
+        "receptionErrors": "1",
+        "blockSolos": "2",
+        "blockAssists": "12",
+        "blockingErrors": "3",
+        "totalBlocks": "8"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46234,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "55",
+        "kills": "32",
+        "attackErrors": "21",
+        "attackAttempts": "121",
+        "hittingPercentage": "0.091",
+        "assists": "32",
+        "setErrors": "0",
+        "setAttempts": "122",
+        "serviceAces": "1",
+        "serviceErrors": "4",
+        "serveAttempts": "56",
+        "digs": "50",
+        "receptionAttempts": "66",
+        "receptionErrors": "5",
+        "blockSolos": "0",
+        "blockAssists": "8",
+        "blockingErrors": "1",
+        "totalBlocks": "4"
+      }
+    }
+  ]
+}

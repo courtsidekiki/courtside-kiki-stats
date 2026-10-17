@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627202,
+  "title": "WVB Boxscore",
+  "description": "Green Bay vs NIU",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46327",
+      "seoname": "green-bay",
+      "name6Char": "GRNBAY",
+      "nameFull": "University of Wisconsin-Green Bay",
+      "nameShort": "Green Bay",
+      "teamName": "Phoenix",
+      "color": "#0F5640"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45981",
+      "seoname": "northern-ill",
+      "name6Char": "NIU",
+      "nameFull": "Northern Illinois University",
+      "nameShort": "NIU",
+      "teamName": "Huskies",
+      "color": "#BA0C2F"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46327,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "100",
+        "kills": "55",
+        "attackErrors": "20",
+        "attackAttempts": "172",
+        "hittingPercentage": "0.203",
+        "assists": "47",
+        "setErrors": "0",
+        "setAttempts": "161",
+        "serviceAces": "9",
+        "serviceErrors": "11",
+        "serveAttempts": "99",
+        "digs": "80",
+        "receptionAttempts": "76",
+        "receptionErrors": "7",
+        "blockSolos": "1",
+        "blockAssists": "16",
+        "blockingErrors": "1",
+        "totalBlocks": "9"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45981,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "87",
+        "kills": "49",
+        "attackErrors": "21",
+        "attackAttempts": "162",
+        "hittingPercentage": "0.173",
+        "assists": "47",
+        "setErrors": "3",
+        "setAttempts": "171",
+        "serviceAces": "7",
+        "serviceErrors": "12",
+        "serveAttempts": "88",
+        "digs": "89",
+        "receptionAttempts": "88",
+        "receptionErrors": "9",
+        "blockSolos": "3",
+        "blockAssists": "10",
+        "blockingErrors": "0",
+        "totalBlocks": "8"
+      }
+    }
+  ]
+}

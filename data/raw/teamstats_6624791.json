@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624791,
+  "title": "WVB Boxscore",
+  "description": "South Alabama vs Louisiana",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46120",
+      "seoname": "south-ala",
+      "name6Char": "S ALA",
+      "nameFull": "University of South Alabama",
+      "nameShort": "South Alabama",
+      "teamName": "Jaguars",
+      "color": "#BF0D3E"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46003",
+      "seoname": "la-lafayette",
+      "name6Char": "LA",
+      "nameFull": "University of Louisiana at Lafayette",
+      "nameShort": "Louisiana",
+      "teamName": "Ragin' Cajuns",
+      "color": "#C8102E"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46120,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "86",
+        "kills": "49",
+        "attackErrors": "17",
+        "attackAttempts": "140",
+        "hittingPercentage": "0.229",
+        "assists": "43",
+        "setErrors": "1",
+        "setAttempts": "137",
+        "serviceAces": "4",
+        "serviceErrors": "11",
+        "serveAttempts": "87",
+        "digs": "54",
+        "receptionAttempts": "86",
+        "receptionErrors": "9",
+        "blockSolos": "5",
+        "blockAssists": "8",
+        "blockingErrors": "4",
+        "totalBlocks": "9"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46003,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "97",
+        "kills": "58",
+        "attackErrors": "22",
+        "attackAttempts": "149",
+        "hittingPercentage": "0.242",
+        "assists": "53",
+        "setErrors": "1",
+        "setAttempts": "149",
+        "serviceAces": "9",
+        "serviceErrors": "10",
+        "serveAttempts": "96",
+        "digs": "64",
+        "receptionAttempts": "76",
+        "receptionErrors": "4",
+        "blockSolos": "4",
+        "blockAssists": "10",
+        "blockingErrors": "1",
+        "totalBlocks": "9"
+      }
+    }
+  ]
+}

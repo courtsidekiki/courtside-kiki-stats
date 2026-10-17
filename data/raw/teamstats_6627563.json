@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627563,
+  "title": "WVB Boxscore",
+  "description": "IU Indy vs Wright St.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46148",
+      "seoname": "iu-indy",
+      "name6Char": "IUINDY",
+      "nameFull": "Indiana University Indianapolis",
+      "nameShort": "IU Indy",
+      "teamName": "Jaguars",
+      "color": "#A90533"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45818",
+      "seoname": "wright-st",
+      "name6Char": "WRIGHT",
+      "nameFull": "Wright State University",
+      "nameShort": "Wright St.",
+      "teamName": "Raiders",
+      "color": "#046A38"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46148,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "83",
+        "kills": "57",
+        "attackErrors": "23",
+        "attackAttempts": "136",
+        "hittingPercentage": "0.250",
+        "assists": "52",
+        "setErrors": "2",
+        "setAttempts": "130",
+        "serviceAces": "4",
+        "serviceErrors": "12",
+        "serveAttempts": "84",
+        "digs": "57",
+        "receptionAttempts": "87",
+        "receptionErrors": "3",
+        "blockSolos": "2",
+        "blockAssists": "2",
+        "blockingErrors": "2",
+        "totalBlocks": "3"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45818,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "93",
+        "kills": "53",
+        "attackErrors": "16",
+        "attackAttempts": "130",
+        "hittingPercentage": "0.285",
+        "assists": "48",
+        "setErrors": "1",
+        "setAttempts": "120",
+        "serviceAces": "3",
+        "serviceErrors": "5",
+        "serveAttempts": "92",
+        "digs": "48",
+        "receptionAttempts": "72",
+        "receptionErrors": "4",
+        "blockSolos": "3",
+        "blockAssists": "12",
+        "blockingErrors": "2",
+        "totalBlocks": "9"
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624787,
+  "title": "WVB Boxscore",
+  "description": "Cleveland St. vs Youngstown St.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46406",
+      "seoname": "cleveland-st",
+      "name6Char": "CLE ST",
+      "nameFull": "Cleveland State University",
+      "nameShort": "Cleveland St.",
+      "teamName": "Vikings",
+      "color": "#115740"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46583",
+      "seoname": "youngstown-st",
+      "name6Char": "YSU",
+      "nameFull": "Youngstown State University",
+      "nameShort": "Youngstown St.",
+      "teamName": "Penguins",
+      "color": "#C8102E"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46406,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "111",
+        "kills": "67",
+        "attackErrors": "25",
+        "attackAttempts": "193",
+        "hittingPercentage": "0.218",
+        "assists": "61",
+        "setErrors": "1",
+        "setAttempts": "179",
+        "serviceAces": "7",
+        "serviceErrors": "14",
+        "serveAttempts": "111",
+        "digs": "86",
+        "receptionAttempts": "99",
+        "receptionErrors": "11",
+        "blockSolos": "2",
+        "blockAssists": "12",
+        "blockingErrors": "2",
+        "totalBlocks": "8"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46583,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "114",
+        "kills": "63",
+        "attackErrors": "20",
+        "attackAttempts": "182",
+        "hittingPercentage": "0.236",
+        "assists": "59",
+        "setErrors": "2",
+        "setAttempts": "177",
+        "serviceAces": "11",
+        "serviceErrors": "15",
+        "serveAttempts": "114",
+        "digs": "85",
+        "receptionAttempts": "97",
+        "receptionErrors": "7",
+        "blockSolos": "1",
+        "blockAssists": "16",
+        "blockingErrors": "3",
+        "totalBlocks": "9"
+      }
+    }
+  ]
+}

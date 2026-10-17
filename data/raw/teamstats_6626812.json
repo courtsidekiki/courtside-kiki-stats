@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626812,
+  "title": "WVB Boxscore",
+  "description": "Brown vs Cornell",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46218",
+      "seoname": "brown",
+      "name6Char": "BROWN",
+      "nameFull": "Brown University",
+      "nameShort": "Brown",
+      "teamName": "Bears",
+      "color": "#4E3629"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46173",
+      "seoname": "cornell",
+      "name6Char": "CORN",
+      "nameFull": "Cornell University",
+      "nameShort": "Cornell",
+      "teamName": "Big Red",
+      "color": "#B32025"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46218,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "88",
+        "kills": "47",
+        "attackErrors": "24",
+        "attackAttempts": "151",
+        "hittingPercentage": "0.152",
+        "assists": "43",
+        "setErrors": "0",
+        "setAttempts": "150",
+        "serviceAces": "5",
+        "serviceErrors": "7",
+        "serveAttempts": "89",
+        "digs": "64",
+        "receptionAttempts": "81",
+        "receptionErrors": "4",
+        "blockSolos": "2",
+        "blockAssists": "4",
+        "blockingErrors": "0",
+        "totalBlocks": "4"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46173,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "95",
+        "kills": "60",
+        "attackErrors": "22",
+        "attackAttempts": "151",
+        "hittingPercentage": "0.252",
+        "assists": "57",
+        "setErrors": "1",
+        "setAttempts": "150",
+        "serviceAces": "4",
+        "serviceErrors": "13",
+        "serveAttempts": "94",
+        "digs": "68",
+        "receptionAttempts": "82",
+        "receptionErrors": "5",
+        "blockSolos": "1",
+        "blockAssists": "14",
+        "blockingErrors": "1",
+        "totalBlocks": "8"
+      }
+    }
+  ]
+}

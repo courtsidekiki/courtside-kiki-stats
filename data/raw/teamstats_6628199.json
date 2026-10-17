@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628199,
+  "title": "WVB Boxscore",
+  "description": "Pittsburgh vs Florida St.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45986",
+      "seoname": "pittsburgh",
+      "name6Char": "PITT",
+      "nameFull": "University of Pittsburgh",
+      "nameShort": "Pittsburgh",
+      "teamName": "Panthers",
+      "color": "#003594"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46674",
+      "seoname": "florida-st",
+      "name6Char": "FSU",
+      "nameFull": "Florida State University",
+      "nameShort": "Florida St.",
+      "teamName": "Seminoles",
+      "color": "#76253A"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45986,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "45",
+        "attackErrors": "11",
+        "attackAttempts": "87",
+        "hittingPercentage": "0.391",
+        "assists": "41",
+        "setErrors": "0",
+        "setAttempts": "86",
+        "serviceAces": "4",
+        "serviceErrors": "6",
+        "serveAttempts": "73",
+        "digs": "32",
+        "receptionAttempts": "47",
+        "receptionErrors": "4",
+        "blockSolos": "1",
+        "blockAssists": "20",
+        "blockingErrors": "1",
+        "totalBlocks": "11"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46674,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "54",
+        "kills": "32",
+        "attackErrors": "16",
+        "attackAttempts": "88",
+        "hittingPercentage": "0.182",
+        "assists": "31",
+        "setErrors": "1",
+        "setAttempts": "90",
+        "serviceAces": "4",
+        "serviceErrors": "9",
+        "serveAttempts": "56",
+        "digs": "24",
+        "receptionAttempts": "67",
+        "receptionErrors": "4",
+        "blockSolos": "0",
+        "blockAssists": "6",
+        "blockingErrors": "0",
+        "totalBlocks": "3"
+      }
+    }
+  ]
+}

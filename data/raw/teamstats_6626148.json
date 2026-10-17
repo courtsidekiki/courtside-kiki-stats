@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626148,
+  "title": "WVB Boxscore",
+  "description": "Louisville vs Duke",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46061",
+      "seoname": "louisville",
+      "name6Char": "LOUIS",
+      "nameFull": "University of Louisville",
+      "nameShort": "Louisville",
+      "teamName": "Cardinals",
+      "color": "#EE2722"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46409",
+      "seoname": "duke",
+      "name6Char": "DUKE",
+      "nameFull": "Duke University",
+      "nameShort": "Duke",
+      "teamName": "Blue Devils",
+      "color": "#002D72"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46061,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "42",
+        "attackErrors": "12",
+        "attackAttempts": "81",
+        "hittingPercentage": "0.370",
+        "assists": "41",
+        "setErrors": "0",
+        "setAttempts": "87",
+        "serviceAces": "6",
+        "serviceErrors": "4",
+        "serveAttempts": "74",
+        "digs": "47",
+        "receptionAttempts": "34",
+        "receptionErrors": "2",
+        "blockSolos": "2",
+        "blockAssists": "12",
+        "blockingErrors": "1",
+        "totalBlocks": "8"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46409,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "45",
+        "kills": "27",
+        "attackErrors": "15",
+        "attackAttempts": "100",
+        "hittingPercentage": "0.120",
+        "assists": "27",
+        "setErrors": "0",
+        "setAttempts": "105",
+        "serviceAces": "2",
+        "serviceErrors": "12",
+        "serveAttempts": "46",
+        "digs": "22",
+        "receptionAttempts": "70",
+        "receptionErrors": "6",
+        "blockSolos": "0",
+        "blockAssists": "6",
+        "blockingErrors": "0",
+        "totalBlocks": "3"
+      }
+    }
+  ]
+}

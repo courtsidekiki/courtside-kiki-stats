@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628688,
+  "title": "WVB Boxscore",
+  "description": "Vanderbilt vs Alabama",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "1389023",
+      "seoname": "vanderbilt",
+      "name6Char": "VANDY",
+      "nameFull": "Vanderbilt University",
+      "nameShort": "Vanderbilt",
+      "teamName": "Commodores",
+      "color": "#010101"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46207",
+      "seoname": "alabama",
+      "name6Char": "ALA",
+      "nameFull": "University of Alabama",
+      "nameShort": "Alabama",
+      "teamName": "Crimson Tide",
+      "color": "#9D2235"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 1389023,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "100",
+        "kills": "63",
+        "attackErrors": "17",
+        "attackAttempts": "134",
+        "hittingPercentage": "0.343",
+        "assists": "59",
+        "setErrors": "1",
+        "setAttempts": "127",
+        "serviceAces": "8",
+        "serviceErrors": "10",
+        "serveAttempts": "100",
+        "digs": "55",
+        "receptionAttempts": "93",
+        "receptionErrors": "10",
+        "blockSolos": "1",
+        "blockAssists": "16",
+        "blockingErrors": "3",
+        "totalBlocks": "9"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46207,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "102",
+        "kills": "64",
+        "attackErrors": "20",
+        "attackAttempts": "146",
+        "hittingPercentage": "0.301",
+        "assists": "63",
+        "setErrors": "0",
+        "setAttempts": "132",
+        "serviceAces": "10",
+        "serviceErrors": "9",
+        "serveAttempts": "102",
+        "digs": "47",
+        "receptionAttempts": "90",
+        "receptionErrors": "8",
+        "blockSolos": "2",
+        "blockAssists": "12",
+        "blockingErrors": "1",
+        "totalBlocks": "8"
+      }
+    }
+  ]
+}

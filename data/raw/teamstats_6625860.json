@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625860,
+  "title": "WVB Boxscore",
+  "description": "Stonehill vs FDU",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46366",
+      "seoname": "stonehill",
+      "name6Char": "STONEH",
+      "nameFull": "Stonehill College",
+      "nameShort": "Stonehill",
+      "teamName": "Skyhawks",
+      "color": "#582C83"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45907",
+      "seoname": "fdu",
+      "name6Char": "FDU",
+      "nameFull": "Fairleigh Dickinson University, Metropolitan Campus",
+      "nameShort": "FDU",
+      "teamName": "Knights",
+      "color": "#72293c"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46366,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "83",
+        "kills": "57",
+        "attackErrors": "17",
+        "attackAttempts": "126",
+        "hittingPercentage": "0.317",
+        "assists": "53",
+        "setErrors": "2",
+        "setAttempts": "127",
+        "serviceAces": "5",
+        "serviceErrors": "12",
+        "serveAttempts": "81",
+        "digs": "41",
+        "receptionAttempts": "74",
+        "receptionErrors": "6",
+        "blockSolos": "0",
+        "blockAssists": "12",
+        "blockingErrors": "0",
+        "totalBlocks": "6"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45907,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "74",
+        "kills": "37",
+        "attackErrors": "18",
+        "attackAttempts": "101",
+        "hittingPercentage": "0.188",
+        "assists": "37",
+        "setErrors": "1",
+        "setAttempts": "114",
+        "serviceAces": "6",
+        "serviceErrors": "2",
+        "serveAttempts": "76",
+        "digs": "41",
+        "receptionAttempts": "69",
+        "receptionErrors": "5",
+        "blockSolos": "0",
+        "blockAssists": "10",
+        "blockingErrors": "1",
+        "totalBlocks": "5"
+      }
+    }
+  ]
+}

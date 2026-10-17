@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625910,
+  "title": "WVB Boxscore",
+  "description": "SMU vs Miami (FL)",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46250",
+      "seoname": "smu",
+      "name6Char": "SMU",
+      "nameFull": "Southern Methodist University",
+      "nameShort": "SMU",
+      "teamName": "Mustangs",
+      "color": "#A80000"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46066",
+      "seoname": "miami-fl",
+      "name6Char": "MIAMI",
+      "nameFull": "University of Miami (Florida)",
+      "nameShort": "Miami (FL)",
+      "teamName": "Hurricanes",
+      "color": "#154734"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46250,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "112",
+        "kills": "64",
+        "attackErrors": "26",
+        "attackAttempts": "158",
+        "hittingPercentage": "0.241",
+        "assists": "59",
+        "setErrors": "1",
+        "setAttempts": "155",
+        "serviceAces": "4",
+        "serviceErrors": "12",
+        "serveAttempts": "112",
+        "digs": "57",
+        "receptionAttempts": "101",
+        "receptionErrors": "5",
+        "blockSolos": "1",
+        "blockAssists": "20",
+        "blockingErrors": "3",
+        "totalBlocks": "11"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46066,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "114",
+        "kills": "70",
+        "attackErrors": "28",
+        "attackAttempts": "179",
+        "hittingPercentage": "0.235",
+        "assists": "62",
+        "setErrors": "3",
+        "setAttempts": "175",
+        "serviceAces": "5",
+        "serviceErrors": "13",
+        "serveAttempts": "114",
+        "digs": "56",
+        "receptionAttempts": "100",
+        "receptionErrors": "4",
+        "blockSolos": "3",
+        "blockAssists": "28",
+        "blockingErrors": "1",
+        "totalBlocks": "17"
+      }
+    }
+  ]
+}

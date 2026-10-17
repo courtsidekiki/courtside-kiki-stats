@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6638576,
+  "title": "WVB Boxscore",
+  "description": "CSUN vs UC San Diego",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46289",
+      "seoname": "cal-st-northridge",
+      "name6Char": "CSUN",
+      "nameFull": "California State University, Northridge",
+      "nameShort": "CSUN",
+      "teamName": "Matadors",
+      "color": "#BB2531"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46291",
+      "seoname": "uc-san-diego",
+      "name6Char": "UCSD",
+      "nameFull": "University of California, San Diego",
+      "nameShort": "UC San Diego",
+      "teamName": "Tritons",
+      "color": "#192847"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46289,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "96",
+        "kills": "59",
+        "attackErrors": "22",
+        "attackAttempts": "140",
+        "hittingPercentage": "0.264",
+        "assists": "57",
+        "setErrors": "1",
+        "setAttempts": "138",
+        "serviceAces": "3",
+        "serviceErrors": "9",
+        "serveAttempts": "97",
+        "digs": "48",
+        "receptionAttempts": "88",
+        "receptionErrors": "9",
+        "blockSolos": "0",
+        "blockAssists": "17",
+        "blockingErrors": "3",
+        "totalBlocks": "8"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46291,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "104",
+        "kills": "62",
+        "attackErrors": "18",
+        "attackAttempts": "153",
+        "hittingPercentage": "0.288",
+        "assists": "57",
+        "setErrors": "1",
+        "setAttempts": "151",
+        "serviceAces": "9",
+        "serviceErrors": "15",
+        "serveAttempts": "103",
+        "digs": "52",
+        "receptionAttempts": "88",
+        "receptionErrors": "3",
+        "blockSolos": "3",
+        "blockAssists": "16",
+        "blockingErrors": "2",
+        "totalBlocks": "11"
+      }
+    }
+  ]
+}

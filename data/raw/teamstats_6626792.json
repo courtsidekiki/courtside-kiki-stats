@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626792,
+  "title": "WVB Boxscore",
+  "description": "Mercyhurst vs Le Moyne",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45799",
+      "seoname": "mercyhurst",
+      "name6Char": "MERCYH",
+      "nameFull": "Mercyhurst University",
+      "nameShort": "Mercyhurst",
+      "teamName": "Lakers",
+      "color": "#00594C"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46684",
+      "seoname": "le-moyne",
+      "name6Char": "LEMOYN",
+      "nameFull": "Le Moyne College",
+      "nameShort": "Le Moyne",
+      "teamName": "Dolphins",
+      "color": "#154734"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45799,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "76",
+        "kills": "33",
+        "attackErrors": "20",
+        "attackAttempts": "104",
+        "hittingPercentage": "0.125",
+        "assists": "28",
+        "setErrors": "0",
+        "setAttempts": "108",
+        "serviceAces": "9",
+        "serviceErrors": "6",
+        "serveAttempts": "74",
+        "digs": "30",
+        "receptionAttempts": "61",
+        "receptionErrors": "4",
+        "blockSolos": "0",
+        "blockAssists": "10",
+        "blockingErrors": "0",
+        "totalBlocks": "5"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46684,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "62",
+        "kills": "30",
+        "attackErrors": "21",
+        "attackAttempts": "96",
+        "hittingPercentage": "0.094",
+        "assists": "26",
+        "setErrors": "4",
+        "setAttempts": "110",
+        "serviceAces": "4",
+        "serviceErrors": "8",
+        "serveAttempts": "64",
+        "digs": "34",
+        "receptionAttempts": "69",
+        "receptionErrors": "9",
+        "blockSolos": "0",
+        "blockAssists": "14",
+        "blockingErrors": "0",
+        "totalBlocks": "7"
+      }
+    }
+  ]
+}

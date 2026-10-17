@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6645383,
+  "title": "WVB Boxscore",
+  "description": "Georgia Tech vs Syracuse",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46549",
+      "seoname": "georgia-tech",
+      "name6Char": "GATECH",
+      "nameFull": "Georgia Institute of Technology",
+      "nameShort": "Georgia Tech",
+      "teamName": "Yellow Jackets",
+      "color": "#B3A369"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46126",
+      "seoname": "syracuse",
+      "name6Char": "SYR",
+      "nameFull": "Syracuse University",
+      "nameShort": "Syracuse",
+      "teamName": "Orange",
+      "color": "#DC4405"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46549,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "49",
+        "attackErrors": "12",
+        "attackAttempts": "98",
+        "hittingPercentage": "0.378",
+        "assists": "47",
+        "setErrors": "1",
+        "setAttempts": "99",
+        "serviceAces": "7",
+        "serviceErrors": "8",
+        "serveAttempts": "74",
+        "digs": "39",
+        "receptionAttempts": "45",
+        "receptionErrors": "2",
+        "blockSolos": "1",
+        "blockAssists": "8",
+        "blockingErrors": "0",
+        "totalBlocks": "5"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46126,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "50",
+        "kills": "27",
+        "attackErrors": "13",
+        "attackAttempts": "80",
+        "hittingPercentage": "0.175",
+        "assists": "27",
+        "setErrors": "0",
+        "setAttempts": "88",
+        "serviceAces": "2",
+        "serviceErrors": "6",
+        "serveAttempts": "51",
+        "digs": "32",
+        "receptionAttempts": "66",
+        "receptionErrors": "7",
+        "blockSolos": "1",
+        "blockAssists": "6",
+        "blockingErrors": "1",
+        "totalBlocks": "4"
+      }
+    }
+  ]
+}

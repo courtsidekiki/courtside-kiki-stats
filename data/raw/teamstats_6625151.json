@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625151,
+  "title": "WVB Boxscore",
+  "description": "Dartmouth vs Penn",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46046",
+      "seoname": "dartmouth",
+      "name6Char": "DART",
+      "nameFull": "Dartmouth College",
+      "nameShort": "Dartmouth",
+      "teamName": "Big Green",
+      "color": "#046A38"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46615",
+      "seoname": "penn",
+      "name6Char": "PENN",
+      "nameFull": "University of Pennsylvania",
+      "nameShort": "Penn",
+      "teamName": "Quakers",
+      "color": "#002D72"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46046,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "97",
+        "kills": "58",
+        "attackErrors": "13",
+        "attackAttempts": "139",
+        "hittingPercentage": "0.324",
+        "assists": "51",
+        "setErrors": "3",
+        "setAttempts": "144",
+        "serviceAces": "8",
+        "serviceErrors": "11",
+        "serveAttempts": "96",
+        "digs": "48",
+        "receptionAttempts": "79",
+        "receptionErrors": "5",
+        "blockSolos": "3",
+        "blockAssists": "12",
+        "blockingErrors": "0",
+        "totalBlocks": "9"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46615,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "84",
+        "kills": "52",
+        "attackErrors": "22",
+        "attackAttempts": "142",
+        "hittingPercentage": "0.211",
+        "assists": "46",
+        "setErrors": "2",
+        "setAttempts": "150",
+        "serviceAces": "5",
+        "serviceErrors": "6",
+        "serveAttempts": "85",
+        "digs": "50",
+        "receptionAttempts": "85",
+        "receptionErrors": "8",
+        "blockSolos": "2",
+        "blockAssists": "8",
+        "blockingErrors": "2",
+        "totalBlocks": "6"
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627917,
+  "title": "WVB Boxscore",
+  "description": "Kennesaw St. vs Missouri St.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45832",
+      "seoname": "kennesaw-st",
+      "name6Char": "KENSAW",
+      "nameFull": "Kennesaw State University",
+      "nameShort": "Kennesaw St.",
+      "teamName": "Owls",
+      "color": "#010101"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46751",
+      "seoname": "missouri-st",
+      "name6Char": "MO ST",
+      "nameFull": "Missouri State University",
+      "nameShort": "Missouri St.",
+      "teamName": "Bears",
+      "color": "#6F2C3F"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45832,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "106",
+        "kills": "72",
+        "attackErrors": "40",
+        "attackAttempts": "205",
+        "hittingPercentage": "0.156",
+        "assists": "63",
+        "setErrors": "1",
+        "setAttempts": "192",
+        "serviceAces": "9",
+        "serviceErrors": "8",
+        "serveAttempts": "106",
+        "digs": "88",
+        "receptionAttempts": "111",
+        "receptionErrors": "6",
+        "blockSolos": "2",
+        "blockAssists": "18",
+        "blockingErrors": "2",
+        "totalBlocks": "11"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46751,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "116",
+        "kills": "61",
+        "attackErrors": "19",
+        "attackAttempts": "178",
+        "hittingPercentage": "0.236",
+        "assists": "59",
+        "setErrors": "1",
+        "setAttempts": "174",
+        "serviceAces": "6",
+        "serviceErrors": "5",
+        "serveAttempts": "116",
+        "digs": "85",
+        "receptionAttempts": "98",
+        "receptionErrors": "9",
+        "blockSolos": "2",
+        "blockAssists": "28",
+        "blockingErrors": "2",
+        "totalBlocks": "16"
+      }
+    }
+  ]
+}

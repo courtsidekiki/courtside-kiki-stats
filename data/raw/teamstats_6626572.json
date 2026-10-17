@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626572,
+  "title": "WVB Boxscore",
+  "description": "West Virginia vs Cincinnati",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46511",
+      "seoname": "west-virginia",
+      "name6Char": "WVU",
+      "nameFull": "West Virginia University",
+      "nameShort": "West Virginia",
+      "teamName": "Mountaineers",
+      "color": "#0F2D52"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46539",
+      "seoname": "cincinnati",
+      "name6Char": "CINCY",
+      "nameFull": "University of Cincinnati",
+      "nameShort": "Cincinnati",
+      "teamName": "Bearcats",
+      "color": "#C8102E"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46511,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "102",
+        "kills": "64",
+        "attackErrors": "16",
+        "attackAttempts": "131",
+        "hittingPercentage": "0.366",
+        "assists": "61",
+        "setErrors": "2",
+        "setAttempts": "132",
+        "serviceAces": "7",
+        "serviceErrors": "9",
+        "serveAttempts": "101",
+        "digs": "61",
+        "receptionAttempts": "72",
+        "receptionErrors": "7",
+        "blockSolos": "1",
+        "blockAssists": "14",
+        "blockingErrors": "1",
+        "totalBlocks": "8"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46539,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "83",
+        "kills": "49",
+        "attackErrors": "17",
+        "attackAttempts": "142",
+        "hittingPercentage": "0.225",
+        "assists": "44",
+        "setErrors": "2",
+        "setAttempts": "140",
+        "serviceAces": "7",
+        "serviceErrors": "12",
+        "serveAttempts": "84",
+        "digs": "46",
+        "receptionAttempts": "92",
+        "receptionErrors": "7",
+        "blockSolos": "0",
+        "blockAssists": "14",
+        "blockingErrors": "3",
+        "totalBlocks": "7"
+      }
+    }
+  ]
+}

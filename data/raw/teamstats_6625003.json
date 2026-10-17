@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625003,
+  "title": "WVB Boxscore",
+  "description": "UNI vs Valparaiso",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45848",
+      "seoname": "uni",
+      "name6Char": "N IOWA",
+      "nameFull": "University of Northern Iowa",
+      "nameShort": "UNI",
+      "teamName": "Panthers",
+      "color": "#470A68"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46757",
+      "seoname": "valparaiso",
+      "name6Char": "VALPO",
+      "nameFull": "Valparaiso University",
+      "nameShort": "Valparaiso",
+      "teamName": "Beacons",
+      "color": "#693F23"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45848,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "45",
+        "attackErrors": "9",
+        "attackAttempts": "99",
+        "hittingPercentage": "0.364",
+        "assists": "42",
+        "setErrors": "1",
+        "setAttempts": "105",
+        "serviceAces": "7",
+        "serviceErrors": "5",
+        "serveAttempts": "74",
+        "digs": "48",
+        "receptionAttempts": "46",
+        "receptionErrors": "3",
+        "blockSolos": "2",
+        "blockAssists": "10",
+        "blockingErrors": "0",
+        "totalBlocks": "7"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46757,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "47",
+        "kills": "28",
+        "attackErrors": "21",
+        "attackAttempts": "99",
+        "hittingPercentage": "0.071",
+        "assists": "27",
+        "setErrors": "0",
+        "setAttempts": "101",
+        "serviceAces": "3",
+        "serviceErrors": "2",
+        "serveAttempts": "48",
+        "digs": "31",
+        "receptionAttempts": "69",
+        "receptionErrors": "7",
+        "blockSolos": "0",
+        "blockAssists": "8",
+        "blockingErrors": "0",
+        "totalBlocks": "4"
+      }
+    }
+  ]
+}

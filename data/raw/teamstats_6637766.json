@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6637766,
+  "title": "WVB Boxscore",
+  "description": "Winthrop vs UNC Asheville",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45817",
+      "seoname": "winthrop",
+      "name6Char": "WINTHR",
+      "nameFull": "Winthrop University",
+      "nameShort": "Winthrop",
+      "teamName": "Eagles",
+      "color": "#9D2235"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46102",
+      "seoname": "unc-asheville",
+      "name6Char": "UNC A",
+      "nameFull": "University of North Carolina Asheville",
+      "nameShort": "UNC Asheville",
+      "teamName": "Bulldogs",
+      "color": "#002F6C"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45817,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "94",
+        "kills": "66",
+        "attackErrors": "28",
+        "attackAttempts": "171",
+        "hittingPercentage": "0.222",
+        "assists": "65",
+        "setErrors": "0",
+        "setAttempts": "170",
+        "serviceAces": "6",
+        "serviceErrors": "7",
+        "serveAttempts": "93",
+        "digs": "73",
+        "receptionAttempts": "88",
+        "receptionErrors": "6",
+        "blockSolos": "2",
+        "blockAssists": "2",
+        "blockingErrors": "0",
+        "totalBlocks": "3"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46102,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "93",
+        "kills": "52",
+        "attackErrors": "13",
+        "attackAttempts": "150",
+        "hittingPercentage": "0.260",
+        "assists": "52",
+        "setErrors": "2",
+        "setAttempts": "154",
+        "serviceAces": "6",
+        "serviceErrors": "6",
+        "serveAttempts": "94",
+        "digs": "61",
+        "receptionAttempts": "86",
+        "receptionErrors": "6",
+        "blockSolos": "1",
+        "blockAssists": "14",
+        "blockingErrors": "4",
+        "totalBlocks": "8"
+      }
+    }
+  ]
+}

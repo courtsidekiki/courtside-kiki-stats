@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624497,
+  "title": "WVB Boxscore",
+  "description": "St. John's (NY) vs Marquette",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45995",
+      "seoname": "st-johns-ny",
+      "name6Char": "STJOHN",
+      "nameFull": "St. John's University (New York)",
+      "nameShort": "St. John's (NY)",
+      "teamName": "Red Storm",
+      "color": "#BA0C2F"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46200",
+      "seoname": "marquette",
+      "name6Char": "MARQ",
+      "nameFull": "Marquette University",
+      "nameShort": "Marquette",
+      "teamName": "Golden Eagles",
+      "color": "#1D2953"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45995,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "57",
+        "kills": "28",
+        "attackErrors": "23",
+        "attackAttempts": "104",
+        "hittingPercentage": "0.048",
+        "assists": "26",
+        "setErrors": "1",
+        "setAttempts": "111",
+        "serviceAces": "3",
+        "serviceErrors": "5",
+        "serveAttempts": "59",
+        "digs": "46",
+        "receptionAttempts": "66",
+        "receptionErrors": "6",
+        "blockSolos": "3",
+        "blockAssists": "10",
+        "blockingErrors": "2",
+        "totalBlocks": "8"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46200,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "76",
+        "kills": "41",
+        "attackErrors": "17",
+        "attackAttempts": "115",
+        "hittingPercentage": "0.209",
+        "assists": "38",
+        "setErrors": "1",
+        "setAttempts": "111",
+        "serviceAces": "6",
+        "serviceErrors": "8",
+        "serveAttempts": "74",
+        "digs": "45",
+        "receptionAttempts": "54",
+        "receptionErrors": "3",
+        "blockSolos": "1",
+        "blockAssists": "14",
+        "blockingErrors": "2",
+        "totalBlocks": "8"
+      }
+    }
+  ]
+}

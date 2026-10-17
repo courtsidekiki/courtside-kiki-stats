@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628078,
+  "title": "WVB Boxscore",
+  "description": "NJIT vs Binghamton",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46725",
+      "seoname": "njit",
+      "name6Char": "NJIT",
+      "nameFull": "New Jersey Institute of Technology",
+      "nameShort": "NJIT",
+      "teamName": "Highlanders",
+      "color": "#D7282F"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46443",
+      "seoname": "binghamton",
+      "name6Char": "BINGHA",
+      "nameFull": "Binghamton University",
+      "nameShort": "Binghamton",
+      "teamName": "Bearcats",
+      "color": "#006747"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46725,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "64",
+        "kills": "36",
+        "attackErrors": "17",
+        "attackAttempts": "134",
+        "hittingPercentage": "0.142",
+        "assists": "32",
+        "setErrors": "4",
+        "setAttempts": "140",
+        "serviceAces": "5",
+        "serviceErrors": "0",
+        "serveAttempts": "65",
+        "digs": "55",
+        "receptionAttempts": "71",
+        "receptionErrors": "3",
+        "blockSolos": "3",
+        "blockAssists": "8",
+        "blockingErrors": "1",
+        "totalBlocks": "7"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46443,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "78",
+        "kills": "53",
+        "attackErrors": "15",
+        "attackAttempts": "129",
+        "hittingPercentage": "0.295",
+        "assists": "53",
+        "setErrors": "2",
+        "setAttempts": "134",
+        "serviceAces": "3",
+        "serviceErrors": "6",
+        "serveAttempts": "77",
+        "digs": "70",
+        "receptionAttempts": "65",
+        "receptionErrors": "5",
+        "blockSolos": "0",
+        "blockAssists": "12",
+        "blockingErrors": "2",
+        "totalBlocks": "6"
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624251,
+  "title": "WVB Boxscore",
+  "description": "Oregon vs Indiana",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46613",
+      "seoname": "oregon",
+      "name6Char": "OREGN",
+      "nameFull": "University of Oregon",
+      "nameShort": "Oregon",
+      "teamName": "Ducks",
+      "color": "#173F35"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46314",
+      "seoname": "indiana",
+      "name6Char": "IND",
+      "nameFull": "Indiana University, Bloomington",
+      "nameShort": "Indiana",
+      "teamName": "Hoosiers",
+      "color": "#970310"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46613,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "110",
+        "kills": "63",
+        "attackErrors": "30",
+        "attackAttempts": "147",
+        "hittingPercentage": "0.224",
+        "assists": "55",
+        "setErrors": "0",
+        "setAttempts": "139",
+        "serviceAces": "5",
+        "serviceErrors": "9",
+        "serveAttempts": "110",
+        "digs": "57",
+        "receptionAttempts": "90",
+        "receptionErrors": "9",
+        "blockSolos": "4",
+        "blockAssists": "20",
+        "blockingErrors": "2",
+        "totalBlocks": "14"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46314,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "105",
+        "kills": "57",
+        "attackErrors": "27",
+        "attackAttempts": "154",
+        "hittingPercentage": "0.195",
+        "assists": "53",
+        "setErrors": "0",
+        "setAttempts": "144",
+        "serviceAces": "9",
+        "serviceErrors": "15",
+        "serveAttempts": "105",
+        "digs": "51",
+        "receptionAttempts": "101",
+        "receptionErrors": "5",
+        "blockSolos": "5",
+        "blockAssists": "22",
+        "blockingErrors": "2",
+        "totalBlocks": "16"
+      }
+    }
+  ]
+}

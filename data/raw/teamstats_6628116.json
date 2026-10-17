@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628116,
+  "title": "WVB Boxscore",
+  "description": "Marist vs Fairfield",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46561",
+      "seoname": "marist",
+      "name6Char": "MARIST",
+      "nameFull": "Marist University",
+      "nameShort": "Marist",
+      "teamName": "Red Foxes",
+      "color": "#C8102E"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46300",
+      "seoname": "fairfield",
+      "name6Char": "FAIR",
+      "nameFull": "Fairfield University",
+      "nameShort": "Fairfield",
+      "teamName": "Stags",
+      "color": "#C8102E"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46561,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "63",
+        "kills": "40",
+        "attackErrors": "10",
+        "attackAttempts": "113",
+        "hittingPercentage": "0.265",
+        "assists": "37",
+        "setErrors": "1",
+        "setAttempts": "117",
+        "serviceAces": "4",
+        "serviceErrors": "3",
+        "serveAttempts": "64",
+        "digs": "43",
+        "receptionAttempts": "72",
+        "receptionErrors": "8",
+        "blockSolos": "0",
+        "blockAssists": "6",
+        "blockingErrors": "0",
+        "totalBlocks": "3"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46300,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "77",
+        "kills": "55",
+        "attackErrors": "13",
+        "attackAttempts": "117",
+        "hittingPercentage": "0.359",
+        "assists": "51",
+        "setErrors": "2",
+        "setAttempts": "124",
+        "serviceAces": "8",
+        "serviceErrors": "4",
+        "serveAttempts": "76",
+        "digs": "57",
+        "receptionAttempts": "61",
+        "receptionErrors": "4",
+        "blockSolos": "3",
+        "blockAssists": "6",
+        "blockingErrors": "0",
+        "totalBlocks": "6"
+      }
+    }
+  ]
+}

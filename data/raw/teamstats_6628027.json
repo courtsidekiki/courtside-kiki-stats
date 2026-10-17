@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628027,
+  "title": "WVB Boxscore",
+  "description": "Fla. Atlantic vs Tulane",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45773",
+      "seoname": "fla-atlantic",
+      "name6Char": "FAU",
+      "nameFull": "Florida Atlantic University",
+      "nameShort": "Fla. Atlantic",
+      "teamName": "Owls",
+      "color": "#002855"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46255",
+      "seoname": "tulane",
+      "name6Char": "TULANE",
+      "nameFull": "Tulane University",
+      "nameShort": "Tulane",
+      "teamName": "Green Wave",
+      "color": "#006747"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45773,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "105",
+        "kills": "61",
+        "attackErrors": "23",
+        "attackAttempts": "144",
+        "hittingPercentage": "0.264",
+        "assists": "55",
+        "setErrors": "1",
+        "setAttempts": "133",
+        "serviceAces": "7",
+        "serviceErrors": "12",
+        "serveAttempts": "105",
+        "digs": "63",
+        "receptionAttempts": "78",
+        "receptionErrors": "5",
+        "blockSolos": "4",
+        "blockAssists": "10",
+        "blockingErrors": "4",
+        "totalBlocks": "9"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46255,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "91",
+        "kills": "50",
+        "attackErrors": "22",
+        "attackAttempts": "146",
+        "hittingPercentage": "0.192",
+        "assists": "48",
+        "setErrors": "2",
+        "setAttempts": "138",
+        "serviceAces": "5",
+        "serviceErrors": "13",
+        "serveAttempts": "91",
+        "digs": "54",
+        "receptionAttempts": "93",
+        "receptionErrors": "7",
+        "blockSolos": "2",
+        "blockAssists": "10",
+        "blockingErrors": "6",
+        "totalBlocks": "7"
+      }
+    }
+  ]
+}

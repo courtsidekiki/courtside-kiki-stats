@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626551,
+  "title": "WVB Boxscore",
+  "description": "Northern Ky. vs Purdue Fort Wayne",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46608",
+      "seoname": "northern-ky",
+      "name6Char": "N KY",
+      "nameFull": "Northern Kentucky University",
+      "nameShort": "Northern Ky.",
+      "teamName": "Norse",
+      "color": "#010101"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45781",
+      "seoname": "ipfw",
+      "name6Char": "IPFW",
+      "nameFull": "Purdue University Fort Wayne",
+      "nameShort": "Purdue Fort Wayne",
+      "teamName": "Mastodons",
+      "color": "#1f3d7c"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46608,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "40",
+        "attackErrors": "16",
+        "attackAttempts": "113",
+        "hittingPercentage": "0.212",
+        "assists": "37",
+        "setErrors": "0",
+        "setAttempts": "113",
+        "serviceAces": "8",
+        "serviceErrors": "4",
+        "serveAttempts": "73",
+        "digs": "48",
+        "receptionAttempts": "55",
+        "receptionErrors": "1",
+        "blockSolos": "1",
+        "blockAssists": "18",
+        "blockingErrors": "0",
+        "totalBlocks": "10"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45781,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "58",
+        "kills": "37",
+        "attackErrors": "21",
+        "attackAttempts": "110",
+        "hittingPercentage": "0.145",
+        "assists": "35",
+        "setErrors": "1",
+        "setAttempts": "116",
+        "serviceAces": "1",
+        "serviceErrors": "5",
+        "serveAttempts": "60",
+        "digs": "51",
+        "receptionAttempts": "69",
+        "receptionErrors": "8",
+        "blockSolos": "1",
+        "blockAssists": "6",
+        "blockingErrors": "1",
+        "totalBlocks": "4"
+      }
+    }
+  ]
+}

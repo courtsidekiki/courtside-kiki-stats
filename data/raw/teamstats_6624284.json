@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624284,
+  "title": "WVB Boxscore",
+  "description": "Seton Hall vs DePaul",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46495",
+      "seoname": "seton-hall",
+      "name6Char": "SETON",
+      "nameFull": "Seton Hall University",
+      "nameShort": "Seton Hall",
+      "teamName": "Pirates",
+      "color": "#1A5DAD"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45902",
+      "seoname": "depaul",
+      "name6Char": "DEPAUL",
+      "nameFull": "DePaul University",
+      "nameShort": "DePaul",
+      "teamName": "Blue Demons",
+      "color": "#003DA5"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46495,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "77",
+        "kills": "44",
+        "attackErrors": "29",
+        "attackAttempts": "154",
+        "hittingPercentage": "0.097",
+        "assists": "38",
+        "setErrors": "1",
+        "setAttempts": "153",
+        "serviceAces": "3",
+        "serviceErrors": "7",
+        "serveAttempts": "78",
+        "digs": "44",
+        "receptionAttempts": "93",
+        "receptionErrors": "10",
+        "blockSolos": "0",
+        "blockAssists": "6",
+        "blockingErrors": "0",
+        "totalBlocks": "3"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45902,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "99",
+        "kills": "52",
+        "attackErrors": "24",
+        "attackAttempts": "138",
+        "hittingPercentage": "0.203",
+        "assists": "48",
+        "setErrors": "1",
+        "setAttempts": "142",
+        "serviceAces": "10",
+        "serviceErrors": "5",
+        "serveAttempts": "98",
+        "digs": "64",
+        "receptionAttempts": "71",
+        "receptionErrors": "3",
+        "blockSolos": "3",
+        "blockAssists": "10",
+        "blockingErrors": "0",
+        "totalBlocks": "8"
+      }
+    }
+  ]
+}

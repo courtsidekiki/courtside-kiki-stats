@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624636,
+  "title": "WVB Boxscore",
+  "description": "Wisconsin vs Maryland",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46580",
+      "seoname": "wisconsin",
+      "name6Char": "WISC",
+      "nameFull": "University of Wisconsin-Madison",
+      "nameShort": "Wisconsin",
+      "teamName": "Badgers",
+      "color": "#BA0C2F"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46686",
+      "seoname": "maryland",
+      "name6Char": "MD",
+      "nameFull": "University of Maryland, College Park",
+      "nameShort": "Maryland",
+      "teamName": "Terrapins",
+      "color": "#C8102E"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46580,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "42",
+        "attackErrors": "10",
+        "attackAttempts": "93",
+        "hittingPercentage": "0.344",
+        "assists": "42",
+        "setErrors": "0",
+        "setAttempts": "90",
+        "serviceAces": "2",
+        "serviceErrors": "11",
+        "serveAttempts": "74",
+        "digs": "43",
+        "receptionAttempts": "48",
+        "receptionErrors": "3",
+        "blockSolos": "1",
+        "blockAssists": "20",
+        "blockingErrors": "2",
+        "totalBlocks": "11"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46686,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "59",
+        "kills": "35",
+        "attackErrors": "18",
+        "attackAttempts": "110",
+        "hittingPercentage": "0.155",
+        "assists": "33",
+        "setErrors": "1",
+        "setAttempts": "107",
+        "serviceAces": "3",
+        "serviceErrors": "12",
+        "serveAttempts": "60",
+        "digs": "35",
+        "receptionAttempts": "63",
+        "receptionErrors": "2",
+        "blockSolos": "1",
+        "blockAssists": "9",
+        "blockingErrors": "1",
+        "totalBlocks": "5"
+      }
+    }
+  ]
+}

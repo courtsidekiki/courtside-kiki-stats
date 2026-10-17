@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626862,
+  "title": "WVB Boxscore",
+  "description": "Saint Peter's vs Manhattan",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46618",
+      "seoname": "st-peters",
+      "name6Char": "ST PTR",
+      "nameFull": "Saint Peter's University",
+      "nameShort": "Saint Peter's",
+      "teamName": "Peacocks",
+      "color": "#21375C"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46198",
+      "seoname": "manhattan",
+      "name6Char": "MANHAT",
+      "nameFull": "Manhattan University",
+      "nameShort": "Manhattan",
+      "teamName": "Jaspers",
+      "color": "#046A38"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46618,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "77",
+        "kills": "48",
+        "attackErrors": "27",
+        "attackAttempts": "133",
+        "hittingPercentage": "0.158",
+        "assists": "46",
+        "setErrors": "3",
+        "setAttempts": "142",
+        "serviceAces": "6",
+        "serviceErrors": "4",
+        "serveAttempts": "78",
+        "digs": "50",
+        "receptionAttempts": "88",
+        "receptionErrors": "7",
+        "blockSolos": "0",
+        "blockAssists": "6",
+        "blockingErrors": "1",
+        "totalBlocks": "3"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46198,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "98",
+        "kills": "57",
+        "attackErrors": "14",
+        "attackAttempts": "125",
+        "hittingPercentage": "0.344",
+        "assists": "54",
+        "setErrors": "0",
+        "setAttempts": "126",
+        "serviceAces": "7",
+        "serviceErrors": "9",
+        "serveAttempts": "97",
+        "digs": "55",
+        "receptionAttempts": "74",
+        "receptionErrors": "6",
+        "blockSolos": "3",
+        "blockAssists": "20",
+        "blockingErrors": "2",
+        "totalBlocks": "13"
+      }
+    }
+  ]
+}

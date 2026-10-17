@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627278,
+  "title": "WVB Boxscore",
+  "description": "Cal Poly vs California Baptist",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46659",
+      "seoname": "cal-poly",
+      "name6Char": "CALPLY",
+      "nameFull": "California Polytechnic State University",
+      "nameShort": "Cal Poly",
+      "teamName": "Mustangs",
+      "color": "#193E30"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "51173",
+      "seoname": "california-baptist",
+      "name6Char": "CALBAP",
+      "nameFull": "California Baptist University",
+      "nameShort": "California Baptist",
+      "teamName": "Lancers",
+      "color": "#171F3B"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46659,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "104",
+        "kills": "54",
+        "attackErrors": "21",
+        "attackAttempts": "134",
+        "hittingPercentage": "0.246",
+        "assists": "47",
+        "setErrors": "1",
+        "setAttempts": "127",
+        "serviceAces": "13",
+        "serviceErrors": "15",
+        "serveAttempts": "104",
+        "digs": "50",
+        "receptionAttempts": "82",
+        "receptionErrors": "8",
+        "blockSolos": "2",
+        "blockAssists": "16",
+        "blockingErrors": "5",
+        "totalBlocks": "10"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 51173,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "95",
+        "kills": "50",
+        "attackErrors": "22",
+        "attackAttempts": "136",
+        "hittingPercentage": "0.206",
+        "assists": "44",
+        "setErrors": "2",
+        "setAttempts": "121",
+        "serviceAces": "8",
+        "serviceErrors": "13",
+        "serveAttempts": "95",
+        "digs": "50",
+        "receptionAttempts": "89",
+        "receptionErrors": "13",
+        "blockSolos": "3",
+        "blockAssists": "16",
+        "blockingErrors": "1",
+        "totalBlocks": "11"
+      }
+    }
+  ]
+}

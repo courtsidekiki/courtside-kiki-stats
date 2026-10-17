@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627282,
+  "title": "WVB Boxscore",
+  "description": "Georgia St. vs Old Dominion",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46676",
+      "seoname": "georgia-st",
+      "name6Char": "GA ST",
+      "nameFull": "Georgia State University",
+      "nameShort": "Georgia St.",
+      "teamName": "Panthers",
+      "color": "#264391"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "1387136",
+      "seoname": "old-dominion",
+      "name6Char": "ODU",
+      "nameFull": "Old Dominion University",
+      "nameShort": "Old Dominion",
+      "teamName": "Monarchs",
+      "color": "#0B4071"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46676,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "90",
+        "kills": "50",
+        "attackErrors": "15",
+        "attackAttempts": "133",
+        "hittingPercentage": "0.263",
+        "assists": "50",
+        "setErrors": "2",
+        "setAttempts": "136",
+        "serviceAces": "4",
+        "serviceErrors": "11",
+        "serveAttempts": "89",
+        "digs": "45",
+        "receptionAttempts": "79",
+        "receptionErrors": "5",
+        "blockSolos": "2",
+        "blockAssists": "20",
+        "blockingErrors": "0",
+        "totalBlocks": "12"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 1387136,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "83",
+        "kills": "50",
+        "attackErrors": "30",
+        "attackAttempts": "133",
+        "hittingPercentage": "0.150",
+        "assists": "48",
+        "setErrors": "1",
+        "setAttempts": "135",
+        "serviceAces": "5",
+        "serviceErrors": "5",
+        "serveAttempts": "84",
+        "digs": "54",
+        "receptionAttempts": "78",
+        "receptionErrors": "4",
+        "blockSolos": "2",
+        "blockAssists": "6",
+        "blockingErrors": "0",
+        "totalBlocks": "5"
+      }
+    }
+  ]
+}
