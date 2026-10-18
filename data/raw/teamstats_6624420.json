@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624420,
+  "title": "WVB Boxscore",
+  "description": "Lindenwood vs Southern Ind.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "51330",
+      "seoname": "lindenwood-mo",
+      "name6Char": "LINWOD",
+      "nameFull": "Lindenwood University",
+      "nameShort": "Lindenwood",
+      "teamName": "Lions",
+      "color": "#010101"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46500",
+      "seoname": "southern-ind",
+      "name6Char": "S IND",
+      "nameFull": "University of Southern Indiana",
+      "nameShort": "Southern Ind.",
+      "teamName": "Screaming Eagles",
+      "color": "#002855"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 51330,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "47",
+        "attackErrors": "15",
+        "attackAttempts": "108",
+        "hittingPercentage": "0.296",
+        "assists": "44",
+        "setErrors": "1",
+        "setAttempts": "102",
+        "serviceAces": "4",
+        "serviceErrors": "4",
+        "serveAttempts": "74",
+        "digs": "47",
+        "receptionAttempts": "47",
+        "receptionErrors": "2",
+        "blockSolos": "0",
+        "blockAssists": "10",
+        "blockingErrors": "0",
+        "totalBlocks": "5"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46500,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "54",
+        "kills": "32",
+        "attackErrors": "15",
+        "attackAttempts": "102",
+        "hittingPercentage": "0.167",
+        "assists": "31",
+        "setErrors": "1",
+        "setAttempts": "107",
+        "serviceAces": "2",
+        "serviceErrors": "8",
+        "serveAttempts": "55",
+        "digs": "41",
+        "receptionAttempts": "70",
+        "receptionErrors": "4",
+        "blockSolos": "1",
+        "blockAssists": "10",
+        "blockingErrors": "2",
+        "totalBlocks": "6"
+      }
+    }
+  ]
+}

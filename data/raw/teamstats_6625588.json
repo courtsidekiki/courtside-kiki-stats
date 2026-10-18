@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625588,
+  "title": "WVB Boxscore",
+  "description": "Drake vs Valparaiso",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46177",
+      "seoname": "drake",
+      "name6Char": "DRAKE",
+      "nameFull": "Drake University",
+      "nameShort": "Drake",
+      "teamName": "Bulldogs",
+      "color": "#002F6C"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46757",
+      "seoname": "valparaiso",
+      "name6Char": "VALPO",
+      "nameFull": "Valparaiso University",
+      "nameShort": "Valparaiso",
+      "teamName": "Beacons",
+      "color": "#693F23"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46177,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "100",
+        "kills": "59",
+        "attackErrors": "23",
+        "attackAttempts": "153",
+        "hittingPercentage": "0.235",
+        "assists": "56",
+        "setErrors": "0",
+        "setAttempts": "156",
+        "serviceAces": "4",
+        "serviceErrors": "9",
+        "serveAttempts": "99",
+        "digs": "69",
+        "receptionAttempts": "79",
+        "receptionErrors": "3",
+        "blockSolos": "1",
+        "blockAssists": "24",
+        "blockingErrors": "0",
+        "totalBlocks": "13"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46757,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "84",
+        "kills": "49",
+        "attackErrors": "30",
+        "attackAttempts": "162",
+        "hittingPercentage": "0.117",
+        "assists": "45",
+        "setErrors": "1",
+        "setAttempts": "161",
+        "serviceAces": "3",
+        "serviceErrors": "6",
+        "serveAttempts": "85",
+        "digs": "61",
+        "receptionAttempts": "90",
+        "receptionErrors": "4",
+        "blockSolos": "1",
+        "blockAssists": "12",
+        "blockingErrors": "1",
+        "totalBlocks": "7"
+      }
+    }
+  ]
+}

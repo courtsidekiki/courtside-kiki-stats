@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627123,
+  "title": "WVB Boxscore",
+  "description": "Weber St. vs Northern Colo.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46011",
+      "seoname": "weber-st",
+      "name6Char": "WEB ST",
+      "nameFull": "Weber State University",
+      "nameShort": "Weber St.",
+      "teamName": "Wildcats",
+      "color": "#470A68"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46478",
+      "seoname": "northern-colo",
+      "name6Char": "N COLO",
+      "nameFull": "University of Northern Colorado",
+      "nameShort": "Northern Colo.",
+      "teamName": "Bears",
+      "color": "#002855"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46011,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "96",
+        "kills": "45",
+        "attackErrors": "15",
+        "attackAttempts": "136",
+        "hittingPercentage": "0.221",
+        "assists": "38",
+        "setErrors": "1",
+        "setAttempts": "138",
+        "serviceAces": "8",
+        "serviceErrors": "8",
+        "serveAttempts": "95",
+        "digs": "71",
+        "receptionAttempts": "73",
+        "receptionErrors": "6",
+        "blockSolos": "1",
+        "blockAssists": "25",
+        "blockingErrors": "1",
+        "totalBlocks": "13"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46478,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "80",
+        "kills": "50",
+        "attackErrors": "34",
+        "attackAttempts": "172",
+        "hittingPercentage": "0.093",
+        "assists": "45",
+        "setErrors": "1",
+        "setAttempts": "161",
+        "serviceAces": "6",
+        "serviceErrors": "8",
+        "serveAttempts": "81",
+        "digs": "68",
+        "receptionAttempts": "87",
+        "receptionErrors": "8",
+        "blockSolos": "3",
+        "blockAssists": "10",
+        "blockingErrors": "2",
+        "totalBlocks": "8"
+      }
+    }
+  ]
+}

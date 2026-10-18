@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628393,
+  "title": "WVB Boxscore",
+  "description": "Hampton vs Campbell",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46679",
+      "seoname": "hampton",
+      "name6Char": "HAMPTN",
+      "nameFull": "Hampton University",
+      "nameShort": "Hampton",
+      "teamName": "Lady Pirates",
+      "color": "#0033A0"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46162",
+      "seoname": "campbell",
+      "name6Char": "CAMPBL",
+      "nameFull": "Campbell University",
+      "nameShort": "Campbell",
+      "teamName": "Camels",
+      "color": "#FF4713"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46679,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "45",
+        "kills": "23",
+        "attackErrors": "8",
+        "attackAttempts": "94",
+        "hittingPercentage": "0.160",
+        "assists": "21",
+        "setErrors": "0",
+        "setAttempts": "93",
+        "serviceAces": "3",
+        "serviceErrors": "2",
+        "serveAttempts": "47",
+        "digs": "41",
+        "receptionAttempts": "65",
+        "receptionErrors": "11",
+        "blockSolos": "0",
+        "blockAssists": "6",
+        "blockingErrors": "1",
+        "totalBlocks": "3"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46162,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "54",
+        "attackErrors": "11",
+        "attackAttempts": "108",
+        "hittingPercentage": "0.398",
+        "assists": "49",
+        "setErrors": "0",
+        "setAttempts": "104",
+        "serviceAces": "11",
+        "serviceErrors": "8",
+        "serveAttempts": "73",
+        "digs": "58",
+        "receptionAttempts": "45",
+        "receptionErrors": "3",
+        "blockSolos": "1",
+        "blockAssists": "6",
+        "blockingErrors": "0",
+        "totalBlocks": "4"
+      }
+    }
+  ]
+}

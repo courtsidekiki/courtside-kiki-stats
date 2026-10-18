@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628186,
+  "title": "WVB Boxscore",
+  "description": "Idaho vs Northern Ariz.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46311",
+      "seoname": "idaho",
+      "name6Char": "IDAHO",
+      "nameFull": "University of Idaho",
+      "nameShort": "Idaho",
+      "teamName": "Vandals",
+      "color": "#010101"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46729",
+      "seoname": "northern-ariz",
+      "name6Char": "NAU",
+      "nameFull": "Northern Arizona University",
+      "nameShort": "Northern Ariz.",
+      "teamName": "Lumberjacks",
+      "color": "#00205B"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46311,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "85",
+        "kills": "48",
+        "attackErrors": "24",
+        "attackAttempts": "151",
+        "hittingPercentage": "0.159",
+        "assists": "42",
+        "setErrors": "7",
+        "setAttempts": "165",
+        "serviceAces": "6",
+        "serviceErrors": "7",
+        "serveAttempts": "86",
+        "digs": "64",
+        "receptionAttempts": "85",
+        "receptionErrors": "4",
+        "blockSolos": "1",
+        "blockAssists": "6",
+        "blockingErrors": "10",
+        "totalBlocks": "4"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46729,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "94",
+        "kills": "52",
+        "attackErrors": "17",
+        "attackAttempts": "142",
+        "hittingPercentage": "0.246",
+        "assists": "47",
+        "setErrors": "5",
+        "setAttempts": "156",
+        "serviceAces": "4",
+        "serviceErrors": "9",
+        "serveAttempts": "93",
+        "digs": "64",
+        "receptionAttempts": "81",
+        "receptionErrors": "6",
+        "blockSolos": "4",
+        "blockAssists": "8",
+        "blockingErrors": "5",
+        "totalBlocks": "8"
+      }
+    }
+  ]
+}

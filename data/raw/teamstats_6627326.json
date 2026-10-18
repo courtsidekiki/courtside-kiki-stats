@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627326,
+  "title": "WVB Boxscore",
+  "description": "San Jose St. vs UC Davis",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46494",
+      "seoname": "san-jose-st",
+      "name6Char": "SJSU",
+      "nameFull": "San Jose State University",
+      "nameShort": "San Jose St.",
+      "teamName": "Spartans",
+      "color": "#233A82"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46036",
+      "seoname": "uc-davis",
+      "name6Char": "UC DAV",
+      "nameFull": "University of California, Davis",
+      "nameShort": "UC Davis",
+      "teamName": "Aggies",
+      "color": "#002855"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46494,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "91",
+        "kills": "52",
+        "attackErrors": "24",
+        "attackAttempts": "130",
+        "hittingPercentage": "0.215",
+        "assists": "51",
+        "setErrors": "2",
+        "setAttempts": "130",
+        "serviceAces": "7",
+        "serviceErrors": "12",
+        "serveAttempts": "90",
+        "digs": "45",
+        "receptionAttempts": "95",
+        "receptionErrors": "15",
+        "blockSolos": "5",
+        "blockAssists": "14",
+        "blockingErrors": "1",
+        "totalBlocks": "12"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46036,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "106",
+        "kills": "53",
+        "attackErrors": "19",
+        "attackAttempts": "129",
+        "hittingPercentage": "0.264",
+        "assists": "48",
+        "setErrors": "1",
+        "setAttempts": "123",
+        "serviceAces": "15",
+        "serviceErrors": "12",
+        "serveAttempts": "107",
+        "digs": "45",
+        "receptionAttempts": "78",
+        "receptionErrors": "7",
+        "blockSolos": "4",
+        "blockAssists": "12",
+        "blockingErrors": "1",
+        "totalBlocks": "10"
+      }
+    }
+  ]
+}

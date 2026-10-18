@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626531,
+  "title": "WVB Boxscore",
+  "description": "A&M-Corpus Christi vs SFA",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46137",
+      "seoname": "am-corpus-chris",
+      "name6Char": "TAMUCC",
+      "nameFull": "Texas A&M University-Corpus Christi",
+      "nameShort": "A&M-Corpus Christi",
+      "teamName": "Islanders",
+      "color": "#007AC1"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46624",
+      "seoname": "stephen-f-austin",
+      "name6Char": "SFA",
+      "nameFull": "Stephen F. Austin State University",
+      "nameShort": "SFA",
+      "teamName": "Lumberjacks",
+      "color": "#532F7C"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46137,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "77",
+        "kills": "56",
+        "attackErrors": "22",
+        "attackAttempts": "135",
+        "hittingPercentage": "0.252",
+        "assists": "52",
+        "setErrors": "2",
+        "setAttempts": "135",
+        "serviceAces": "6",
+        "serviceErrors": "6",
+        "serveAttempts": "78",
+        "digs": "41",
+        "receptionAttempts": "90",
+        "receptionErrors": "13",
+        "blockSolos": "0",
+        "blockAssists": "6",
+        "blockingErrors": "0",
+        "totalBlocks": "3"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46624,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "95",
+        "kills": "52",
+        "attackErrors": "9",
+        "attackAttempts": "109",
+        "hittingPercentage": "0.394",
+        "assists": "50",
+        "setErrors": "2",
+        "setAttempts": "114",
+        "serviceAces": "13",
+        "serviceErrors": "4",
+        "serveAttempts": "94",
+        "digs": "40",
+        "receptionAttempts": "72",
+        "receptionErrors": "6",
+        "blockSolos": "5",
+        "blockAssists": "14",
+        "blockingErrors": "1",
+        "totalBlocks": "12"
+      }
+    }
+  ]
+}

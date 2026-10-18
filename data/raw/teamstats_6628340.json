@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628340,
+  "title": "WVB Boxscore",
+  "description": "Iowa St. vs Utah",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46190",
+      "seoname": "iowa-st",
+      "name6Char": "IOWAST",
+      "nameFull": "Iowa State University",
+      "nameShort": "Iowa St.",
+      "teamName": "Cyclones",
+      "color": "#A6192E"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46628",
+      "seoname": "utah",
+      "name6Char": "UTAH",
+      "nameFull": "University of Utah",
+      "nameShort": "Utah",
+      "teamName": "Utes",
+      "color": "#D42331"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46190,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "115",
+        "kills": "52",
+        "attackErrors": "39",
+        "attackAttempts": "185",
+        "hittingPercentage": "0.070",
+        "assists": "47",
+        "setErrors": "3",
+        "setAttempts": "184",
+        "serviceAces": "13",
+        "serviceErrors": "5",
+        "serveAttempts": "115",
+        "digs": "78",
+        "receptionAttempts": "96",
+        "receptionErrors": "4",
+        "blockSolos": "5",
+        "blockAssists": "16",
+        "blockingErrors": "0",
+        "totalBlocks": "13"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46628,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "115",
+        "kills": "64",
+        "attackErrors": "30",
+        "attackAttempts": "182",
+        "hittingPercentage": "0.187",
+        "assists": "60",
+        "setErrors": "1",
+        "setAttempts": "182",
+        "serviceAces": "4",
+        "serviceErrors": "19",
+        "serveAttempts": "115",
+        "digs": "79",
+        "receptionAttempts": "110",
+        "receptionErrors": "13",
+        "blockSolos": "1",
+        "blockAssists": "34",
+        "blockingErrors": "0",
+        "totalBlocks": "18"
+      }
+    }
+  ]
+}

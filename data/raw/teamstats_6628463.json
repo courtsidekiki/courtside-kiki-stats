@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628463,
+  "title": "WVB Boxscore",
+  "description": "Marist vs Sacred Heart",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46561",
+      "seoname": "marist",
+      "name6Char": "MARIST",
+      "nameFull": "Marist University",
+      "nameShort": "Marist",
+      "teamName": "Red Foxes",
+      "color": "#C8102E"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46737",
+      "seoname": "sacred-heart",
+      "name6Char": "SACHRT",
+      "nameFull": "Sacred Heart University",
+      "nameShort": "Sacred Heart",
+      "teamName": "Pioneers",
+      "color": "#BA0C2F"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46561,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "97",
+        "kills": "49",
+        "attackErrors": "19",
+        "attackAttempts": "143",
+        "hittingPercentage": "0.210",
+        "assists": "47",
+        "setErrors": "0",
+        "setAttempts": "138",
+        "serviceAces": "8",
+        "serviceErrors": "6",
+        "serveAttempts": "96",
+        "digs": "66",
+        "receptionAttempts": "81",
+        "receptionErrors": "14",
+        "blockSolos": "3",
+        "blockAssists": "16",
+        "blockingErrors": "1",
+        "totalBlocks": "11"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46737,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "87",
+        "kills": "48",
+        "attackErrors": "33",
+        "attackAttempts": "171",
+        "hittingPercentage": "0.088",
+        "assists": "46",
+        "setErrors": "0",
+        "setAttempts": "167",
+        "serviceAces": "14",
+        "serviceErrors": "7",
+        "serveAttempts": "88",
+        "digs": "69",
+        "receptionAttempts": "90",
+        "receptionErrors": "8",
+        "blockSolos": "0",
+        "blockAssists": "12",
+        "blockingErrors": "2",
+        "totalBlocks": "6"
+      }
+    }
+  ]
+}

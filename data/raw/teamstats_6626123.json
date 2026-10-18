@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626123,
+  "title": "WVB Boxscore",
+  "description": "New Mexico St. vs Jacksonville St.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46605",
+      "seoname": "new-mexico-st",
+      "name6Char": "NM ST",
+      "nameFull": "New Mexico State University",
+      "nameShort": "New Mexico St.",
+      "teamName": "Aggies",
+      "color": "#891619"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45784",
+      "seoname": "jacksonville-st",
+      "name6Char": "JAX ST",
+      "nameFull": "Jacksonville State University",
+      "nameShort": "Jacksonville St.",
+      "teamName": "Gamecocks",
+      "color": "#C8102E"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46605,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "41",
+        "attackErrors": "15",
+        "attackAttempts": "93",
+        "hittingPercentage": "0.280",
+        "assists": "37",
+        "setErrors": "1",
+        "setAttempts": "96",
+        "serviceAces": "5",
+        "serviceErrors": "9",
+        "serveAttempts": "73",
+        "digs": "45",
+        "receptionAttempts": "44",
+        "receptionErrors": "3",
+        "blockSolos": "1",
+        "blockAssists": "8",
+        "blockingErrors": "1",
+        "totalBlocks": "5"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45784,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "50",
+        "kills": "22",
+        "attackErrors": "19",
+        "attackAttempts": "92",
+        "hittingPercentage": "0.033",
+        "assists": "19",
+        "setErrors": "2",
+        "setAttempts": "94",
+        "serviceAces": "3",
+        "serviceErrors": "8",
+        "serveAttempts": "52",
+        "digs": "29",
+        "receptionAttempts": "64",
+        "receptionErrors": "5",
+        "blockSolos": "1",
+        "blockAssists": "8",
+        "blockingErrors": "0",
+        "totalBlocks": "5"
+      }
+    }
+  ]
+}

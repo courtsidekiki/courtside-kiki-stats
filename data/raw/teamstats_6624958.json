@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624958,
+  "title": "WVB Boxscore",
+  "description": "Louisiana Tech vs Troy",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46060",
+      "seoname": "louisiana-tech",
+      "name6Char": "LATECH",
+      "nameFull": "Louisiana Tech University",
+      "nameShort": "Louisiana Tech",
+      "teamName": "Bulldogs",
+      "color": "#003087"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46254",
+      "seoname": "troy",
+      "name6Char": "TROY",
+      "nameFull": "Troy University",
+      "nameShort": "Troy",
+      "teamName": "Trojans",
+      "color": "#9D2235"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46060,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "60",
+        "kills": "29",
+        "attackErrors": "14",
+        "attackAttempts": "79",
+        "hittingPercentage": "0.190",
+        "assists": "25",
+        "setErrors": "0",
+        "setAttempts": "80",
+        "serviceAces": "3",
+        "serviceErrors": "7",
+        "serveAttempts": "62",
+        "digs": "28",
+        "receptionAttempts": "58",
+        "receptionErrors": "9",
+        "blockSolos": "1",
+        "blockAssists": "12",
+        "blockingErrors": "0",
+        "totalBlocks": "7"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46254,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "44",
+        "attackErrors": "13",
+        "attackAttempts": "90",
+        "hittingPercentage": "0.344",
+        "assists": "40",
+        "setErrors": "0",
+        "setAttempts": "93",
+        "serviceAces": "9",
+        "serviceErrors": "15",
+        "serveAttempts": "73",
+        "digs": "32",
+        "receptionAttempts": "55",
+        "receptionErrors": "3",
+        "blockSolos": "1",
+        "blockAssists": "12",
+        "blockingErrors": "0",
+        "totalBlocks": "7"
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624435,
+  "title": "WVB Boxscore",
+  "description": "Chattanooga vs Western Caro.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46505",
+      "seoname": "chattanooga",
+      "name6Char": "CHAT",
+      "nameFull": "University of Tennessee at Chattanooga",
+      "nameShort": "Chattanooga",
+      "teamName": "Mocs",
+      "color": "#00416D"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46382",
+      "seoname": "western-caro",
+      "name6Char": "W CAR",
+      "nameFull": "Western Carolina University",
+      "nameShort": "Western Caro.",
+      "teamName": "Catamounts",
+      "color": "#5F259F"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46505,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "51",
+        "kills": "29",
+        "attackErrors": "21",
+        "attackAttempts": "125",
+        "hittingPercentage": "0.064",
+        "assists": "28",
+        "setErrors": "0",
+        "setAttempts": "118",
+        "serviceAces": "0",
+        "serviceErrors": "6",
+        "serveAttempts": "53",
+        "digs": "60",
+        "receptionAttempts": "68",
+        "receptionErrors": "6",
+        "blockSolos": "1",
+        "blockAssists": "14",
+        "blockingErrors": "0",
+        "totalBlocks": "8"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46382,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "42",
+        "attackErrors": "16",
+        "attackAttempts": "128",
+        "hittingPercentage": "0.203",
+        "assists": "36",
+        "setErrors": "1",
+        "setAttempts": "118",
+        "serviceAces": "6",
+        "serviceErrors": "5",
+        "serveAttempts": "73",
+        "digs": "72",
+        "receptionAttempts": "47",
+        "receptionErrors": "0",
+        "blockSolos": "1",
+        "blockAssists": "12",
+        "blockingErrors": "2",
+        "totalBlocks": "7"
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624980,
+  "title": "WVB Boxscore",
+  "description": "Stony Brook vs Col. of Charleston",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46753",
+      "seoname": "stony-brook",
+      "name6Char": "STONY",
+      "nameFull": "Stony Brook University",
+      "nameShort": "Stony Brook",
+      "teamName": "Seawolves",
+      "color": "#A6192E"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46585",
+      "seoname": "col-of-charleston",
+      "name6Char": "C OF C",
+      "nameFull": "College of Charleston (South Carolina)",
+      "nameShort": "Col. of Charleston",
+      "teamName": "Cougars",
+      "color": "#76232F"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46753,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "50",
+        "kills": "25",
+        "attackErrors": "14",
+        "attackAttempts": "98",
+        "hittingPercentage": "0.112",
+        "assists": "19",
+        "setErrors": "1",
+        "setAttempts": "97",
+        "serviceAces": "3",
+        "serviceErrors": "6",
+        "serveAttempts": "52",
+        "digs": "30",
+        "receptionAttempts": "66",
+        "receptionErrors": "7",
+        "blockSolos": "3",
+        "blockAssists": "6",
+        "blockingErrors": "0",
+        "totalBlocks": "6"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46585,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "47",
+        "attackErrors": "14",
+        "attackAttempts": "95",
+        "hittingPercentage": "0.347",
+        "assists": "44",
+        "setErrors": "1",
+        "setAttempts": "99",
+        "serviceAces": "7",
+        "serviceErrors": "7",
+        "serveAttempts": "73",
+        "digs": "48",
+        "receptionAttempts": "46",
+        "receptionErrors": "3",
+        "blockSolos": "2",
+        "blockAssists": "6",
+        "blockingErrors": "2",
+        "totalBlocks": "5"
+      }
+    }
+  ]
+}

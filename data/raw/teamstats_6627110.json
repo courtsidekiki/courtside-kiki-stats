@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627110,
+  "title": "WVB Boxscore",
+  "description": "Southern Ill. vs Bradley",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46498",
+      "seoname": "southern-ill",
+      "name6Char": "SIU",
+      "nameFull": "Southern Illinois University at Carbondale",
+      "nameShort": "Southern Ill.",
+      "teamName": "Salukis",
+      "color": "#6F263D"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46700",
+      "seoname": "bradley",
+      "name6Char": "BRAD",
+      "nameFull": "Bradley University",
+      "nameShort": "Bradley",
+      "teamName": "Braves",
+      "color": "#A21B21"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46498,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "79",
+        "kills": "40",
+        "attackErrors": "28",
+        "attackAttempts": "143",
+        "hittingPercentage": "0.084",
+        "assists": "38",
+        "setErrors": "2",
+        "setAttempts": "146",
+        "serviceAces": "5",
+        "serviceErrors": "9",
+        "serveAttempts": "80",
+        "digs": "51",
+        "receptionAttempts": "79",
+        "receptionErrors": "2",
+        "blockSolos": "0",
+        "blockAssists": "16",
+        "blockingErrors": "1",
+        "totalBlocks": "8"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46700,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "92",
+        "kills": "51",
+        "attackErrors": "20",
+        "attackAttempts": "136",
+        "hittingPercentage": "0.228",
+        "assists": "49",
+        "setErrors": "2",
+        "setAttempts": "142",
+        "serviceAces": "2",
+        "serviceErrors": "12",
+        "serveAttempts": "91",
+        "digs": "69",
+        "receptionAttempts": "71",
+        "receptionErrors": "5",
+        "blockSolos": "2",
+        "blockAssists": "20",
+        "blockingErrors": "1",
+        "totalBlocks": "12"
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627379,
+  "title": "WVB Boxscore",
+  "description": "Nicholls vs East Texas A&M",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46103",
+      "seoname": "nicholls-st",
+      "name6Char": "NICHST",
+      "nameFull": "Nicholls State University",
+      "nameShort": "Nicholls",
+      "teamName": "Colonels",
+      "color": "#A6192E"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45903",
+      "seoname": "tex-am-commerce",
+      "name6Char": "TAMUCO",
+      "nameFull": "East Texas A&M University",
+      "nameShort": "East Texas A&M",
+      "teamName": "Lions",
+      "color": "#00205B"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46103,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "63",
+        "kills": "39",
+        "attackErrors": "27",
+        "attackAttempts": "126",
+        "hittingPercentage": "0.095",
+        "assists": "37",
+        "setErrors": "1",
+        "setAttempts": "121",
+        "serviceAces": "3",
+        "serviceErrors": "6",
+        "serveAttempts": "65",
+        "digs": "57",
+        "receptionAttempts": "64",
+        "receptionErrors": "3",
+        "blockSolos": "0",
+        "blockAssists": "14",
+        "blockingErrors": "0",
+        "totalBlocks": "7"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45903,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "76",
+        "kills": "39",
+        "attackErrors": "11",
+        "attackAttempts": "114",
+        "hittingPercentage": "0.246",
+        "assists": "38",
+        "setErrors": "0",
+        "setAttempts": "115",
+        "serviceAces": "3",
+        "serviceErrors": "10",
+        "serveAttempts": "74",
+        "digs": "57",
+        "receptionAttempts": "59",
+        "receptionErrors": "3",
+        "blockSolos": "2",
+        "blockAssists": "22",
+        "blockingErrors": "0",
+        "totalBlocks": "13"
+      }
+    }
+  ]
+}

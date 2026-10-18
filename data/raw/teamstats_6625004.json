@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625004,
+  "title": "WVB Boxscore",
+  "description": "UNI vs UIC",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45848",
+      "seoname": "uni",
+      "name6Char": "N IOWA",
+      "nameFull": "University of Northern Iowa",
+      "nameShort": "UNI",
+      "teamName": "Panthers",
+      "color": "#470A68"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45916",
+      "seoname": "ill-chicago",
+      "name6Char": "UIC",
+      "nameFull": "University of Illinois Chicago",
+      "nameShort": "UIC",
+      "teamName": "Flames",
+      "color": "#DB0032"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45848,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "44",
+        "attackErrors": "13",
+        "attackAttempts": "102",
+        "hittingPercentage": "0.304",
+        "assists": "38",
+        "setErrors": "0",
+        "setAttempts": "92",
+        "serviceAces": "4",
+        "serviceErrors": "10",
+        "serveAttempts": "74",
+        "digs": "37",
+        "receptionAttempts": "53",
+        "receptionErrors": "1",
+        "blockSolos": "1",
+        "blockAssists": "16",
+        "blockingErrors": "1",
+        "totalBlocks": "9"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45916,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "56",
+        "kills": "32",
+        "attackErrors": "22",
+        "attackAttempts": "105",
+        "hittingPercentage": "0.095",
+        "assists": "30",
+        "setErrors": "1",
+        "setAttempts": "102",
+        "serviceAces": "1",
+        "serviceErrors": "4",
+        "serveAttempts": "57",
+        "digs": "39",
+        "receptionAttempts": "64",
+        "receptionErrors": "4",
+        "blockSolos": "2",
+        "blockAssists": "10",
+        "blockingErrors": "0",
+        "totalBlocks": "7"
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628554,
+  "title": "WVB Boxscore",
+  "description": "Ohio vs Ball St.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46731",
+      "seoname": "ohio",
+      "name6Char": "OHIO",
+      "nameFull": "Ohio University",
+      "nameShort": "Ohio",
+      "teamName": "Bobcats",
+      "color": "#154734"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46572",
+      "seoname": "ball-st",
+      "name6Char": "BALLST",
+      "nameFull": "Ball State University",
+      "nameShort": "Ball St.",
+      "teamName": "Cardinals",
+      "color": "#BA0C2F"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46731,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "60",
+        "kills": "31",
+        "attackErrors": "19",
+        "attackAttempts": "94",
+        "hittingPercentage": "0.128",
+        "assists": "31",
+        "setErrors": "3",
+        "setAttempts": "98",
+        "serviceAces": "6",
+        "serviceErrors": "11",
+        "serveAttempts": "62",
+        "digs": "31",
+        "receptionAttempts": "64",
+        "receptionErrors": "2",
+        "blockSolos": "3",
+        "blockAssists": "2",
+        "blockingErrors": "0",
+        "totalBlocks": "4"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46572,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "40",
+        "attackErrors": "12",
+        "attackAttempts": "93",
+        "hittingPercentage": "0.301",
+        "assists": "36",
+        "setErrors": "2",
+        "setAttempts": "90",
+        "serviceAces": "2",
+        "serviceErrors": "9",
+        "serveAttempts": "73",
+        "digs": "38",
+        "receptionAttempts": "51",
+        "receptionErrors": "6",
+        "blockSolos": "4",
+        "blockAssists": "6",
+        "blockingErrors": "0",
+        "totalBlocks": "7"
+      }
+    }
+  ]
+}

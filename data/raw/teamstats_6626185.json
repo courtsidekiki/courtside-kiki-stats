@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626185,
+  "title": "WVB Boxscore",
+  "description": "Holy Cross vs Bucknell",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45915",
+      "seoname": "holy-cross",
+      "name6Char": "HOLYCR",
+      "nameFull": "College of the Holy Cross",
+      "nameShort": "Holy Cross",
+      "teamName": "Crusaders",
+      "color": "#582C83"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45948",
+      "seoname": "bucknell",
+      "name6Char": "BUCKNL",
+      "nameFull": "Bucknell University",
+      "nameShort": "Bucknell",
+      "teamName": "Bison",
+      "color": "#071D49"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45915,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "106",
+        "kills": "56",
+        "attackErrors": "29",
+        "attackAttempts": "193",
+        "hittingPercentage": "0.140",
+        "assists": "52",
+        "setErrors": "3",
+        "setAttempts": "191",
+        "serviceAces": "10",
+        "serviceErrors": "15",
+        "serveAttempts": "106",
+        "digs": "78",
+        "receptionAttempts": "96",
+        "receptionErrors": "7",
+        "blockSolos": "4",
+        "blockAssists": "16",
+        "blockingErrors": "2",
+        "totalBlocks": "12"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45948,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "106",
+        "kills": "52",
+        "attackErrors": "29",
+        "attackAttempts": "179",
+        "hittingPercentage": "0.128",
+        "assists": "49",
+        "setErrors": "1",
+        "setAttempts": "192",
+        "serviceAces": "7",
+        "serviceErrors": "10",
+        "serveAttempts": "106",
+        "digs": "97",
+        "receptionAttempts": "91",
+        "receptionErrors": "10",
+        "blockSolos": "3",
+        "blockAssists": "14",
+        "blockingErrors": "5",
+        "totalBlocks": "10"
+      }
+    }
+  ]
+}

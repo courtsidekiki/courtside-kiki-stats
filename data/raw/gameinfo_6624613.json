@@ -1,0 +1,104 @@
+{
+  "contests": [
+    {
+      "__typename": "Contest",
+      "id": "6624613",
+      "sportCode": "WVB",
+      "sportUrl": "volleyball-women",
+      "division": 1,
+      "clock": null,
+      "currentPeriod": "FINAL",
+      "finalMessage": "FINAL",
+      "gameState": "F",
+      "statusCodeDisplay": "final",
+      "network": null,
+      "startTime": "11:00",
+      "startTimeEpoch": 1792249200,
+      "week": null,
+      "seasonYear": 2026,
+      "winner": 45873,
+      "hasStartTime": true,
+      "hasBoxscore": true,
+      "hasPbp": true,
+      "hasScoringSummary": false,
+      "hasPreview": false,
+      "hasRecap": false,
+      "hasTeamStats": true,
+      "linescores": [
+        {
+          "__typename": "Linescore",
+          "period": "1",
+          "home": "26",
+          "visit": "28"
+        },
+        {
+          "__typename": "Linescore",
+          "period": "2",
+          "home": "25",
+          "visit": "20"
+        },
+        {
+          "__typename": "Linescore",
+          "period": "3",
+          "home": "23",
+          "visit": "25"
+        },
+        {
+          "__typename": "Linescore",
+          "period": "4",
+          "home": "21",
+          "visit": "25"
+        }
+      ],
+      "teams": [
+        {
+          "__typename": "ContestTeam",
+          "teamId": "46381",
+          "isHome": true,
+          "color": "#0032A0",
+          "seoname": "west-ga",
+          "nameFull": "University of West Georgia",
+          "nameShort": "West Ga.",
+          "name6Char": "W GA",
+          "teamRank": null,
+          "gameRank": null,
+          "score": 1,
+          "seed": null,
+          "record": "(4-15)",
+          "divisionName": "d1",
+          "division": 1,
+          "isWinner": false
+        },
+        {
+          "__typename": "ContestTeam",
+          "teamId": "45873",
+          "isHome": false,
+          "color": "#003DA5",
+          "seoname": "texas-arlington",
+          "nameFull": "University of Texas at Arlington",
+          "nameShort": "UT Arlington",
+          "name6Char": "TX ARL",
+          "teamRank": null,
+          "gameRank": null,
+          "score": 3,
+          "seed": null,
+          "record": "(8-11)",
+          "divisionName": "d1",
+          "division": 1,
+          "isWinner": true
+        }
+      ],
+      "liveVideos": [],
+      "championship": null,
+      "championshipGame": null,
+      "links": [],
+      "location": {
+        "__typename": "Location",
+        "venue": "The Coliseum",
+        "city": "Carrollton",
+        "stateUsps": "GA"
+      },
+      "stats": null
+    }
+  ]
+}

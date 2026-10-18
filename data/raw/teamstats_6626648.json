@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626648,
+  "title": "WVB Boxscore",
+  "description": "Western Mich. vs Toledo",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45950",
+      "seoname": "western-mich",
+      "name6Char": "W MICH",
+      "nameFull": "Western Michigan University",
+      "nameShort": "Western Mich.",
+      "teamName": "Broncos",
+      "color": "#511B00"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46007",
+      "seoname": "toledo",
+      "name6Char": "TOLEDO",
+      "nameFull": "University of Toledo",
+      "nameShort": "Toledo",
+      "teamName": "Rockets",
+      "color": "#00205B"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45950,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "51",
+        "attackErrors": "11",
+        "attackAttempts": "107",
+        "hittingPercentage": "0.374",
+        "assists": "48",
+        "setErrors": "0",
+        "setAttempts": "102",
+        "serviceAces": "2",
+        "serviceErrors": "3",
+        "serveAttempts": "74",
+        "digs": "47",
+        "receptionAttempts": "46",
+        "receptionErrors": "2",
+        "blockSolos": "3",
+        "blockAssists": "8",
+        "blockingErrors": "0",
+        "totalBlocks": "7"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46007,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "53",
+        "kills": "37",
+        "attackErrors": "14",
+        "attackAttempts": "110",
+        "hittingPercentage": "0.209",
+        "assists": "36",
+        "setErrors": "0",
+        "setAttempts": "111",
+        "serviceAces": "2",
+        "serviceErrors": "8",
+        "serveAttempts": "54",
+        "digs": "37",
+        "receptionAttempts": "71",
+        "receptionErrors": "2",
+        "blockSolos": "1",
+        "blockAssists": "8",
+        "blockingErrors": "2",
+        "totalBlocks": "5"
+      }
+    }
+  ]
+}

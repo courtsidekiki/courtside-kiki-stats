@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624583,
+  "title": "WVB Boxscore",
+  "description": "Portland vs San Diego",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46351",
+      "seoname": "portland",
+      "name6Char": "PORT",
+      "nameFull": "University of Portland",
+      "nameShort": "Portland",
+      "teamName": "Pilots",
+      "color": "#31006F"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46493",
+      "seoname": "san-diego",
+      "name6Char": "USD",
+      "nameFull": "University of San Diego",
+      "nameShort": "San Diego",
+      "teamName": "Toreros",
+      "color": "#00205B"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46351,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "38",
+        "kills": "26",
+        "attackErrors": "22",
+        "attackAttempts": "86",
+        "hittingPercentage": "0.047",
+        "assists": "25",
+        "setErrors": "0",
+        "setAttempts": "94",
+        "serviceAces": "1",
+        "serviceErrors": "5",
+        "serveAttempts": "40",
+        "digs": "28",
+        "receptionAttempts": "68",
+        "receptionErrors": "9",
+        "blockSolos": "0",
+        "blockAssists": "4",
+        "blockingErrors": "1",
+        "totalBlocks": "2"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46493,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "39",
+        "attackErrors": "5",
+        "attackAttempts": "75",
+        "hittingPercentage": "0.453",
+        "assists": "35",
+        "setErrors": "1",
+        "setAttempts": "76",
+        "serviceAces": "9",
+        "serviceErrors": "5",
+        "serveAttempts": "73",
+        "digs": "31",
+        "receptionAttempts": "35",
+        "receptionErrors": "1",
+        "blockSolos": "3",
+        "blockAssists": "14",
+        "blockingErrors": "0",
+        "totalBlocks": "10"
+      }
+    }
+  ]
+}

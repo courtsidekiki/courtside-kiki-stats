@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625940,
+  "title": "WVB Boxscore",
+  "description": "Morehead St. vs Southeast Mo. St.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46341",
+      "seoname": "morehead-st",
+      "name6Char": "MOREST",
+      "nameFull": "Morehead State University",
+      "nameShort": "Morehead St.",
+      "teamName": "Eagles",
+      "color": "#0032A0"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46496",
+      "seoname": "southeast-mo-st",
+      "name6Char": "SEMO",
+      "nameFull": "Southeast Missouri State University",
+      "nameShort": "Southeast Mo. St.",
+      "teamName": "Redhawks",
+      "color": "#010101"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46341,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "65",
+        "kills": "46",
+        "attackErrors": "8",
+        "attackAttempts": "122",
+        "hittingPercentage": "0.311",
+        "assists": "44",
+        "setErrors": "0",
+        "setAttempts": "116",
+        "serviceAces": "5",
+        "serviceErrors": "10",
+        "serveAttempts": "66",
+        "digs": "48",
+        "receptionAttempts": "69",
+        "receptionErrors": "6",
+        "blockSolos": "0",
+        "blockAssists": "6",
+        "blockingErrors": "2",
+        "totalBlocks": "3"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46496,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "51",
+        "attackErrors": "8",
+        "attackAttempts": "113",
+        "hittingPercentage": "0.381",
+        "assists": "45",
+        "setErrors": "1",
+        "setAttempts": "103",
+        "serviceAces": "6",
+        "serviceErrors": "5",
+        "serveAttempts": "74",
+        "digs": "55",
+        "receptionAttempts": "56",
+        "receptionErrors": "5",
+        "blockSolos": "0",
+        "blockAssists": "4",
+        "blockingErrors": "0",
+        "totalBlocks": "2"
+      }
+    }
+  ]
+}

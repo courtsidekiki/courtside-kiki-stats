@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624561,
+  "title": "WVB Boxscore",
+  "description": "UTRGV vs Lamar University",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45984",
+      "seoname": "utrgv",
+      "name6Char": "UTRGV",
+      "nameFull": "The University of Texas Rio Grande Valley",
+      "nameShort": "UTRGV",
+      "teamName": "Vaqueros",
+      "color": "#FF4D00"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45922",
+      "seoname": "lamar",
+      "name6Char": "LAMAR",
+      "nameFull": "Lamar University",
+      "nameShort": "Lamar University",
+      "teamName": "Cardinals",
+      "color": "#D50032"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45984,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "35",
+        "attackErrors": "17",
+        "attackAttempts": "100",
+        "hittingPercentage": "0.180",
+        "assists": "34",
+        "setErrors": "0",
+        "setAttempts": "103",
+        "serviceAces": "8",
+        "serviceErrors": "7",
+        "serveAttempts": "74",
+        "digs": "50",
+        "receptionAttempts": "51",
+        "receptionErrors": "5",
+        "blockSolos": "3",
+        "blockAssists": "16",
+        "blockingErrors": "2",
+        "totalBlocks": "11"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45922,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "57",
+        "kills": "28",
+        "attackErrors": "23",
+        "attackAttempts": "105",
+        "hittingPercentage": "0.048",
+        "assists": "25",
+        "setErrors": "2",
+        "setAttempts": "111",
+        "serviceAces": "5",
+        "serviceErrors": "7",
+        "serveAttempts": "58",
+        "digs": "43",
+        "receptionAttempts": "67",
+        "receptionErrors": "8",
+        "blockSolos": "1",
+        "blockAssists": "6",
+        "blockingErrors": "1",
+        "totalBlocks": "4"
+      }
+    }
+  ]
+}

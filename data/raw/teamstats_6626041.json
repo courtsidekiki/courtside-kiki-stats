@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626041,
+  "title": "WVB Boxscore",
+  "description": "Furman vs Mercer",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46415",
+      "seoname": "furman",
+      "name6Char": "FURMAN",
+      "nameFull": "Furman University",
+      "nameShort": "Furman",
+      "teamName": "Paladins",
+      "color": "#582C83"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46567",
+      "seoname": "mercer",
+      "name6Char": "MERCER",
+      "nameFull": "Mercer University",
+      "nameShort": "Mercer",
+      "teamName": "Bears",
+      "color": "#E87722"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46415,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "101",
+        "kills": "55",
+        "attackErrors": "25",
+        "attackAttempts": "161",
+        "hittingPercentage": "0.186",
+        "assists": "54",
+        "setErrors": "1",
+        "setAttempts": "177",
+        "serviceAces": "6",
+        "serviceErrors": "3",
+        "serveAttempts": "101",
+        "digs": "82",
+        "receptionAttempts": "95",
+        "receptionErrors": "14",
+        "blockSolos": "5",
+        "blockAssists": "18",
+        "blockingErrors": "0",
+        "totalBlocks": "14"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46567,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "102",
+        "kills": "59",
+        "attackErrors": "32",
+        "attackAttempts": "187",
+        "hittingPercentage": "0.144",
+        "assists": "56",
+        "setErrors": "0",
+        "setAttempts": "177",
+        "serviceAces": "14",
+        "serviceErrors": "7",
+        "serveAttempts": "102",
+        "digs": "71",
+        "receptionAttempts": "98",
+        "receptionErrors": "6",
+        "blockSolos": "1",
+        "blockAssists": "10",
+        "blockingErrors": "1",
+        "totalBlocks": "6"
+      }
+    }
+  ]
+}

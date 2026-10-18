@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625026,
+  "title": "WVB Boxscore",
+  "description": "Dayton vs George Washington",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46047",
+      "seoname": "dayton",
+      "name6Char": "DAYTON",
+      "nameFull": "University of Dayton",
+      "nameShort": "Dayton",
+      "teamName": "Flyers",
+      "color": "#D50032"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46548",
+      "seoname": "george-washington",
+      "name6Char": "G WASH",
+      "nameFull": "George Washington University",
+      "nameShort": "George Washington",
+      "teamName": "Revolutionaries",
+      "color": "#041E42"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46047,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "36",
+        "attackErrors": "10",
+        "attackAttempts": "95",
+        "hittingPercentage": "0.274",
+        "assists": "34",
+        "setErrors": "0",
+        "setAttempts": "95",
+        "serviceAces": "10",
+        "serviceErrors": "6",
+        "serveAttempts": "74",
+        "digs": "39",
+        "receptionAttempts": "51",
+        "receptionErrors": "2",
+        "blockSolos": "2",
+        "blockAssists": "14",
+        "blockingErrors": "0",
+        "totalBlocks": "9"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46548,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "54",
+        "kills": "35",
+        "attackErrors": "23",
+        "attackAttempts": "102",
+        "hittingPercentage": "0.118",
+        "assists": "35",
+        "setErrors": "2",
+        "setAttempts": "105",
+        "serviceAces": "2",
+        "serviceErrors": "4",
+        "serveAttempts": "55",
+        "digs": "43",
+        "receptionAttempts": "68",
+        "receptionErrors": "10",
+        "blockSolos": "1",
+        "blockAssists": "6",
+        "blockingErrors": "1",
+        "totalBlocks": "4"
+      }
+    }
+  ]
+}

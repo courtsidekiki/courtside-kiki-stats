@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627719,
+  "title": "WVB Boxscore",
+  "description": "Canisius vs Merrimack",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46537",
+      "seoname": "canisius",
+      "name6Char": "CANISI",
+      "nameFull": "Canisius University",
+      "nameShort": "Canisius",
+      "teamName": "Golden Griffins",
+      "color": "#0C2340"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46433",
+      "seoname": "merrimack",
+      "name6Char": "MERMCK",
+      "nameFull": "Merrimack College",
+      "nameShort": "Merrimack",
+      "teamName": "Warriors",
+      "color": "#003057"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46537,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "99",
+        "kills": "53",
+        "attackErrors": "21",
+        "attackAttempts": "140",
+        "hittingPercentage": "0.229",
+        "assists": "51",
+        "setErrors": "2",
+        "setAttempts": "140",
+        "serviceAces": "10",
+        "serviceErrors": "13",
+        "serveAttempts": "98",
+        "digs": "65",
+        "receptionAttempts": "79",
+        "receptionErrors": "7",
+        "blockSolos": "0",
+        "blockAssists": "22",
+        "blockingErrors": "4",
+        "totalBlocks": "11"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46433,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "87",
+        "kills": "44",
+        "attackErrors": "26",
+        "attackAttempts": "143",
+        "hittingPercentage": "0.126",
+        "assists": "39",
+        "setErrors": "1",
+        "setAttempts": "137",
+        "serviceAces": "7",
+        "serviceErrors": "9",
+        "serveAttempts": "88",
+        "digs": "57",
+        "receptionAttempts": "85",
+        "receptionErrors": "10",
+        "blockSolos": "2",
+        "blockAssists": "8",
+        "blockingErrors": "0",
+        "totalBlocks": "6"
+      }
+    }
+  ]
+}

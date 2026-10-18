@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626929,
+  "title": "WVB Boxscore",
+  "description": "Charleston So. vs Radford",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46074",
+      "seoname": "charleston-so",
+      "name6Char": "CHARSO",
+      "nameFull": "Charleston Southern University",
+      "nameShort": "Charleston So.",
+      "teamName": "Buccaneers",
+      "color": "#15233C"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46241",
+      "seoname": "radford",
+      "name6Char": "RADFRD",
+      "nameFull": "Radford University",
+      "nameShort": "Radford",
+      "teamName": "Highlanders",
+      "color": "#C8102E"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46074,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "100",
+        "kills": "49",
+        "attackErrors": "28",
+        "attackAttempts": "159",
+        "hittingPercentage": "0.132",
+        "assists": "47",
+        "setErrors": "3",
+        "setAttempts": "156",
+        "serviceAces": "7",
+        "serviceErrors": "7",
+        "serveAttempts": "99",
+        "digs": "89",
+        "receptionAttempts": "73",
+        "receptionErrors": "7",
+        "blockSolos": "3",
+        "blockAssists": "4",
+        "blockingErrors": "0",
+        "totalBlocks": "5"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46241,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "90",
+        "kills": "45",
+        "attackErrors": "25",
+        "attackAttempts": "166",
+        "hittingPercentage": "0.120",
+        "assists": "41",
+        "setErrors": "1",
+        "setAttempts": "162",
+        "serviceAces": "7",
+        "serviceErrors": "18",
+        "serveAttempts": "91",
+        "digs": "70",
+        "receptionAttempts": "92",
+        "receptionErrors": "7",
+        "blockSolos": "6",
+        "blockAssists": "4",
+        "blockingErrors": "0",
+        "totalBlocks": "8"
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628220,
+  "title": "WVB Boxscore",
+  "description": "Southeastern La. vs Houston Christian",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46622",
+      "seoname": "southeastern-la",
+      "name6Char": "SE LA",
+      "nameFull": "Southeastern Louisiana University",
+      "nameShort": "Southeastern La.",
+      "teamName": "Lady Lions",
+      "color": "#1D4C30"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "51287",
+      "seoname": "houston-christian",
+      "name6Char": "HOUCHR",
+      "nameFull": "Houston Christian University",
+      "nameShort": "Houston Christian",
+      "teamName": "Huskies",
+      "color": "#002F87"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46622,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "96",
+        "kills": "51",
+        "attackErrors": "19",
+        "attackAttempts": "117",
+        "hittingPercentage": "0.274",
+        "assists": "47",
+        "setErrors": "0",
+        "setAttempts": "119",
+        "serviceAces": "10",
+        "serviceErrors": "5",
+        "serveAttempts": "95",
+        "digs": "51",
+        "receptionAttempts": "64",
+        "receptionErrors": "8",
+        "blockSolos": "1",
+        "blockAssists": "20",
+        "blockingErrors": "0",
+        "totalBlocks": "11"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 51287,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "69",
+        "kills": "36",
+        "attackErrors": "28",
+        "attackAttempts": "121",
+        "hittingPercentage": "0.066",
+        "assists": "33",
+        "setErrors": "1",
+        "setAttempts": "130",
+        "serviceAces": "8",
+        "serviceErrors": "6",
+        "serveAttempts": "70",
+        "digs": "42",
+        "receptionAttempts": "90",
+        "receptionErrors": "10",
+        "blockSolos": "0",
+        "blockAssists": "4",
+        "blockingErrors": "0",
+        "totalBlocks": "2"
+      }
+    }
+  ]
+}

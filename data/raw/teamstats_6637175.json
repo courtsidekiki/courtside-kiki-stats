@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6637175,
+  "title": "WVB Boxscore",
+  "description": "Bryant vs UAlbany",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45813",
+      "seoname": "bryant",
+      "name6Char": "BRYANT",
+      "nameFull": "Bryant University",
+      "nameShort": "Bryant",
+      "teamName": "Bulldogs",
+      "color": "#010101"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46569",
+      "seoname": "albany-ny",
+      "name6Char": "ALBANY",
+      "nameFull": "University at Albany",
+      "nameShort": "UAlbany",
+      "teamName": "Great Danes",
+      "color": "#46166B"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45813,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "107",
+        "kills": "65",
+        "attackErrors": "27",
+        "attackAttempts": "168",
+        "hittingPercentage": "0.226",
+        "assists": "62",
+        "setErrors": "1",
+        "setAttempts": "169",
+        "serviceAces": "10",
+        "serviceErrors": "9",
+        "serveAttempts": "106",
+        "digs": "69",
+        "receptionAttempts": "98",
+        "receptionErrors": "7",
+        "blockSolos": "2",
+        "blockAssists": "6",
+        "blockingErrors": "0",
+        "totalBlocks": "5"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46569,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "102",
+        "kills": "58",
+        "attackErrors": "26",
+        "attackAttempts": "172",
+        "hittingPercentage": "0.186",
+        "assists": "47",
+        "setErrors": "1",
+        "setAttempts": "158",
+        "serviceAces": "7",
+        "serviceErrors": "5",
+        "serveAttempts": "103",
+        "digs": "65",
+        "receptionAttempts": "97",
+        "receptionErrors": "10",
+        "blockSolos": "8",
+        "blockAssists": "2",
+        "blockingErrors": "0",
+        "totalBlocks": "9"
+      }
+    }
+  ]
+}

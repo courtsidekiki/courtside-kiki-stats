@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626498,
+  "title": "WVB Boxscore",
+  "description": "Fordham vs Saint Louis",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46302",
+      "seoname": "fordham",
+      "name6Char": "FORDHM",
+      "nameFull": "Fordham University",
+      "nameShort": "Fordham",
+      "teamName": "Rams",
+      "color": "#6F263D"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46744",
+      "seoname": "saint-louis",
+      "name6Char": "ST LOU",
+      "nameFull": "Saint Louis University",
+      "nameShort": "Saint Louis",
+      "teamName": "Billikens",
+      "color": "#003DA5"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46302,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "59",
+        "kills": "31",
+        "attackErrors": "17",
+        "attackAttempts": "91",
+        "hittingPercentage": "0.154",
+        "assists": "26",
+        "setErrors": "7",
+        "setAttempts": "102",
+        "serviceAces": "6",
+        "serviceErrors": "7",
+        "serveAttempts": "60",
+        "digs": "25",
+        "receptionAttempts": "67",
+        "receptionErrors": "4",
+        "blockSolos": "4",
+        "blockAssists": "4",
+        "blockingErrors": "4",
+        "totalBlocks": "6"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46744,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "36",
+        "attackErrors": "12",
+        "attackAttempts": "85",
+        "hittingPercentage": "0.282",
+        "assists": "31",
+        "setErrors": "3",
+        "setAttempts": "85",
+        "serviceAces": "4",
+        "serviceErrors": "7",
+        "serveAttempts": "74",
+        "digs": "31",
+        "receptionAttempts": "53",
+        "receptionErrors": "6",
+        "blockSolos": "5",
+        "blockAssists": "8",
+        "blockingErrors": "2",
+        "totalBlocks": "9"
+      }
+    }
+  ]
+}

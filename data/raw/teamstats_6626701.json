@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626701,
+  "title": "WVB Boxscore",
+  "description": "Sacramento St. vs Long Beach St.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46290",
+      "seoname": "sacramento-st",
+      "name6Char": "SAC ST",
+      "nameFull": "California State University, Sacramento",
+      "nameShort": "Sacramento St.",
+      "teamName": "Hornets",
+      "color": "#115740"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46160",
+      "seoname": "long-beach-st",
+      "name6Char": "LBSU",
+      "nameFull": "Long Beach State University",
+      "nameShort": "Long Beach St.",
+      "teamName": "Beach",
+      "color": "#010101"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46290,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "63",
+        "kills": "41",
+        "attackErrors": "24",
+        "attackAttempts": "118",
+        "hittingPercentage": "0.144",
+        "assists": "38",
+        "setErrors": "1",
+        "setAttempts": "111",
+        "serviceAces": "6",
+        "serviceErrors": "5",
+        "serveAttempts": "65",
+        "digs": "39",
+        "receptionAttempts": "70",
+        "receptionErrors": "7",
+        "blockSolos": "0",
+        "blockAssists": "10",
+        "blockingErrors": "1",
+        "totalBlocks": "5"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46160,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "77",
+        "kills": "40",
+        "attackErrors": "10",
+        "attackAttempts": "95",
+        "hittingPercentage": "0.316",
+        "assists": "38",
+        "setErrors": "1",
+        "setAttempts": "94",
+        "serviceAces": "7",
+        "serviceErrors": "5",
+        "serveAttempts": "75",
+        "digs": "39",
+        "receptionAttempts": "60",
+        "receptionErrors": "6",
+        "blockSolos": "0",
+        "blockAssists": "28",
+        "blockingErrors": "2",
+        "totalBlocks": "14"
+      }
+    }
+  ]
+}

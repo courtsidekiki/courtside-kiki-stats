@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624661,
+  "title": "WVB Boxscore",
+  "description": "Eastern Ky. vs Abilene Christian",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45770",
+      "seoname": "eastern-ky",
+      "name6Char": "E KY",
+      "nameFull": "Eastern Kentucky University",
+      "nameShort": "Eastern Ky.",
+      "teamName": "Colonels",
+      "color": "#6F263D"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45940",
+      "seoname": "abilene-christian",
+      "name6Char": "ABILCH",
+      "nameFull": "Abilene Christian University",
+      "nameShort": "Abilene Christian",
+      "teamName": "Wildcats",
+      "color": "#582C83"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45770,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "46",
+        "attackErrors": "12",
+        "attackAttempts": "115",
+        "hittingPercentage": "0.296",
+        "assists": "42",
+        "setErrors": "1",
+        "setAttempts": "113",
+        "serviceAces": "2",
+        "serviceErrors": "4",
+        "serveAttempts": "73",
+        "digs": "57",
+        "receptionAttempts": "52",
+        "receptionErrors": "3",
+        "blockSolos": "0",
+        "blockAssists": "14",
+        "blockingErrors": "1",
+        "totalBlocks": "7"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45940,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "58",
+        "kills": "38",
+        "attackErrors": "19",
+        "attackAttempts": "122",
+        "hittingPercentage": "0.156",
+        "assists": "37",
+        "setErrors": "0",
+        "setAttempts": "118",
+        "serviceAces": "3",
+        "serviceErrors": "8",
+        "serveAttempts": "60",
+        "digs": "51",
+        "receptionAttempts": "69",
+        "receptionErrors": "2",
+        "blockSolos": "0",
+        "blockAssists": "6",
+        "blockingErrors": "2",
+        "totalBlocks": "3"
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627955,
+  "title": "WVB Boxscore",
+  "description": "Montana vs Utah Tech",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46724",
+      "seoname": "montana",
+      "name6Char": "MONT",
+      "nameFull": "University of Montana",
+      "nameShort": "Montana",
+      "teamName": "Grizzlies",
+      "color": "#6F2C3F"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45886",
+      "seoname": "utah-tech",
+      "name6Char": "UTTECH",
+      "nameFull": "Utah Tech University",
+      "nameShort": "Utah Tech",
+      "teamName": "Trailblazers ",
+      "color": "#BA1C21"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46724,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "59",
+        "kills": "38",
+        "attackErrors": "24",
+        "attackAttempts": "133",
+        "hittingPercentage": "0.105",
+        "assists": "37",
+        "setErrors": "0",
+        "setAttempts": "135",
+        "serviceAces": "1",
+        "serviceErrors": "6",
+        "serveAttempts": "61",
+        "digs": "62",
+        "receptionAttempts": "71",
+        "receptionErrors": "7",
+        "blockSolos": "0",
+        "blockAssists": "8",
+        "blockingErrors": "3",
+        "totalBlocks": "4"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45886,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "78",
+        "kills": "41",
+        "attackErrors": "14",
+        "attackAttempts": "126",
+        "hittingPercentage": "0.214",
+        "assists": "37",
+        "setErrors": "1",
+        "setAttempts": "125",
+        "serviceAces": "7",
+        "serviceErrors": "5",
+        "serveAttempts": "76",
+        "digs": "61",
+        "receptionAttempts": "55",
+        "receptionErrors": "1",
+        "blockSolos": "2",
+        "blockAssists": "20",
+        "blockingErrors": "0",
+        "totalBlocks": "12"
+      }
+    }
+  ]
+}

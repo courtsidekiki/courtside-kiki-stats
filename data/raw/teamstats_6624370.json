@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624370,
+  "title": "WVB Boxscore",
+  "description": "Northwestern vs Michigan St.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46238",
+      "seoname": "northwestern",
+      "name6Char": "NW",
+      "nameFull": "Northwestern University",
+      "nameShort": "Northwestern",
+      "teamName": "Wildcats",
+      "color": "#4E2A84"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46689",
+      "seoname": "michigan-st",
+      "name6Char": "MICHST",
+      "nameFull": "Michigan State University",
+      "nameShort": "Michigan St.",
+      "teamName": "Spartans",
+      "color": "#173F35"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46238,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "81",
+        "kills": "48",
+        "attackErrors": "19",
+        "attackAttempts": "137",
+        "hittingPercentage": "0.212",
+        "assists": "42",
+        "setErrors": "0",
+        "setAttempts": "130",
+        "serviceAces": "4",
+        "serviceErrors": "8",
+        "serveAttempts": "82",
+        "digs": "41",
+        "receptionAttempts": "85",
+        "receptionErrors": "10",
+        "blockSolos": "0",
+        "blockAssists": "8",
+        "blockingErrors": "3",
+        "totalBlocks": "4"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46689,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "96",
+        "kills": "59",
+        "attackErrors": "18",
+        "attackAttempts": "131",
+        "hittingPercentage": "0.313",
+        "assists": "53",
+        "setErrors": "0",
+        "setAttempts": "132",
+        "serviceAces": "10",
+        "serviceErrors": "10",
+        "serveAttempts": "95",
+        "digs": "59",
+        "receptionAttempts": "74",
+        "receptionErrors": "4",
+        "blockSolos": "0",
+        "blockAssists": "22",
+        "blockingErrors": "3",
+        "totalBlocks": "11"
+      }
+    }
+  ]
+}
