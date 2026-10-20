@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6638108,
+  "title": "WVB Boxscore",
+  "description": "California vs Wake Forest",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45760",
+      "seoname": "california",
+      "name6Char": "CAL",
+      "nameFull": "University of California, Berkeley",
+      "nameShort": "California",
+      "teamName": "Golden Bears",
+      "color": "#041E42"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46133",
+      "seoname": "wake-forest",
+      "name6Char": "WAKE",
+      "nameFull": "Wake Forest University",
+      "nameShort": "Wake Forest",
+      "teamName": "Demon Deacons",
+      "color": "#010101"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45760,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "97",
+        "kills": "53",
+        "attackErrors": "24",
+        "attackAttempts": "149",
+        "hittingPercentage": "0.195",
+        "assists": "51",
+        "setErrors": "1",
+        "setAttempts": "148",
+        "serviceAces": "10",
+        "serviceErrors": "9",
+        "serveAttempts": "96",
+        "digs": "63",
+        "receptionAttempts": "75",
+        "receptionErrors": "1",
+        "blockSolos": "1",
+        "blockAssists": "12",
+        "blockingErrors": "6",
+        "totalBlocks": "7"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46133,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "81",
+        "kills": "46",
+        "attackErrors": "25",
+        "attackAttempts": "145",
+        "hittingPercentage": "0.145",
+        "assists": "44",
+        "setErrors": "2",
+        "setAttempts": "145",
+        "serviceAces": "1",
+        "serviceErrors": "7",
+        "serveAttempts": "82",
+        "digs": "54",
+        "receptionAttempts": "87",
+        "receptionErrors": "10",
+        "blockSolos": "1",
+        "blockAssists": "16",
+        "blockingErrors": "2",
+        "totalBlocks": "9"
+      }
+    }
+  ]
+}

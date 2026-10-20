@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6638965,
+  "title": "WVB Boxscore",
+  "description": "South Carolina St. vs Edward Waters",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45866",
+      "seoname": "south-carolina-st",
+      "name6Char": "SC ST",
+      "nameFull": "South Carolina State University",
+      "nameShort": "South Carolina St.",
+      "teamName": "Lady Bulldogs",
+      "color": "#862633"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "1388121",
+      "seoname": "edward-waters",
+      "name6Char": "ED WAT",
+      "nameFull": "Edward Waters University",
+      "nameShort": "Edward Waters",
+      "teamName": "Tigers",
+      "color": "#6B286E"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45866,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "100",
+        "kills": "56",
+        "attackErrors": "29",
+        "attackAttempts": "146",
+        "hittingPercentage": "0.185",
+        "assists": "50",
+        "setErrors": "3",
+        "setAttempts": "147",
+        "serviceAces": "5",
+        "serviceErrors": "9",
+        "serveAttempts": "99",
+        "digs": "71",
+        "receptionAttempts": "84",
+        "receptionErrors": "10",
+        "blockSolos": "11",
+        "blockAssists": "0",
+        "blockingErrors": "3",
+        "totalBlocks": "11"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 1388121,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "89",
+        "kills": "37",
+        "attackErrors": "29",
+        "attackAttempts": "147",
+        "hittingPercentage": "0.054",
+        "assists": "32",
+        "setErrors": "4",
+        "setAttempts": "143",
+        "serviceAces": "10",
+        "serviceErrors": "6",
+        "serveAttempts": "90",
+        "digs": "57",
+        "receptionAttempts": "90",
+        "receptionErrors": "5",
+        "blockSolos": "1",
+        "blockAssists": "0",
+        "blockingErrors": "11",
+        "totalBlocks": "1"
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628447,
+  "title": "WVB Boxscore",
+  "description": "Vanderbilt vs Mississippi St.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "1389023",
+      "seoname": "vanderbilt",
+      "name6Char": "VANDY",
+      "nameFull": "Vanderbilt University",
+      "nameShort": "Vanderbilt",
+      "teamName": "Commodores",
+      "color": "#010101"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45937",
+      "seoname": "mississippi-st",
+      "name6Char": "MISSST",
+      "nameFull": "Mississippi State University",
+      "nameShort": "Mississippi St.",
+      "teamName": "Bulldogs",
+      "color": "#5D1725"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 1389023,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "95",
+        "kills": "61",
+        "attackErrors": "21",
+        "attackAttempts": "133",
+        "hittingPercentage": "0.301",
+        "assists": "55",
+        "setErrors": "2",
+        "setAttempts": "129",
+        "serviceAces": "8",
+        "serviceErrors": "7",
+        "serveAttempts": "94",
+        "digs": "66",
+        "receptionAttempts": "71",
+        "receptionErrors": "7",
+        "blockSolos": "0",
+        "blockAssists": "18",
+        "blockingErrors": "4",
+        "totalBlocks": "9"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45937,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "80",
+        "kills": "43",
+        "attackErrors": "15",
+        "attackAttempts": "131",
+        "hittingPercentage": "0.214",
+        "assists": "41",
+        "setErrors": "1",
+        "setAttempts": "128",
+        "serviceAces": "7",
+        "serviceErrors": "10",
+        "serveAttempts": "81",
+        "digs": "44",
+        "receptionAttempts": "87",
+        "receptionErrors": "8",
+        "blockSolos": "1",
+        "blockAssists": "20",
+        "blockingErrors": "1",
+        "totalBlocks": "11"
+      }
+    }
+  ]
+}

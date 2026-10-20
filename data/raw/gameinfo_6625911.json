@@ -1,0 +1,93 @@
+{
+  "contests": [
+    {
+      "__typename": "Contest",
+      "id": "6625911",
+      "sportCode": "WVB",
+      "sportUrl": "volleyball-women",
+      "division": 1,
+      "clock": null,
+      "currentPeriod": "FINAL",
+      "finalMessage": "FINAL",
+      "gameState": "F",
+      "statusCodeDisplay": "final",
+      "network": null,
+      "startTime": "12:00",
+      "startTimeEpoch": 1792339200,
+      "week": null,
+      "seasonYear": 2026,
+      "winner": 45986,
+      "hasStartTime": true,
+      "hasBoxscore": true,
+      "hasPbp": true,
+      "hasScoringSummary": false,
+      "hasPreview": false,
+      "hasRecap": false,
+      "hasTeamStats": true,
+      "linescores": [
+        {
+          "__typename": "Linescore",
+          "period": "1",
+          "home": "25",
+          "visit": "12"
+        },
+        {
+          "__typename": "Linescore",
+          "period": "2",
+          "home": "25",
+          "visit": "15"
+        },
+        {
+          "__typename": "Linescore",
+          "period": "3",
+          "home": "27",
+          "visit": "25"
+        }
+      ],
+      "teams": [
+        {
+          "__typename": "ContestTeam",
+          "teamId": "45986",
+          "isHome": true,
+          "color": "#003594",
+          "seoname": "pittsburgh",
+          "nameFull": "University of Pittsburgh",
+          "nameShort": "Pittsburgh",
+          "name6Char": "PITT",
+          "teamRank": 2,
+          "gameRank": 2,
+          "score": 3,
+          "seed": null,
+          "record": "(16-1)",
+          "divisionName": "d1",
+          "division": 1,
+          "isWinner": true
+        },
+        {
+          "__typename": "ContestTeam",
+          "teamId": "46066",
+          "isHome": false,
+          "color": "#154734",
+          "seoname": "miami-fl",
+          "nameFull": "University of Miami (Florida)",
+          "nameShort": "Miami (FL)",
+          "name6Char": "MIAMI",
+          "teamRank": null,
+          "gameRank": null,
+          "score": 0,
+          "seed": null,
+          "record": "(8-8)",
+          "divisionName": "d1",
+          "division": 1,
+          "isWinner": false
+        }
+      ],
+      "liveVideos": [],
+      "championship": null,
+      "championshipGame": null,
+      "links": [],
+      "location": null,
+      "stats": null
+    }
+  ]
+}

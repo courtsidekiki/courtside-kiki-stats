@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626914,
+  "title": "WVB Boxscore",
+  "description": "Wichita St. vs Rice",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46705",
+      "seoname": "wichita-st",
+      "name6Char": "WICHST",
+      "nameFull": "Wichita State University",
+      "nameShort": "Wichita St.",
+      "teamName": "Shockers",
+      "color": "#010101"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45859",
+      "seoname": "rice",
+      "name6Char": "RICE",
+      "nameFull": "Rice University",
+      "nameShort": "Rice",
+      "teamName": "Owls",
+      "color": "#00205B"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46705,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "71",
+        "kills": "47",
+        "attackErrors": "16",
+        "attackAttempts": "140",
+        "hittingPercentage": "0.221",
+        "assists": "42",
+        "setErrors": "1",
+        "setAttempts": "140",
+        "serviceAces": "8",
+        "serviceErrors": "10",
+        "serveAttempts": "72",
+        "digs": "58",
+        "receptionAttempts": "86",
+        "receptionErrors": "9",
+        "blockSolos": "0",
+        "blockAssists": "12",
+        "blockingErrors": "0",
+        "totalBlocks": "6"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45859,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "92",
+        "kills": "56",
+        "attackErrors": "11",
+        "attackAttempts": "131",
+        "hittingPercentage": "0.344",
+        "assists": "52",
+        "setErrors": "0",
+        "setAttempts": "134",
+        "serviceAces": "9",
+        "serviceErrors": "5",
+        "serveAttempts": "91",
+        "digs": "65",
+        "receptionAttempts": "62",
+        "receptionErrors": "8",
+        "blockSolos": "2",
+        "blockAssists": "14",
+        "blockingErrors": "1",
+        "totalBlocks": "9"
+      }
+    }
+  ]
+}

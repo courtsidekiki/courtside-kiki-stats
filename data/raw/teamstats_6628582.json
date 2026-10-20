@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628582,
+  "title": "WVB Boxscore",
+  "description": "Texas vs Florida",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46755",
+      "seoname": "texas",
+      "name6Char": "TEXAS",
+      "nameFull": "University of Texas at Austin",
+      "nameShort": "Texas",
+      "teamName": "Longhorns",
+      "color": "#CB6015"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46301",
+      "seoname": "florida",
+      "name6Char": "FLA",
+      "nameFull": "University of Florida",
+      "nameShort": "Florida",
+      "teamName": "Gators",
+      "color": "#003087"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46755,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "101",
+        "kills": "62",
+        "attackErrors": "20",
+        "attackAttempts": "164",
+        "hittingPercentage": "0.256",
+        "assists": "61",
+        "setErrors": "2",
+        "setAttempts": "171",
+        "serviceAces": "4",
+        "serviceErrors": "9",
+        "serveAttempts": "102",
+        "digs": "61",
+        "receptionAttempts": "98",
+        "receptionErrors": "7",
+        "blockSolos": "2",
+        "blockAssists": "12",
+        "blockingErrors": "0",
+        "totalBlocks": "8"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46301,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "110",
+        "kills": "72",
+        "attackErrors": "24",
+        "attackAttempts": "167",
+        "hittingPercentage": "0.287",
+        "assists": "68",
+        "setErrors": "0",
+        "setAttempts": "164",
+        "serviceAces": "7",
+        "serviceErrors": "11",
+        "serveAttempts": "109",
+        "digs": "64",
+        "receptionAttempts": "93",
+        "receptionErrors": "4",
+        "blockSolos": "0",
+        "blockAssists": "26",
+        "blockingErrors": "1",
+        "totalBlocks": "13"
+      }
+    }
+  ]
+}

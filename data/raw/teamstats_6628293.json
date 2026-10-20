@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628293,
+  "title": "WVB Boxscore",
+  "description": "Ark.-Pine Bluff vs Texas Southern",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46646",
+      "seoname": "ark-pine-bluff",
+      "name6Char": "ARK PB",
+      "nameFull": "University of Arkansas, Pine Bluff",
+      "nameShort": "Ark.-Pine Bluff",
+      "teamName": "Lady Lions",
+      "color": "#010101"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46252",
+      "seoname": "texas-southern",
+      "name6Char": "TX SOU",
+      "nameFull": "Texas Southern University",
+      "nameShort": "Texas Southern",
+      "teamName": "Lady Tigers",
+      "color": "#6F263D"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46646,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "63",
+        "kills": "37",
+        "attackErrors": "17",
+        "attackAttempts": "117",
+        "hittingPercentage": "0.171",
+        "assists": "36",
+        "setErrors": "4",
+        "setAttempts": "126",
+        "serviceAces": "3",
+        "serviceErrors": "6",
+        "serveAttempts": "64",
+        "digs": "49",
+        "receptionAttempts": "70",
+        "receptionErrors": "4",
+        "blockSolos": "8",
+        "blockAssists": "0",
+        "blockingErrors": "0",
+        "totalBlocks": "8"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46252,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "76",
+        "kills": "45",
+        "attackErrors": "17",
+        "attackAttempts": "124",
+        "hittingPercentage": "0.226",
+        "assists": "41",
+        "setErrors": "1",
+        "setAttempts": "124",
+        "serviceAces": "4",
+        "serviceErrors": "5",
+        "serveAttempts": "75",
+        "digs": "49",
+        "receptionAttempts": "58",
+        "receptionErrors": "3",
+        "blockSolos": "1",
+        "blockAssists": "4",
+        "blockingErrors": "0",
+        "totalBlocks": "3"
+      }
+    }
+  ]
+}

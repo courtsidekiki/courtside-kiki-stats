@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625622,
+  "title": "WVB Boxscore",
+  "description": "LSU vs Georgia",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46059",
+      "seoname": "lsu",
+      "name6Char": "LSU",
+      "nameFull": "Louisiana State University",
+      "nameShort": "LSU",
+      "teamName": "Tigers",
+      "color": "#582C83"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45911",
+      "seoname": "georgia",
+      "name6Char": "UGA",
+      "nameFull": "University of Georgia",
+      "nameShort": "Georgia",
+      "teamName": "Bulldogs",
+      "color": "#DA291C"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46059,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "100",
+        "kills": "68",
+        "attackErrors": "28",
+        "attackAttempts": "170",
+        "hittingPercentage": "0.235",
+        "assists": "63",
+        "setErrors": "1",
+        "setAttempts": "175",
+        "serviceAces": "3",
+        "serviceErrors": "7",
+        "serveAttempts": "101",
+        "digs": "68",
+        "receptionAttempts": "105",
+        "receptionErrors": "12",
+        "blockSolos": "5",
+        "blockAssists": "8",
+        "blockingErrors": "3",
+        "totalBlocks": "9"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45911,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "114",
+        "kills": "66",
+        "attackErrors": "21",
+        "attackAttempts": "165",
+        "hittingPercentage": "0.273",
+        "assists": "57",
+        "setErrors": "0",
+        "setAttempts": "168",
+        "serviceAces": "12",
+        "serviceErrors": "8",
+        "serveAttempts": "113",
+        "digs": "60",
+        "receptionAttempts": "94",
+        "receptionErrors": "3",
+        "blockSolos": "1",
+        "blockAssists": "26",
+        "blockingErrors": "4",
+        "totalBlocks": "14"
+      }
+    }
+  ]
+}

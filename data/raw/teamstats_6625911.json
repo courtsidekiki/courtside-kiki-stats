@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625911,
+  "title": "WVB Boxscore",
+  "description": "Pittsburgh vs Miami (FL)",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45986",
+      "seoname": "pittsburgh",
+      "name6Char": "PITT",
+      "nameFull": "University of Pittsburgh",
+      "nameShort": "Pittsburgh",
+      "teamName": "Panthers",
+      "color": "#003594"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46066",
+      "seoname": "miami-fl",
+      "name6Char": "MIAMI",
+      "nameFull": "University of Miami (Florida)",
+      "nameShort": "Miami (FL)",
+      "teamName": "Hurricanes",
+      "color": "#154734"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45986,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "77",
+        "kills": "43",
+        "attackErrors": "11",
+        "attackAttempts": "86",
+        "hittingPercentage": "0.372",
+        "assists": "39",
+        "setErrors": "0",
+        "setAttempts": "83",
+        "serviceAces": "5",
+        "serviceErrors": "8",
+        "serveAttempts": "76",
+        "digs": "35",
+        "receptionAttempts": "41",
+        "receptionErrors": "3",
+        "blockSolos": "0",
+        "blockAssists": "21",
+        "blockingErrors": "1",
+        "totalBlocks": "10"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46066,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "52",
+        "kills": "30",
+        "attackErrors": "17",
+        "attackAttempts": "90",
+        "hittingPercentage": "0.144",
+        "assists": "29",
+        "setErrors": "0",
+        "setAttempts": "85",
+        "serviceAces": "3",
+        "serviceErrors": "12",
+        "serveAttempts": "53",
+        "digs": "21",
+        "receptionAttempts": "68",
+        "receptionErrors": "5",
+        "blockSolos": "0",
+        "blockAssists": "16",
+        "blockingErrors": "2",
+        "totalBlocks": "8"
+      }
+    }
+  ]
+}

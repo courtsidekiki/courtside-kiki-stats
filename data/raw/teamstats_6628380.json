@@ -6,8 +6,8 @@
   "sportCode": "WVB",
   "divisionName": "d1",
   "gameType": null,
-  "period": "5TH SET",
-  "status": "I",
+  "period": "FINAL",
+  "status": "F",
   "minutes": null,
   "seconds": null,
   "teams": [
@@ -41,23 +41,23 @@
       "teamStats": {
         "__typename": "TeamStatsVolleyball",
         "points": "94",
-        "kills": "48",
-        "attackErrors": "18",
-        "attackAttempts": "113",
-        "hittingPercentage": "0.265",
-        "assists": "47",
+        "kills": "49",
+        "attackErrors": "19",
+        "attackAttempts": "114",
+        "hittingPercentage": "0.263",
+        "assists": "49",
         "setErrors": "1",
-        "setAttempts": "117",
+        "setAttempts": "118",
         "serviceAces": "10",
         "serviceErrors": "12",
         "serveAttempts": "92",
-        "digs": "39",
+        "digs": "41",
         "receptionAttempts": "84",
         "receptionErrors": "7",
         "blockSolos": "0",
         "blockAssists": "20",
         "blockingErrors": "0",
-        "totalBlocks": "20"
+        "totalBlocks": "10"
       }
     },
     {
@@ -68,21 +68,21 @@
         "points": "95",
         "kills": "56",
         "attackErrors": "21",
-        "attackAttempts": "127",
-        "hittingPercentage": "0.276",
+        "attackAttempts": "128",
+        "hittingPercentage": "0.273",
         "assists": "54",
         "setErrors": "1",
         "setAttempts": "131",
         "serviceAces": "7",
         "serviceErrors": "13",
         "serveAttempts": "97",
-        "digs": "41",
-        "receptionAttempts": "80",
+        "digs": "42",
+        "receptionAttempts": "81",
         "receptionErrors": "10",
         "blockSolos": "1",
         "blockAssists": "16",
         "blockingErrors": "1",
-        "totalBlocks": "17"
+        "totalBlocks": "9"
       }
     }
   ]

@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627031,
+  "title": "WVB Boxscore",
+  "description": "Louisville vs North Carolina",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46061",
+      "seoname": "louisville",
+      "name6Char": "LOUIS",
+      "nameFull": "University of Louisville",
+      "nameShort": "Louisville",
+      "teamName": "Cardinals",
+      "color": "#EE2722"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46471",
+      "seoname": "north-carolina",
+      "name6Char": "UNC",
+      "nameFull": "University of North Carolina, Chapel Hill",
+      "nameShort": "North Carolina",
+      "teamName": "Tar Heels",
+      "color": "#7BAFD4"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46061,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "79",
+        "kills": "43",
+        "attackErrors": "18",
+        "attackAttempts": "134",
+        "hittingPercentage": "0.187",
+        "assists": "40",
+        "setErrors": "0",
+        "setAttempts": "134",
+        "serviceAces": "2",
+        "serviceErrors": "6",
+        "serveAttempts": "78",
+        "digs": "59",
+        "receptionAttempts": "62",
+        "receptionErrors": "0",
+        "blockSolos": "2",
+        "blockAssists": "24",
+        "blockingErrors": "2",
+        "totalBlocks": "14"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46471,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "72",
+        "kills": "48",
+        "attackErrors": "23",
+        "attackAttempts": "143",
+        "hittingPercentage": "0.175",
+        "assists": "47",
+        "setErrors": "0",
+        "setAttempts": "141",
+        "serviceAces": "0",
+        "serviceErrors": "11",
+        "serveAttempts": "73",
+        "digs": "59",
+        "receptionAttempts": "72",
+        "receptionErrors": "2",
+        "blockSolos": "3",
+        "blockAssists": "16",
+        "blockingErrors": "2",
+        "totalBlocks": "11"
+      }
+    }
+  ]
+}

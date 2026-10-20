@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626113,
+  "title": "WVB Boxscore",
+  "description": "Coastal Carolina vs Marshall",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46170",
+      "seoname": "coastal-caro",
+      "name6Char": "CO CAR",
+      "nameFull": "Coastal Carolina University",
+      "nameShort": "Coastal Carolina",
+      "teamName": "Chanticleers",
+      "color": "#007377"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46318",
+      "seoname": "marshall",
+      "name6Char": "MARSH",
+      "nameFull": "Marshall University",
+      "nameShort": "Marshall",
+      "teamName": "Thundering Herd",
+      "color": "#00B140"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46170,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "45",
+        "kills": "35",
+        "attackErrors": "12",
+        "attackAttempts": "92",
+        "hittingPercentage": "0.250",
+        "assists": "32",
+        "setErrors": "0",
+        "setAttempts": "94",
+        "serviceAces": "2",
+        "serviceErrors": "4",
+        "serveAttempts": "46",
+        "digs": "29",
+        "receptionAttempts": "72",
+        "receptionErrors": "9",
+        "blockSolos": "1",
+        "blockAssists": "4",
+        "blockingErrors": "0",
+        "totalBlocks": "3"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46318,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "50",
+        "attackErrors": "5",
+        "attackAttempts": "95",
+        "hittingPercentage": "0.474",
+        "assists": "42",
+        "setErrors": "1",
+        "setAttempts": "92",
+        "serviceAces": "9",
+        "serviceErrors": "2",
+        "serveAttempts": "74",
+        "digs": "38",
+        "receptionAttempts": "42",
+        "receptionErrors": "2",
+        "blockSolos": "2",
+        "blockAssists": "2",
+        "blockingErrors": "0",
+        "totalBlocks": "3"
+      }
+    }
+  ]
+}

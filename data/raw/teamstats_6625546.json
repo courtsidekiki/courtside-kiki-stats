@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625546,
+  "title": "WVB Boxscore",
+  "description": "Memphis vs East Carolina",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46688",
+      "seoname": "memphis",
+      "name6Char": "MEM",
+      "nameFull": "University of Memphis",
+      "nameShort": "Memphis",
+      "teamName": "Tigers",
+      "color": "#173B70"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46668",
+      "seoname": "east-carolina",
+      "name6Char": "E CAR",
+      "nameFull": "East Carolina University",
+      "nameShort": "East Carolina",
+      "teamName": "Pirates",
+      "color": "#582C83"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46688,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "82",
+        "kills": "56",
+        "attackErrors": "23",
+        "attackAttempts": "142",
+        "hittingPercentage": "0.232",
+        "assists": "51",
+        "setErrors": "0",
+        "setAttempts": "133",
+        "serviceAces": "4",
+        "serviceErrors": "12",
+        "serveAttempts": "83",
+        "digs": "54",
+        "receptionAttempts": "84",
+        "receptionErrors": "8",
+        "blockSolos": "2",
+        "blockAssists": "6",
+        "blockingErrors": "4",
+        "totalBlocks": "5"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46668,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "93",
+        "kills": "50",
+        "attackErrors": "14",
+        "attackAttempts": "125",
+        "hittingPercentage": "0.288",
+        "assists": "48",
+        "setErrors": "0",
+        "setAttempts": "115",
+        "serviceAces": "8",
+        "serviceErrors": "8",
+        "serveAttempts": "92",
+        "digs": "53",
+        "receptionAttempts": "71",
+        "receptionErrors": "4",
+        "blockSolos": "2",
+        "blockAssists": "13",
+        "blockingErrors": "3",
+        "totalBlocks": "8"
+      }
+    }
+  ]
+}
