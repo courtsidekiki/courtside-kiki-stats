@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627740,
+  "title": "WVB Boxscore",
+  "description": "Grambling vs Ark.-Monticello",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46051",
+      "seoname": "grambling",
+      "name6Char": "GRAMB",
+      "nameFull": "Grambling State University",
+      "nameShort": "Grambling",
+      "teamName": "Lady Tigers",
+      "color": "#010101"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46773",
+      "seoname": "ark-monticello",
+      "name6Char": "ARKMON",
+      "nameFull": "University of Arkansas, Monticello",
+      "nameShort": "Ark.-Monticello",
+      "teamName": "Cotton Blossoms",
+      "color": "#00965E"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46051,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "48",
+        "attackErrors": "10",
+        "attackAttempts": "106",
+        "hittingPercentage": "0.358",
+        "assists": "46",
+        "setErrors": "1",
+        "setAttempts": "106",
+        "serviceAces": "4",
+        "serviceErrors": "7",
+        "serveAttempts": "74",
+        "digs": "54",
+        "receptionAttempts": "45",
+        "receptionErrors": "1",
+        "blockSolos": "1",
+        "blockAssists": "16",
+        "blockingErrors": "1",
+        "totalBlocks": "9"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46773,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "47",
+        "kills": "28",
+        "attackErrors": "18",
+        "attackAttempts": "104",
+        "hittingPercentage": "0.096",
+        "assists": "27",
+        "setErrors": "2",
+        "setAttempts": "108",
+        "serviceAces": "1",
+        "serviceErrors": "3",
+        "serveAttempts": "48",
+        "digs": "42",
+        "receptionAttempts": "67",
+        "receptionErrors": "4",
+        "blockSolos": "0",
+        "blockAssists": "4",
+        "blockingErrors": "3",
+        "totalBlocks": "2"
+      }
+    }
+  ]
+}

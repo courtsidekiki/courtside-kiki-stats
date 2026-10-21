@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626994,
+  "title": "WVB Boxscore",
+  "description": "Gardner-Webb vs N.C. Central",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45828",
+      "seoname": "gardner-webb",
+      "name6Char": "G WEBB",
+      "nameFull": "Gardner-Webb University",
+      "nameShort": "Gardner-Webb",
+      "teamName": "Runnin' Bulldogs",
+      "color": "#A82931"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45845",
+      "seoname": "nc-central",
+      "name6Char": "NC CEN",
+      "nameFull": "North Carolina Central University",
+      "nameShort": "N.C. Central",
+      "teamName": "Eagles",
+      "color": "#862633"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45828,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "97",
+        "kills": "54",
+        "attackErrors": "17",
+        "attackAttempts": "140",
+        "hittingPercentage": "0.264",
+        "assists": "48",
+        "setErrors": "1",
+        "setAttempts": "139",
+        "serviceAces": "8",
+        "serviceErrors": "10",
+        "serveAttempts": "96",
+        "digs": "74",
+        "receptionAttempts": "64",
+        "receptionErrors": "10",
+        "blockSolos": "2",
+        "blockAssists": "14",
+        "blockingErrors": "1",
+        "totalBlocks": "9"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45845,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "74",
+        "kills": "36",
+        "attackErrors": "21",
+        "attackAttempts": "133",
+        "hittingPercentage": "0.113",
+        "assists": "35",
+        "setErrors": "2",
+        "setAttempts": "139",
+        "serviceAces": "10",
+        "serviceErrors": "11",
+        "serveAttempts": "75",
+        "digs": "60",
+        "receptionAttempts": "86",
+        "receptionErrors": "8",
+        "blockSolos": "3",
+        "blockAssists": "8",
+        "blockingErrors": "0",
+        "totalBlocks": "7"
+      }
+    }
+  ]
+}

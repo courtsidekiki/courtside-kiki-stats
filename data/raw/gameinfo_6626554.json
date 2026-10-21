@@ -1,0 +1,105 @@
+{
+  "contests": [
+    {
+      "__typename": "Contest",
+      "id": "6626554",
+      "sportCode": "WVB",
+      "sportUrl": "volleyball-women",
+      "division": 1,
+      "clock": null,
+      "currentPeriod": "FINAL",
+      "finalMessage": "FINAL",
+      "gameState": "F",
+      "statusCodeDisplay": "final",
+      "network": null,
+      "startTime": "18:00",
+      "startTimeEpoch": 1792533600,
+      "week": null,
+      "seasonYear": 2026,
+      "winner": 45818,
+      "hasStartTime": true,
+      "hasBoxscore": true,
+      "hasPbp": true,
+      "hasScoringSummary": false,
+      "hasPreview": false,
+      "hasRecap": false,
+      "hasTeamStats": true,
+      "linescores": [
+        {
+          "__typename": "Linescore",
+          "period": "1",
+          "home": "25",
+          "visit": "23"
+        },
+        {
+          "__typename": "Linescore",
+          "period": "2",
+          "home": "21",
+          "visit": "25"
+        },
+        {
+          "__typename": "Linescore",
+          "period": "3",
+          "home": "19",
+          "visit": "25"
+        },
+        {
+          "__typename": "Linescore",
+          "period": "4",
+          "home": "25",
+          "visit": "23"
+        },
+        {
+          "__typename": "Linescore",
+          "period": "5",
+          "home": "15",
+          "visit": "11"
+        }
+      ],
+      "teams": [
+        {
+          "__typename": "ContestTeam",
+          "teamId": "45818",
+          "isHome": true,
+          "color": "#046A38",
+          "seoname": "wright-st",
+          "nameFull": "Wright State University",
+          "nameShort": "Wright St.",
+          "name6Char": "WRIGHT",
+          "teamRank": null,
+          "gameRank": null,
+          "score": 3,
+          "seed": null,
+          "record": "(13-5)",
+          "divisionName": "d1",
+          "division": 1,
+          "isWinner": true
+        },
+        {
+          "__typename": "ContestTeam",
+          "teamId": "46608",
+          "isHome": false,
+          "color": "#010101",
+          "seoname": "northern-ky",
+          "nameFull": "Northern Kentucky University",
+          "nameShort": "Northern Ky.",
+          "name6Char": "N KY",
+          "teamRank": null,
+          "gameRank": null,
+          "score": 2,
+          "seed": null,
+          "record": "(13-6)",
+          "divisionName": "d1",
+          "division": 1,
+          "isWinner": false
+        }
+      ],
+      "liveVideos": [],
+      "championship": null,
+      "championshipGame": null,
+      "links": [],
+      "location": null,
+      "stats": null
+    }
+  ]
+}

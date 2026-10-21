@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627153,
+  "title": "WVB Boxscore",
+  "description": "Northern Ariz. vs Portland St.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46729",
+      "seoname": "northern-ariz",
+      "name6Char": "NAU",
+      "nameFull": "Northern Arizona University",
+      "nameShort": "Northern Ariz.",
+      "teamName": "Lumberjacks",
+      "color": "#00205B"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45987",
+      "seoname": "portland-st",
+      "name6Char": "PORTST",
+      "nameFull": "Portland State University",
+      "nameShort": "Portland St.",
+      "teamName": "Vikings",
+      "color": "#154734"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46729,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "105",
+        "kills": "52",
+        "attackErrors": "23",
+        "attackAttempts": "186",
+        "hittingPercentage": "0.156",
+        "assists": "50",
+        "setErrors": "3",
+        "setAttempts": "201",
+        "serviceAces": "7",
+        "serviceErrors": "8",
+        "serveAttempts": "106",
+        "digs": "89",
+        "receptionAttempts": "98",
+        "receptionErrors": "5",
+        "blockSolos": "4",
+        "blockAssists": "20",
+        "blockingErrors": "0",
+        "totalBlocks": "14"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45987,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "104",
+        "kills": "63",
+        "attackErrors": "34",
+        "attackAttempts": "198",
+        "hittingPercentage": "0.146",
+        "assists": "61",
+        "setErrors": "3",
+        "setAttempts": "212",
+        "serviceAces": "5",
+        "serviceErrors": "5",
+        "serveAttempts": "103",
+        "digs": "98",
+        "receptionAttempts": "98",
+        "receptionErrors": "7",
+        "blockSolos": "2",
+        "blockAssists": "14",
+        "blockingErrors": "0",
+        "totalBlocks": "9"
+      }
+    }
+  ]
+}
