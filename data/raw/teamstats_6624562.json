@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624562,
+  "title": "WVB Boxscore",
+  "description": "Northwestern St. vs Lamar University",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46107",
+      "seoname": "northwestern-st",
+      "name6Char": "NW ST",
+      "nameFull": "Northwestern State University",
+      "nameShort": "Northwestern St.",
+      "teamName": "Lady Demons",
+      "color": "#54209e"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45922",
+      "seoname": "lamar",
+      "name6Char": "LAMAR",
+      "nameFull": "Lamar University",
+      "nameShort": "Lamar University",
+      "teamName": "Cardinals",
+      "color": "#D50032"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46107,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "93",
+        "kills": "59",
+        "attackErrors": "30",
+        "attackAttempts": "189",
+        "hittingPercentage": "0.153",
+        "assists": "56",
+        "setErrors": "2",
+        "setAttempts": "181",
+        "serviceAces": "3",
+        "serviceErrors": "7",
+        "serveAttempts": "94",
+        "digs": "89",
+        "receptionAttempts": "91",
+        "receptionErrors": "5",
+        "blockSolos": "0",
+        "blockAssists": "32",
+        "blockingErrors": "1",
+        "totalBlocks": "16"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45922,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "100",
+        "kills": "56",
+        "attackErrors": "23",
+        "attackAttempts": "180",
+        "hittingPercentage": "0.183",
+        "assists": "54",
+        "setErrors": "0",
+        "setAttempts": "179",
+        "serviceAces": "5",
+        "serviceErrors": "8",
+        "serveAttempts": "99",
+        "digs": "78",
+        "receptionAttempts": "87",
+        "receptionErrors": "3",
+        "blockSolos": "3",
+        "blockAssists": "16",
+        "blockingErrors": "1",
+        "totalBlocks": "11"
+      }
+    }
+  ]
+}

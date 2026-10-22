@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626532,
+  "title": "WVB Boxscore",
+  "description": "East Texas A&M vs SFA",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45903",
+      "seoname": "tex-am-commerce",
+      "name6Char": "TAMUCO",
+      "nameFull": "East Texas A&M University",
+      "nameShort": "East Texas A&M",
+      "teamName": "Lions",
+      "color": "#00205B"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46624",
+      "seoname": "stephen-f-austin",
+      "name6Char": "SFA",
+      "nameFull": "Stephen F. Austin State University",
+      "nameShort": "SFA",
+      "teamName": "Lumberjacks",
+      "color": "#532F7C"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45903,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "64",
+        "kills": "39",
+        "attackErrors": "15",
+        "attackAttempts": "99",
+        "hittingPercentage": "0.242",
+        "assists": "38",
+        "setErrors": "0",
+        "setAttempts": "103",
+        "serviceAces": "1",
+        "serviceErrors": "9",
+        "serveAttempts": "65",
+        "digs": "47",
+        "receptionAttempts": "65",
+        "receptionErrors": "10",
+        "blockSolos": "3",
+        "blockAssists": "10",
+        "blockingErrors": "1",
+        "totalBlocks": "8"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46624,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "76",
+        "kills": "42",
+        "attackErrors": "12",
+        "attackAttempts": "107",
+        "hittingPercentage": "0.280",
+        "assists": "41",
+        "setErrors": "2",
+        "setAttempts": "106",
+        "serviceAces": "10",
+        "serviceErrors": "10",
+        "serveAttempts": "75",
+        "digs": "40",
+        "receptionAttempts": "56",
+        "receptionErrors": "1",
+        "blockSolos": "2",
+        "blockAssists": "12",
+        "blockingErrors": "3",
+        "totalBlocks": "8"
+      }
+    }
+  ]
+}

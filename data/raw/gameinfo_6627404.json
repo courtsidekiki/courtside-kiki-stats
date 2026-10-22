@@ -1,0 +1,105 @@
+{
+  "contests": [
+    {
+      "__typename": "Contest",
+      "id": "6627404",
+      "sportCode": "WVB",
+      "sportUrl": "volleyball-women",
+      "division": 1,
+      "clock": null,
+      "currentPeriod": "FINAL",
+      "finalMessage": "FINAL",
+      "gameState": "F",
+      "statusCodeDisplay": "final",
+      "network": null,
+      "startTime": "18:00",
+      "startTimeEpoch": 1792620000,
+      "week": null,
+      "seasonYear": 2026,
+      "winner": 46621,
+      "hasStartTime": true,
+      "hasBoxscore": true,
+      "hasPbp": true,
+      "hasScoringSummary": false,
+      "hasPreview": false,
+      "hasRecap": false,
+      "hasTeamStats": true,
+      "linescores": [
+        {
+          "__typename": "Linescore",
+          "period": "1",
+          "home": "20",
+          "visit": "25"
+        },
+        {
+          "__typename": "Linescore",
+          "period": "2",
+          "home": "14",
+          "visit": "25"
+        },
+        {
+          "__typename": "Linescore",
+          "period": "3",
+          "home": "25",
+          "visit": "23"
+        },
+        {
+          "__typename": "Linescore",
+          "period": "4",
+          "home": "25",
+          "visit": "16"
+        },
+        {
+          "__typename": "Linescore",
+          "period": "5",
+          "home": "15",
+          "visit": "13"
+        }
+      ],
+      "teams": [
+        {
+          "__typename": "ContestTeam",
+          "teamId": "46621",
+          "isHome": true,
+          "color": "#006747",
+          "seoname": "south-fla",
+          "nameFull": "University of South Florida",
+          "nameShort": "South Fla.",
+          "name6Char": "USF",
+          "teamRank": null,
+          "gameRank": null,
+          "score": 3,
+          "seed": null,
+          "record": "(5-13)",
+          "divisionName": "d1",
+          "division": 1,
+          "isWinner": true
+        },
+        {
+          "__typename": "ContestTeam",
+          "teamId": "45773",
+          "isHome": false,
+          "color": "#002855",
+          "seoname": "fla-atlantic",
+          "nameFull": "Florida Atlantic University",
+          "nameShort": "Fla. Atlantic",
+          "name6Char": "FAU",
+          "teamRank": null,
+          "gameRank": null,
+          "score": 2,
+          "seed": null,
+          "record": "(13-6)",
+          "divisionName": "d1",
+          "division": 1,
+          "isWinner": false
+        }
+      ],
+      "liveVideos": [],
+      "championship": null,
+      "championshipGame": null,
+      "links": [],
+      "location": null,
+      "stats": null
+    }
+  ]
+}

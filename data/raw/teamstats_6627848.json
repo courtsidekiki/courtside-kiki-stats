@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627848,
+  "title": "WVB Boxscore",
+  "description": "Austin Peay vs Central Ark.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45942",
+      "seoname": "austin-peay",
+      "name6Char": "A PEAY",
+      "nameFull": "Austin Peay State University",
+      "nameShort": "Austin Peay",
+      "teamName": "Governors",
+      "color": "#BA0C2F"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45955",
+      "seoname": "central-ark",
+      "name6Char": "C ARK",
+      "nameFull": "University of Central Arkansas",
+      "nameShort": "Central Ark.",
+      "teamName": "Bears",
+      "color": "#582C83"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45942,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "89",
+        "kills": "54",
+        "attackErrors": "27",
+        "attackAttempts": "152",
+        "hittingPercentage": "0.178",
+        "assists": "51",
+        "setErrors": "0",
+        "setAttempts": "147",
+        "serviceAces": "3",
+        "serviceErrors": "7",
+        "serveAttempts": "90",
+        "digs": "80",
+        "receptionAttempts": "88",
+        "receptionErrors": "7",
+        "blockSolos": "0",
+        "blockAssists": "16",
+        "blockingErrors": "2",
+        "totalBlocks": "8"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45955,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "101",
+        "kills": "60",
+        "attackErrors": "20",
+        "attackAttempts": "171",
+        "hittingPercentage": "0.234",
+        "assists": "52",
+        "setErrors": "0",
+        "setAttempts": "154",
+        "serviceAces": "7",
+        "serviceErrors": "12",
+        "serveAttempts": "100",
+        "digs": "62",
+        "receptionAttempts": "83",
+        "receptionErrors": "3",
+        "blockSolos": "2",
+        "blockAssists": "16",
+        "blockingErrors": "3",
+        "totalBlocks": "10"
+      }
+    }
+  ]
+}

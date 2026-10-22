@@ -1,7 +1,7 @@
 {
-  "inputMD5Sum": "53155326904e1888c9e25d97caa82a0d",
+  "inputMD5Sum": "9d5e711a74d423c41bf9c6703bc81600",
   "instanceId": "d41d8cd98f00b204e9800998ecf8427e",
-  "updated_at": "2026-10-21 11:26:09",
+  "updated_at": "2026-10-22 11:25:41",
   "games": [
     {
       "game": {
@@ -390,6 +390,62 @@
         "gameState": "final",
         "startDate": "10/20/2026",
         "currentPeriod": "FINAL",
+        "contestClock": "0:00",
+        "bracketId": "",
+        "bracketRound": ""
+      }
+    },
+    {
+      "game": {
+        "gameID": "6627571",
+        "away": {
+          "score": "",
+          "names": {
+            "char6": "TOUGLO",
+            "short": "Tougaloo",
+            "seo": "tougaloo",
+            "full": ""
+          },
+          "winner": false,
+          "seed": "",
+          "description": "",
+          "rank": "",
+          "conferences": [
+            {
+              "conferenceName": "",
+              "conferenceSeo": ""
+            }
+          ]
+        },
+        "finalMessage": "",
+        "title": "Tougaloo Alcorn",
+        "url": "/game/6627571",
+        "network": "",
+        "home": {
+          "score": "",
+          "names": {
+            "char6": "ALCORN",
+            "short": "Alcorn",
+            "seo": "alcorn",
+            "full": ""
+          },
+          "winner": false,
+          "seed": "",
+          "description": "",
+          "rank": "",
+          "conferences": [
+            {
+              "conferenceName": "",
+              "conferenceSeo": "swac"
+            }
+          ]
+        },
+        "liveVideoEnabled": false,
+        "startTime": "7:00 PM ET",
+        "startTimeEpoch": "1792537200",
+        "gameState": "pre",
+        "startDate": "10/20/2026",
+        "currentPeriod": "",
         "contestClock": "0:00",
         "bracketId": "",
         "bracketRound": ""

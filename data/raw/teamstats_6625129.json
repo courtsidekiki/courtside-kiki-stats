@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625129,
+  "title": "WVB Boxscore",
+  "description": "Alabama St. vs Alabama A&M",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46436",
+      "seoname": "alabama-st",
+      "name6Char": "ALA ST",
+      "nameFull": "Alabama State University",
+      "nameShort": "Alabama St.",
+      "teamName": "Lady Hornets",
+      "color": "#010101"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46068",
+      "seoname": "alabama-am",
+      "name6Char": "AL A&M",
+      "nameFull": "Alabama A&M University",
+      "nameShort": "Alabama A&M",
+      "teamName": "Bulldogs",
+      "color": "#862633"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46436,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "108",
+        "kills": "69",
+        "attackErrors": "27",
+        "attackAttempts": "179",
+        "hittingPercentage": "0.235",
+        "assists": "64",
+        "setErrors": "1",
+        "setAttempts": "179",
+        "serviceAces": "2",
+        "serviceErrors": "8",
+        "serveAttempts": "107",
+        "digs": "81",
+        "receptionAttempts": "95",
+        "receptionErrors": "4",
+        "blockSolos": "1",
+        "blockAssists": "8",
+        "blockingErrors": "1",
+        "totalBlocks": "5"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46068,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "109",
+        "kills": "69",
+        "attackErrors": "21",
+        "attackAttempts": "182",
+        "hittingPercentage": "0.264",
+        "assists": "67",
+        "setErrors": "0",
+        "setAttempts": "186",
+        "serviceAces": "4",
+        "serviceErrors": "15",
+        "serveAttempts": "110",
+        "digs": "70",
+        "receptionAttempts": "99",
+        "receptionErrors": "2",
+        "blockSolos": "3",
+        "blockAssists": "16",
+        "blockingErrors": "6",
+        "totalBlocks": "11"
+      }
+    }
+  ]
+}

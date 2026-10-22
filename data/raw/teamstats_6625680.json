@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625680,
+  "title": "WVB Boxscore",
+  "description": "Southern U. vs Dillard",
+  "sportCode": "WVB",
+  "divisionName": "dnull",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46123",
+      "seoname": "southern-u",
+      "name6Char": "SOUTHR",
+      "nameFull": "Southern University, Baton Rouge",
+      "nameShort": "Southern U.",
+      "teamName": "Lady Jaguars",
+      "color": "#69B3E7"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "52176",
+      "seoname": "dillard",
+      "name6Char": "DILLRD",
+      "nameFull": "Dillard",
+      "nameShort": "Dillard",
+      "teamName": "",
+      "color": "#002855"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46123,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "40",
+        "attackErrors": "26",
+        "attackAttempts": "110",
+        "hittingPercentage": "0.127",
+        "assists": "34",
+        "setErrors": "1",
+        "setAttempts": "103",
+        "serviceAces": "10",
+        "serviceErrors": "7",
+        "serveAttempts": "74",
+        "digs": "43",
+        "receptionAttempts": "56",
+        "receptionErrors": "4",
+        "blockSolos": "1",
+        "blockAssists": "10",
+        "blockingErrors": "0",
+        "totalBlocks": "6"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 52176,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "61",
+        "kills": "23",
+        "attackErrors": "17",
+        "attackAttempts": "86",
+        "hittingPercentage": "0.070",
+        "assists": "22",
+        "setErrors": "2",
+        "setAttempts": "87",
+        "serviceAces": "4",
+        "serviceErrors": "6",
+        "serveAttempts": "62",
+        "digs": "39",
+        "receptionAttempts": "67",
+        "receptionErrors": "10",
+        "blockSolos": "1",
+        "blockAssists": "16",
+        "blockingErrors": "0",
+        "totalBlocks": "9"
+      }
+    }
+  ]
+}
