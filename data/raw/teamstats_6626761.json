@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626761,
+  "title": "WVB Boxscore",
+  "description": "UIW vs McNeese",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46648",
+      "seoname": "uiw",
+      "name6Char": "INCWRD",
+      "nameFull": "University of the Incarnate Word",
+      "nameShort": "UIW",
+      "teamName": "Cardinals",
+      "color": "#CB333B"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46201",
+      "seoname": "mcneese",
+      "name6Char": "MCNEES",
+      "nameFull": "McNeese State University",
+      "nameShort": "McNeese",
+      "teamName": "Cowgirls",
+      "color": "#003087"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46648,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "110",
+        "kills": "73",
+        "attackErrors": "24",
+        "attackAttempts": "186",
+        "hittingPercentage": "0.263",
+        "assists": "72",
+        "setErrors": "2",
+        "setAttempts": "187",
+        "serviceAces": "11",
+        "serviceErrors": "12",
+        "serveAttempts": "110",
+        "digs": "83",
+        "receptionAttempts": "87",
+        "receptionErrors": "2",
+        "blockSolos": "0",
+        "blockAssists": "16",
+        "blockingErrors": "0",
+        "totalBlocks": "8"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46201,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "91",
+        "kills": "51",
+        "attackErrors": "22",
+        "attackAttempts": "167",
+        "hittingPercentage": "0.174",
+        "assists": "49",
+        "setErrors": "0",
+        "setAttempts": "172",
+        "serviceAces": "2",
+        "serviceErrors": "4",
+        "serveAttempts": "91",
+        "digs": "80",
+        "receptionAttempts": "98",
+        "receptionErrors": "11",
+        "blockSolos": "0",
+        "blockAssists": "8",
+        "blockingErrors": "2",
+        "totalBlocks": "4"
+      }
+    }
+  ]
+}

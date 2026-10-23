@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624614,
+  "title": "WVB Boxscore",
+  "description": "Tarleton St. vs West Ga.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46097",
+      "seoname": "tarleton-st",
+      "name6Char": "TARLET",
+      "nameFull": "Tarleton State University",
+      "nameShort": "Tarleton St.",
+      "teamName": "Texans",
+      "color": "#582C83"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46381",
+      "seoname": "west-ga",
+      "name6Char": "W GA",
+      "nameFull": "University of West Georgia",
+      "nameShort": "West Ga.",
+      "teamName": "Wolves",
+      "color": "#0032A0"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46097,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "101",
+        "kills": "52",
+        "attackErrors": "21",
+        "attackAttempts": "158",
+        "hittingPercentage": "0.196",
+        "assists": "49",
+        "setErrors": "2",
+        "setAttempts": "164",
+        "serviceAces": "8",
+        "serviceErrors": "12",
+        "serveAttempts": "100",
+        "digs": "74",
+        "receptionAttempts": "80",
+        "receptionErrors": "8",
+        "blockSolos": "1",
+        "blockAssists": "24",
+        "blockingErrors": "2",
+        "totalBlocks": "13"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46381,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "88",
+        "kills": "45",
+        "attackErrors": "29",
+        "attackAttempts": "155",
+        "hittingPercentage": "0.103",
+        "assists": "43",
+        "setErrors": "3",
+        "setAttempts": "160",
+        "serviceAces": "8",
+        "serviceErrors": "9",
+        "serveAttempts": "89",
+        "digs": "72",
+        "receptionAttempts": "88",
+        "receptionErrors": "8",
+        "blockSolos": "2",
+        "blockAssists": "14",
+        "blockingErrors": "1",
+        "totalBlocks": "9"
+      }
+    }
+  ]
+}

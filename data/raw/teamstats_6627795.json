@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627795,
+  "title": "WVB Boxscore",
+  "description": "Weber St. vs Montana St.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46011",
+      "seoname": "weber-st",
+      "name6Char": "WEB ST",
+      "nameFull": "Weber State University",
+      "nameShort": "Weber St.",
+      "teamName": "Wildcats",
+      "color": "#470A68"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46340",
+      "seoname": "montana-st",
+      "name6Char": "MONTST ",
+      "nameFull": "Montana State University-Bozeman",
+      "nameShort": "Montana St.",
+      "teamName": "Bobcats",
+      "color": "#00205B"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46011,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "103",
+        "kills": "58",
+        "attackErrors": "18",
+        "attackAttempts": "154",
+        "hittingPercentage": "0.260",
+        "assists": "53",
+        "setErrors": "0",
+        "setAttempts": "156",
+        "serviceAces": "1",
+        "serviceErrors": "11",
+        "serveAttempts": "103",
+        "digs": "67",
+        "receptionAttempts": "94",
+        "receptionErrors": "12",
+        "blockSolos": "3",
+        "blockAssists": "20",
+        "blockingErrors": "2",
+        "totalBlocks": "13"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46340,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "112",
+        "kills": "71",
+        "attackErrors": "24",
+        "attackAttempts": "174",
+        "hittingPercentage": "0.270",
+        "assists": "61",
+        "setErrors": "2",
+        "setAttempts": "164",
+        "serviceAces": "12",
+        "serviceErrors": "18",
+        "serveAttempts": "112",
+        "digs": "66",
+        "receptionAttempts": "92",
+        "receptionErrors": "1",
+        "blockSolos": "1",
+        "blockAssists": "14",
+        "blockingErrors": "2",
+        "totalBlocks": "8"
+      }
+    }
+  ]
+}

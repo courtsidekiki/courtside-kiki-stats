@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6639560,
+  "title": "WVB Boxscore",
+  "description": "Southern Utah vs Eastern Wash.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46002",
+      "seoname": "southern-utah",
+      "name6Char": "S UTAH",
+      "nameFull": "Southern Utah University",
+      "nameShort": "Southern Utah",
+      "teamName": "Thunderbirds",
+      "color": "#BA0C2F"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46180",
+      "seoname": "eastern-wash",
+      "name6Char": "E WASH",
+      "nameFull": "Eastern Washington University",
+      "nameShort": "Eastern Wash.",
+      "teamName": "Eagles",
+      "color": "#A6192E"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46002,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "74",
+        "kills": "39",
+        "attackErrors": "38",
+        "attackAttempts": "147",
+        "hittingPercentage": "0.007",
+        "assists": "35",
+        "setErrors": "4",
+        "setAttempts": "155",
+        "serviceAces": "9",
+        "serviceErrors": "14",
+        "serveAttempts": "75",
+        "digs": "52",
+        "receptionAttempts": "90",
+        "receptionErrors": "0",
+        "blockSolos": "3",
+        "blockAssists": "0",
+        "blockingErrors": "3",
+        "totalBlocks": "3"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46180,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "96",
+        "kills": "40",
+        "attackErrors": "20",
+        "attackAttempts": "129",
+        "hittingPercentage": "0.155",
+        "assists": "32",
+        "setErrors": "1",
+        "setAttempts": "127",
+        "serviceAces": "0",
+        "serviceErrors": "5",
+        "serveAttempts": "95",
+        "digs": "57",
+        "receptionAttempts": "61",
+        "receptionErrors": "9",
+        "blockSolos": "14",
+        "blockAssists": "2",
+        "blockingErrors": "4",
+        "totalBlocks": "15"
+      }
+    }
+  ]
+}

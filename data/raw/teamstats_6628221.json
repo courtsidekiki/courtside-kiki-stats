@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628221,
+  "title": "WVB Boxscore",
+  "description": "Southeastern La. vs UTRGV",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46622",
+      "seoname": "southeastern-la",
+      "name6Char": "SE LA",
+      "nameFull": "Southeastern Louisiana University",
+      "nameShort": "Southeastern La.",
+      "teamName": "Lady Lions",
+      "color": "#1D4C30"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45984",
+      "seoname": "utrgv",
+      "name6Char": "UTRGV",
+      "nameFull": "The University of Texas Rio Grande Valley",
+      "nameShort": "UTRGV",
+      "teamName": "Vaqueros",
+      "color": "#FF4D00"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46622,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "110",
+        "kills": "65",
+        "attackErrors": "28",
+        "attackAttempts": "175",
+        "hittingPercentage": "0.211",
+        "assists": "63",
+        "setErrors": "1",
+        "setAttempts": "177",
+        "serviceAces": "3",
+        "serviceErrors": "5",
+        "serveAttempts": "109",
+        "digs": "79",
+        "receptionAttempts": "94",
+        "receptionErrors": "2",
+        "blockSolos": "2",
+        "blockAssists": "28",
+        "blockingErrors": "0",
+        "totalBlocks": "16"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45984,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "98",
+        "kills": "62",
+        "attackErrors": "34",
+        "attackAttempts": "184",
+        "hittingPercentage": "0.152",
+        "assists": "59",
+        "setErrors": "2",
+        "setAttempts": "186",
+        "serviceAces": "2",
+        "serviceErrors": "5",
+        "serveAttempts": "99",
+        "digs": "74",
+        "receptionAttempts": "104",
+        "receptionErrors": "3",
+        "blockSolos": "2",
+        "blockAssists": "14",
+        "blockingErrors": "1",
+        "totalBlocks": "9"
+      }
+    }
+  ]
+}
