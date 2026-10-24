@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625187,
+  "title": "WVB Boxscore",
+  "description": "Samford vs Tennessee Tech",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45864",
+      "seoname": "samford",
+      "name6Char": "SAMFRD",
+      "nameFull": "Samford University",
+      "nameShort": "Samford",
+      "teamName": "Bulldogs",
+      "color": "#0C2340"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46504",
+      "seoname": "tennessee-tech",
+      "name6Char": "TNTECH",
+      "nameFull": "Tennessee Technological University",
+      "nameShort": "Tennessee Tech",
+      "teamName": "Golden Eagles",
+      "color": "#753BBD"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45864,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "97",
+        "kills": "44",
+        "attackErrors": "13",
+        "attackAttempts": "123",
+        "hittingPercentage": "0.252",
+        "assists": "40",
+        "setErrors": "2",
+        "setAttempts": "124",
+        "serviceAces": "10",
+        "serviceErrors": "13",
+        "serveAttempts": "95",
+        "digs": "56",
+        "receptionAttempts": "67",
+        "receptionErrors": "6",
+        "blockSolos": "2",
+        "blockAssists": "20",
+        "blockingErrors": "0",
+        "totalBlocks": "12"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46504,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "77",
+        "kills": "43",
+        "attackErrors": "29",
+        "attackAttempts": "134",
+        "hittingPercentage": "0.104",
+        "assists": "41",
+        "setErrors": "1",
+        "setAttempts": "131",
+        "serviceAces": "6",
+        "serviceErrors": "12",
+        "serveAttempts": "79",
+        "digs": "61",
+        "receptionAttempts": "82",
+        "receptionErrors": "10",
+        "blockSolos": "1",
+        "blockAssists": "8",
+        "blockingErrors": "0",
+        "totalBlocks": "5"
+      }
+    }
+  ]
+}

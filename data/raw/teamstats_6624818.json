@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624818,
+  "title": "WVB Boxscore",
+  "description": "Troy vs South Alabama",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46254",
+      "seoname": "troy",
+      "name6Char": "TROY",
+      "nameFull": "Troy University",
+      "nameShort": "Troy",
+      "teamName": "Trojans",
+      "color": "#9D2235"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46120",
+      "seoname": "south-ala",
+      "name6Char": "S ALA",
+      "nameFull": "University of South Alabama",
+      "nameShort": "South Alabama",
+      "teamName": "Jaguars",
+      "color": "#BF0D3E"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46254,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "97",
+        "kills": "56",
+        "attackErrors": "29",
+        "attackAttempts": "160",
+        "hittingPercentage": "0.169",
+        "assists": "50",
+        "setErrors": "0",
+        "setAttempts": "161",
+        "serviceAces": "9",
+        "serviceErrors": "11",
+        "serveAttempts": "96",
+        "digs": "63",
+        "receptionAttempts": "83",
+        "receptionErrors": "6",
+        "blockSolos": "0",
+        "blockAssists": "6",
+        "blockingErrors": "1",
+        "totalBlocks": "3"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46120,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "96",
+        "kills": "50",
+        "attackErrors": "17",
+        "attackAttempts": "139",
+        "hittingPercentage": "0.237",
+        "assists": "46",
+        "setErrors": "1",
+        "setAttempts": "135",
+        "serviceAces": "6",
+        "serviceErrors": "14",
+        "serveAttempts": "97",
+        "digs": "55",
+        "receptionAttempts": "85",
+        "receptionErrors": "9",
+        "blockSolos": "3",
+        "blockAssists": "32",
+        "blockingErrors": "1",
+        "totalBlocks": "19"
+      }
+    }
+  ]
+}

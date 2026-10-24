@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627178,
+  "title": "WVB Boxscore",
+  "description": "Georgia vs Texas A&M",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45911",
+      "seoname": "georgia",
+      "name6Char": "UGA",
+      "nameFull": "University of Georgia",
+      "nameShort": "Georgia",
+      "teamName": "Bulldogs",
+      "color": "#DA291C"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46006",
+      "seoname": "texas-am",
+      "name6Char": "TX A&M",
+      "nameFull": "Texas A&M University, College Station",
+      "nameShort": "Texas A&M",
+      "teamName": "Aggies",
+      "color": "#5D0025"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45911,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "92",
+        "kills": "56",
+        "attackErrors": "22",
+        "attackAttempts": "142",
+        "hittingPercentage": "0.239",
+        "assists": "52",
+        "setErrors": "1",
+        "setAttempts": "141",
+        "serviceAces": "6",
+        "serviceErrors": "12",
+        "serveAttempts": "93",
+        "digs": "63",
+        "receptionAttempts": "81",
+        "receptionErrors": "9",
+        "blockSolos": "0",
+        "blockAssists": "16",
+        "blockingErrors": "1",
+        "totalBlocks": "8"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46006,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "93",
+        "kills": "49",
+        "attackErrors": "16",
+        "attackAttempts": "146",
+        "hittingPercentage": "0.226",
+        "assists": "44",
+        "setErrors": "0",
+        "setAttempts": "146",
+        "serviceAces": "9",
+        "serviceErrors": "11",
+        "serveAttempts": "92",
+        "digs": "59",
+        "receptionAttempts": "81",
+        "receptionErrors": "6",
+        "blockSolos": "2",
+        "blockAssists": "18",
+        "blockingErrors": "2",
+        "totalBlocks": "11"
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628359,
+  "title": "WVB Boxscore",
+  "description": "Jacksonville vs Queens (NC)",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45917",
+      "seoname": "jacksonville",
+      "name6Char": "JVILLE",
+      "nameFull": "Jacksonville University",
+      "nameShort": "Jacksonville",
+      "teamName": "Dolphins",
+      "color": "#004E42"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46656",
+      "seoname": "queens-nc",
+      "name6Char": "QUENNC",
+      "nameFull": "Queens University of Charlotte",
+      "nameShort": "Queens (NC)",
+      "teamName": "Royals",
+      "color": "#0D2D6C"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45917,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "100",
+        "kills": "54",
+        "attackErrors": "27",
+        "attackAttempts": "186",
+        "hittingPercentage": "0.145",
+        "assists": "52",
+        "setErrors": "1",
+        "setAttempts": "191",
+        "serviceAces": "6",
+        "serviceErrors": "13",
+        "serveAttempts": "100",
+        "digs": "87",
+        "receptionAttempts": "97",
+        "receptionErrors": "3",
+        "blockSolos": "1",
+        "blockAssists": "24",
+        "blockingErrors": "1",
+        "totalBlocks": "13"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46656,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "103",
+        "kills": "55",
+        "attackErrors": "31",
+        "attackAttempts": "188",
+        "hittingPercentage": "0.128",
+        "assists": "52",
+        "setErrors": "0",
+        "setAttempts": "185",
+        "serviceAces": "3",
+        "serviceErrors": "6",
+        "serveAttempts": "103",
+        "digs": "91",
+        "receptionAttempts": "87",
+        "receptionErrors": "6",
+        "blockSolos": "1",
+        "blockAssists": "20",
+        "blockingErrors": "4",
+        "totalBlocks": "11"
+      }
+    }
+  ]
+}

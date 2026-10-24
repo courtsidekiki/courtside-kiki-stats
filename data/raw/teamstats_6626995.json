@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626995,
+  "title": "WVB Boxscore",
+  "description": "Charleston So. vs Gardner-Webb",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46074",
+      "seoname": "charleston-so",
+      "name6Char": "CHARSO",
+      "nameFull": "Charleston Southern University",
+      "nameShort": "Charleston So.",
+      "teamName": "Buccaneers",
+      "color": "#15233C"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45828",
+      "seoname": "gardner-webb",
+      "name6Char": "G WEBB",
+      "nameFull": "Gardner-Webb University",
+      "nameShort": "Gardner-Webb",
+      "teamName": "Runnin' Bulldogs",
+      "color": "#A82931"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46074,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "99",
+        "kills": "60",
+        "attackErrors": "30",
+        "attackAttempts": "178",
+        "hittingPercentage": "0.169",
+        "assists": "56",
+        "setErrors": "2",
+        "setAttempts": "176",
+        "serviceAces": "8",
+        "serviceErrors": "12",
+        "serveAttempts": "98",
+        "digs": "96",
+        "receptionAttempts": "71",
+        "receptionErrors": "7",
+        "blockSolos": "2",
+        "blockAssists": "10",
+        "blockingErrors": "0",
+        "totalBlocks": "7"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45828,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "78",
+        "kills": "27",
+        "attackErrors": "21",
+        "attackAttempts": "154",
+        "hittingPercentage": "0.039",
+        "assists": "25",
+        "setErrors": "2",
+        "setAttempts": "151",
+        "serviceAces": "7",
+        "serviceErrors": "8",
+        "serveAttempts": "79",
+        "digs": "69",
+        "receptionAttempts": "86",
+        "receptionErrors": "8",
+        "blockSolos": "3",
+        "blockAssists": "8",
+        "blockingErrors": "1",
+        "totalBlocks": "7"
+      }
+    }
+  ]
+}

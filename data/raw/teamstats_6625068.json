@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625068,
+  "title": "WVB Boxscore",
+  "description": "Morgan St. vs Norfolk St.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45841",
+      "seoname": "morgan-st",
+      "name6Char": "MORGAN",
+      "nameFull": "Morgan State University",
+      "nameShort": "Morgan St.",
+      "teamName": "Lady Bears",
+      "color": "#FC4C02"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45976",
+      "seoname": "norfolk-st",
+      "name6Char": "NORFLK",
+      "nameFull": "Norfolk State University",
+      "nameShort": "Norfolk St.",
+      "teamName": "Spartans",
+      "color": "#007A53"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45841,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "104",
+        "kills": "65",
+        "attackErrors": "27",
+        "attackAttempts": "158",
+        "hittingPercentage": "0.241",
+        "assists": "52",
+        "setErrors": "0",
+        "setAttempts": "149",
+        "serviceAces": "11",
+        "serviceErrors": "12",
+        "serveAttempts": "105",
+        "digs": "54",
+        "receptionAttempts": "103",
+        "receptionErrors": "10",
+        "blockSolos": "3",
+        "blockAssists": "2",
+        "blockingErrors": "0",
+        "totalBlocks": "4"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45976,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "116",
+        "kills": "67",
+        "attackErrors": "15",
+        "attackAttempts": "153",
+        "hittingPercentage": "0.340",
+        "assists": "61",
+        "setErrors": "1",
+        "setAttempts": "157",
+        "serviceAces": "10",
+        "serviceErrors": "12",
+        "serveAttempts": "115",
+        "digs": "58",
+        "receptionAttempts": "93",
+        "receptionErrors": "11",
+        "blockSolos": "3",
+        "blockAssists": "6",
+        "blockingErrors": "0",
+        "totalBlocks": "6"
+      }
+    }
+  ]
+}

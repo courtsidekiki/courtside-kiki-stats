@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628488,
+  "title": "WVB Boxscore",
+  "description": "North Texas vs Rice",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46237",
+      "seoname": "north-texas",
+      "name6Char": "NO TEX",
+      "nameFull": "University of North Texas",
+      "nameShort": "North Texas",
+      "teamName": "Mean Green",
+      "color": "#007A33"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45859",
+      "seoname": "rice",
+      "name6Char": "RICE",
+      "nameFull": "Rice University",
+      "nameShort": "Rice",
+      "teamName": "Owls",
+      "color": "#00205B"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46237,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "109",
+        "kills": "61",
+        "attackErrors": "25",
+        "attackAttempts": "164",
+        "hittingPercentage": "0.220",
+        "assists": "61",
+        "setErrors": "2",
+        "setAttempts": "173",
+        "serviceAces": "8",
+        "serviceErrors": "12",
+        "serveAttempts": "110",
+        "digs": "66",
+        "receptionAttempts": "91",
+        "receptionErrors": "5",
+        "blockSolos": "3",
+        "blockAssists": "14",
+        "blockingErrors": "7",
+        "totalBlocks": "10"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45859,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "107",
+        "kills": "61",
+        "attackErrors": "24",
+        "attackAttempts": "165",
+        "hittingPercentage": "0.224",
+        "assists": "55",
+        "setErrors": "0",
+        "setAttempts": "172",
+        "serviceAces": "5",
+        "serviceErrors": "15",
+        "serveAttempts": "106",
+        "digs": "66",
+        "receptionAttempts": "98",
+        "receptionErrors": "8",
+        "blockSolos": "1",
+        "blockAssists": "20",
+        "blockingErrors": "1",
+        "totalBlocks": "11"
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625839,
+  "title": "WVB Boxscore",
+  "description": "Baylor vs Houston",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45943",
+      "seoname": "baylor",
+      "name6Char": "BAYLOR",
+      "nameFull": "Baylor University",
+      "nameShort": "Baylor",
+      "teamName": "Bears",
+      "color": "#1B3E30"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46054",
+      "seoname": "houston",
+      "name6Char": "HOU",
+      "nameFull": "University of Houston",
+      "nameShort": "Houston",
+      "teamName": "Cougars",
+      "color": "#E51636"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45943,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "107",
+        "kills": "55",
+        "attackErrors": "14",
+        "attackAttempts": "130",
+        "hittingPercentage": "0.315",
+        "assists": "48",
+        "setErrors": "1",
+        "setAttempts": "124",
+        "serviceAces": "6",
+        "serviceErrors": "5",
+        "serveAttempts": "106",
+        "digs": "51",
+        "receptionAttempts": "84",
+        "receptionErrors": "13",
+        "blockSolos": "5",
+        "blockAssists": "20",
+        "blockingErrors": "2",
+        "totalBlocks": "15"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46054,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "93",
+        "kills": "60",
+        "attackErrors": "36",
+        "attackAttempts": "152",
+        "hittingPercentage": "0.158",
+        "assists": "52",
+        "setErrors": "0",
+        "setAttempts": "145",
+        "serviceAces": "13",
+        "serviceErrors": "10",
+        "serveAttempts": "94",
+        "digs": "51",
+        "receptionAttempts": "101",
+        "receptionErrors": "6",
+        "blockSolos": "5",
+        "blockAssists": "2",
+        "blockingErrors": "1",
+        "totalBlocks": "6"
+      }
+    }
+  ]
+}

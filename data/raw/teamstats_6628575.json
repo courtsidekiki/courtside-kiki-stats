@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628575,
+  "title": "WVB Boxscore",
+  "description": "Ball St. vs Akron",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46572",
+      "seoname": "ball-st",
+      "name6Char": "BALLST",
+      "nameFull": "Ball State University",
+      "nameShort": "Ball St.",
+      "teamName": "Cardinals",
+      "color": "#BA0C2F"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46692",
+      "seoname": "akron",
+      "name6Char": "AKRON",
+      "nameFull": "University of Akron",
+      "nameShort": "Akron",
+      "teamName": "Zips",
+      "color": "#0F192B"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46572,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "108",
+        "kills": "61",
+        "attackErrors": "18",
+        "attackAttempts": "153",
+        "hittingPercentage": "0.281",
+        "assists": "59",
+        "setErrors": "2",
+        "setAttempts": "158",
+        "serviceAces": "9",
+        "serviceErrors": "8",
+        "serveAttempts": "108",
+        "digs": "74",
+        "receptionAttempts": "84",
+        "receptionErrors": "7",
+        "blockSolos": "5",
+        "blockAssists": "8",
+        "blockingErrors": "1",
+        "totalBlocks": "9"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46692,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "95",
+        "kills": "60",
+        "attackErrors": "25",
+        "attackAttempts": "168",
+        "hittingPercentage": "0.208",
+        "assists": "53",
+        "setErrors": "2",
+        "setAttempts": "160",
+        "serviceAces": "7",
+        "serviceErrors": "11",
+        "serveAttempts": "95",
+        "digs": "57",
+        "receptionAttempts": "100",
+        "receptionErrors": "9",
+        "blockSolos": "1",
+        "blockAssists": "8",
+        "blockingErrors": "2",
+        "totalBlocks": "5"
+      }
+    }
+  ]
+}

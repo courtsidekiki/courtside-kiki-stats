@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624422,
+  "title": "WVB Boxscore",
+  "description": "Lindenwood vs SIUE",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "51330",
+      "seoname": "lindenwood-mo",
+      "name6Char": "LINWOD",
+      "nameFull": "Lindenwood University",
+      "nameShort": "Lindenwood",
+      "teamName": "Lions",
+      "color": "#010101"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46499",
+      "seoname": "siu-edwardsville",
+      "name6Char": "SIUE",
+      "nameFull": "Southern Illinois University Edwardsville",
+      "nameShort": "SIUE",
+      "teamName": "Cougars",
+      "color": "#DB372F"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 51330,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "105",
+        "kills": "57",
+        "attackErrors": "22",
+        "attackAttempts": "143",
+        "hittingPercentage": "0.245",
+        "assists": "54",
+        "setErrors": "0",
+        "setAttempts": "135",
+        "serviceAces": "10",
+        "serviceErrors": "11",
+        "serveAttempts": "105",
+        "digs": "53",
+        "receptionAttempts": "79",
+        "receptionErrors": "5",
+        "blockSolos": "6",
+        "blockAssists": "8",
+        "blockingErrors": "0",
+        "totalBlocks": "10"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46499,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "84",
+        "kills": "41",
+        "attackErrors": "26",
+        "attackAttempts": "135",
+        "hittingPercentage": "0.111",
+        "assists": "43",
+        "setErrors": "0",
+        "setAttempts": "141",
+        "serviceAces": "3",
+        "serviceErrors": "5",
+        "serveAttempts": "84",
+        "digs": "45",
+        "receptionAttempts": "94",
+        "receptionErrors": "11",
+        "blockSolos": "1",
+        "blockAssists": "18",
+        "blockingErrors": "5",
+        "totalBlocks": "10"
+      }
+    }
+  ]
+}

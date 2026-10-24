@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624394,
+  "title": "WVB Boxscore",
+  "description": "Maryland vs Illinois",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46686",
+      "seoname": "maryland",
+      "name6Char": "MD",
+      "nameFull": "University of Maryland, College Park",
+      "nameShort": "Maryland",
+      "teamName": "Terrapins",
+      "color": "#C8102E"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46312",
+      "seoname": "illinois",
+      "name6Char": "ILL",
+      "nameFull": "University of Illinois Urbana-Champaign",
+      "nameShort": "Illinois",
+      "teamName": "Fighting Illini",
+      "color": "#F15A22"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46686,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "98",
+        "kills": "55",
+        "attackErrors": "17",
+        "attackAttempts": "156",
+        "hittingPercentage": "0.244",
+        "assists": "53",
+        "setErrors": "0",
+        "setAttempts": "152",
+        "serviceAces": "7",
+        "serviceErrors": "17",
+        "serveAttempts": "99",
+        "digs": "57",
+        "receptionAttempts": "97",
+        "receptionErrors": "9",
+        "blockSolos": "5",
+        "blockAssists": "8",
+        "blockingErrors": "3",
+        "totalBlocks": "9"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46312,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "111",
+        "kills": "68",
+        "attackErrors": "22",
+        "attackAttempts": "155",
+        "hittingPercentage": "0.297",
+        "assists": "62",
+        "setErrors": "1",
+        "setAttempts": "150",
+        "serviceAces": "9",
+        "serviceErrors": "13",
+        "serveAttempts": "110",
+        "digs": "75",
+        "receptionAttempts": "82",
+        "receptionErrors": "7",
+        "blockSolos": "6",
+        "blockAssists": "8",
+        "blockingErrors": "3",
+        "totalBlocks": "10"
+      }
+    }
+  ]
+}

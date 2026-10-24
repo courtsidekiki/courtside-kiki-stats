@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626068,
+  "title": "WVB Boxscore",
+  "description": "Siena vs Niagara",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46248",
+      "seoname": "siena",
+      "name6Char": "SIENA",
+      "nameFull": "Siena University",
+      "nameShort": "Siena",
+      "teamName": "Saints",
+      "color": "#006747"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46476",
+      "seoname": "niagara",
+      "name6Char": "NIAGRA",
+      "nameFull": "Niagara University",
+      "nameShort": "Niagara",
+      "teamName": "Purple Eagles",
+      "color": "#582C83"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46248,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "93",
+        "kills": "54",
+        "attackErrors": "14",
+        "attackAttempts": "135",
+        "hittingPercentage": "0.296",
+        "assists": "50",
+        "setErrors": "3",
+        "setAttempts": "131",
+        "serviceAces": "7",
+        "serviceErrors": "3",
+        "serveAttempts": "92",
+        "digs": "67",
+        "receptionAttempts": "74",
+        "receptionErrors": "11",
+        "blockSolos": "1",
+        "blockAssists": "6",
+        "blockingErrors": "0",
+        "totalBlocks": "4"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46476,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "82",
+        "kills": "51",
+        "attackErrors": "21",
+        "attackAttempts": "147",
+        "hittingPercentage": "0.204",
+        "assists": "47",
+        "setErrors": "2",
+        "setAttempts": "143",
+        "serviceAces": "11",
+        "serviceErrors": "9",
+        "serveAttempts": "83",
+        "digs": "60",
+        "receptionAttempts": "89",
+        "receptionErrors": "7",
+        "blockSolos": "1",
+        "blockAssists": "18",
+        "blockingErrors": "0",
+        "totalBlocks": "10"
+      }
+    }
+  ]
+}

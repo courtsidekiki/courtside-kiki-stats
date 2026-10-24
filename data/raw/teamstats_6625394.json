@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625394,
+  "title": "WVB Boxscore",
+  "description": "UNC Greensboro vs Chattanooga",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46472",
+      "seoname": "unc-greensboro",
+      "name6Char": "UNC G",
+      "nameFull": "The University of North Carolina at Greensboro",
+      "nameShort": "UNC Greensboro",
+      "teamName": "Spartans",
+      "color": "#13294B"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46505",
+      "seoname": "chattanooga",
+      "name6Char": "CHAT",
+      "nameFull": "University of Tennessee at Chattanooga",
+      "nameShort": "Chattanooga",
+      "teamName": "Mocs",
+      "color": "#00416D"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46472,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "97",
+        "kills": "56",
+        "attackErrors": "20",
+        "attackAttempts": "123",
+        "hittingPercentage": "0.293",
+        "assists": "55",
+        "setErrors": "2",
+        "setAttempts": "128",
+        "serviceAces": "12",
+        "serviceErrors": "5",
+        "serveAttempts": "96",
+        "digs": "50",
+        "receptionAttempts": "65",
+        "receptionErrors": "5",
+        "blockSolos": "2",
+        "blockAssists": "10",
+        "blockingErrors": "1",
+        "totalBlocks": "7"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46505,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "71",
+        "kills": "39",
+        "attackErrors": "19",
+        "attackAttempts": "114",
+        "hittingPercentage": "0.175",
+        "assists": "37",
+        "setErrors": "3",
+        "setAttempts": "119",
+        "serviceAces": "5",
+        "serviceErrors": "7",
+        "serveAttempts": "72",
+        "digs": "36",
+        "receptionAttempts": "91",
+        "receptionErrors": "12",
+        "blockSolos": "2",
+        "blockAssists": "12",
+        "blockingErrors": "0",
+        "totalBlocks": "8"
+      }
+    }
+  ]
+}

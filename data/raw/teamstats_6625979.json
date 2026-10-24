@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625979,
+  "title": "WVB Boxscore",
+  "description": "Southern Ind. vs Western Ill.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46500",
+      "seoname": "southern-ind",
+      "name6Char": "S IND",
+      "nameFull": "University of Southern Indiana",
+      "nameShort": "Southern Ind.",
+      "teamName": "Screaming Eagles",
+      "color": "#002855"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46633",
+      "seoname": "western-ill",
+      "name6Char": "W ILL",
+      "nameFull": "Western Illinois University",
+      "nameShort": "Western Ill.",
+      "teamName": "Leathernecks",
+      "color": "#59327E"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46500,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "98",
+        "kills": "59",
+        "attackErrors": "14",
+        "attackAttempts": "134",
+        "hittingPercentage": "0.336",
+        "assists": "53",
+        "setErrors": "2",
+        "setAttempts": "133",
+        "serviceAces": "9",
+        "serviceErrors": "11",
+        "serveAttempts": "97",
+        "digs": "73",
+        "receptionAttempts": "57",
+        "receptionErrors": "9",
+        "blockSolos": "3",
+        "blockAssists": "6",
+        "blockingErrors": "2",
+        "totalBlocks": "6"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46633,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "67",
+        "kills": "31",
+        "attackErrors": "17",
+        "attackAttempts": "128",
+        "hittingPercentage": "0.109",
+        "assists": "31",
+        "setErrors": "2",
+        "setAttempts": "136",
+        "serviceAces": "9",
+        "serviceErrors": "11",
+        "serveAttempts": "68",
+        "digs": "54",
+        "receptionAttempts": "86",
+        "receptionErrors": "9",
+        "blockSolos": "0",
+        "blockAssists": "6",
+        "blockingErrors": "1",
+        "totalBlocks": "3"
+      }
+    }
+  ]
+}

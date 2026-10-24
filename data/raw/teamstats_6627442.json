@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627442,
+  "title": "WVB Boxscore",
+  "description": "North Florida vs West Florida",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46392",
+      "seoname": "north-florida",
+      "name6Char": "NO FLA",
+      "nameFull": "University of North Florida",
+      "nameShort": "North Florida",
+      "teamName": "Ospreys",
+      "color": "#001B49"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46157",
+      "seoname": "west-florida",
+      "name6Char": "W FLA",
+      "nameFull": "University of West Florida",
+      "nameShort": "West Florida",
+      "teamName": "Argonauts",
+      "color": "#0072CE"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46392,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "115",
+        "kills": "77",
+        "attackErrors": "18",
+        "attackAttempts": "199",
+        "hittingPercentage": "0.296",
+        "assists": "71",
+        "setErrors": "1",
+        "setAttempts": "188",
+        "serviceAces": "6",
+        "serviceErrors": "15",
+        "serveAttempts": "115",
+        "digs": "80",
+        "receptionAttempts": "113",
+        "receptionErrors": "4",
+        "blockSolos": "2",
+        "blockAssists": "22",
+        "blockingErrors": "5",
+        "totalBlocks": "13"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46157,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "117",
+        "kills": "79",
+        "attackErrors": "28",
+        "attackAttempts": "209",
+        "hittingPercentage": "0.244",
+        "assists": "70",
+        "setErrors": "0",
+        "setAttempts": "198",
+        "serviceAces": "4",
+        "serviceErrors": "4",
+        "serveAttempts": "117",
+        "digs": "91",
+        "receptionAttempts": "100",
+        "receptionErrors": "6",
+        "blockSolos": "3",
+        "blockAssists": "10",
+        "blockingErrors": "0",
+        "totalBlocks": "8"
+      }
+    }
+  ]
+}

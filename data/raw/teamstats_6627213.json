@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627213,
+  "title": "WVB Boxscore",
+  "description": "George Washington vs Fordham",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46548",
+      "seoname": "george-washington",
+      "name6Char": "G WASH",
+      "nameFull": "George Washington University",
+      "nameShort": "George Washington",
+      "teamName": "Revolutionaries",
+      "color": "#041E42"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46302",
+      "seoname": "fordham",
+      "name6Char": "FORDHM",
+      "nameFull": "Fordham University",
+      "nameShort": "Fordham",
+      "teamName": "Rams",
+      "color": "#6F263D"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46548,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "111",
+        "kills": "65",
+        "attackErrors": "31",
+        "attackAttempts": "175",
+        "hittingPercentage": "0.194",
+        "assists": "59",
+        "setErrors": "0",
+        "setAttempts": "168",
+        "serviceAces": "9",
+        "serviceErrors": "17",
+        "serveAttempts": "112",
+        "digs": "69",
+        "receptionAttempts": "96",
+        "receptionErrors": "7",
+        "blockSolos": "6",
+        "blockAssists": "14",
+        "blockingErrors": "0",
+        "totalBlocks": "13"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46302,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "108",
+        "kills": "53",
+        "attackErrors": "26",
+        "attackAttempts": "164",
+        "hittingPercentage": "0.165",
+        "assists": "48",
+        "setErrors": "0",
+        "setAttempts": "154",
+        "serviceAces": "7",
+        "serviceErrors": "11",
+        "serveAttempts": "107",
+        "digs": "64",
+        "receptionAttempts": "95",
+        "receptionErrors": "9",
+        "blockSolos": "2",
+        "blockAssists": "16",
+        "blockingErrors": "0",
+        "totalBlocks": "10"
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624796,
+  "title": "WVB Boxscore",
+  "description": "App State vs Louisiana",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46571",
+      "seoname": "appalachian-st",
+      "name6Char": "APP ST",
+      "nameFull": "Appalachian State University",
+      "nameShort": "App State",
+      "teamName": "Mountaineers",
+      "color": "#010101"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46003",
+      "seoname": "la-lafayette",
+      "name6Char": "LA",
+      "nameFull": "University of Louisiana at Lafayette",
+      "nameShort": "Louisiana",
+      "teamName": "Ragin' Cajuns",
+      "color": "#C8102E"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46571,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "91",
+        "kills": "55",
+        "attackErrors": "26",
+        "attackAttempts": "147",
+        "hittingPercentage": "0.197",
+        "assists": "47",
+        "setErrors": "3",
+        "setAttempts": "146",
+        "serviceAces": "9",
+        "serviceErrors": "3",
+        "serveAttempts": "92",
+        "digs": "62",
+        "receptionAttempts": "86",
+        "receptionErrors": "7",
+        "blockSolos": "1",
+        "blockAssists": "20",
+        "blockingErrors": "0",
+        "totalBlocks": "11"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46003,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "96",
+        "kills": "57",
+        "attackErrors": "17",
+        "attackAttempts": "155",
+        "hittingPercentage": "0.258",
+        "assists": "54",
+        "setErrors": "0",
+        "setAttempts": "160",
+        "serviceAces": "7",
+        "serviceErrors": "9",
+        "serveAttempts": "95",
+        "digs": "53",
+        "receptionAttempts": "89",
+        "receptionErrors": "9",
+        "blockSolos": "1",
+        "blockAssists": "22",
+        "blockingErrors": "0",
+        "totalBlocks": "12"
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626575,
+  "title": "WVB Boxscore",
+  "description": "West Virginia vs Arizona",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46511",
+      "seoname": "west-virginia",
+      "name6Char": "WVU",
+      "nameFull": "West Virginia University",
+      "nameShort": "West Virginia",
+      "teamName": "Mountaineers",
+      "color": "#0F2D52"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46211",
+      "seoname": "arizona",
+      "name6Char": "ARIZ",
+      "nameFull": "University of Arizona",
+      "nameShort": "Arizona",
+      "teamName": "Wildcats",
+      "color": "#00205B"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46511,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "98",
+        "kills": "64",
+        "attackErrors": "12",
+        "attackAttempts": "139",
+        "hittingPercentage": "0.374",
+        "assists": "59",
+        "setErrors": "0",
+        "setAttempts": "135",
+        "serviceAces": "9",
+        "serviceErrors": "8",
+        "serveAttempts": "97",
+        "digs": "64",
+        "receptionAttempts": "68",
+        "receptionErrors": "8",
+        "blockSolos": "0",
+        "blockAssists": "12",
+        "blockingErrors": "2",
+        "totalBlocks": "6"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46211,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "78",
+        "kills": "50",
+        "attackErrors": "13",
+        "attackAttempts": "133",
+        "hittingPercentage": "0.278",
+        "assists": "46",
+        "setErrors": "1",
+        "setAttempts": "134",
+        "serviceAces": "8",
+        "serviceErrors": "11",
+        "serveAttempts": "79",
+        "digs": "51",
+        "receptionAttempts": "89",
+        "receptionErrors": "9",
+        "blockSolos": "0",
+        "blockAssists": "6",
+        "blockingErrors": "0",
+        "totalBlocks": "3"
+      }
+    }
+  ]
+}

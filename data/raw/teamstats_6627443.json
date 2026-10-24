@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627443,
+  "title": "WVB Boxscore",
+  "description": "Tennessee St. vs Morehead St.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45872",
+      "seoname": "tennessee-st",
+      "name6Char": "TENNST",
+      "nameFull": "Tennessee State University",
+      "nameShort": "Tennessee St.",
+      "teamName": "Lady Tigers",
+      "color": "#272E63"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46341",
+      "seoname": "morehead-st",
+      "name6Char": "MOREST",
+      "nameFull": "Morehead State University",
+      "nameShort": "Morehead St.",
+      "teamName": "Eagles",
+      "color": "#0032A0"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45872,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "42",
+        "kills": "24",
+        "attackErrors": "11",
+        "attackAttempts": "80",
+        "hittingPercentage": "0.163",
+        "assists": "22",
+        "setErrors": "6",
+        "setAttempts": "91",
+        "serviceAces": "4",
+        "serviceErrors": "5",
+        "serveAttempts": "44",
+        "digs": "29",
+        "receptionAttempts": "70",
+        "receptionErrors": "6",
+        "blockSolos": "3",
+        "blockAssists": "8",
+        "blockingErrors": "0",
+        "totalBlocks": "7"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46341,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "47",
+        "attackErrors": "10",
+        "attackAttempts": "93",
+        "hittingPercentage": "0.398",
+        "assists": "42",
+        "setErrors": "1",
+        "setAttempts": "88",
+        "serviceAces": "6",
+        "serviceErrors": "3",
+        "serveAttempts": "73",
+        "digs": "39",
+        "receptionAttempts": "39",
+        "receptionErrors": "4",
+        "blockSolos": "0",
+        "blockAssists": "4",
+        "blockingErrors": "1",
+        "totalBlocks": "2"
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6639590,
+  "title": "WVB Boxscore",
+  "description": "South Carolina St. vs UMES",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45866",
+      "seoname": "south-carolina-st",
+      "name6Char": "SC ST",
+      "nameFull": "South Carolina State University",
+      "nameShort": "South Carolina St.",
+      "teamName": "Lady Bulldogs",
+      "color": "#862633"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46563",
+      "seoname": "umes",
+      "name6Char": "UMES",
+      "nameFull": "University of Maryland Eastern Shore",
+      "nameShort": "UMES",
+      "teamName": "Hawks",
+      "color": "#5D0024"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45866,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "41",
+        "attackErrors": "15",
+        "attackAttempts": "95",
+        "hittingPercentage": "0.274",
+        "assists": "37",
+        "setErrors": "7",
+        "setAttempts": "97",
+        "serviceAces": "6",
+        "serviceErrors": "5",
+        "serveAttempts": "74",
+        "digs": "42",
+        "receptionAttempts": "49",
+        "receptionErrors": "6",
+        "blockSolos": "7",
+        "blockAssists": "0",
+        "blockingErrors": "3",
+        "totalBlocks": "7"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46563,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "53",
+        "kills": "20",
+        "attackErrors": "21",
+        "attackAttempts": "84",
+        "hittingPercentage": "-0.012",
+        "assists": "20",
+        "setErrors": "2",
+        "setAttempts": "86",
+        "serviceAces": "6",
+        "serviceErrors": "5",
+        "serveAttempts": "54",
+        "digs": "28",
+        "receptionAttempts": "69",
+        "receptionErrors": "6",
+        "blockSolos": "4",
+        "blockAssists": "0",
+        "blockingErrors": "6",
+        "totalBlocks": "4"
+      }
+    }
+  ]
+}

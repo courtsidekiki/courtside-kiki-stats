@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625320,
+  "title": "WVB Boxscore",
+  "description": "New Haven vs Stonehill",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46234",
+      "seoname": "new-haven",
+      "name6Char": "NEWHAV",
+      "nameFull": "University of New Haven",
+      "nameShort": "New Haven",
+      "teamName": "Chargers",
+      "color": "#102B4E"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46366",
+      "seoname": "stonehill",
+      "name6Char": "STONEH",
+      "nameFull": "Stonehill College",
+      "nameShort": "Stonehill",
+      "teamName": "Skyhawks",
+      "color": "#582C83"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46234,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "106",
+        "kills": "57",
+        "attackErrors": "26",
+        "attackAttempts": "130",
+        "hittingPercentage": "0.238",
+        "assists": "50",
+        "setErrors": "4",
+        "setAttempts": "133",
+        "serviceAces": "8",
+        "serviceErrors": "9",
+        "serveAttempts": "106",
+        "digs": "54",
+        "receptionAttempts": "75",
+        "receptionErrors": "8",
+        "blockSolos": "4",
+        "blockAssists": "6",
+        "blockingErrors": "0",
+        "totalBlocks": "7"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46366,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "90",
+        "kills": "43",
+        "attackErrors": "18",
+        "attackAttempts": "124",
+        "hittingPercentage": "0.202",
+        "assists": "38",
+        "setErrors": "8",
+        "setAttempts": "140",
+        "serviceAces": "8",
+        "serviceErrors": "15",
+        "serveAttempts": "90",
+        "digs": "37",
+        "receptionAttempts": "97",
+        "receptionErrors": "8",
+        "blockSolos": "4",
+        "blockAssists": "12",
+        "blockingErrors": "0",
+        "totalBlocks": "10"
+      }
+    }
+  ]
+}

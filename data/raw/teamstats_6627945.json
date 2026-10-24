@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627945,
+  "title": "WVB Boxscore",
+  "description": "Chicago St. vs Le Moyne",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46167",
+      "seoname": "chicago-st",
+      "name6Char": "CHI ST",
+      "nameFull": "Chicago State University",
+      "nameShort": "Chicago St.",
+      "teamName": "Cougars",
+      "color": "#006747"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46684",
+      "seoname": "le-moyne",
+      "name6Char": "LEMOYN",
+      "nameFull": "Le Moyne College",
+      "nameShort": "Le Moyne",
+      "teamName": "Dolphins",
+      "color": "#154734"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46167,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "99",
+        "kills": "57",
+        "attackErrors": "32",
+        "attackAttempts": "149",
+        "hittingPercentage": "0.168",
+        "assists": "46",
+        "setErrors": "3",
+        "setAttempts": "135",
+        "serviceAces": "11",
+        "serviceErrors": "10",
+        "serveAttempts": "100",
+        "digs": "51",
+        "receptionAttempts": "93",
+        "receptionErrors": "12",
+        "blockSolos": "1",
+        "blockAssists": "12",
+        "blockingErrors": "2",
+        "totalBlocks": "7"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46684,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "104",
+        "kills": "47",
+        "attackErrors": "20",
+        "attackAttempts": "128",
+        "hittingPercentage": "0.211",
+        "assists": "44",
+        "setErrors": "1",
+        "setAttempts": "133",
+        "serviceAces": "12",
+        "serviceErrors": "10",
+        "serveAttempts": "103",
+        "digs": "52",
+        "receptionAttempts": "90",
+        "receptionErrors": "11",
+        "blockSolos": "2",
+        "blockAssists": "18",
+        "blockingErrors": "1",
+        "totalBlocks": "11"
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626556,
+  "title": "WVB Boxscore",
+  "description": "Northern Ky. vs Robert Morris",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46608",
+      "seoname": "northern-ky",
+      "name6Char": "N KY",
+      "nameFull": "Northern Kentucky University",
+      "nameShort": "Northern Ky.",
+      "teamName": "Norse",
+      "color": "#010101"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46735",
+      "seoname": "robert-morris",
+      "name6Char": "ROBMOR",
+      "nameFull": "Robert Morris University",
+      "nameShort": "Robert Morris",
+      "teamName": "Colonials",
+      "color": "#041E42"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46608,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "105",
+        "kills": "53",
+        "attackErrors": "25",
+        "attackAttempts": "198",
+        "hittingPercentage": "0.141",
+        "assists": "47",
+        "setErrors": "1",
+        "setAttempts": "186",
+        "serviceAces": "5",
+        "serviceErrors": "7",
+        "serveAttempts": "105",
+        "digs": "101",
+        "receptionAttempts": "95",
+        "receptionErrors": "8",
+        "blockSolos": "3",
+        "blockAssists": "22",
+        "blockingErrors": "2",
+        "totalBlocks": "14"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46735,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "103",
+        "kills": "62",
+        "attackErrors": "35",
+        "attackAttempts": "208",
+        "hittingPercentage": "0.130",
+        "assists": "58",
+        "setErrors": "4",
+        "setAttempts": "197",
+        "serviceAces": "8",
+        "serviceErrors": "8",
+        "serveAttempts": "103",
+        "digs": "111",
+        "receptionAttempts": "98",
+        "receptionErrors": "5",
+        "blockSolos": "1",
+        "blockAssists": "18",
+        "blockingErrors": "0",
+        "totalBlocks": "10"
+      }
+    }
+  ]
+}

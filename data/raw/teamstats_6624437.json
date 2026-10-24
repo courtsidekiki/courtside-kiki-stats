@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624437,
+  "title": "WVB Boxscore",
+  "description": "Western Caro. vs Mercer",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46382",
+      "seoname": "western-caro",
+      "name6Char": "W CAR",
+      "nameFull": "Western Carolina University",
+      "nameShort": "Western Caro.",
+      "teamName": "Catamounts",
+      "color": "#5F259F"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46567",
+      "seoname": "mercer",
+      "name6Char": "MERCER",
+      "nameFull": "Mercer University",
+      "nameShort": "Mercer",
+      "teamName": "Bears",
+      "color": "#E87722"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46382,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "108",
+        "kills": "55",
+        "attackErrors": "19",
+        "attackAttempts": "175",
+        "hittingPercentage": "0.206",
+        "assists": "50",
+        "setErrors": "0",
+        "setAttempts": "164",
+        "serviceAces": "9",
+        "serviceErrors": "12",
+        "serveAttempts": "107",
+        "digs": "72",
+        "receptionAttempts": "91",
+        "receptionErrors": "8",
+        "blockSolos": "1",
+        "blockAssists": "8",
+        "blockingErrors": "2",
+        "totalBlocks": "5"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46567,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "101",
+        "kills": "62",
+        "attackErrors": "28",
+        "attackAttempts": "172",
+        "hittingPercentage": "0.198",
+        "assists": "57",
+        "setErrors": "5",
+        "setAttempts": "178",
+        "serviceAces": "8",
+        "serviceErrors": "11",
+        "serveAttempts": "102",
+        "digs": "85",
+        "receptionAttempts": "95",
+        "receptionErrors": "9",
+        "blockSolos": "0",
+        "blockAssists": "10",
+        "blockingErrors": "1",
+        "totalBlocks": "5"
+      }
+    }
+  ]
+}

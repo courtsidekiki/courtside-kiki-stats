@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628479,
+  "title": "WVB Boxscore",
+  "description": "Charlotte vs Temple",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46232",
+      "seoname": "charlotte",
+      "name6Char": "CHAR",
+      "nameFull": "The University of North Carolina at Charlotte",
+      "nameShort": "Charlotte",
+      "teamName": "49ers",
+      "color": "#124D39"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45871",
+      "seoname": "temple",
+      "name6Char": "TEMPLE",
+      "nameFull": "Temple University",
+      "nameShort": "Temple",
+      "teamName": "Owls",
+      "color": "#b30838"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46232,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "98",
+        "kills": "54",
+        "attackErrors": "22",
+        "attackAttempts": "152",
+        "hittingPercentage": "0.211",
+        "assists": "54",
+        "setErrors": "3",
+        "setAttempts": "160",
+        "serviceAces": "2",
+        "serviceErrors": "6",
+        "serveAttempts": "99",
+        "digs": "57",
+        "receptionAttempts": "91",
+        "receptionErrors": "4",
+        "blockSolos": "3",
+        "blockAssists": "20",
+        "blockingErrors": "4",
+        "totalBlocks": "13"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45871,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "101",
+        "kills": "65",
+        "attackErrors": "29",
+        "attackAttempts": "164",
+        "hittingPercentage": "0.220",
+        "assists": "61",
+        "setErrors": "3",
+        "setAttempts": "168",
+        "serviceAces": "4",
+        "serviceErrors": "9",
+        "serveAttempts": "100",
+        "digs": "67",
+        "receptionAttempts": "93",
+        "receptionErrors": "2",
+        "blockSolos": "1",
+        "blockAssists": "16",
+        "blockingErrors": "2",
+        "totalBlocks": "9"
+      }
+    }
+  ]
+}

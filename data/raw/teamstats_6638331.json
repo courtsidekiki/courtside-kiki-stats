@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6638331,
+  "title": "WVB Boxscore",
+  "description": "North Carolina vs California",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46471",
+      "seoname": "north-carolina",
+      "name6Char": "UNC",
+      "nameFull": "University of North Carolina, Chapel Hill",
+      "nameShort": "North Carolina",
+      "teamName": "Tar Heels",
+      "color": "#7BAFD4"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45760",
+      "seoname": "california",
+      "name6Char": "CAL",
+      "nameFull": "University of California, Berkeley",
+      "nameShort": "California",
+      "teamName": "Golden Bears",
+      "color": "#041E42"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46471,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "100",
+        "kills": "61",
+        "attackErrors": "18",
+        "attackAttempts": "154",
+        "hittingPercentage": "0.279",
+        "assists": "59",
+        "setErrors": "2",
+        "setAttempts": "148",
+        "serviceAces": "1",
+        "serviceErrors": "6",
+        "serveAttempts": "99",
+        "digs": "69",
+        "receptionAttempts": "76",
+        "receptionErrors": "3",
+        "blockSolos": "2",
+        "blockAssists": "20",
+        "blockingErrors": "2",
+        "totalBlocks": "12"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45760,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "85",
+        "kills": "52",
+        "attackErrors": "26",
+        "attackAttempts": "167",
+        "hittingPercentage": "0.156",
+        "assists": "46",
+        "setErrors": "0",
+        "setAttempts": "165",
+        "serviceAces": "3",
+        "serviceErrors": "10",
+        "serveAttempts": "86",
+        "digs": "64",
+        "receptionAttempts": "93",
+        "receptionErrors": "1",
+        "blockSolos": "4",
+        "blockAssists": "10",
+        "blockingErrors": "3",
+        "totalBlocks": "9"
+      }
+    }
+  ]
+}

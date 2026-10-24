@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624286,
+  "title": "WVB Boxscore",
+  "description": "Georgetown vs Seton Hall",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46417",
+      "seoname": "georgetown",
+      "name6Char": "GTOWN",
+      "nameFull": "Georgetown University",
+      "nameShort": "Georgetown",
+      "teamName": "Hoyas",
+      "color": "#141F35"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46495",
+      "seoname": "seton-hall",
+      "name6Char": "SETON",
+      "nameFull": "Seton Hall University",
+      "nameShort": "Seton Hall",
+      "teamName": "Pirates",
+      "color": "#1A5DAD"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46417,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "90",
+        "kills": "43",
+        "attackErrors": "13",
+        "attackAttempts": "138",
+        "hittingPercentage": "0.217",
+        "assists": "39",
+        "setErrors": "2",
+        "setAttempts": "129",
+        "serviceAces": "12",
+        "serviceErrors": "13",
+        "serveAttempts": "91",
+        "digs": "66",
+        "receptionAttempts": "76",
+        "receptionErrors": "7",
+        "blockSolos": "1",
+        "blockAssists": "2",
+        "blockingErrors": "6",
+        "totalBlocks": "2"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46495,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "92",
+        "kills": "57",
+        "attackErrors": "18",
+        "attackAttempts": "148",
+        "hittingPercentage": "0.264",
+        "assists": "55",
+        "setErrors": "2",
+        "setAttempts": "144",
+        "serviceAces": "7",
+        "serviceErrors": "15",
+        "serveAttempts": "91",
+        "digs": "78",
+        "receptionAttempts": "78",
+        "receptionErrors": "12",
+        "blockSolos": "3",
+        "blockAssists": "0",
+        "blockingErrors": "1",
+        "totalBlocks": "3"
+      }
+    }
+  ]
+}

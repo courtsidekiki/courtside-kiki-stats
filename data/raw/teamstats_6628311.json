@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628311,
+  "title": "WVB Boxscore",
+  "description": "Hawaii vs UNLV",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46419",
+      "seoname": "hawaii",
+      "name6Char": "HAWAII",
+      "nameFull": "University of Hawaii, Manoa",
+      "nameShort": "Hawaii",
+      "teamName": "Rainbow Wahine",
+      "color": "#154734"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45973",
+      "seoname": "unlv",
+      "name6Char": "UNLV",
+      "nameFull": "University of Nevada, Las Vegas",
+      "nameShort": "UNLV",
+      "teamName": "Rebels",
+      "color": "#C8102E"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46419,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "38",
+        "attackErrors": "20",
+        "attackAttempts": "123",
+        "hittingPercentage": "0.146",
+        "assists": "36",
+        "setErrors": "0",
+        "setAttempts": "118",
+        "serviceAces": "2",
+        "serviceErrors": "5",
+        "serveAttempts": "73",
+        "digs": "51",
+        "receptionAttempts": "56",
+        "receptionErrors": "0",
+        "blockSolos": "1",
+        "blockAssists": "16",
+        "blockingErrors": "1",
+        "totalBlocks": "9"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45973,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "64",
+        "kills": "39",
+        "attackErrors": "23",
+        "attackAttempts": "125",
+        "hittingPercentage": "0.128",
+        "assists": "37",
+        "setErrors": "2",
+        "setAttempts": "119",
+        "serviceAces": "0",
+        "serviceErrors": "10",
+        "serveAttempts": "66",
+        "digs": "50",
+        "receptionAttempts": "68",
+        "receptionErrors": "2",
+        "blockSolos": "1",
+        "blockAssists": "12",
+        "blockingErrors": "1",
+        "totalBlocks": "7"
+      }
+    }
+  ]
+}

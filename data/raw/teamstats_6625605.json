@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625605,
+  "title": "WVB Boxscore",
+  "description": "Middle Tenn. vs New Mexico St.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46067",
+      "seoname": "middle-tenn",
+      "name6Char": "MIDTEN",
+      "nameFull": "Middle Tennessee State University",
+      "nameShort": "Middle Tenn.",
+      "teamName": "Blue Raiders",
+      "color": "#006FAB"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46605",
+      "seoname": "new-mexico-st",
+      "name6Char": "NM ST",
+      "nameFull": "New Mexico State University",
+      "nameShort": "New Mexico St.",
+      "teamName": "Aggies",
+      "color": "#891619"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46067,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "78",
+        "kills": "42",
+        "attackErrors": "10",
+        "attackAttempts": "107",
+        "hittingPercentage": "0.299",
+        "assists": "39",
+        "setErrors": "1",
+        "setAttempts": "104",
+        "serviceAces": "5",
+        "serviceErrors": "7",
+        "serveAttempts": "77",
+        "digs": "46",
+        "receptionAttempts": "63",
+        "receptionErrors": "6",
+        "blockSolos": "2",
+        "blockAssists": "16",
+        "blockingErrors": "2",
+        "totalBlocks": "10"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46605,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "68",
+        "kills": "44",
+        "attackErrors": "24",
+        "attackAttempts": "128",
+        "hittingPercentage": "0.156",
+        "assists": "41",
+        "setErrors": "1",
+        "setAttempts": "125",
+        "serviceAces": "6",
+        "serviceErrors": "6",
+        "serveAttempts": "69",
+        "digs": "49",
+        "receptionAttempts": "70",
+        "receptionErrors": "5",
+        "blockSolos": "0",
+        "blockAssists": "12",
+        "blockingErrors": "4",
+        "totalBlocks": "6"
+      }
+    }
+  ]
+}

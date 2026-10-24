@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628163,
+  "title": "WVB Boxscore",
+  "description": "Kent St. vs Eastern Mich.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46558",
+      "seoname": "kent-st",
+      "name6Char": "KENT",
+      "nameFull": "Kent State University",
+      "nameShort": "Kent St.",
+      "teamName": "Golden Flashes",
+      "color": "#003976"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46179",
+      "seoname": "eastern-mich",
+      "name6Char": "E MICH",
+      "nameFull": "Eastern Michigan University",
+      "nameShort": "Eastern Mich.",
+      "teamName": "Eagles",
+      "color": "#046A38"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46558,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "106",
+        "kills": "56",
+        "attackErrors": "21",
+        "attackAttempts": "180",
+        "hittingPercentage": "0.194",
+        "assists": "53",
+        "setErrors": "1",
+        "setAttempts": "171",
+        "serviceAces": "8",
+        "serviceErrors": "10",
+        "serveAttempts": "106",
+        "digs": "84",
+        "receptionAttempts": "78",
+        "receptionErrors": "6",
+        "blockSolos": "3",
+        "blockAssists": "20",
+        "blockingErrors": "0",
+        "totalBlocks": "13"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46179,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "86",
+        "kills": "48",
+        "attackErrors": "32",
+        "attackAttempts": "175",
+        "hittingPercentage": "0.091",
+        "assists": "47",
+        "setErrors": "2",
+        "setAttempts": "172",
+        "serviceAces": "6",
+        "serviceErrors": "8",
+        "serveAttempts": "86",
+        "digs": "89",
+        "receptionAttempts": "96",
+        "receptionErrors": "8",
+        "blockSolos": "0",
+        "blockAssists": "6",
+        "blockingErrors": "0",
+        "totalBlocks": "3"
+      }
+    }
+  ]
+}

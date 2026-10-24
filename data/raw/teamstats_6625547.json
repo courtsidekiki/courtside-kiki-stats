@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625547,
+  "title": "WVB Boxscore",
+  "description": "Fla. Atlantic vs Memphis",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45773",
+      "seoname": "fla-atlantic",
+      "name6Char": "FAU",
+      "nameFull": "Florida Atlantic University",
+      "nameShort": "Fla. Atlantic",
+      "teamName": "Owls",
+      "color": "#002855"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46688",
+      "seoname": "memphis",
+      "name6Char": "MEM",
+      "nameFull": "University of Memphis",
+      "nameShort": "Memphis",
+      "teamName": "Tigers",
+      "color": "#173B70"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45773,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "111",
+        "kills": "70",
+        "attackErrors": "22",
+        "attackAttempts": "164",
+        "hittingPercentage": "0.293",
+        "assists": "68",
+        "setErrors": "0",
+        "setAttempts": "149",
+        "serviceAces": "6",
+        "serviceErrors": "14",
+        "serveAttempts": "111",
+        "digs": "55",
+        "receptionAttempts": "93",
+        "receptionErrors": "8",
+        "blockSolos": "3",
+        "blockAssists": "12",
+        "blockingErrors": "1",
+        "totalBlocks": "9"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46688,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "103",
+        "kills": "59",
+        "attackErrors": "25",
+        "attackAttempts": "143",
+        "hittingPercentage": "0.238",
+        "assists": "58",
+        "setErrors": "0",
+        "setAttempts": "138",
+        "serviceAces": "8",
+        "serviceErrors": "10",
+        "serveAttempts": "103",
+        "digs": "60",
+        "receptionAttempts": "97",
+        "receptionErrors": "6",
+        "blockSolos": "4",
+        "blockAssists": "8",
+        "blockingErrors": "4",
+        "totalBlocks": "8"
+      }
+    }
+  ]
+}

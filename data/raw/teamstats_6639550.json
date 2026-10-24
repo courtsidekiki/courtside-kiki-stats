@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6639550,
+  "title": "WVB Boxscore",
+  "description": "Towson vs Hampton",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46128",
+      "seoname": "towson",
+      "name6Char": "TOWSON",
+      "nameFull": "Towson University",
+      "nameShort": "Towson",
+      "teamName": "Tigers",
+      "color": "#010101"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46679",
+      "seoname": "hampton",
+      "name6Char": "HAMPTN",
+      "nameFull": "Hampton University",
+      "nameShort": "Hampton",
+      "teamName": "Lady Pirates",
+      "color": "#0033A0"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46128,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "49",
+        "attackErrors": "14",
+        "attackAttempts": "102",
+        "hittingPercentage": "0.343",
+        "assists": "45",
+        "setErrors": "1",
+        "setAttempts": "102",
+        "serviceAces": "7",
+        "serviceErrors": "7",
+        "serveAttempts": "74",
+        "digs": "36",
+        "receptionAttempts": "56",
+        "receptionErrors": "5",
+        "blockSolos": "1",
+        "blockAssists": "7",
+        "blockingErrors": "3",
+        "totalBlocks": "4"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46679,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "60",
+        "kills": "33",
+        "attackErrors": "11",
+        "attackAttempts": "89",
+        "hittingPercentage": "0.247",
+        "assists": "32",
+        "setErrors": "3",
+        "setAttempts": "96",
+        "serviceAces": "5",
+        "serviceErrors": "5",
+        "serveAttempts": "61",
+        "digs": "30",
+        "receptionAttempts": "67",
+        "receptionErrors": "7",
+        "blockSolos": "1",
+        "blockAssists": "10",
+        "blockingErrors": "2",
+        "totalBlocks": "6"
+      }
+    }
+  ]
+}
