@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627285,
+  "title": "WVB Boxscore",
+  "description": "Coastal Carolina vs Georgia St.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46170",
+      "seoname": "coastal-caro",
+      "name6Char": "CO CAR",
+      "nameFull": "Coastal Carolina University",
+      "nameShort": "Coastal Carolina",
+      "teamName": "Chanticleers",
+      "color": "#007377"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46676",
+      "seoname": "georgia-st",
+      "name6Char": "GA ST",
+      "nameFull": "Georgia State University",
+      "nameShort": "Georgia St.",
+      "teamName": "Panthers",
+      "color": "#264391"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46170,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "76",
+        "kills": "38",
+        "attackErrors": "20",
+        "attackAttempts": "104",
+        "hittingPercentage": "0.173",
+        "assists": "36",
+        "setErrors": "2",
+        "setAttempts": "105",
+        "serviceAces": "11",
+        "serviceErrors": "9",
+        "serveAttempts": "74",
+        "digs": "53",
+        "receptionAttempts": "50",
+        "receptionErrors": "4",
+        "blockSolos": "2",
+        "blockAssists": "20",
+        "blockingErrors": "0",
+        "totalBlocks": "12"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46676,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "56",
+        "kills": "20",
+        "attackErrors": "18",
+        "attackAttempts": "96",
+        "hittingPercentage": "0.021",
+        "assists": "19",
+        "setErrors": "1",
+        "setAttempts": "100",
+        "serviceAces": "4",
+        "serviceErrors": "8",
+        "serveAttempts": "58",
+        "digs": "37",
+        "receptionAttempts": "65",
+        "receptionErrors": "11",
+        "blockSolos": "0",
+        "blockAssists": "10",
+        "blockingErrors": "0",
+        "totalBlocks": "5"
+      }
+    }
+  ]
+}

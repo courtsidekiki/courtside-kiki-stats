@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624742,
+  "title": "WVB Boxscore",
+  "description": "Milwaukee vs Purdue Fort Wayne",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45953",
+      "seoname": "milwaukee",
+      "name6Char": "MILWKE",
+      "nameFull": "University of Wisconsin-Milwaukee",
+      "nameShort": "Milwaukee",
+      "teamName": "Panthers",
+      "color": "#010101"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45781",
+      "seoname": "ipfw",
+      "name6Char": "IPFW",
+      "nameFull": "Purdue University Fort Wayne",
+      "nameShort": "Purdue Fort Wayne",
+      "teamName": "Mastodons",
+      "color": "#1f3d7c"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45953,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "51",
+        "attackErrors": "13",
+        "attackAttempts": "95",
+        "hittingPercentage": "0.400",
+        "assists": "45",
+        "setErrors": "1",
+        "setAttempts": "87",
+        "serviceAces": "2",
+        "serviceErrors": "5",
+        "serveAttempts": "74",
+        "digs": "31",
+        "receptionAttempts": "55",
+        "receptionErrors": "5",
+        "blockSolos": "2",
+        "blockAssists": "4",
+        "blockingErrors": "0",
+        "totalBlocks": "4"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45781,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "61",
+        "kills": "37",
+        "attackErrors": "14",
+        "attackAttempts": "89",
+        "hittingPercentage": "0.258",
+        "assists": "37",
+        "setErrors": "1",
+        "setAttempts": "95",
+        "serviceAces": "5",
+        "serviceErrors": "7",
+        "serveAttempts": "62",
+        "digs": "29",
+        "receptionAttempts": "69",
+        "receptionErrors": "2",
+        "blockSolos": "2",
+        "blockAssists": "8",
+        "blockingErrors": "2",
+        "totalBlocks": "6"
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628140,
+  "title": "WVB Boxscore",
+  "description": "Southeastern La. vs A&M-Corpus Christi",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46622",
+      "seoname": "southeastern-la",
+      "name6Char": "SE LA",
+      "nameFull": "Southeastern Louisiana University",
+      "nameShort": "Southeastern La.",
+      "teamName": "Lady Lions",
+      "color": "#1D4C30"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46137",
+      "seoname": "am-corpus-chris",
+      "name6Char": "TAMUCC",
+      "nameFull": "Texas A&M University-Corpus Christi",
+      "nameShort": "A&M-Corpus Christi",
+      "teamName": "Islanders",
+      "color": "#007AC1"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46622,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "92",
+        "kills": "58",
+        "attackErrors": "17",
+        "attackAttempts": "135",
+        "hittingPercentage": "0.304",
+        "assists": "55",
+        "setErrors": "1",
+        "setAttempts": "137",
+        "serviceAces": "9",
+        "serviceErrors": "3",
+        "serveAttempts": "91",
+        "digs": "52",
+        "receptionAttempts": "79",
+        "receptionErrors": "6",
+        "blockSolos": "3",
+        "blockAssists": "12",
+        "blockingErrors": "0",
+        "totalBlocks": "9"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46137,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "84",
+        "kills": "57",
+        "attackErrors": "17",
+        "attackAttempts": "134",
+        "hittingPercentage": "0.299",
+        "assists": "54",
+        "setErrors": "2",
+        "setAttempts": "141",
+        "serviceAces": "6",
+        "serviceErrors": "6",
+        "serveAttempts": "85",
+        "digs": "54",
+        "receptionAttempts": "88",
+        "receptionErrors": "9",
+        "blockSolos": "1",
+        "blockAssists": "12",
+        "blockingErrors": "0",
+        "totalBlocks": "7"
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624927,
+  "title": "WVB Boxscore",
+  "description": "Western Mich. vs Buffalo",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45950",
+      "seoname": "western-mich",
+      "name6Char": "W MICH",
+      "nameFull": "Western Michigan University",
+      "nameShort": "Western Mich.",
+      "teamName": "Broncos",
+      "color": "#511B00"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46444",
+      "seoname": "buffalo",
+      "name6Char": "BUFF",
+      "nameFull": "University at Buffalo, the State University of New York",
+      "nameShort": "Buffalo",
+      "teamName": "Bulls",
+      "color": "#0057B8"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45950,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "106",
+        "kills": "61",
+        "attackErrors": "13",
+        "attackAttempts": "151",
+        "hittingPercentage": "0.318",
+        "assists": "53",
+        "setErrors": "0",
+        "setAttempts": "139",
+        "serviceAces": "6",
+        "serviceErrors": "12",
+        "serveAttempts": "106",
+        "digs": "68",
+        "receptionAttempts": "79",
+        "receptionErrors": "7",
+        "blockSolos": "1",
+        "blockAssists": "12",
+        "blockingErrors": "3",
+        "totalBlocks": "7"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46444,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "94",
+        "kills": "62",
+        "attackErrors": "24",
+        "attackAttempts": "169",
+        "hittingPercentage": "0.225",
+        "assists": "57",
+        "setErrors": "0",
+        "setAttempts": "159",
+        "serviceAces": "7",
+        "serviceErrors": "15",
+        "serveAttempts": "94",
+        "digs": "70",
+        "receptionAttempts": "94",
+        "receptionErrors": "6",
+        "blockSolos": "2",
+        "blockAssists": "6",
+        "blockingErrors": "3",
+        "totalBlocks": "5"
+      }
+    }
+  ]
+}

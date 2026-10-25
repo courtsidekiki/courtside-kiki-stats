@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628502,
+  "title": "WVB Boxscore",
+  "description": "Bellarmine vs FGCU",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46573",
+      "seoname": "bellarmine",
+      "name6Char": "BELLAR",
+      "nameFull": "Bellarmine University",
+      "nameShort": "Bellarmine",
+      "teamName": "Knights",
+      "color": "#772f40"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46138",
+      "seoname": "fgcu",
+      "name6Char": "FGCU",
+      "nameFull": "Florida Gulf Coast University",
+      "nameShort": "FGCU",
+      "teamName": "Eagles",
+      "color": "#002D72"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46573,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "113",
+        "kills": "65",
+        "attackErrors": "23",
+        "attackAttempts": "160",
+        "hittingPercentage": "0.263",
+        "assists": "61",
+        "setErrors": "1",
+        "setAttempts": "155",
+        "serviceAces": "9",
+        "serviceErrors": "16",
+        "serveAttempts": "113",
+        "digs": "50",
+        "receptionAttempts": "95",
+        "receptionErrors": "7",
+        "blockSolos": "2",
+        "blockAssists": "12",
+        "blockingErrors": "0",
+        "totalBlocks": "8"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46138,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "108",
+        "kills": "61",
+        "attackErrors": "26",
+        "attackAttempts": "141",
+        "hittingPercentage": "0.248",
+        "assists": "57",
+        "setErrors": "0",
+        "setAttempts": "136",
+        "serviceAces": "7",
+        "serviceErrors": "13",
+        "serveAttempts": "108",
+        "digs": "58",
+        "receptionAttempts": "97",
+        "receptionErrors": "9",
+        "blockSolos": "1",
+        "blockAssists": "18",
+        "blockingErrors": "2",
+        "totalBlocks": "10"
+      }
+    }
+  ]
+}

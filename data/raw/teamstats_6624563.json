@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624563,
+  "title": "WVB Boxscore",
+  "description": "Lamar University vs East Texas A&M",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45922",
+      "seoname": "lamar",
+      "name6Char": "LAMAR",
+      "nameFull": "Lamar University",
+      "nameShort": "Lamar University",
+      "teamName": "Cardinals",
+      "color": "#D50032"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45903",
+      "seoname": "tex-am-commerce",
+      "name6Char": "TAMUCO",
+      "nameFull": "East Texas A&M University",
+      "nameShort": "East Texas A&M",
+      "teamName": "Lions",
+      "color": "#00205B"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45922,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "42",
+        "attackErrors": "11",
+        "attackAttempts": "116",
+        "hittingPercentage": "0.267",
+        "assists": "42",
+        "setErrors": "1",
+        "setAttempts": "115",
+        "serviceAces": "6",
+        "serviceErrors": "8",
+        "serveAttempts": "74",
+        "digs": "56",
+        "receptionAttempts": "53",
+        "receptionErrors": "3",
+        "blockSolos": "2",
+        "blockAssists": "6",
+        "blockingErrors": "4",
+        "totalBlocks": "5"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45903,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "57",
+        "kills": "34",
+        "attackErrors": "22",
+        "attackAttempts": "119",
+        "hittingPercentage": "0.101",
+        "assists": "32",
+        "setErrors": "0",
+        "setAttempts": "110",
+        "serviceAces": "3",
+        "serviceErrors": "5",
+        "serveAttempts": "58",
+        "digs": "55",
+        "receptionAttempts": "66",
+        "receptionErrors": "6",
+        "blockSolos": "3",
+        "blockAssists": "0",
+        "blockingErrors": "1",
+        "totalBlocks": "3"
+      }
+    }
+  ]
+}

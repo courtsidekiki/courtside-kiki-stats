@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628565,
+  "title": "WVB Boxscore",
+  "description": "Merrimack vs Rider",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46433",
+      "seoname": "merrimack",
+      "name6Char": "MERMCK",
+      "nameFull": "Merrimack College",
+      "nameShort": "Merrimack",
+      "teamName": "Warriors",
+      "color": "#003057"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45990",
+      "seoname": "rider",
+      "name6Char": "RIDER",
+      "nameFull": "Rider University",
+      "nameShort": "Rider",
+      "teamName": "Broncs",
+      "color": "#9D2235"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46433,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "76",
+        "kills": "43",
+        "attackErrors": "18",
+        "attackAttempts": "162",
+        "hittingPercentage": "0.154",
+        "assists": "41",
+        "setErrors": "2",
+        "setAttempts": "162",
+        "serviceAces": "3",
+        "serviceErrors": "10",
+        "serveAttempts": "77",
+        "digs": "65",
+        "receptionAttempts": "88",
+        "receptionErrors": "9",
+        "blockSolos": "1",
+        "blockAssists": "10",
+        "blockingErrors": "0",
+        "totalBlocks": "6"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45990,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "98",
+        "kills": "59",
+        "attackErrors": "20",
+        "attackAttempts": "151",
+        "hittingPercentage": "0.258",
+        "assists": "54",
+        "setErrors": "1",
+        "setAttempts": "145",
+        "serviceAces": "9",
+        "serviceErrors": "9",
+        "serveAttempts": "97",
+        "digs": "78",
+        "receptionAttempts": "67",
+        "receptionErrors": "3",
+        "blockSolos": "0",
+        "blockAssists": "14",
+        "blockingErrors": "0",
+        "totalBlocks": "7"
+      }
+    }
+  ]
+}

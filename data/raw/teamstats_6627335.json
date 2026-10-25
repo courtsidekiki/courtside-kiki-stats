@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627335,
+  "title": "WVB Boxscore",
+  "description": "Houston Christian vs McNeese",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "51287",
+      "seoname": "houston-christian",
+      "name6Char": "HOUCHR",
+      "nameFull": "Houston Christian University",
+      "nameShort": "Houston Christian",
+      "teamName": "Huskies",
+      "color": "#002F87"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46201",
+      "seoname": "mcneese",
+      "name6Char": "MCNEES",
+      "nameFull": "McNeese State University",
+      "nameShort": "McNeese",
+      "teamName": "Cowgirls",
+      "color": "#003087"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 51287,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "102",
+        "kills": "54",
+        "attackErrors": "24",
+        "attackAttempts": "158",
+        "hittingPercentage": "0.190",
+        "assists": "48",
+        "setErrors": "4",
+        "setAttempts": "157",
+        "serviceAces": "7",
+        "serviceErrors": "6",
+        "serveAttempts": "101",
+        "digs": "70",
+        "receptionAttempts": "78",
+        "receptionErrors": "6",
+        "blockSolos": "5",
+        "blockAssists": "20",
+        "blockingErrors": "0",
+        "totalBlocks": "15"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46201,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "81",
+        "kills": "40",
+        "attackErrors": "34",
+        "attackAttempts": "156",
+        "hittingPercentage": "0.038",
+        "assists": "37",
+        "setErrors": "3",
+        "setAttempts": "159",
+        "serviceAces": "6",
+        "serviceErrors": "4",
+        "serveAttempts": "82",
+        "digs": "64",
+        "receptionAttempts": "95",
+        "receptionErrors": "7",
+        "blockSolos": "2",
+        "blockAssists": "12",
+        "blockingErrors": "0",
+        "totalBlocks": "8"
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625445,
+  "title": "WVB Boxscore",
+  "description": "LSU New Orleans  vs UTRGV",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46726",
+      "seoname": "new-orleans",
+      "name6Char": "UNO",
+      "nameFull": "LSU New Orleans",
+      "nameShort": "LSU New Orleans ",
+      "teamName": "Privateers",
+      "color": "#0057B8"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45984",
+      "seoname": "utrgv",
+      "name6Char": "UTRGV",
+      "nameFull": "The University of Texas Rio Grande Valley",
+      "nameShort": "UTRGV",
+      "teamName": "Vaqueros",
+      "color": "#FF4D00"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46726,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "83",
+        "kills": "52",
+        "attackErrors": "24",
+        "attackAttempts": "148",
+        "hittingPercentage": "0.189",
+        "assists": "49",
+        "setErrors": "4",
+        "setAttempts": "146",
+        "serviceAces": "4",
+        "serviceErrors": "7",
+        "serveAttempts": "84",
+        "digs": "45",
+        "receptionAttempts": "91",
+        "receptionErrors": "1",
+        "blockSolos": "1",
+        "blockAssists": "14",
+        "blockingErrors": "1",
+        "totalBlocks": "8"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45984,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "101",
+        "kills": "65",
+        "attackErrors": "17",
+        "attackAttempts": "136",
+        "hittingPercentage": "0.353",
+        "assists": "62",
+        "setErrors": "1",
+        "setAttempts": "129",
+        "serviceAces": "1",
+        "serviceErrors": "9",
+        "serveAttempts": "100",
+        "digs": "61",
+        "receptionAttempts": "77",
+        "receptionErrors": "4",
+        "blockSolos": "3",
+        "blockAssists": "18",
+        "blockingErrors": "2",
+        "totalBlocks": "12"
+      }
+    }
+  ]
+}

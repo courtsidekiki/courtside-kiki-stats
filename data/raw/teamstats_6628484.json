@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628484,
+  "title": "WVB Boxscore",
+  "description": "Western Ky. vs Kennesaw St.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46634",
+      "seoname": "western-ky",
+      "name6Char": "W KY",
+      "nameFull": "Western Kentucky University",
+      "nameShort": "Western Ky.",
+      "teamName": "Lady Toppers",
+      "color": "#C8102E"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45832",
+      "seoname": "kennesaw-st",
+      "name6Char": "KENSAW",
+      "nameFull": "Kennesaw State University",
+      "nameShort": "Kennesaw St.",
+      "teamName": "Owls",
+      "color": "#010101"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46634,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "97",
+        "kills": "48",
+        "attackErrors": "6",
+        "attackAttempts": "99",
+        "hittingPercentage": "0.424",
+        "assists": "46",
+        "setErrors": "2",
+        "setAttempts": "103",
+        "serviceAces": "8",
+        "serviceErrors": "12",
+        "serveAttempts": "96",
+        "digs": "42",
+        "receptionAttempts": "60",
+        "receptionErrors": "6",
+        "blockSolos": "0",
+        "blockAssists": "22",
+        "blockingErrors": "1",
+        "totalBlocks": "11"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45832,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "71",
+        "kills": "45",
+        "attackErrors": "29",
+        "attackAttempts": "125",
+        "hittingPercentage": "0.128",
+        "assists": "42",
+        "setErrors": "0",
+        "setAttempts": "125",
+        "serviceAces": "6",
+        "serviceErrors": "12",
+        "serveAttempts": "72",
+        "digs": "38",
+        "receptionAttempts": "84",
+        "receptionErrors": "8",
+        "blockSolos": "1",
+        "blockAssists": "6",
+        "blockingErrors": "4",
+        "totalBlocks": "4"
+      }
+    }
+  ]
+}

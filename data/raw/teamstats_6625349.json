@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625349,
+  "title": "WVB Boxscore",
+  "description": "Ga. Southern vs James Madison",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45910",
+      "seoname": "ga-southern",
+      "name6Char": "GA SOU",
+      "nameFull": "Georgia Southern University",
+      "nameShort": "Ga. Southern",
+      "teamName": "Eagles",
+      "color": "#041E42"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45785",
+      "seoname": "james-madison",
+      "name6Char": "JMU",
+      "nameFull": "James Madison University",
+      "nameShort": "James Madison",
+      "teamName": "Dukes",
+      "color": "#330072"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45910,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "95",
+        "kills": "54",
+        "attackErrors": "16",
+        "attackAttempts": "130",
+        "hittingPercentage": "0.292",
+        "assists": "54",
+        "setErrors": "0",
+        "setAttempts": "132",
+        "serviceAces": "4",
+        "serviceErrors": "10",
+        "serveAttempts": "94",
+        "digs": "54",
+        "receptionAttempts": "75",
+        "receptionErrors": "4",
+        "blockSolos": "1",
+        "blockAssists": "16",
+        "blockingErrors": "0",
+        "totalBlocks": "9"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45785,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "83",
+        "kills": "53",
+        "attackErrors": "26",
+        "attackAttempts": "144",
+        "hittingPercentage": "0.188",
+        "assists": "49",
+        "setErrors": "2",
+        "setAttempts": "143",
+        "serviceAces": "4",
+        "serviceErrors": "9",
+        "serveAttempts": "84",
+        "digs": "49",
+        "receptionAttempts": "84",
+        "receptionErrors": "4",
+        "blockSolos": "3",
+        "blockAssists": "4",
+        "blockingErrors": "1",
+        "totalBlocks": "5"
+      }
+    }
+  ]
+}

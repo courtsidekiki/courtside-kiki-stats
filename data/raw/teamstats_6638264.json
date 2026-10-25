@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6638264,
+  "title": "WVB Boxscore",
+  "description": "Miami (OH) vs Akron",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45931",
+      "seoname": "miami-oh",
+      "name6Char": "MIA OH",
+      "nameFull": "Miami University (Ohio)",
+      "nameShort": "Miami (OH)",
+      "teamName": "RedHawks",
+      "color": "#C8102E"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46692",
+      "seoname": "akron",
+      "name6Char": "AKRON",
+      "nameFull": "University of Akron",
+      "nameShort": "Akron",
+      "teamName": "Zips",
+      "color": "#0F192B"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45931,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "108",
+        "kills": "57",
+        "attackErrors": "21",
+        "attackAttempts": "161",
+        "hittingPercentage": "0.224",
+        "assists": "48",
+        "setErrors": "2",
+        "setAttempts": "157",
+        "serviceAces": "8",
+        "serviceErrors": "11",
+        "serveAttempts": "108",
+        "digs": "65",
+        "receptionAttempts": "90",
+        "receptionErrors": "4",
+        "blockSolos": "0",
+        "blockAssists": "12",
+        "blockingErrors": "2",
+        "totalBlocks": "6"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46692,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "99",
+        "kills": "61",
+        "attackErrors": "30",
+        "attackAttempts": "169",
+        "hittingPercentage": "0.183",
+        "assists": "58",
+        "setErrors": "4",
+        "setAttempts": "165",
+        "serviceAces": "4",
+        "serviceErrors": "9",
+        "serveAttempts": "99",
+        "digs": "71",
+        "receptionAttempts": "97",
+        "receptionErrors": "8",
+        "blockSolos": "2",
+        "blockAssists": "14",
+        "blockingErrors": "1",
+        "totalBlocks": "9"
+      }
+    }
+  ]
+}

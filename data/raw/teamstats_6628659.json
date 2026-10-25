@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628659,
+  "title": "WVB Boxscore",
+  "description": "Sacred Heart vs Manhattan",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46737",
+      "seoname": "sacred-heart",
+      "name6Char": "SACHRT",
+      "nameFull": "Sacred Heart University",
+      "nameShort": "Sacred Heart",
+      "teamName": "Pioneers",
+      "color": "#BA0C2F"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46198",
+      "seoname": "manhattan",
+      "name6Char": "MANHAT",
+      "nameFull": "Manhattan University",
+      "nameShort": "Manhattan",
+      "teamName": "Jaspers",
+      "color": "#046A38"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46737,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "46",
+        "attackErrors": "17",
+        "attackAttempts": "108",
+        "hittingPercentage": "0.269",
+        "assists": "43",
+        "setErrors": "0",
+        "setAttempts": "98",
+        "serviceAces": "5",
+        "serviceErrors": "11",
+        "serveAttempts": "73",
+        "digs": "45",
+        "receptionAttempts": "54",
+        "receptionErrors": "4",
+        "blockSolos": "0",
+        "blockAssists": "8",
+        "blockingErrors": "0",
+        "totalBlocks": "4"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46198,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "58",
+        "kills": "26",
+        "attackErrors": "16",
+        "attackAttempts": "96",
+        "hittingPercentage": "0.104",
+        "assists": "24",
+        "setErrors": "2",
+        "setAttempts": "92",
+        "serviceAces": "4",
+        "serviceErrors": "6",
+        "serveAttempts": "60",
+        "digs": "39",
+        "receptionAttempts": "62",
+        "receptionErrors": "5",
+        "blockSolos": "1",
+        "blockAssists": "16",
+        "blockingErrors": "3",
+        "totalBlocks": "9"
+      }
+    }
+  ]
+}

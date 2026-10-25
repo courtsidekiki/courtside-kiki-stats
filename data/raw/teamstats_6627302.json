@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627302,
+  "title": "WVB Boxscore",
+  "description": "Campbell vs N.C. A&T",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46162",
+      "seoname": "campbell",
+      "name6Char": "CAMPBL",
+      "nameFull": "Campbell University",
+      "nameShort": "Campbell",
+      "teamName": "Camels",
+      "color": "#FF4713"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46344",
+      "seoname": "nc-at",
+      "name6Char": "NC A&T",
+      "nameFull": "North Carolina A&T State University",
+      "nameShort": "N.C. A&T",
+      "teamName": "Aggies",
+      "color": "#002D72"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46162,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "93",
+        "kills": "58",
+        "attackErrors": "19",
+        "attackAttempts": "145",
+        "hittingPercentage": "0.269",
+        "assists": "53",
+        "setErrors": "3",
+        "setAttempts": "150",
+        "serviceAces": "8",
+        "serviceErrors": "11",
+        "serveAttempts": "92",
+        "digs": "68",
+        "receptionAttempts": "77",
+        "receptionErrors": "3",
+        "blockSolos": "1",
+        "blockAssists": "10",
+        "blockingErrors": "4",
+        "totalBlocks": "6"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46344,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "86",
+        "kills": "50",
+        "attackErrors": "17",
+        "attackAttempts": "143",
+        "hittingPercentage": "0.231",
+        "assists": "48",
+        "setErrors": "0",
+        "setAttempts": "143",
+        "serviceAces": "3",
+        "serviceErrors": "10",
+        "serveAttempts": "87",
+        "digs": "60",
+        "receptionAttempts": "81",
+        "receptionErrors": "8",
+        "blockSolos": "1",
+        "blockAssists": "8",
+        "blockingErrors": "1",
+        "totalBlocks": "5"
+      }
+    }
+  ]
+}

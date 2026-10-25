@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6644954,
+  "title": "WVB Boxscore",
+  "description": "Wright St. vs Robert Morris",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45818",
+      "seoname": "wright-st",
+      "name6Char": "WRIGHT",
+      "nameFull": "Wright State University",
+      "nameShort": "Wright St.",
+      "teamName": "Raiders",
+      "color": "#046A38"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46735",
+      "seoname": "robert-morris",
+      "name6Char": "ROBMOR",
+      "nameFull": "Robert Morris University",
+      "nameShort": "Robert Morris",
+      "teamName": "Colonials",
+      "color": "#041E42"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45818,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "46",
+        "attackErrors": "12",
+        "attackAttempts": "114",
+        "hittingPercentage": "0.298",
+        "assists": "42",
+        "setErrors": "0",
+        "setAttempts": "107",
+        "serviceAces": "2",
+        "serviceErrors": "10",
+        "serveAttempts": "73",
+        "digs": "50",
+        "receptionAttempts": "57",
+        "receptionErrors": "3",
+        "blockSolos": "1",
+        "blockAssists": "8",
+        "blockingErrors": "0",
+        "totalBlocks": "5"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46735,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "61",
+        "kills": "36",
+        "attackErrors": "21",
+        "attackAttempts": "111",
+        "hittingPercentage": "0.135",
+        "assists": "35",
+        "setErrors": "0",
+        "setAttempts": "107",
+        "serviceAces": "3",
+        "serviceErrors": "6",
+        "serveAttempts": "63",
+        "digs": "50",
+        "receptionAttempts": "63",
+        "receptionErrors": "2",
+        "blockSolos": "0",
+        "blockAssists": "6",
+        "blockingErrors": "0",
+        "totalBlocks": "3"
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624792,
+  "title": "WVB Boxscore",
+  "description": "Youngstown St. vs NIU",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46583",
+      "seoname": "youngstown-st",
+      "name6Char": "YSU",
+      "nameFull": "Youngstown State University",
+      "nameShort": "Youngstown St.",
+      "teamName": "Penguins",
+      "color": "#C8102E"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45981",
+      "seoname": "northern-ill",
+      "name6Char": "NIU",
+      "nameFull": "Northern Illinois University",
+      "nameShort": "NIU",
+      "teamName": "Huskies",
+      "color": "#BA0C2F"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46583,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "98",
+        "kills": "52",
+        "attackErrors": "21",
+        "attackAttempts": "153",
+        "hittingPercentage": "0.203",
+        "assists": "49",
+        "setErrors": "1",
+        "setAttempts": "151",
+        "serviceAces": "10",
+        "serviceErrors": "10",
+        "serveAttempts": "97",
+        "digs": "64",
+        "receptionAttempts": "76",
+        "receptionErrors": "6",
+        "blockSolos": "1",
+        "blockAssists": "20",
+        "blockingErrors": "1",
+        "totalBlocks": "11"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45981,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "86",
+        "kills": "48",
+        "attackErrors": "24",
+        "attackAttempts": "144",
+        "hittingPercentage": "0.167",
+        "assists": "43",
+        "setErrors": "1",
+        "setAttempts": "146",
+        "serviceAces": "6",
+        "serviceErrors": "11",
+        "serveAttempts": "87",
+        "digs": "70",
+        "receptionAttempts": "87",
+        "receptionErrors": "10",
+        "blockSolos": "0",
+        "blockAssists": "14",
+        "blockingErrors": "2",
+        "totalBlocks": "7"
+      }
+    }
+  ]
+}

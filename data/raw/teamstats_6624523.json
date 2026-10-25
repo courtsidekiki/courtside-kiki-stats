@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624523,
+  "title": "WVB Boxscore",
+  "description": "Cal Poly vs UC Santa Barbara",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46659",
+      "seoname": "cal-poly",
+      "name6Char": "CALPLY",
+      "nameFull": "California Polytechnic State University",
+      "nameShort": "Cal Poly",
+      "teamName": "Mustangs",
+      "color": "#193E30"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45895",
+      "seoname": "uc-santa-barbara",
+      "name6Char": "UCSB",
+      "nameFull": "University of California, Santa Barbara",
+      "nameShort": "UC Santa Barbara",
+      "teamName": "Gauchos",
+      "color": "#0032A0"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46659,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "45",
+        "attackErrors": "11",
+        "attackAttempts": "95",
+        "hittingPercentage": "0.358",
+        "assists": "43",
+        "setErrors": "0",
+        "setAttempts": "89",
+        "serviceAces": "4",
+        "serviceErrors": "7",
+        "serveAttempts": "74",
+        "digs": "36",
+        "receptionAttempts": "57",
+        "receptionErrors": "1",
+        "blockSolos": "0",
+        "blockAssists": "14",
+        "blockingErrors": "0",
+        "totalBlocks": "7"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45895,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "61",
+        "kills": "42",
+        "attackErrors": "18",
+        "attackAttempts": "103",
+        "hittingPercentage": "0.233",
+        "assists": "39",
+        "setErrors": "3",
+        "setAttempts": "100",
+        "serviceAces": "1",
+        "serviceErrors": "5",
+        "serveAttempts": "62",
+        "digs": "35",
+        "receptionAttempts": "67",
+        "receptionErrors": "4",
+        "blockSolos": "1",
+        "blockAssists": "8",
+        "blockingErrors": "0",
+        "totalBlocks": "5"
+      }
+    }
+  ]
+}

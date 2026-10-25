@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626533,
+  "title": "WVB Boxscore",
+  "description": "SFA vs Northwestern St.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46624",
+      "seoname": "stephen-f-austin",
+      "name6Char": "SFA",
+      "nameFull": "Stephen F. Austin State University",
+      "nameShort": "SFA",
+      "teamName": "Lumberjacks",
+      "color": "#532F7C"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46107",
+      "seoname": "northwestern-st",
+      "name6Char": "NW ST",
+      "nameFull": "Northwestern State University",
+      "nameShort": "Northwestern St.",
+      "teamName": "Lady Demons",
+      "color": "#54209e"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46624,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "36",
+        "attackErrors": "9",
+        "attackAttempts": "83",
+        "hittingPercentage": "0.325",
+        "assists": "32",
+        "setErrors": "0",
+        "setAttempts": "77",
+        "serviceAces": "7",
+        "serviceErrors": "10",
+        "serveAttempts": "73",
+        "digs": "40",
+        "receptionAttempts": "48",
+        "receptionErrors": "7",
+        "blockSolos": "1",
+        "blockAssists": "28",
+        "blockingErrors": "0",
+        "totalBlocks": "15"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46107,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "53",
+        "kills": "27",
+        "attackErrors": "25",
+        "attackAttempts": "98",
+        "hittingPercentage": "0.020",
+        "assists": "24",
+        "setErrors": "0",
+        "setAttempts": "96",
+        "serviceAces": "7",
+        "serviceErrors": "7",
+        "serveAttempts": "55",
+        "digs": "37",
+        "receptionAttempts": "63",
+        "receptionErrors": "7",
+        "blockSolos": "0",
+        "blockAssists": "8",
+        "blockingErrors": "2",
+        "totalBlocks": "4"
+      }
+    }
+  ]
+}

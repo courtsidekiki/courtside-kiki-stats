@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626187,
+  "title": "WVB Boxscore",
+  "description": "American vs Holy Cross",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46071",
+      "seoname": "american",
+      "name6Char": "AMER",
+      "nameFull": "American University",
+      "nameShort": "American",
+      "teamName": "Eagles",
+      "color": "#A6192E"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45915",
+      "seoname": "holy-cross",
+      "name6Char": "HOLYCR",
+      "nameFull": "College of the Holy Cross",
+      "nameShort": "Holy Cross",
+      "teamName": "Crusaders",
+      "color": "#582C83"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46071,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "94",
+        "kills": "53",
+        "attackErrors": "18",
+        "attackAttempts": "133",
+        "hittingPercentage": "0.263",
+        "assists": "50",
+        "setErrors": "1",
+        "setAttempts": "131",
+        "serviceAces": "11",
+        "serviceErrors": "6",
+        "serveAttempts": "93",
+        "digs": "62",
+        "receptionAttempts": "69",
+        "receptionErrors": "6",
+        "blockSolos": "2",
+        "blockAssists": "20",
+        "blockingErrors": "1",
+        "totalBlocks": "12"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45915,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "73",
+        "kills": "42",
+        "attackErrors": "24",
+        "attackAttempts": "133",
+        "hittingPercentage": "0.135",
+        "assists": "41",
+        "setErrors": "1",
+        "setAttempts": "135",
+        "serviceAces": "6",
+        "serviceErrors": "5",
+        "serveAttempts": "74",
+        "digs": "54",
+        "receptionAttempts": "87",
+        "receptionErrors": "11",
+        "blockSolos": "3",
+        "blockAssists": "12",
+        "blockingErrors": "1",
+        "totalBlocks": "9"
+      }
+    }
+  ]
+}

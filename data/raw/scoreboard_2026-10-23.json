@@ -1,7 +1,7 @@
 {
-  "inputMD5Sum": "437dcae6edb4c4177f4d149038755970",
+  "inputMD5Sum": "6eb722286bca01cc0bbb93797cc35b8c",
   "instanceId": "d41d8cd98f00b204e9800998ecf8427e",
-  "updated_at": "2026-10-24 11:14:25",
+  "updated_at": "2026-10-25 14:38:17",
   "games": [
     {
       "game": {
@@ -5103,14 +5103,14 @@
       "game": {
         "gameID": "6628294",
         "away": {
-          "score": "1",
+          "score": "3",
           "names": {
             "char6": "ALA ST",
             "short": "Alabama St.",
             "seo": "alabama-st",
             "full": ""
           },
-          "winner": false,
+          "winner": true,
           "seed": "",
           "description": "",
           "rank": "",
@@ -5121,12 +5121,12 @@
             }
           ]
         },
-        "finalMessage": "2ND SET",
+        "finalMessage": "FINAL",
         "title": "Alabama St. Ark.-Pine Bluff",
         "url": "/game/6628294",
         "network": "",
         "home": {
-          "score": "0",
+          "score": "1",
           "names": {
             "char6": "ARK PB",
             "short": "Ark.-Pine Bluff",
@@ -5147,9 +5147,9 @@
         "liveVideoEnabled": false,
         "startTime": "7:00 PM ET",
         "startTimeEpoch": "1792796400",
-        "gameState": "live",
+        "gameState": "final",
         "startDate": "10/23/2026",
-        "currentPeriod": "2ND SET",
+        "currentPeriod": "FINAL",
         "contestClock": "0:00",
         "bracketId": "",
         "bracketRound": ""

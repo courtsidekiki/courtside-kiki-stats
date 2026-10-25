@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627722,
+  "title": "WVB Boxscore",
+  "description": "Siena vs Canisius",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46248",
+      "seoname": "siena",
+      "name6Char": "SIENA",
+      "nameFull": "Siena University",
+      "nameShort": "Siena",
+      "teamName": "Saints",
+      "color": "#006747"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46537",
+      "seoname": "canisius",
+      "name6Char": "CANISI",
+      "nameFull": "Canisius University",
+      "nameShort": "Canisius",
+      "teamName": "Golden Griffins",
+      "color": "#0C2340"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46248,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "110",
+        "kills": "60",
+        "attackErrors": "21",
+        "attackAttempts": "174",
+        "hittingPercentage": "0.224",
+        "assists": "60",
+        "setErrors": "0",
+        "setAttempts": "179",
+        "serviceAces": "12",
+        "serviceErrors": "4",
+        "serveAttempts": "109",
+        "digs": "85",
+        "receptionAttempts": "95",
+        "receptionErrors": "7",
+        "blockSolos": "3",
+        "blockAssists": "6",
+        "blockingErrors": "0",
+        "totalBlocks": "6"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46537,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "104",
+        "kills": "69",
+        "attackErrors": "24",
+        "attackAttempts": "190",
+        "hittingPercentage": "0.237",
+        "assists": "64",
+        "setErrors": "1",
+        "setAttempts": "182",
+        "serviceAces": "7",
+        "serviceErrors": "10",
+        "serveAttempts": "105",
+        "digs": "76",
+        "receptionAttempts": "105",
+        "receptionErrors": "12",
+        "blockSolos": "2",
+        "blockAssists": "16",
+        "blockingErrors": "0",
+        "totalBlocks": "10"
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627127,
+  "title": "WVB Boxscore",
+  "description": "Portland St. vs Northern Colo.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45987",
+      "seoname": "portland-st",
+      "name6Char": "PORTST",
+      "nameFull": "Portland State University",
+      "nameShort": "Portland St.",
+      "teamName": "Vikings",
+      "color": "#154734"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46478",
+      "seoname": "northern-colo",
+      "name6Char": "N COLO",
+      "nameFull": "University of Northern Colorado",
+      "nameShort": "Northern Colo.",
+      "teamName": "Bears",
+      "color": "#002855"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45987,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "108",
+        "kills": "46",
+        "attackErrors": "26",
+        "attackAttempts": "157",
+        "hittingPercentage": "0.127",
+        "assists": "42",
+        "setErrors": "1",
+        "setAttempts": "150",
+        "serviceAces": "14",
+        "serviceErrors": "11",
+        "serveAttempts": "107",
+        "digs": "61",
+        "receptionAttempts": "84",
+        "receptionErrors": "3",
+        "blockSolos": "1",
+        "blockAssists": "10",
+        "blockingErrors": "1",
+        "totalBlocks": "6"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46478,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "106",
+        "kills": "65",
+        "attackErrors": "25",
+        "attackAttempts": "167",
+        "hittingPercentage": "0.240",
+        "assists": "59",
+        "setErrors": "0",
+        "setAttempts": "158",
+        "serviceAces": "3",
+        "serviceErrors": "23",
+        "serveAttempts": "107",
+        "digs": "71",
+        "receptionAttempts": "96",
+        "receptionErrors": "14",
+        "blockSolos": "1",
+        "blockAssists": "12",
+        "blockingErrors": "3",
+        "totalBlocks": "7"
+      }
+    }
+  ]
+}

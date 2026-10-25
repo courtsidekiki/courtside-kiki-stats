@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6639634,
+  "title": "WVB Boxscore",
+  "description": "Quinnipiac vs Saint Peter's",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46112",
+      "seoname": "quinnipiac",
+      "name6Char": "QUINN",
+      "nameFull": "Quinnipiac University",
+      "nameShort": "Quinnipiac",
+      "teamName": "Bobcats",
+      "color": "#0C2340"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46618",
+      "seoname": "st-peters",
+      "name6Char": "ST PTR",
+      "nameFull": "Saint Peter's University",
+      "nameShort": "Saint Peter's",
+      "teamName": "Peacocks",
+      "color": "#21375C"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46112,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "46",
+        "attackErrors": "16",
+        "attackAttempts": "96",
+        "hittingPercentage": "0.313",
+        "assists": "43",
+        "setErrors": "0",
+        "setAttempts": "94",
+        "serviceAces": "7",
+        "serviceErrors": "3",
+        "serveAttempts": "73",
+        "digs": "36",
+        "receptionAttempts": "55",
+        "receptionErrors": "4",
+        "blockSolos": "4",
+        "blockAssists": "4",
+        "blockingErrors": "0",
+        "totalBlocks": "6"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46618,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "59",
+        "kills": "36",
+        "attackErrors": "15",
+        "attackAttempts": "93",
+        "hittingPercentage": "0.226",
+        "assists": "30",
+        "setErrors": "1",
+        "setAttempts": "92",
+        "serviceAces": "4",
+        "serviceErrors": "6",
+        "serveAttempts": "61",
+        "digs": "25",
+        "receptionAttempts": "70",
+        "receptionErrors": "7",
+        "blockSolos": "4",
+        "blockAssists": "14",
+        "blockingErrors": "1",
+        "totalBlocks": "11"
+      }
+    }
+  ]
+}

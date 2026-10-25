@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628146,
+  "title": "WVB Boxscore",
+  "description": "DePaul vs Xavier",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45902",
+      "seoname": "depaul",
+      "name6Char": "DEPAUL",
+      "nameFull": "DePaul University",
+      "nameShort": "DePaul",
+      "teamName": "Blue Demons",
+      "color": "#003DA5"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46708",
+      "seoname": "xavier",
+      "name6Char": "XAVIER",
+      "nameFull": "Xavier University",
+      "nameShort": "Xavier",
+      "teamName": "Musketeers",
+      "color": "#0C2340"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45902,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "110",
+        "kills": "66",
+        "attackErrors": "22",
+        "attackAttempts": "178",
+        "hittingPercentage": "0.247",
+        "assists": "55",
+        "setErrors": "2",
+        "setAttempts": "166",
+        "serviceAces": "7",
+        "serviceErrors": "14",
+        "serveAttempts": "110",
+        "digs": "74",
+        "receptionAttempts": "88",
+        "receptionErrors": "8",
+        "blockSolos": "0",
+        "blockAssists": "18",
+        "blockingErrors": "0",
+        "totalBlocks": "9"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46708,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "95",
+        "kills": "49",
+        "attackErrors": "25",
+        "attackAttempts": "161",
+        "hittingPercentage": "0.149",
+        "assists": "43",
+        "setErrors": "5",
+        "setAttempts": "162",
+        "serviceAces": "8",
+        "serviceErrors": "7",
+        "serveAttempts": "95",
+        "digs": "81",
+        "receptionAttempts": "96",
+        "receptionErrors": "7",
+        "blockSolos": "2",
+        "blockAssists": "16",
+        "blockingErrors": "0",
+        "totalBlocks": "10"
+      }
+    }
+  ]
+}

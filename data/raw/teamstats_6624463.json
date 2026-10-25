@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624463,
+  "title": "WVB Boxscore",
+  "description": "Saint Louis vs George Mason",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46744",
+      "seoname": "saint-louis",
+      "name6Char": "ST LOU",
+      "nameFull": "Saint Louis University",
+      "nameShort": "Saint Louis",
+      "teamName": "Billikens",
+      "color": "#003DA5"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45798",
+      "seoname": "george-mason",
+      "name6Char": "GMU",
+      "nameFull": "George Mason University",
+      "nameShort": "George Mason",
+      "teamName": "Patriots",
+      "color": "#1A5632"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46744,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "111",
+        "kills": "74",
+        "attackErrors": "28",
+        "attackAttempts": "177",
+        "hittingPercentage": "0.260",
+        "assists": "70",
+        "setErrors": "2",
+        "setAttempts": "168",
+        "serviceAces": "4",
+        "serviceErrors": "12",
+        "serveAttempts": "111",
+        "digs": "82",
+        "receptionAttempts": "100",
+        "receptionErrors": "9",
+        "blockSolos": "3",
+        "blockAssists": "22",
+        "blockingErrors": "1",
+        "totalBlocks": "14"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45798,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "105",
+        "kills": "53",
+        "attackErrors": "26",
+        "attackAttempts": "173",
+        "hittingPercentage": "0.156",
+        "assists": "48",
+        "setErrors": "2",
+        "setAttempts": "169",
+        "serviceAces": "9",
+        "serviceErrors": "5",
+        "serveAttempts": "105",
+        "digs": "62",
+        "receptionAttempts": "99",
+        "receptionErrors": "4",
+        "blockSolos": "0",
+        "blockAssists": "14",
+        "blockingErrors": "0",
+        "totalBlocks": "7"
+      }
+    }
+  ]
+}

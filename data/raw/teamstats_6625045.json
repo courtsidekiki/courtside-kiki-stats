@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625045,
+  "title": "WVB Boxscore",
+  "description": "UMBC vs Bryant",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46562",
+      "seoname": "umbc",
+      "name6Char": "UMBC",
+      "nameFull": "University of Maryland, Baltimore County",
+      "nameShort": "UMBC",
+      "teamName": "Retrievers",
+      "color": "#010101"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45813",
+      "seoname": "bryant",
+      "name6Char": "BRYANT",
+      "nameFull": "Bryant University",
+      "nameShort": "Bryant",
+      "teamName": "Bulldogs",
+      "color": "#010101"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46562,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "104",
+        "kills": "57",
+        "attackErrors": "29",
+        "attackAttempts": "193",
+        "hittingPercentage": "0.145",
+        "assists": "54",
+        "setErrors": "3",
+        "setAttempts": "192",
+        "serviceAces": "5",
+        "serviceErrors": "11",
+        "serveAttempts": "104",
+        "digs": "79",
+        "receptionAttempts": "99",
+        "receptionErrors": "7",
+        "blockSolos": "1",
+        "blockAssists": "29",
+        "blockingErrors": "2",
+        "totalBlocks": "15"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45813,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "107",
+        "kills": "56",
+        "attackErrors": "32",
+        "attackAttempts": "185",
+        "hittingPercentage": "0.130",
+        "assists": "53",
+        "setErrors": "2",
+        "setAttempts": "187",
+        "serviceAces": "7",
+        "serviceErrors": "8",
+        "serveAttempts": "107",
+        "digs": "83",
+        "receptionAttempts": "93",
+        "receptionErrors": "5",
+        "blockSolos": "0",
+        "blockAssists": "20",
+        "blockingErrors": "0",
+        "totalBlocks": "10"
+      }
+    }
+  ]
+}

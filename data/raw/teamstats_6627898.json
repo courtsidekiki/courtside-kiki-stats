@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627898,
+  "title": "WVB Boxscore",
+  "description": "Georgetown vs St. John's (NY)",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46417",
+      "seoname": "georgetown",
+      "name6Char": "GTOWN",
+      "nameFull": "Georgetown University",
+      "nameShort": "Georgetown",
+      "teamName": "Hoyas",
+      "color": "#141F35"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45995",
+      "seoname": "st-johns-ny",
+      "name6Char": "STJOHN",
+      "nameFull": "St. John's University (New York)",
+      "nameShort": "St. John's (NY)",
+      "teamName": "Red Storm",
+      "color": "#BA0C2F"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46417,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "92",
+        "kills": "45",
+        "attackErrors": "23",
+        "attackAttempts": "132",
+        "hittingPercentage": "0.167",
+        "assists": "45",
+        "setErrors": "0",
+        "setAttempts": "128",
+        "serviceAces": "8",
+        "serviceErrors": "9",
+        "serveAttempts": "93",
+        "digs": "65",
+        "receptionAttempts": "76",
+        "receptionErrors": "8",
+        "blockSolos": "4",
+        "blockAssists": "22",
+        "blockingErrors": "1",
+        "totalBlocks": "15"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45995,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "88",
+        "kills": "48",
+        "attackErrors": "27",
+        "attackAttempts": "150",
+        "hittingPercentage": "0.140",
+        "assists": "45",
+        "setErrors": "1",
+        "setAttempts": "144",
+        "serviceAces": "8",
+        "serviceErrors": "11",
+        "serveAttempts": "87",
+        "digs": "55",
+        "receptionAttempts": "84",
+        "receptionErrors": "8",
+        "blockSolos": "3",
+        "blockAssists": "16",
+        "blockingErrors": "2",
+        "totalBlocks": "11"
+      }
+    }
+  ]
+}

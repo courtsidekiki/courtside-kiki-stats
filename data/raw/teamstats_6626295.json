@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626295,
+  "title": "WVB Boxscore",
+  "description": "Marquette vs Butler",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46200",
+      "seoname": "marquette",
+      "name6Char": "MARQ",
+      "nameFull": "Marquette University",
+      "nameShort": "Marquette",
+      "teamName": "Golden Eagles",
+      "color": "#1D2953"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46219",
+      "seoname": "butler",
+      "name6Char": "BUTLER",
+      "nameFull": "Butler University",
+      "nameShort": "Butler",
+      "teamName": "Bulldogs",
+      "color": "#13294B"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46200,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "47",
+        "attackErrors": "14",
+        "attackAttempts": "96",
+        "hittingPercentage": "0.344",
+        "assists": "46",
+        "setErrors": "0",
+        "setAttempts": "94",
+        "serviceAces": "5",
+        "serviceErrors": "9",
+        "serveAttempts": "73",
+        "digs": "35",
+        "receptionAttempts": "58",
+        "receptionErrors": "3",
+        "blockSolos": "1",
+        "blockAssists": "14",
+        "blockingErrors": "2",
+        "totalBlocks": "8"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46219,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "62",
+        "kills": "36",
+        "attackErrors": "16",
+        "attackAttempts": "93",
+        "hittingPercentage": "0.215",
+        "assists": "35",
+        "setErrors": "1",
+        "setAttempts": "94",
+        "serviceAces": "3",
+        "serviceErrors": "6",
+        "serveAttempts": "64",
+        "digs": "31",
+        "receptionAttempts": "64",
+        "receptionErrors": "5",
+        "blockSolos": "0",
+        "blockAssists": "10",
+        "blockingErrors": "2",
+        "totalBlocks": "5"
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628070,
+  "title": "WVB Boxscore",
+  "description": "Toledo vs Ohio",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46007",
+      "seoname": "toledo",
+      "name6Char": "TOLEDO",
+      "nameFull": "University of Toledo",
+      "nameShort": "Toledo",
+      "teamName": "Rockets",
+      "color": "#00205B"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46731",
+      "seoname": "ohio",
+      "name6Char": "OHIO",
+      "nameFull": "Ohio University",
+      "nameShort": "Ohio",
+      "teamName": "Bobcats",
+      "color": "#154734"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46007,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "91",
+        "kills": "47",
+        "attackErrors": "19",
+        "attackAttempts": "130",
+        "hittingPercentage": "0.215",
+        "assists": "41",
+        "setErrors": "1",
+        "setAttempts": "130",
+        "serviceAces": "8",
+        "serviceErrors": "7",
+        "serveAttempts": "90",
+        "digs": "48",
+        "receptionAttempts": "72",
+        "receptionErrors": "3",
+        "blockSolos": "1",
+        "blockAssists": "12",
+        "blockingErrors": "0",
+        "totalBlocks": "7"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46731,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "80",
+        "kills": "50",
+        "attackErrors": "23",
+        "attackAttempts": "130",
+        "hittingPercentage": "0.208",
+        "assists": "44",
+        "setErrors": "4",
+        "setAttempts": "132",
+        "serviceAces": "3",
+        "serviceErrors": "9",
+        "serveAttempts": "81",
+        "digs": "55",
+        "receptionAttempts": "83",
+        "receptionErrors": "8",
+        "blockSolos": "1",
+        "blockAssists": "4",
+        "blockingErrors": "0",
+        "totalBlocks": "3"
+      }
+    }
+  ]
+}

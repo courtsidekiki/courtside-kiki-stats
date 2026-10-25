@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625517,
+  "title": "WVB Boxscore",
+  "description": "Loyola Maryland vs Army West Point",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46062",
+      "seoname": "loyola-maryland",
+      "name6Char": "LOY MD",
+      "nameFull": "Loyola University Maryland",
+      "nameShort": "Loyola Maryland",
+      "teamName": "Greyhounds",
+      "color": "#115740"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46257",
+      "seoname": "army",
+      "name6Char": "ARMY",
+      "nameFull": "U.S. Military Academy",
+      "nameShort": "Army West Point",
+      "teamName": "Black Knights",
+      "color": "#010101"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46062,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "81",
+        "kills": "46",
+        "attackErrors": "22",
+        "attackAttempts": "140",
+        "hittingPercentage": "0.171",
+        "assists": "44",
+        "setErrors": "0",
+        "setAttempts": "138",
+        "serviceAces": "4",
+        "serviceErrors": "9",
+        "serveAttempts": "82",
+        "digs": "56",
+        "receptionAttempts": "88",
+        "receptionErrors": "8",
+        "blockSolos": "3",
+        "blockAssists": "4",
+        "blockingErrors": "2",
+        "totalBlocks": "5"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46257,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "98",
+        "kills": "58",
+        "attackErrors": "22",
+        "attackAttempts": "145",
+        "hittingPercentage": "0.248",
+        "assists": "54",
+        "setErrors": "0",
+        "setAttempts": "135",
+        "serviceAces": "8",
+        "serviceErrors": "9",
+        "serveAttempts": "97",
+        "digs": "62",
+        "receptionAttempts": "73",
+        "receptionErrors": "4",
+        "blockSolos": "3",
+        "blockAssists": "12",
+        "blockingErrors": "1",
+        "totalBlocks": "9"
+      }
+    }
+  ]
+}

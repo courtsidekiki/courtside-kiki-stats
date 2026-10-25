@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6639378,
+  "title": "WVB Boxscore",
+  "description": "Nebraska vs Southern California",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46474",
+      "seoname": "nebraska",
+      "name6Char": "NEB",
+      "nameFull": "University of Nebraska-Lincoln",
+      "nameShort": "Nebraska",
+      "teamName": "Huskers",
+      "color": "#C8102E"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46121",
+      "seoname": "southern-california",
+      "name6Char": "USC",
+      "nameFull": "University of Southern California",
+      "nameShort": "Southern California",
+      "teamName": "Trojans",
+      "color": "#9D2235"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46474,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "50",
+        "attackErrors": "12",
+        "attackAttempts": "95",
+        "hittingPercentage": "0.400",
+        "assists": "45",
+        "setErrors": "0",
+        "setAttempts": "87",
+        "serviceAces": "3",
+        "serviceErrors": "3",
+        "serveAttempts": "74",
+        "digs": "48",
+        "receptionAttempts": "36",
+        "receptionErrors": "1",
+        "blockSolos": "2",
+        "blockAssists": "10",
+        "blockingErrors": "0",
+        "totalBlocks": "7"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46121,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "41",
+        "kills": "25",
+        "attackErrors": "16",
+        "attackAttempts": "95",
+        "hittingPercentage": "0.095",
+        "assists": "25",
+        "setErrors": "0",
+        "setAttempts": "99",
+        "serviceAces": "1",
+        "serviceErrors": "6",
+        "serveAttempts": "42",
+        "digs": "26",
+        "receptionAttempts": "71",
+        "receptionErrors": "3",
+        "blockSolos": "0",
+        "blockAssists": "4",
+        "blockingErrors": "1",
+        "totalBlocks": "2"
+      }
+    }
+  ]
+}

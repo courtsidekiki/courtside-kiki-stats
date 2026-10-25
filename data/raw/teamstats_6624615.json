@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624615,
+  "title": "WVB Boxscore",
+  "description": "Abilene Christian vs West Ga.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45940",
+      "seoname": "abilene-christian",
+      "name6Char": "ABILCH",
+      "nameFull": "Abilene Christian University",
+      "nameShort": "Abilene Christian",
+      "teamName": "Wildcats",
+      "color": "#582C83"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46381",
+      "seoname": "west-ga",
+      "name6Char": "W GA",
+      "nameFull": "University of West Georgia",
+      "nameShort": "West Ga.",
+      "teamName": "Wolves",
+      "color": "#0032A0"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45940,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "91",
+        "kills": "61",
+        "attackErrors": "20",
+        "attackAttempts": "153",
+        "hittingPercentage": "0.268",
+        "assists": "55",
+        "setErrors": "1",
+        "setAttempts": "152",
+        "serviceAces": "7",
+        "serviceErrors": "8",
+        "serveAttempts": "90",
+        "digs": "82",
+        "receptionAttempts": "72",
+        "receptionErrors": "5",
+        "blockSolos": "1",
+        "blockAssists": "15",
+        "blockingErrors": "3",
+        "totalBlocks": "8"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46381,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "77",
+        "kills": "43",
+        "attackErrors": "16",
+        "attackAttempts": "157",
+        "hittingPercentage": "0.172",
+        "assists": "38",
+        "setErrors": "1",
+        "setAttempts": "155",
+        "serviceAces": "5",
+        "serviceErrors": "6",
+        "serveAttempts": "78",
+        "digs": "64",
+        "receptionAttempts": "82",
+        "receptionErrors": "7",
+        "blockSolos": "1",
+        "blockAssists": "4",
+        "blockingErrors": "1",
+        "totalBlocks": "3"
+      }
+    }
+  ]
+}

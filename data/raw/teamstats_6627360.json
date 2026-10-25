@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627360,
+  "title": "WVB Boxscore",
+  "description": "UC Irvine vs UC San Diego",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46400",
+      "seoname": "uc-irvine",
+      "name6Char": "UC IRV",
+      "nameFull": "University of California, Irvine",
+      "nameShort": "UC Irvine",
+      "teamName": "Anteaters",
+      "color": "#0C2340"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46291",
+      "seoname": "uc-san-diego",
+      "name6Char": "UCSD",
+      "nameFull": "University of California, San Diego",
+      "nameShort": "UC San Diego",
+      "teamName": "Tritons",
+      "color": "#192847"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46400,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "98",
+        "kills": "57",
+        "attackErrors": "34",
+        "attackAttempts": "189",
+        "hittingPercentage": "0.122",
+        "assists": "54",
+        "setErrors": "0",
+        "setAttempts": "193",
+        "serviceAces": "7",
+        "serviceErrors": "6",
+        "serveAttempts": "99",
+        "digs": "83",
+        "receptionAttempts": "93",
+        "receptionErrors": "2",
+        "blockSolos": "3",
+        "blockAssists": "28",
+        "blockingErrors": "3",
+        "totalBlocks": "17"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46291,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "100",
+        "kills": "58",
+        "attackErrors": "27",
+        "attackAttempts": "186",
+        "hittingPercentage": "0.167",
+        "assists": "50",
+        "setErrors": "0",
+        "setAttempts": "177",
+        "serviceAces": "2",
+        "serviceErrors": "6",
+        "serveAttempts": "99",
+        "digs": "73",
+        "receptionAttempts": "93",
+        "receptionErrors": "7",
+        "blockSolos": "2",
+        "blockAssists": "22",
+        "blockingErrors": "2",
+        "totalBlocks": "13"
+      }
+    }
+  ]
+}

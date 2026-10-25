@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626599,
+  "title": "WVB Boxscore",
+  "description": "Northeastern vs Stony Brook",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46728",
+      "seoname": "northeastern",
+      "name6Char": "NOEAST",
+      "nameFull": "Northeastern University",
+      "nameShort": "Northeastern",
+      "teamName": "Huskies",
+      "color": "#C8102E"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46753",
+      "seoname": "stony-brook",
+      "name6Char": "STONY",
+      "nameFull": "Stony Brook University",
+      "nameShort": "Stony Brook",
+      "teamName": "Seawolves",
+      "color": "#A6192E"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46728,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "89",
+        "kills": "44",
+        "attackErrors": "30",
+        "attackAttempts": "143",
+        "hittingPercentage": "0.098",
+        "assists": "38",
+        "setErrors": "2",
+        "setAttempts": "142",
+        "serviceAces": "7",
+        "serviceErrors": "11",
+        "serveAttempts": "90",
+        "digs": "56",
+        "receptionAttempts": "89",
+        "receptionErrors": "15",
+        "blockSolos": "1",
+        "blockAssists": "20",
+        "blockingErrors": "1",
+        "totalBlocks": "11"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46753,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "100",
+        "kills": "42",
+        "attackErrors": "27",
+        "attackAttempts": "140",
+        "hittingPercentage": "0.107",
+        "assists": "38",
+        "setErrors": "0",
+        "setAttempts": "140",
+        "serviceAces": "15",
+        "serviceErrors": "10",
+        "serveAttempts": "99",
+        "digs": "55",
+        "receptionAttempts": "79",
+        "receptionErrors": "7",
+        "blockSolos": "1",
+        "blockAssists": "12",
+        "blockingErrors": "1",
+        "totalBlocks": "7"
+      }
+    }
+  ]
+}

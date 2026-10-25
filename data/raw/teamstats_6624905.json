@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624905,
+  "title": "WVB Boxscore",
+  "description": "Jacksonville St. vs FIU",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45784",
+      "seoname": "jacksonville-st",
+      "name6Char": "JAX ST",
+      "nameFull": "Jacksonville State University",
+      "nameShort": "Jacksonville St.",
+      "teamName": "Gamecocks",
+      "color": "#C8102E"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46546",
+      "seoname": "fiu",
+      "name6Char": "FIU",
+      "nameFull": "Florida International University",
+      "nameShort": "FIU",
+      "teamName": "Panthers",
+      "color": "#091F3F"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45784,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "85",
+        "kills": "50",
+        "attackErrors": "22",
+        "attackAttempts": "119",
+        "hittingPercentage": "0.235",
+        "assists": "47",
+        "setErrors": "3",
+        "setAttempts": "124",
+        "serviceAces": "1",
+        "serviceErrors": "7",
+        "serveAttempts": "86",
+        "digs": "36",
+        "receptionAttempts": "92",
+        "receptionErrors": "9",
+        "blockSolos": "0",
+        "blockAssists": "22",
+        "blockingErrors": "0",
+        "totalBlocks": "11"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46546,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "103",
+        "kills": "62",
+        "attackErrors": "24",
+        "attackAttempts": "129",
+        "hittingPercentage": "0.295",
+        "assists": "60",
+        "setErrors": "0",
+        "setAttempts": "131",
+        "serviceAces": "9",
+        "serviceErrors": "10",
+        "serveAttempts": "102",
+        "digs": "39",
+        "receptionAttempts": "79",
+        "receptionErrors": "1",
+        "blockSolos": "2",
+        "blockAssists": "12",
+        "blockingErrors": "0",
+        "totalBlocks": "8"
+      }
+    }
+  ]
+}
