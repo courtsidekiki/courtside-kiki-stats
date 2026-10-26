@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627180,
+  "title": "WVB Boxscore",
+  "description": "Georgia vs Missouri",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45911",
+      "seoname": "georgia",
+      "name6Char": "UGA",
+      "nameFull": "University of Georgia",
+      "nameShort": "Georgia",
+      "teamName": "Bulldogs",
+      "color": "#DA291C"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45939",
+      "seoname": "missouri",
+      "name6Char": "MIZZOU",
+      "nameFull": "University of Missouri, Columbia",
+      "nameShort": "Missouri",
+      "teamName": "Tigers",
+      "color": "#010101"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45911,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "81",
+        "kills": "51",
+        "attackErrors": "25",
+        "attackAttempts": "138",
+        "hittingPercentage": "0.188",
+        "assists": "50",
+        "setErrors": "2",
+        "setAttempts": "147",
+        "serviceAces": "5",
+        "serviceErrors": "13",
+        "serveAttempts": "82",
+        "digs": "50",
+        "receptionAttempts": "91",
+        "receptionErrors": "6",
+        "blockSolos": "0",
+        "blockAssists": "16",
+        "blockingErrors": "1",
+        "totalBlocks": "8"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45939,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "98",
+        "kills": "51",
+        "attackErrors": "18",
+        "attackAttempts": "130",
+        "hittingPercentage": "0.254",
+        "assists": "50",
+        "setErrors": "1",
+        "setAttempts": "133",
+        "serviceAces": "6",
+        "serviceErrors": "6",
+        "serveAttempts": "97",
+        "digs": "52",
+        "receptionAttempts": "69",
+        "receptionErrors": "5",
+        "blockSolos": "3",
+        "blockAssists": "19",
+        "blockingErrors": "0",
+        "totalBlocks": "12"
+      }
+    }
+  ]
+}

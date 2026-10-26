@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624254,
+  "title": "WVB Boxscore",
+  "description": "Indiana vs Penn St.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46314",
+      "seoname": "indiana",
+      "name6Char": "IND",
+      "nameFull": "Indiana University, Bloomington",
+      "nameShort": "Indiana",
+      "teamName": "Hoosiers",
+      "color": "#970310"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46614",
+      "seoname": "penn-st",
+      "name6Char": "PENNST",
+      "nameFull": "Pennsylvania State University",
+      "nameShort": "Penn St.",
+      "teamName": "Nittany Lions",
+      "color": "#041E42"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46314,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "78",
+        "kills": "47",
+        "attackErrors": "23",
+        "attackAttempts": "116",
+        "hittingPercentage": "0.207",
+        "assists": "45",
+        "setErrors": "1",
+        "setAttempts": "111",
+        "serviceAces": "3",
+        "serviceErrors": "4",
+        "serveAttempts": "79",
+        "digs": "37",
+        "receptionAttempts": "83",
+        "receptionErrors": "10",
+        "blockSolos": "1",
+        "blockAssists": "12",
+        "blockingErrors": "2",
+        "totalBlocks": "7"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46614,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "97",
+        "kills": "59",
+        "attackErrors": "15",
+        "attackAttempts": "117",
+        "hittingPercentage": "0.376",
+        "assists": "55",
+        "setErrors": "0",
+        "setAttempts": "111",
+        "serviceAces": "10",
+        "serviceErrors": "13",
+        "serveAttempts": "96",
+        "digs": "37",
+        "receptionAttempts": "75",
+        "receptionErrors": "3",
+        "blockSolos": "2",
+        "blockAssists": "14",
+        "blockingErrors": "3",
+        "totalBlocks": "9"
+      }
+    }
+  ]
+}

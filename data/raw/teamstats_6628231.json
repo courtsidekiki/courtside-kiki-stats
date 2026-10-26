@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628231,
+  "title": "WVB Boxscore",
+  "description": "Utah vs Colorado",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46628",
+      "seoname": "utah",
+      "name6Char": "UTAH",
+      "nameFull": "University of Utah",
+      "nameShort": "Utah",
+      "teamName": "Utes",
+      "color": "#D42331"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46542",
+      "seoname": "colorado",
+      "name6Char": "COLO",
+      "nameFull": "University of Colorado Boulder",
+      "nameShort": "Colorado",
+      "teamName": "Buffaloes",
+      "color": "#010101"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46628,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "90",
+        "kills": "41",
+        "attackErrors": "23",
+        "attackAttempts": "120",
+        "hittingPercentage": "0.150",
+        "assists": "38",
+        "setErrors": "2",
+        "setAttempts": "118",
+        "serviceAces": "6",
+        "serviceErrors": "14",
+        "serveAttempts": "91",
+        "digs": "37",
+        "receptionAttempts": "82",
+        "receptionErrors": "3",
+        "blockSolos": "2",
+        "blockAssists": "26",
+        "blockingErrors": "3",
+        "totalBlocks": "15"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46542,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "96",
+        "kills": "54",
+        "attackErrors": "29",
+        "attackAttempts": "128",
+        "hittingPercentage": "0.195",
+        "assists": "48",
+        "setErrors": "1",
+        "setAttempts": "119",
+        "serviceAces": "3",
+        "serviceErrors": "13",
+        "serveAttempts": "95",
+        "digs": "48",
+        "receptionAttempts": "77",
+        "receptionErrors": "6",
+        "blockSolos": "3",
+        "blockAssists": "22",
+        "blockingErrors": "0",
+        "totalBlocks": "14"
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626085,
+  "title": "WVB Boxscore",
+  "description": "Rice vs Tulsa",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45859",
+      "seoname": "rice",
+      "name6Char": "RICE",
+      "nameFull": "Rice University",
+      "nameShort": "Rice",
+      "teamName": "Owls",
+      "color": "#00205B"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45876",
+      "seoname": "tulsa",
+      "name6Char": "TULSA",
+      "nameFull": "The University of Tulsa",
+      "nameShort": "Tulsa",
+      "teamName": "Golden Hurricane",
+      "color": "#002D72"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45859,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "93",
+        "kills": "60",
+        "attackErrors": "18",
+        "attackAttempts": "172",
+        "hittingPercentage": "0.244",
+        "assists": "57",
+        "setErrors": "1",
+        "setAttempts": "169",
+        "serviceAces": "3",
+        "serviceErrors": "9",
+        "serveAttempts": "94",
+        "digs": "71",
+        "receptionAttempts": "93",
+        "receptionErrors": "7",
+        "blockSolos": "4",
+        "blockAssists": "12",
+        "blockingErrors": "2",
+        "totalBlocks": "10"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45876,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "101",
+        "kills": "65",
+        "attackErrors": "23",
+        "attackAttempts": "175",
+        "hittingPercentage": "0.240",
+        "assists": "62",
+        "setErrors": "0",
+        "setAttempts": "177",
+        "serviceAces": "7",
+        "serviceErrors": "7",
+        "serveAttempts": "100",
+        "digs": "75",
+        "receptionAttempts": "85",
+        "receptionErrors": "3",
+        "blockSolos": "4",
+        "blockAssists": "8",
+        "blockingErrors": "0",
+        "totalBlocks": "8"
+      }
+    }
+  ]
+}

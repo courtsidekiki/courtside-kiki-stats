@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627424,
+  "title": "WVB Boxscore",
+  "description": "South Carolina St. vs Delaware St.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45866",
+      "seoname": "south-carolina-st",
+      "name6Char": "SC ST",
+      "nameFull": "South Carolina State University",
+      "nameShort": "South Carolina St.",
+      "teamName": "Lady Bulldogs",
+      "color": "#862633"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46175",
+      "seoname": "delaware-st",
+      "name6Char": "DEL ST",
+      "nameFull": "Delaware State University",
+      "nameShort": "Delaware St.",
+      "teamName": "Hornets",
+      "color": "#DA291C"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45866,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "48",
+        "kills": "21",
+        "attackErrors": "23",
+        "attackAttempts": "97",
+        "hittingPercentage": "-0.021",
+        "assists": "20",
+        "setErrors": "4",
+        "setAttempts": "105",
+        "serviceAces": "3",
+        "serviceErrors": "5",
+        "serveAttempts": "50",
+        "digs": "44",
+        "receptionAttempts": "66",
+        "receptionErrors": "8",
+        "blockSolos": "3",
+        "blockAssists": "0",
+        "blockingErrors": "6",
+        "totalBlocks": "3"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46175,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "35",
+        "attackErrors": "16",
+        "attackAttempts": "101",
+        "hittingPercentage": "0.188",
+        "assists": "33",
+        "setErrors": "1",
+        "setAttempts": "98",
+        "serviceAces": "8",
+        "serviceErrors": "7",
+        "serveAttempts": "73",
+        "digs": "47",
+        "receptionAttempts": "45",
+        "receptionErrors": "3",
+        "blockSolos": "5",
+        "blockAssists": "0",
+        "blockingErrors": "7",
+        "totalBlocks": "5"
+      }
+    }
+  ]
+}

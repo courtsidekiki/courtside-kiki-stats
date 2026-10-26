@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626171,
+  "title": "WVB Boxscore",
+  "description": "Tulane vs East Carolina",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46255",
+      "seoname": "tulane",
+      "name6Char": "TULANE",
+      "nameFull": "Tulane University",
+      "nameShort": "Tulane",
+      "teamName": "Green Wave",
+      "color": "#006747"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46668",
+      "seoname": "east-carolina",
+      "name6Char": "E CAR",
+      "nameFull": "East Carolina University",
+      "nameShort": "East Carolina",
+      "teamName": "Pirates",
+      "color": "#582C83"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46255,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "89",
+        "kills": "52",
+        "attackErrors": "20",
+        "attackAttempts": "129",
+        "hittingPercentage": "0.248",
+        "assists": "51",
+        "setErrors": "0",
+        "setAttempts": "121",
+        "serviceAces": "7",
+        "serviceErrors": "12",
+        "serveAttempts": "88",
+        "digs": "48",
+        "receptionAttempts": "76",
+        "receptionErrors": "4",
+        "blockSolos": "5",
+        "blockAssists": "18",
+        "blockingErrors": "2",
+        "totalBlocks": "14"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46668,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "82",
+        "kills": "46",
+        "attackErrors": "22",
+        "attackAttempts": "123",
+        "hittingPercentage": "0.195",
+        "assists": "41",
+        "setErrors": "1",
+        "setAttempts": "114",
+        "serviceAces": "4",
+        "serviceErrors": "7",
+        "serveAttempts": "83",
+        "digs": "47",
+        "receptionAttempts": "76",
+        "receptionErrors": "7",
+        "blockSolos": "0",
+        "blockAssists": "22",
+        "blockingErrors": "0",
+        "totalBlocks": "11"
+      }
+    }
+  ]
+}

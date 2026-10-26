@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628480,
+  "title": "WVB Boxscore",
+  "description": "Temple vs UTSA",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45871",
+      "seoname": "temple",
+      "name6Char": "TEMPLE",
+      "nameFull": "Temple University",
+      "nameShort": "Temple",
+      "teamName": "Owls",
+      "color": "#b30838"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46369",
+      "seoname": "utsa",
+      "name6Char": "UTSA",
+      "nameFull": "University of Texas at San Antonio",
+      "nameShort": "UTSA",
+      "teamName": "Roadrunners",
+      "color": "#0A2240"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45871,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "95",
+        "kills": "53",
+        "attackErrors": "21",
+        "attackAttempts": "138",
+        "hittingPercentage": "0.232",
+        "assists": "50",
+        "setErrors": "1",
+        "setAttempts": "133",
+        "serviceAces": "4",
+        "serviceErrors": "10",
+        "serveAttempts": "94",
+        "digs": "67",
+        "receptionAttempts": "65",
+        "receptionErrors": "2",
+        "blockSolos": "10",
+        "blockAssists": "2",
+        "blockingErrors": "0",
+        "totalBlocks": "11"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46369,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "41",
+        "attackErrors": "25",
+        "attackAttempts": "138",
+        "hittingPercentage": "0.116",
+        "assists": "41",
+        "setErrors": "2",
+        "setAttempts": "138",
+        "serviceAces": "2",
+        "serviceErrors": "11",
+        "serveAttempts": "76",
+        "digs": "57",
+        "receptionAttempts": "84",
+        "receptionErrors": "4",
+        "blockSolos": "2",
+        "blockAssists": "8",
+        "blockingErrors": "1",
+        "totalBlocks": "6"
+      }
+    }
+  ]
+}

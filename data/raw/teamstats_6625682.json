@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625682,
+  "title": "WVB Boxscore",
+  "description": "Bethune-Cookman vs Southern U.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46699",
+      "seoname": "bethune-cookman",
+      "name6Char": "BECOOK",
+      "nameFull": "Bethune-Cookman University",
+      "nameShort": "Bethune-Cookman",
+      "teamName": "Wildcats",
+      "color": "#6F263D"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46123",
+      "seoname": "southern-u",
+      "name6Char": "SOUTHR",
+      "nameFull": "Southern University, Baton Rouge",
+      "nameShort": "Southern U.",
+      "teamName": "Lady Jaguars",
+      "color": "#69B3E7"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46699,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "98",
+        "kills": "53",
+        "attackErrors": "21",
+        "attackAttempts": "157",
+        "hittingPercentage": "0.204",
+        "assists": "50",
+        "setErrors": "0",
+        "setAttempts": "162",
+        "serviceAces": "2",
+        "serviceErrors": "5",
+        "serveAttempts": "97",
+        "digs": "68",
+        "receptionAttempts": "75",
+        "receptionErrors": "4",
+        "blockSolos": "8",
+        "blockAssists": "10",
+        "blockingErrors": "1",
+        "totalBlocks": "13"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46123,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "82",
+        "kills": "52",
+        "attackErrors": "34",
+        "attackAttempts": "165",
+        "hittingPercentage": "0.109",
+        "assists": "50",
+        "setErrors": "1",
+        "setAttempts": "176",
+        "serviceAces": "4",
+        "serviceErrors": "8",
+        "serveAttempts": "83",
+        "digs": "73",
+        "receptionAttempts": "92",
+        "receptionErrors": "2",
+        "blockSolos": "0",
+        "blockAssists": "4",
+        "blockingErrors": "2",
+        "totalBlocks": "2"
+      }
+    }
+  ]
+}

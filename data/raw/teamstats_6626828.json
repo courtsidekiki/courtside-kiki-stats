@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626828,
+  "title": "WVB Boxscore",
+  "description": "Kentucky vs Texas A&M",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45920",
+      "seoname": "kentucky",
+      "name6Char": "UK",
+      "nameFull": "University of Kentucky",
+      "nameShort": "Kentucky",
+      "teamName": "Wildcats",
+      "color": "#3258AF"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46006",
+      "seoname": "texas-am",
+      "name6Char": "TX A&M",
+      "nameFull": "Texas A&M University, College Station",
+      "nameShort": "Texas A&M",
+      "teamName": "Aggies",
+      "color": "#5D0025"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45920,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "64",
+        "kills": "35",
+        "attackErrors": "18",
+        "attackAttempts": "104",
+        "hittingPercentage": "0.163",
+        "assists": "35",
+        "setErrors": "1",
+        "setAttempts": "100",
+        "serviceAces": "1",
+        "serviceErrors": "9",
+        "serveAttempts": "65",
+        "digs": "38",
+        "receptionAttempts": "64",
+        "receptionErrors": "2",
+        "blockSolos": "0",
+        "blockAssists": "24",
+        "blockingErrors": "1",
+        "totalBlocks": "12"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46006,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "45",
+        "attackErrors": "18",
+        "attackAttempts": "118",
+        "hittingPercentage": "0.229",
+        "assists": "40",
+        "setErrors": "0",
+        "setAttempts": "110",
+        "serviceAces": "2",
+        "serviceErrors": "10",
+        "serveAttempts": "74",
+        "digs": "41",
+        "receptionAttempts": "56",
+        "receptionErrors": "1",
+        "blockSolos": "1",
+        "blockAssists": "18",
+        "blockingErrors": "1",
+        "totalBlocks": "10"
+      }
+    }
+  ]
+}

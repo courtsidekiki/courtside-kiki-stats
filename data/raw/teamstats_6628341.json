@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628341,
+  "title": "WVB Boxscore",
+  "description": "Houston vs Iowa St.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46054",
+      "seoname": "houston",
+      "name6Char": "HOU",
+      "nameFull": "University of Houston",
+      "nameShort": "Houston",
+      "teamName": "Cougars",
+      "color": "#E51636"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46190",
+      "seoname": "iowa-st",
+      "name6Char": "IOWAST",
+      "nameFull": "Iowa State University",
+      "nameShort": "Iowa St.",
+      "teamName": "Cyclones",
+      "color": "#A6192E"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46054,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "95",
+        "kills": "55",
+        "attackErrors": "16",
+        "attackAttempts": "126",
+        "hittingPercentage": "0.310",
+        "assists": "51",
+        "setErrors": "0",
+        "setAttempts": "128",
+        "serviceAces": "11",
+        "serviceErrors": "9",
+        "serveAttempts": "94",
+        "digs": "50",
+        "receptionAttempts": "74",
+        "receptionErrors": "6",
+        "blockSolos": "4",
+        "blockAssists": "10",
+        "blockingErrors": "0",
+        "totalBlocks": "9"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46190,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "83",
+        "kills": "52",
+        "attackErrors": "19",
+        "attackAttempts": "132",
+        "hittingPercentage": "0.250",
+        "assists": "47",
+        "setErrors": "0",
+        "setAttempts": "127",
+        "serviceAces": "6",
+        "serviceErrors": "10",
+        "serveAttempts": "84",
+        "digs": "50",
+        "receptionAttempts": "85",
+        "receptionErrors": "11",
+        "blockSolos": "0",
+        "blockAssists": "17",
+        "blockingErrors": "1",
+        "totalBlocks": "8"
+      }
+    }
+  ]
+}

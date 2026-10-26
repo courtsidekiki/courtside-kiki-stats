@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625624,
+  "title": "WVB Boxscore",
+  "description": "Auburn vs LSU",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45808",
+      "seoname": "auburn",
+      "name6Char": "AUBURN",
+      "nameFull": "Auburn University",
+      "nameShort": "Auburn",
+      "teamName": "Tigers",
+      "color": "#FA4616"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46059",
+      "seoname": "lsu",
+      "name6Char": "LSU",
+      "nameFull": "Louisiana State University",
+      "nameShort": "LSU",
+      "teamName": "Tigers",
+      "color": "#582C83"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45808,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "82",
+        "kills": "56",
+        "attackErrors": "19",
+        "attackAttempts": "145",
+        "hittingPercentage": "0.255",
+        "assists": "55",
+        "setErrors": "2",
+        "setAttempts": "148",
+        "serviceAces": "3",
+        "serviceErrors": "7",
+        "serveAttempts": "83",
+        "digs": "55",
+        "receptionAttempts": "89",
+        "receptionErrors": "5",
+        "blockSolos": "0",
+        "blockAssists": "12",
+        "blockingErrors": "0",
+        "totalBlocks": "6"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46059,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "96",
+        "kills": "63",
+        "attackErrors": "17",
+        "attackAttempts": "146",
+        "hittingPercentage": "0.315",
+        "assists": "57",
+        "setErrors": "0",
+        "setAttempts": "142",
+        "serviceAces": "5",
+        "serviceErrors": "6",
+        "serveAttempts": "95",
+        "digs": "61",
+        "receptionAttempts": "76",
+        "receptionErrors": "3",
+        "blockSolos": "4",
+        "blockAssists": "16",
+        "blockingErrors": "0",
+        "totalBlocks": "12"
+      }
+    }
+  ]
+}

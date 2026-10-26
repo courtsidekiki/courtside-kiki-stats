@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625131,
+  "title": "WVB Boxscore",
+  "description": "Ark.-Pine Bluff vs Alabama A&M",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46646",
+      "seoname": "ark-pine-bluff",
+      "name6Char": "ARK PB",
+      "nameFull": "University of Arkansas, Pine Bluff",
+      "nameShort": "Ark.-Pine Bluff",
+      "teamName": "Lady Lions",
+      "color": "#010101"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46068",
+      "seoname": "alabama-am",
+      "name6Char": "AL A&M",
+      "nameFull": "Alabama A&M University",
+      "nameShort": "Alabama A&M",
+      "teamName": "Bulldogs",
+      "color": "#862633"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46646,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "63",
+        "kills": "37",
+        "attackErrors": "16",
+        "attackAttempts": "101",
+        "hittingPercentage": "0.208",
+        "assists": "36",
+        "setErrors": "1",
+        "setAttempts": "105",
+        "serviceAces": "6",
+        "serviceErrors": "7",
+        "serveAttempts": "65",
+        "digs": "44",
+        "receptionAttempts": "67",
+        "receptionErrors": "4",
+        "blockSolos": "3",
+        "blockAssists": "0",
+        "blockingErrors": "0",
+        "totalBlocks": "3"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46068,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "76",
+        "kills": "45",
+        "attackErrors": "12",
+        "attackAttempts": "103",
+        "hittingPercentage": "0.320",
+        "assists": "40",
+        "setErrors": "1",
+        "setAttempts": "101",
+        "serviceAces": "4",
+        "serviceErrors": "7",
+        "serveAttempts": "74",
+        "digs": "44",
+        "receptionAttempts": "58",
+        "receptionErrors": "6",
+        "blockSolos": "4",
+        "blockAssists": "2",
+        "blockingErrors": "0",
+        "totalBlocks": "5"
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626152,
+  "title": "WVB Boxscore",
+  "description": "Duke vs California",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46409",
+      "seoname": "duke",
+      "name6Char": "DUKE",
+      "nameFull": "Duke University",
+      "nameShort": "Duke",
+      "teamName": "Blue Devils",
+      "color": "#002D72"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45760",
+      "seoname": "california",
+      "name6Char": "CAL",
+      "nameFull": "University of California, Berkeley",
+      "nameShort": "California",
+      "teamName": "Golden Bears",
+      "color": "#041E42"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46409,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "42",
+        "attackErrors": "13",
+        "attackAttempts": "100",
+        "hittingPercentage": "0.290",
+        "assists": "41",
+        "setErrors": "0",
+        "setAttempts": "104",
+        "serviceAces": "3",
+        "serviceErrors": "3",
+        "serveAttempts": "73",
+        "digs": "51",
+        "receptionAttempts": "52",
+        "receptionErrors": "2",
+        "blockSolos": "2",
+        "blockAssists": "8",
+        "blockingErrors": "1",
+        "totalBlocks": "6"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45760,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "56",
+        "kills": "38",
+        "attackErrors": "23",
+        "attackAttempts": "121",
+        "hittingPercentage": "0.124",
+        "assists": "34",
+        "setErrors": "1",
+        "setAttempts": "122",
+        "serviceAces": "2",
+        "serviceErrors": "6",
+        "serveAttempts": "58",
+        "digs": "39",
+        "receptionAttempts": "70",
+        "receptionErrors": "3",
+        "blockSolos": "3",
+        "blockAssists": "8",
+        "blockingErrors": "1",
+        "totalBlocks": "7"
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627575,
+  "title": "WVB Boxscore",
+  "description": "Florida A&M vs Alcorn",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46412",
+      "seoname": "florida-am",
+      "name6Char": "FL A&M",
+      "nameFull": "Florida A&M University",
+      "nameShort": "Florida A&M",
+      "teamName": "Lady Rattlers ",
+      "color": "#FF8200"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46694",
+      "seoname": "alcorn",
+      "name6Char": "ALCORN",
+      "nameFull": "Alcorn State University",
+      "nameShort": "Alcorn",
+      "teamName": "Lady Braves",
+      "color": "#512D6D"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46412,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "47",
+        "attackErrors": "8",
+        "attackAttempts": "87",
+        "hittingPercentage": "0.448",
+        "assists": "44",
+        "setErrors": "3",
+        "setAttempts": "87",
+        "serviceAces": "8",
+        "serviceErrors": "6",
+        "serveAttempts": "73",
+        "digs": "37",
+        "receptionAttempts": "38",
+        "receptionErrors": "1",
+        "blockSolos": "1",
+        "blockAssists": "4",
+        "blockingErrors": "0",
+        "totalBlocks": "3"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46694,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "41",
+        "kills": "23",
+        "attackErrors": "12",
+        "attackAttempts": "73",
+        "hittingPercentage": "0.151",
+        "assists": "23",
+        "setErrors": "2",
+        "setAttempts": "80",
+        "serviceAces": "1",
+        "serviceErrors": "5",
+        "serveAttempts": "43",
+        "digs": "28",
+        "receptionAttempts": "67",
+        "receptionErrors": "8",
+        "blockSolos": "0",
+        "blockAssists": "2",
+        "blockingErrors": "0",
+        "totalBlocks": "1"
+      }
+    }
+  ]
+}

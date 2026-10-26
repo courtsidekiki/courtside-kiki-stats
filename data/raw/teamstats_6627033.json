@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627033,
+  "title": "WVB Boxscore",
+  "description": "Charlotte vs Wichita St.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46232",
+      "seoname": "charlotte",
+      "name6Char": "CHAR",
+      "nameFull": "The University of North Carolina at Charlotte",
+      "nameShort": "Charlotte",
+      "teamName": "49ers",
+      "color": "#124D39"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46705",
+      "seoname": "wichita-st",
+      "name6Char": "WICHST",
+      "nameFull": "Wichita State University",
+      "nameShort": "Wichita St.",
+      "teamName": "Shockers",
+      "color": "#010101"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46232,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "84",
+        "kills": "48",
+        "attackErrors": "25",
+        "attackAttempts": "171",
+        "hittingPercentage": "0.135",
+        "assists": "45",
+        "setErrors": "0",
+        "setAttempts": "176",
+        "serviceAces": "4",
+        "serviceErrors": "7",
+        "serveAttempts": "85",
+        "digs": "77",
+        "receptionAttempts": "89",
+        "receptionErrors": "4",
+        "blockSolos": "4",
+        "blockAssists": "18",
+        "blockingErrors": "2",
+        "totalBlocks": "13"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46705,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "96",
+        "kills": "60",
+        "attackErrors": "25",
+        "attackAttempts": "173",
+        "hittingPercentage": "0.202",
+        "assists": "55",
+        "setErrors": "1",
+        "setAttempts": "171",
+        "serviceAces": "4",
+        "serviceErrors": "6",
+        "serveAttempts": "95",
+        "digs": "88",
+        "receptionAttempts": "78",
+        "receptionErrors": "4",
+        "blockSolos": "0",
+        "blockAssists": "18",
+        "blockingErrors": "2",
+        "totalBlocks": "9"
+      }
+    }
+  ]
+}

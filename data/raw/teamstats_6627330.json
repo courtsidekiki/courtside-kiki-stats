@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627330,
+  "title": "WVB Boxscore",
+  "description": "New Mexico vs San Jose St.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46235",
+      "seoname": "new-mexico",
+      "name6Char": "N MEX",
+      "nameFull": "University of New Mexico",
+      "nameShort": "New Mexico",
+      "teamName": "Lobos",
+      "color": "#BA0C2F"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46494",
+      "seoname": "san-jose-st",
+      "name6Char": "SJSU",
+      "nameFull": "San Jose State University",
+      "nameShort": "San Jose St.",
+      "teamName": "Spartans",
+      "color": "#233A82"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46235,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "99",
+        "kills": "63",
+        "attackErrors": "17",
+        "attackAttempts": "137",
+        "hittingPercentage": "0.336",
+        "assists": "61",
+        "setErrors": "0",
+        "setAttempts": "141",
+        "serviceAces": "2",
+        "serviceErrors": "6",
+        "serveAttempts": "98",
+        "digs": "65",
+        "receptionAttempts": "74",
+        "receptionErrors": "4",
+        "blockSolos": "1",
+        "blockAssists": "8",
+        "blockingErrors": "0",
+        "totalBlocks": "5"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46494,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "86",
+        "kills": "59",
+        "attackErrors": "19",
+        "attackAttempts": "150",
+        "hittingPercentage": "0.267",
+        "assists": "55",
+        "setErrors": "0",
+        "setAttempts": "150",
+        "serviceAces": "4",
+        "serviceErrors": "13",
+        "serveAttempts": "87",
+        "digs": "49",
+        "receptionAttempts": "92",
+        "receptionErrors": "2",
+        "blockSolos": "3",
+        "blockAssists": "4",
+        "blockingErrors": "1",
+        "totalBlocks": "5"
+      }
+    }
+  ]
+}

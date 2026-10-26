@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628057,
+  "title": "WVB Boxscore",
+  "description": "Bucknell vs Lafayette",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45948",
+      "seoname": "bucknell",
+      "name6Char": "BUCKNL",
+      "nameFull": "Bucknell University",
+      "nameShort": "Bucknell",
+      "teamName": "Bison",
+      "color": "#071D49"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46193",
+      "seoname": "lafayette",
+      "name6Char": "LAFAYE",
+      "nameFull": "Lafayette College",
+      "nameShort": "Lafayette",
+      "teamName": "Leopards",
+      "color": "#862633"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45948,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "81",
+        "kills": "47",
+        "attackErrors": "16",
+        "attackAttempts": "130",
+        "hittingPercentage": "0.238",
+        "assists": "44",
+        "setErrors": "2",
+        "setAttempts": "132",
+        "serviceAces": "6",
+        "serviceErrors": "4",
+        "serveAttempts": "79",
+        "digs": "67",
+        "receptionAttempts": "54",
+        "receptionErrors": "3",
+        "blockSolos": "0",
+        "blockAssists": "12",
+        "blockingErrors": "3",
+        "totalBlocks": "6"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46193,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "58",
+        "kills": "33",
+        "attackErrors": "20",
+        "attackAttempts": "132",
+        "hittingPercentage": "0.098",
+        "assists": "32",
+        "setErrors": "1",
+        "setAttempts": "140",
+        "serviceAces": "3",
+        "serviceErrors": "6",
+        "serveAttempts": "60",
+        "digs": "61",
+        "receptionAttempts": "75",
+        "receptionErrors": "6",
+        "blockSolos": "2",
+        "blockAssists": "12",
+        "blockingErrors": "0",
+        "totalBlocks": "8"
+      }
+    }
+  ]
+}

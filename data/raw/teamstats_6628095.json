@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628095,
+  "title": "WVB Boxscore",
+  "description": "Boston College vs Virginia",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46216",
+      "seoname": "boston-college",
+      "name6Char": "BC",
+      "nameFull": "Boston College",
+      "nameShort": "Boston College",
+      "teamName": "Eagles",
+      "color": "#862633"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46009",
+      "seoname": "virginia",
+      "name6Char": "UVA",
+      "nameFull": "University of Virginia",
+      "nameShort": "Virginia",
+      "teamName": "Cavaliers",
+      "color": "#232D4B"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46216,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "98",
+        "kills": "60",
+        "attackErrors": "25",
+        "attackAttempts": "150",
+        "hittingPercentage": "0.233",
+        "assists": "55",
+        "setErrors": "1",
+        "setAttempts": "146",
+        "serviceAces": "8",
+        "serviceErrors": "5",
+        "serveAttempts": "97",
+        "digs": "61",
+        "receptionAttempts": "67",
+        "receptionErrors": "1",
+        "blockSolos": "1",
+        "blockAssists": "12",
+        "blockingErrors": "0",
+        "totalBlocks": "7"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46009,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "74",
+        "kills": "42",
+        "attackErrors": "19",
+        "attackAttempts": "134",
+        "hittingPercentage": "0.172",
+        "assists": "37",
+        "setErrors": "3",
+        "setAttempts": "138",
+        "serviceAces": "1",
+        "serviceErrors": "8",
+        "serveAttempts": "75",
+        "digs": "50",
+        "receptionAttempts": "92",
+        "receptionErrors": "8",
+        "blockSolos": "3",
+        "blockAssists": "26",
+        "blockingErrors": "1",
+        "totalBlocks": "16"
+      }
+    }
+  ]
+}

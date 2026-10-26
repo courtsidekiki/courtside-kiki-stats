@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628331,
+  "title": "WVB Boxscore",
+  "description": "Clemson vs Pittsburgh",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46294",
+      "seoname": "clemson",
+      "name6Char": "CLEM",
+      "nameFull": "Clemson University",
+      "nameShort": "Clemson",
+      "teamName": "Tigers",
+      "color": "#FF6720"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45986",
+      "seoname": "pittsburgh",
+      "name6Char": "PITT",
+      "nameFull": "University of Pittsburgh",
+      "nameShort": "Pittsburgh",
+      "teamName": "Panthers",
+      "color": "#003594"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46294,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "39",
+        "kills": "28",
+        "attackErrors": "30",
+        "attackAttempts": "88",
+        "hittingPercentage": "-0.023",
+        "assists": "24",
+        "setErrors": "2",
+        "setAttempts": "86",
+        "serviceAces": "1",
+        "serviceErrors": "6",
+        "serveAttempts": "40",
+        "digs": "23",
+        "receptionAttempts": "68",
+        "receptionErrors": "4",
+        "blockSolos": "1",
+        "blockAssists": "2",
+        "blockingErrors": "1",
+        "totalBlocks": "2"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45986,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "33",
+        "attackErrors": "4",
+        "attackAttempts": "61",
+        "hittingPercentage": "0.475",
+        "assists": "32",
+        "setErrors": "0",
+        "setAttempts": "62",
+        "serviceAces": "4",
+        "serviceErrors": "6",
+        "serveAttempts": "74",
+        "digs": "26",
+        "receptionAttempts": "34",
+        "receptionErrors": "1",
+        "blockSolos": "2",
+        "blockAssists": "24",
+        "blockingErrors": "0",
+        "totalBlocks": "14"
+      }
+    }
+  ]
+}

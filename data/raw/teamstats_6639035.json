@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6639035,
+  "title": "WVB Boxscore",
+  "description": "Alabama vs Oklahoma",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46207",
+      "seoname": "alabama",
+      "name6Char": "ALA",
+      "nameFull": "University of Alabama",
+      "nameShort": "Alabama",
+      "teamName": "Crimson Tide",
+      "color": "#9D2235"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46346",
+      "seoname": "oklahoma",
+      "name6Char": "OKLA",
+      "nameFull": "University of Oklahoma",
+      "nameShort": "Oklahoma",
+      "teamName": "Sooners",
+      "color": "#9D2235"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46207,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "58",
+        "kills": "28",
+        "attackErrors": "15",
+        "attackAttempts": "75",
+        "hittingPercentage": "0.173",
+        "assists": "24",
+        "setErrors": "1",
+        "setAttempts": "68",
+        "serviceAces": "2",
+        "serviceErrors": "6",
+        "serveAttempts": "59",
+        "digs": "29",
+        "receptionAttempts": "61",
+        "receptionErrors": "8",
+        "blockSolos": "0",
+        "blockAssists": "10",
+        "blockingErrors": "2",
+        "totalBlocks": "5"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46346,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "45",
+        "attackErrors": "14",
+        "attackAttempts": "97",
+        "hittingPercentage": "0.320",
+        "assists": "41",
+        "setErrors": "1",
+        "setAttempts": "92",
+        "serviceAces": "8",
+        "serviceErrors": "13",
+        "serveAttempts": "74",
+        "digs": "31",
+        "receptionAttempts": "53",
+        "receptionErrors": "2",
+        "blockSolos": "2",
+        "blockAssists": "11",
+        "blockingErrors": "1",
+        "totalBlocks": "7"
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626252,
+  "title": "WVB Boxscore",
+  "description": "Providence vs UConn",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45855",
+      "seoname": "providence",
+      "name6Char": "PROV",
+      "nameFull": "Providence College",
+      "nameShort": "Providence",
+      "teamName": "Friars",
+      "color": "#010101"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46408",
+      "seoname": "uconn",
+      "name6Char": "UCONN",
+      "nameFull": "University of Connecticut",
+      "nameShort": "UConn",
+      "teamName": "Huskies",
+      "color": "#0C2340"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45855,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "96",
+        "kills": "49",
+        "attackErrors": "12",
+        "attackAttempts": "141",
+        "hittingPercentage": "0.262",
+        "assists": "43",
+        "setErrors": "2",
+        "setAttempts": "140",
+        "serviceAces": "8",
+        "serviceErrors": "13",
+        "serveAttempts": "95",
+        "digs": "60",
+        "receptionAttempts": "87",
+        "receptionErrors": "12",
+        "blockSolos": "2",
+        "blockAssists": "20",
+        "blockingErrors": "5",
+        "totalBlocks": "12"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46408,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "96",
+        "kills": "56",
+        "attackErrors": "28",
+        "attackAttempts": "153",
+        "hittingPercentage": "0.183",
+        "assists": "49",
+        "setErrors": "1",
+        "setAttempts": "149",
+        "serviceAces": "12",
+        "serviceErrors": "10",
+        "serveAttempts": "97",
+        "digs": "70",
+        "receptionAttempts": "82",
+        "receptionErrors": "8",
+        "blockSolos": "0",
+        "blockAssists": "10",
+        "blockingErrors": "0",
+        "totalBlocks": "5"
+      }
+    }
+  ]
+}

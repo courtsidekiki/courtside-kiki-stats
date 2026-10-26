@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625215,
+  "title": "WVB Boxscore",
+  "description": "Illinois St. vs Belmont",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46188",
+      "seoname": "illinois-st",
+      "name6Char": "ILL ST",
+      "nameFull": "Illinois State University",
+      "nameShort": "Illinois St.",
+      "teamName": "Redbirds",
+      "color": "#C8102E"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46399",
+      "seoname": "belmont",
+      "name6Char": "BELMNT",
+      "nameFull": "Belmont University",
+      "nameShort": "Belmont",
+      "teamName": "Bruins",
+      "color": "#0D2C6B"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46188,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "51",
+        "kills": "34",
+        "attackErrors": "18",
+        "attackAttempts": "110",
+        "hittingPercentage": "0.145",
+        "assists": "31",
+        "setErrors": "2",
+        "setAttempts": "111",
+        "serviceAces": "2",
+        "serviceErrors": "8",
+        "serveAttempts": "52",
+        "digs": "48",
+        "receptionAttempts": "65",
+        "receptionErrors": "6",
+        "blockSolos": "0",
+        "blockAssists": "6",
+        "blockingErrors": "0",
+        "totalBlocks": "3"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46399,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "41",
+        "attackErrors": "5",
+        "attackAttempts": "101",
+        "hittingPercentage": "0.356",
+        "assists": "40",
+        "setErrors": "1",
+        "setAttempts": "97",
+        "serviceAces": "6",
+        "serviceErrors": "9",
+        "serveAttempts": "74",
+        "digs": "52",
+        "receptionAttempts": "44",
+        "receptionErrors": "2",
+        "blockSolos": "0",
+        "blockAssists": "14",
+        "blockingErrors": "1",
+        "totalBlocks": "7"
+      }
+    }
+  ]
+}

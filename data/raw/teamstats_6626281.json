@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626281,
+  "title": "WVB Boxscore",
+  "description": "Georgia Tech vs SMU",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46549",
+      "seoname": "georgia-tech",
+      "name6Char": "GATECH",
+      "nameFull": "Georgia Institute of Technology",
+      "nameShort": "Georgia Tech",
+      "teamName": "Yellow Jackets",
+      "color": "#B3A369"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46250",
+      "seoname": "smu",
+      "name6Char": "SMU",
+      "nameFull": "Southern Methodist University",
+      "nameShort": "SMU",
+      "teamName": "Mustangs",
+      "color": "#A80000"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46549,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "69",
+        "kills": "33",
+        "attackErrors": "15",
+        "attackAttempts": "116",
+        "hittingPercentage": "0.155",
+        "assists": "32",
+        "setErrors": "1",
+        "setAttempts": "115",
+        "serviceAces": "3",
+        "serviceErrors": "6",
+        "serveAttempts": "71",
+        "digs": "39",
+        "receptionAttempts": "64",
+        "receptionErrors": "2",
+        "blockSolos": "1",
+        "blockAssists": "18",
+        "blockingErrors": "2",
+        "totalBlocks": "10"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46250,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "77",
+        "kills": "53",
+        "attackErrors": "21",
+        "attackAttempts": "121",
+        "hittingPercentage": "0.264",
+        "assists": "51",
+        "setErrors": "1",
+        "setAttempts": "125",
+        "serviceAces": "2",
+        "serviceErrors": "11",
+        "serveAttempts": "75",
+        "digs": "55",
+        "receptionAttempts": "65",
+        "receptionErrors": "3",
+        "blockSolos": "1",
+        "blockAssists": "14",
+        "blockingErrors": "0",
+        "totalBlocks": "8"
+      }
+    }
+  ]
+}
