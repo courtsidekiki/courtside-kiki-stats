@@ -1,0 +1,93 @@
+{
+  "contests": [
+    {
+      "__typename": "Contest",
+      "id": "6625681",
+      "sportCode": "WVB",
+      "sportUrl": "volleyball-women",
+      "division": 1,
+      "clock": null,
+      "currentPeriod": "FINAL",
+      "finalMessage": "FINAL",
+      "gameState": "F",
+      "statusCodeDisplay": "final",
+      "network": null,
+      "startTime": "12:00",
+      "startTimeEpoch": 1793030400,
+      "week": null,
+      "seasonYear": 2026,
+      "winner": 46412,
+      "hasStartTime": true,
+      "hasBoxscore": true,
+      "hasPbp": true,
+      "hasScoringSummary": false,
+      "hasPreview": false,
+      "hasRecap": false,
+      "hasTeamStats": true,
+      "linescores": [
+        {
+          "__typename": "Linescore",
+          "period": "1",
+          "home": "25",
+          "visit": "18"
+        },
+        {
+          "__typename": "Linescore",
+          "period": "2",
+          "home": "25",
+          "visit": "16"
+        },
+        {
+          "__typename": "Linescore",
+          "period": "3",
+          "home": "25",
+          "visit": "22"
+        }
+      ],
+      "teams": [
+        {
+          "__typename": "ContestTeam",
+          "teamId": "46412",
+          "isHome": true,
+          "color": "#FF8200",
+          "seoname": "florida-am",
+          "nameFull": "Florida A&M University",
+          "nameShort": "Florida A&M",
+          "name6Char": "FL A&M",
+          "teamRank": null,
+          "gameRank": null,
+          "score": 3,
+          "seed": null,
+          "record": "(13-9)",
+          "divisionName": "d1",
+          "division": 1,
+          "isWinner": true
+        },
+        {
+          "__typename": "ContestTeam",
+          "teamId": "46123",
+          "isHome": false,
+          "color": "#69B3E7",
+          "seoname": "southern-u",
+          "nameFull": "Southern University, Baton Rouge",
+          "nameShort": "Southern U.",
+          "name6Char": "SOUTHR",
+          "teamRank": null,
+          "gameRank": null,
+          "score": 0,
+          "seed": null,
+          "record": "(7-14)",
+          "divisionName": "d1",
+          "division": 1,
+          "isWinner": false
+        }
+      ],
+      "liveVideos": [],
+      "championship": null,
+      "championshipGame": null,
+      "links": [],
+      "location": null,
+      "stats": null
+    }
+  ]
+}
