@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6637456,
+  "title": "WVB Boxscore",
+  "description": "VCU vs Davidson",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46375",
+      "seoname": "vcu",
+      "name6Char": "VCU",
+      "nameFull": "Virginia Commonwealth University",
+      "nameShort": "VCU",
+      "teamName": "Rams",
+      "color": "#010101"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46174",
+      "seoname": "davidson",
+      "name6Char": "DAVID",
+      "nameFull": "Davidson College",
+      "nameShort": "Davidson",
+      "teamName": "Wildcats",
+      "color": "#C8102E"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46375,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "83",
+        "kills": "52",
+        "attackErrors": "17",
+        "attackAttempts": "154",
+        "hittingPercentage": "0.227",
+        "assists": "48",
+        "setErrors": "1",
+        "setAttempts": "156",
+        "serviceAces": "5",
+        "serviceErrors": "6",
+        "serveAttempts": "84",
+        "digs": "66",
+        "receptionAttempts": "91",
+        "receptionErrors": "8",
+        "blockSolos": "1",
+        "blockAssists": "16",
+        "blockingErrors": "2",
+        "totalBlocks": "9"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46174,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "98",
+        "kills": "66",
+        "attackErrors": "19",
+        "attackAttempts": "170",
+        "hittingPercentage": "0.276",
+        "assists": "59",
+        "setErrors": "1",
+        "setAttempts": "168",
+        "serviceAces": "8",
+        "serviceErrors": "6",
+        "serveAttempts": "97",
+        "digs": "74",
+        "receptionAttempts": "78",
+        "receptionErrors": "5",
+        "blockSolos": "4",
+        "blockAssists": "12",
+        "blockingErrors": "2",
+        "totalBlocks": "10"
+      }
+    }
+  ]
+}

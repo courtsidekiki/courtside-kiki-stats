@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6639622,
+  "title": "WVB Boxscore",
+  "description": "Little Rock vs Central Ark.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45805",
+      "seoname": "ualr",
+      "name6Char": "UALR",
+      "nameFull": "University of Arkansas at Little Rock",
+      "nameShort": "Little Rock",
+      "teamName": "Trojans",
+      "color": "#6F263D"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45955",
+      "seoname": "central-ark",
+      "name6Char": "C ARK",
+      "nameFull": "University of Central Arkansas",
+      "nameShort": "Central Ark.",
+      "teamName": "Bears",
+      "color": "#582C83"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45805,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "110",
+        "kills": "58",
+        "attackErrors": "28",
+        "attackAttempts": "178",
+        "hittingPercentage": "0.169",
+        "assists": "53",
+        "setErrors": "0",
+        "setAttempts": "184",
+        "serviceAces": "5",
+        "serviceErrors": "6",
+        "serveAttempts": "110",
+        "digs": "72",
+        "receptionAttempts": "99",
+        "receptionErrors": "7",
+        "blockSolos": "0",
+        "blockAssists": "26",
+        "blockingErrors": "1",
+        "totalBlocks": "13"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45955,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "105",
+        "kills": "64",
+        "attackErrors": "40",
+        "attackAttempts": "188",
+        "hittingPercentage": "0.128",
+        "assists": "60",
+        "setErrors": "0",
+        "setAttempts": "186",
+        "serviceAces": "7",
+        "serviceErrors": "6",
+        "serveAttempts": "105",
+        "digs": "74",
+        "receptionAttempts": "104",
+        "receptionErrors": "5",
+        "blockSolos": "2",
+        "blockAssists": "24",
+        "blockingErrors": "4",
+        "totalBlocks": "14"
+      }
+    }
+  ]
+}

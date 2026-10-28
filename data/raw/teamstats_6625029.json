@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625029,
+  "title": "WVB Boxscore",
+  "description": "Duquesne vs Dayton",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46297",
+      "seoname": "duquesne",
+      "name6Char": "DUQSNE",
+      "nameFull": "Duquesne University",
+      "nameShort": "Duquesne",
+      "teamName": "Dukes",
+      "color": "#BA0C2F"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46047",
+      "seoname": "dayton",
+      "name6Char": "DAYTON",
+      "nameFull": "University of Dayton",
+      "nameShort": "Dayton",
+      "teamName": "Flyers",
+      "color": "#D50032"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46297,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "118",
+        "kills": "67",
+        "attackErrors": "26",
+        "attackAttempts": "206",
+        "hittingPercentage": "0.199",
+        "assists": "64",
+        "setErrors": "2",
+        "setAttempts": "200",
+        "serviceAces": "5",
+        "serviceErrors": "10",
+        "serveAttempts": "118",
+        "digs": "92",
+        "receptionAttempts": "96",
+        "receptionErrors": "1",
+        "blockSolos": "3",
+        "blockAssists": "28",
+        "blockingErrors": "3",
+        "totalBlocks": "17"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46047,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "105",
+        "kills": "66",
+        "attackErrors": "36",
+        "attackAttempts": "205",
+        "hittingPercentage": "0.146",
+        "assists": "63",
+        "setErrors": "1",
+        "setAttempts": "204",
+        "serviceAces": "1",
+        "serviceErrors": "9",
+        "serveAttempts": "105",
+        "digs": "93",
+        "receptionAttempts": "108",
+        "receptionErrors": "5",
+        "blockSolos": "4",
+        "blockAssists": "14",
+        "blockingErrors": "4",
+        "totalBlocks": "11"
+      }
+    }
+  ]
+}

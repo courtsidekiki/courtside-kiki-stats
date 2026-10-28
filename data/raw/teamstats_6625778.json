@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625778,
+  "title": "WVB Boxscore",
+  "description": "Iona vs Manhattan",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45782",
+      "seoname": "iona",
+      "name6Char": "IONA",
+      "nameFull": "Iona University",
+      "nameShort": "Iona",
+      "teamName": "Gaels",
+      "color": "#6F2C3F"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46198",
+      "seoname": "manhattan",
+      "name6Char": "MANHAT",
+      "nameFull": "Manhattan University",
+      "nameShort": "Manhattan",
+      "teamName": "Jaspers",
+      "color": "#046A38"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45782,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "95",
+        "kills": "59",
+        "attackErrors": "22",
+        "attackAttempts": "174",
+        "hittingPercentage": "0.213",
+        "assists": "55",
+        "setErrors": "1",
+        "setAttempts": "165",
+        "serviceAces": "9",
+        "serviceErrors": "4",
+        "serveAttempts": "96",
+        "digs": "74",
+        "receptionAttempts": "92",
+        "receptionErrors": "5",
+        "blockSolos": "2",
+        "blockAssists": "22",
+        "blockingErrors": "2",
+        "totalBlocks": "13"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46198,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "99",
+        "kills": "67",
+        "attackErrors": "21",
+        "attackAttempts": "182",
+        "hittingPercentage": "0.253",
+        "assists": "62",
+        "setErrors": "0",
+        "setAttempts": "175",
+        "serviceAces": "5",
+        "serviceErrors": "6",
+        "serveAttempts": "98",
+        "digs": "81",
+        "receptionAttempts": "92",
+        "receptionErrors": "9",
+        "blockSolos": "4",
+        "blockAssists": "14",
+        "blockingErrors": "2",
+        "totalBlocks": "11"
+      }
+    }
+  ]
+}

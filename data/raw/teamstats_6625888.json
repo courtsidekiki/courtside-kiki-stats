@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625888,
+  "title": "WVB Boxscore",
+  "description": "Weber St. vs Idaho St.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46011",
+      "seoname": "weber-st",
+      "name6Char": "WEB ST",
+      "nameFull": "Weber State University",
+      "nameShort": "Weber St.",
+      "teamName": "Wildcats",
+      "color": "#470A68"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46680",
+      "seoname": "idaho-st",
+      "name6Char": "ID ST",
+      "nameFull": "Idaho State University",
+      "nameShort": "Idaho St.",
+      "teamName": "Bengals",
+      "color": "#F47920"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46011,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "94",
+        "kills": "51",
+        "attackErrors": "16",
+        "attackAttempts": "148",
+        "hittingPercentage": "0.236",
+        "assists": "45",
+        "setErrors": "1",
+        "setAttempts": "146",
+        "serviceAces": "7",
+        "serviceErrors": "8",
+        "serveAttempts": "93",
+        "digs": "52",
+        "receptionAttempts": "78",
+        "receptionErrors": "6",
+        "blockSolos": "3",
+        "blockAssists": "8",
+        "blockingErrors": "2",
+        "totalBlocks": "7"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46680,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "85",
+        "kills": "54",
+        "attackErrors": "28",
+        "attackAttempts": "143",
+        "hittingPercentage": "0.182",
+        "assists": "50",
+        "setErrors": "0",
+        "setAttempts": "151",
+        "serviceAces": "6",
+        "serviceErrors": "8",
+        "serveAttempts": "86",
+        "digs": "70",
+        "receptionAttempts": "85",
+        "receptionErrors": "7",
+        "blockSolos": "3",
+        "blockAssists": "18",
+        "blockingErrors": "1",
+        "totalBlocks": "12"
+      }
+    }
+  ]
+}

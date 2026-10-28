@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628556,
+  "title": "WVB Boxscore",
+  "description": "Ohio vs Kent St.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46731",
+      "seoname": "ohio",
+      "name6Char": "OHIO",
+      "nameFull": "Ohio University",
+      "nameShort": "Ohio",
+      "teamName": "Bobcats",
+      "color": "#154734"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46558",
+      "seoname": "kent-st",
+      "name6Char": "KENT",
+      "nameFull": "Kent State University",
+      "nameShort": "Kent St.",
+      "teamName": "Golden Flashes",
+      "color": "#003976"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46731,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "95",
+        "kills": "61",
+        "attackErrors": "20",
+        "attackAttempts": "139",
+        "hittingPercentage": "0.295",
+        "assists": "59",
+        "setErrors": "3",
+        "setAttempts": "134",
+        "serviceAces": "7",
+        "serviceErrors": "6",
+        "serveAttempts": "94",
+        "digs": "49",
+        "receptionAttempts": "85",
+        "receptionErrors": "8",
+        "blockSolos": "0",
+        "blockAssists": "11",
+        "blockingErrors": "0",
+        "totalBlocks": "5"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46558,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "88",
+        "kills": "49",
+        "attackErrors": "23",
+        "attackAttempts": "139",
+        "hittingPercentage": "0.187",
+        "assists": "47",
+        "setErrors": "0",
+        "setAttempts": "138",
+        "serviceAces": "8",
+        "serviceErrors": "4",
+        "serveAttempts": "89",
+        "digs": "48",
+        "receptionAttempts": "88",
+        "receptionErrors": "7",
+        "blockSolos": "2",
+        "blockAssists": "10",
+        "blockingErrors": "0",
+        "totalBlocks": "7"
+      }
+    }
+  ]
+}

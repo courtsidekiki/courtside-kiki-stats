@@ -1,0 +1,110 @@
+{
+  "contests": [
+    {
+      "__typename": "Contest",
+      "id": "6625029",
+      "sportCode": "WVB",
+      "sportUrl": "volleyball-women",
+      "division": 1,
+      "clock": null,
+      "currentPeriod": "FINAL",
+      "finalMessage": "FINAL",
+      "gameState": "F",
+      "statusCodeDisplay": "final",
+      "network": null,
+      "startTime": "17:00",
+      "startTimeEpoch": 1793134800,
+      "week": null,
+      "seasonYear": 2026,
+      "winner": 46297,
+      "hasStartTime": true,
+      "hasBoxscore": true,
+      "hasPbp": true,
+      "hasScoringSummary": false,
+      "hasPreview": false,
+      "hasRecap": false,
+      "hasTeamStats": true,
+      "linescores": [
+        {
+          "__typename": "Linescore",
+          "period": "1",
+          "home": "25",
+          "visit": "27"
+        },
+        {
+          "__typename": "Linescore",
+          "period": "2",
+          "home": "25",
+          "visit": "27"
+        },
+        {
+          "__typename": "Linescore",
+          "period": "3",
+          "home": "28",
+          "visit": "26"
+        },
+        {
+          "__typename": "Linescore",
+          "period": "4",
+          "home": "25",
+          "visit": "16"
+        },
+        {
+          "__typename": "Linescore",
+          "period": "5",
+          "home": "15",
+          "visit": "9"
+        }
+      ],
+      "teams": [
+        {
+          "__typename": "ContestTeam",
+          "teamId": "46297",
+          "isHome": true,
+          "color": "#BA0C2F",
+          "seoname": "duquesne",
+          "nameFull": "Duquesne University",
+          "nameShort": "Duquesne",
+          "name6Char": "DUQSNE",
+          "teamRank": null,
+          "gameRank": null,
+          "score": 3,
+          "seed": null,
+          "record": "(15-7)",
+          "divisionName": "d1",
+          "division": 1,
+          "isWinner": true
+        },
+        {
+          "__typename": "ContestTeam",
+          "teamId": "46047",
+          "isHome": false,
+          "color": "#D50032",
+          "seoname": "dayton",
+          "nameFull": "University of Dayton",
+          "nameShort": "Dayton",
+          "name6Char": "DAYTON",
+          "teamRank": null,
+          "gameRank": null,
+          "score": 2,
+          "seed": null,
+          "record": "(17-7)",
+          "divisionName": "d1",
+          "division": 1,
+          "isWinner": false
+        }
+      ],
+      "liveVideos": [],
+      "championship": null,
+      "championshipGame": null,
+      "links": [],
+      "location": {
+        "__typename": "Location",
+        "venue": "UPMC Cooper Fieldhouse",
+        "city": "Pittsburgh",
+        "stateUsps": "PA"
+      },
+      "stats": null
+    }
+  ]
+}

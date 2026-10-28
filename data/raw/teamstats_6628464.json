@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628464,
+  "title": "WVB Boxscore",
+  "description": "Marist vs Siena",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46561",
+      "seoname": "marist",
+      "name6Char": "MARIST",
+      "nameFull": "Marist University",
+      "nameShort": "Marist",
+      "teamName": "Red Foxes",
+      "color": "#C8102E"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46248",
+      "seoname": "siena",
+      "name6Char": "SIENA",
+      "nameFull": "Siena University",
+      "nameShort": "Siena",
+      "teamName": "Saints",
+      "color": "#006747"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46561,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "77",
+        "kills": "56",
+        "attackErrors": "12",
+        "attackAttempts": "123",
+        "hittingPercentage": "0.358",
+        "assists": "51",
+        "setErrors": "0",
+        "setAttempts": "115",
+        "serviceAces": "2",
+        "serviceErrors": "6",
+        "serveAttempts": "76",
+        "digs": "61",
+        "receptionAttempts": "58",
+        "receptionErrors": "6",
+        "blockSolos": "1",
+        "blockAssists": "4",
+        "blockingErrors": "0",
+        "totalBlocks": "3"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46248,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "64",
+        "kills": "40",
+        "attackErrors": "10",
+        "attackAttempts": "122",
+        "hittingPercentage": "0.246",
+        "assists": "39",
+        "setErrors": "2",
+        "setAttempts": "130",
+        "serviceAces": "6",
+        "serviceErrors": "7",
+        "serveAttempts": "65",
+        "digs": "53",
+        "receptionAttempts": "70",
+        "receptionErrors": "2",
+        "blockSolos": "1",
+        "blockAssists": "6",
+        "blockingErrors": "2",
+        "totalBlocks": "4"
+      }
+    }
+  ]
+}
