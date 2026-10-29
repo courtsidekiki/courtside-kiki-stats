@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628253,
+  "title": "WVB Boxscore",
+  "description": "California vs Stanford",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45760",
+      "seoname": "california",
+      "name6Char": "CAL",
+      "nameFull": "University of California, Berkeley",
+      "nameShort": "California",
+      "teamName": "Golden Bears",
+      "color": "#041E42"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46501",
+      "seoname": "stanford",
+      "name6Char": "STAN",
+      "nameFull": "Stanford University",
+      "nameShort": "Stanford",
+      "teamName": "Cardinal",
+      "color": "#9D2235"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45760,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "77",
+        "kills": "50",
+        "attackErrors": "13",
+        "attackAttempts": "125",
+        "hittingPercentage": "0.296",
+        "assists": "48",
+        "setErrors": "1",
+        "setAttempts": "124",
+        "serviceAces": "6",
+        "serviceErrors": "9",
+        "serveAttempts": "76",
+        "digs": "59",
+        "receptionAttempts": "59",
+        "receptionErrors": "7",
+        "blockSolos": "1",
+        "blockAssists": "6",
+        "blockingErrors": "1",
+        "totalBlocks": "4"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46501,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "68",
+        "kills": "38",
+        "attackErrors": "8",
+        "attackAttempts": "106",
+        "hittingPercentage": "0.283",
+        "assists": "37",
+        "setErrors": "2",
+        "setAttempts": "115",
+        "serviceAces": "7",
+        "serviceErrors": "10",
+        "serveAttempts": "69",
+        "digs": "57",
+        "receptionAttempts": "67",
+        "receptionErrors": "6",
+        "blockSolos": "4",
+        "blockAssists": "6",
+        "blockingErrors": "1",
+        "totalBlocks": "7"
+      }
+    }
+  ]
+}
