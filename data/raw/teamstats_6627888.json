@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627888,
+  "title": "WVB Boxscore",
+  "description": "Oregon St. vs Gonzaga",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46348",
+      "seoname": "oregon-st",
+      "name6Char": "ORE ST",
+      "nameFull": "Oregon State University",
+      "nameShort": "Oregon St.",
+      "teamName": "Beavers",
+      "color": "#DC4405"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46304",
+      "seoname": "gonzaga",
+      "name6Char": "GONZ",
+      "nameFull": "Gonzaga University",
+      "nameShort": "Gonzaga",
+      "teamName": "Bulldogs",
+      "color": "#041E42"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46348,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "109",
+        "kills": "57",
+        "attackErrors": "24",
+        "attackAttempts": "163",
+        "hittingPercentage": "0.202",
+        "assists": "47",
+        "setErrors": "1",
+        "setAttempts": "156",
+        "serviceAces": "10",
+        "serviceErrors": "11",
+        "serveAttempts": "108",
+        "digs": "64",
+        "receptionAttempts": "83",
+        "receptionErrors": "7",
+        "blockSolos": "3",
+        "blockAssists": "26",
+        "blockingErrors": "1",
+        "totalBlocks": "16"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46304,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "92",
+        "kills": "48",
+        "attackErrors": "31",
+        "attackAttempts": "156",
+        "hittingPercentage": "0.109",
+        "assists": "45",
+        "setErrors": "1",
+        "setAttempts": "157",
+        "serviceAces": "7",
+        "serviceErrors": "10",
+        "serveAttempts": "93",
+        "digs": "67",
+        "receptionAttempts": "97",
+        "receptionErrors": "10",
+        "blockSolos": "3",
+        "blockAssists": "10",
+        "blockingErrors": "4",
+        "totalBlocks": "8"
+      }
+    }
+  ]
+}

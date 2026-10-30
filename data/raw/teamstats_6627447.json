@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627447,
+  "title": "WVB Boxscore",
+  "description": "Morehead St. vs Eastern Ill.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "2ND SET",
+  "status": "I",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46341",
+      "seoname": "morehead-st",
+      "name6Char": "MOREST",
+      "nameFull": "Morehead State University",
+      "nameShort": "Morehead St.",
+      "teamName": "Eagles",
+      "color": "#0032A0"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45769",
+      "seoname": "eastern-ill",
+      "name6Char": "E ILL",
+      "nameFull": "Eastern Illinois University",
+      "nameShort": "Eastern Ill.",
+      "teamName": "Panthers",
+      "color": "#003594"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46341,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "42",
+        "kills": "26",
+        "attackErrors": "10",
+        "attackAttempts": "77",
+        "hittingPercentage": "0.208",
+        "assists": "23",
+        "setErrors": "0",
+        "setAttempts": "76",
+        "serviceAces": "2",
+        "serviceErrors": "5",
+        "serveAttempts": "42",
+        "digs": "30",
+        "receptionAttempts": "38",
+        "receptionErrors": "2",
+        "blockSolos": "1",
+        "blockAssists": "8",
+        "blockingErrors": "0",
+        "totalBlocks": "9"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45769,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "41",
+        "kills": "24",
+        "attackErrors": "11",
+        "attackAttempts": "70",
+        "hittingPercentage": "0.186",
+        "assists": "23",
+        "setErrors": "0",
+        "setAttempts": "70",
+        "serviceAces": "2",
+        "serviceErrors": "3",
+        "serveAttempts": "41",
+        "digs": "32",
+        "receptionAttempts": "37",
+        "receptionErrors": "2",
+        "blockSolos": "1",
+        "blockAssists": "10",
+        "blockingErrors": "0",
+        "totalBlocks": "11"
+      }
+    }
+  ]
+}

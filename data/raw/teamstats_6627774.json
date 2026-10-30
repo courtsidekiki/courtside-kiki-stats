@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627774,
+  "title": "WVB Boxscore",
+  "description": "North Dakota vs Oral Roberts",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46236",
+      "seoname": "north-dakota",
+      "name6Char": "NO DAK",
+      "nameFull": "University of North Dakota",
+      "nameShort": "North Dakota",
+      "teamName": "Fighting Hawks",
+      "color": "#009A44"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46480",
+      "seoname": "oral-roberts",
+      "name6Char": "ORU",
+      "nameFull": "Oral Roberts University",
+      "nameShort": "Oral Roberts",
+      "teamName": "Golden Eagles",
+      "color": "#011E41"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46236,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "42",
+        "attackErrors": "24",
+        "attackAttempts": "105",
+        "hittingPercentage": "0.171",
+        "assists": "42",
+        "setErrors": "1",
+        "setAttempts": "109",
+        "serviceAces": "12",
+        "serviceErrors": "5",
+        "serveAttempts": "74",
+        "digs": "58",
+        "receptionAttempts": "52",
+        "receptionErrors": "7",
+        "blockSolos": "0",
+        "blockAssists": "14",
+        "blockingErrors": "1",
+        "totalBlocks": "7"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46480,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "57",
+        "kills": "19",
+        "attackErrors": "15",
+        "attackAttempts": "97",
+        "hittingPercentage": "0.041",
+        "assists": "17",
+        "setErrors": "0",
+        "setAttempts": "100",
+        "serviceAces": "7",
+        "serviceErrors": "6",
+        "serveAttempts": "58",
+        "digs": "35",
+        "receptionAttempts": "69",
+        "receptionErrors": "12",
+        "blockSolos": "2",
+        "blockAssists": "21",
+        "blockingErrors": "1",
+        "totalBlocks": "12"
+      }
+    }
+  ]
+}

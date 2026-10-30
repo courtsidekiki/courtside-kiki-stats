@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628232,
+  "title": "WVB Boxscore",
+  "description": "Colorado vs Cincinnati",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46542",
+      "seoname": "colorado",
+      "name6Char": "COLO",
+      "nameFull": "University of Colorado Boulder",
+      "nameShort": "Colorado",
+      "teamName": "Buffaloes",
+      "color": "#010101"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46539",
+      "seoname": "cincinnati",
+      "name6Char": "CINCY",
+      "nameFull": "University of Cincinnati",
+      "nameShort": "Cincinnati",
+      "teamName": "Bearcats",
+      "color": "#C8102E"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46542,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "96",
+        "kills": "59",
+        "attackErrors": "23",
+        "attackAttempts": "152",
+        "hittingPercentage": "0.237",
+        "assists": "54",
+        "setErrors": "0",
+        "setAttempts": "148",
+        "serviceAces": "4",
+        "serviceErrors": "12",
+        "serveAttempts": "95",
+        "digs": "54",
+        "receptionAttempts": "92",
+        "receptionErrors": "10",
+        "blockSolos": "0",
+        "blockAssists": "22",
+        "blockingErrors": "3",
+        "totalBlocks": "11"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46539,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "99",
+        "kills": "54",
+        "attackErrors": "24",
+        "attackAttempts": "144",
+        "hittingPercentage": "0.208",
+        "assists": "53",
+        "setErrors": "1",
+        "setAttempts": "153",
+        "serviceAces": "10",
+        "serviceErrors": "8",
+        "serveAttempts": "100",
+        "digs": "63",
+        "receptionAttempts": "83",
+        "receptionErrors": "4",
+        "blockSolos": "2",
+        "blockAssists": "18",
+        "blockingErrors": "4",
+        "totalBlocks": "11"
+      }
+    }
+  ]
+}

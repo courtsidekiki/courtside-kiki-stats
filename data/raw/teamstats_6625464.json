@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625464,
+  "title": "WVB Boxscore",
+  "description": "Eastern Ky. vs UT Arlington",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45770",
+      "seoname": "eastern-ky",
+      "name6Char": "E KY",
+      "nameFull": "Eastern Kentucky University",
+      "nameShort": "Eastern Ky.",
+      "teamName": "Colonels",
+      "color": "#6F263D"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45873",
+      "seoname": "texas-arlington",
+      "name6Char": "TX ARL",
+      "nameFull": "University of Texas at Arlington",
+      "nameShort": "UT Arlington",
+      "teamName": "Mavericks",
+      "color": "#003DA5"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45770,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "103",
+        "kills": "65",
+        "attackErrors": "31",
+        "attackAttempts": "193",
+        "hittingPercentage": "0.176",
+        "assists": "60",
+        "setErrors": "2",
+        "setAttempts": "190",
+        "serviceAces": "4",
+        "serviceErrors": "3",
+        "serveAttempts": "102",
+        "digs": "90",
+        "receptionAttempts": "89",
+        "receptionErrors": "4",
+        "blockSolos": "3",
+        "blockAssists": "16",
+        "blockingErrors": "2",
+        "totalBlocks": "11"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45873,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "96",
+        "kills": "56",
+        "attackErrors": "26",
+        "attackAttempts": "183",
+        "hittingPercentage": "0.164",
+        "assists": "54",
+        "setErrors": "0",
+        "setAttempts": "182",
+        "serviceAces": "4",
+        "serviceErrors": "8",
+        "serveAttempts": "97",
+        "digs": "80",
+        "receptionAttempts": "99",
+        "receptionErrors": "4",
+        "blockSolos": "6",
+        "blockAssists": "12",
+        "blockingErrors": "1",
+        "totalBlocks": "12"
+      }
+    }
+  ]
+}

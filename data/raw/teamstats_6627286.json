@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627286,
+  "title": "WVB Boxscore",
+  "description": "Georgia St. vs App State",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46676",
+      "seoname": "georgia-st",
+      "name6Char": "GA ST",
+      "nameFull": "Georgia State University",
+      "nameShort": "Georgia St.",
+      "teamName": "Panthers",
+      "color": "#264391"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46571",
+      "seoname": "appalachian-st",
+      "name6Char": "APP ST",
+      "nameFull": "Appalachian State University",
+      "nameShort": "App State",
+      "teamName": "Mountaineers",
+      "color": "#010101"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46676,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "89",
+        "kills": "50",
+        "attackErrors": "16",
+        "attackAttempts": "136",
+        "hittingPercentage": "0.250",
+        "assists": "49",
+        "setErrors": "1",
+        "setAttempts": "133",
+        "serviceAces": "6",
+        "serviceErrors": "3",
+        "serveAttempts": "88",
+        "digs": "54",
+        "receptionAttempts": "76",
+        "receptionErrors": "8",
+        "blockSolos": "2",
+        "blockAssists": "20",
+        "blockingErrors": "2",
+        "totalBlocks": "12"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46571,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "82",
+        "kills": "54",
+        "attackErrors": "23",
+        "attackAttempts": "142",
+        "hittingPercentage": "0.218",
+        "assists": "52",
+        "setErrors": "3",
+        "setAttempts": "139",
+        "serviceAces": "8",
+        "serviceErrors": "7",
+        "serveAttempts": "83",
+        "digs": "57",
+        "receptionAttempts": "85",
+        "receptionErrors": "6",
+        "blockSolos": "2",
+        "blockAssists": "14",
+        "blockingErrors": "0",
+        "totalBlocks": "9"
+      }
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
-  "inputMD5Sum": "05cb5dbb0ce8e3bde54032ac7ecf994f",
+  "inputMD5Sum": "b24c204154cfdf8150a18eacb0346376",
   "instanceId": "d41d8cd98f00b204e9800998ecf8427e",
-  "updated_at": "2026-10-29 17:21:45",
+  "updated_at": "2026-10-30 16:55:44",
   "games": [
     {
       "game": {
@@ -847,14 +847,14 @@
       "game": {
         "gameID": "6628295",
         "away": {
-          "score": "4",
+          "score": "3",
           "names": {
             "char6": "LATECH",
             "short": "Louisiana Tech",
             "seo": "louisiana-tech",
             "full": ""
           },
-          "winner": false,
+          "winner": true,
           "seed": "",
           "description": "",
           "rank": "",
@@ -865,12 +865,12 @@
             }
           ]
         },
-        "finalMessage": "3RD SET",
+        "finalMessage": "FINAL",
         "title": "Louisiana Tech Ark.-Pine Bluff",
         "url": "/game/6628295",
         "network": "",
         "home": {
-          "score": "0",
+          "score": "1",
           "names": {
             "char6": "ARK PB",
             "short": "Ark.-Pine Bluff",
@@ -891,9 +891,9 @@
         "liveVideoEnabled": false,
         "startTime": "7:00 PM ET",
         "startTimeEpoch": "1793142000",
-        "gameState": "live",
+        "gameState": "final",
         "startDate": "10/27/2026",
-        "currentPeriod": "3RD SET",
+        "currentPeriod": "FINAL",
         "contestClock": "0:00",
         "bracketId": "",
         "bracketRound": ""

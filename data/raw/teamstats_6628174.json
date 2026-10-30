@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628174,
+  "title": "WVB Boxscore",
+  "description": "Northwestern St. vs Houston Christian",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46107",
+      "seoname": "northwestern-st",
+      "name6Char": "NW ST",
+      "nameFull": "Northwestern State University",
+      "nameShort": "Northwestern St.",
+      "teamName": "Lady Demons",
+      "color": "#54209e"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "51287",
+      "seoname": "houston-christian",
+      "name6Char": "HOUCHR",
+      "nameFull": "Houston Christian University",
+      "nameShort": "Houston Christian",
+      "teamName": "Huskies",
+      "color": "#002F87"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46107,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "108",
+        "kills": "70",
+        "attackErrors": "28",
+        "attackAttempts": "199",
+        "hittingPercentage": "0.211",
+        "assists": "64",
+        "setErrors": "2",
+        "setAttempts": "198",
+        "serviceAces": "5",
+        "serviceErrors": "6",
+        "serveAttempts": "108",
+        "digs": "81",
+        "receptionAttempts": "101",
+        "receptionErrors": "4",
+        "blockSolos": "1",
+        "blockAssists": "22",
+        "blockingErrors": "3",
+        "totalBlocks": "12"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 51287,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "108",
+        "kills": "68",
+        "attackErrors": "26",
+        "attackAttempts": "188",
+        "hittingPercentage": "0.223",
+        "assists": "65",
+        "setErrors": "0",
+        "setAttempts": "186",
+        "serviceAces": "4",
+        "serviceErrors": "7",
+        "serveAttempts": "108",
+        "digs": "82",
+        "receptionAttempts": "102",
+        "receptionErrors": "5",
+        "blockSolos": "1",
+        "blockAssists": "26",
+        "blockingErrors": "0",
+        "totalBlocks": "14"
+      }
+    }
+  ]
+}

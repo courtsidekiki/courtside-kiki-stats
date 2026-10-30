@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627336,
+  "title": "WVB Boxscore",
+  "description": "McNeese vs Southeastern La.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46201",
+      "seoname": "mcneese",
+      "name6Char": "MCNEES",
+      "nameFull": "McNeese State University",
+      "nameShort": "McNeese",
+      "teamName": "Cowgirls",
+      "color": "#003087"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46622",
+      "seoname": "southeastern-la",
+      "name6Char": "SE LA",
+      "nameFull": "Southeastern Louisiana University",
+      "nameShort": "Southeastern La.",
+      "teamName": "Lady Lions",
+      "color": "#1D4C30"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46201,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "98",
+        "kills": "52",
+        "attackErrors": "22",
+        "attackAttempts": "156",
+        "hittingPercentage": "0.192",
+        "assists": "49",
+        "setErrors": "2",
+        "setAttempts": "153",
+        "serviceAces": "7",
+        "serviceErrors": "6",
+        "serveAttempts": "97",
+        "digs": "53",
+        "receptionAttempts": "100",
+        "receptionErrors": "7",
+        "blockSolos": "1",
+        "blockAssists": "19",
+        "blockingErrors": "4",
+        "totalBlocks": "10"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46622,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "107",
+        "kills": "70",
+        "attackErrors": "29",
+        "attackAttempts": "170",
+        "hittingPercentage": "0.241",
+        "assists": "60",
+        "setErrors": "2",
+        "setAttempts": "157",
+        "serviceAces": "7",
+        "serviceErrors": "8",
+        "serveAttempts": "108",
+        "digs": "67",
+        "receptionAttempts": "91",
+        "receptionErrors": "7",
+        "blockSolos": "3",
+        "blockAssists": "14",
+        "blockingErrors": "5",
+        "totalBlocks": "10"
+      }
+    }
+  ]
+}
