@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627908,
+  "title": "WVB Boxscore",
+  "description": "UC Davis vs Hawaii",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46036",
+      "seoname": "uc-davis",
+      "name6Char": "UC DAV",
+      "nameFull": "University of California, Davis",
+      "nameShort": "UC Davis",
+      "teamName": "Aggies",
+      "color": "#002855"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46419",
+      "seoname": "hawaii",
+      "name6Char": "HAWAII",
+      "nameFull": "University of Hawaii, Manoa",
+      "nameShort": "Hawaii",
+      "teamName": "Rainbow Wahine",
+      "color": "#154734"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46036,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "87",
+        "kills": "45",
+        "attackErrors": "27",
+        "attackAttempts": "140",
+        "hittingPercentage": "0.129",
+        "assists": "42",
+        "setErrors": "3",
+        "setAttempts": "143",
+        "serviceAces": "0",
+        "serviceErrors": "12",
+        "serveAttempts": "88",
+        "digs": "63",
+        "receptionAttempts": "76",
+        "receptionErrors": "5",
+        "blockSolos": "4",
+        "blockAssists": "18",
+        "blockingErrors": "0",
+        "totalBlocks": "13"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46419,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "95",
+        "kills": "48",
+        "attackErrors": "24",
+        "attackAttempts": "144",
+        "hittingPercentage": "0.167",
+        "assists": "44",
+        "setErrors": "0",
+        "setAttempts": "143",
+        "serviceAces": "5",
+        "serviceErrors": "18",
+        "serveAttempts": "94",
+        "digs": "54",
+        "receptionAttempts": "76",
+        "receptionErrors": "0",
+        "blockSolos": "3",
+        "blockAssists": "8",
+        "blockingErrors": "0",
+        "totalBlocks": "7"
+      }
+    }
+  ]
+}

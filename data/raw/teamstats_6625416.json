@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625416,
+  "title": "WVB Boxscore",
+  "description": "James Madison vs Coastal Carolina",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45785",
+      "seoname": "james-madison",
+      "name6Char": "JMU",
+      "nameFull": "James Madison University",
+      "nameShort": "James Madison",
+      "teamName": "Dukes",
+      "color": "#330072"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46170",
+      "seoname": "coastal-caro",
+      "name6Char": "CO CAR",
+      "nameFull": "Coastal Carolina University",
+      "nameShort": "Coastal Carolina",
+      "teamName": "Chanticleers",
+      "color": "#007377"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45785,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "106",
+        "kills": "70",
+        "attackErrors": "22",
+        "attackAttempts": "158",
+        "hittingPercentage": "0.304",
+        "assists": "61",
+        "setErrors": "2",
+        "setAttempts": "157",
+        "serviceAces": "10",
+        "serviceErrors": "11",
+        "serveAttempts": "107",
+        "digs": "61",
+        "receptionAttempts": "89",
+        "receptionErrors": "8",
+        "blockSolos": "1",
+        "blockAssists": "12",
+        "blockingErrors": "0",
+        "totalBlocks": "7"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46170,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "101",
+        "kills": "57",
+        "attackErrors": "14",
+        "attackAttempts": "150",
+        "hittingPercentage": "0.287",
+        "assists": "48",
+        "setErrors": "0",
+        "setAttempts": "149",
+        "serviceAces": "8",
+        "serviceErrors": "11",
+        "serveAttempts": "100",
+        "digs": "52",
+        "receptionAttempts": "96",
+        "receptionErrors": "10",
+        "blockSolos": "2",
+        "blockAssists": "22",
+        "blockingErrors": "0",
+        "totalBlocks": "13"
+      }
+    }
+  ]
+}

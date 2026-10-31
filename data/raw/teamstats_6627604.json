@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627604,
+  "title": "WVB Boxscore",
+  "description": "UC Riverside vs Sacramento St.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46536",
+      "seoname": "uc-riverside",
+      "name6Char": "UC RIV",
+      "nameFull": "University of California, Riverside",
+      "nameShort": "UC Riverside",
+      "teamName": "Highlanders",
+      "color": "#1E437B"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46290",
+      "seoname": "sacramento-st",
+      "name6Char": "SAC ST",
+      "nameFull": "California State University, Sacramento",
+      "nameShort": "Sacramento St.",
+      "teamName": "Hornets",
+      "color": "#115740"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46536,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "51",
+        "kills": "29",
+        "attackErrors": "14",
+        "attackAttempts": "95",
+        "hittingPercentage": "0.158",
+        "assists": "28",
+        "setErrors": "5",
+        "setAttempts": "103",
+        "serviceAces": "3",
+        "serviceErrors": "9",
+        "serveAttempts": "53",
+        "digs": "39",
+        "receptionAttempts": "62",
+        "receptionErrors": "6",
+        "blockSolos": "0",
+        "blockAssists": "4",
+        "blockingErrors": "2",
+        "totalBlocks": "2"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46290,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "41",
+        "attackErrors": "7",
+        "attackAttempts": "101",
+        "hittingPercentage": "0.337",
+        "assists": "40",
+        "setErrors": "0",
+        "setAttempts": "95",
+        "serviceAces": "6",
+        "serviceErrors": "11",
+        "serveAttempts": "73",
+        "digs": "39",
+        "receptionAttempts": "44",
+        "receptionErrors": "3",
+        "blockSolos": "1",
+        "blockAssists": "12",
+        "blockingErrors": "5",
+        "totalBlocks": "7"
+      }
+    }
+  ]
+}

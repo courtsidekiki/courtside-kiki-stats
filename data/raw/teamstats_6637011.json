@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6637011,
+  "title": "WVB Boxscore",
+  "description": "Murray St. vs UIC",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46604",
+      "seoname": "murray-st",
+      "name6Char": "MURRAY",
+      "nameFull": "Murray State University",
+      "nameShort": "Murray St.",
+      "teamName": "Racers",
+      "color": "#0C2340"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45916",
+      "seoname": "ill-chicago",
+      "name6Char": "UIC",
+      "nameFull": "University of Illinois Chicago",
+      "nameShort": "UIC",
+      "teamName": "Flames",
+      "color": "#DB0032"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46604,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "78",
+        "kills": "56",
+        "attackErrors": "14",
+        "attackAttempts": "124",
+        "hittingPercentage": "0.339",
+        "assists": "53",
+        "setErrors": "1",
+        "setAttempts": "129",
+        "serviceAces": "5",
+        "serviceErrors": "8",
+        "serveAttempts": "77",
+        "digs": "51",
+        "receptionAttempts": "66",
+        "receptionErrors": "6",
+        "blockSolos": "0",
+        "blockAssists": "8",
+        "blockingErrors": "1",
+        "totalBlocks": "4"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45916,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "69",
+        "kills": "38",
+        "attackErrors": "12",
+        "attackAttempts": "113",
+        "hittingPercentage": "0.230",
+        "assists": "36",
+        "setErrors": "1",
+        "setAttempts": "114",
+        "serviceAces": "6",
+        "serviceErrors": "4",
+        "serveAttempts": "70",
+        "digs": "41",
+        "receptionAttempts": "69",
+        "receptionErrors": "5",
+        "blockSolos": "1",
+        "blockAssists": "14",
+        "blockingErrors": "1",
+        "totalBlocks": "8"
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626065,
+  "title": "WVB Boxscore",
+  "description": "Niagara vs Rider",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46476",
+      "seoname": "niagara",
+      "name6Char": "NIAGRA",
+      "nameFull": "Niagara University",
+      "nameShort": "Niagara",
+      "teamName": "Purple Eagles",
+      "color": "#582C83"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45990",
+      "seoname": "rider",
+      "name6Char": "RIDER",
+      "nameFull": "Rider University",
+      "nameShort": "Rider",
+      "teamName": "Broncs",
+      "color": "#9D2235"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46476,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "46",
+        "kills": "28",
+        "attackErrors": "18",
+        "attackAttempts": "97",
+        "hittingPercentage": "0.103",
+        "assists": "25",
+        "setErrors": "2",
+        "setAttempts": "94",
+        "serviceAces": "2",
+        "serviceErrors": "5",
+        "serveAttempts": "47",
+        "digs": "36",
+        "receptionAttempts": "65",
+        "receptionErrors": "9",
+        "blockSolos": "1",
+        "blockAssists": "8",
+        "blockingErrors": "3",
+        "totalBlocks": "5"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45990,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "41",
+        "attackErrors": "7",
+        "attackAttempts": "86",
+        "hittingPercentage": "0.395",
+        "assists": "37",
+        "setErrors": "0",
+        "setAttempts": "81",
+        "serviceAces": "9",
+        "serviceErrors": "9",
+        "serveAttempts": "74",
+        "digs": "43",
+        "receptionAttempts": "42",
+        "receptionErrors": "2",
+        "blockSolos": "5",
+        "blockAssists": "6",
+        "blockingErrors": "1",
+        "totalBlocks": "8"
+      }
+    }
+  ]
+}

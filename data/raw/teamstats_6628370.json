@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628370,
+  "title": "WVB Boxscore",
+  "description": "Stetson vs Jacksonville",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46502",
+      "seoname": "stetson",
+      "name6Char": "STETSN",
+      "nameFull": "Stetson University",
+      "nameShort": "Stetson",
+      "teamName": "Hatters",
+      "color": "#006747"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45917",
+      "seoname": "jacksonville",
+      "name6Char": "JVILLE",
+      "nameFull": "Jacksonville University",
+      "nameShort": "Jacksonville",
+      "teamName": "Dolphins",
+      "color": "#004E42"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46502,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "111",
+        "kills": "60",
+        "attackErrors": "19",
+        "attackAttempts": "172",
+        "hittingPercentage": "0.238",
+        "assists": "59",
+        "setErrors": "1",
+        "setAttempts": "185",
+        "serviceAces": "6",
+        "serviceErrors": "10",
+        "serveAttempts": "111",
+        "digs": "90",
+        "receptionAttempts": "92",
+        "receptionErrors": "5",
+        "blockSolos": "6",
+        "blockAssists": "18",
+        "blockingErrors": "3",
+        "totalBlocks": "15"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45917,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "99",
+        "kills": "64",
+        "attackErrors": "38",
+        "attackAttempts": "206",
+        "hittingPercentage": "0.126",
+        "assists": "62",
+        "setErrors": "0",
+        "setAttempts": "204",
+        "serviceAces": "5",
+        "serviceErrors": "7",
+        "serveAttempts": "99",
+        "digs": "79",
+        "receptionAttempts": "101",
+        "receptionErrors": "6",
+        "blockSolos": "0",
+        "blockAssists": "10",
+        "blockingErrors": "1",
+        "totalBlocks": "5"
+      }
+    }
+  ]
+}

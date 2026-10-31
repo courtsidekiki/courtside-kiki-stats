@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625549,
+  "title": "WVB Boxscore",
+  "description": "Memphis vs UTSA",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46688",
+      "seoname": "memphis",
+      "name6Char": "MEM",
+      "nameFull": "University of Memphis",
+      "nameShort": "Memphis",
+      "teamName": "Tigers",
+      "color": "#173B70"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46369",
+      "seoname": "utsa",
+      "name6Char": "UTSA",
+      "nameFull": "University of Texas at San Antonio",
+      "nameShort": "UTSA",
+      "teamName": "Roadrunners",
+      "color": "#0A2240"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46688,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "105",
+        "kills": "59",
+        "attackErrors": "27",
+        "attackAttempts": "160",
+        "hittingPercentage": "0.200",
+        "assists": "57",
+        "setErrors": "1",
+        "setAttempts": "164",
+        "serviceAces": "9",
+        "serviceErrors": "5",
+        "serveAttempts": "104",
+        "digs": "70",
+        "receptionAttempts": "89",
+        "receptionErrors": "3",
+        "blockSolos": "0",
+        "blockAssists": "20",
+        "blockingErrors": "4",
+        "totalBlocks": "10"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46369,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "96",
+        "kills": "60",
+        "attackErrors": "26",
+        "attackAttempts": "165",
+        "hittingPercentage": "0.206",
+        "assists": "54",
+        "setErrors": "3",
+        "setAttempts": "167",
+        "serviceAces": "3",
+        "serviceErrors": "8",
+        "serveAttempts": "97",
+        "digs": "61",
+        "receptionAttempts": "99",
+        "receptionErrors": "9",
+        "blockSolos": "1",
+        "blockAssists": "12",
+        "blockingErrors": "3",
+        "totalBlocks": "7"
+      }
+    }
+  ]
+}

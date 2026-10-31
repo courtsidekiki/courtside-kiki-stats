@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628620,
+  "title": "WVB Boxscore",
+  "description": "Louisiana Tech vs Old Dominion",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46060",
+      "seoname": "louisiana-tech",
+      "name6Char": "LATECH",
+      "nameFull": "Louisiana Tech University",
+      "nameShort": "Louisiana Tech",
+      "teamName": "Bulldogs",
+      "color": "#003087"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "1387136",
+      "seoname": "old-dominion",
+      "name6Char": "ODU",
+      "nameFull": "Old Dominion University",
+      "nameShort": "Old Dominion",
+      "teamName": "Monarchs",
+      "color": "#0B4071"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46060,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "85",
+        "kills": "43",
+        "attackErrors": "18",
+        "attackAttempts": "126",
+        "hittingPercentage": "0.198",
+        "assists": "32",
+        "setErrors": "4",
+        "setAttempts": "122",
+        "serviceAces": "6",
+        "serviceErrors": "10",
+        "serveAttempts": "86",
+        "digs": "41",
+        "receptionAttempts": "85",
+        "receptionErrors": "6",
+        "blockSolos": "1",
+        "blockAssists": "16",
+        "blockingErrors": "0",
+        "totalBlocks": "9"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 1387136,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "97",
+        "kills": "59",
+        "attackErrors": "24",
+        "attackAttempts": "137",
+        "hittingPercentage": "0.255",
+        "assists": "56",
+        "setErrors": "1",
+        "setAttempts": "140",
+        "serviceAces": "6",
+        "serviceErrors": "11",
+        "serveAttempts": "96",
+        "digs": "56",
+        "receptionAttempts": "76",
+        "receptionErrors": "6",
+        "blockSolos": "2",
+        "blockAssists": "14",
+        "blockingErrors": "1",
+        "totalBlocks": "9"
+      }
+    }
+  ]
+}

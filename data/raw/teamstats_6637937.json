@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6637937,
+  "title": "WVB Boxscore",
+  "description": "Southern California vs Wisconsin",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46121",
+      "seoname": "southern-california",
+      "name6Char": "USC",
+      "nameFull": "University of Southern California",
+      "nameShort": "Southern California",
+      "teamName": "Trojans",
+      "color": "#9D2235"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46580",
+      "seoname": "wisconsin",
+      "name6Char": "WISC",
+      "nameFull": "University of Wisconsin-Madison",
+      "nameShort": "Wisconsin",
+      "teamName": "Badgers",
+      "color": "#BA0C2F"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46121,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "89",
+        "kills": "53",
+        "attackErrors": "18",
+        "attackAttempts": "134",
+        "hittingPercentage": "0.261",
+        "assists": "51",
+        "setErrors": "3",
+        "setAttempts": "130",
+        "serviceAces": "8",
+        "serviceErrors": "14",
+        "serveAttempts": "90",
+        "digs": "35",
+        "receptionAttempts": "85",
+        "receptionErrors": "2",
+        "blockSolos": "0",
+        "blockAssists": "17",
+        "blockingErrors": "2",
+        "totalBlocks": "8"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46580,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "98",
+        "kills": "61",
+        "attackErrors": "16",
+        "attackAttempts": "124",
+        "hittingPercentage": "0.363",
+        "assists": "58",
+        "setErrors": "0",
+        "setAttempts": "117",
+        "serviceAces": "2",
+        "serviceErrors": "12",
+        "serveAttempts": "97",
+        "digs": "44",
+        "receptionAttempts": "76",
+        "receptionErrors": "8",
+        "blockSolos": "0",
+        "blockAssists": "20",
+        "blockingErrors": "2",
+        "totalBlocks": "10"
+      }
+    }
+  ]
+}

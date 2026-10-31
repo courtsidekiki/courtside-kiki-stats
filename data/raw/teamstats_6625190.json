@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625190,
+  "title": "WVB Boxscore",
+  "description": "Samford vs Chattanooga",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45864",
+      "seoname": "samford",
+      "name6Char": "SAMFRD",
+      "nameFull": "Samford University",
+      "nameShort": "Samford",
+      "teamName": "Bulldogs",
+      "color": "#0C2340"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46505",
+      "seoname": "chattanooga",
+      "name6Char": "CHAT",
+      "nameFull": "University of Tennessee at Chattanooga",
+      "nameShort": "Chattanooga",
+      "teamName": "Mocs",
+      "color": "#00416D"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45864,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "89",
+        "kills": "58",
+        "attackErrors": "25",
+        "attackAttempts": "161",
+        "hittingPercentage": "0.205",
+        "assists": "52",
+        "setErrors": "1",
+        "setAttempts": "163",
+        "serviceAces": "7",
+        "serviceErrors": "8",
+        "serveAttempts": "88",
+        "digs": "68",
+        "receptionAttempts": "89",
+        "receptionErrors": "7",
+        "blockSolos": "0",
+        "blockAssists": "18",
+        "blockingErrors": "2",
+        "totalBlocks": "9"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46505,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "93",
+        "kills": "52",
+        "attackErrors": "19",
+        "attackAttempts": "145",
+        "hittingPercentage": "0.228",
+        "assists": "50",
+        "setErrors": "0",
+        "setAttempts": "148",
+        "serviceAces": "7",
+        "serviceErrors": "5",
+        "serveAttempts": "94",
+        "digs": "66",
+        "receptionAttempts": "80",
+        "receptionErrors": "7",
+        "blockSolos": "2",
+        "blockAssists": "14",
+        "blockingErrors": "1",
+        "totalBlocks": "9"
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625840,
+  "title": "WVB Boxscore",
+  "description": "Baylor vs TCU",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45943",
+      "seoname": "baylor",
+      "name6Char": "BAYLOR",
+      "nameFull": "Baylor University",
+      "nameShort": "Baylor",
+      "teamName": "Bears",
+      "color": "#1B3E30"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46507",
+      "seoname": "tcu",
+      "name6Char": "TCU",
+      "nameFull": "Texas Christian University",
+      "nameShort": "TCU",
+      "teamName": "Horned Frogs",
+      "color": "#592D82"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45943,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "104",
+        "kills": "62",
+        "attackErrors": "33",
+        "attackAttempts": "169",
+        "hittingPercentage": "0.172",
+        "assists": "55",
+        "setErrors": "2",
+        "setAttempts": "160",
+        "serviceAces": "7",
+        "serviceErrors": "8",
+        "serveAttempts": "104",
+        "digs": "65",
+        "receptionAttempts": "92",
+        "receptionErrors": "3",
+        "blockSolos": "1",
+        "blockAssists": "21",
+        "blockingErrors": "3",
+        "totalBlocks": "11"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46507,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "103",
+        "kills": "56",
+        "attackErrors": "22",
+        "attackAttempts": "152",
+        "hittingPercentage": "0.224",
+        "assists": "54",
+        "setErrors": "3",
+        "setAttempts": "154",
+        "serviceAces": "3",
+        "serviceErrors": "10",
+        "serveAttempts": "102",
+        "digs": "60",
+        "receptionAttempts": "96",
+        "receptionErrors": "7",
+        "blockSolos": "2",
+        "blockAssists": "20",
+        "blockingErrors": "1",
+        "totalBlocks": "12"
+      }
+    }
+  ]
+}

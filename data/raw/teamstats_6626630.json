@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626630,
+  "title": "WVB Boxscore",
+  "description": "South Alabama vs ULM",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46120",
+      "seoname": "south-ala",
+      "name6Char": "S ALA",
+      "nameFull": "University of South Alabama",
+      "nameShort": "South Alabama",
+      "teamName": "Jaguars",
+      "color": "#BF0D3E"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46106",
+      "seoname": "la-monroe",
+      "name6Char": "LA MON",
+      "nameFull": "University of Louisiana Monroe",
+      "nameShort": "ULM",
+      "teamName": "Warhawks",
+      "color": "#8A2432"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46120,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "94",
+        "kills": "50",
+        "attackErrors": "18",
+        "attackAttempts": "132",
+        "hittingPercentage": "0.242",
+        "assists": "46",
+        "setErrors": "0",
+        "setAttempts": "128",
+        "serviceAces": "7",
+        "serviceErrors": "14",
+        "serveAttempts": "93",
+        "digs": "50",
+        "receptionAttempts": "74",
+        "receptionErrors": "7",
+        "blockSolos": "3",
+        "blockAssists": "16",
+        "blockingErrors": "2",
+        "totalBlocks": "11"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46106,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "79",
+        "kills": "40",
+        "attackErrors": "30",
+        "attackAttempts": "133",
+        "hittingPercentage": "0.075",
+        "assists": "32",
+        "setErrors": "1",
+        "setAttempts": "130",
+        "serviceAces": "7",
+        "serviceErrors": "6",
+        "serveAttempts": "80",
+        "digs": "54",
+        "receptionAttempts": "79",
+        "receptionErrors": "7",
+        "blockSolos": "1",
+        "blockAssists": "2",
+        "blockingErrors": "2",
+        "totalBlocks": "2"
+      }
+    }
+  ]
+}

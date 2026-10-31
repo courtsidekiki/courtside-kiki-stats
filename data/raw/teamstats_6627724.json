@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627724,
+  "title": "WVB Boxscore",
+  "description": "Canisius vs Saint Peter's",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46537",
+      "seoname": "canisius",
+      "name6Char": "CANISI",
+      "nameFull": "Canisius University",
+      "nameShort": "Canisius",
+      "teamName": "Golden Griffins",
+      "color": "#0C2340"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46618",
+      "seoname": "st-peters",
+      "name6Char": "ST PTR",
+      "nameFull": "Saint Peter's University",
+      "nameShort": "Saint Peter's",
+      "teamName": "Peacocks",
+      "color": "#21375C"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46537,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "107",
+        "kills": "52",
+        "attackErrors": "24",
+        "attackAttempts": "129",
+        "hittingPercentage": "0.217",
+        "assists": "50",
+        "setErrors": "0",
+        "setAttempts": "122",
+        "serviceAces": "17",
+        "serviceErrors": "10",
+        "serveAttempts": "107",
+        "digs": "51",
+        "receptionAttempts": "85",
+        "receptionErrors": "10",
+        "blockSolos": "0",
+        "blockAssists": "20",
+        "blockingErrors": "4",
+        "totalBlocks": "10"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46618,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "99",
+        "kills": "55",
+        "attackErrors": "22",
+        "attackAttempts": "135",
+        "hittingPercentage": "0.244",
+        "assists": "52",
+        "setErrors": "2",
+        "setAttempts": "134",
+        "serviceAces": "10",
+        "serviceErrors": "14",
+        "serveAttempts": "99",
+        "digs": "50",
+        "receptionAttempts": "97",
+        "receptionErrors": "17",
+        "blockSolos": "1",
+        "blockAssists": "20",
+        "blockingErrors": "3",
+        "totalBlocks": "11"
+      }
+    }
+  ]
+}

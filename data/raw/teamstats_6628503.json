@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628503,
+  "title": "WVB Boxscore",
+  "description": "FGCU vs North Florida",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46138",
+      "seoname": "fgcu",
+      "name6Char": "FGCU",
+      "nameFull": "Florida Gulf Coast University",
+      "nameShort": "FGCU",
+      "teamName": "Eagles",
+      "color": "#002D72"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46392",
+      "seoname": "north-florida",
+      "name6Char": "NO FLA",
+      "nameFull": "University of North Florida",
+      "nameShort": "North Florida",
+      "teamName": "Ospreys",
+      "color": "#001B49"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46138,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "97",
+        "kills": "63",
+        "attackErrors": "19",
+        "attackAttempts": "144",
+        "hittingPercentage": "0.306",
+        "assists": "59",
+        "setErrors": "1",
+        "setAttempts": "143",
+        "serviceAces": "5",
+        "serviceErrors": "12",
+        "serveAttempts": "96",
+        "digs": "69",
+        "receptionAttempts": "77",
+        "receptionErrors": "5",
+        "blockSolos": "1",
+        "blockAssists": "14",
+        "blockingErrors": "1",
+        "totalBlocks": "8"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46392,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "85",
+        "kills": "47",
+        "attackErrors": "20",
+        "attackAttempts": "147",
+        "hittingPercentage": "0.184",
+        "assists": "46",
+        "setErrors": "0",
+        "setAttempts": "137",
+        "serviceAces": "5",
+        "serviceErrors": "9",
+        "serveAttempts": "86",
+        "digs": "52",
+        "receptionAttempts": "84",
+        "receptionErrors": "5",
+        "blockSolos": "2",
+        "blockAssists": "14",
+        "blockingErrors": "4",
+        "totalBlocks": "9"
+      }
+    }
+  ]
+}

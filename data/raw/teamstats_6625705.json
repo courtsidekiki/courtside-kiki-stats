@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625705,
+  "title": "WVB Boxscore",
+  "description": "USC Upstate vs Winthrop",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45891",
+      "seoname": "usc-upstate",
+      "name6Char": "SC UPS",
+      "nameFull": "University of South Carolina Upstate",
+      "nameShort": "USC Upstate",
+      "teamName": "Spartans",
+      "color": "#008445"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45817",
+      "seoname": "winthrop",
+      "name6Char": "WINTHR",
+      "nameFull": "Winthrop University",
+      "nameShort": "Winthrop",
+      "teamName": "Eagles",
+      "color": "#9D2235"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45891,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "62",
+        "kills": "33",
+        "attackErrors": "17",
+        "attackAttempts": "136",
+        "hittingPercentage": "0.118",
+        "assists": "32",
+        "setErrors": "0",
+        "setAttempts": "130",
+        "serviceAces": "3",
+        "serviceErrors": "6",
+        "serveAttempts": "64",
+        "digs": "56",
+        "receptionAttempts": "65",
+        "receptionErrors": "3",
+        "blockSolos": "3",
+        "blockAssists": "10",
+        "blockingErrors": "0",
+        "totalBlocks": "8"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45817,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "49",
+        "attackErrors": "18",
+        "attackAttempts": "131",
+        "hittingPercentage": "0.237",
+        "assists": "46",
+        "setErrors": "0",
+        "setAttempts": "118",
+        "serviceAces": "3",
+        "serviceErrors": "8",
+        "serveAttempts": "73",
+        "digs": "72",
+        "receptionAttempts": "58",
+        "receptionErrors": "3",
+        "blockSolos": "2",
+        "blockAssists": "14",
+        "blockingErrors": "1",
+        "totalBlocks": "9"
+      }
+    }
+  ]
+}

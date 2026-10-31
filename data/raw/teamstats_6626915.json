@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626915,
+  "title": "WVB Boxscore",
+  "description": "Wichita St. vs North Texas",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46705",
+      "seoname": "wichita-st",
+      "name6Char": "WICHST",
+      "nameFull": "Wichita State University",
+      "nameShort": "Wichita St.",
+      "teamName": "Shockers",
+      "color": "#010101"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46237",
+      "seoname": "north-texas",
+      "name6Char": "NO TEX",
+      "nameFull": "University of North Texas",
+      "nameShort": "North Texas",
+      "teamName": "Mean Green",
+      "color": "#007A33"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46705,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "86",
+        "kills": "53",
+        "attackErrors": "25",
+        "attackAttempts": "162",
+        "hittingPercentage": "0.173",
+        "assists": "52",
+        "setErrors": "2",
+        "setAttempts": "157",
+        "serviceAces": "3",
+        "serviceErrors": "5",
+        "serveAttempts": "87",
+        "digs": "69",
+        "receptionAttempts": "86",
+        "receptionErrors": "2",
+        "blockSolos": "0",
+        "blockAssists": "12",
+        "blockingErrors": "1",
+        "totalBlocks": "6"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46237,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "95",
+        "kills": "61",
+        "attackErrors": "21",
+        "attackAttempts": "162",
+        "hittingPercentage": "0.247",
+        "assists": "58",
+        "setErrors": "1",
+        "setAttempts": "159",
+        "serviceAces": "2",
+        "serviceErrors": "8",
+        "serveAttempts": "94",
+        "digs": "74",
+        "receptionAttempts": "82",
+        "receptionErrors": "3",
+        "blockSolos": "0",
+        "blockAssists": "14",
+        "blockingErrors": "2",
+        "totalBlocks": "7"
+      }
+    }
+  ]
+}

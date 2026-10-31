@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626601,
+  "title": "WVB Boxscore",
+  "description": "Hampton vs Northeastern",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46679",
+      "seoname": "hampton",
+      "name6Char": "HAMPTN",
+      "nameFull": "Hampton University",
+      "nameShort": "Hampton",
+      "teamName": "Pirates",
+      "color": "#0033A0"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46728",
+      "seoname": "northeastern",
+      "name6Char": "NOEAST",
+      "nameFull": "Northeastern University",
+      "nameShort": "Northeastern",
+      "teamName": "Huskies",
+      "color": "#C8102E"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46679,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "80",
+        "kills": "41",
+        "attackErrors": "23",
+        "attackAttempts": "136",
+        "hittingPercentage": "0.132",
+        "assists": "35",
+        "setErrors": "3",
+        "setAttempts": "129",
+        "serviceAces": "8",
+        "serviceErrors": "8",
+        "serveAttempts": "81",
+        "digs": "59",
+        "receptionAttempts": "83",
+        "receptionErrors": "9",
+        "blockSolos": "2",
+        "blockAssists": "8",
+        "blockingErrors": "0",
+        "totalBlocks": "6"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46728,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "94",
+        "kills": "51",
+        "attackErrors": "19",
+        "attackAttempts": "131",
+        "hittingPercentage": "0.244",
+        "assists": "44",
+        "setErrors": "2",
+        "setAttempts": "124",
+        "serviceAces": "9",
+        "serviceErrors": "10",
+        "serveAttempts": "93",
+        "digs": "68",
+        "receptionAttempts": "75",
+        "receptionErrors": "8",
+        "blockSolos": "4",
+        "blockAssists": "12",
+        "blockingErrors": "0",
+        "totalBlocks": "10"
+      }
+    }
+  ]
+}

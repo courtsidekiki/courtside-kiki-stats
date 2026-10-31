@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625448,
+  "title": "WVB Boxscore",
+  "description": "McNeese vs LSU New Orleans ",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "2ND SET",
+  "status": "I",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46201",
+      "seoname": "mcneese",
+      "name6Char": "MCNEES",
+      "nameFull": "McNeese State University",
+      "nameShort": "McNeese",
+      "teamName": "Cowgirls",
+      "color": "#003087"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46726",
+      "seoname": "new-orleans",
+      "name6Char": "UNO",
+      "nameFull": "LSU New Orleans",
+      "nameShort": "LSU New Orleans ",
+      "teamName": "Privateers",
+      "color": "#0057B8"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46201,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "46",
+        "kills": "25",
+        "attackErrors": "5",
+        "attackAttempts": "64",
+        "hittingPercentage": "0.313",
+        "assists": "23",
+        "setErrors": "3",
+        "setAttempts": "65",
+        "serviceAces": "4",
+        "serviceErrors": "2",
+        "serveAttempts": "45",
+        "digs": "37",
+        "receptionAttempts": "28",
+        "receptionErrors": "1",
+        "blockSolos": "1",
+        "blockAssists": "6",
+        "blockingErrors": "1",
+        "totalBlocks": "7"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46726,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "32",
+        "kills": "21",
+        "attackErrors": "11",
+        "attackAttempts": "70",
+        "hittingPercentage": "0.143",
+        "assists": "17",
+        "setErrors": "1",
+        "setAttempts": "67",
+        "serviceAces": "1",
+        "serviceErrors": "5",
+        "serveAttempts": "33",
+        "digs": "31",
+        "receptionAttempts": "43",
+        "receptionErrors": "4",
+        "blockSolos": "0",
+        "blockAssists": "2",
+        "blockingErrors": "2",
+        "totalBlocks": "2"
+      }
+    }
+  ]
+}

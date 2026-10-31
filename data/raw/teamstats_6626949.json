@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626949,
+  "title": "WVB Boxscore",
+  "description": "Butler vs St. John's (NY)",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46219",
+      "seoname": "butler",
+      "name6Char": "BUTLER",
+      "nameFull": "Butler University",
+      "nameShort": "Butler",
+      "teamName": "Bulldogs",
+      "color": "#13294B"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45995",
+      "seoname": "st-johns-ny",
+      "name6Char": "STJOHN",
+      "nameFull": "St. John's University (New York)",
+      "nameShort": "St. John's (NY)",
+      "teamName": "Red Storm",
+      "color": "#BA0C2F"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46219,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "112",
+        "kills": "58",
+        "attackErrors": "34",
+        "attackAttempts": "194",
+        "hittingPercentage": "0.124",
+        "assists": "52",
+        "setErrors": "1",
+        "setAttempts": "191",
+        "serviceAces": "7",
+        "serviceErrors": "12",
+        "serveAttempts": "112",
+        "digs": "70",
+        "receptionAttempts": "100",
+        "receptionErrors": "7",
+        "blockSolos": "2",
+        "blockAssists": "20",
+        "blockingErrors": "1",
+        "totalBlocks": "12"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45995,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "116",
+        "kills": "62",
+        "attackErrors": "29",
+        "attackAttempts": "176",
+        "hittingPercentage": "0.188",
+        "assists": "62",
+        "setErrors": "2",
+        "setAttempts": "198",
+        "serviceAces": "7",
+        "serviceErrors": "16",
+        "serveAttempts": "116",
+        "digs": "89",
+        "receptionAttempts": "100",
+        "receptionErrors": "7",
+        "blockSolos": "4",
+        "blockAssists": "11",
+        "blockingErrors": "3",
+        "totalBlocks": "9"
+      }
+    }
+  ]
+}

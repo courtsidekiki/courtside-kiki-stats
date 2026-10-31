@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626737,
+  "title": "WVB Boxscore",
+  "description": "Loyola Chicago vs Fordham",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46317",
+      "seoname": "loyola-chicago",
+      "name6Char": "LOYCHI",
+      "nameFull": "Loyola University Chicago",
+      "nameShort": "Loyola Chicago",
+      "teamName": "Ramblers",
+      "color": "#861F41"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46302",
+      "seoname": "fordham",
+      "name6Char": "FORDHM",
+      "nameFull": "Fordham University",
+      "nameShort": "Fordham",
+      "teamName": "Rams",
+      "color": "#6F263D"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46317,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "44",
+        "attackErrors": "13",
+        "attackAttempts": "89",
+        "hittingPercentage": "0.348",
+        "assists": "42",
+        "setErrors": "0",
+        "setAttempts": "89",
+        "serviceAces": "8",
+        "serviceErrors": "3",
+        "serveAttempts": "73",
+        "digs": "35",
+        "receptionAttempts": "54",
+        "receptionErrors": "4",
+        "blockSolos": "1",
+        "blockAssists": "6",
+        "blockingErrors": "2",
+        "totalBlocks": "4"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46302,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "57",
+        "kills": "37",
+        "attackErrors": "17",
+        "attackAttempts": "95",
+        "hittingPercentage": "0.211",
+        "assists": "33",
+        "setErrors": "0",
+        "setAttempts": "91",
+        "serviceAces": "4",
+        "serviceErrors": "5",
+        "serveAttempts": "59",
+        "digs": "27",
+        "receptionAttempts": "70",
+        "receptionErrors": "8",
+        "blockSolos": "1",
+        "blockAssists": "12",
+        "blockingErrors": "0",
+        "totalBlocks": "7"
+      }
+    }
+  ]
+}

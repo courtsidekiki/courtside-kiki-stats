@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627617,
+  "title": "WVB Boxscore",
+  "description": "Tennessee Tech vs ETSU",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46504",
+      "seoname": "tennessee-tech",
+      "name6Char": "TNTECH",
+      "nameFull": "Tennessee Technological University",
+      "nameShort": "Tennessee Tech",
+      "teamName": "Golden Eagles",
+      "color": "#753BBD"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45768",
+      "seoname": "east-tenn-st",
+      "name6Char": "ETSU",
+      "nameFull": "East Tennessee State University",
+      "nameShort": "ETSU",
+      "teamName": "Buccaneers (Bucs)",
+      "color": "#041E42"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46504,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "63",
+        "kills": "38",
+        "attackErrors": "13",
+        "attackAttempts": "104",
+        "hittingPercentage": "0.240",
+        "assists": "36",
+        "setErrors": "3",
+        "setAttempts": "111",
+        "serviceAces": "6",
+        "serviceErrors": "6",
+        "serveAttempts": "65",
+        "digs": "49",
+        "receptionAttempts": "66",
+        "receptionErrors": "9",
+        "blockSolos": "1",
+        "blockAssists": "8",
+        "blockingErrors": "2",
+        "totalBlocks": "5"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45768,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "44",
+        "attackErrors": "11",
+        "attackAttempts": "107",
+        "hittingPercentage": "0.308",
+        "assists": "43",
+        "setErrors": "1",
+        "setAttempts": "115",
+        "serviceAces": "9",
+        "serviceErrors": "7",
+        "serveAttempts": "73",
+        "digs": "48",
+        "receptionAttempts": "59",
+        "receptionErrors": "6",
+        "blockSolos": "3",
+        "blockAssists": "4",
+        "blockingErrors": "4",
+        "totalBlocks": "5"
+      }
+    }
+  ]
+}

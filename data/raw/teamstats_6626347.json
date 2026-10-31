@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626347,
+  "title": "WVB Boxscore",
+  "description": "Notre Dame vs Georgia Tech",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46610",
+      "seoname": "notre-dame",
+      "name6Char": "N DAME",
+      "nameFull": "University of Notre Dame",
+      "nameShort": "Notre Dame",
+      "teamName": "Fighting Irish",
+      "color": "#0C2340"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46549",
+      "seoname": "georgia-tech",
+      "name6Char": "GATECH",
+      "nameFull": "Georgia Institute of Technology",
+      "nameShort": "Georgia Tech",
+      "teamName": "Yellow Jackets",
+      "color": "#B3A369"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46610,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "99",
+        "kills": "52",
+        "attackErrors": "30",
+        "attackAttempts": "179",
+        "hittingPercentage": "0.123",
+        "assists": "51",
+        "setErrors": "0",
+        "setAttempts": "181",
+        "serviceAces": "4",
+        "serviceErrors": "6",
+        "serveAttempts": "100",
+        "digs": "74",
+        "receptionAttempts": "101",
+        "receptionErrors": "4",
+        "blockSolos": "4",
+        "blockAssists": "20",
+        "blockingErrors": "2",
+        "totalBlocks": "14"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46549,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "111",
+        "kills": "71",
+        "attackErrors": "32",
+        "attackAttempts": "196",
+        "hittingPercentage": "0.199",
+        "assists": "67",
+        "setErrors": "2",
+        "setAttempts": "197",
+        "serviceAces": "4",
+        "serviceErrors": "9",
+        "serveAttempts": "110",
+        "digs": "83",
+        "receptionAttempts": "94",
+        "receptionErrors": "4",
+        "blockSolos": "2",
+        "blockAssists": "20",
+        "blockingErrors": "1",
+        "totalBlocks": "12"
+      }
+    }
+  ]
+}

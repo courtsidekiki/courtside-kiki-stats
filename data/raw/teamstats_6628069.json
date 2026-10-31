@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628069,
+  "title": "WVB Boxscore",
+  "description": "Miami (OH) vs Toledo",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45931",
+      "seoname": "miami-oh",
+      "name6Char": "MIA OH",
+      "nameFull": "Miami University (Ohio)",
+      "nameShort": "Miami (OH)",
+      "teamName": "RedHawks",
+      "color": "#C8102E"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46007",
+      "seoname": "toledo",
+      "name6Char": "TOLEDO",
+      "nameFull": "University of Toledo",
+      "nameShort": "Toledo",
+      "teamName": "Rockets",
+      "color": "#00205B"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45931,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "85",
+        "kills": "50",
+        "attackErrors": "20",
+        "attackAttempts": "175",
+        "hittingPercentage": "0.171",
+        "assists": "48",
+        "setErrors": "1",
+        "setAttempts": "173",
+        "serviceAces": "6",
+        "serviceErrors": "5",
+        "serveAttempts": "86",
+        "digs": "78",
+        "receptionAttempts": "86",
+        "receptionErrors": "8",
+        "blockSolos": "1",
+        "blockAssists": "14",
+        "blockingErrors": "2",
+        "totalBlocks": "8"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46007,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "94",
+        "kills": "60",
+        "attackErrors": "21",
+        "attackAttempts": "174",
+        "hittingPercentage": "0.224",
+        "assists": "58",
+        "setErrors": "1",
+        "setAttempts": "181",
+        "serviceAces": "8",
+        "serviceErrors": "7",
+        "serveAttempts": "93",
+        "digs": "87",
+        "receptionAttempts": "81",
+        "receptionErrors": "6",
+        "blockSolos": "1",
+        "blockAssists": "16",
+        "blockingErrors": "5",
+        "totalBlocks": "9"
+      }
+    }
+  ]
+}

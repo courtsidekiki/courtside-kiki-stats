@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624800,
+  "title": "WVB Boxscore",
+  "description": "Louisiana vs Southern Miss.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46003",
+      "seoname": "la-lafayette",
+      "name6Char": "LA",
+      "nameFull": "University of Louisiana at Lafayette",
+      "nameShort": "Louisiana",
+      "teamName": "Ragin' Cajuns",
+      "color": "#C8102E"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45868",
+      "seoname": "southern-miss",
+      "name6Char": "S MISS",
+      "nameFull": "The University of Southern Mississippi",
+      "nameShort": "Southern Miss.",
+      "teamName": "Golden Eagles",
+      "color": "#010101"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46003,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "103",
+        "kills": "61",
+        "attackErrors": "29",
+        "attackAttempts": "183",
+        "hittingPercentage": "0.175",
+        "assists": "58",
+        "setErrors": "0",
+        "setAttempts": "0",
+        "serviceAces": "4",
+        "serviceErrors": "6",
+        "serveAttempts": "0",
+        "digs": "94",
+        "receptionAttempts": "0",
+        "receptionErrors": "6",
+        "blockSolos": "1",
+        "blockAssists": "18",
+        "blockingErrors": "0",
+        "totalBlocks": "10"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45868,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "111",
+        "kills": "65",
+        "attackErrors": "24",
+        "attackAttempts": "195",
+        "hittingPercentage": "0.210",
+        "assists": "60",
+        "setErrors": "0",
+        "setAttempts": "0",
+        "serviceAces": "6",
+        "serviceErrors": "12",
+        "serveAttempts": "0",
+        "digs": "82",
+        "receptionAttempts": "0",
+        "receptionErrors": "4",
+        "blockSolos": "1",
+        "blockAssists": "16",
+        "blockingErrors": "3",
+        "totalBlocks": "9"
+      }
+    }
+  ]
+}

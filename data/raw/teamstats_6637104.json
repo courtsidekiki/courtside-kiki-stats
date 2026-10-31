@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6637104,
+  "title": "WVB Boxscore",
+  "description": "FDU vs Chicago St.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45907",
+      "seoname": "fdu",
+      "name6Char": "FDU",
+      "nameFull": "Fairleigh Dickinson University, Metropolitan Campus",
+      "nameShort": "FDU",
+      "teamName": "Knights",
+      "color": "#72293c"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46167",
+      "seoname": "chicago-st",
+      "name6Char": "CHI ST",
+      "nameFull": "Chicago State University",
+      "nameShort": "Chicago St.",
+      "teamName": "Cougars",
+      "color": "#006747"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45907,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "38",
+        "attackErrors": "9",
+        "attackAttempts": "101",
+        "hittingPercentage": "0.287",
+        "assists": "32",
+        "setErrors": "2",
+        "setAttempts": "106",
+        "serviceAces": "9",
+        "serviceErrors": "10",
+        "serveAttempts": "73",
+        "digs": "36",
+        "receptionAttempts": "56",
+        "receptionErrors": "6",
+        "blockSolos": "1",
+        "blockAssists": "4",
+        "blockingErrors": "0",
+        "totalBlocks": "3"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46167,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "56",
+        "kills": "29",
+        "attackErrors": "23",
+        "attackAttempts": "102",
+        "hittingPercentage": "0.059",
+        "assists": "26",
+        "setErrors": "2",
+        "setAttempts": "115",
+        "serviceAces": "6",
+        "serviceErrors": "3",
+        "serveAttempts": "58",
+        "digs": "39",
+        "receptionAttempts": "64",
+        "receptionErrors": "9",
+        "blockSolos": "0",
+        "blockAssists": "4",
+        "blockingErrors": "2",
+        "totalBlocks": "2"
+      }
+    }
+  ]
+}

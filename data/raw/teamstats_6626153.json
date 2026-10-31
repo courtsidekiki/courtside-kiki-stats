@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626153,
+  "title": "WVB Boxscore",
+  "description": "Duke vs Boston College",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46409",
+      "seoname": "duke",
+      "name6Char": "DUKE",
+      "nameFull": "Duke University",
+      "nameShort": "Duke",
+      "teamName": "Blue Devils",
+      "color": "#002D72"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46216",
+      "seoname": "boston-college",
+      "name6Char": "BC",
+      "nameFull": "Boston College",
+      "nameShort": "Boston College",
+      "teamName": "Eagles",
+      "color": "#862633"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46409,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "93",
+        "kills": "64",
+        "attackErrors": "24",
+        "attackAttempts": "146",
+        "hittingPercentage": "0.274",
+        "assists": "57",
+        "setErrors": "0",
+        "setAttempts": "140",
+        "serviceAces": "4",
+        "serviceErrors": "13",
+        "serveAttempts": "92",
+        "digs": "52",
+        "receptionAttempts": "79",
+        "receptionErrors": "2",
+        "blockSolos": "2",
+        "blockAssists": "4",
+        "blockingErrors": "0",
+        "totalBlocks": "4"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46216,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "84",
+        "kills": "44",
+        "attackErrors": "16",
+        "attackAttempts": "120",
+        "hittingPercentage": "0.233",
+        "assists": "43",
+        "setErrors": "3",
+        "setAttempts": "128",
+        "serviceAces": "2",
+        "serviceErrors": "6",
+        "serveAttempts": "85",
+        "digs": "49",
+        "receptionAttempts": "79",
+        "receptionErrors": "4",
+        "blockSolos": "1",
+        "blockAssists": "24",
+        "blockingErrors": "0",
+        "totalBlocks": "13"
+      }
+    }
+  ]
+}

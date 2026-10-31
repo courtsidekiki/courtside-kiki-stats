@@ -1,0 +1,98 @@
+{
+  "contests": [
+    {
+      "__typename": "Contest",
+      "id": "6626146",
+      "sportCode": "WVB",
+      "sportUrl": "volleyball-women",
+      "division": 1,
+      "clock": null,
+      "currentPeriod": "FINAL",
+      "finalMessage": "FINAL",
+      "gameState": "F",
+      "statusCodeDisplay": "final",
+      "network": null,
+      "startTime": "12:00",
+      "startTimeEpoch": 1793376000,
+      "week": null,
+      "seasonYear": 2026,
+      "winner": 45871,
+      "hasStartTime": true,
+      "hasBoxscore": true,
+      "hasPbp": true,
+      "hasScoringSummary": false,
+      "hasPreview": false,
+      "hasRecap": false,
+      "hasTeamStats": true,
+      "linescores": [
+        {
+          "__typename": "Linescore",
+          "period": "1",
+          "home": "14",
+          "visit": "25"
+        },
+        {
+          "__typename": "Linescore",
+          "period": "2",
+          "home": "24",
+          "visit": "26"
+        },
+        {
+          "__typename": "Linescore",
+          "period": "3",
+          "home": "25",
+          "visit": "27"
+        }
+      ],
+      "teams": [
+        {
+          "__typename": "ContestTeam",
+          "teamId": "46668",
+          "isHome": true,
+          "color": "#582C83",
+          "seoname": "east-carolina",
+          "nameFull": "East Carolina University",
+          "nameShort": "East Carolina",
+          "name6Char": "E CAR",
+          "teamRank": null,
+          "gameRank": null,
+          "score": 0,
+          "seed": null,
+          "record": "(15-7)",
+          "divisionName": "d1",
+          "division": 1,
+          "isWinner": false
+        },
+        {
+          "__typename": "ContestTeam",
+          "teamId": "45871",
+          "isHome": false,
+          "color": "#b30838",
+          "seoname": "temple",
+          "nameFull": "Temple University",
+          "nameShort": "Temple",
+          "name6Char": "TEMPLE",
+          "teamRank": null,
+          "gameRank": null,
+          "score": 3,
+          "seed": null,
+          "record": "(13-9)",
+          "divisionName": "d1",
+          "division": 1,
+          "isWinner": true
+        }
+      ],
+      "liveVideos": [],
+      "championship": null,
+      "championshipGame": null,
+      "links": [],
+      "location": {
+        "__typename": "Location",
+        "venue": "Williams Arena at Minges",
+        "city": "Greenville",
+        "stateUsps": "NC"
+      },
+      "stats": null
+    }
+  ]
+}

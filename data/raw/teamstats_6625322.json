@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625322,
+  "title": "WVB Boxscore",
+  "description": "New Haven vs Mercyhurst",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46234",
+      "seoname": "new-haven",
+      "name6Char": "NEWHAV",
+      "nameFull": "University of New Haven",
+      "nameShort": "New Haven",
+      "teamName": "Chargers",
+      "color": "#102B4E"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45799",
+      "seoname": "mercyhurst",
+      "name6Char": "MERCYH",
+      "nameFull": "Mercyhurst University",
+      "nameShort": "Mercyhurst",
+      "teamName": "Lakers",
+      "color": "#00594C"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46234,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "84",
+        "kills": "37",
+        "attackErrors": "28",
+        "attackAttempts": "157",
+        "hittingPercentage": "0.057",
+        "assists": "35",
+        "setErrors": "2",
+        "setAttempts": "175",
+        "serviceAces": "2",
+        "serviceErrors": "7",
+        "serveAttempts": "85",
+        "digs": "51",
+        "receptionAttempts": "80",
+        "receptionErrors": "10",
+        "blockSolos": "1",
+        "blockAssists": "14",
+        "blockingErrors": "0",
+        "totalBlocks": "8"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45799,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "100",
+        "kills": "53",
+        "attackErrors": "22",
+        "attackAttempts": "137",
+        "hittingPercentage": "0.226",
+        "assists": "49",
+        "setErrors": "1",
+        "setAttempts": "170",
+        "serviceAces": "10",
+        "serviceErrors": "19",
+        "serveAttempts": "99",
+        "digs": "64",
+        "receptionAttempts": "78",
+        "receptionErrors": "2",
+        "blockSolos": "3",
+        "blockAssists": "20",
+        "blockingErrors": "0",
+        "totalBlocks": "13"
+      }
+    }
+  ]
+}

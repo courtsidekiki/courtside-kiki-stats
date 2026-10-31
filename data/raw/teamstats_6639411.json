@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6639411,
+  "title": "WVB Boxscore",
+  "description": "Bellarmine vs Queens (NC)",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46573",
+      "seoname": "bellarmine",
+      "name6Char": "BELLAR",
+      "nameFull": "Bellarmine University",
+      "nameShort": "Bellarmine",
+      "teamName": "Knights",
+      "color": "#772f40"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46656",
+      "seoname": "queens-nc",
+      "name6Char": "QUENNC",
+      "nameFull": "Queens University of Charlotte",
+      "nameShort": "Queens (NC)",
+      "teamName": "Royals",
+      "color": "#0D2D6C"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46573,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "83",
+        "kills": "51",
+        "attackErrors": "24",
+        "attackAttempts": "148",
+        "hittingPercentage": "0.182",
+        "assists": "49",
+        "setErrors": "1",
+        "setAttempts": "148",
+        "serviceAces": "6",
+        "serviceErrors": "11",
+        "serveAttempts": "84",
+        "digs": "55",
+        "receptionAttempts": "94",
+        "receptionErrors": "8",
+        "blockSolos": "1",
+        "blockAssists": "8",
+        "blockingErrors": "1",
+        "totalBlocks": "5"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46656,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "104",
+        "kills": "59",
+        "attackErrors": "16",
+        "attackAttempts": "136",
+        "hittingPercentage": "0.316",
+        "assists": "57",
+        "setErrors": "1",
+        "setAttempts": "138",
+        "serviceAces": "8",
+        "serviceErrors": "9",
+        "serveAttempts": "103",
+        "digs": "64",
+        "receptionAttempts": "73",
+        "receptionErrors": "6",
+        "blockSolos": "2",
+        "blockAssists": "14",
+        "blockingErrors": "4",
+        "totalBlocks": "9"
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6637610,
+  "title": "WVB Boxscore",
+  "description": "UAB vs Charlotte",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46437",
+      "seoname": "uab",
+      "name6Char": "UAB",
+      "nameFull": "University of Alabama at Birmingham",
+      "nameShort": "UAB",
+      "teamName": "Blazers",
+      "color": "#006341"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46232",
+      "seoname": "charlotte",
+      "name6Char": "CHAR",
+      "nameFull": "The University of North Carolina at Charlotte",
+      "nameShort": "Charlotte",
+      "teamName": "49ers",
+      "color": "#124D39"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46437,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "92",
+        "kills": "61",
+        "attackErrors": "23",
+        "attackAttempts": "156",
+        "hittingPercentage": "0.244",
+        "assists": "52",
+        "setErrors": "1",
+        "setAttempts": "150",
+        "serviceAces": "5",
+        "serviceErrors": "6",
+        "serveAttempts": "91",
+        "digs": "60",
+        "receptionAttempts": "78",
+        "receptionErrors": "2",
+        "blockSolos": "2",
+        "blockAssists": "26",
+        "blockingErrors": "1",
+        "totalBlocks": "15"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46232,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "80",
+        "kills": "48",
+        "attackErrors": "23",
+        "attackAttempts": "141",
+        "hittingPercentage": "0.177",
+        "assists": "46",
+        "setErrors": "0",
+        "setAttempts": "151",
+        "serviceAces": "2",
+        "serviceErrors": "3",
+        "serveAttempts": "81",
+        "digs": "65",
+        "receptionAttempts": "85",
+        "receptionErrors": "5",
+        "blockSolos": "1",
+        "blockAssists": "12",
+        "blockingErrors": "0",
+        "totalBlocks": "7"
+      }
+    }
+  ]
+}

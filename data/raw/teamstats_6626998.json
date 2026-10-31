@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626998,
+  "title": "WVB Boxscore",
+  "description": "UNC Asheville vs Gardner-Webb",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46102",
+      "seoname": "unc-asheville",
+      "name6Char": "UNC A",
+      "nameFull": "University of North Carolina Asheville",
+      "nameShort": "UNC Asheville",
+      "teamName": "Bulldogs",
+      "color": "#002F6C"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45828",
+      "seoname": "gardner-webb",
+      "name6Char": "G WEBB",
+      "nameFull": "Gardner-Webb University",
+      "nameShort": "Gardner-Webb",
+      "teamName": "Runnin' Bulldogs",
+      "color": "#A82931"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46102,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "48",
+        "attackErrors": "6",
+        "attackAttempts": "100",
+        "hittingPercentage": "0.420",
+        "assists": "44",
+        "setErrors": "1",
+        "setAttempts": "101",
+        "serviceAces": "4",
+        "serviceErrors": "12",
+        "serveAttempts": "74",
+        "digs": "55",
+        "receptionAttempts": "39",
+        "receptionErrors": "0",
+        "blockSolos": "1",
+        "blockAssists": "10",
+        "blockingErrors": "3",
+        "totalBlocks": "6"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45828,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "43",
+        "kills": "24",
+        "attackErrors": "18",
+        "attackAttempts": "104",
+        "hittingPercentage": "0.058",
+        "assists": "23",
+        "setErrors": "0",
+        "setAttempts": "103",
+        "serviceAces": "0",
+        "serviceErrors": "5",
+        "serveAttempts": "44",
+        "digs": "41",
+        "receptionAttempts": "62",
+        "receptionErrors": "4",
+        "blockSolos": "1",
+        "blockAssists": "0",
+        "blockingErrors": "0",
+        "totalBlocks": "1"
+      }
+    }
+  ]
+}

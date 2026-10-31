@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626044,
+  "title": "WVB Boxscore",
+  "description": "Furman vs UNC Greensboro",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46415",
+      "seoname": "furman",
+      "name6Char": "FURMAN",
+      "nameFull": "Furman University",
+      "nameShort": "Furman",
+      "teamName": "Paladins",
+      "color": "#582C83"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46472",
+      "seoname": "unc-greensboro",
+      "name6Char": "UNC G",
+      "nameFull": "The University of North Carolina at Greensboro",
+      "nameShort": "UNC Greensboro",
+      "teamName": "Spartans",
+      "color": "#13294B"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46415,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "104",
+        "kills": "60",
+        "attackErrors": "24",
+        "attackAttempts": "154",
+        "hittingPercentage": "0.234",
+        "assists": "53",
+        "setErrors": "2",
+        "setAttempts": "165",
+        "serviceAces": "5",
+        "serviceErrors": "2",
+        "serveAttempts": "105",
+        "digs": "64",
+        "receptionAttempts": "94",
+        "receptionErrors": "5",
+        "blockSolos": "1",
+        "blockAssists": "26",
+        "blockingErrors": "0",
+        "totalBlocks": "14"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46472,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "104",
+        "kills": "70",
+        "attackErrors": "29",
+        "attackAttempts": "174",
+        "hittingPercentage": "0.236",
+        "assists": "66",
+        "setErrors": "1",
+        "setAttempts": "181",
+        "serviceAces": "5",
+        "serviceErrors": "9",
+        "serveAttempts": "103",
+        "digs": "59",
+        "receptionAttempts": "103",
+        "receptionErrors": "5",
+        "blockSolos": "5",
+        "blockAssists": "18",
+        "blockingErrors": "0",
+        "totalBlocks": "14"
+      }
+    }
+  ]
+}

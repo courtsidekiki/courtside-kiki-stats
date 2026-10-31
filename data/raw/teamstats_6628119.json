@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628119,
+  "title": "WVB Boxscore",
+  "description": "Merrimack vs Fairfield",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46433",
+      "seoname": "merrimack",
+      "name6Char": "MERMCK",
+      "nameFull": "Merrimack College",
+      "nameShort": "Merrimack",
+      "teamName": "Warriors",
+      "color": "#003057"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46300",
+      "seoname": "fairfield",
+      "name6Char": "FAIR",
+      "nameFull": "Fairfield University",
+      "nameShort": "Fairfield",
+      "teamName": "Stags",
+      "color": "#C8102E"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46433,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "64",
+        "kills": "31",
+        "attackErrors": "29",
+        "attackAttempts": "157",
+        "hittingPercentage": "0.013",
+        "assists": "28",
+        "setErrors": "0",
+        "setAttempts": "146",
+        "serviceAces": "5",
+        "serviceErrors": "3",
+        "serveAttempts": "65",
+        "digs": "64",
+        "receptionAttempts": "90",
+        "receptionErrors": "8",
+        "blockSolos": "1",
+        "blockAssists": "2",
+        "blockingErrors": "0",
+        "totalBlocks": "2"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46300,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "98",
+        "kills": "58",
+        "attackErrors": "17",
+        "attackAttempts": "143",
+        "hittingPercentage": "0.287",
+        "assists": "49",
+        "setErrors": "4",
+        "setAttempts": "135",
+        "serviceAces": "8",
+        "serviceErrors": "7",
+        "serveAttempts": "97",
+        "digs": "86",
+        "receptionAttempts": "62",
+        "receptionErrors": "5",
+        "blockSolos": "2",
+        "blockAssists": "18",
+        "blockingErrors": "0",
+        "totalBlocks": "11"
+      }
+    }
+  ]
+}

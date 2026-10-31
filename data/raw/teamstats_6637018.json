@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6637018,
+  "title": "WVB Boxscore",
+  "description": "NIU vs Robert Morris",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45981",
+      "seoname": "northern-ill",
+      "name6Char": "NIU",
+      "nameFull": "Northern Illinois University",
+      "nameShort": "NIU",
+      "teamName": "Huskies",
+      "color": "#BA0C2F"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46735",
+      "seoname": "robert-morris",
+      "name6Char": "ROBMOR",
+      "nameFull": "Robert Morris University",
+      "nameShort": "Robert Morris",
+      "teamName": "Colonials",
+      "color": "#041E42"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45981,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "69",
+        "kills": "47",
+        "attackErrors": "15",
+        "attackAttempts": "132",
+        "hittingPercentage": "0.242",
+        "assists": "39",
+        "setErrors": "3",
+        "setAttempts": "136",
+        "serviceAces": "2",
+        "serviceErrors": "10",
+        "serveAttempts": "70",
+        "digs": "55",
+        "receptionAttempts": "72",
+        "receptionErrors": "4",
+        "blockSolos": "2",
+        "blockAssists": "12",
+        "blockingErrors": "0",
+        "totalBlocks": "8"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46735,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "76",
+        "kills": "44",
+        "attackErrors": "16",
+        "attackAttempts": "128",
+        "hittingPercentage": "0.219",
+        "assists": "42",
+        "setErrors": "1",
+        "setAttempts": "133",
+        "serviceAces": "4",
+        "serviceErrors": "3",
+        "serveAttempts": "75",
+        "digs": "60",
+        "receptionAttempts": "60",
+        "receptionErrors": "2",
+        "blockSolos": "3",
+        "blockAssists": "8",
+        "blockingErrors": "0",
+        "totalBlocks": "7"
+      }
+    }
+  ]
+}

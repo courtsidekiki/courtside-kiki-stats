@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626841,
+  "title": "WVB Boxscore",
+  "description": "Jackson St. vs Grambling",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45783",
+      "seoname": "jackson-st",
+      "name6Char": "JACKST",
+      "nameFull": "Jackson State University",
+      "nameShort": "Jackson St.",
+      "teamName": "Lady Tigers",
+      "color": "#041E42"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46051",
+      "seoname": "grambling",
+      "name6Char": "GRAMB",
+      "nameFull": "Grambling State University",
+      "nameShort": "Grambling",
+      "teamName": "Lady Tigers",
+      "color": "#010101"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45783,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "119",
+        "kills": "68",
+        "attackErrors": "25",
+        "attackAttempts": "179",
+        "hittingPercentage": "0.240",
+        "assists": "64",
+        "setErrors": "2",
+        "setAttempts": "178",
+        "serviceAces": "10",
+        "serviceErrors": "10",
+        "serveAttempts": "119",
+        "digs": "86",
+        "receptionAttempts": "98",
+        "receptionErrors": "6",
+        "blockSolos": "3",
+        "blockAssists": "6",
+        "blockingErrors": "2",
+        "totalBlocks": "6"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46051,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "107",
+        "kills": "64",
+        "attackErrors": "30",
+        "attackAttempts": "187",
+        "hittingPercentage": "0.182",
+        "assists": "60",
+        "setErrors": "2",
+        "setAttempts": "187",
+        "serviceAces": "6",
+        "serviceErrors": "9",
+        "serveAttempts": "107",
+        "digs": "79",
+        "receptionAttempts": "109",
+        "receptionErrors": "10",
+        "blockSolos": "5",
+        "blockAssists": "6",
+        "blockingErrors": "2",
+        "totalBlocks": "8"
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627304,
+  "title": "WVB Boxscore",
+  "description": "N.C. A&T vs Towson",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46344",
+      "seoname": "nc-at",
+      "name6Char": "NC A&T",
+      "nameFull": "North Carolina A&T State University",
+      "nameShort": "N.C. A&T",
+      "teamName": "Aggies",
+      "color": "#002D72"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46128",
+      "seoname": "towson",
+      "name6Char": "TOWSON",
+      "nameFull": "Towson University",
+      "nameShort": "Towson",
+      "teamName": "Tigers",
+      "color": "#010101"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46344,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "80",
+        "kills": "47",
+        "attackErrors": "19",
+        "attackAttempts": "111",
+        "hittingPercentage": "0.252",
+        "assists": "42",
+        "setErrors": "0",
+        "setAttempts": "108",
+        "serviceAces": "6",
+        "serviceErrors": "4",
+        "serveAttempts": "78",
+        "digs": "42",
+        "receptionAttempts": "61",
+        "receptionErrors": "5",
+        "blockSolos": "0",
+        "blockAssists": "10",
+        "blockingErrors": "5",
+        "totalBlocks": "5"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46128,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "68",
+        "kills": "40",
+        "attackErrors": "16",
+        "attackAttempts": "106",
+        "hittingPercentage": "0.226",
+        "assists": "37",
+        "setErrors": "2",
+        "setAttempts": "109",
+        "serviceAces": "5",
+        "serviceErrors": "9",
+        "serveAttempts": "70",
+        "digs": "33",
+        "receptionAttempts": "74",
+        "receptionErrors": "6",
+        "blockSolos": "4",
+        "blockAssists": "4",
+        "blockingErrors": "1",
+        "totalBlocks": "6"
+      }
+    }
+  ]
+}

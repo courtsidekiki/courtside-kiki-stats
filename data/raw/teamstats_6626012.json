@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626012,
+  "title": "WVB Boxscore",
+  "description": "Sam Houston vs Jacksonville St.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45863",
+      "seoname": "sam-houston-st",
+      "name6Char": "SAMHOU",
+      "nameFull": "Sam Houston State University",
+      "nameShort": "Sam Houston",
+      "teamName": "Bearkats",
+      "color": "#DF502A"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45784",
+      "seoname": "jacksonville-st",
+      "name6Char": "JAX ST",
+      "nameFull": "Jacksonville State University",
+      "nameShort": "Jacksonville St.",
+      "teamName": "Gamecocks",
+      "color": "#C8102E"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45863,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "33",
+        "attackErrors": "14",
+        "attackAttempts": "80",
+        "hittingPercentage": "0.237",
+        "assists": "32",
+        "setErrors": "1",
+        "setAttempts": "78",
+        "serviceAces": "10",
+        "serviceErrors": "6",
+        "serveAttempts": "74",
+        "digs": "31",
+        "receptionAttempts": "46",
+        "receptionErrors": "4",
+        "blockSolos": "1",
+        "blockAssists": "10",
+        "blockingErrors": "4",
+        "totalBlocks": "6"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45784,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "56",
+        "kills": "31",
+        "attackErrors": "19",
+        "attackAttempts": "86",
+        "hittingPercentage": "0.140",
+        "assists": "30",
+        "setErrors": "2",
+        "setAttempts": "85",
+        "serviceAces": "4",
+        "serviceErrors": "11",
+        "serveAttempts": "57",
+        "digs": "30",
+        "receptionAttempts": "68",
+        "receptionErrors": "10",
+        "blockSolos": "3",
+        "blockAssists": "4",
+        "blockingErrors": "1",
+        "totalBlocks": "5"
+      }
+    }
+  ]
+}

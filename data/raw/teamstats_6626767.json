@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626767,
+  "title": "WVB Boxscore",
+  "description": "San Jose St. vs UTEP",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46494",
+      "seoname": "san-jose-st",
+      "name6Char": "SJSU",
+      "nameFull": "San Jose State University",
+      "nameShort": "San Jose St.",
+      "teamName": "Spartans",
+      "color": "#233A82"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45874",
+      "seoname": "utep",
+      "name6Char": "UTEP",
+      "nameFull": "University of Texas at El Paso",
+      "nameShort": "UTEP",
+      "teamName": "Miners",
+      "color": "#041E42"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46494,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "46",
+        "kills": "26",
+        "attackErrors": "19",
+        "attackAttempts": "90",
+        "hittingPercentage": "0.078",
+        "assists": "26",
+        "setErrors": "1",
+        "setAttempts": "85",
+        "serviceAces": "4",
+        "serviceErrors": "7",
+        "serveAttempts": "47",
+        "digs": "31",
+        "receptionAttempts": "69",
+        "receptionErrors": "9",
+        "blockSolos": "2",
+        "blockAssists": "2",
+        "blockingErrors": "1",
+        "totalBlocks": "3"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45874,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "39",
+        "attackErrors": "11",
+        "attackAttempts": "88",
+        "hittingPercentage": "0.318",
+        "assists": "34",
+        "setErrors": "0",
+        "setAttempts": "81",
+        "serviceAces": "9",
+        "serviceErrors": "5",
+        "serveAttempts": "74",
+        "digs": "42",
+        "receptionAttempts": "40",
+        "receptionErrors": "4",
+        "blockSolos": "1",
+        "blockAssists": "10",
+        "blockingErrors": "0",
+        "totalBlocks": "6"
+      }
+    }
+  ]
+}
