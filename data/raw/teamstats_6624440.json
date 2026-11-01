@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624440,
+  "title": "WVB Boxscore",
+  "description": "The Citadel vs Western Caro.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46662",
+      "seoname": "citadel",
+      "name6Char": "CITDEL",
+      "nameFull": "The Citadel",
+      "nameShort": "The Citadel",
+      "teamName": "Bulldogs",
+      "color": "#77A5C3"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46382",
+      "seoname": "western-caro",
+      "name6Char": "W CAR",
+      "nameFull": "Western Carolina University",
+      "nameShort": "Western Caro.",
+      "teamName": "Catamounts",
+      "color": "#5F259F"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46662,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "106",
+        "kills": "71",
+        "attackErrors": "23",
+        "attackAttempts": "211",
+        "hittingPercentage": "0.227",
+        "assists": "66",
+        "setErrors": "4",
+        "setAttempts": "203",
+        "serviceAces": "10",
+        "serviceErrors": "8",
+        "serveAttempts": "107",
+        "digs": "89",
+        "receptionAttempts": "109",
+        "receptionErrors": "4",
+        "blockSolos": "2",
+        "blockAssists": "12",
+        "blockingErrors": "6",
+        "totalBlocks": "8"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46382,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "116",
+        "kills": "77",
+        "attackErrors": "17",
+        "attackAttempts": "195",
+        "hittingPercentage": "0.308",
+        "assists": "77",
+        "setErrors": "2",
+        "setAttempts": "197",
+        "serviceAces": "4",
+        "serviceErrors": "6",
+        "serveAttempts": "115",
+        "digs": "103",
+        "receptionAttempts": "99",
+        "receptionErrors": "10",
+        "blockSolos": "2",
+        "blockAssists": "6",
+        "blockingErrors": "2",
+        "totalBlocks": "5"
+      }
+    }
+  ]
+}

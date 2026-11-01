@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627482,
+  "title": "WVB Boxscore",
+  "description": "Nevada vs Wyoming",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45974",
+      "seoname": "nevada",
+      "name6Char": "NEVADA",
+      "nameFull": "University of Nevada, Reno",
+      "nameShort": "Nevada",
+      "teamName": "Wolf Pack",
+      "color": "#041E42"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46082",
+      "seoname": "wyoming",
+      "name6Char": "WYO",
+      "nameFull": "University of Wyoming",
+      "nameShort": "Wyoming",
+      "teamName": "Cowgirls",
+      "color": "#4E3629"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45974,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "117",
+        "kills": "79",
+        "attackErrors": "24",
+        "attackAttempts": "195",
+        "hittingPercentage": "0.282",
+        "assists": "71",
+        "setErrors": "2",
+        "setAttempts": "188",
+        "serviceAces": "7",
+        "serviceErrors": "11",
+        "serveAttempts": "118",
+        "digs": "76",
+        "receptionAttempts": "105",
+        "receptionErrors": "6",
+        "blockSolos": "2",
+        "blockAssists": "10",
+        "blockingErrors": "0",
+        "totalBlocks": "7"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46082,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "115",
+        "kills": "71",
+        "attackErrors": "19",
+        "attackAttempts": "172",
+        "hittingPercentage": "0.302",
+        "assists": "64",
+        "setErrors": "2",
+        "setAttempts": "169",
+        "serviceAces": "6",
+        "serviceErrors": "9",
+        "serveAttempts": "114",
+        "digs": "71",
+        "receptionAttempts": "107",
+        "receptionErrors": "7",
+        "blockSolos": "0",
+        "blockAssists": "8",
+        "blockingErrors": "0",
+        "totalBlocks": "4"
+      }
+    }
+  ]
+}

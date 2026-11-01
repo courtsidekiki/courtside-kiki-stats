@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625889,
+  "title": "WVB Boxscore",
+  "description": "Northern Colo. vs Idaho St.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46478",
+      "seoname": "northern-colo",
+      "name6Char": "N COLO",
+      "nameFull": "University of Northern Colorado",
+      "nameShort": "Northern Colo.",
+      "teamName": "Bears",
+      "color": "#002855"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46680",
+      "seoname": "idaho-st",
+      "name6Char": "ID ST",
+      "nameFull": "Idaho State University",
+      "nameShort": "Idaho St.",
+      "teamName": "Bengals",
+      "color": "#F47920"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46478,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "36",
+        "attackErrors": "11",
+        "attackAttempts": "78",
+        "hittingPercentage": "0.321",
+        "assists": "33",
+        "setErrors": "1",
+        "setAttempts": "86",
+        "serviceAces": "8",
+        "serviceErrors": "5",
+        "serveAttempts": "74",
+        "digs": "41",
+        "receptionAttempts": "44",
+        "receptionErrors": "2",
+        "blockSolos": "2",
+        "blockAssists": "2",
+        "blockingErrors": "0",
+        "totalBlocks": "3"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46680,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "46",
+        "kills": "27",
+        "attackErrors": "21",
+        "attackAttempts": "98",
+        "hittingPercentage": "0.061",
+        "assists": "24",
+        "setErrors": "3",
+        "setAttempts": "104",
+        "serviceAces": "2",
+        "serviceErrors": "3",
+        "serveAttempts": "47",
+        "digs": "27",
+        "receptionAttempts": "69",
+        "receptionErrors": "8",
+        "blockSolos": "2",
+        "blockAssists": "2",
+        "blockingErrors": "0",
+        "totalBlocks": "3"
+      }
+    }
+  ]
+}

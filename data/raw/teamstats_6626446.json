@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626446,
+  "title": "WVB Boxscore",
+  "description": "Kennesaw St. vs Liberty",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45832",
+      "seoname": "kennesaw-st",
+      "name6Char": "KENSAW",
+      "nameFull": "Kennesaw State University",
+      "nameShort": "Kennesaw St.",
+      "teamName": "Owls",
+      "color": "#010101"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45925",
+      "seoname": "liberty",
+      "name6Char": "LIBRTY",
+      "nameFull": "Liberty University",
+      "nameShort": "Liberty",
+      "teamName": "Lady Flames",
+      "color": "#971A1F"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45832,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "86",
+        "kills": "56",
+        "attackErrors": "31",
+        "attackAttempts": "152",
+        "hittingPercentage": "0.164",
+        "assists": "53",
+        "setErrors": "0",
+        "setAttempts": "153",
+        "serviceAces": "5",
+        "serviceErrors": "15",
+        "serveAttempts": "87",
+        "digs": "58",
+        "receptionAttempts": "87",
+        "receptionErrors": "9",
+        "blockSolos": "1",
+        "blockAssists": "14",
+        "blockingErrors": "2",
+        "totalBlocks": "8"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45925,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "100",
+        "kills": "44",
+        "attackErrors": "14",
+        "attackAttempts": "122",
+        "hittingPercentage": "0.246",
+        "assists": "41",
+        "setErrors": "0",
+        "setAttempts": "117",
+        "serviceAces": "9",
+        "serviceErrors": "11",
+        "serveAttempts": "98",
+        "digs": "51",
+        "receptionAttempts": "72",
+        "receptionErrors": "5",
+        "blockSolos": "0",
+        "blockAssists": "20",
+        "blockingErrors": "0",
+        "totalBlocks": "10"
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627140,
+  "title": "WVB Boxscore",
+  "description": "New Mexico St. vs Delaware",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46605",
+      "seoname": "new-mexico-st",
+      "name6Char": "NM ST",
+      "nameFull": "New Mexico State University",
+      "nameShort": "New Mexico St.",
+      "teamName": "Aggies",
+      "color": "#891619"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46667",
+      "seoname": "delaware",
+      "name6Char": "DEL",
+      "nameFull": "University of Delaware",
+      "nameShort": "Delaware",
+      "teamName": "Blue Hens",
+      "color": "#006095"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46605,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "76",
+        "kills": "50",
+        "attackErrors": "9",
+        "attackAttempts": "93",
+        "hittingPercentage": "0.441",
+        "assists": "46",
+        "setErrors": "5",
+        "setAttempts": "97",
+        "serviceAces": "8",
+        "serviceErrors": "5",
+        "serveAttempts": "74",
+        "digs": "30",
+        "receptionAttempts": "59",
+        "receptionErrors": "4",
+        "blockSolos": "1",
+        "blockAssists": "12",
+        "blockingErrors": "1",
+        "totalBlocks": "7"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46667,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "61",
+        "kills": "38",
+        "attackErrors": "13",
+        "attackAttempts": "88",
+        "hittingPercentage": "0.284",
+        "assists": "33",
+        "setErrors": "1",
+        "setAttempts": "86",
+        "serviceAces": "4",
+        "serviceErrors": "4",
+        "serveAttempts": "63",
+        "digs": "25",
+        "receptionAttempts": "69",
+        "receptionErrors": "8",
+        "blockSolos": "0",
+        "blockAssists": "2",
+        "blockingErrors": "2",
+        "totalBlocks": "1"
+      }
+    }
+  ]
+}

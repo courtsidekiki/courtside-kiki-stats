@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6638986,
+  "title": "WVB Boxscore",
+  "description": "Lipscomb vs Queens (NC)",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46768",
+      "seoname": "lipscomb",
+      "name6Char": "LIPSCO",
+      "nameFull": "Lipscomb University",
+      "nameShort": "Lipscomb",
+      "teamName": "Bisons",
+      "color": "#2E1A47"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46656",
+      "seoname": "queens-nc",
+      "name6Char": "QUENNC",
+      "nameFull": "Queens University of Charlotte",
+      "nameShort": "Queens (NC)",
+      "teamName": "Royals",
+      "color": "#0D2D6C"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46768,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "79",
+        "kills": "53",
+        "attackErrors": "20",
+        "attackAttempts": "133",
+        "hittingPercentage": "0.248",
+        "assists": "49",
+        "setErrors": "1",
+        "setAttempts": "135",
+        "serviceAces": "5",
+        "serviceErrors": "6",
+        "serveAttempts": "77",
+        "digs": "71",
+        "receptionAttempts": "69",
+        "receptionErrors": "4",
+        "blockSolos": "3",
+        "blockAssists": "10",
+        "blockingErrors": "2",
+        "totalBlocks": "8"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46656,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "72",
+        "kills": "41",
+        "attackErrors": "15",
+        "attackAttempts": "136",
+        "hittingPercentage": "0.191",
+        "assists": "37",
+        "setErrors": "1",
+        "setAttempts": "128",
+        "serviceAces": "4",
+        "serviceErrors": "5",
+        "serveAttempts": "74",
+        "digs": "53",
+        "receptionAttempts": "71",
+        "receptionErrors": "5",
+        "blockSolos": "4",
+        "blockAssists": "12",
+        "blockingErrors": "1",
+        "totalBlocks": "10"
+      }
+    }
+  ]
+}

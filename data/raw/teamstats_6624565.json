@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624565,
+  "title": "WVB Boxscore",
+  "description": "Lamar University vs SFA",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45922",
+      "seoname": "lamar",
+      "name6Char": "LAMAR",
+      "nameFull": "Lamar University",
+      "nameShort": "Lamar University",
+      "teamName": "Cardinals",
+      "color": "#D50032"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46624",
+      "seoname": "stephen-f-austin",
+      "name6Char": "SFA",
+      "nameFull": "Stephen F. Austin State University",
+      "nameShort": "SFA",
+      "teamName": "Lumberjacks",
+      "color": "#532F7C"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45922,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "61",
+        "kills": "42",
+        "attackErrors": "20",
+        "attackAttempts": "113",
+        "hittingPercentage": "0.195",
+        "assists": "39",
+        "setErrors": "2",
+        "setAttempts": "111",
+        "serviceAces": "3",
+        "serviceErrors": "6",
+        "serveAttempts": "63",
+        "digs": "34",
+        "receptionAttempts": "69",
+        "receptionErrors": "3",
+        "blockSolos": "1",
+        "blockAssists": "2",
+        "blockingErrors": "1",
+        "totalBlocks": "2"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46624,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "76",
+        "kills": "45",
+        "attackErrors": "10",
+        "attackAttempts": "97",
+        "hittingPercentage": "0.361",
+        "assists": "44",
+        "setErrors": "1",
+        "setAttempts": "95",
+        "serviceAces": "3",
+        "serviceErrors": "5",
+        "serveAttempts": "74",
+        "digs": "42",
+        "receptionAttempts": "57",
+        "receptionErrors": "3",
+        "blockSolos": "0",
+        "blockAssists": "22",
+        "blockingErrors": "1",
+        "totalBlocks": "11"
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628143,
+  "title": "WVB Boxscore",
+  "description": "UTRGV vs A&M-Corpus Christi",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45984",
+      "seoname": "utrgv",
+      "name6Char": "UTRGV",
+      "nameFull": "The University of Texas Rio Grande Valley",
+      "nameShort": "UTRGV",
+      "teamName": "Vaqueros",
+      "color": "#FF4D00"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46137",
+      "seoname": "am-corpus-chris",
+      "name6Char": "TAMUCC",
+      "nameFull": "Texas A&M University-Corpus Christi",
+      "nameShort": "A&M-Corpus Christi",
+      "teamName": "Islanders",
+      "color": "#007AC1"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45984,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "91",
+        "kills": "54",
+        "attackErrors": "20",
+        "attackAttempts": "135",
+        "hittingPercentage": "0.252",
+        "assists": "50",
+        "setErrors": "1",
+        "setAttempts": "131",
+        "serviceAces": "3",
+        "serviceErrors": "12",
+        "serveAttempts": "90",
+        "digs": "57",
+        "receptionAttempts": "71",
+        "receptionErrors": "2",
+        "blockSolos": "3",
+        "blockAssists": "4",
+        "blockingErrors": "5",
+        "totalBlocks": "5"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46137,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "80",
+        "kills": "44",
+        "attackErrors": "22",
+        "attackAttempts": "126",
+        "hittingPercentage": "0.175",
+        "assists": "41",
+        "setErrors": "1",
+        "setAttempts": "119",
+        "serviceAces": "2",
+        "serviceErrors": "10",
+        "serveAttempts": "81",
+        "digs": "53",
+        "receptionAttempts": "78",
+        "receptionErrors": "3",
+        "blockSolos": "0",
+        "blockAssists": "0",
+        "blockingErrors": "1",
+        "totalBlocks": "0"
+      }
+    }
+  ]
+}

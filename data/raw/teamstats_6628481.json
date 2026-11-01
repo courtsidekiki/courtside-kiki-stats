@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628481,
+  "title": "WVB Boxscore",
+  "description": "Temple vs Tulane",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "1ST SET",
+  "status": "I",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45871",
+      "seoname": "temple",
+      "name6Char": "TEMPLE",
+      "nameFull": "Temple University",
+      "nameShort": "Temple",
+      "teamName": "Owls",
+      "color": "#b30838"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46255",
+      "seoname": "tulane",
+      "name6Char": "TULANE",
+      "nameFull": "Tulane University",
+      "nameShort": "Tulane",
+      "teamName": "Green Wave",
+      "color": "#006747"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45871,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "5",
+        "kills": "1",
+        "attackErrors": "1",
+        "attackAttempts": "3",
+        "hittingPercentage": ".000",
+        "assists": "1",
+        "setErrors": "0",
+        "setAttempts": "3",
+        "serviceAces": "1",
+        "serviceErrors": "0",
+        "serveAttempts": "4",
+        "digs": "2",
+        "receptionAttempts": "1",
+        "receptionErrors": "0",
+        "blockSolos": "1",
+        "blockAssists": "0",
+        "blockingErrors": "0",
+        "totalBlocks": "1"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46255,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "1",
+        "kills": "0",
+        "attackErrors": "2",
+        "attackAttempts": "4",
+        "hittingPercentage": "-0.500",
+        "assists": "0",
+        "setErrors": "0",
+        "setAttempts": "4",
+        "serviceAces": "0",
+        "serviceErrors": "1",
+        "serveAttempts": "2",
+        "digs": "1",
+        "receptionAttempts": "4",
+        "receptionErrors": "1",
+        "blockSolos": "0",
+        "blockAssists": "0",
+        "blockingErrors": "0",
+        "totalBlocks": "0"
+      }
+    }
+  ]
+}

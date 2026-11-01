@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624536,
+  "title": "WVB Boxscore",
+  "description": "Cal St. Fullerton vs CSU Bakersfield",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45757",
+      "seoname": "cal-st-fullerton",
+      "name6Char": "CSFULL",
+      "nameFull": "California State University, Fullerton",
+      "nameShort": "Cal St. Fullerton",
+      "teamName": "Titans",
+      "color": "#FF671F"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46035",
+      "seoname": "bakersfield",
+      "name6Char": "CSUBAK",
+      "nameFull": "California State University, Bakersfield",
+      "nameShort": "CSU Bakersfield",
+      "teamName": "Roadrunners",
+      "color": "#0032A0"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45757,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "112",
+        "kills": "64",
+        "attackErrors": "38",
+        "attackAttempts": "214",
+        "hittingPercentage": "0.121",
+        "assists": "60",
+        "setErrors": "1",
+        "setAttempts": "204",
+        "serviceAces": "5",
+        "serviceErrors": "9",
+        "serveAttempts": "112",
+        "digs": "96",
+        "receptionAttempts": "108",
+        "receptionErrors": "8",
+        "blockSolos": "2",
+        "blockAssists": "24",
+        "blockingErrors": "0",
+        "totalBlocks": "14"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46035,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "117",
+        "kills": "60",
+        "attackErrors": "34",
+        "attackAttempts": "199",
+        "hittingPercentage": "0.131",
+        "assists": "56",
+        "setErrors": "0",
+        "setAttempts": "193",
+        "serviceAces": "8",
+        "serviceErrors": "9",
+        "serveAttempts": "117",
+        "digs": "91",
+        "receptionAttempts": "103",
+        "receptionErrors": "5",
+        "blockSolos": "6",
+        "blockAssists": "16",
+        "blockingErrors": "1",
+        "totalBlocks": "14"
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625290,
+  "title": "WVB Boxscore",
+  "description": "Northwestern vs Rutgers",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46238",
+      "seoname": "northwestern",
+      "name6Char": "NW",
+      "nameFull": "Northwestern University",
+      "nameShort": "Northwestern",
+      "teamName": "Wildcats",
+      "color": "#4E2A84"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46617",
+      "seoname": "rutgers",
+      "name6Char": "RUTGER",
+      "nameFull": "Rutgers, The State University of New Jersey, New Brunswick",
+      "nameShort": "Rutgers",
+      "teamName": "Scarlet Knights",
+      "color": "#C8102E"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46238,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "109",
+        "kills": "57",
+        "attackErrors": "27",
+        "attackAttempts": "164",
+        "hittingPercentage": "0.183",
+        "assists": "54",
+        "setErrors": "1",
+        "setAttempts": "161",
+        "serviceAces": "3",
+        "serviceErrors": "5",
+        "serveAttempts": "110",
+        "digs": "74",
+        "receptionAttempts": "94",
+        "receptionErrors": "6",
+        "blockSolos": "1",
+        "blockAssists": "15",
+        "blockingErrors": "2",
+        "totalBlocks": "8"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46617,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "111",
+        "kills": "72",
+        "attackErrors": "30",
+        "attackAttempts": "189",
+        "hittingPercentage": "0.222",
+        "assists": "67",
+        "setErrors": "1",
+        "setAttempts": "189",
+        "serviceAces": "6",
+        "serviceErrors": "16",
+        "serveAttempts": "110",
+        "digs": "69",
+        "receptionAttempts": "105",
+        "receptionErrors": "3",
+        "blockSolos": "2",
+        "blockAssists": "24",
+        "blockingErrors": "0",
+        "totalBlocks": "14"
+      }
+    }
+  ]
+}

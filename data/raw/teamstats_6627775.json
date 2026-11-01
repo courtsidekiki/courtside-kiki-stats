@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627775,
+  "title": "WVB Boxscore",
+  "description": "North Dakota vs Kansas City",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46236",
+      "seoname": "north-dakota",
+      "name6Char": "NO DAK",
+      "nameFull": "University of North Dakota",
+      "nameShort": "North Dakota",
+      "teamName": "Fighting Hawks",
+      "color": "#009A44"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46391",
+      "seoname": "umkc",
+      "name6Char": "KC",
+      "nameFull": "University of Missouri-Kansas City",
+      "nameShort": "Kansas City",
+      "teamName": "Roos",
+      "color": "#004B87"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46236,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "96",
+        "kills": "61",
+        "attackErrors": "37",
+        "attackAttempts": "178",
+        "hittingPercentage": "0.135",
+        "assists": "55",
+        "setErrors": "1",
+        "setAttempts": "178",
+        "serviceAces": "7",
+        "serviceErrors": "10",
+        "serveAttempts": "96",
+        "digs": "61",
+        "receptionAttempts": "102",
+        "receptionErrors": "9",
+        "blockSolos": "2",
+        "blockAssists": "12",
+        "blockingErrors": "2",
+        "totalBlocks": "8"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46391,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "111",
+        "kills": "54",
+        "attackErrors": "17",
+        "attackAttempts": "138",
+        "hittingPercentage": "0.268",
+        "assists": "51",
+        "setErrors": "2",
+        "setAttempts": "137",
+        "serviceAces": "9",
+        "serviceErrors": "9",
+        "serveAttempts": "111",
+        "digs": "60",
+        "receptionAttempts": "86",
+        "receptionErrors": "7",
+        "blockSolos": "0",
+        "blockAssists": "24",
+        "blockingErrors": "4",
+        "totalBlocks": "12"
+      }
+    }
+  ]
+}

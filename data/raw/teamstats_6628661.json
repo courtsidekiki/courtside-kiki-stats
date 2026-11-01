@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628661,
+  "title": "WVB Boxscore",
+  "description": "Merrimack vs Sacred Heart",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46433",
+      "seoname": "merrimack",
+      "name6Char": "MERMCK",
+      "nameFull": "Merrimack College",
+      "nameShort": "Merrimack",
+      "teamName": "Warriors",
+      "color": "#003057"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46737",
+      "seoname": "sacred-heart",
+      "name6Char": "SACHRT",
+      "nameFull": "Sacred Heart University",
+      "nameShort": "Sacred Heart",
+      "teamName": "Pioneers",
+      "color": "#BA0C2F"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46433,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "53",
+        "kills": "34",
+        "attackErrors": "19",
+        "attackAttempts": "127",
+        "hittingPercentage": "0.118",
+        "assists": "32",
+        "setErrors": "2",
+        "setAttempts": "132",
+        "serviceAces": "2",
+        "serviceErrors": "3",
+        "serveAttempts": "54",
+        "digs": "50",
+        "receptionAttempts": "74",
+        "receptionErrors": "6",
+        "blockSolos": "2",
+        "blockAssists": "8",
+        "blockingErrors": "0",
+        "totalBlocks": "6"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46737,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "45",
+        "attackErrors": "14",
+        "attackAttempts": "117",
+        "hittingPercentage": "0.265",
+        "assists": "41",
+        "setErrors": "2",
+        "setAttempts": "120",
+        "serviceAces": "6",
+        "serviceErrors": "0",
+        "serveAttempts": "74",
+        "digs": "62",
+        "receptionAttempts": "51",
+        "receptionErrors": "2",
+        "blockSolos": "2",
+        "blockAssists": "4",
+        "blockingErrors": "0",
+        "totalBlocks": "4"
+      }
+    }
+  ]
+}

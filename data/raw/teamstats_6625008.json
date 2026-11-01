@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625008,
+  "title": "WVB Boxscore",
+  "description": "Evansville vs UNI",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46672",
+      "seoname": "evansville",
+      "name6Char": "EVANS",
+      "nameFull": "University of Evansville",
+      "nameShort": "Evansville",
+      "teamName": "Purple Aces",
+      "color": "#470A68"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45848",
+      "seoname": "uni",
+      "name6Char": "N IOWA",
+      "nameFull": "University of Northern Iowa",
+      "nameShort": "UNI",
+      "teamName": "Panthers",
+      "color": "#470A68"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46672,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "89",
+        "kills": "52",
+        "attackErrors": "20",
+        "attackAttempts": "128",
+        "hittingPercentage": "0.250",
+        "assists": "45",
+        "setErrors": "0",
+        "setAttempts": "126",
+        "serviceAces": "7",
+        "serviceErrors": "13",
+        "serveAttempts": "90",
+        "digs": "44",
+        "receptionAttempts": "83",
+        "receptionErrors": "6",
+        "blockSolos": "3",
+        "blockAssists": "14",
+        "blockingErrors": "2",
+        "totalBlocks": "10"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45848,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "92",
+        "kills": "53",
+        "attackErrors": "21",
+        "attackAttempts": "123",
+        "hittingPercentage": "0.260",
+        "assists": "48",
+        "setErrors": "1",
+        "setAttempts": "122",
+        "serviceAces": "6",
+        "serviceErrors": "8",
+        "serveAttempts": "91",
+        "digs": "46",
+        "receptionAttempts": "77",
+        "receptionErrors": "7",
+        "blockSolos": "1",
+        "blockAssists": "14",
+        "blockingErrors": "1",
+        "totalBlocks": "8"
+      }
+    }
+  ]
+}

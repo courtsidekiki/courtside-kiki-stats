@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627035,
+  "title": "WVB Boxscore",
+  "description": "Louisville vs Georgia Tech",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "1ST SET",
+  "status": "I",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46061",
+      "seoname": "louisville",
+      "name6Char": "LOUIS",
+      "nameFull": "University of Louisville",
+      "nameShort": "Louisville",
+      "teamName": "Cardinals",
+      "color": "#EE2722"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46549",
+      "seoname": "georgia-tech",
+      "name6Char": "GATECH",
+      "nameFull": "Georgia Institute of Technology",
+      "nameShort": "Georgia Tech",
+      "teamName": "Yellow Jackets",
+      "color": "#B3A369"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46061,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "6",
+        "kills": "3",
+        "attackErrors": "2",
+        "attackAttempts": "7",
+        "hittingPercentage": "0.143",
+        "assists": "3",
+        "setErrors": "1",
+        "setAttempts": "8",
+        "serviceAces": "0",
+        "serviceErrors": "2",
+        "serveAttempts": "6",
+        "digs": "2",
+        "receptionAttempts": "7",
+        "receptionErrors": "1",
+        "blockSolos": "0",
+        "blockAssists": "2",
+        "blockingErrors": "0",
+        "totalBlocks": "2"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46549,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "7",
+        "kills": "1",
+        "attackErrors": "2",
+        "attackAttempts": "7",
+        "hittingPercentage": "-0.143",
+        "assists": "1",
+        "setErrors": "0",
+        "setAttempts": "7",
+        "serviceAces": "1",
+        "serviceErrors": "1",
+        "serveAttempts": "8",
+        "digs": "2",
+        "receptionAttempts": "3",
+        "receptionErrors": "0",
+        "blockSolos": "1",
+        "blockAssists": "0",
+        "blockingErrors": "0",
+        "totalBlocks": "1"
+      }
+    }
+  ]
+}

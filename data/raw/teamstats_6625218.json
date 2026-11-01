@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625218,
+  "title": "WVB Boxscore",
+  "description": "Belmont vs UIC",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46399",
+      "seoname": "belmont",
+      "name6Char": "BELMNT",
+      "nameFull": "Belmont University",
+      "nameShort": "Belmont",
+      "teamName": "Bruins",
+      "color": "#0D2C6B"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45916",
+      "seoname": "ill-chicago",
+      "name6Char": "UIC",
+      "nameFull": "University of Illinois Chicago",
+      "nameShort": "UIC",
+      "teamName": "Flames",
+      "color": "#DB0032"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46399,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "101",
+        "kills": "52",
+        "attackErrors": "25",
+        "attackAttempts": "142",
+        "hittingPercentage": "0.190",
+        "assists": "44",
+        "setErrors": "2",
+        "setAttempts": "131",
+        "serviceAces": "7",
+        "serviceErrors": "8",
+        "serveAttempts": "101",
+        "digs": "52",
+        "receptionAttempts": "92",
+        "receptionErrors": "8",
+        "blockSolos": "3",
+        "blockAssists": "20",
+        "blockingErrors": "3",
+        "totalBlocks": "13"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45916,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "100",
+        "kills": "57",
+        "attackErrors": "30",
+        "attackAttempts": "151",
+        "hittingPercentage": "0.179",
+        "assists": "52",
+        "setErrors": "4",
+        "setAttempts": "153",
+        "serviceAces": "8",
+        "serviceErrors": "8",
+        "serveAttempts": "100",
+        "digs": "59",
+        "receptionAttempts": "93",
+        "receptionErrors": "7",
+        "blockSolos": "4",
+        "blockAssists": "14",
+        "blockingErrors": "3",
+        "totalBlocks": "11"
+      }
+    }
+  ]
+}

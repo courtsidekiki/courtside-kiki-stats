@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624482,
+  "title": "WVB Boxscore",
+  "description": "UC Riverside vs Utah Valley",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46536",
+      "seoname": "uc-riverside",
+      "name6Char": "UC RIV",
+      "nameFull": "University of California, Riverside",
+      "nameShort": "UC Riverside",
+      "teamName": "Highlanders",
+      "color": "#1E437B"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46016",
+      "seoname": "utah-valley",
+      "name6Char": "UT VAL",
+      "nameFull": "Utah Valley University",
+      "nameShort": "Utah Valley",
+      "teamName": "Wolverines",
+      "color": "#275D38"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46536,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "67",
+        "kills": "36",
+        "attackErrors": "23",
+        "attackAttempts": "116",
+        "hittingPercentage": "0.112",
+        "assists": "35",
+        "setErrors": "4",
+        "setAttempts": "129",
+        "serviceAces": "4",
+        "serviceErrors": "7",
+        "serveAttempts": "69",
+        "digs": "44",
+        "receptionAttempts": "69",
+        "receptionErrors": "4",
+        "blockSolos": "1",
+        "blockAssists": "20",
+        "blockingErrors": "2",
+        "totalBlocks": "11"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46016,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "79",
+        "kills": "41",
+        "attackErrors": "18",
+        "attackAttempts": "114",
+        "hittingPercentage": "0.202",
+        "assists": "35",
+        "setErrors": "1",
+        "setAttempts": "117",
+        "serviceAces": "4",
+        "serviceErrors": "8",
+        "serveAttempts": "77",
+        "digs": "47",
+        "receptionAttempts": "62",
+        "receptionErrors": "4",
+        "blockSolos": "0",
+        "blockAssists": "20",
+        "blockingErrors": "2",
+        "totalBlocks": "10"
+      }
+    }
+  ]
+}

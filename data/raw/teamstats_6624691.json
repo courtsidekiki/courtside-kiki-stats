@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624691,
+  "title": "WVB Boxscore",
+  "description": "Rhode Island vs George Washington",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46242",
+      "seoname": "rhode-island",
+      "name6Char": "URI",
+      "nameFull": "University of Rhode Island",
+      "nameShort": "Rhode Island",
+      "teamName": "Rams",
+      "color": "#041E42"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46548",
+      "seoname": "george-washington",
+      "name6Char": "G WASH",
+      "nameFull": "George Washington University",
+      "nameShort": "George Washington",
+      "teamName": "Revolutionaries",
+      "color": "#041E42"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46242,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "43",
+        "kills": "24",
+        "attackErrors": "23",
+        "attackAttempts": "104",
+        "hittingPercentage": "0.010",
+        "assists": "24",
+        "setErrors": "1",
+        "setAttempts": "110",
+        "serviceAces": "1",
+        "serviceErrors": "9",
+        "serveAttempts": "44",
+        "digs": "40",
+        "receptionAttempts": "65",
+        "receptionErrors": "4",
+        "blockSolos": "1",
+        "blockAssists": "2",
+        "blockingErrors": "1",
+        "totalBlocks": "2"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46548,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "38",
+        "attackErrors": "8",
+        "attackAttempts": "90",
+        "hittingPercentage": "0.333",
+        "assists": "37",
+        "setErrors": "1",
+        "setAttempts": "93",
+        "serviceAces": "4",
+        "serviceErrors": "9",
+        "serveAttempts": "74",
+        "digs": "50",
+        "receptionAttempts": "35",
+        "receptionErrors": "1",
+        "blockSolos": "2",
+        "blockAssists": "14",
+        "blockingErrors": "0",
+        "totalBlocks": "9"
+      }
+    }
+  ]
+}

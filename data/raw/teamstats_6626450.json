@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626450,
+  "title": "WVB Boxscore",
+  "description": "Bradley vs Valparaiso",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46700",
+      "seoname": "bradley",
+      "name6Char": "BRAD",
+      "nameFull": "Bradley University",
+      "nameShort": "Bradley",
+      "teamName": "Braves",
+      "color": "#A21B21"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46757",
+      "seoname": "valparaiso",
+      "name6Char": "VALPO",
+      "nameFull": "Valparaiso University",
+      "nameShort": "Valparaiso",
+      "teamName": "Beacons",
+      "color": "#693F23"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46700,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "59",
+        "kills": "40",
+        "attackErrors": "25",
+        "attackAttempts": "123",
+        "hittingPercentage": "0.122",
+        "assists": "38",
+        "setErrors": "2",
+        "setAttempts": "127",
+        "serviceAces": "0",
+        "serviceErrors": "3",
+        "serveAttempts": "60",
+        "digs": "53",
+        "receptionAttempts": "72",
+        "receptionErrors": "3",
+        "blockSolos": "1",
+        "blockAssists": "14",
+        "blockingErrors": "2",
+        "totalBlocks": "8"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46757,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "41",
+        "attackErrors": "16",
+        "attackAttempts": "120",
+        "hittingPercentage": "0.208",
+        "assists": "36",
+        "setErrors": "0",
+        "setAttempts": "115",
+        "serviceAces": "3",
+        "serviceErrors": "2",
+        "serveAttempts": "74",
+        "digs": "46",
+        "receptionAttempts": "57",
+        "receptionErrors": "0",
+        "blockSolos": "0",
+        "blockAssists": "16",
+        "blockingErrors": "1",
+        "totalBlocks": "8"
+      }
+    }
+  ]
+}

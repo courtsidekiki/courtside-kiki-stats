@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626643,
+  "title": "WVB Boxscore",
+  "description": "UConn vs Georgetown",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46408",
+      "seoname": "uconn",
+      "name6Char": "UCONN",
+      "nameFull": "University of Connecticut",
+      "nameShort": "UConn",
+      "teamName": "Huskies",
+      "color": "#0C2340"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46417",
+      "seoname": "georgetown",
+      "name6Char": "GTOWN",
+      "nameFull": "Georgetown University",
+      "nameShort": "Georgetown",
+      "teamName": "Hoyas",
+      "color": "#141F35"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46408,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "112",
+        "kills": "76",
+        "attackErrors": "27",
+        "attackAttempts": "173",
+        "hittingPercentage": "0.283",
+        "assists": "67",
+        "setErrors": "1",
+        "setAttempts": "175",
+        "serviceAces": "10",
+        "serviceErrors": "18",
+        "serveAttempts": "111",
+        "digs": "68",
+        "receptionAttempts": "99",
+        "receptionErrors": "3",
+        "blockSolos": "1",
+        "blockAssists": "14",
+        "blockingErrors": "0",
+        "totalBlocks": "8"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46417,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "107",
+        "kills": "58",
+        "attackErrors": "14",
+        "attackAttempts": "153",
+        "hittingPercentage": "0.288",
+        "assists": "54",
+        "setErrors": "3",
+        "setAttempts": "167",
+        "serviceAces": "3",
+        "serviceErrors": "9",
+        "serveAttempts": "108",
+        "digs": "58",
+        "receptionAttempts": "93",
+        "receptionErrors": "10",
+        "blockSolos": "4",
+        "blockAssists": "20",
+        "blockingErrors": "0",
+        "totalBlocks": "14"
+      }
+    }
+  ]
+}
