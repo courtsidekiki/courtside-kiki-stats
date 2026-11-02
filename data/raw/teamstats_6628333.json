@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628333,
+  "title": "WVB Boxscore",
+  "description": "NC State vs Pittsburgh",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45846",
+      "seoname": "north-carolina-st",
+      "name6Char": "NC ST",
+      "nameFull": "North Carolina State University",
+      "nameShort": "NC State",
+      "teamName": "Wolfpack",
+      "color": "#C8102E"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45986",
+      "seoname": "pittsburgh",
+      "name6Char": "PITT",
+      "nameFull": "University of Pittsburgh",
+      "nameShort": "Pittsburgh",
+      "teamName": "Panthers",
+      "color": "#003594"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45846,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "53",
+        "kills": "35",
+        "attackErrors": "24",
+        "attackAttempts": "103",
+        "hittingPercentage": "0.107",
+        "assists": "33",
+        "setErrors": "0",
+        "setAttempts": "94",
+        "serviceAces": "2",
+        "serviceErrors": "6",
+        "serveAttempts": "55",
+        "digs": "31",
+        "receptionAttempts": "69",
+        "receptionErrors": "1",
+        "blockSolos": "1",
+        "blockAssists": "12",
+        "blockingErrors": "0",
+        "totalBlocks": "7"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45986,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "44",
+        "attackErrors": "12",
+        "attackAttempts": "92",
+        "hittingPercentage": "0.348",
+        "assists": "41",
+        "setErrors": "0",
+        "setAttempts": "89",
+        "serviceAces": "1",
+        "serviceErrors": "4",
+        "serveAttempts": "73",
+        "digs": "37",
+        "receptionAttempts": "49",
+        "receptionErrors": "2",
+        "blockSolos": "1",
+        "blockAssists": "18",
+        "blockingErrors": "0",
+        "totalBlocks": "10"
+      }
+    }
+  ]
+}

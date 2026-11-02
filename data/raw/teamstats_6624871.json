@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624871,
+  "title": "WVB Boxscore",
+  "description": "Coppin St. vs N.C. Central",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46045",
+      "seoname": "coppin-st",
+      "name6Char": "COPPIN",
+      "nameFull": "Coppin State University",
+      "nameShort": "Coppin St.",
+      "teamName": "Eagles",
+      "color": "#0c3354"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45845",
+      "seoname": "nc-central",
+      "name6Char": "NC CEN",
+      "nameFull": "North Carolina Central University",
+      "nameShort": "N.C. Central",
+      "teamName": "Eagles",
+      "color": "#862633"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46045,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "41",
+        "attackErrors": "11",
+        "attackAttempts": "88",
+        "hittingPercentage": "0.341",
+        "assists": "37",
+        "setErrors": "1",
+        "setAttempts": "89",
+        "serviceAces": "7",
+        "serviceErrors": "7",
+        "serveAttempts": "73",
+        "digs": "39",
+        "receptionAttempts": "41",
+        "receptionErrors": "3",
+        "blockSolos": "3",
+        "blockAssists": "10",
+        "blockingErrors": "0",
+        "totalBlocks": "8"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45845,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "47",
+        "kills": "25",
+        "attackErrors": "19",
+        "attackAttempts": "88",
+        "hittingPercentage": "0.068",
+        "assists": "24",
+        "setErrors": "0",
+        "setAttempts": "95",
+        "serviceAces": "3",
+        "serviceErrors": "8",
+        "serveAttempts": "49",
+        "digs": "28",
+        "receptionAttempts": "66",
+        "receptionErrors": "7",
+        "blockSolos": "0",
+        "blockAssists": "10",
+        "blockingErrors": "3",
+        "totalBlocks": "5"
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626916,
+  "title": "WVB Boxscore",
+  "description": "Wichita St. vs Fla. Atlantic",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46705",
+      "seoname": "wichita-st",
+      "name6Char": "WICHST",
+      "nameFull": "Wichita State University",
+      "nameShort": "Wichita St.",
+      "teamName": "Shockers",
+      "color": "#010101"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45773",
+      "seoname": "fla-atlantic",
+      "name6Char": "FAU",
+      "nameFull": "Florida Atlantic University",
+      "nameShort": "Fla. Atlantic",
+      "teamName": "Owls",
+      "color": "#002855"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46705,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "103",
+        "kills": "68",
+        "attackErrors": "27",
+        "attackAttempts": "167",
+        "hittingPercentage": "0.246",
+        "assists": "65",
+        "setErrors": "2",
+        "setAttempts": "168",
+        "serviceAces": "3",
+        "serviceErrors": "5",
+        "serveAttempts": "103",
+        "digs": "73",
+        "receptionAttempts": "106",
+        "receptionErrors": "11",
+        "blockSolos": "2",
+        "blockAssists": "16",
+        "blockingErrors": "1",
+        "totalBlocks": "10"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45773,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "109",
+        "kills": "64",
+        "attackErrors": "24",
+        "attackAttempts": "171",
+        "hittingPercentage": "0.234",
+        "assists": "60",
+        "setErrors": "5",
+        "setAttempts": "179",
+        "serviceAces": "11",
+        "serviceErrors": "3",
+        "serveAttempts": "109",
+        "digs": "65",
+        "receptionAttempts": "98",
+        "receptionErrors": "3",
+        "blockSolos": "3",
+        "blockAssists": "26",
+        "blockingErrors": "2",
+        "totalBlocks": "16"
+      }
+    }
+  ]
+}

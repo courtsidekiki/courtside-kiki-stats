@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626283,
+  "title": "WVB Boxscore",
+  "description": "Wake Forest vs SMU",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46133",
+      "seoname": "wake-forest",
+      "name6Char": "WAKE",
+      "nameFull": "Wake Forest University",
+      "nameShort": "Wake Forest",
+      "teamName": "Demon Deacons",
+      "color": "#010101"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46250",
+      "seoname": "smu",
+      "name6Char": "SMU",
+      "nameFull": "Southern Methodist University",
+      "nameShort": "SMU",
+      "teamName": "Mustangs",
+      "color": "#A80000"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46133,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "62",
+        "kills": "39",
+        "attackErrors": "17",
+        "attackAttempts": "97",
+        "hittingPercentage": "0.227",
+        "assists": "33",
+        "setErrors": "0",
+        "setAttempts": "94",
+        "serviceAces": "1",
+        "serviceErrors": "8",
+        "serveAttempts": "63",
+        "digs": "24",
+        "receptionAttempts": "64",
+        "receptionErrors": "5",
+        "blockSolos": "1",
+        "blockAssists": "8",
+        "blockingErrors": "2",
+        "totalBlocks": "5"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46250,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "77",
+        "kills": "47",
+        "attackErrors": "9",
+        "attackAttempts": "87",
+        "hittingPercentage": "0.437",
+        "assists": "41",
+        "setErrors": "0",
+        "setAttempts": "89",
+        "serviceAces": "5",
+        "serviceErrors": "12",
+        "serveAttempts": "76",
+        "digs": "35",
+        "receptionAttempts": "55",
+        "receptionErrors": "1",
+        "blockSolos": "3",
+        "blockAssists": "14",
+        "blockingErrors": "2",
+        "totalBlocks": "10"
+      }
+    }
+  ]
+}

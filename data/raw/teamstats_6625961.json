@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625961,
+  "title": "WVB Boxscore",
+  "description": "UCLA vs Wisconsin",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45896",
+      "seoname": "ucla",
+      "name6Char": "UCLA",
+      "nameFull": "University of California, Los Angeles",
+      "nameShort": "UCLA",
+      "teamName": "Bruins",
+      "color": "#0072CE"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46580",
+      "seoname": "wisconsin",
+      "name6Char": "WISC",
+      "nameFull": "University of Wisconsin-Madison",
+      "nameShort": "Wisconsin",
+      "teamName": "Badgers",
+      "color": "#BA0C2F"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45896,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "56",
+        "kills": "39",
+        "attackErrors": "23",
+        "attackAttempts": "113",
+        "hittingPercentage": "0.142",
+        "assists": "37",
+        "setErrors": "0",
+        "setAttempts": "110",
+        "serviceAces": "1",
+        "serviceErrors": "6",
+        "serveAttempts": "57",
+        "digs": "34",
+        "receptionAttempts": "69",
+        "receptionErrors": "1",
+        "blockSolos": "0",
+        "blockAssists": "12",
+        "blockingErrors": "0",
+        "totalBlocks": "6"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46580,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "45",
+        "attackErrors": "10",
+        "attackAttempts": "99",
+        "hittingPercentage": "0.354",
+        "assists": "42",
+        "setErrors": "1",
+        "setAttempts": "100",
+        "serviceAces": "1",
+        "serviceErrors": "5",
+        "serveAttempts": "74",
+        "digs": "43",
+        "receptionAttempts": "51",
+        "receptionErrors": "1",
+        "blockSolos": "1",
+        "blockAssists": "26",
+        "blockingErrors": "3",
+        "totalBlocks": "14"
+      }
+    }
+  ]
+}

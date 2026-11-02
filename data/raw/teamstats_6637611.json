@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6637611,
+  "title": "WVB Boxscore",
+  "description": "UAB vs UTSA",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46437",
+      "seoname": "uab",
+      "name6Char": "UAB",
+      "nameFull": "University of Alabama at Birmingham",
+      "nameShort": "UAB",
+      "teamName": "Blazers",
+      "color": "#006341"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46369",
+      "seoname": "utsa",
+      "name6Char": "UTSA",
+      "nameFull": "University of Texas at San Antonio",
+      "nameShort": "UTSA",
+      "teamName": "Roadrunners",
+      "color": "#0A2240"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46437,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "99",
+        "kills": "45",
+        "attackErrors": "20",
+        "attackAttempts": "126",
+        "hittingPercentage": "0.198",
+        "assists": "42",
+        "setErrors": "0",
+        "setAttempts": "126",
+        "serviceAces": "9",
+        "serviceErrors": "6",
+        "serveAttempts": "98",
+        "digs": "40",
+        "receptionAttempts": "81",
+        "receptionErrors": "7",
+        "blockSolos": "1",
+        "blockAssists": "42",
+        "blockingErrors": "1",
+        "totalBlocks": "22"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46369,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "90",
+        "kills": "57",
+        "attackErrors": "34",
+        "attackAttempts": "142",
+        "hittingPercentage": "0.162",
+        "assists": "55",
+        "setErrors": "1",
+        "setAttempts": "145",
+        "serviceAces": "7",
+        "serviceErrors": "10",
+        "serveAttempts": "91",
+        "digs": "54",
+        "receptionAttempts": "92",
+        "receptionErrors": "9",
+        "blockSolos": "2",
+        "blockAssists": "18",
+        "blockingErrors": "2",
+        "totalBlocks": "11"
+      }
+    }
+  ]
+}

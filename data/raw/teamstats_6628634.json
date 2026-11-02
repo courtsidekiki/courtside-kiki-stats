@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628634,
+  "title": "WVB Boxscore",
+  "description": "Stetson vs North Florida",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46502",
+      "seoname": "stetson",
+      "name6Char": "STETSN",
+      "nameFull": "Stetson University",
+      "nameShort": "Stetson",
+      "teamName": "Hatters",
+      "color": "#006747"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46392",
+      "seoname": "north-florida",
+      "name6Char": "NO FLA",
+      "nameFull": "University of North Florida",
+      "nameShort": "North Florida",
+      "teamName": "Ospreys",
+      "color": "#001B49"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46502,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "105",
+        "kills": "56",
+        "attackErrors": "19",
+        "attackAttempts": "171",
+        "hittingPercentage": "0.216",
+        "assists": "53",
+        "setErrors": "0",
+        "setAttempts": "180",
+        "serviceAces": "5",
+        "serviceErrors": "3",
+        "serveAttempts": "106",
+        "digs": "81",
+        "receptionAttempts": "98",
+        "receptionErrors": "15",
+        "blockSolos": "4",
+        "blockAssists": "20",
+        "blockingErrors": "0",
+        "totalBlocks": "14"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46392,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "111",
+        "kills": "74",
+        "attackErrors": "31",
+        "attackAttempts": "198",
+        "hittingPercentage": "0.217",
+        "assists": "69",
+        "setErrors": "1",
+        "setAttempts": "196",
+        "serviceAces": "15",
+        "serviceErrors": "12",
+        "serveAttempts": "110",
+        "digs": "82",
+        "receptionAttempts": "103",
+        "receptionErrors": "5",
+        "blockSolos": "8",
+        "blockAssists": "6",
+        "blockingErrors": "2",
+        "totalBlocks": "11"
+      }
+    }
+  ]
+}

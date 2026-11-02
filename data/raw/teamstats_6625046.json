@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625046,
+  "title": "WVB Boxscore",
+  "description": "UMBC vs UAlbany",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46562",
+      "seoname": "umbc",
+      "name6Char": "UMBC",
+      "nameFull": "University of Maryland, Baltimore County",
+      "nameShort": "UMBC",
+      "teamName": "Retrievers",
+      "color": "#010101"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46569",
+      "seoname": "albany-ny",
+      "name6Char": "ALBANY",
+      "nameFull": "University at Albany",
+      "nameShort": "UAlbany",
+      "teamName": "Great Danes",
+      "color": "#46166B"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46562,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "44",
+        "attackErrors": "10",
+        "attackAttempts": "94",
+        "hittingPercentage": "0.362",
+        "assists": "44",
+        "setErrors": "0",
+        "setAttempts": "94",
+        "serviceAces": "9",
+        "serviceErrors": "6",
+        "serveAttempts": "73",
+        "digs": "52",
+        "receptionAttempts": "36",
+        "receptionErrors": "3",
+        "blockSolos": "0",
+        "blockAssists": "19",
+        "blockingErrors": "0",
+        "totalBlocks": "9"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46569,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "39",
+        "kills": "20",
+        "attackErrors": "17",
+        "attackAttempts": "98",
+        "hittingPercentage": "0.031",
+        "assists": "20",
+        "setErrors": "0",
+        "setAttempts": "100",
+        "serviceAces": "3",
+        "serviceErrors": "5",
+        "serveAttempts": "41",
+        "digs": "37",
+        "receptionAttempts": "67",
+        "receptionErrors": "9",
+        "blockSolos": "1",
+        "blockAssists": "6",
+        "blockingErrors": "2",
+        "totalBlocks": "4"
+      }
+    }
+  ]
+}

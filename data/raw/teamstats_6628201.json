@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628201,
+  "title": "WVB Boxscore",
+  "description": "Virginia vs Florida St.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46009",
+      "seoname": "virginia",
+      "name6Char": "UVA",
+      "nameFull": "University of Virginia",
+      "nameShort": "Virginia",
+      "teamName": "Cavaliers",
+      "color": "#232D4B"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46674",
+      "seoname": "florida-st",
+      "name6Char": "FSU",
+      "nameFull": "Florida State University",
+      "nameShort": "Florida St.",
+      "teamName": "Seminoles",
+      "color": "#76253A"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46009,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "68",
+        "kills": "32",
+        "attackErrors": "10",
+        "attackAttempts": "88",
+        "hittingPercentage": "0.250",
+        "assists": "30",
+        "setErrors": "1",
+        "setAttempts": "90",
+        "serviceAces": "7",
+        "serviceErrors": "16",
+        "serveAttempts": "70",
+        "digs": "25",
+        "receptionAttempts": "62",
+        "receptionErrors": "4",
+        "blockSolos": "6",
+        "blockAssists": "9",
+        "blockingErrors": "0",
+        "totalBlocks": "10"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46674,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "43",
+        "attackErrors": "16",
+        "attackAttempts": "91",
+        "hittingPercentage": "0.297",
+        "assists": "41",
+        "setErrors": "1",
+        "setAttempts": "90",
+        "serviceAces": "4",
+        "serviceErrors": "11",
+        "serveAttempts": "73",
+        "digs": "37",
+        "receptionAttempts": "54",
+        "receptionErrors": "7",
+        "blockSolos": "1",
+        "blockAssists": "4",
+        "blockingErrors": "0",
+        "totalBlocks": "3"
+      }
+    }
+  ]
+}

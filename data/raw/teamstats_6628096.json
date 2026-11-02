@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628096,
+  "title": "WVB Boxscore",
+  "description": "North Carolina vs Boston College",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46471",
+      "seoname": "north-carolina",
+      "name6Char": "UNC",
+      "nameFull": "University of North Carolina, Chapel Hill",
+      "nameShort": "North Carolina",
+      "teamName": "Tar Heels",
+      "color": "#7BAFD4"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46216",
+      "seoname": "boston-college",
+      "name6Char": "BC",
+      "nameFull": "Boston College",
+      "nameShort": "Boston College",
+      "teamName": "Eagles",
+      "color": "#862633"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46471,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "41",
+        "attackErrors": "12",
+        "attackAttempts": "90",
+        "hittingPercentage": "0.322",
+        "assists": "38",
+        "setErrors": "1",
+        "setAttempts": "89",
+        "serviceAces": "4",
+        "serviceErrors": "4",
+        "serveAttempts": "73",
+        "digs": "31",
+        "receptionAttempts": "42",
+        "receptionErrors": "1",
+        "blockSolos": "2",
+        "blockAssists": "20",
+        "blockingErrors": "1",
+        "totalBlocks": "12"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46216,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "44",
+        "kills": "26",
+        "attackErrors": "25",
+        "attackAttempts": "90",
+        "hittingPercentage": "0.011",
+        "assists": "25",
+        "setErrors": "1",
+        "setAttempts": "97",
+        "serviceAces": "1",
+        "serviceErrors": "4",
+        "serveAttempts": "46",
+        "digs": "32",
+        "receptionAttempts": "69",
+        "receptionErrors": "4",
+        "blockSolos": "2",
+        "blockAssists": "2",
+        "blockingErrors": "0",
+        "totalBlocks": "3"
+      }
+    }
+  ]
+}

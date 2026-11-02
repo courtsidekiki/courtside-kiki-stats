@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626348,
+  "title": "WVB Boxscore",
+  "description": "Notre Dame vs Clemson",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46610",
+      "seoname": "notre-dame",
+      "name6Char": "N DAME",
+      "nameFull": "University of Notre Dame",
+      "nameShort": "Notre Dame",
+      "teamName": "Fighting Irish",
+      "color": "#0C2340"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46294",
+      "seoname": "clemson",
+      "name6Char": "CLEM",
+      "nameFull": "Clemson University",
+      "nameShort": "Clemson",
+      "teamName": "Tigers",
+      "color": "#FF6720"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46610,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "105",
+        "kills": "56",
+        "attackErrors": "20",
+        "attackAttempts": "154",
+        "hittingPercentage": "0.234",
+        "assists": "52",
+        "setErrors": "4",
+        "setAttempts": "154",
+        "serviceAces": "6",
+        "serviceErrors": "9",
+        "serveAttempts": "105",
+        "digs": "61",
+        "receptionAttempts": "87",
+        "receptionErrors": "4",
+        "blockSolos": "2",
+        "blockAssists": "38",
+        "blockingErrors": "1",
+        "totalBlocks": "21"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46294,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "93",
+        "kills": "55",
+        "attackErrors": "35",
+        "attackAttempts": "159",
+        "hittingPercentage": "0.126",
+        "assists": "51",
+        "setErrors": "2",
+        "setAttempts": "157",
+        "serviceAces": "4",
+        "serviceErrors": "6",
+        "serveAttempts": "93",
+        "digs": "66",
+        "receptionAttempts": "96",
+        "receptionErrors": "6",
+        "blockSolos": "0",
+        "blockAssists": "14",
+        "blockingErrors": "4",
+        "totalBlocks": "7"
+      }
+    }
+  ]
+}

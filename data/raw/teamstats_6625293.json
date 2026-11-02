@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625293,
+  "title": "WVB Boxscore",
+  "description": "Oregon vs Iowa",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46613",
+      "seoname": "oregon",
+      "name6Char": "OREGN",
+      "nameFull": "University of Oregon",
+      "nameShort": "Oregon",
+      "teamName": "Ducks",
+      "color": "#173F35"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46553",
+      "seoname": "iowa",
+      "name6Char": "IOWA",
+      "nameFull": "University of Iowa",
+      "nameShort": "Iowa",
+      "teamName": "Hawkeyes",
+      "color": "#010101"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46613,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "47",
+        "attackErrors": "15",
+        "attackAttempts": "107",
+        "hittingPercentage": "0.299",
+        "assists": "41",
+        "setErrors": "0",
+        "setAttempts": "102",
+        "serviceAces": "6",
+        "serviceErrors": "8",
+        "serveAttempts": "73",
+        "digs": "35",
+        "receptionAttempts": "58",
+        "receptionErrors": "4",
+        "blockSolos": "3",
+        "blockAssists": "12",
+        "blockingErrors": "3",
+        "totalBlocks": "9"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46553,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "60",
+        "kills": "33",
+        "attackErrors": "18",
+        "attackAttempts": "93",
+        "hittingPercentage": "0.161",
+        "assists": "32",
+        "setErrors": "0",
+        "setAttempts": "90",
+        "serviceAces": "4",
+        "serviceErrors": "4",
+        "serveAttempts": "62",
+        "digs": "32",
+        "receptionAttempts": "65",
+        "receptionErrors": "6",
+        "blockSolos": "3",
+        "blockAssists": "12",
+        "blockingErrors": "0",
+        "totalBlocks": "9"
+      }
+    }
+  ]
+}

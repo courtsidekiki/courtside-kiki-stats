@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624854,
+  "title": "WVB Boxscore",
+  "description": "Southern California vs Minnesota",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46121",
+      "seoname": "southern-california",
+      "name6Char": "USC",
+      "nameFull": "University of Southern California",
+      "nameShort": "Southern California",
+      "teamName": "Trojans",
+      "color": "#9D2235"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46204",
+      "seoname": "minnesota",
+      "name6Char": "MINN",
+      "nameFull": "University of Minnesota, Twin Cities",
+      "nameShort": "Minnesota",
+      "teamName": "Golden Gophers",
+      "color": "#861F41"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46121,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "58",
+        "kills": "34",
+        "attackErrors": "15",
+        "attackAttempts": "104",
+        "hittingPercentage": "0.183",
+        "assists": "33",
+        "setErrors": "1",
+        "setAttempts": "106",
+        "serviceAces": "5",
+        "serviceErrors": "10",
+        "serveAttempts": "60",
+        "digs": "38",
+        "receptionAttempts": "63",
+        "receptionErrors": "8",
+        "blockSolos": "0",
+        "blockAssists": "12",
+        "blockingErrors": "4",
+        "totalBlocks": "6"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46204,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "41",
+        "attackErrors": "9",
+        "attackAttempts": "98",
+        "hittingPercentage": "0.327",
+        "assists": "36",
+        "setErrors": "0",
+        "setAttempts": "88",
+        "serviceAces": "8",
+        "serviceErrors": "10",
+        "serveAttempts": "73",
+        "digs": "39",
+        "receptionAttempts": "50",
+        "receptionErrors": "5",
+        "blockSolos": "2",
+        "blockAssists": "18",
+        "blockingErrors": "0",
+        "totalBlocks": "11"
+      }
+    }
+  ]
+}

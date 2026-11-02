@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626087,
+  "title": "WVB Boxscore",
+  "description": "Tulsa vs North Texas",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45876",
+      "seoname": "tulsa",
+      "name6Char": "TULSA",
+      "nameFull": "The University of Tulsa",
+      "nameShort": "Tulsa",
+      "teamName": "Golden Hurricane",
+      "color": "#002D72"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46237",
+      "seoname": "north-texas",
+      "name6Char": "NO TEX",
+      "nameFull": "University of North Texas",
+      "nameShort": "North Texas",
+      "teamName": "Mean Green",
+      "color": "#007A33"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45876,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "49",
+        "attackErrors": "8",
+        "attackAttempts": "106",
+        "hittingPercentage": "0.387",
+        "assists": "46",
+        "setErrors": "0",
+        "setAttempts": "102",
+        "serviceAces": "8",
+        "serviceErrors": "4",
+        "serveAttempts": "74",
+        "digs": "32",
+        "receptionAttempts": "59",
+        "receptionErrors": "1",
+        "blockSolos": "1",
+        "blockAssists": "12",
+        "blockingErrors": "0",
+        "totalBlocks": "7"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46237,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "60",
+        "kills": "46",
+        "attackErrors": "14",
+        "attackAttempts": "96",
+        "hittingPercentage": "0.333",
+        "assists": "44",
+        "setErrors": "2",
+        "setAttempts": "100",
+        "serviceAces": "1",
+        "serviceErrors": "2",
+        "serveAttempts": "61",
+        "digs": "43",
+        "receptionAttempts": "70",
+        "receptionErrors": "8",
+        "blockSolos": "2",
+        "blockAssists": "2",
+        "blockingErrors": "1",
+        "totalBlocks": "3"
+      }
+    }
+  ]
+}

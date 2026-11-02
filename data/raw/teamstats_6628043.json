@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628043,
+  "title": "WVB Boxscore",
+  "description": "Colorado vs Texas Tech",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46542",
+      "seoname": "colorado",
+      "name6Char": "COLO",
+      "nameFull": "University of Colorado Boulder",
+      "nameShort": "Colorado",
+      "teamName": "Buffaloes",
+      "color": "#010101"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46253",
+      "seoname": "texas-tech",
+      "name6Char": "TXTECH",
+      "nameFull": "Texas Tech University",
+      "nameShort": "Texas Tech",
+      "teamName": "Red Raiders",
+      "color": "#ED1F2A"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46542,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "77",
+        "kills": "39",
+        "attackErrors": "21",
+        "attackAttempts": "92",
+        "hittingPercentage": "0.196",
+        "assists": "35",
+        "setErrors": "0",
+        "setAttempts": "90",
+        "serviceAces": "4",
+        "serviceErrors": "3",
+        "serveAttempts": "75",
+        "digs": "44",
+        "receptionAttempts": "48",
+        "receptionErrors": "2",
+        "blockSolos": "3",
+        "blockAssists": "18",
+        "blockingErrors": "0",
+        "totalBlocks": "12"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46253,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "55",
+        "kills": "29",
+        "attackErrors": "24",
+        "attackAttempts": "104",
+        "hittingPercentage": "0.048",
+        "assists": "26",
+        "setErrors": "1",
+        "setAttempts": "103",
+        "serviceAces": "2",
+        "serviceErrors": "9",
+        "serveAttempts": "57",
+        "digs": "29",
+        "receptionAttempts": "72",
+        "receptionErrors": "4",
+        "blockSolos": "2",
+        "blockAssists": "14",
+        "blockingErrors": "1",
+        "totalBlocks": "9"
+      }
+    }
+  ]
+}

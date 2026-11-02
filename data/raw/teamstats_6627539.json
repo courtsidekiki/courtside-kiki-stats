@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627539,
+  "title": "WVB Boxscore",
+  "description": "Arizona St. vs Houston",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45941",
+      "seoname": "arizona-st",
+      "name6Char": "AZ ST",
+      "nameFull": "Arizona State University",
+      "nameShort": "Arizona St.",
+      "teamName": "Sun Devils",
+      "color": "#8A0C3C"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46054",
+      "seoname": "houston",
+      "name6Char": "HOU",
+      "nameFull": "University of Houston",
+      "nameShort": "Houston",
+      "teamName": "Cougars",
+      "color": "#E51636"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45941,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "37",
+        "attackErrors": "12",
+        "attackAttempts": "98",
+        "hittingPercentage": "0.255",
+        "assists": "35",
+        "setErrors": "2",
+        "setAttempts": "95",
+        "serviceAces": "7",
+        "serviceErrors": "5",
+        "serveAttempts": "73",
+        "digs": "42",
+        "receptionAttempts": "38",
+        "receptionErrors": "3",
+        "blockSolos": "0",
+        "blockAssists": "20",
+        "blockingErrors": "2",
+        "totalBlocks": "10"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46054,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "45",
+        "kills": "23",
+        "attackErrors": "20",
+        "attackAttempts": "92",
+        "hittingPercentage": "0.033",
+        "assists": "22",
+        "setErrors": "2",
+        "setAttempts": "103",
+        "serviceAces": "3",
+        "serviceErrors": "9",
+        "serveAttempts": "47",
+        "digs": "40",
+        "receptionAttempts": "68",
+        "receptionErrors": "7",
+        "blockSolos": "2",
+        "blockAssists": "8",
+        "blockingErrors": "2",
+        "totalBlocks": "6"
+      }
+    }
+  ]
+}

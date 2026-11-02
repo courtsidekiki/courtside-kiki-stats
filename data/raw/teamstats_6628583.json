@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628583,
+  "title": "WVB Boxscore",
+  "description": "Texas vs Texas A&M",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46755",
+      "seoname": "texas",
+      "name6Char": "TEXAS",
+      "nameFull": "University of Texas at Austin",
+      "nameShort": "Texas",
+      "teamName": "Longhorns",
+      "color": "#CB6015"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46006",
+      "seoname": "texas-am",
+      "name6Char": "TX A&M",
+      "nameFull": "Texas A&M University, College Station",
+      "nameShort": "Texas A&M",
+      "teamName": "Aggies",
+      "color": "#5D0025"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46755,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "44",
+        "attackErrors": "11",
+        "attackAttempts": "88",
+        "hittingPercentage": "0.375",
+        "assists": "41",
+        "setErrors": "0",
+        "setAttempts": "88",
+        "serviceAces": "5",
+        "serviceErrors": "13",
+        "serveAttempts": "73",
+        "digs": "34",
+        "receptionAttempts": "52",
+        "receptionErrors": "3",
+        "blockSolos": "1",
+        "blockAssists": "10",
+        "blockingErrors": "0",
+        "totalBlocks": "6"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46006,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "58",
+        "kills": "31",
+        "attackErrors": "18",
+        "attackAttempts": "94",
+        "hittingPercentage": "0.138",
+        "assists": "28",
+        "setErrors": "0",
+        "setAttempts": "88",
+        "serviceAces": "3",
+        "serviceErrors": "8",
+        "serveAttempts": "60",
+        "digs": "27",
+        "receptionAttempts": "60",
+        "receptionErrors": "5",
+        "blockSolos": "0",
+        "blockAssists": "16",
+        "blockingErrors": "0",
+        "totalBlocks": "8"
+      }
+    }
+  ]
+}

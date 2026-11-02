@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627529,
+  "title": "WVB Boxscore",
+  "description": "TCU vs Kansas St.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46507",
+      "seoname": "tcu",
+      "name6Char": "TCU",
+      "nameFull": "Texas Christian University",
+      "nameShort": "TCU",
+      "teamName": "Horned Frogs",
+      "color": "#592D82"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46557",
+      "seoname": "kansas-st",
+      "name6Char": "KAN ST",
+      "nameFull": "Kansas State University",
+      "nameShort": "Kansas St.",
+      "teamName": "Wildcats",
+      "color": "#582C83"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46507,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "92",
+        "kills": "56",
+        "attackErrors": "14",
+        "attackAttempts": "123",
+        "hittingPercentage": "0.341",
+        "assists": "50",
+        "setErrors": "1",
+        "setAttempts": "119",
+        "serviceAces": "3",
+        "serviceErrors": "9",
+        "serveAttempts": "91",
+        "digs": "47",
+        "receptionAttempts": "72",
+        "receptionErrors": "1",
+        "blockSolos": "2",
+        "blockAssists": "14",
+        "blockingErrors": "0",
+        "totalBlocks": "9"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46557,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "81",
+        "kills": "54",
+        "attackErrors": "21",
+        "attackAttempts": "131",
+        "hittingPercentage": "0.252",
+        "assists": "51",
+        "setErrors": "2",
+        "setAttempts": "126",
+        "serviceAces": "1",
+        "serviceErrors": "10",
+        "serveAttempts": "82",
+        "digs": "48",
+        "receptionAttempts": "82",
+        "receptionErrors": "3",
+        "blockSolos": "2",
+        "blockAssists": "10",
+        "blockingErrors": "1",
+        "totalBlocks": "7"
+      }
+    }
+  ]
+}

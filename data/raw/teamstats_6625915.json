@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625915,
+  "title": "WVB Boxscore",
+  "description": "Virginia Tech vs Miami (FL)",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46509",
+      "seoname": "virginia-tech",
+      "name6Char": "VT",
+      "nameFull": "Virginia Polytechnic Institute and State University",
+      "nameShort": "Virginia Tech",
+      "teamName": "Hokies",
+      "color": "#861F41"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46066",
+      "seoname": "miami-fl",
+      "name6Char": "MIAMI",
+      "nameFull": "University of Miami (Florida)",
+      "nameShort": "Miami (FL)",
+      "teamName": "Hurricanes",
+      "color": "#154734"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46509,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "60",
+        "kills": "26",
+        "attackErrors": "19",
+        "attackAttempts": "100",
+        "hittingPercentage": "0.070",
+        "assists": "22",
+        "setErrors": "3",
+        "setAttempts": "102",
+        "serviceAces": "4",
+        "serviceErrors": "4",
+        "serveAttempts": "62",
+        "digs": "35",
+        "receptionAttempts": "65",
+        "receptionErrors": "4",
+        "blockSolos": "2",
+        "blockAssists": "12",
+        "blockingErrors": "0",
+        "totalBlocks": "8"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46066,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "77",
+        "kills": "47",
+        "attackErrors": "18",
+        "attackAttempts": "111",
+        "hittingPercentage": "0.261",
+        "assists": "42",
+        "setErrors": "2",
+        "setAttempts": "112",
+        "serviceAces": "4",
+        "serviceErrors": "10",
+        "serveAttempts": "75",
+        "digs": "49",
+        "receptionAttempts": "58",
+        "receptionErrors": "4",
+        "blockSolos": "2",
+        "blockAssists": "12",
+        "blockingErrors": "0",
+        "totalBlocks": "8"
+      }
+    }
+  ]
+}

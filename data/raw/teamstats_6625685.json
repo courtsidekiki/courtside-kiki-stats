@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625685,
+  "title": "WVB Boxscore",
+  "description": "Southern U. vs Prairie View",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46123",
+      "seoname": "southern-u",
+      "name6Char": "SOUTHR",
+      "nameFull": "Southern University, Baton Rouge",
+      "nameShort": "Southern U.",
+      "teamName": "Lady Jaguars",
+      "color": "#69B3E7"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46734",
+      "seoname": "prairie-view",
+      "name6Char": "PV A&M",
+      "nameFull": "Prairie View A&M University",
+      "nameShort": "Prairie View",
+      "teamName": "Lady Panthers",
+      "color": "#582C83"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46123,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "94",
+        "kills": "51",
+        "attackErrors": "33",
+        "attackAttempts": "174",
+        "hittingPercentage": "0.103",
+        "assists": "49",
+        "setErrors": "0",
+        "setAttempts": "180",
+        "serviceAces": "8",
+        "serviceErrors": "10",
+        "serveAttempts": "95",
+        "digs": "85",
+        "receptionAttempts": "93",
+        "receptionErrors": "3",
+        "blockSolos": "2",
+        "blockAssists": "14",
+        "blockingErrors": "0",
+        "totalBlocks": "9"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46734,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "105",
+        "kills": "58",
+        "attackErrors": "23",
+        "attackAttempts": "173",
+        "hittingPercentage": "0.202",
+        "assists": "56",
+        "setErrors": "1",
+        "setAttempts": "175",
+        "serviceAces": "3",
+        "serviceErrors": "11",
+        "serveAttempts": "104",
+        "digs": "80",
+        "receptionAttempts": "85",
+        "receptionErrors": "8",
+        "blockSolos": "2",
+        "blockAssists": "20",
+        "blockingErrors": "0",
+        "totalBlocks": "12"
+      }
+    }
+  ]
+}
