@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626652,
+  "title": "WVB Boxscore",
+  "description": "Eastern Mich. vs Western Mich.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46179",
+      "seoname": "eastern-mich",
+      "name6Char": "E MICH",
+      "nameFull": "Eastern Michigan University",
+      "nameShort": "Eastern Mich.",
+      "teamName": "Eagles",
+      "color": "#046A38"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45950",
+      "seoname": "western-mich",
+      "name6Char": "W MICH",
+      "nameFull": "Western Michigan University",
+      "nameShort": "Western Mich.",
+      "teamName": "Broncos",
+      "color": "#511B00"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46179,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "51",
+        "kills": "22",
+        "attackErrors": "24",
+        "attackAttempts": "111",
+        "hittingPercentage": "-0.018",
+        "assists": "20",
+        "setErrors": "0",
+        "setAttempts": "107",
+        "serviceAces": "3",
+        "serviceErrors": "3",
+        "serveAttempts": "52",
+        "digs": "46",
+        "receptionAttempts": "64",
+        "receptionErrors": "3",
+        "blockSolos": "2",
+        "blockAssists": "4",
+        "blockingErrors": "2",
+        "totalBlocks": "4"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45950,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "44",
+        "attackErrors": "15",
+        "attackAttempts": "113",
+        "hittingPercentage": "0.257",
+        "assists": "43",
+        "setErrors": "1",
+        "setAttempts": "111",
+        "serviceAces": "3",
+        "serviceErrors": "10",
+        "serveAttempts": "74",
+        "digs": "55",
+        "receptionAttempts": "49",
+        "receptionErrors": "3",
+        "blockSolos": "0",
+        "blockAssists": "28",
+        "blockingErrors": "0",
+        "totalBlocks": "14"
+      }
+    }
+  ]
+}

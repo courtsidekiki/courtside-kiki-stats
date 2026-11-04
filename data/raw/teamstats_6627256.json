@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627256,
+  "title": "WVB Boxscore",
+  "description": "IU Indy vs Purdue Fort Wayne",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46148",
+      "seoname": "iu-indy",
+      "name6Char": "IUINDY",
+      "nameFull": "Indiana University Indianapolis",
+      "nameShort": "IU Indy",
+      "teamName": "Jaguars",
+      "color": "#A90533"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45781",
+      "seoname": "ipfw",
+      "name6Char": "IPFW",
+      "nameFull": "Purdue University Fort Wayne",
+      "nameShort": "Purdue Fort Wayne",
+      "teamName": "Mastodons",
+      "color": "#1f3d7c"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46148,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "65",
+        "kills": "36",
+        "attackErrors": "15",
+        "attackAttempts": "99",
+        "hittingPercentage": "0.212",
+        "assists": "35",
+        "setErrors": "4",
+        "setAttempts": "99",
+        "serviceAces": "1",
+        "serviceErrors": "9",
+        "serveAttempts": "66",
+        "digs": "38",
+        "receptionAttempts": "67",
+        "receptionErrors": "2",
+        "blockSolos": "4",
+        "blockAssists": "8",
+        "blockingErrors": "1",
+        "totalBlocks": "8"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45781,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "45",
+        "attackErrors": "21",
+        "attackAttempts": "110",
+        "hittingPercentage": "0.218",
+        "assists": "42",
+        "setErrors": "0",
+        "setAttempts": "103",
+        "serviceAces": "2",
+        "serviceErrors": "7",
+        "serveAttempts": "74",
+        "digs": "47",
+        "receptionAttempts": "57",
+        "receptionErrors": "1",
+        "blockSolos": "1",
+        "blockAssists": "6",
+        "blockingErrors": "1",
+        "totalBlocks": "4"
+      }
+    }
+  ]
+}

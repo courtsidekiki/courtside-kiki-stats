@@ -1,7 +1,7 @@
 {
-  "inputMD5Sum": "9878ceafd461e09efa4ecbb282eb3df1",
+  "inputMD5Sum": "567946a1c3ad8449874184bb01b81e2b",
   "instanceId": "d41d8cd98f00b204e9800998ecf8427e",
-  "updated_at": "2026-11-03 18:08:46",
+  "updated_at": "2026-11-04 18:17:23",
   "games": [
     {
       "game": {
@@ -5757,6 +5757,62 @@
             {
               "conferenceName": "",
               "conferenceSeo": "swac"
+            }
+          ]
+        },
+        "liveVideoEnabled": false,
+        "startTime": "7:00 PM ET",
+        "startTimeEpoch": "1793401200",
+        "gameState": "final",
+        "startDate": "10/30/2026",
+        "currentPeriod": "FINAL",
+        "contestClock": "0:00",
+        "bracketId": "",
+        "bracketRound": ""
+      }
+    },
+    {
+      "game": {
+        "gameID": "6666869",
+        "away": {
+          "score": "1",
+          "names": {
+            "char6": "GTOWN",
+            "short": "Georgetown",
+            "seo": "georgetown",
+            "full": ""
+          },
+          "winner": false,
+          "seed": "",
+          "description": "",
+          "rank": "",
+          "conferences": [
+            {
+              "conferenceName": "",
+              "conferenceSeo": "big-east"
+            }
+          ]
+        },
+        "finalMessage": "FINAL",
+        "title": "Georgetown Providence",
+        "url": "/game/6666869",
+        "network": "",
+        "home": {
+          "score": "3",
+          "names": {
+            "char6": "PROV",
+            "short": "Providence",
+            "seo": "providence",
+            "full": ""
+          },
+          "winner": true,
+          "seed": "",
+          "description": "",
+          "rank": "",
+          "conferences": [
+            {
+              "conferenceName": "",
+              "conferenceSeo": "big-east"
             }
           ]
         },

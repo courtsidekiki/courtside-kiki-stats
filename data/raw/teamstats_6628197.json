@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628197,
+  "title": "WVB Boxscore",
+  "description": "Florida St. vs Georgia Tech",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46674",
+      "seoname": "florida-st",
+      "name6Char": "FSU",
+      "nameFull": "Florida State University",
+      "nameShort": "Florida St.",
+      "teamName": "Seminoles",
+      "color": "#76253A"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46549",
+      "seoname": "georgia-tech",
+      "name6Char": "GATECH",
+      "nameFull": "Georgia Institute of Technology",
+      "nameShort": "Georgia Tech",
+      "teamName": "Yellow Jackets",
+      "color": "#B3A369"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46674,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "104",
+        "kills": "63",
+        "attackErrors": "23",
+        "attackAttempts": "166",
+        "hittingPercentage": "0.241",
+        "assists": "57",
+        "setErrors": "2",
+        "setAttempts": "160",
+        "serviceAces": "8",
+        "serviceErrors": "18",
+        "serveAttempts": "104",
+        "digs": "61",
+        "receptionAttempts": "103",
+        "receptionErrors": "4",
+        "blockSolos": "1",
+        "blockAssists": "8",
+        "blockingErrors": "0",
+        "totalBlocks": "5"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46549,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "111",
+        "kills": "63",
+        "attackErrors": "21",
+        "attackAttempts": "154",
+        "hittingPercentage": "0.273",
+        "assists": "56",
+        "setErrors": "3",
+        "setAttempts": "147",
+        "serviceAces": "4",
+        "serviceErrors": "8",
+        "serveAttempts": "111",
+        "digs": "69",
+        "receptionAttempts": "86",
+        "receptionErrors": "8",
+        "blockSolos": "1",
+        "blockAssists": "16",
+        "blockingErrors": "0",
+        "totalBlocks": "9"
+      }
+    }
+  ]
+}
