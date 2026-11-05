@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627837,
+  "title": "WVB Boxscore",
+  "description": "Utah St. vs Texas St.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46756",
+      "seoname": "utah-st",
+      "name6Char": "UT ST",
+      "nameFull": "Utah State University",
+      "nameShort": "Utah St.",
+      "teamName": "Aggies",
+      "color": "#00263A"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46124",
+      "seoname": "texas-st",
+      "name6Char": "TX ST",
+      "nameFull": "Texas State University",
+      "nameShort": "Texas St.",
+      "teamName": "Bobcats",
+      "color": "#572932"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46756,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "111",
+        "kills": "62",
+        "attackErrors": "23",
+        "attackAttempts": "163",
+        "hittingPercentage": "0.239",
+        "assists": "60",
+        "setErrors": "0",
+        "setAttempts": "164",
+        "serviceAces": "8",
+        "serviceErrors": "10",
+        "serveAttempts": "110",
+        "digs": "67",
+        "receptionAttempts": "83",
+        "receptionErrors": "3",
+        "blockSolos": "3",
+        "blockAssists": "30",
+        "blockingErrors": "1",
+        "totalBlocks": "18"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46124,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "85",
+        "kills": "49",
+        "attackErrors": "37",
+        "attackAttempts": "163",
+        "hittingPercentage": "0.074",
+        "assists": "49",
+        "setErrors": "1",
+        "setAttempts": "176",
+        "serviceAces": "3",
+        "serviceErrors": "3",
+        "serveAttempts": "86",
+        "digs": "71",
+        "receptionAttempts": "100",
+        "receptionErrors": "8",
+        "blockSolos": "3",
+        "blockAssists": "18",
+        "blockingErrors": "2",
+        "totalBlocks": "12"
+      }
+    }
+  ]
+}

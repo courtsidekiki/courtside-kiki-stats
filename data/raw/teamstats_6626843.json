@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626843,
+  "title": "WVB Boxscore",
+  "description": "Jackson St. vs Mississippi Val.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45783",
+      "seoname": "jackson-st",
+      "name6Char": "JACKST",
+      "nameFull": "Jackson State University",
+      "nameShort": "Jackson St.",
+      "teamName": "Lady Tigers",
+      "color": "#041E42"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45803",
+      "seoname": "mississippi-val",
+      "name6Char": "MS VAL",
+      "nameFull": "Mississippi Valley State University",
+      "nameShort": "Mississippi Val.",
+      "teamName": "Devilettes",
+      "color": "#046A38"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45783,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "34",
+        "attackErrors": "13",
+        "attackAttempts": "81",
+        "hittingPercentage": "0.259",
+        "assists": "32",
+        "setErrors": "0",
+        "setAttempts": "80",
+        "serviceAces": "7",
+        "serviceErrors": "6",
+        "serveAttempts": "73",
+        "digs": "46",
+        "receptionAttempts": "33",
+        "receptionErrors": "3",
+        "blockSolos": "2",
+        "blockAssists": "4",
+        "blockingErrors": "0",
+        "totalBlocks": "4"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45803,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "36",
+        "kills": "14",
+        "attackErrors": "23",
+        "attackAttempts": "88",
+        "hittingPercentage": "-0.102",
+        "assists": "13",
+        "setErrors": "4",
+        "setAttempts": "89",
+        "serviceAces": "3",
+        "serviceErrors": "5",
+        "serveAttempts": "38",
+        "digs": "30",
+        "receptionAttempts": "67",
+        "receptionErrors": "7",
+        "blockSolos": "3",
+        "blockAssists": "2",
+        "blockingErrors": "1",
+        "totalBlocks": "4"
+      }
+    }
+  ]
+}
