@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626534,
+  "title": "WVB Boxscore",
+  "description": "SFA vs McNeese",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46624",
+      "seoname": "stephen-f-austin",
+      "name6Char": "SFA",
+      "nameFull": "Stephen F. Austin State University",
+      "nameShort": "SFA",
+      "teamName": "Lumberjacks",
+      "color": "#532F7C"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46201",
+      "seoname": "mcneese",
+      "name6Char": "MCNEES",
+      "nameFull": "McNeese State University",
+      "nameShort": "McNeese",
+      "teamName": "Cowgirls",
+      "color": "#003087"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46624,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "107",
+        "kills": "72",
+        "attackErrors": "20",
+        "attackAttempts": "210",
+        "hittingPercentage": "0.248",
+        "assists": "65",
+        "setErrors": "1",
+        "setAttempts": "209",
+        "serviceAces": "6",
+        "serviceErrors": "13",
+        "serveAttempts": "107",
+        "digs": "93",
+        "receptionAttempts": "96",
+        "receptionErrors": "2",
+        "blockSolos": "3",
+        "blockAssists": "22",
+        "blockingErrors": "0",
+        "totalBlocks": "14"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46201,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "98",
+        "kills": "61",
+        "attackErrors": "27",
+        "attackAttempts": "191",
+        "hittingPercentage": "0.178",
+        "assists": "57",
+        "setErrors": "0",
+        "setAttempts": "197",
+        "serviceAces": "2",
+        "serviceErrors": "2",
+        "serveAttempts": "98",
+        "digs": "106",
+        "receptionAttempts": "94",
+        "receptionErrors": "6",
+        "blockSolos": "2",
+        "blockAssists": "8",
+        "blockingErrors": "1",
+        "totalBlocks": "6"
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626466,
+  "title": "WVB Boxscore",
+  "description": "Eastern Ill. vs Western Ill.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45769",
+      "seoname": "eastern-ill",
+      "name6Char": "E ILL",
+      "nameFull": "Eastern Illinois University",
+      "nameShort": "Eastern Ill.",
+      "teamName": "Panthers",
+      "color": "#003594"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46633",
+      "seoname": "western-ill",
+      "name6Char": "W ILL",
+      "nameFull": "Western Illinois University",
+      "nameShort": "Western Ill.",
+      "teamName": "Leathernecks",
+      "color": "#59327E"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45769,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "77",
+        "kills": "42",
+        "attackErrors": "13",
+        "attackAttempts": "113",
+        "hittingPercentage": "0.257",
+        "assists": "41",
+        "setErrors": "1",
+        "setAttempts": "113",
+        "serviceAces": "8",
+        "serviceErrors": "3",
+        "serveAttempts": "75",
+        "digs": "47",
+        "receptionAttempts": "57",
+        "receptionErrors": "1",
+        "blockSolos": "0",
+        "blockAssists": "20",
+        "blockingErrors": "1",
+        "totalBlocks": "10"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46633,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "60",
+        "kills": "42",
+        "attackErrors": "19",
+        "attackAttempts": "115",
+        "hittingPercentage": "0.200",
+        "assists": "41",
+        "setErrors": "2",
+        "setAttempts": "116",
+        "serviceAces": "1",
+        "serviceErrors": "5",
+        "serveAttempts": "62",
+        "digs": "52",
+        "receptionAttempts": "72",
+        "receptionErrors": "8",
+        "blockSolos": "1",
+        "blockAssists": "8",
+        "blockingErrors": "2",
+        "totalBlocks": "5"
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624641,
+  "title": "WVB Boxscore",
+  "description": "Maryland vs Southern California",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46686",
+      "seoname": "maryland",
+      "name6Char": "MD",
+      "nameFull": "University of Maryland, College Park",
+      "nameShort": "Maryland",
+      "teamName": "Terrapins",
+      "color": "#C8102E"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46121",
+      "seoname": "southern-california",
+      "name6Char": "USC",
+      "nameFull": "University of Southern California",
+      "nameShort": "Southern California",
+      "teamName": "Trojans",
+      "color": "#9D2235"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46686,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "110",
+        "kills": "59",
+        "attackErrors": "19",
+        "attackAttempts": "150",
+        "hittingPercentage": "0.267",
+        "assists": "58",
+        "setErrors": "0",
+        "setAttempts": "153",
+        "serviceAces": "4",
+        "serviceErrors": "15",
+        "serveAttempts": "109",
+        "digs": "51",
+        "receptionAttempts": "90",
+        "receptionErrors": "4",
+        "blockSolos": "2",
+        "blockAssists": "20",
+        "blockingErrors": "2",
+        "totalBlocks": "12"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46121,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "104",
+        "kills": "66",
+        "attackErrors": "31",
+        "attackAttempts": "162",
+        "hittingPercentage": "0.216",
+        "assists": "62",
+        "setErrors": "0",
+        "setAttempts": "157",
+        "serviceAces": "4",
+        "serviceErrors": "15",
+        "serveAttempts": "105",
+        "digs": "53",
+        "receptionAttempts": "94",
+        "receptionErrors": "4",
+        "blockSolos": "0",
+        "blockAssists": "25",
+        "blockingErrors": "3",
+        "totalBlocks": "12"
+      }
+    }
+  ]
+}

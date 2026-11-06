@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627156,
+  "title": "WVB Boxscore",
+  "description": "Montana St. vs Portland St.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46340",
+      "seoname": "montana-st",
+      "name6Char": "MONTST ",
+      "nameFull": "Montana State University-Bozeman",
+      "nameShort": "Montana St.",
+      "teamName": "Bobcats",
+      "color": "#00205B"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45987",
+      "seoname": "portland-st",
+      "name6Char": "PORTST",
+      "nameFull": "Portland State University",
+      "nameShort": "Portland St.",
+      "teamName": "Vikings",
+      "color": "#154734"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46340,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "59",
+        "kills": "41",
+        "attackErrors": "22",
+        "attackAttempts": "115",
+        "hittingPercentage": "0.165",
+        "assists": "38",
+        "setErrors": "0",
+        "setAttempts": "113",
+        "serviceAces": "4",
+        "serviceErrors": "6",
+        "serveAttempts": "61",
+        "digs": "41",
+        "receptionAttempts": "70",
+        "receptionErrors": "4",
+        "blockSolos": "2",
+        "blockAssists": "8",
+        "blockingErrors": "1",
+        "totalBlocks": "6"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45987,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "43",
+        "attackErrors": "11",
+        "attackAttempts": "105",
+        "hittingPercentage": "0.305",
+        "assists": "42",
+        "setErrors": "0",
+        "setAttempts": "101",
+        "serviceAces": "4",
+        "serviceErrors": "3",
+        "serveAttempts": "73",
+        "digs": "45",
+        "receptionAttempts": "55",
+        "receptionErrors": "4",
+        "blockSolos": "3",
+        "blockAssists": "11",
+        "blockingErrors": "1",
+        "totalBlocks": "8"
+      }
+    }
+  ]
+}

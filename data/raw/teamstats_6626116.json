@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626116,
+  "title": "WVB Boxscore",
+  "description": "App State vs Marshall",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46571",
+      "seoname": "appalachian-st",
+      "name6Char": "APP ST",
+      "nameFull": "Appalachian State University",
+      "nameShort": "App State",
+      "teamName": "Mountaineers",
+      "color": "#010101"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46318",
+      "seoname": "marshall",
+      "name6Char": "MARSH",
+      "nameFull": "Marshall University",
+      "nameShort": "Marshall",
+      "teamName": "Thundering Herd",
+      "color": "#00B140"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46571,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "94",
+        "kills": "58",
+        "attackErrors": "23",
+        "attackAttempts": "142",
+        "hittingPercentage": "0.246",
+        "assists": "53",
+        "setErrors": "3",
+        "setAttempts": "141",
+        "serviceAces": "9",
+        "serviceErrors": "6",
+        "serveAttempts": "93",
+        "digs": "65",
+        "receptionAttempts": "75",
+        "receptionErrors": "3",
+        "blockSolos": "2",
+        "blockAssists": "12",
+        "blockingErrors": "0",
+        "totalBlocks": "8"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46318,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "80",
+        "kills": "44",
+        "attackErrors": "18",
+        "attackAttempts": "140",
+        "hittingPercentage": "0.186",
+        "assists": "43",
+        "setErrors": "3",
+        "setAttempts": "149",
+        "serviceAces": "3",
+        "serviceErrors": "6",
+        "serveAttempts": "81",
+        "digs": "52",
+        "receptionAttempts": "87",
+        "receptionErrors": "9",
+        "blockSolos": "1",
+        "blockAssists": "10",
+        "blockingErrors": "0",
+        "totalBlocks": "6"
+      }
+    }
+  ]
+}

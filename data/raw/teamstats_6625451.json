@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625451,
+  "title": "WVB Boxscore",
+  "description": "LSU New Orleans  vs Southeastern La.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46726",
+      "seoname": "new-orleans",
+      "name6Char": "UNO",
+      "nameFull": "LSU New Orleans",
+      "nameShort": "LSU New Orleans ",
+      "teamName": "Privateers",
+      "color": "#0057B8"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46622",
+      "seoname": "southeastern-la",
+      "name6Char": "SE LA",
+      "nameFull": "Southeastern Louisiana University",
+      "nameShort": "Southeastern La.",
+      "teamName": "Lady Lions",
+      "color": "#1D4C30"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46726,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "83",
+        "kills": "52",
+        "attackErrors": "19",
+        "attackAttempts": "154",
+        "hittingPercentage": "0.214",
+        "assists": "50",
+        "setErrors": "1",
+        "setAttempts": "154",
+        "serviceAces": "4",
+        "serviceErrors": "7",
+        "serveAttempts": "84",
+        "digs": "73",
+        "receptionAttempts": "88",
+        "receptionErrors": "5",
+        "blockSolos": "2",
+        "blockAssists": "12",
+        "blockingErrors": "2",
+        "totalBlocks": "8"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46622,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "95",
+        "kills": "63",
+        "attackErrors": "20",
+        "attackAttempts": "166",
+        "hittingPercentage": "0.259",
+        "assists": "57",
+        "setErrors": "1",
+        "setAttempts": "151",
+        "serviceAces": "5",
+        "serviceErrors": "6",
+        "serveAttempts": "94",
+        "digs": "75",
+        "receptionAttempts": "77",
+        "receptionErrors": "4",
+        "blockSolos": "1",
+        "blockAssists": "6",
+        "blockingErrors": "0",
+        "totalBlocks": "4"
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626173,
+  "title": "WVB Boxscore",
+  "description": "Temple vs East Carolina",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "2ND SET",
+  "status": "I",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45871",
+      "seoname": "temple",
+      "name6Char": "TEMPLE",
+      "nameFull": "Temple University",
+      "nameShort": "Temple",
+      "teamName": "Owls",
+      "color": "#b30838"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46668",
+      "seoname": "east-carolina",
+      "name6Char": "E CAR",
+      "nameFull": "East Carolina University",
+      "nameShort": "East Carolina",
+      "teamName": "Pirates",
+      "color": "#582C83"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45871,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "37",
+        "kills": "19",
+        "attackErrors": "6",
+        "attackAttempts": "57",
+        "hittingPercentage": "0.228",
+        "assists": "15",
+        "setErrors": "2",
+        "setAttempts": "59",
+        "serviceAces": "2",
+        "serviceErrors": "4",
+        "serveAttempts": "37",
+        "digs": "25",
+        "receptionAttempts": "27",
+        "receptionErrors": "4",
+        "blockSolos": "2",
+        "blockAssists": "2",
+        "blockingErrors": "0",
+        "totalBlocks": "4"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46668,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "30",
+        "kills": "14",
+        "attackErrors": "8",
+        "attackAttempts": "56",
+        "hittingPercentage": "0.107",
+        "assists": "10",
+        "setErrors": "2",
+        "setAttempts": "61",
+        "serviceAces": "4",
+        "serviceErrors": "3",
+        "serveAttempts": "31",
+        "digs": "20",
+        "receptionAttempts": "33",
+        "receptionErrors": "2",
+        "blockSolos": "0",
+        "blockAssists": "6",
+        "blockingErrors": "0",
+        "totalBlocks": "6"
+      }
+    }
+  ]
+}

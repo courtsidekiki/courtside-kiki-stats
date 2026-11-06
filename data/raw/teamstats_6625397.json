@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625397,
+  "title": "WVB Boxscore",
+  "description": "Chattanooga vs Mercer",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46505",
+      "seoname": "chattanooga",
+      "name6Char": "CHAT",
+      "nameFull": "University of Tennessee at Chattanooga",
+      "nameShort": "Chattanooga",
+      "teamName": "Mocs",
+      "color": "#00416D"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46567",
+      "seoname": "mercer",
+      "name6Char": "MERCER",
+      "nameFull": "Mercer University",
+      "nameShort": "Mercer",
+      "teamName": "Bears",
+      "color": "#E87722"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46505,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "87",
+        "kills": "42",
+        "attackErrors": "25",
+        "attackAttempts": "150",
+        "hittingPercentage": "0.113",
+        "assists": "39",
+        "setErrors": "2",
+        "setAttempts": "143",
+        "serviceAces": "7",
+        "serviceErrors": "6",
+        "serveAttempts": "87",
+        "digs": "60",
+        "receptionAttempts": "95",
+        "receptionErrors": "11",
+        "blockSolos": "3",
+        "blockAssists": "12",
+        "blockingErrors": "1",
+        "totalBlocks": "9"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46567,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "109",
+        "kills": "65",
+        "attackErrors": "23",
+        "attackAttempts": "156",
+        "hittingPercentage": "0.269",
+        "assists": "54",
+        "setErrors": "1",
+        "setAttempts": "142",
+        "serviceAces": "11",
+        "serviceErrors": "14",
+        "serveAttempts": "109",
+        "digs": "70",
+        "receptionAttempts": "81",
+        "receptionErrors": "7",
+        "blockSolos": "3",
+        "blockAssists": "10",
+        "blockingErrors": "4",
+        "totalBlocks": "8"
+      }
+    }
+  ]
+}

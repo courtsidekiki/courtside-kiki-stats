@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624821,
+  "title": "WVB Boxscore",
+  "description": "Coastal Carolina vs Troy",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46170",
+      "seoname": "coastal-caro",
+      "name6Char": "CO CAR",
+      "nameFull": "Coastal Carolina University",
+      "nameShort": "Coastal Carolina",
+      "teamName": "Chanticleers",
+      "color": "#007377"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46254",
+      "seoname": "troy",
+      "name6Char": "TROY",
+      "nameFull": "Troy University",
+      "nameShort": "Troy",
+      "teamName": "Trojans",
+      "color": "#9D2235"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46170,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "105",
+        "kills": "53",
+        "attackErrors": "17",
+        "attackAttempts": "133",
+        "hittingPercentage": "0.271",
+        "assists": "50",
+        "setErrors": "3",
+        "setAttempts": "139",
+        "serviceAces": "8",
+        "serviceErrors": "3",
+        "serveAttempts": "105",
+        "digs": "60",
+        "receptionAttempts": "75",
+        "receptionErrors": "10",
+        "blockSolos": "2",
+        "blockAssists": "24",
+        "blockingErrors": "0",
+        "totalBlocks": "14"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46254,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "90",
+        "kills": "55",
+        "attackErrors": "27",
+        "attackAttempts": "161",
+        "hittingPercentage": "0.174",
+        "assists": "52",
+        "setErrors": "2",
+        "setAttempts": "171",
+        "serviceAces": "10",
+        "serviceErrors": "15",
+        "serveAttempts": "90",
+        "digs": "58",
+        "receptionAttempts": "102",
+        "receptionErrors": "8",
+        "blockSolos": "3",
+        "blockAssists": "8",
+        "blockingErrors": "0",
+        "totalBlocks": "7"
+      }
+    }
+  ]
+}

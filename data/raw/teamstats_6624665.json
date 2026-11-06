@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624665,
+  "title": "WVB Boxscore",
+  "description": "Abilene Christian vs Tarleton St.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45940",
+      "seoname": "abilene-christian",
+      "name6Char": "ABILCH",
+      "nameFull": "Abilene Christian University",
+      "nameShort": "Abilene Christian",
+      "teamName": "Wildcats",
+      "color": "#582C83"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46097",
+      "seoname": "tarleton-st",
+      "name6Char": "TARLET",
+      "nameFull": "Tarleton State University",
+      "nameShort": "Tarleton St.",
+      "teamName": "Texans",
+      "color": "#582C83"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45940,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "72",
+        "kills": "39",
+        "attackErrors": "22",
+        "attackAttempts": "121",
+        "hittingPercentage": "0.140",
+        "assists": "36",
+        "setErrors": "4",
+        "setAttempts": "127",
+        "serviceAces": "6",
+        "serviceErrors": "3",
+        "serveAttempts": "73",
+        "digs": "44",
+        "receptionAttempts": "70",
+        "receptionErrors": "2",
+        "blockSolos": "1",
+        "blockAssists": "14",
+        "blockingErrors": "1",
+        "totalBlocks": "8"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46097,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "79",
+        "kills": "48",
+        "attackErrors": "17",
+        "attackAttempts": "118",
+        "hittingPercentage": "0.263",
+        "assists": "47",
+        "setErrors": "2",
+        "setAttempts": "125",
+        "serviceAces": "2",
+        "serviceErrors": "8",
+        "serveAttempts": "78",
+        "digs": "54",
+        "receptionAttempts": "70",
+        "receptionErrors": "6",
+        "blockSolos": "1",
+        "blockAssists": "10",
+        "blockingErrors": "2",
+        "totalBlocks": "6"
+      }
+    }
+  ]
+}

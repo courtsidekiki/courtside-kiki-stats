@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625750,
+  "title": "WVB Boxscore",
+  "description": "Kansas vs Baylor",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46422",
+      "seoname": "kansas",
+      "name6Char": "KANSAS",
+      "nameFull": "University of Kansas",
+      "nameShort": "Kansas",
+      "teamName": "Jayhawks",
+      "color": "#1967B8"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45943",
+      "seoname": "baylor",
+      "name6Char": "BAYLOR",
+      "nameFull": "Baylor University",
+      "nameShort": "Baylor",
+      "teamName": "Bears",
+      "color": "#1B3E30"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46422,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "79",
+        "kills": "48",
+        "attackErrors": "12",
+        "attackAttempts": "95",
+        "hittingPercentage": "0.379",
+        "assists": "42",
+        "setErrors": "1",
+        "setAttempts": "93",
+        "serviceAces": "6",
+        "serviceErrors": "8",
+        "serveAttempts": "78",
+        "digs": "27",
+        "receptionAttempts": "59",
+        "receptionErrors": "1",
+        "blockSolos": "2",
+        "blockAssists": "4",
+        "blockingErrors": "1",
+        "totalBlocks": "4"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45943,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "68",
+        "kills": "46",
+        "attackErrors": "15",
+        "attackAttempts": "102",
+        "hittingPercentage": "0.304",
+        "assists": "45",
+        "setErrors": "0",
+        "setAttempts": "99",
+        "serviceAces": "1",
+        "serviceErrors": "10",
+        "serveAttempts": "69",
+        "digs": "28",
+        "receptionAttempts": "70",
+        "receptionErrors": "6",
+        "blockSolos": "1",
+        "blockAssists": "12",
+        "blockingErrors": "2",
+        "totalBlocks": "7"
+      }
+    }
+  ]
+}

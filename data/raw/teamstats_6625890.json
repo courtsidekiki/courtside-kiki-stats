@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625890,
+  "title": "WVB Boxscore",
+  "description": "Idaho St. vs Utah Tech",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46680",
+      "seoname": "idaho-st",
+      "name6Char": "ID ST",
+      "nameFull": "Idaho State University",
+      "nameShort": "Idaho St.",
+      "teamName": "Bengals",
+      "color": "#F47920"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45886",
+      "seoname": "utah-tech",
+      "name6Char": "UTTECH",
+      "nameFull": "Utah Tech University",
+      "nameShort": "Utah Tech",
+      "teamName": "Trailblazers ",
+      "color": "#BA1C21"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46680,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "97",
+        "kills": "67",
+        "attackErrors": "21",
+        "attackAttempts": "180",
+        "hittingPercentage": "0.256",
+        "assists": "63",
+        "setErrors": "1",
+        "setAttempts": "175",
+        "serviceAces": "2",
+        "serviceErrors": "9",
+        "serveAttempts": "96",
+        "digs": "84",
+        "receptionAttempts": "80",
+        "receptionErrors": "4",
+        "blockSolos": "3",
+        "blockAssists": "12",
+        "blockingErrors": "2",
+        "totalBlocks": "9"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45886,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "88",
+        "kills": "52",
+        "attackErrors": "19",
+        "attackAttempts": "168",
+        "hittingPercentage": "0.196",
+        "assists": "47",
+        "setErrors": "0",
+        "setAttempts": "164",
+        "serviceAces": "4",
+        "serviceErrors": "9",
+        "serveAttempts": "89",
+        "digs": "78",
+        "receptionAttempts": "87",
+        "receptionErrors": "2",
+        "blockSolos": "2",
+        "blockAssists": "24",
+        "blockingErrors": "5",
+        "totalBlocks": "14"
+      }
+    }
+  ]
+}

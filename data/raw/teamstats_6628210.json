@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628210,
+  "title": "WVB Boxscore",
+  "description": "Santa Clara vs Seattle U",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46362",
+      "seoname": "santa-clara",
+      "name6Char": "STCLAR",
+      "nameFull": "Santa Clara University",
+      "nameShort": "Santa Clara",
+      "teamName": "Broncos",
+      "color": "#862633"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46096",
+      "seoname": "seattle",
+      "name6Char": "SEATTL",
+      "nameFull": "Seattle University",
+      "nameShort": "Seattle U",
+      "teamName": "Redhawks",
+      "color": "#BA0C2F"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46362,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "98",
+        "kills": "65",
+        "attackErrors": "26",
+        "attackAttempts": "154",
+        "hittingPercentage": "0.253",
+        "assists": "62",
+        "setErrors": "2",
+        "setAttempts": "152",
+        "serviceAces": "5",
+        "serviceErrors": "14",
+        "serveAttempts": "97",
+        "digs": "62",
+        "receptionAttempts": "85",
+        "receptionErrors": "3",
+        "blockSolos": "1",
+        "blockAssists": "8",
+        "blockingErrors": "1",
+        "totalBlocks": "5"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46096,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "89",
+        "kills": "44",
+        "attackErrors": "20",
+        "attackAttempts": "131",
+        "hittingPercentage": "0.183",
+        "assists": "42",
+        "setErrors": "3",
+        "setAttempts": "132",
+        "serviceAces": "3",
+        "serviceErrors": "5",
+        "serveAttempts": "90",
+        "digs": "51",
+        "receptionAttempts": "83",
+        "receptionErrors": "5",
+        "blockSolos": "1",
+        "blockAssists": "20",
+        "blockingErrors": "1",
+        "totalBlocks": "11"
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625265,
+  "title": "WVB Boxscore",
+  "description": "Saint Mary's (CA) vs Pepperdine",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46490",
+      "seoname": "st-marys-ca",
+      "name6Char": "STMARY",
+      "nameFull": "Saint Mary's College of California",
+      "nameShort": "Saint Mary's (CA)",
+      "teamName": "Gaels",
+      "color": "#E51B24"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46240",
+      "seoname": "pepperdine",
+      "name6Char": "PEPPER",
+      "nameFull": "Pepperdine University",
+      "nameShort": "Pepperdine",
+      "teamName": "Waves",
+      "color": "#00205B"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46490,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "93",
+        "kills": "54",
+        "attackErrors": "36",
+        "attackAttempts": "157",
+        "hittingPercentage": "0.115",
+        "assists": "50",
+        "setErrors": "0",
+        "setAttempts": "144",
+        "serviceAces": "5",
+        "serviceErrors": "11",
+        "serveAttempts": "94",
+        "digs": "53",
+        "receptionAttempts": "90",
+        "receptionErrors": "5",
+        "blockSolos": "8",
+        "blockAssists": "4",
+        "blockingErrors": "3",
+        "totalBlocks": "10"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46240,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "103",
+        "kills": "51",
+        "attackErrors": "22",
+        "attackAttempts": "137",
+        "hittingPercentage": "0.212",
+        "assists": "47",
+        "setErrors": "0",
+        "setAttempts": "140",
+        "serviceAces": "5",
+        "serviceErrors": "12",
+        "serveAttempts": "102",
+        "digs": "54",
+        "receptionAttempts": "83",
+        "receptionErrors": "5",
+        "blockSolos": "13",
+        "blockAssists": "4",
+        "blockingErrors": "1",
+        "totalBlocks": "15"
+      }
+    }
+  ]
+}
