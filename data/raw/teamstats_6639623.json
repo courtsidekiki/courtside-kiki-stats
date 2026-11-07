@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6639623,
+  "title": "WVB Boxscore",
+  "description": "Central Ark. vs North Ala.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45955",
+      "seoname": "central-ark",
+      "name6Char": "C ARK",
+      "nameFull": "University of Central Arkansas",
+      "nameShort": "Central Ark.",
+      "teamName": "Bears",
+      "color": "#582C83"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46105",
+      "seoname": "north-ala",
+      "name6Char": "N ALA",
+      "nameFull": "University of North Alabama",
+      "nameShort": "North Ala.",
+      "teamName": "Lions",
+      "color": "#582C83"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45955,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "109",
+        "kills": "68",
+        "attackErrors": "23",
+        "attackAttempts": "168",
+        "hittingPercentage": "0.268",
+        "assists": "56",
+        "setErrors": "1",
+        "setAttempts": "158",
+        "serviceAces": "5",
+        "serviceErrors": "6",
+        "serveAttempts": "109",
+        "digs": "71",
+        "receptionAttempts": "93",
+        "receptionErrors": "5",
+        "blockSolos": "2",
+        "blockAssists": "20",
+        "blockingErrors": "1",
+        "totalBlocks": "12"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46105,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "102",
+        "kills": "67",
+        "attackErrors": "27",
+        "attackAttempts": "174",
+        "hittingPercentage": "0.230",
+        "assists": "62",
+        "setErrors": "0",
+        "setAttempts": "166",
+        "serviceAces": "5",
+        "serviceErrors": "9",
+        "serveAttempts": "102",
+        "digs": "69",
+        "receptionAttempts": "103",
+        "receptionErrors": "5",
+        "blockSolos": "2",
+        "blockAssists": "14",
+        "blockingErrors": "4",
+        "totalBlocks": "9"
+      }
+    }
+  ]
+}

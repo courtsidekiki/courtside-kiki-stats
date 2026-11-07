@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625916,
+  "title": "WVB Boxscore",
+  "description": "Miami (FL) vs Stanford",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46066",
+      "seoname": "miami-fl",
+      "name6Char": "MIAMI",
+      "nameFull": "University of Miami (Florida)",
+      "nameShort": "Miami (FL)",
+      "teamName": "Hurricanes",
+      "color": "#154734"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46501",
+      "seoname": "stanford",
+      "name6Char": "STAN",
+      "nameFull": "Stanford University",
+      "nameShort": "Stanford",
+      "teamName": "Cardinal",
+      "color": "#9D2235"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46066,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "111",
+        "kills": "61",
+        "attackErrors": "31",
+        "attackAttempts": "166",
+        "hittingPercentage": "0.181",
+        "assists": "58",
+        "setErrors": "1",
+        "setAttempts": "166",
+        "serviceAces": "11",
+        "serviceErrors": "7",
+        "serveAttempts": "110",
+        "digs": "66",
+        "receptionAttempts": "93",
+        "receptionErrors": "8",
+        "blockSolos": "1",
+        "blockAssists": "16",
+        "blockingErrors": "1",
+        "totalBlocks": "9"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46501,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "108",
+        "kills": "61",
+        "attackErrors": "22",
+        "attackAttempts": "164",
+        "hittingPercentage": "0.238",
+        "assists": "57",
+        "setErrors": "1",
+        "setAttempts": "160",
+        "serviceAces": "8",
+        "serviceErrors": "16",
+        "serveAttempts": "109",
+        "digs": "61",
+        "receptionAttempts": "103",
+        "receptionErrors": "11",
+        "blockSolos": "3",
+        "blockAssists": "20",
+        "blockingErrors": "6",
+        "totalBlocks": "13"
+      }
+    }
+  ]
+}

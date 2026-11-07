@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627398,
+  "title": "WVB Boxscore",
+  "description": "Georgia Tech vs NC State",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46549",
+      "seoname": "georgia-tech",
+      "name6Char": "GATECH",
+      "nameFull": "Georgia Institute of Technology",
+      "nameShort": "Georgia Tech",
+      "teamName": "Yellow Jackets",
+      "color": "#B3A369"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45846",
+      "seoname": "north-carolina-st",
+      "name6Char": "NC ST",
+      "nameFull": "North Carolina State University",
+      "nameShort": "NC State",
+      "teamName": "Wolfpack",
+      "color": "#C8102E"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46549,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "112",
+        "kills": "63",
+        "attackErrors": "19",
+        "attackAttempts": "161",
+        "hittingPercentage": "0.273",
+        "assists": "60",
+        "setErrors": "1",
+        "setAttempts": "163",
+        "serviceAces": "3",
+        "serviceErrors": "9",
+        "serveAttempts": "112",
+        "digs": "62",
+        "receptionAttempts": "88",
+        "receptionErrors": "7",
+        "blockSolos": "1",
+        "blockAssists": "20",
+        "blockingErrors": "3",
+        "totalBlocks": "11"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45846,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "105",
+        "kills": "69",
+        "attackErrors": "28",
+        "attackAttempts": "168",
+        "hittingPercentage": "0.244",
+        "assists": "66",
+        "setErrors": "1",
+        "setAttempts": "161",
+        "serviceAces": "7",
+        "serviceErrors": "17",
+        "serveAttempts": "105",
+        "digs": "63",
+        "receptionAttempts": "103",
+        "receptionErrors": "3",
+        "blockSolos": "1",
+        "blockAssists": "13",
+        "blockingErrors": "2",
+        "totalBlocks": "7"
+      }
+    }
+  ]
+}

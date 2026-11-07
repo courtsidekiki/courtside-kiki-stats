@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625608,
+  "title": "WVB Boxscore",
+  "description": "Middle Tenn. vs Sam Houston",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46067",
+      "seoname": "middle-tenn",
+      "name6Char": "MIDTEN",
+      "nameFull": "Middle Tennessee State University",
+      "nameShort": "Middle Tenn.",
+      "teamName": "Blue Raiders",
+      "color": "#006FAB"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45863",
+      "seoname": "sam-houston-st",
+      "name6Char": "SAMHOU",
+      "nameFull": "Sam Houston State University",
+      "nameShort": "Sam Houston",
+      "teamName": "Bearkats",
+      "color": "#DF502A"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46067,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "94",
+        "kills": "58",
+        "attackErrors": "17",
+        "attackAttempts": "145",
+        "hittingPercentage": "0.283",
+        "assists": "49",
+        "setErrors": "1",
+        "setAttempts": "144",
+        "serviceAces": "11",
+        "serviceErrors": "5",
+        "serveAttempts": "93",
+        "digs": "54",
+        "receptionAttempts": "67",
+        "receptionErrors": "0",
+        "blockSolos": "1",
+        "blockAssists": "14",
+        "blockingErrors": "2",
+        "totalBlocks": "8"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45863,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "70",
+        "kills": "47",
+        "attackErrors": "19",
+        "attackAttempts": "129",
+        "hittingPercentage": "0.217",
+        "assists": "43",
+        "setErrors": "2",
+        "setAttempts": "134",
+        "serviceAces": "0",
+        "serviceErrors": "4",
+        "serveAttempts": "71",
+        "digs": "57",
+        "receptionAttempts": "88",
+        "receptionErrors": "11",
+        "blockSolos": "2",
+        "blockAssists": "10",
+        "blockingErrors": "3",
+        "totalBlocks": "7"
+      }
+    }
+  ]
+}

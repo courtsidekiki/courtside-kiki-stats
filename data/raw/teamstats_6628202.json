@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628202,
+  "title": "WVB Boxscore",
+  "description": "Florida St. vs California",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46674",
+      "seoname": "florida-st",
+      "name6Char": "FSU",
+      "nameFull": "Florida State University",
+      "nameShort": "Florida St.",
+      "teamName": "Seminoles",
+      "color": "#76253A"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45760",
+      "seoname": "california",
+      "name6Char": "CAL",
+      "nameFull": "University of California, Berkeley",
+      "nameShort": "California",
+      "teamName": "Golden Bears",
+      "color": "#041E42"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46674,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "98",
+        "kills": "56",
+        "attackErrors": "29",
+        "attackAttempts": "162",
+        "hittingPercentage": "0.167",
+        "assists": "53",
+        "setErrors": "0",
+        "setAttempts": "152",
+        "serviceAces": "7",
+        "serviceErrors": "10",
+        "serveAttempts": "98",
+        "digs": "69",
+        "receptionAttempts": "93",
+        "receptionErrors": "7",
+        "blockSolos": "6",
+        "blockAssists": "6",
+        "blockingErrors": "3",
+        "totalBlocks": "9"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45760,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "107",
+        "kills": "61",
+        "attackErrors": "21",
+        "attackAttempts": "165",
+        "hittingPercentage": "0.242",
+        "assists": "46",
+        "setErrors": "0",
+        "setAttempts": "144",
+        "serviceAces": "7",
+        "serviceErrors": "14",
+        "serveAttempts": "107",
+        "digs": "65",
+        "receptionAttempts": "88",
+        "receptionErrors": "7",
+        "blockSolos": "2",
+        "blockAssists": "20",
+        "blockingErrors": "4",
+        "totalBlocks": "12"
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6638159,
+  "title": "WVB Boxscore",
+  "description": "North Florida vs Bellarmine",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46392",
+      "seoname": "north-florida",
+      "name6Char": "NO FLA",
+      "nameFull": "University of North Florida",
+      "nameShort": "North Florida",
+      "teamName": "Ospreys",
+      "color": "#001B49"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46573",
+      "seoname": "bellarmine",
+      "name6Char": "BELLAR",
+      "nameFull": "Bellarmine University",
+      "nameShort": "Bellarmine",
+      "teamName": "Knights",
+      "color": "#772f40"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46392,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "110",
+        "kills": "65",
+        "attackErrors": "17",
+        "attackAttempts": "170",
+        "hittingPercentage": "0.282",
+        "assists": "61",
+        "setErrors": "2",
+        "setAttempts": "168",
+        "serviceAces": "9",
+        "serviceErrors": "10",
+        "serveAttempts": "109",
+        "digs": "95",
+        "receptionAttempts": "76",
+        "receptionErrors": "6",
+        "blockSolos": "2",
+        "blockAssists": "12",
+        "blockingErrors": "3",
+        "totalBlocks": "8"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46573,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "87",
+        "kills": "52",
+        "attackErrors": "22",
+        "attackAttempts": "179",
+        "hittingPercentage": "0.168",
+        "assists": "49",
+        "setErrors": "2",
+        "setAttempts": "168",
+        "serviceAces": "6",
+        "serviceErrors": "12",
+        "serveAttempts": "88",
+        "digs": "79",
+        "receptionAttempts": "99",
+        "receptionErrors": "9",
+        "blockSolos": "3",
+        "blockAssists": "4",
+        "blockingErrors": "2",
+        "totalBlocks": "5"
+      }
+    }
+  ]
+}

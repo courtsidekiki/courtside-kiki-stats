@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624797,
+  "title": "WVB Boxscore",
+  "description": "Youngstown St. vs Oakland",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46583",
+      "seoname": "youngstown-st",
+      "name6Char": "YSU",
+      "nameFull": "Youngstown State University",
+      "nameShort": "Youngstown St.",
+      "teamName": "Penguins",
+      "color": "#C8102E"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46108",
+      "seoname": "oakland",
+      "name6Char": "OAK",
+      "nameFull": "Oakland University",
+      "nameShort": "Oakland",
+      "teamName": "Golden Grizzlies",
+      "color": "#010101"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46583,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "95",
+        "kills": "49",
+        "attackErrors": "21",
+        "attackAttempts": "136",
+        "hittingPercentage": "0.206",
+        "assists": "49",
+        "setErrors": "1",
+        "setAttempts": "134",
+        "serviceAces": "6",
+        "serviceErrors": "6",
+        "serveAttempts": "94",
+        "digs": "64",
+        "receptionAttempts": "75",
+        "receptionErrors": "3",
+        "blockSolos": "4",
+        "blockAssists": "20",
+        "blockingErrors": "3",
+        "totalBlocks": "14"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46108,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "84",
+        "kills": "53",
+        "attackErrors": "30",
+        "attackAttempts": "159",
+        "hittingPercentage": "0.145",
+        "assists": "51",
+        "setErrors": "0",
+        "setAttempts": "152",
+        "serviceAces": "3",
+        "serviceErrors": "10",
+        "serveAttempts": "85",
+        "digs": "57",
+        "receptionAttempts": "88",
+        "receptionErrors": "6",
+        "blockSolos": "3",
+        "blockAssists": "12",
+        "blockingErrors": "0",
+        "totalBlocks": "9"
+      }
+    }
+  ]
+}

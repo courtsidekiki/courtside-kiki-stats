@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624983,
+  "title": "WVB Boxscore",
+  "description": "UNCW vs Col. of Charleston",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46473",
+      "seoname": "unc-wilmington",
+      "name6Char": "UNCW",
+      "nameFull": "University of North Carolina Wilmington",
+      "nameShort": "UNCW",
+      "teamName": "Seahawks",
+      "color": "#00685E"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46585",
+      "seoname": "col-of-charleston",
+      "name6Char": "C OF C",
+      "nameFull": "College of Charleston (South Carolina)",
+      "nameShort": "Col. of Charleston",
+      "teamName": "Cougars",
+      "color": "#76232F"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46473,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "101",
+        "kills": "55",
+        "attackErrors": "25",
+        "attackAttempts": "145",
+        "hittingPercentage": "0.207",
+        "assists": "49",
+        "setErrors": "2",
+        "setAttempts": "141",
+        "serviceAces": "4",
+        "serviceErrors": "18",
+        "serveAttempts": "102",
+        "digs": "60",
+        "receptionAttempts": "97",
+        "receptionErrors": "7",
+        "blockSolos": "3",
+        "blockAssists": "10",
+        "blockingErrors": "0",
+        "totalBlocks": "8"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46585,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "109",
+        "kills": "56",
+        "attackErrors": "28",
+        "attackAttempts": "160",
+        "hittingPercentage": "0.175",
+        "assists": "47",
+        "setErrors": "3",
+        "setAttempts": "151",
+        "serviceAces": "7",
+        "serviceErrors": "11",
+        "serveAttempts": "108",
+        "digs": "59",
+        "receptionAttempts": "84",
+        "receptionErrors": "4",
+        "blockSolos": "5",
+        "blockAssists": "14",
+        "blockingErrors": "0",
+        "totalBlocks": "12"
+      }
+    }
+  ]
+}

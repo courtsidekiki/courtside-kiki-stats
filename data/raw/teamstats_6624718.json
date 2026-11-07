@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624718,
+  "title": "WVB Boxscore",
+  "description": "N.C. Central vs Howard",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45845",
+      "seoname": "nc-central",
+      "name6Char": "NC CEN",
+      "nameFull": "North Carolina Central University",
+      "nameShort": "N.C. Central",
+      "teamName": "Eagles",
+      "color": "#862633"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45779",
+      "seoname": "howard",
+      "name6Char": "HOWARD",
+      "nameFull": "Howard University",
+      "nameShort": "Howard",
+      "teamName": "Bison",
+      "color": "#00263E"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45845,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "112",
+        "kills": "48",
+        "attackErrors": "26",
+        "attackAttempts": "155",
+        "hittingPercentage": "0.142",
+        "assists": "42",
+        "setErrors": "0",
+        "setAttempts": "150",
+        "serviceAces": "18",
+        "serviceErrors": "16",
+        "serveAttempts": "113",
+        "digs": "52",
+        "receptionAttempts": "98",
+        "receptionErrors": "7",
+        "blockSolos": "7",
+        "blockAssists": "12",
+        "blockingErrors": "0",
+        "totalBlocks": "13"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45779,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "110",
+        "kills": "61",
+        "attackErrors": "34",
+        "attackAttempts": "150",
+        "hittingPercentage": "0.180",
+        "assists": "59",
+        "setErrors": "1",
+        "setAttempts": "149",
+        "serviceAces": "7",
+        "serviceErrors": "11",
+        "serveAttempts": "109",
+        "digs": "74",
+        "receptionAttempts": "97",
+        "receptionErrors": "18",
+        "blockSolos": "7",
+        "blockAssists": "10",
+        "blockingErrors": "1",
+        "totalBlocks": "12"
+      }
+    }
+  ]
+}

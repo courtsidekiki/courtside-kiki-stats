@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627260,
+  "title": "WVB Boxscore",
+  "description": "Duquesne vs George Washington",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46297",
+      "seoname": "duquesne",
+      "name6Char": "DUQSNE",
+      "nameFull": "Duquesne University",
+      "nameShort": "Duquesne",
+      "teamName": "Dukes",
+      "color": "#BA0C2F"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46548",
+      "seoname": "george-washington",
+      "name6Char": "G WASH",
+      "nameFull": "George Washington University",
+      "nameShort": "George Washington",
+      "teamName": "Revolutionaries",
+      "color": "#041E42"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46297,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "106",
+        "kills": "72",
+        "attackErrors": "30",
+        "attackAttempts": "186",
+        "hittingPercentage": "0.226",
+        "assists": "70",
+        "setErrors": "0",
+        "setAttempts": "181",
+        "serviceAces": "6",
+        "serviceErrors": "5",
+        "serveAttempts": "106",
+        "digs": "79",
+        "receptionAttempts": "102",
+        "receptionErrors": "5",
+        "blockSolos": "3",
+        "blockAssists": "10",
+        "blockingErrors": "5",
+        "totalBlocks": "8"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46548,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "108",
+        "kills": "68",
+        "attackErrors": "19",
+        "attackAttempts": "176",
+        "hittingPercentage": "0.278",
+        "assists": "63",
+        "setErrors": "2",
+        "setAttempts": "173",
+        "serviceAces": "5",
+        "serviceErrors": "6",
+        "serveAttempts": "108",
+        "digs": "77",
+        "receptionAttempts": "101",
+        "receptionErrors": "6",
+        "blockSolos": "9",
+        "blockAssists": "14",
+        "blockingErrors": "3",
+        "totalBlocks": "16"
+      }
+    }
+  ]
+}

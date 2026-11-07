@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628635,
+  "title": "WVB Boxscore",
+  "description": "Queens (NC) vs Stetson",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46656",
+      "seoname": "queens-nc",
+      "name6Char": "QUENNC",
+      "nameFull": "Queens University of Charlotte",
+      "nameShort": "Queens (NC)",
+      "teamName": "Royals",
+      "color": "#0D2D6C"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46502",
+      "seoname": "stetson",
+      "name6Char": "STETSN",
+      "nameFull": "Stetson University",
+      "nameShort": "Stetson",
+      "teamName": "Hatters",
+      "color": "#006747"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46656,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "51",
+        "attackErrors": "12",
+        "attackAttempts": "131",
+        "hittingPercentage": "0.298",
+        "assists": "43",
+        "setErrors": "2",
+        "setAttempts": "130",
+        "serviceAces": "5",
+        "serviceErrors": "3",
+        "serveAttempts": "73",
+        "digs": "66",
+        "receptionAttempts": "55",
+        "receptionErrors": "4",
+        "blockSolos": "3",
+        "blockAssists": "8",
+        "blockingErrors": "2",
+        "totalBlocks": "7"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46502,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "58",
+        "kills": "36",
+        "attackErrors": "13",
+        "attackAttempts": "123",
+        "hittingPercentage": "0.187",
+        "assists": "34",
+        "setErrors": "1",
+        "setAttempts": "127",
+        "serviceAces": "4",
+        "serviceErrors": "5",
+        "serveAttempts": "60",
+        "digs": "59",
+        "receptionAttempts": "70",
+        "receptionErrors": "5",
+        "blockSolos": "5",
+        "blockAssists": "4",
+        "blockingErrors": "2",
+        "totalBlocks": "7"
+      }
+    }
+  ]
+}

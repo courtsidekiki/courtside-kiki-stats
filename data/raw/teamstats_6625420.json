@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625420,
+  "title": "WVB Boxscore",
+  "description": "James Madison vs Old Dominion",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45785",
+      "seoname": "james-madison",
+      "name6Char": "JMU",
+      "nameFull": "James Madison University",
+      "nameShort": "James Madison",
+      "teamName": "Dukes",
+      "color": "#330072"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "1387136",
+      "seoname": "old-dominion",
+      "name6Char": "ODU",
+      "nameFull": "Old Dominion University",
+      "nameShort": "Old Dominion",
+      "teamName": "Monarchs",
+      "color": "#0B4071"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45785,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "89",
+        "kills": "47",
+        "attackErrors": "26",
+        "attackAttempts": "146",
+        "hittingPercentage": "0.144",
+        "assists": "42",
+        "setErrors": "0",
+        "setAttempts": "145",
+        "serviceAces": "5",
+        "serviceErrors": "9",
+        "serveAttempts": "90",
+        "digs": "65",
+        "receptionAttempts": "81",
+        "receptionErrors": "10",
+        "blockSolos": "6",
+        "blockAssists": "12",
+        "blockingErrors": "0",
+        "totalBlocks": "12"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 1387136,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "92",
+        "kills": "47",
+        "attackErrors": "27",
+        "attackAttempts": "144",
+        "hittingPercentage": "0.139",
+        "assists": "37",
+        "setErrors": "0",
+        "setAttempts": "137",
+        "serviceAces": "10",
+        "serviceErrors": "10",
+        "serveAttempts": "91",
+        "digs": "65",
+        "receptionAttempts": "81",
+        "receptionErrors": "5",
+        "blockSolos": "2",
+        "blockAssists": "18",
+        "blockingErrors": "0",
+        "totalBlocks": "11"
+      }
+    }
+  ]
+}

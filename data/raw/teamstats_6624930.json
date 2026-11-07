@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624930,
+  "title": "WVB Boxscore",
+  "description": "Buffalo vs Ball St.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46444",
+      "seoname": "buffalo",
+      "name6Char": "BUFF",
+      "nameFull": "University at Buffalo, the State University of New York",
+      "nameShort": "Buffalo",
+      "teamName": "Bulls",
+      "color": "#0057B8"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46572",
+      "seoname": "ball-st",
+      "name6Char": "BALLST",
+      "nameFull": "Ball State University",
+      "nameShort": "Ball St.",
+      "teamName": "Cardinals",
+      "color": "#BA0C2F"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46444,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "59",
+        "kills": "37",
+        "attackErrors": "16",
+        "attackAttempts": "111",
+        "hittingPercentage": "0.189",
+        "assists": "37",
+        "setErrors": "2",
+        "setAttempts": "113",
+        "serviceAces": "1",
+        "serviceErrors": "9",
+        "serveAttempts": "61",
+        "digs": "44",
+        "receptionAttempts": "69",
+        "receptionErrors": "5",
+        "blockSolos": "8",
+        "blockAssists": "4",
+        "blockingErrors": "0",
+        "totalBlocks": "10"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46572,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "42",
+        "attackErrors": "17",
+        "attackAttempts": "110",
+        "hittingPercentage": "0.227",
+        "assists": "40",
+        "setErrors": "0",
+        "setAttempts": "114",
+        "serviceAces": "5",
+        "serviceErrors": "4",
+        "serveAttempts": "73",
+        "digs": "52",
+        "receptionAttempts": "52",
+        "receptionErrors": "1",
+        "blockSolos": "4",
+        "blockAssists": "0",
+        "blockingErrors": "1",
+        "totalBlocks": "4"
+      }
+    }
+  ]
+}

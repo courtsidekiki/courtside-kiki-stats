@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624906,
+  "title": "WVB Boxscore",
+  "description": "Delaware vs FIU",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46667",
+      "seoname": "delaware",
+      "name6Char": "DEL",
+      "nameFull": "University of Delaware",
+      "nameShort": "Delaware",
+      "teamName": "Blue Hens",
+      "color": "#006095"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46546",
+      "seoname": "fiu",
+      "name6Char": "FIU",
+      "nameFull": "Florida International University",
+      "nameShort": "FIU",
+      "teamName": "Panthers",
+      "color": "#091F3F"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46667,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "77",
+        "kills": "43",
+        "attackErrors": "30",
+        "attackAttempts": "139",
+        "hittingPercentage": "0.094",
+        "assists": "38",
+        "setErrors": "0",
+        "setAttempts": "138",
+        "serviceAces": "4",
+        "serviceErrors": "8",
+        "serveAttempts": "78",
+        "digs": "64",
+        "receptionAttempts": "85",
+        "receptionErrors": "12",
+        "blockSolos": "0",
+        "blockAssists": "10",
+        "blockingErrors": "0",
+        "totalBlocks": "5"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46546,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "92",
+        "kills": "42",
+        "attackErrors": "23",
+        "attackAttempts": "135",
+        "hittingPercentage": "0.141",
+        "assists": "39",
+        "setErrors": "1",
+        "setAttempts": "135",
+        "serviceAces": "12",
+        "serviceErrors": "6",
+        "serveAttempts": "91",
+        "digs": "56",
+        "receptionAttempts": "70",
+        "receptionErrors": "4",
+        "blockSolos": "1",
+        "blockAssists": "18",
+        "blockingErrors": "0",
+        "totalBlocks": "10"
+      }
+    }
+  ]
+}

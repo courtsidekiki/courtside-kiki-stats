@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6639610,
+  "title": "WVB Boxscore",
+  "description": "Prairie View vs Bethune-Cookman",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46734",
+      "seoname": "prairie-view",
+      "name6Char": "PV A&M",
+      "nameFull": "Prairie View A&M University",
+      "nameShort": "Prairie View",
+      "teamName": "Lady Panthers",
+      "color": "#582C83"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46699",
+      "seoname": "bethune-cookman",
+      "name6Char": "BECOOK",
+      "nameFull": "Bethune-Cookman University",
+      "nameShort": "Bethune-Cookman",
+      "teamName": "Wildcats",
+      "color": "#6F263D"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46734,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "106",
+        "kills": "58",
+        "attackErrors": "37",
+        "attackAttempts": "187",
+        "hittingPercentage": "0.112",
+        "assists": "57",
+        "setErrors": "2",
+        "setAttempts": "189",
+        "serviceAces": "10",
+        "serviceErrors": "9",
+        "serveAttempts": "105",
+        "digs": "79",
+        "receptionAttempts": "96",
+        "receptionErrors": "5",
+        "blockSolos": "4",
+        "blockAssists": "14",
+        "blockingErrors": "1",
+        "totalBlocks": "11"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46699,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "101",
+        "kills": "48",
+        "attackErrors": "27",
+        "attackAttempts": "173",
+        "hittingPercentage": "0.121",
+        "assists": "47",
+        "setErrors": "3",
+        "setAttempts": "182",
+        "serviceAces": "5",
+        "serviceErrors": "6",
+        "serveAttempts": "102",
+        "digs": "78",
+        "receptionAttempts": "96",
+        "receptionErrors": "10",
+        "blockSolos": "3",
+        "blockAssists": "12",
+        "blockingErrors": "2",
+        "totalBlocks": "9"
+      }
+    }
+  ]
+}

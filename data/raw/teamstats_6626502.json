@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626502,
+  "title": "WVB Boxscore",
+  "description": "Saint Louis vs Davidson",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46744",
+      "seoname": "saint-louis",
+      "name6Char": "ST LOU",
+      "nameFull": "Saint Louis University",
+      "nameShort": "Saint Louis",
+      "teamName": "Billikens",
+      "color": "#003DA5"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46174",
+      "seoname": "davidson",
+      "name6Char": "DAVID",
+      "nameFull": "Davidson College",
+      "nameShort": "Davidson",
+      "teamName": "Wildcats",
+      "color": "#C8102E"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46744,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "103",
+        "kills": "65",
+        "attackErrors": "26",
+        "attackAttempts": "169",
+        "hittingPercentage": "0.231",
+        "assists": "62",
+        "setErrors": "0",
+        "setAttempts": "157",
+        "serviceAces": "2",
+        "serviceErrors": "5",
+        "serveAttempts": "103",
+        "digs": "86",
+        "receptionAttempts": "88",
+        "receptionErrors": "9",
+        "blockSolos": "0",
+        "blockAssists": "12",
+        "blockingErrors": "2",
+        "totalBlocks": "6"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46174,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "101",
+        "kills": "61",
+        "attackErrors": "23",
+        "attackAttempts": "181",
+        "hittingPercentage": "0.210",
+        "assists": "55",
+        "setErrors": "0",
+        "setAttempts": "179",
+        "serviceAces": "9",
+        "serviceErrors": "13",
+        "serveAttempts": "101",
+        "digs": "71",
+        "receptionAttempts": "98",
+        "receptionErrors": "2",
+        "blockSolos": "0",
+        "blockAssists": "16",
+        "blockingErrors": "2",
+        "totalBlocks": "8"
+      }
+    }
+  ]
+}

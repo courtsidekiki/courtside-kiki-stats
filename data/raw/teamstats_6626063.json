@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626063,
+  "title": "WVB Boxscore",
+  "description": "Niagara vs Marist",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46476",
+      "seoname": "niagara",
+      "name6Char": "NIAGRA",
+      "nameFull": "Niagara University",
+      "nameShort": "Niagara",
+      "teamName": "Purple Eagles",
+      "color": "#582C83"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46561",
+      "seoname": "marist",
+      "name6Char": "MARIST",
+      "nameFull": "Marist University",
+      "nameShort": "Marist",
+      "teamName": "Red Foxes",
+      "color": "#C8102E"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46476,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "73",
+        "kills": "40",
+        "attackErrors": "22",
+        "attackAttempts": "141",
+        "hittingPercentage": "0.128",
+        "assists": "37",
+        "setErrors": "2",
+        "setAttempts": "139",
+        "serviceAces": "8",
+        "serviceErrors": "6",
+        "serveAttempts": "74",
+        "digs": "57",
+        "receptionAttempts": "89",
+        "receptionErrors": "11",
+        "blockSolos": "3",
+        "blockAssists": "6",
+        "blockingErrors": "2",
+        "totalBlocks": "6"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46561,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "99",
+        "kills": "55",
+        "attackErrors": "14",
+        "attackAttempts": "135",
+        "hittingPercentage": "0.304",
+        "assists": "52",
+        "setErrors": "2",
+        "setAttempts": "125",
+        "serviceAces": "11",
+        "serviceErrors": "9",
+        "serveAttempts": "98",
+        "digs": "68",
+        "receptionAttempts": "68",
+        "receptionErrors": "8",
+        "blockSolos": "0",
+        "blockAssists": "10",
+        "blockingErrors": "0",
+        "totalBlocks": "5"
+      }
+    }
+  ]
+}

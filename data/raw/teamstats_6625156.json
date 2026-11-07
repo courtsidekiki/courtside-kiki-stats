@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625156,
+  "title": "WVB Boxscore",
+  "description": "Penn vs Harvard",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46615",
+      "seoname": "penn",
+      "name6Char": "PENN",
+      "nameFull": "University of Pennsylvania",
+      "nameShort": "Penn",
+      "teamName": "Quakers",
+      "color": "#002D72"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46307",
+      "seoname": "harvard",
+      "name6Char": "HARV",
+      "nameFull": "Harvard University",
+      "nameShort": "Harvard",
+      "teamName": "Crimson",
+      "color": "#912235"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46615,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "98",
+        "kills": "51",
+        "attackErrors": "29",
+        "attackAttempts": "165",
+        "hittingPercentage": "0.133",
+        "assists": "47",
+        "setErrors": "2",
+        "setAttempts": "168",
+        "serviceAces": "7",
+        "serviceErrors": "8",
+        "serveAttempts": "97",
+        "digs": "80",
+        "receptionAttempts": "98",
+        "receptionErrors": "5",
+        "blockSolos": "1",
+        "blockAssists": "20",
+        "blockingErrors": "2",
+        "totalBlocks": "11"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46307,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "107",
+        "kills": "63",
+        "attackErrors": "30",
+        "attackAttempts": "187",
+        "hittingPercentage": "0.176",
+        "assists": "54",
+        "setErrors": "0",
+        "setAttempts": "178",
+        "serviceAces": "5",
+        "serviceErrors": "10",
+        "serveAttempts": "108",
+        "digs": "76",
+        "receptionAttempts": "89",
+        "receptionErrors": "7",
+        "blockSolos": "2",
+        "blockAssists": "24",
+        "blockingErrors": "1",
+        "totalBlocks": "14"
+      }
+    }
+  ]
+}

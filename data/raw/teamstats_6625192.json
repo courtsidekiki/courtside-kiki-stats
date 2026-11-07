@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625192,
+  "title": "WVB Boxscore",
+  "description": "UNC Greensboro vs Samford",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46472",
+      "seoname": "unc-greensboro",
+      "name6Char": "UNC G",
+      "nameFull": "The University of North Carolina at Greensboro",
+      "nameShort": "UNC Greensboro",
+      "teamName": "Spartans",
+      "color": "#13294B"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45864",
+      "seoname": "samford",
+      "name6Char": "SAMFRD",
+      "nameFull": "Samford University",
+      "nameShort": "Samford",
+      "teamName": "Bulldogs",
+      "color": "#0C2340"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46472,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "94",
+        "kills": "61",
+        "attackErrors": "25",
+        "attackAttempts": "139",
+        "hittingPercentage": "0.259",
+        "assists": "58",
+        "setErrors": "0",
+        "setAttempts": "143",
+        "serviceAces": "7",
+        "serviceErrors": "5",
+        "serveAttempts": "93",
+        "digs": "65",
+        "receptionAttempts": "82",
+        "receptionErrors": "8",
+        "blockSolos": "0",
+        "blockAssists": "27",
+        "blockingErrors": "3",
+        "totalBlocks": "13"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45864,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "86",
+        "kills": "48",
+        "attackErrors": "19",
+        "attackAttempts": "140",
+        "hittingPercentage": "0.207",
+        "assists": "48",
+        "setErrors": "2",
+        "setAttempts": "143",
+        "serviceAces": "8",
+        "serviceErrors": "5",
+        "serveAttempts": "87",
+        "digs": "47",
+        "receptionAttempts": "88",
+        "receptionErrors": "7",
+        "blockSolos": "2",
+        "blockAssists": "18",
+        "blockingErrors": "0",
+        "totalBlocks": "11"
+      }
+    }
+  ]
+}

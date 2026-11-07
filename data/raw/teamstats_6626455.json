@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626455,
+  "title": "WVB Boxscore",
+  "description": "Indiana St. vs Valparaiso",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46681",
+      "seoname": "indiana-st",
+      "name6Char": "IND ST",
+      "nameFull": "Indiana State University",
+      "nameShort": "Indiana St.",
+      "teamName": "Sycamores",
+      "color": "#1E437B"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46757",
+      "seoname": "valparaiso",
+      "name6Char": "VALPO",
+      "nameFull": "Valparaiso University",
+      "nameShort": "Valparaiso",
+      "teamName": "Beacons",
+      "color": "#693F23"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46681,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "108",
+        "kills": "61",
+        "attackErrors": "32",
+        "attackAttempts": "175",
+        "hittingPercentage": "0.166",
+        "assists": "59",
+        "setErrors": "4",
+        "setAttempts": "181",
+        "serviceAces": "15",
+        "serviceErrors": "19",
+        "serveAttempts": "108",
+        "digs": "75",
+        "receptionAttempts": "97",
+        "receptionErrors": "3",
+        "blockSolos": "0",
+        "blockAssists": "12",
+        "blockingErrors": "0",
+        "totalBlocks": "6"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46757,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "107",
+        "kills": "49",
+        "attackErrors": "21",
+        "attackAttempts": "162",
+        "hittingPercentage": "0.173",
+        "assists": "49",
+        "setErrors": "1",
+        "setAttempts": "170",
+        "serviceAces": "3",
+        "serviceErrors": "10",
+        "serveAttempts": "107",
+        "digs": "71",
+        "receptionAttempts": "89",
+        "receptionErrors": "15",
+        "blockSolos": "2",
+        "blockAssists": "14",
+        "blockingErrors": "2",
+        "totalBlocks": "9"
+      }
+    }
+  ]
+}
