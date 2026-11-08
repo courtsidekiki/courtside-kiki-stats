@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627825,
+  "title": "WVB Boxscore",
+  "description": "Campbell vs Stony Brook",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46162",
+      "seoname": "campbell",
+      "name6Char": "CAMPBL",
+      "nameFull": "Campbell University",
+      "nameShort": "Campbell",
+      "teamName": "Camels",
+      "color": "#FF4713"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46753",
+      "seoname": "stony-brook",
+      "name6Char": "STONY",
+      "nameFull": "Stony Brook University",
+      "nameShort": "Stony Brook",
+      "teamName": "Seawolves",
+      "color": "#A6192E"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46162,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "108",
+        "kills": "68",
+        "attackErrors": "35",
+        "attackAttempts": "185",
+        "hittingPercentage": "0.178",
+        "assists": "66",
+        "setErrors": "0",
+        "setAttempts": "189",
+        "serviceAces": "5",
+        "serviceErrors": "14",
+        "serveAttempts": "107",
+        "digs": "80",
+        "receptionAttempts": "96",
+        "receptionErrors": "7",
+        "blockSolos": "1",
+        "blockAssists": "8",
+        "blockingErrors": "1",
+        "totalBlocks": "5"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46753,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "106",
+        "kills": "50",
+        "attackErrors": "21",
+        "attackAttempts": "168",
+        "hittingPercentage": "0.173",
+        "assists": "47",
+        "setErrors": "3",
+        "setAttempts": "178",
+        "serviceAces": "7",
+        "serviceErrors": "11",
+        "serveAttempts": "107",
+        "digs": "73",
+        "receptionAttempts": "93",
+        "receptionErrors": "5",
+        "blockSolos": "1",
+        "blockAssists": "14",
+        "blockingErrors": "1",
+        "totalBlocks": "8"
+      }
+    }
+  ]
+}

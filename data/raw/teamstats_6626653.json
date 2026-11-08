@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626653,
+  "title": "WVB Boxscore",
+  "description": "Western Mich. vs Bowling Green",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45950",
+      "seoname": "western-mich",
+      "name6Char": "W MICH",
+      "nameFull": "Western Michigan University",
+      "nameShort": "Western Mich.",
+      "teamName": "Broncos",
+      "color": "#511B00"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46217",
+      "seoname": "bowling-green",
+      "name6Char": "BGSU",
+      "nameFull": "Bowling Green State University",
+      "nameShort": "Bowling Green",
+      "teamName": "Falcons",
+      "color": "#FE5000"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45950,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "93",
+        "kills": "56",
+        "attackErrors": "13",
+        "attackAttempts": "149",
+        "hittingPercentage": "0.289",
+        "assists": "54",
+        "setErrors": "1",
+        "setAttempts": "143",
+        "serviceAces": "2",
+        "serviceErrors": "11",
+        "serveAttempts": "92",
+        "digs": "64",
+        "receptionAttempts": "76",
+        "receptionErrors": "4",
+        "blockSolos": "3",
+        "blockAssists": "22",
+        "blockingErrors": "0",
+        "totalBlocks": "14"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46217,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "78",
+        "kills": "49",
+        "attackErrors": "31",
+        "attackAttempts": "155",
+        "hittingPercentage": "0.116",
+        "assists": "45",
+        "setErrors": "1",
+        "setAttempts": "148",
+        "serviceAces": "4",
+        "serviceErrors": "3",
+        "serveAttempts": "79",
+        "digs": "66",
+        "receptionAttempts": "81",
+        "receptionErrors": "2",
+        "blockSolos": "3",
+        "blockAssists": "10",
+        "blockingErrors": "1",
+        "totalBlocks": "8"
+      }
+    }
+  ]
+}

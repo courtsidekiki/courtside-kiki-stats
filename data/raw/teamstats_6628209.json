@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628209,
+  "title": "WVB Boxscore",
+  "description": "San Francisco vs Seattle U",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46247",
+      "seoname": "san-francisco",
+      "name6Char": "S FRAN",
+      "nameFull": "University of San Francisco",
+      "nameShort": "San Francisco",
+      "teamName": "Dons",
+      "color": "#205C40"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46096",
+      "seoname": "seattle",
+      "name6Char": "SEATTL",
+      "nameFull": "Seattle University",
+      "nameShort": "Seattle U",
+      "teamName": "Redhawks",
+      "color": "#BA0C2F"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46247,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "122",
+        "kills": "70",
+        "attackErrors": "26",
+        "attackAttempts": "182",
+        "hittingPercentage": "0.242",
+        "assists": "62",
+        "setErrors": "0",
+        "setAttempts": "181",
+        "serviceAces": "10",
+        "serviceErrors": "16",
+        "serveAttempts": "121",
+        "digs": "87",
+        "receptionAttempts": "101",
+        "receptionErrors": "8",
+        "blockSolos": "1",
+        "blockAssists": "14",
+        "blockingErrors": "3",
+        "totalBlocks": "8"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46096,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "111",
+        "kills": "60",
+        "attackErrors": "25",
+        "attackAttempts": "185",
+        "hittingPercentage": "0.189",
+        "assists": "59",
+        "setErrors": "5",
+        "setAttempts": "192",
+        "serviceAces": "8",
+        "serviceErrors": "11",
+        "serveAttempts": "112",
+        "digs": "78",
+        "receptionAttempts": "105",
+        "receptionErrors": "10",
+        "blockSolos": "0",
+        "blockAssists": "28",
+        "blockingErrors": "2",
+        "totalBlocks": "14"
+      }
+    }
+  ]
+}

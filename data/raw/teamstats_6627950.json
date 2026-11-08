@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627950,
+  "title": "WVB Boxscore",
+  "description": "Central Conn. St. vs Le Moyne",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46039",
+      "seoname": "central-conn-st",
+      "name6Char": "C CONN",
+      "nameFull": "Central Connecticut State University",
+      "nameShort": "Central Conn. St.",
+      "teamName": "Blue Devils",
+      "color": "#003087"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46684",
+      "seoname": "le-moyne",
+      "name6Char": "LEMOYN",
+      "nameFull": "Le Moyne College",
+      "nameShort": "Le Moyne",
+      "teamName": "Dolphins",
+      "color": "#154734"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46039,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "40",
+        "attackErrors": "14",
+        "attackAttempts": "93",
+        "hittingPercentage": "0.280",
+        "assists": "37",
+        "setErrors": "1",
+        "setAttempts": "95",
+        "serviceAces": "9",
+        "serviceErrors": "15",
+        "serveAttempts": "73",
+        "digs": "47",
+        "receptionAttempts": "45",
+        "receptionErrors": "4",
+        "blockSolos": "1",
+        "blockAssists": "10",
+        "blockingErrors": "0",
+        "totalBlocks": "6"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46684,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "50",
+        "kills": "16",
+        "attackErrors": "17",
+        "attackAttempts": "83",
+        "hittingPercentage": "-0.012",
+        "assists": "14",
+        "setErrors": "2",
+        "setAttempts": "83",
+        "serviceAces": "4",
+        "serviceErrors": "7",
+        "serveAttempts": "52",
+        "digs": "35",
+        "receptionAttempts": "58",
+        "receptionErrors": "9",
+        "blockSolos": "1",
+        "blockAssists": "4",
+        "blockingErrors": "1",
+        "totalBlocks": "3"
+      }
+    }
+  ]
+}

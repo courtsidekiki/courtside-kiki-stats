@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625708,
+  "title": "WVB Boxscore",
+  "description": "Charleston So. vs USC Upstate",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46074",
+      "seoname": "charleston-so",
+      "name6Char": "CHARSO",
+      "nameFull": "Charleston Southern University",
+      "nameShort": "Charleston So.",
+      "teamName": "Buccaneers",
+      "color": "#15233C"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45891",
+      "seoname": "usc-upstate",
+      "name6Char": "SC UPS",
+      "nameFull": "University of South Carolina Upstate",
+      "nameShort": "USC Upstate",
+      "teamName": "Spartans",
+      "color": "#008445"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46074,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "109",
+        "kills": "68",
+        "attackErrors": "36",
+        "attackAttempts": "218",
+        "hittingPercentage": "0.147",
+        "assists": "65",
+        "setErrors": "3",
+        "setAttempts": "219",
+        "serviceAces": "4",
+        "serviceErrors": "13",
+        "serveAttempts": "109",
+        "digs": "107",
+        "receptionAttempts": "98",
+        "receptionErrors": "7",
+        "blockSolos": "5",
+        "blockAssists": "4",
+        "blockingErrors": "0",
+        "totalBlocks": "7"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45891,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "110",
+        "kills": "51",
+        "attackErrors": "25",
+        "attackAttempts": "196",
+        "hittingPercentage": "0.133",
+        "assists": "49",
+        "setErrors": "0",
+        "setAttempts": "198",
+        "serviceAces": "7",
+        "serviceErrors": "12",
+        "serveAttempts": "110",
+        "digs": "98",
+        "receptionAttempts": "96",
+        "receptionErrors": "4",
+        "blockSolos": "7",
+        "blockAssists": "0",
+        "blockingErrors": "0",
+        "totalBlocks": "7"
+      }
+    }
+  ]
+}

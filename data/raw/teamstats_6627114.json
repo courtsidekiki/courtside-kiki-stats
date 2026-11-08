@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627114,
+  "title": "WVB Boxscore",
+  "description": "Bradley vs UIC",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46700",
+      "seoname": "bradley",
+      "name6Char": "BRAD",
+      "nameFull": "Bradley University",
+      "nameShort": "Bradley",
+      "teamName": "Braves",
+      "color": "#A21B21"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45916",
+      "seoname": "ill-chicago",
+      "name6Char": "UIC",
+      "nameFull": "University of Illinois Chicago",
+      "nameShort": "UIC",
+      "teamName": "Flames",
+      "color": "#DB0032"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46700,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "92",
+        "kills": "54",
+        "attackErrors": "22",
+        "attackAttempts": "161",
+        "hittingPercentage": "0.199",
+        "assists": "50",
+        "setErrors": "3",
+        "setAttempts": "161",
+        "serviceAces": "11",
+        "serviceErrors": "6",
+        "serveAttempts": "91",
+        "digs": "65",
+        "receptionAttempts": "80",
+        "receptionErrors": "3",
+        "blockSolos": "3",
+        "blockAssists": "16",
+        "blockingErrors": "0",
+        "totalBlocks": "11"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45916,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "84",
+        "kills": "50",
+        "attackErrors": "21",
+        "attackAttempts": "152",
+        "hittingPercentage": "0.191",
+        "assists": "47",
+        "setErrors": "1",
+        "setAttempts": "155",
+        "serviceAces": "3",
+        "serviceErrors": "5",
+        "serveAttempts": "85",
+        "digs": "68",
+        "receptionAttempts": "85",
+        "receptionErrors": "11",
+        "blockSolos": "0",
+        "blockAssists": "12",
+        "blockingErrors": "0",
+        "totalBlocks": "6"
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627062,
+  "title": "WVB Boxscore",
+  "description": "Tarleton St. vs Little Rock",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46097",
+      "seoname": "tarleton-st",
+      "name6Char": "TARLET",
+      "nameFull": "Tarleton State University",
+      "nameShort": "Tarleton St.",
+      "teamName": "Texans",
+      "color": "#582C83"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45805",
+      "seoname": "ualr",
+      "name6Char": "UALR",
+      "nameFull": "University of Arkansas at Little Rock",
+      "nameShort": "Little Rock",
+      "teamName": "Trojans",
+      "color": "#6F263D"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46097,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "83",
+        "kills": "48",
+        "attackErrors": "24",
+        "attackAttempts": "151",
+        "hittingPercentage": "0.159",
+        "assists": "44",
+        "setErrors": "3",
+        "setAttempts": "156",
+        "serviceAces": "6",
+        "serviceErrors": "3",
+        "serveAttempts": "84",
+        "digs": "75",
+        "receptionAttempts": "85",
+        "receptionErrors": "10",
+        "blockSolos": "0",
+        "blockAssists": "8",
+        "blockingErrors": "3",
+        "totalBlocks": "4"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45805,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "92",
+        "kills": "52",
+        "attackErrors": "21",
+        "attackAttempts": "155",
+        "hittingPercentage": "0.200",
+        "assists": "46",
+        "setErrors": "2",
+        "setAttempts": "142",
+        "serviceAces": "10",
+        "serviceErrors": "6",
+        "serveAttempts": "91",
+        "digs": "65",
+        "receptionAttempts": "81",
+        "receptionErrors": "6",
+        "blockSolos": "1",
+        "blockAssists": "18",
+        "blockingErrors": "3",
+        "totalBlocks": "10"
+      }
+    }
+  ]
+}

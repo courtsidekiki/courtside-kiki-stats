@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625984,
+  "title": "WVB Boxscore",
+  "description": "Tennessee St. vs Southern Ind.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45872",
+      "seoname": "tennessee-st",
+      "name6Char": "TENNST",
+      "nameFull": "Tennessee State University",
+      "nameShort": "Tennessee St.",
+      "teamName": "Lady Tigers",
+      "color": "#272E63"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46500",
+      "seoname": "southern-ind",
+      "name6Char": "S IND",
+      "nameFull": "University of Southern Indiana",
+      "nameShort": "Southern Ind.",
+      "teamName": "Screaming Eagles",
+      "color": "#002855"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45872,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "62",
+        "kills": "34",
+        "attackErrors": "21",
+        "attackAttempts": "111",
+        "hittingPercentage": "0.117",
+        "assists": "33",
+        "setErrors": "1",
+        "setAttempts": "108",
+        "serviceAces": "3",
+        "serviceErrors": "7",
+        "serveAttempts": "64",
+        "digs": "51",
+        "receptionAttempts": "67",
+        "receptionErrors": "6",
+        "blockSolos": "5",
+        "blockAssists": "8",
+        "blockingErrors": "2",
+        "totalBlocks": "9"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46500,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "77",
+        "kills": "42",
+        "attackErrors": "16",
+        "attackAttempts": "123",
+        "hittingPercentage": "0.211",
+        "assists": "40",
+        "setErrors": "1",
+        "setAttempts": "119",
+        "serviceAces": "6",
+        "serviceErrors": "8",
+        "serveAttempts": "75",
+        "digs": "53",
+        "receptionAttempts": "57",
+        "receptionErrors": "3",
+        "blockSolos": "0",
+        "blockAssists": "20",
+        "blockingErrors": "1",
+        "totalBlocks": "10"
+      }
+    }
+  ]
+}

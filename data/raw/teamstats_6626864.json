@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626864,
+  "title": "WVB Boxscore",
+  "description": "Saint Peter's vs Fairfield",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46618",
+      "seoname": "st-peters",
+      "name6Char": "ST PTR",
+      "nameFull": "Saint Peter's University",
+      "nameShort": "Saint Peter's",
+      "teamName": "Peacocks",
+      "color": "#21375C"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46300",
+      "seoname": "fairfield",
+      "name6Char": "FAIR",
+      "nameFull": "Fairfield University",
+      "nameShort": "Fairfield",
+      "teamName": "Stags",
+      "color": "#C8102E"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46618,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "58",
+        "kills": "32",
+        "attackErrors": "14",
+        "attackAttempts": "92",
+        "hittingPercentage": "0.196",
+        "assists": "28",
+        "setErrors": "1",
+        "setAttempts": "94",
+        "serviceAces": "3",
+        "serviceErrors": "7",
+        "serveAttempts": "60",
+        "digs": "30",
+        "receptionAttempts": "67",
+        "receptionErrors": "8",
+        "blockSolos": "2",
+        "blockAssists": "6",
+        "blockingErrors": "1",
+        "totalBlocks": "5"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46300,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "45",
+        "attackErrors": "16",
+        "attackAttempts": "100",
+        "hittingPercentage": "0.290",
+        "assists": "42",
+        "setErrors": "0",
+        "setAttempts": "98",
+        "serviceAces": "8",
+        "serviceErrors": "6",
+        "serveAttempts": "73",
+        "digs": "37",
+        "receptionAttempts": "53",
+        "receptionErrors": "3",
+        "blockSolos": "1",
+        "blockAssists": "16",
+        "blockingErrors": "0",
+        "totalBlocks": "9"
+      }
+    }
+  ]
+}

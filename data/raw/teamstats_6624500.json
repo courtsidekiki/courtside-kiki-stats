@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624500,
+  "title": "WVB Boxscore",
+  "description": "St. John's (NY) vs UConn",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45995",
+      "seoname": "st-johns-ny",
+      "name6Char": "STJOHN",
+      "nameFull": "St. John's University (New York)",
+      "nameShort": "St. John's (NY)",
+      "teamName": "Red Storm",
+      "color": "#BA0C2F"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46408",
+      "seoname": "uconn",
+      "name6Char": "UCONN",
+      "nameFull": "University of Connecticut",
+      "nameShort": "UConn",
+      "teamName": "Huskies",
+      "color": "#0C2340"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45995,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "112",
+        "kills": "68",
+        "attackErrors": "22",
+        "attackAttempts": "161",
+        "hittingPercentage": "0.286",
+        "assists": "63",
+        "setErrors": "3",
+        "setAttempts": "166",
+        "serviceAces": "3",
+        "serviceErrors": "8",
+        "serveAttempts": "112",
+        "digs": "69",
+        "receptionAttempts": "92",
+        "receptionErrors": "11",
+        "blockSolos": "5",
+        "blockAssists": "22",
+        "blockingErrors": "1",
+        "totalBlocks": "16"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46408,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "104",
+        "kills": "60",
+        "attackErrors": "29",
+        "attackAttempts": "172",
+        "hittingPercentage": "0.180",
+        "assists": "57",
+        "setErrors": "0",
+        "setAttempts": "175",
+        "serviceAces": "11",
+        "serviceErrors": "12",
+        "serveAttempts": "104",
+        "digs": "56",
+        "receptionAttempts": "104",
+        "receptionErrors": "3",
+        "blockSolos": "3",
+        "blockAssists": "16",
+        "blockingErrors": "0",
+        "totalBlocks": "11"
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627216,
+  "title": "WVB Boxscore",
+  "description": "Fordham vs VCU",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46302",
+      "seoname": "fordham",
+      "name6Char": "FORDHM",
+      "nameFull": "Fordham University",
+      "nameShort": "Fordham",
+      "teamName": "Rams",
+      "color": "#6F263D"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46375",
+      "seoname": "vcu",
+      "name6Char": "VCU",
+      "nameFull": "Virginia Commonwealth University",
+      "nameShort": "VCU",
+      "teamName": "Rams",
+      "color": "#010101"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46302,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "82",
+        "kills": "48",
+        "attackErrors": "25",
+        "attackAttempts": "159",
+        "hittingPercentage": "0.145",
+        "assists": "45",
+        "setErrors": "3",
+        "setAttempts": "160",
+        "serviceAces": "5",
+        "serviceErrors": "6",
+        "serveAttempts": "81",
+        "digs": "59",
+        "receptionAttempts": "86",
+        "receptionErrors": "4",
+        "blockSolos": "1",
+        "blockAssists": "16",
+        "blockingErrors": "2",
+        "totalBlocks": "9"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46375,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "94",
+        "kills": "56",
+        "attackErrors": "20",
+        "attackAttempts": "145",
+        "hittingPercentage": "0.248",
+        "assists": "56",
+        "setErrors": "0",
+        "setAttempts": "155",
+        "serviceAces": "4",
+        "serviceErrors": "9",
+        "serveAttempts": "95",
+        "digs": "72",
+        "receptionAttempts": "75",
+        "receptionErrors": "5",
+        "blockSolos": "2",
+        "blockAssists": "18",
+        "blockingErrors": "0",
+        "totalBlocks": "11"
+      }
+    }
+  ]
+}

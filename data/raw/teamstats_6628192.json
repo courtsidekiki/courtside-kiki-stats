@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628192,
+  "title": "WVB Boxscore",
+  "description": "Idaho vs Eastern Wash.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46311",
+      "seoname": "idaho",
+      "name6Char": "IDAHO",
+      "nameFull": "University of Idaho",
+      "nameShort": "Idaho",
+      "teamName": "Vandals",
+      "color": "#010101"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46180",
+      "seoname": "eastern-wash",
+      "name6Char": "E WASH",
+      "nameFull": "Eastern Washington University",
+      "nameShort": "Eastern Wash.",
+      "teamName": "Eagles",
+      "color": "#A6192E"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46311,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "97",
+        "kills": "60",
+        "attackErrors": "30",
+        "attackAttempts": "170",
+        "hittingPercentage": "0.176",
+        "assists": "52",
+        "setErrors": "0",
+        "setAttempts": "164",
+        "serviceAces": "3",
+        "serviceErrors": "12",
+        "serveAttempts": "98",
+        "digs": "65",
+        "receptionAttempts": "92",
+        "receptionErrors": "4",
+        "blockSolos": "3",
+        "blockAssists": "14",
+        "blockingErrors": "0",
+        "totalBlocks": "10"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46180,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "104",
+        "kills": "58",
+        "attackErrors": "22",
+        "attackAttempts": "157",
+        "hittingPercentage": "0.229",
+        "assists": "48",
+        "setErrors": "1",
+        "setAttempts": "143",
+        "serviceAces": "4",
+        "serviceErrors": "11",
+        "serveAttempts": "103",
+        "digs": "65",
+        "receptionAttempts": "86",
+        "receptionErrors": "3",
+        "blockSolos": "7",
+        "blockAssists": "12",
+        "blockingErrors": "0",
+        "totalBlocks": "13"
+      }
+    }
+  ]
+}

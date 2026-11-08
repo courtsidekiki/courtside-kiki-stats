@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625266,
+  "title": "WVB Boxscore",
+  "description": "Saint Mary's (CA) vs LMU (CA)",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46490",
+      "seoname": "st-marys-ca",
+      "name6Char": "STMARY",
+      "nameFull": "Saint Mary's College of California",
+      "nameShort": "Saint Mary's (CA)",
+      "teamName": "Gaels",
+      "color": "#E51B24"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45792",
+      "seoname": "loyola-marymount",
+      "name6Char": "LMU",
+      "nameFull": "Loyola Marymount University",
+      "nameShort": "LMU (CA)",
+      "teamName": "Lions",
+      "color": "#AB0C2F"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46490,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "87",
+        "kills": "54",
+        "attackErrors": "19",
+        "attackAttempts": "130",
+        "hittingPercentage": "0.269",
+        "assists": "52",
+        "setErrors": "1",
+        "setAttempts": "134",
+        "serviceAces": "11",
+        "serviceErrors": "13",
+        "serveAttempts": "88",
+        "digs": "42",
+        "receptionAttempts": "90",
+        "receptionErrors": "4",
+        "blockSolos": "4",
+        "blockAssists": "2",
+        "blockingErrors": "1",
+        "totalBlocks": "5"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45792,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "99",
+        "kills": "62",
+        "attackErrors": "14",
+        "attackAttempts": "118",
+        "hittingPercentage": "0.407",
+        "assists": "58",
+        "setErrors": "0",
+        "setAttempts": "120",
+        "serviceAces": "4",
+        "serviceErrors": "8",
+        "serveAttempts": "98",
+        "digs": "50",
+        "receptionAttempts": "75",
+        "receptionErrors": "11",
+        "blockSolos": "3",
+        "blockAssists": "8",
+        "blockingErrors": "1",
+        "totalBlocks": "7"
+      }
+    }
+  ]
+}

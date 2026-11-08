@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628593,
+  "title": "WVB Boxscore",
+  "description": "Cleveland St. vs Robert Morris",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46406",
+      "seoname": "cleveland-st",
+      "name6Char": "CLE ST",
+      "nameFull": "Cleveland State University",
+      "nameShort": "Cleveland St.",
+      "teamName": "Vikings",
+      "color": "#115740"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46735",
+      "seoname": "robert-morris",
+      "name6Char": "ROBMOR",
+      "nameFull": "Robert Morris University",
+      "nameShort": "Robert Morris",
+      "teamName": "Colonials",
+      "color": "#041E42"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46406,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "86",
+        "kills": "50",
+        "attackErrors": "26",
+        "attackAttempts": "171",
+        "hittingPercentage": "0.140",
+        "assists": "46",
+        "setErrors": "1",
+        "setAttempts": "156",
+        "serviceAces": "8",
+        "serviceErrors": "7",
+        "serveAttempts": "87",
+        "digs": "77",
+        "receptionAttempts": "90",
+        "receptionErrors": "8",
+        "blockSolos": "3",
+        "blockAssists": "12",
+        "blockingErrors": "0",
+        "totalBlocks": "9"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46735,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "96",
+        "kills": "54",
+        "attackErrors": "23",
+        "attackAttempts": "164",
+        "hittingPercentage": "0.189",
+        "assists": "53",
+        "setErrors": "0",
+        "setAttempts": "161",
+        "serviceAces": "8",
+        "serviceErrors": "5",
+        "serveAttempts": "95",
+        "digs": "85",
+        "receptionAttempts": "80",
+        "receptionErrors": "8",
+        "blockSolos": "1",
+        "blockAssists": "18",
+        "blockingErrors": "0",
+        "totalBlocks": "10"
+      }
+    }
+  ]
+}

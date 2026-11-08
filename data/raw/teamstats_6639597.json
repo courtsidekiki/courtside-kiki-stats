@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6639597,
+  "title": "WVB Boxscore",
+  "description": "Chicago St. vs Mercyhurst",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46167",
+      "seoname": "chicago-st",
+      "name6Char": "CHI ST",
+      "nameFull": "Chicago State University",
+      "nameShort": "Chicago St.",
+      "teamName": "Cougars",
+      "color": "#006747"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45799",
+      "seoname": "mercyhurst",
+      "name6Char": "MERCYH",
+      "nameFull": "Mercyhurst University",
+      "nameShort": "Mercyhurst",
+      "teamName": "Lakers",
+      "color": "#00594C"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46167,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "68",
+        "kills": "37",
+        "attackErrors": "19",
+        "attackAttempts": "107",
+        "hittingPercentage": "0.168",
+        "assists": "34",
+        "setErrors": "1",
+        "setAttempts": "110",
+        "serviceAces": "4",
+        "serviceErrors": "6",
+        "serveAttempts": "70",
+        "digs": "38",
+        "receptionAttempts": "66",
+        "receptionErrors": "3",
+        "blockSolos": "2",
+        "blockAssists": "6",
+        "blockingErrors": "0",
+        "totalBlocks": "5"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45799,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "78",
+        "kills": "48",
+        "attackErrors": "14",
+        "attackAttempts": "104",
+        "hittingPercentage": "0.327",
+        "assists": "45",
+        "setErrors": "2",
+        "setAttempts": "107",
+        "serviceAces": "3",
+        "serviceErrors": "10",
+        "serveAttempts": "76",
+        "digs": "44",
+        "receptionAttempts": "64",
+        "receptionErrors": "4",
+        "blockSolos": "5",
+        "blockAssists": "6",
+        "blockingErrors": "1",
+        "totalBlocks": "8"
+      }
+    }
+  ]
+}

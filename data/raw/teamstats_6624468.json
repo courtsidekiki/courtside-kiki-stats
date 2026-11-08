@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624468,
+  "title": "WVB Boxscore",
+  "description": "Loyola Chicago vs George Mason",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46317",
+      "seoname": "loyola-chicago",
+      "name6Char": "LOYCHI",
+      "nameFull": "Loyola University Chicago",
+      "nameShort": "Loyola Chicago",
+      "teamName": "Ramblers",
+      "color": "#861F41"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45798",
+      "seoname": "george-mason",
+      "name6Char": "GMU",
+      "nameFull": "George Mason University",
+      "nameShort": "George Mason",
+      "teamName": "Patriots",
+      "color": "#1A5632"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46317,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "108",
+        "kills": "73",
+        "attackErrors": "23",
+        "attackAttempts": "170",
+        "hittingPercentage": "0.294",
+        "assists": "67",
+        "setErrors": "2",
+        "setAttempts": "170",
+        "serviceAces": "9",
+        "serviceErrors": "11",
+        "serveAttempts": "109",
+        "digs": "66",
+        "receptionAttempts": "95",
+        "receptionErrors": "5",
+        "blockSolos": "1",
+        "blockAssists": "16",
+        "blockingErrors": "2",
+        "totalBlocks": "9"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45798,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "102",
+        "kills": "60",
+        "attackErrors": "19",
+        "attackAttempts": "161",
+        "hittingPercentage": "0.255",
+        "assists": "58",
+        "setErrors": "1",
+        "setAttempts": "161",
+        "serviceAces": "5",
+        "serviceErrors": "6",
+        "serveAttempts": "101",
+        "digs": "67",
+        "receptionAttempts": "98",
+        "receptionErrors": "9",
+        "blockSolos": "1",
+        "blockAssists": "14",
+        "blockingErrors": "3",
+        "totalBlocks": "8"
+      }
+    }
+  ]
+}

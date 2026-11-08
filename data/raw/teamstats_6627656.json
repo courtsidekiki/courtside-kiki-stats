@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627656,
+  "title": "WVB Boxscore",
+  "description": "Indiana St. vs Murray St.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46681",
+      "seoname": "indiana-st",
+      "name6Char": "IND ST",
+      "nameFull": "Indiana State University",
+      "nameShort": "Indiana St.",
+      "teamName": "Sycamores",
+      "color": "#1E437B"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46604",
+      "seoname": "murray-st",
+      "name6Char": "MURRAY",
+      "nameFull": "Murray State University",
+      "nameShort": "Murray St.",
+      "teamName": "Racers",
+      "color": "#0C2340"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46681,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "41",
+        "attackErrors": "15",
+        "attackAttempts": "123",
+        "hittingPercentage": "0.211",
+        "assists": "38",
+        "setErrors": "0",
+        "setAttempts": "116",
+        "serviceAces": "10",
+        "serviceErrors": "14",
+        "serveAttempts": "73",
+        "digs": "43",
+        "receptionAttempts": "60",
+        "receptionErrors": "1",
+        "blockSolos": "2",
+        "blockAssists": "14",
+        "blockingErrors": "0",
+        "totalBlocks": "9"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46604,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "62",
+        "kills": "32",
+        "attackErrors": "19",
+        "attackAttempts": "108",
+        "hittingPercentage": "0.120",
+        "assists": "31",
+        "setErrors": "1",
+        "setAttempts": "115",
+        "serviceAces": "1",
+        "serviceErrors": "4",
+        "serveAttempts": "64",
+        "digs": "57",
+        "receptionAttempts": "59",
+        "receptionErrors": "10",
+        "blockSolos": "2",
+        "blockAssists": "4",
+        "blockingErrors": "0",
+        "totalBlocks": "4"
+      }
+    }
+  ]
+}

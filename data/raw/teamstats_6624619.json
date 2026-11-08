@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624619,
+  "title": "WVB Boxscore",
+  "description": "Austin Peay vs West Ga.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45942",
+      "seoname": "austin-peay",
+      "name6Char": "A PEAY",
+      "nameFull": "Austin Peay State University",
+      "nameShort": "Austin Peay",
+      "teamName": "Governors",
+      "color": "#BA0C2F"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46381",
+      "seoname": "west-ga",
+      "name6Char": "W GA",
+      "nameFull": "University of West Georgia",
+      "nameShort": "West Ga.",
+      "teamName": "Wolves",
+      "color": "#0032A0"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45942,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "113",
+        "kills": "69",
+        "attackErrors": "18",
+        "attackAttempts": "164",
+        "hittingPercentage": "0.311",
+        "assists": "64",
+        "setErrors": "0",
+        "setAttempts": "158",
+        "serviceAces": "8",
+        "serviceErrors": "14",
+        "serveAttempts": "112",
+        "digs": "68",
+        "receptionAttempts": "93",
+        "receptionErrors": "11",
+        "blockSolos": "1",
+        "blockAssists": "14",
+        "blockingErrors": "1",
+        "totalBlocks": "8"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46381,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "107",
+        "kills": "64",
+        "attackErrors": "21",
+        "attackAttempts": "165",
+        "hittingPercentage": "0.261",
+        "assists": "64",
+        "setErrors": "0",
+        "setAttempts": "168",
+        "serviceAces": "11",
+        "serviceErrors": "15",
+        "serveAttempts": "108",
+        "digs": "71",
+        "receptionAttempts": "98",
+        "receptionErrors": "8",
+        "blockSolos": "2",
+        "blockAssists": "6",
+        "blockingErrors": "3",
+        "totalBlocks": "5"
+      }
+    }
+  ]
+}

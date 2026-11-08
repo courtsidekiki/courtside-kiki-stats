@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626899,
+  "title": "WVB Boxscore",
+  "description": "Iowa St. vs BYU",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46190",
+      "seoname": "iowa-st",
+      "name6Char": "IOWAST",
+      "nameFull": "Iowa State University",
+      "nameShort": "Iowa St.",
+      "teamName": "Cyclones",
+      "color": "#A6192E"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46575",
+      "seoname": "byu",
+      "name6Char": "BYU",
+      "nameFull": "Brigham Young University",
+      "nameShort": "BYU",
+      "teamName": "Cougars",
+      "color": "#0047BA"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46190,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "96",
+        "kills": "57",
+        "attackErrors": "23",
+        "attackAttempts": "151",
+        "hittingPercentage": "0.225",
+        "assists": "53",
+        "setErrors": "0",
+        "setAttempts": "148",
+        "serviceAces": "6",
+        "serviceErrors": "8",
+        "serveAttempts": "97",
+        "digs": "56",
+        "receptionAttempts": "98",
+        "receptionErrors": "6",
+        "blockSolos": "1",
+        "blockAssists": "18",
+        "blockingErrors": "0",
+        "totalBlocks": "10"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46575,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "107",
+        "kills": "70",
+        "attackErrors": "23",
+        "attackAttempts": "152",
+        "hittingPercentage": "0.309",
+        "assists": "66",
+        "setErrors": "2",
+        "setAttempts": "148",
+        "serviceAces": "6",
+        "serviceErrors": "8",
+        "serveAttempts": "106",
+        "digs": "65",
+        "receptionAttempts": "89",
+        "receptionErrors": "6",
+        "blockSolos": "0",
+        "blockAssists": "18",
+        "blockingErrors": "0",
+        "totalBlocks": "9"
+      }
+    }
+  ]
+}

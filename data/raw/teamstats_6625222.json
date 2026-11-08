@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625222,
+  "title": "WVB Boxscore",
+  "description": "Drake vs Belmont",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46177",
+      "seoname": "drake",
+      "name6Char": "DRAKE",
+      "nameFull": "Drake University",
+      "nameShort": "Drake",
+      "teamName": "Bulldogs",
+      "color": "#002F6C"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46399",
+      "seoname": "belmont",
+      "name6Char": "BELMNT",
+      "nameFull": "Belmont University",
+      "nameShort": "Belmont",
+      "teamName": "Bruins",
+      "color": "#0D2C6B"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46177,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "98",
+        "kills": "54",
+        "attackErrors": "27",
+        "attackAttempts": "148",
+        "hittingPercentage": "0.182",
+        "assists": "49",
+        "setErrors": "0",
+        "setAttempts": "148",
+        "serviceAces": "7",
+        "serviceErrors": "9",
+        "serveAttempts": "97",
+        "digs": "68",
+        "receptionAttempts": "76",
+        "receptionErrors": "4",
+        "blockSolos": "1",
+        "blockAssists": "14",
+        "blockingErrors": "0",
+        "totalBlocks": "8"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46399,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "87",
+        "kills": "47",
+        "attackErrors": "25",
+        "attackAttempts": "158",
+        "hittingPercentage": "0.139",
+        "assists": "42",
+        "setErrors": "0",
+        "setAttempts": "151",
+        "serviceAces": "4",
+        "serviceErrors": "12",
+        "serveAttempts": "88",
+        "digs": "54",
+        "receptionAttempts": "88",
+        "receptionErrors": "7",
+        "blockSolos": "3",
+        "blockAssists": "21",
+        "blockingErrors": "0",
+        "totalBlocks": "13"
+      }
+    }
+  ]
+}
