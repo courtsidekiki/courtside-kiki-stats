@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6640244,
+  "title": "WVB Boxscore",
+  "description": "Charlotte vs Tulane",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46232",
+      "seoname": "charlotte",
+      "name6Char": "CHAR",
+      "nameFull": "The University of North Carolina at Charlotte",
+      "nameShort": "Charlotte",
+      "teamName": "49ers",
+      "color": "#124D39"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46255",
+      "seoname": "tulane",
+      "name6Char": "TULANE",
+      "nameFull": "Tulane University",
+      "nameShort": "Tulane",
+      "teamName": "Green Wave",
+      "color": "#006747"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46232,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "93",
+        "kills": "51",
+        "attackErrors": "27",
+        "attackAttempts": "164",
+        "hittingPercentage": "0.146",
+        "assists": "48",
+        "setErrors": "1",
+        "setAttempts": "158",
+        "serviceAces": "4",
+        "serviceErrors": "3",
+        "serveAttempts": "94",
+        "digs": "70",
+        "receptionAttempts": "86",
+        "receptionErrors": "7",
+        "blockSolos": "0",
+        "blockAssists": "11",
+        "blockingErrors": "1",
+        "totalBlocks": "5"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46255,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "100",
+        "kills": "62",
+        "attackErrors": "23",
+        "attackAttempts": "170",
+        "hittingPercentage": "0.229",
+        "assists": "57",
+        "setErrors": "2",
+        "setAttempts": "158",
+        "serviceAces": "7",
+        "serviceErrors": "13",
+        "serveAttempts": "99",
+        "digs": "72",
+        "receptionAttempts": "91",
+        "receptionErrors": "4",
+        "blockSolos": "4",
+        "blockAssists": "18",
+        "blockingErrors": "0",
+        "totalBlocks": "13"
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626831,
+  "title": "WVB Boxscore",
+  "description": "Kentucky vs Mississippi St.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45920",
+      "seoname": "kentucky",
+      "name6Char": "UK",
+      "nameFull": "University of Kentucky",
+      "nameShort": "Kentucky",
+      "teamName": "Wildcats",
+      "color": "#3258AF"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45937",
+      "seoname": "mississippi-st",
+      "name6Char": "MISSST",
+      "nameFull": "Mississippi State University",
+      "nameShort": "Mississippi St.",
+      "teamName": "Bulldogs",
+      "color": "#5D1725"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45920,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "49",
+        "attackErrors": "11",
+        "attackAttempts": "103",
+        "hittingPercentage": "0.369",
+        "assists": "44",
+        "setErrors": "0",
+        "setAttempts": "98",
+        "serviceAces": "5",
+        "serviceErrors": "7",
+        "serveAttempts": "74",
+        "digs": "47",
+        "receptionAttempts": "47",
+        "receptionErrors": "2",
+        "blockSolos": "1",
+        "blockAssists": "14",
+        "blockingErrors": "1",
+        "totalBlocks": "8"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45937,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "52",
+        "kills": "32",
+        "attackErrors": "13",
+        "attackAttempts": "106",
+        "hittingPercentage": "0.179",
+        "assists": "31",
+        "setErrors": "2",
+        "setAttempts": "104",
+        "serviceAces": "2",
+        "serviceErrors": "6",
+        "serveAttempts": "53",
+        "digs": "37",
+        "receptionAttempts": "67",
+        "receptionErrors": "5",
+        "blockSolos": "0",
+        "blockAssists": "6",
+        "blockingErrors": "1",
+        "totalBlocks": "3"
+      }
+    }
+  ]
+}

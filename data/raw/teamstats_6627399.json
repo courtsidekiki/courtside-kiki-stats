@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627399,
+  "title": "WVB Boxscore",
+  "description": "Clemson vs NC State",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46294",
+      "seoname": "clemson",
+      "name6Char": "CLEM",
+      "nameFull": "Clemson University",
+      "nameShort": "Clemson",
+      "teamName": "Tigers",
+      "color": "#FF6720"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45846",
+      "seoname": "north-carolina-st",
+      "name6Char": "NC ST",
+      "nameFull": "North Carolina State University",
+      "nameShort": "NC State",
+      "teamName": "Wolfpack",
+      "color": "#C8102E"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46294,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "105",
+        "kills": "54",
+        "attackErrors": "27",
+        "attackAttempts": "152",
+        "hittingPercentage": "0.178",
+        "assists": "50",
+        "setErrors": "2",
+        "setAttempts": "146",
+        "serviceAces": "7",
+        "serviceErrors": "7",
+        "serveAttempts": "106",
+        "digs": "57",
+        "receptionAttempts": "85",
+        "receptionErrors": "6",
+        "blockSolos": "4",
+        "blockAssists": "10",
+        "blockingErrors": "2",
+        "totalBlocks": "9"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45846,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "102",
+        "kills": "60",
+        "attackErrors": "26",
+        "attackAttempts": "159",
+        "hittingPercentage": "0.214",
+        "assists": "56",
+        "setErrors": "2",
+        "setAttempts": "161",
+        "serviceAces": "6",
+        "serviceErrors": "16",
+        "serveAttempts": "101",
+        "digs": "61",
+        "receptionAttempts": "99",
+        "receptionErrors": "7",
+        "blockSolos": "2",
+        "blockAssists": "16",
+        "blockingErrors": "0",
+        "totalBlocks": "10"
+      }
+    }
+  ]
+}

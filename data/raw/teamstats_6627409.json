@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627409,
+  "title": "WVB Boxscore",
+  "description": "South Fla. vs UAB",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46621",
+      "seoname": "south-fla",
+      "name6Char": "USF",
+      "nameFull": "University of South Florida",
+      "nameShort": "South Fla.",
+      "teamName": "Bulls",
+      "color": "#006747"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46437",
+      "seoname": "uab",
+      "name6Char": "UAB",
+      "nameFull": "University of Alabama at Birmingham",
+      "nameShort": "UAB",
+      "teamName": "Blazers",
+      "color": "#006341"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46621,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "76",
+        "kills": "43",
+        "attackErrors": "19",
+        "attackAttempts": "111",
+        "hittingPercentage": "0.216",
+        "assists": "41",
+        "setErrors": "0",
+        "setAttempts": "108",
+        "serviceAces": "6",
+        "serviceErrors": "7",
+        "serveAttempts": "74",
+        "digs": "40",
+        "receptionAttempts": "56",
+        "receptionErrors": "2",
+        "blockSolos": "3",
+        "blockAssists": "12",
+        "blockingErrors": "2",
+        "totalBlocks": "9"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46437,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "63",
+        "kills": "34",
+        "attackErrors": "18",
+        "attackAttempts": "99",
+        "hittingPercentage": "0.162",
+        "assists": "31",
+        "setErrors": "0",
+        "setAttempts": "96",
+        "serviceAces": "2",
+        "serviceErrors": "9",
+        "serveAttempts": "65",
+        "digs": "38",
+        "receptionAttempts": "67",
+        "receptionErrors": "6",
+        "blockSolos": "2",
+        "blockAssists": "16",
+        "blockingErrors": "1",
+        "totalBlocks": "10"
+      }
+    }
+  ]
+}

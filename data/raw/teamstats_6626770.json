@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626770,
+  "title": "WVB Boxscore",
+  "description": "UTEP vs UC Davis",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45874",
+      "seoname": "utep",
+      "name6Char": "UTEP",
+      "nameFull": "University of Texas at El Paso",
+      "nameShort": "UTEP",
+      "teamName": "Miners",
+      "color": "#041E42"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46036",
+      "seoname": "uc-davis",
+      "name6Char": "UC DAV",
+      "nameFull": "University of California, Davis",
+      "nameShort": "UC Davis",
+      "teamName": "Aggies",
+      "color": "#002855"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45874,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "74",
+        "kills": "42",
+        "attackErrors": "28",
+        "attackAttempts": "144",
+        "hittingPercentage": "0.097",
+        "assists": "37",
+        "setErrors": "0",
+        "setAttempts": "142",
+        "serviceAces": "3",
+        "serviceErrors": "10",
+        "serveAttempts": "75",
+        "digs": "50",
+        "receptionAttempts": "88",
+        "receptionErrors": "2",
+        "blockSolos": "1",
+        "blockAssists": "14",
+        "blockingErrors": "1",
+        "totalBlocks": "8"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46036,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "95",
+        "kills": "55",
+        "attackErrors": "23",
+        "attackAttempts": "136",
+        "hittingPercentage": "0.235",
+        "assists": "52",
+        "setErrors": "0",
+        "setAttempts": "129",
+        "serviceAces": "2",
+        "serviceErrors": "6",
+        "serveAttempts": "94",
+        "digs": "61",
+        "receptionAttempts": "65",
+        "receptionErrors": "3",
+        "blockSolos": "2",
+        "blockAssists": "18",
+        "blockingErrors": "0",
+        "totalBlocks": "11"
+      }
+    }
+  ]
+}

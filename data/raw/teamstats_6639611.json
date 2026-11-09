@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6639611,
+  "title": "WVB Boxscore",
+  "description": "Texas Southern vs Bethune-Cookman",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46252",
+      "seoname": "texas-southern",
+      "name6Char": "TX SOU",
+      "nameFull": "Texas Southern University",
+      "nameShort": "Texas Southern",
+      "teamName": "Lady Tigers",
+      "color": "#6F263D"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46699",
+      "seoname": "bethune-cookman",
+      "name6Char": "BECOOK",
+      "nameFull": "Bethune-Cookman University",
+      "nameShort": "Bethune-Cookman",
+      "teamName": "Wildcats",
+      "color": "#6F263D"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46252,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "102",
+        "kills": "52",
+        "attackErrors": "32",
+        "attackAttempts": "190",
+        "hittingPercentage": "0.105",
+        "assists": "52",
+        "setErrors": "3",
+        "setAttempts": "197",
+        "serviceAces": "7",
+        "serviceErrors": "8",
+        "serveAttempts": "104",
+        "digs": "99",
+        "receptionAttempts": "92",
+        "receptionErrors": "9",
+        "blockSolos": "2",
+        "blockAssists": "6",
+        "blockingErrors": "3",
+        "totalBlocks": "5"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46699,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "104",
+        "kills": "50",
+        "attackErrors": "29",
+        "attackAttempts": "186",
+        "hittingPercentage": "0.113",
+        "assists": "47",
+        "setErrors": "4",
+        "setAttempts": "192",
+        "serviceAces": "9",
+        "serviceErrors": "10",
+        "serveAttempts": "102",
+        "digs": "89",
+        "receptionAttempts": "96",
+        "receptionErrors": "7",
+        "blockSolos": "3",
+        "blockAssists": "14",
+        "blockingErrors": "4",
+        "totalBlocks": "10"
+      }
+    }
+  ]
+}

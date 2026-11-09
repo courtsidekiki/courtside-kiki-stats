@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6675088,
+  "title": "WVB Boxscore",
+  "description": "Prairie View vs Florida A&M",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46734",
+      "seoname": "prairie-view",
+      "name6Char": "PV A&M",
+      "nameFull": "Prairie View A&M University",
+      "nameShort": "Prairie View",
+      "teamName": "Lady Panthers",
+      "color": "#582C83"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46412",
+      "seoname": "florida-am",
+      "name6Char": "FL A&M",
+      "nameFull": "Florida A&M University",
+      "nameShort": "Florida A&M",
+      "teamName": "Lady Rattlers ",
+      "color": "#FF8200"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46734,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "100",
+        "kills": "56",
+        "attackErrors": "20",
+        "attackAttempts": "156",
+        "hittingPercentage": "0.231",
+        "assists": "49",
+        "setErrors": "2",
+        "setAttempts": "150",
+        "serviceAces": "6",
+        "serviceErrors": "14",
+        "serveAttempts": "99",
+        "digs": "71",
+        "receptionAttempts": "82",
+        "receptionErrors": "10",
+        "blockSolos": "5",
+        "blockAssists": "22",
+        "blockingErrors": "0",
+        "totalBlocks": "16"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46412,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "90",
+        "kills": "44",
+        "attackErrors": "28",
+        "attackAttempts": "152",
+        "hittingPercentage": "0.105",
+        "assists": "41",
+        "setErrors": "1",
+        "setAttempts": "152",
+        "serviceAces": "10",
+        "serviceErrors": "9",
+        "serveAttempts": "91",
+        "digs": "68",
+        "receptionAttempts": "85",
+        "receptionErrors": "6",
+        "blockSolos": "1",
+        "blockAssists": "8",
+        "blockingErrors": "2",
+        "totalBlocks": "5"
+      }
+    }
+  ]
+}

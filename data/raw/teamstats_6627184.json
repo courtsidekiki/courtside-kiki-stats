@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627184,
+  "title": "WVB Boxscore",
+  "description": "Florida vs Georgia",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46301",
+      "seoname": "florida",
+      "name6Char": "FLA",
+      "nameFull": "University of Florida",
+      "nameShort": "Florida",
+      "teamName": "Gators",
+      "color": "#003087"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45911",
+      "seoname": "georgia",
+      "name6Char": "UGA",
+      "nameFull": "University of Georgia",
+      "nameShort": "Georgia",
+      "teamName": "Bulldogs",
+      "color": "#DA291C"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46301,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "97",
+        "kills": "62",
+        "attackErrors": "17",
+        "attackAttempts": "141",
+        "hittingPercentage": "0.319",
+        "assists": "59",
+        "setErrors": "1",
+        "setAttempts": "137",
+        "serviceAces": "5",
+        "serviceErrors": "7",
+        "serveAttempts": "96",
+        "digs": "74",
+        "receptionAttempts": "78",
+        "receptionErrors": "8",
+        "blockSolos": "2",
+        "blockAssists": "23",
+        "blockingErrors": "1",
+        "totalBlocks": "13"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45911,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "82",
+        "kills": "49",
+        "attackErrors": "24",
+        "attackAttempts": "151",
+        "hittingPercentage": "0.166",
+        "assists": "46",
+        "setErrors": "1",
+        "setAttempts": "141",
+        "serviceAces": "8",
+        "serviceErrors": "5",
+        "serveAttempts": "83",
+        "digs": "58",
+        "receptionAttempts": "89",
+        "receptionErrors": "5",
+        "blockSolos": "2",
+        "blockAssists": "8",
+        "blockingErrors": "2",
+        "totalBlocks": "6"
+      }
+    }
+  ]
+}

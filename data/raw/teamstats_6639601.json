@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6639601,
+  "title": "WVB Boxscore",
+  "description": "Morgan St. vs UMES",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45841",
+      "seoname": "morgan-st",
+      "name6Char": "MORGAN",
+      "nameFull": "Morgan State University",
+      "nameShort": "Morgan St.",
+      "teamName": "Lady Bears",
+      "color": "#FC4C02"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46563",
+      "seoname": "umes",
+      "name6Char": "UMES",
+      "nameFull": "University of Maryland Eastern Shore",
+      "nameShort": "UMES",
+      "teamName": "Hawks",
+      "color": "#5D0024"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45841,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "95",
+        "kills": "60",
+        "attackErrors": "24",
+        "attackAttempts": "139",
+        "hittingPercentage": "0.259",
+        "assists": "51",
+        "setErrors": "1",
+        "setAttempts": "136",
+        "serviceAces": "7",
+        "serviceErrors": "12",
+        "serveAttempts": "95",
+        "digs": "54",
+        "receptionAttempts": "79",
+        "receptionErrors": "7",
+        "blockSolos": "5",
+        "blockAssists": "0",
+        "blockingErrors": "0",
+        "totalBlocks": "5"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46563,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "87",
+        "kills": "43",
+        "attackErrors": "17",
+        "attackAttempts": "126",
+        "hittingPercentage": "0.206",
+        "assists": "40",
+        "setErrors": "1",
+        "setAttempts": "130",
+        "serviceAces": "7",
+        "serviceErrors": "9",
+        "serveAttempts": "88",
+        "digs": "46",
+        "receptionAttempts": "83",
+        "receptionErrors": "7",
+        "blockSolos": "8",
+        "blockAssists": "0",
+        "blockingErrors": "0",
+        "totalBlocks": "8"
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627039,
+  "title": "WVB Boxscore",
+  "description": "UTSA vs Wichita St.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46369",
+      "seoname": "utsa",
+      "name6Char": "UTSA",
+      "nameFull": "University of Texas at San Antonio",
+      "nameShort": "UTSA",
+      "teamName": "Roadrunners",
+      "color": "#0A2240"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46705",
+      "seoname": "wichita-st",
+      "name6Char": "WICHST",
+      "nameFull": "Wichita State University",
+      "nameShort": "Wichita St.",
+      "teamName": "Shockers",
+      "color": "#010101"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46369,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "90",
+        "kills": "53",
+        "attackErrors": "18",
+        "attackAttempts": "140",
+        "hittingPercentage": "0.250",
+        "assists": "48",
+        "setErrors": "3",
+        "setAttempts": "146",
+        "serviceAces": "3",
+        "serviceErrors": "9",
+        "serveAttempts": "89",
+        "digs": "66",
+        "receptionAttempts": "77",
+        "receptionErrors": "4",
+        "blockSolos": "1",
+        "blockAssists": "16",
+        "blockingErrors": "2",
+        "totalBlocks": "9"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46705,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "88",
+        "kills": "54",
+        "attackErrors": "21",
+        "attackAttempts": "146",
+        "hittingPercentage": "0.226",
+        "assists": "50",
+        "setErrors": "0",
+        "setAttempts": "141",
+        "serviceAces": "4",
+        "serviceErrors": "12",
+        "serveAttempts": "89",
+        "digs": "59",
+        "receptionAttempts": "80",
+        "receptionErrors": "3",
+        "blockSolos": "1",
+        "blockAssists": "10",
+        "blockingErrors": "2",
+        "totalBlocks": "6"
+      }
+    }
+  ]
+}

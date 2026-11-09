@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626239,
+  "title": "WVB Boxscore",
+  "description": "Missouri vs Texas A&M",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45939",
+      "seoname": "missouri",
+      "name6Char": "MIZZOU",
+      "nameFull": "University of Missouri, Columbia",
+      "nameShort": "Missouri",
+      "teamName": "Tigers",
+      "color": "#010101"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46006",
+      "seoname": "texas-am",
+      "name6Char": "TX A&M",
+      "nameFull": "Texas A&M University, College Station",
+      "nameShort": "Texas A&M",
+      "teamName": "Aggies",
+      "color": "#5D0025"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45939,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "40",
+        "attackErrors": "11",
+        "attackAttempts": "98",
+        "hittingPercentage": "0.296",
+        "assists": "36",
+        "setErrors": "2",
+        "setAttempts": "105",
+        "serviceAces": "3",
+        "serviceErrors": "5",
+        "serveAttempts": "73",
+        "digs": "38",
+        "receptionAttempts": "57",
+        "receptionErrors": "3",
+        "blockSolos": "4",
+        "blockAssists": "16",
+        "blockingErrors": "0",
+        "totalBlocks": "12"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46006,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "64",
+        "kills": "43",
+        "attackErrors": "19",
+        "attackAttempts": "112",
+        "hittingPercentage": "0.214",
+        "assists": "41",
+        "setErrors": "3",
+        "setAttempts": "123",
+        "serviceAces": "3",
+        "serviceErrors": "9",
+        "serveAttempts": "66",
+        "digs": "39",
+        "receptionAttempts": "68",
+        "receptionErrors": "3",
+        "blockSolos": "1",
+        "blockAssists": "8",
+        "blockingErrors": "2",
+        "totalBlocks": "5"
+      }
+    }
+  ]
+}

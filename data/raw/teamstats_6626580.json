@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626580,
+  "title": "WVB Boxscore",
+  "description": "West Virginia vs Colorado",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46511",
+      "seoname": "west-virginia",
+      "name6Char": "WVU",
+      "nameFull": "West Virginia University",
+      "nameShort": "West Virginia",
+      "teamName": "Mountaineers",
+      "color": "#0F2D52"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46542",
+      "seoname": "colorado",
+      "name6Char": "COLO",
+      "nameFull": "University of Colorado Boulder",
+      "nameShort": "Colorado",
+      "teamName": "Buffaloes",
+      "color": "#010101"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46511,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "98",
+        "kills": "51",
+        "attackErrors": "19",
+        "attackAttempts": "127",
+        "hittingPercentage": "0.252",
+        "assists": "47",
+        "setErrors": "1",
+        "setAttempts": "132",
+        "serviceAces": "9",
+        "serviceErrors": "8",
+        "serveAttempts": "97",
+        "digs": "57",
+        "receptionAttempts": "67",
+        "receptionErrors": "6",
+        "blockSolos": "2",
+        "blockAssists": "28",
+        "blockingErrors": "3",
+        "totalBlocks": "16"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46542,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "76",
+        "kills": "42",
+        "attackErrors": "28",
+        "attackAttempts": "141",
+        "hittingPercentage": "0.099",
+        "assists": "37",
+        "setErrors": "0",
+        "setAttempts": "143",
+        "serviceAces": "6",
+        "serviceErrors": "10",
+        "serveAttempts": "77",
+        "digs": "48",
+        "receptionAttempts": "89",
+        "receptionErrors": "9",
+        "blockSolos": "0",
+        "blockAssists": "14",
+        "blockingErrors": "3",
+        "totalBlocks": "7"
+      }
+    }
+  ]
+}

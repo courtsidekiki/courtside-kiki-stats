@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625552,
+  "title": "WVB Boxscore",
+  "description": "Memphis vs North Texas",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46688",
+      "seoname": "memphis",
+      "name6Char": "MEM",
+      "nameFull": "University of Memphis",
+      "nameShort": "Memphis",
+      "teamName": "Tigers",
+      "color": "#173B70"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46237",
+      "seoname": "north-texas",
+      "name6Char": "NO TEX",
+      "nameFull": "University of North Texas",
+      "nameShort": "North Texas",
+      "teamName": "Mean Green",
+      "color": "#007A33"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46688,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "72",
+        "kills": "32",
+        "attackErrors": "24",
+        "attackAttempts": "129",
+        "hittingPercentage": "0.062",
+        "assists": "31",
+        "setErrors": "1",
+        "setAttempts": "132",
+        "serviceAces": "3",
+        "serviceErrors": "11",
+        "serveAttempts": "73",
+        "digs": "52",
+        "receptionAttempts": "89",
+        "receptionErrors": "9",
+        "blockSolos": "3",
+        "blockAssists": "16",
+        "blockingErrors": "0",
+        "totalBlocks": "11"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46237,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "98",
+        "kills": "53",
+        "attackErrors": "27",
+        "attackAttempts": "147",
+        "hittingPercentage": "0.177",
+        "assists": "47",
+        "setErrors": "1",
+        "setAttempts": "137",
+        "serviceAces": "9",
+        "serviceErrors": "8",
+        "serveAttempts": "97",
+        "digs": "65",
+        "receptionAttempts": "62",
+        "receptionErrors": "3",
+        "blockSolos": "3",
+        "blockAssists": "14",
+        "blockingErrors": "1",
+        "totalBlocks": "10"
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628504,
+  "title": "WVB Boxscore",
+  "description": "Queens (NC) vs FGCU",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46656",
+      "seoname": "queens-nc",
+      "name6Char": "QUENNC",
+      "nameFull": "Queens University of Charlotte",
+      "nameShort": "Queens (NC)",
+      "teamName": "Royals",
+      "color": "#0D2D6C"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46138",
+      "seoname": "fgcu",
+      "name6Char": "FGCU",
+      "nameFull": "Florida Gulf Coast University",
+      "nameShort": "FGCU",
+      "teamName": "Eagles",
+      "color": "#002D72"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46656,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "87",
+        "kills": "53",
+        "attackErrors": "20",
+        "attackAttempts": "145",
+        "hittingPercentage": "0.228",
+        "assists": "51",
+        "setErrors": "1",
+        "setAttempts": "144",
+        "serviceAces": "5",
+        "serviceErrors": "7",
+        "serveAttempts": "88",
+        "digs": "44",
+        "receptionAttempts": "87",
+        "receptionErrors": "4",
+        "blockSolos": "1",
+        "blockAssists": "16",
+        "blockingErrors": "3",
+        "totalBlocks": "9"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46138,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "96",
+        "kills": "63",
+        "attackErrors": "20",
+        "attackAttempts": "136",
+        "hittingPercentage": "0.316",
+        "assists": "60",
+        "setErrors": "1",
+        "setAttempts": "146",
+        "serviceAces": "4",
+        "serviceErrors": "8",
+        "serveAttempts": "95",
+        "digs": "59",
+        "receptionAttempts": "81",
+        "receptionErrors": "5",
+        "blockSolos": "1",
+        "blockAssists": "12",
+        "blockingErrors": "3",
+        "totalBlocks": "7"
+      }
+    }
+  ]
+}

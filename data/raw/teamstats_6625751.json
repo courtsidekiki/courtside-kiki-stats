@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625751,
+  "title": "WVB Boxscore",
+  "description": "Kansas vs Cincinnati",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46422",
+      "seoname": "kansas",
+      "name6Char": "KANSAS",
+      "nameFull": "University of Kansas",
+      "nameShort": "Kansas",
+      "teamName": "Jayhawks",
+      "color": "#1967B8"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46539",
+      "seoname": "cincinnati",
+      "name6Char": "CINCY",
+      "nameFull": "University of Cincinnati",
+      "nameShort": "Cincinnati",
+      "teamName": "Bearcats",
+      "color": "#C8102E"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46422,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "78",
+        "kills": "54",
+        "attackErrors": "12",
+        "attackAttempts": "127",
+        "hittingPercentage": "0.331",
+        "assists": "49",
+        "setErrors": "0",
+        "setAttempts": "121",
+        "serviceAces": "4",
+        "serviceErrors": "8",
+        "serveAttempts": "76",
+        "digs": "54",
+        "receptionAttempts": "62",
+        "receptionErrors": "4",
+        "blockSolos": "1",
+        "blockAssists": "14",
+        "blockingErrors": "1",
+        "totalBlocks": "8"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46539,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "67",
+        "kills": "43",
+        "attackErrors": "13",
+        "attackAttempts": "123",
+        "hittingPercentage": "0.244",
+        "assists": "42",
+        "setErrors": "0",
+        "setAttempts": "125",
+        "serviceAces": "4",
+        "serviceErrors": "7",
+        "serveAttempts": "69",
+        "digs": "50",
+        "receptionAttempts": "68",
+        "receptionErrors": "4",
+        "blockSolos": "3",
+        "blockAssists": "6",
+        "blockingErrors": "0",
+        "totalBlocks": "6"
+      }
+    }
+  ]
+}

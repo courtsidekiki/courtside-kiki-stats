@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628482,
+  "title": "WVB Boxscore",
+  "description": "Temple vs Rice",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45871",
+      "seoname": "temple",
+      "name6Char": "TEMPLE",
+      "nameFull": "Temple University",
+      "nameShort": "Temple",
+      "teamName": "Owls",
+      "color": "#b30838"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45859",
+      "seoname": "rice",
+      "name6Char": "RICE",
+      "nameFull": "Rice University",
+      "nameShort": "Rice",
+      "teamName": "Owls",
+      "color": "#00205B"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45871,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "76",
+        "kills": "46",
+        "attackErrors": "16",
+        "attackAttempts": "114",
+        "hittingPercentage": "0.263",
+        "assists": "41",
+        "setErrors": "2",
+        "setAttempts": "107",
+        "serviceAces": "2",
+        "serviceErrors": "9",
+        "serveAttempts": "75",
+        "digs": "42",
+        "receptionAttempts": "55",
+        "receptionErrors": "1",
+        "blockSolos": "6",
+        "blockAssists": "4",
+        "blockingErrors": "2",
+        "totalBlocks": "8"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45859,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "60",
+        "kills": "32",
+        "attackErrors": "22",
+        "attackAttempts": "104",
+        "hittingPercentage": "0.096",
+        "assists": "32",
+        "setErrors": "0",
+        "setAttempts": "105",
+        "serviceAces": "1",
+        "serviceErrors": "6",
+        "serveAttempts": "61",
+        "digs": "42",
+        "receptionAttempts": "66",
+        "receptionErrors": "2",
+        "blockSolos": "4",
+        "blockAssists": "2",
+        "blockingErrors": "1",
+        "totalBlocks": "5"
+      }
+    }
+  ]
+}

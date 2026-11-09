@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627453,
+  "title": "WVB Boxscore",
+  "description": "West Florida vs Stetson",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46157",
+      "seoname": "west-florida",
+      "name6Char": "W FLA",
+      "nameFull": "University of West Florida",
+      "nameShort": "West Florida",
+      "teamName": "Argonauts",
+      "color": "#0072CE"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46502",
+      "seoname": "stetson",
+      "name6Char": "STETSN",
+      "nameFull": "Stetson University",
+      "nameShort": "Stetson",
+      "teamName": "Hatters",
+      "color": "#006747"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46157,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "47",
+        "attackErrors": "24",
+        "attackAttempts": "115",
+        "hittingPercentage": "0.200",
+        "assists": "45",
+        "setErrors": "2",
+        "setAttempts": "118",
+        "serviceAces": "4",
+        "serviceErrors": "8",
+        "serveAttempts": "73",
+        "digs": "49",
+        "receptionAttempts": "58",
+        "receptionErrors": "3",
+        "blockSolos": "0",
+        "blockAssists": "8",
+        "blockingErrors": "0",
+        "totalBlocks": "4"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46502,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "59",
+        "kills": "22",
+        "attackErrors": "21",
+        "attackAttempts": "102",
+        "hittingPercentage": "0.010",
+        "assists": "21",
+        "setErrors": "0",
+        "setAttempts": "102",
+        "serviceAces": "3",
+        "serviceErrors": "3",
+        "serveAttempts": "61",
+        "digs": "40",
+        "receptionAttempts": "65",
+        "receptionErrors": "4",
+        "blockSolos": "5",
+        "blockAssists": "8",
+        "blockingErrors": "0",
+        "totalBlocks": "9"
+      }
+    }
+  ]
+}

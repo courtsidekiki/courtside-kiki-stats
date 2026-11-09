@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627018,
+  "title": "WVB Boxscore",
+  "description": "UCF vs Houston",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46040",
+      "seoname": "ucf",
+      "name6Char": "UCF",
+      "nameFull": "University of Central Florida",
+      "nameShort": "UCF",
+      "teamName": "Knights",
+      "color": "#010101"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46054",
+      "seoname": "houston",
+      "name6Char": "HOU",
+      "nameFull": "University of Houston",
+      "nameShort": "Houston",
+      "teamName": "Cougars",
+      "color": "#E51636"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46040,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "48",
+        "attackErrors": "13",
+        "attackAttempts": "99",
+        "hittingPercentage": "0.354",
+        "assists": "42",
+        "setErrors": "0",
+        "setAttempts": "102",
+        "serviceAces": "5",
+        "serviceErrors": "5",
+        "serveAttempts": "73",
+        "digs": "40",
+        "receptionAttempts": "54",
+        "receptionErrors": "2",
+        "blockSolos": "1",
+        "blockAssists": "12",
+        "blockingErrors": "3",
+        "totalBlocks": "7"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46054,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "56",
+        "kills": "36",
+        "attackErrors": "16",
+        "attackAttempts": "101",
+        "hittingPercentage": "0.198",
+        "assists": "30",
+        "setErrors": "2",
+        "setAttempts": "106",
+        "serviceAces": "2",
+        "serviceErrors": "4",
+        "serveAttempts": "58",
+        "digs": "31",
+        "receptionAttempts": "68",
+        "receptionErrors": "5",
+        "blockSolos": "1",
+        "blockAssists": "8",
+        "blockingErrors": "0",
+        "totalBlocks": "5"
+      }
+    }
+  ]
+}

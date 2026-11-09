@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625648,
+  "title": "WVB Boxscore",
+  "description": "Auburn vs South Carolina",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45808",
+      "seoname": "auburn",
+      "name6Char": "AUBURN",
+      "nameFull": "Auburn University",
+      "nameShort": "Auburn",
+      "teamName": "Tigers",
+      "color": "#FA4616"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46363",
+      "seoname": "south-carolina",
+      "name6Char": "S CAR",
+      "nameFull": "University of South Carolina, Columbia",
+      "nameShort": "South Carolina",
+      "teamName": "Gamecocks",
+      "color": "#862633"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45808,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "41",
+        "attackErrors": "12",
+        "attackAttempts": "90",
+        "hittingPercentage": "0.322",
+        "assists": "37",
+        "setErrors": "0",
+        "setAttempts": "84",
+        "serviceAces": "3",
+        "serviceErrors": "8",
+        "serveAttempts": "73",
+        "digs": "40",
+        "receptionAttempts": "50",
+        "receptionErrors": "5",
+        "blockSolos": "1",
+        "blockAssists": "20",
+        "blockingErrors": "1",
+        "totalBlocks": "11"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46363,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "58",
+        "kills": "33",
+        "attackErrors": "20",
+        "attackAttempts": "99",
+        "hittingPercentage": "0.131",
+        "assists": "30",
+        "setErrors": "1",
+        "setAttempts": "100",
+        "serviceAces": "5",
+        "serviceErrors": "10",
+        "serveAttempts": "60",
+        "digs": "34",
+        "receptionAttempts": "65",
+        "receptionErrors": "3",
+        "blockSolos": "0",
+        "blockAssists": "14",
+        "blockingErrors": "3",
+        "totalBlocks": "7"
+      }
+    }
+  ]
+}

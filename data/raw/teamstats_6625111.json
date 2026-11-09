@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625111,
+  "title": "WVB Boxscore",
+  "description": "Mississippi Val. vs Alabama A&M",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45803",
+      "seoname": "mississippi-val",
+      "name6Char": "MS VAL",
+      "nameFull": "Mississippi Valley State University",
+      "nameShort": "Mississippi Val.",
+      "teamName": "Devilettes",
+      "color": "#046A38"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46068",
+      "seoname": "alabama-am",
+      "name6Char": "AL A&M",
+      "nameFull": "Alabama A&M University",
+      "nameShort": "Alabama A&M",
+      "teamName": "Bulldogs",
+      "color": "#862633"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45803,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "41",
+        "kills": "26",
+        "attackErrors": "18",
+        "attackAttempts": "91",
+        "hittingPercentage": "0.088",
+        "assists": "24",
+        "setErrors": "3",
+        "setAttempts": "98",
+        "serviceAces": "3",
+        "serviceErrors": "3",
+        "serveAttempts": "43",
+        "digs": "24",
+        "receptionAttempts": "71",
+        "receptionErrors": "9",
+        "blockSolos": "1",
+        "blockAssists": "0",
+        "blockingErrors": "0",
+        "totalBlocks": "1"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46068,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "41",
+        "attackErrors": "7",
+        "attackAttempts": "85",
+        "hittingPercentage": "0.400",
+        "assists": "36",
+        "setErrors": "4",
+        "setAttempts": "98",
+        "serviceAces": "9",
+        "serviceErrors": "1",
+        "serveAttempts": "73",
+        "digs": "37",
+        "receptionAttempts": "40",
+        "receptionErrors": "3",
+        "blockSolos": "0",
+        "blockAssists": "2",
+        "blockingErrors": "0",
+        "totalBlocks": "1"
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626351,
+  "title": "WVB Boxscore",
+  "description": "Virginia vs Notre Dame",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46009",
+      "seoname": "virginia",
+      "name6Char": "UVA",
+      "nameFull": "University of Virginia",
+      "nameShort": "Virginia",
+      "teamName": "Cavaliers",
+      "color": "#232D4B"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46610",
+      "seoname": "notre-dame",
+      "name6Char": "N DAME",
+      "nameFull": "University of Notre Dame",
+      "nameShort": "Notre Dame",
+      "teamName": "Fighting Irish",
+      "color": "#0C2340"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46009,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "84",
+        "kills": "51",
+        "attackErrors": "16",
+        "attackAttempts": "149",
+        "hittingPercentage": "0.235",
+        "assists": "44",
+        "setErrors": "3",
+        "setAttempts": "148",
+        "serviceAces": "5",
+        "serviceErrors": "16",
+        "serveAttempts": "85",
+        "digs": "48",
+        "receptionAttempts": "88",
+        "receptionErrors": "4",
+        "blockSolos": "3",
+        "blockAssists": "10",
+        "blockingErrors": "0",
+        "totalBlocks": "8"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46610,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "96",
+        "kills": "56",
+        "attackErrors": "19",
+        "attackAttempts": "137",
+        "hittingPercentage": "0.270",
+        "assists": "47",
+        "setErrors": "1",
+        "setAttempts": "137",
+        "serviceAces": "4",
+        "serviceErrors": "7",
+        "serveAttempts": "95",
+        "digs": "63",
+        "receptionAttempts": "69",
+        "receptionErrors": "5",
+        "blockSolos": "3",
+        "blockAssists": "6",
+        "blockingErrors": "0",
+        "totalBlocks": "6"
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628097,
+  "title": "WVB Boxscore",
+  "description": "Boston College vs Syracuse",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46216",
+      "seoname": "boston-college",
+      "name6Char": "BC",
+      "nameFull": "Boston College",
+      "nameShort": "Boston College",
+      "teamName": "Eagles",
+      "color": "#862633"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46126",
+      "seoname": "syracuse",
+      "name6Char": "SYR",
+      "nameFull": "Syracuse University",
+      "nameShort": "Syracuse",
+      "teamName": "Orange",
+      "color": "#DC4405"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46216,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "91",
+        "kills": "52",
+        "attackErrors": "28",
+        "attackAttempts": "151",
+        "hittingPercentage": "0.159",
+        "assists": "48",
+        "setErrors": "1",
+        "setAttempts": "156",
+        "serviceAces": "4",
+        "serviceErrors": "4",
+        "serveAttempts": "92",
+        "digs": "71",
+        "receptionAttempts": "76",
+        "receptionErrors": "2",
+        "blockSolos": "2",
+        "blockAssists": "6",
+        "blockingErrors": "4",
+        "totalBlocks": "5"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46126,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "90",
+        "kills": "55",
+        "attackErrors": "20",
+        "attackAttempts": "154",
+        "hittingPercentage": "0.227",
+        "assists": "51",
+        "setErrors": "2",
+        "setAttempts": "158",
+        "serviceAces": "2",
+        "serviceErrors": "13",
+        "serveAttempts": "89",
+        "digs": "61",
+        "receptionAttempts": "88",
+        "receptionErrors": "4",
+        "blockSolos": "3",
+        "blockAssists": "14",
+        "blockingErrors": "2",
+        "totalBlocks": "10"
+      }
+    }
+  ]
+}

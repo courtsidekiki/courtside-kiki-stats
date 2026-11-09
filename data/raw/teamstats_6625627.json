@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625627,
+  "title": "WVB Boxscore",
+  "description": "LSU vs Oklahoma",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46059",
+      "seoname": "lsu",
+      "name6Char": "LSU",
+      "nameFull": "Louisiana State University",
+      "nameShort": "LSU",
+      "teamName": "Tigers",
+      "color": "#582C83"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46346",
+      "seoname": "oklahoma",
+      "name6Char": "OKLA",
+      "nameFull": "University of Oklahoma",
+      "nameShort": "Oklahoma",
+      "teamName": "Sooners",
+      "color": "#9D2235"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46059,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "98",
+        "kills": "57",
+        "attackErrors": "11",
+        "attackAttempts": "128",
+        "hittingPercentage": "0.359",
+        "assists": "54",
+        "setErrors": "0",
+        "setAttempts": "125",
+        "serviceAces": "5",
+        "serviceErrors": "11",
+        "serveAttempts": "97",
+        "digs": "60",
+        "receptionAttempts": "64",
+        "receptionErrors": "6",
+        "blockSolos": "1",
+        "blockAssists": "10",
+        "blockingErrors": "1",
+        "totalBlocks": "6"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46346,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "77",
+        "kills": "49",
+        "attackErrors": "22",
+        "attackAttempts": "140",
+        "hittingPercentage": "0.193",
+        "assists": "46",
+        "setErrors": "0",
+        "setAttempts": "141",
+        "serviceAces": "6",
+        "serviceErrors": "14",
+        "serveAttempts": "78",
+        "digs": "48",
+        "receptionAttempts": "86",
+        "receptionErrors": "5",
+        "blockSolos": "1",
+        "blockAssists": "9",
+        "blockingErrors": "0",
+        "totalBlocks": "5"
+      }
+    }
+  ]
+}

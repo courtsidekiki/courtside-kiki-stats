@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625917,
+  "title": "WVB Boxscore",
+  "description": "Miami (FL) vs California",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46066",
+      "seoname": "miami-fl",
+      "name6Char": "MIAMI",
+      "nameFull": "University of Miami (Florida)",
+      "nameShort": "Miami (FL)",
+      "teamName": "Hurricanes",
+      "color": "#154734"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45760",
+      "seoname": "california",
+      "name6Char": "CAL",
+      "nameFull": "University of California, Berkeley",
+      "nameShort": "California",
+      "teamName": "Golden Bears",
+      "color": "#041E42"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46066,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "49",
+        "attackErrors": "16",
+        "attackAttempts": "103",
+        "hittingPercentage": "0.320",
+        "assists": "45",
+        "setErrors": "0",
+        "setAttempts": "99",
+        "serviceAces": "6",
+        "serviceErrors": "5",
+        "serveAttempts": "73",
+        "digs": "46",
+        "receptionAttempts": "55",
+        "receptionErrors": "3",
+        "blockSolos": "2",
+        "blockAssists": "8",
+        "blockingErrors": "0",
+        "totalBlocks": "6"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45760,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "58",
+        "kills": "34",
+        "attackErrors": "15",
+        "attackAttempts": "108",
+        "hittingPercentage": "0.176",
+        "assists": "31",
+        "setErrors": "0",
+        "setAttempts": "106",
+        "serviceAces": "3",
+        "serviceErrors": "5",
+        "serveAttempts": "60",
+        "digs": "34",
+        "receptionAttempts": "68",
+        "receptionErrors": "6",
+        "blockSolos": "2",
+        "blockAssists": "14",
+        "blockingErrors": "1",
+        "totalBlocks": "9"
+      }
+    }
+  ]
+}

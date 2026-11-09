@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628006,
+  "title": "WVB Boxscore",
+  "description": "Loyola Maryland vs Navy",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46062",
+      "seoname": "loyola-maryland",
+      "name6Char": "LOY MD",
+      "nameFull": "Loyola University Maryland",
+      "nameShort": "Loyola Maryland",
+      "teamName": "Greyhounds",
+      "color": "#115740"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46372",
+      "seoname": "navy",
+      "name6Char": "NAVY",
+      "nameFull": "U.S. Naval Academy",
+      "nameShort": "Navy",
+      "teamName": "Midshipmen",
+      "color": "#00205B"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46062,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "105",
+        "kills": "62",
+        "attackErrors": "30",
+        "attackAttempts": "178",
+        "hittingPercentage": "0.180",
+        "assists": "59",
+        "setErrors": "2",
+        "setAttempts": "169",
+        "serviceAces": "6",
+        "serviceErrors": "8",
+        "serveAttempts": "105",
+        "digs": "78",
+        "receptionAttempts": "86",
+        "receptionErrors": "5",
+        "blockSolos": "0",
+        "blockAssists": "26",
+        "blockingErrors": "1",
+        "totalBlocks": "13"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46372,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "94",
+        "kills": "49",
+        "attackErrors": "29",
+        "attackAttempts": "171",
+        "hittingPercentage": "0.117",
+        "assists": "46",
+        "setErrors": "0",
+        "setAttempts": "165",
+        "serviceAces": "5",
+        "serviceErrors": "8",
+        "serveAttempts": "94",
+        "digs": "68",
+        "receptionAttempts": "97",
+        "receptionErrors": "6",
+        "blockSolos": "0",
+        "blockAssists": "20",
+        "blockingErrors": "2",
+        "totalBlocks": "10"
+      }
+    }
+  ]
+}
