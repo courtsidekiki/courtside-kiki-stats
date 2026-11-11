@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624620,
+  "title": "WVB Boxscore",
+  "description": "North Ala. vs West Ga.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46105",
+      "seoname": "north-ala",
+      "name6Char": "N ALA",
+      "nameFull": "University of North Alabama",
+      "nameShort": "North Ala.",
+      "teamName": "Lions",
+      "color": "#582C83"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46381",
+      "seoname": "west-ga",
+      "name6Char": "W GA",
+      "nameFull": "University of West Georgia",
+      "nameShort": "West Ga.",
+      "teamName": "Wolves",
+      "color": "#0032A0"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46105,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "95",
+        "kills": "58",
+        "attackErrors": "22",
+        "attackAttempts": "164",
+        "hittingPercentage": "0.220",
+        "assists": "53",
+        "setErrors": "1",
+        "setAttempts": "160",
+        "serviceAces": "3",
+        "serviceErrors": "9",
+        "serveAttempts": "94",
+        "digs": "77",
+        "receptionAttempts": "73",
+        "receptionErrors": "7",
+        "blockSolos": "0",
+        "blockAssists": "12",
+        "blockingErrors": "0",
+        "totalBlocks": "6"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46381,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "81",
+        "kills": "42",
+        "attackErrors": "25",
+        "attackAttempts": "150",
+        "hittingPercentage": "0.113",
+        "assists": "39",
+        "setErrors": "0",
+        "setAttempts": "150",
+        "serviceAces": "7",
+        "serviceErrors": "9",
+        "serveAttempts": "82",
+        "digs": "73",
+        "receptionAttempts": "85",
+        "receptionErrors": "3",
+        "blockSolos": "1",
+        "blockAssists": "10",
+        "blockingErrors": "0",
+        "totalBlocks": "6"
+      }
+    }
+  ]
+}

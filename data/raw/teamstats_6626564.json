@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626564,
+  "title": "WVB Boxscore",
+  "description": "Northern Ky. vs IU Indy",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46608",
+      "seoname": "northern-ky",
+      "name6Char": "N KY",
+      "nameFull": "Northern Kentucky University",
+      "nameShort": "Northern Ky.",
+      "teamName": "Norse",
+      "color": "#010101"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46148",
+      "seoname": "iu-indy",
+      "name6Char": "IUINDY",
+      "nameFull": "Indiana University Indianapolis",
+      "nameShort": "IU Indy",
+      "teamName": "Jaguars",
+      "color": "#A90533"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46608,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "96",
+        "kills": "60",
+        "attackErrors": "13",
+        "attackAttempts": "152",
+        "hittingPercentage": "0.309",
+        "assists": "54",
+        "setErrors": "0",
+        "setAttempts": "143",
+        "serviceAces": "6",
+        "serviceErrors": "9",
+        "serveAttempts": "97",
+        "digs": "68",
+        "receptionAttempts": "75",
+        "receptionErrors": "9",
+        "blockSolos": "0",
+        "blockAssists": "14",
+        "blockingErrors": "0",
+        "totalBlocks": "7"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46148,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "87",
+        "kills": "56",
+        "attackErrors": "19",
+        "attackAttempts": "160",
+        "hittingPercentage": "0.231",
+        "assists": "50",
+        "setErrors": "0",
+        "setAttempts": "148",
+        "serviceAces": "9",
+        "serviceErrors": "11",
+        "serveAttempts": "86",
+        "digs": "66",
+        "receptionAttempts": "88",
+        "receptionErrors": "6",
+        "blockSolos": "1",
+        "blockAssists": "6",
+        "blockingErrors": "2",
+        "totalBlocks": "4"
+      }
+    }
+  ]
+}

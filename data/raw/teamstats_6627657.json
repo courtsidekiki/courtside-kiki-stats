@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627657,
+  "title": "WVB Boxscore",
+  "description": "Evansville vs Indiana St.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46672",
+      "seoname": "evansville",
+      "name6Char": "EVANS",
+      "nameFull": "University of Evansville",
+      "nameShort": "Evansville",
+      "teamName": "Purple Aces",
+      "color": "#470A68"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46681",
+      "seoname": "indiana-st",
+      "name6Char": "IND ST",
+      "nameFull": "Indiana State University",
+      "nameShort": "Indiana St.",
+      "teamName": "Sycamores",
+      "color": "#1E437B"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46672,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "90",
+        "kills": "40",
+        "attackErrors": "18",
+        "attackAttempts": "116",
+        "hittingPercentage": "0.190",
+        "assists": "34",
+        "setErrors": "1",
+        "setAttempts": "123",
+        "serviceAces": "8",
+        "serviceErrors": "12",
+        "serveAttempts": "89",
+        "digs": "50",
+        "receptionAttempts": "68",
+        "receptionErrors": "6",
+        "blockSolos": "1",
+        "blockAssists": "18",
+        "blockingErrors": "1",
+        "totalBlocks": "10"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46681,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "80",
+        "kills": "43",
+        "attackErrors": "27",
+        "attackAttempts": "132",
+        "hittingPercentage": "0.121",
+        "assists": "36",
+        "setErrors": "2",
+        "setAttempts": "126",
+        "serviceAces": "6",
+        "serviceErrors": "13",
+        "serveAttempts": "81",
+        "digs": "48",
+        "receptionAttempts": "77",
+        "receptionErrors": "8",
+        "blockSolos": "2",
+        "blockAssists": "8",
+        "blockingErrors": "0",
+        "totalBlocks": "6"
+      }
+    }
+  ]
+}

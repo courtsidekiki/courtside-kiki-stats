@@ -1,0 +1,104 @@
+{
+  "contests": [
+    {
+      "__typename": "Contest",
+      "id": "6627439",
+      "sportCode": "WVB",
+      "sportUrl": "volleyball-women",
+      "division": 1,
+      "clock": null,
+      "currentPeriod": "FINAL",
+      "finalMessage": "FINAL",
+      "gameState": "F",
+      "statusCodeDisplay": "final",
+      "network": null,
+      "startTime": "14:00",
+      "startTimeEpoch": 1794337200,
+      "week": null,
+      "seasonYear": 2026,
+      "winner": 46392,
+      "hasStartTime": true,
+      "hasBoxscore": true,
+      "hasPbp": true,
+      "hasScoringSummary": false,
+      "hasPreview": false,
+      "hasRecap": false,
+      "hasTeamStats": true,
+      "linescores": [
+        {
+          "__typename": "Linescore",
+          "period": "1",
+          "home": "18",
+          "visit": "25"
+        },
+        {
+          "__typename": "Linescore",
+          "period": "2",
+          "home": "20",
+          "visit": "25"
+        },
+        {
+          "__typename": "Linescore",
+          "period": "3",
+          "home": "25",
+          "visit": "19"
+        },
+        {
+          "__typename": "Linescore",
+          "period": "4",
+          "home": "18",
+          "visit": "25"
+        }
+      ],
+      "teams": [
+        {
+          "__typename": "ContestTeam",
+          "teamId": "46157",
+          "isHome": true,
+          "color": "#0072CE",
+          "seoname": "west-florida",
+          "nameFull": "University of West Florida",
+          "nameShort": "West Florida",
+          "name6Char": "W FLA",
+          "teamRank": null,
+          "gameRank": null,
+          "score": 1,
+          "seed": null,
+          "record": "(15-6)",
+          "divisionName": "d1",
+          "division": 1,
+          "isWinner": false
+        },
+        {
+          "__typename": "ContestTeam",
+          "teamId": "46392",
+          "isHome": false,
+          "color": "#001B49",
+          "seoname": "north-florida",
+          "nameFull": "University of North Florida",
+          "nameShort": "North Florida",
+          "name6Char": "NO FLA",
+          "teamRank": null,
+          "gameRank": null,
+          "score": 3,
+          "seed": null,
+          "record": "(14-10)",
+          "divisionName": "d1",
+          "division": 1,
+          "isWinner": true
+        }
+      ],
+      "liveVideos": [],
+      "championship": null,
+      "championshipGame": null,
+      "links": [],
+      "location": {
+        "__typename": "Location",
+        "venue": "UWF Field House",
+        "city": "Pensacola",
+        "stateUsps": "FL"
+      },
+      "stats": null
+    }
+  ]
+}

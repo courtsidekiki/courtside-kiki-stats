@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624932,
+  "title": "WVB Boxscore",
+  "description": "Buffalo vs Akron",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46444",
+      "seoname": "buffalo",
+      "name6Char": "BUFF",
+      "nameFull": "University at Buffalo, the State University of New York",
+      "nameShort": "Buffalo",
+      "teamName": "Bulls",
+      "color": "#0057B8"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46692",
+      "seoname": "akron",
+      "name6Char": "AKRON",
+      "nameFull": "University of Akron",
+      "nameShort": "Akron",
+      "teamName": "Zips",
+      "color": "#0F192B"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46444,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "112",
+        "kills": "64",
+        "attackErrors": "32",
+        "attackAttempts": "170",
+        "hittingPercentage": "0.188",
+        "assists": "58",
+        "setErrors": "0",
+        "setAttempts": "172",
+        "serviceAces": "6",
+        "serviceErrors": "10",
+        "serveAttempts": "112",
+        "digs": "80",
+        "receptionAttempts": "92",
+        "receptionErrors": "5",
+        "blockSolos": "7",
+        "blockAssists": "20",
+        "blockingErrors": "1",
+        "totalBlocks": "17"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46692,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "100",
+        "kills": "53",
+        "attackErrors": "32",
+        "attackAttempts": "181",
+        "hittingPercentage": "0.116",
+        "assists": "51",
+        "setErrors": "2",
+        "setAttempts": "178",
+        "serviceAces": "5",
+        "serviceErrors": "8",
+        "serveAttempts": "100",
+        "digs": "67",
+        "receptionAttempts": "102",
+        "receptionErrors": "6",
+        "blockSolos": "5",
+        "blockAssists": "14",
+        "blockingErrors": "2",
+        "totalBlocks": "12"
+      }
+    }
+  ]
+}
