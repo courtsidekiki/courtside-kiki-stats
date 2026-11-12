@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624259,
+  "title": "WVB Boxscore",
+  "description": "Minnesota vs Indiana",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46204",
+      "seoname": "minnesota",
+      "name6Char": "MINN",
+      "nameFull": "University of Minnesota, Twin Cities",
+      "nameShort": "Minnesota",
+      "teamName": "Golden Gophers",
+      "color": "#861F41"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46314",
+      "seoname": "indiana",
+      "name6Char": "IND",
+      "nameFull": "Indiana University, Bloomington",
+      "nameShort": "Indiana",
+      "teamName": "Hoosiers",
+      "color": "#970310"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46204,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "93",
+        "kills": "47",
+        "attackErrors": "18",
+        "attackAttempts": "135",
+        "hittingPercentage": "0.215",
+        "assists": "46",
+        "setErrors": "0",
+        "setAttempts": "132",
+        "serviceAces": "9",
+        "serviceErrors": "8",
+        "serveAttempts": "92",
+        "digs": "55",
+        "receptionAttempts": "72",
+        "receptionErrors": "5",
+        "blockSolos": "3",
+        "blockAssists": "20",
+        "blockingErrors": "0",
+        "totalBlocks": "13"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46314,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "82",
+        "kills": "51",
+        "attackErrors": "25",
+        "attackAttempts": "150",
+        "hittingPercentage": "0.173",
+        "assists": "48",
+        "setErrors": "1",
+        "setAttempts": "139",
+        "serviceAces": "5",
+        "serviceErrors": "11",
+        "serveAttempts": "83",
+        "digs": "58",
+        "receptionAttempts": "84",
+        "receptionErrors": "9",
+        "blockSolos": "3",
+        "blockAssists": "18",
+        "blockingErrors": "0",
+        "totalBlocks": "12"
+      }
+    }
+  ]
+}

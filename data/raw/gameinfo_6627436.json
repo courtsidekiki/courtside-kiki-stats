@@ -1,0 +1,110 @@
+{
+  "contests": [
+    {
+      "__typename": "Contest",
+      "id": "6627436",
+      "sportCode": "WVB",
+      "sportUrl": "volleyball-women",
+      "division": 1,
+      "clock": null,
+      "currentPeriod": "FINAL",
+      "finalMessage": "FINAL",
+      "gameState": "F",
+      "statusCodeDisplay": "final",
+      "network": null,
+      "startTime": "17:00",
+      "startTimeEpoch": 1794434400,
+      "week": null,
+      "seasonYear": 2026,
+      "winner": 45917,
+      "hasStartTime": true,
+      "hasBoxscore": true,
+      "hasPbp": true,
+      "hasScoringSummary": false,
+      "hasPreview": false,
+      "hasRecap": false,
+      "hasTeamStats": true,
+      "linescores": [
+        {
+          "__typename": "Linescore",
+          "period": "1",
+          "home": "16",
+          "visit": "25"
+        },
+        {
+          "__typename": "Linescore",
+          "period": "2",
+          "home": "25",
+          "visit": "23"
+        },
+        {
+          "__typename": "Linescore",
+          "period": "3",
+          "home": "25",
+          "visit": "9"
+        },
+        {
+          "__typename": "Linescore",
+          "period": "4",
+          "home": "18",
+          "visit": "25"
+        },
+        {
+          "__typename": "Linescore",
+          "period": "5",
+          "home": "4",
+          "visit": "15"
+        }
+      ],
+      "teams": [
+        {
+          "__typename": "ContestTeam",
+          "teamId": "46157",
+          "isHome": true,
+          "color": "#0072CE",
+          "seoname": "west-florida",
+          "nameFull": "University of West Florida",
+          "nameShort": "West Florida",
+          "name6Char": "W FLA",
+          "teamRank": null,
+          "gameRank": null,
+          "score": 2,
+          "seed": null,
+          "record": "(15-7)",
+          "divisionName": "d1",
+          "division": 1,
+          "isWinner": false
+        },
+        {
+          "__typename": "ContestTeam",
+          "teamId": "45917",
+          "isHome": false,
+          "color": "#004E42",
+          "seoname": "jacksonville",
+          "nameFull": "Jacksonville University",
+          "nameShort": "Jacksonville",
+          "name6Char": "JVILLE",
+          "teamRank": null,
+          "gameRank": null,
+          "score": 3,
+          "seed": null,
+          "record": "(11-15)",
+          "divisionName": "d1",
+          "division": 1,
+          "isWinner": true
+        }
+      ],
+      "liveVideos": [],
+      "championship": null,
+      "championshipGame": null,
+      "links": [],
+      "location": {
+        "__typename": "Location",
+        "venue": "UWF Field House",
+        "city": "Pensacola",
+        "stateUsps": "FL"
+      },
+      "stats": null
+    }
+  ]
+}
