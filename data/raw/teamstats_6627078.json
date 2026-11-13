@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627078,
+  "title": "WVB Boxscore",
+  "description": "Hampton vs UNCW",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46679",
+      "seoname": "hampton",
+      "name6Char": "HAMPTN",
+      "nameFull": "Hampton University",
+      "nameShort": "Hampton",
+      "teamName": "Pirates",
+      "color": "#0033A0"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46473",
+      "seoname": "unc-wilmington",
+      "name6Char": "UNCW",
+      "nameFull": "University of North Carolina Wilmington",
+      "nameShort": "UNCW",
+      "teamName": "Seahawks",
+      "color": "#00685E"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46679,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "56",
+        "kills": "29",
+        "attackErrors": "11",
+        "attackAttempts": "110",
+        "hittingPercentage": "0.164",
+        "assists": "28",
+        "setErrors": "3",
+        "setAttempts": "109",
+        "serviceAces": "2",
+        "serviceErrors": "8",
+        "serveAttempts": "57",
+        "digs": "47",
+        "receptionAttempts": "64",
+        "receptionErrors": "6",
+        "blockSolos": "1",
+        "blockAssists": "8",
+        "blockingErrors": "0",
+        "totalBlocks": "5"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46473,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "47",
+        "attackErrors": "15",
+        "attackAttempts": "110",
+        "hittingPercentage": "0.291",
+        "assists": "40",
+        "setErrors": "0",
+        "setAttempts": "101",
+        "serviceAces": "6",
+        "serviceErrors": "10",
+        "serveAttempts": "74",
+        "digs": "63",
+        "receptionAttempts": "49",
+        "receptionErrors": "2",
+        "blockSolos": "2",
+        "blockAssists": "6",
+        "blockingErrors": "0",
+        "totalBlocks": "5"
+      }
+    }
+  ]
+}

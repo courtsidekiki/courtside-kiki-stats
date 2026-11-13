@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624568,
+  "title": "WVB Boxscore",
+  "description": "LSU New Orleans  vs Lamar University",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46726",
+      "seoname": "new-orleans",
+      "name6Char": "UNO",
+      "nameFull": "LSU New Orleans",
+      "nameShort": "LSU New Orleans ",
+      "teamName": "Privateers",
+      "color": "#0057B8"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45922",
+      "seoname": "lamar",
+      "name6Char": "LAMAR",
+      "nameFull": "Lamar University",
+      "nameShort": "Lamar University",
+      "teamName": "Cardinals",
+      "color": "#D50032"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46726,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "87",
+        "kills": "46",
+        "attackErrors": "23",
+        "attackAttempts": "174",
+        "hittingPercentage": "0.132",
+        "assists": "44",
+        "setErrors": "1",
+        "setAttempts": "173",
+        "serviceAces": "5",
+        "serviceErrors": "8",
+        "serveAttempts": "88",
+        "digs": "76",
+        "receptionAttempts": "90",
+        "receptionErrors": "5",
+        "blockSolos": "0",
+        "blockAssists": "32",
+        "blockingErrors": "2",
+        "totalBlocks": "16"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45922,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "98",
+        "kills": "61",
+        "attackErrors": "26",
+        "attackAttempts": "173",
+        "hittingPercentage": "0.202",
+        "assists": "59",
+        "setErrors": "3",
+        "setAttempts": "181",
+        "serviceAces": "5",
+        "serviceErrors": "7",
+        "serveAttempts": "97",
+        "digs": "95",
+        "receptionAttempts": "80",
+        "receptionErrors": "5",
+        "blockSolos": "0",
+        "blockAssists": "14",
+        "blockingErrors": "2",
+        "totalBlocks": "7"
+      }
+    }
+  ]
+}

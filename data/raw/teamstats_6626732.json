@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626732,
+  "title": "WVB Boxscore",
+  "description": "Hawaii vs Air Force",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46419",
+      "seoname": "hawaii",
+      "name6Char": "HAWAII",
+      "nameFull": "University of Hawaii, Manoa",
+      "nameShort": "Hawaii",
+      "teamName": "Rainbow Wahine",
+      "color": "#154734"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46129",
+      "seoname": "air-force",
+      "name6Char": "AIRFOR",
+      "nameFull": "U.S. Air Force Academy",
+      "nameShort": "Air Force",
+      "teamName": "Falcons",
+      "color": "#0032A0"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46419,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "98",
+        "kills": "65",
+        "attackErrors": "22",
+        "attackAttempts": "184",
+        "hittingPercentage": "0.234",
+        "assists": "63",
+        "setErrors": "1",
+        "setAttempts": "173",
+        "serviceAces": "4",
+        "serviceErrors": "12",
+        "serveAttempts": "97",
+        "digs": "80",
+        "receptionAttempts": "79",
+        "receptionErrors": "4",
+        "blockSolos": "3",
+        "blockAssists": "20",
+        "blockingErrors": "0",
+        "totalBlocks": "13"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46129,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "85",
+        "kills": "45",
+        "attackErrors": "22",
+        "attackAttempts": "157",
+        "hittingPercentage": "0.146",
+        "assists": "42",
+        "setErrors": "0",
+        "setAttempts": "154",
+        "serviceAces": "4",
+        "serviceErrors": "7",
+        "serveAttempts": "86",
+        "digs": "70",
+        "receptionAttempts": "85",
+        "receptionErrors": "4",
+        "blockSolos": "1",
+        "blockAssists": "14",
+        "blockingErrors": "1",
+        "totalBlocks": "8"
+      }
+    }
+  ]
+}

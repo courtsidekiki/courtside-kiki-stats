@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624695,
+  "title": "WVB Boxscore",
+  "description": "Rhode Island vs Saint Louis",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "3RD SET",
+  "status": "I",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46242",
+      "seoname": "rhode-island",
+      "name6Char": "URI",
+      "nameFull": "University of Rhode Island",
+      "nameShort": "Rhode Island",
+      "teamName": "Rams",
+      "color": "#041E42"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46744",
+      "seoname": "saint-louis",
+      "name6Char": "ST LOU",
+      "nameFull": "Saint Louis University",
+      "nameShort": "Saint Louis",
+      "teamName": "Billikens",
+      "color": "#003DA5"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46242,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "67",
+        "kills": "37",
+        "attackErrors": "13",
+        "attackAttempts": "99",
+        "hittingPercentage": "0.242",
+        "assists": "36",
+        "setErrors": "0",
+        "setAttempts": "101",
+        "serviceAces": "6",
+        "serviceErrors": "4",
+        "serveAttempts": "66",
+        "digs": "38",
+        "receptionAttempts": "57",
+        "receptionErrors": "2",
+        "blockSolos": "0",
+        "blockAssists": "10",
+        "blockingErrors": "1",
+        "totalBlocks": "10"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46744,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "60",
+        "kills": "41",
+        "attackErrors": "20",
+        "attackAttempts": "107",
+        "hittingPercentage": "0.196",
+        "assists": "39",
+        "setErrors": "0",
+        "setAttempts": "104",
+        "serviceAces": "2",
+        "serviceErrors": "4",
+        "serveAttempts": "61",
+        "digs": "42",
+        "receptionAttempts": "62",
+        "receptionErrors": "6",
+        "blockSolos": "2",
+        "blockAssists": "8",
+        "blockingErrors": "0",
+        "totalBlocks": "10"
+      }
+    }
+  ]
+}

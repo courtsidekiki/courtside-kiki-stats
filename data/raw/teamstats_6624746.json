@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624746,
+  "title": "WVB Boxscore",
+  "description": "Youngstown St. vs Milwaukee",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46583",
+      "seoname": "youngstown-st",
+      "name6Char": "YSU",
+      "nameFull": "Youngstown State University",
+      "nameShort": "Youngstown St.",
+      "teamName": "Penguins",
+      "color": "#C8102E"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45953",
+      "seoname": "milwaukee",
+      "name6Char": "MILWKE",
+      "nameFull": "University of Wisconsin-Milwaukee",
+      "nameShort": "Milwaukee",
+      "teamName": "Panthers",
+      "color": "#010101"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46583,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "39",
+        "attackErrors": "10",
+        "attackAttempts": "118",
+        "hittingPercentage": "0.246",
+        "assists": "36",
+        "setErrors": "2",
+        "setAttempts": "116",
+        "serviceAces": "9",
+        "serviceErrors": "7",
+        "serveAttempts": "74",
+        "digs": "52",
+        "receptionAttempts": "55",
+        "receptionErrors": "2",
+        "blockSolos": "2",
+        "blockAssists": "14",
+        "blockingErrors": "0",
+        "totalBlocks": "9"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45953,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "57",
+        "kills": "36",
+        "attackErrors": "21",
+        "attackAttempts": "120",
+        "hittingPercentage": "0.125",
+        "assists": "33",
+        "setErrors": "3",
+        "setAttempts": "123",
+        "serviceAces": "2",
+        "serviceErrors": "3",
+        "serveAttempts": "58",
+        "digs": "61",
+        "receptionAttempts": "67",
+        "receptionErrors": "9",
+        "blockSolos": "1",
+        "blockAssists": "4",
+        "blockingErrors": "1",
+        "totalBlocks": "3"
+      }
+    }
+  ]
+}

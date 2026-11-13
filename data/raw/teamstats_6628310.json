@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628310,
+  "title": "WVB Boxscore",
+  "description": "Northern Colo. vs Southern Utah",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46478",
+      "seoname": "northern-colo",
+      "name6Char": "N COLO",
+      "nameFull": "University of Northern Colorado",
+      "nameShort": "Northern Colo.",
+      "teamName": "Bears",
+      "color": "#002855"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46002",
+      "seoname": "southern-utah",
+      "name6Char": "S UTAH",
+      "nameFull": "Southern Utah University",
+      "nameShort": "Southern Utah",
+      "teamName": "Thunderbirds",
+      "color": "#BA0C2F"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46478,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "98",
+        "kills": "47",
+        "attackErrors": "25",
+        "attackAttempts": "134",
+        "hittingPercentage": "0.164",
+        "assists": "44",
+        "setErrors": "1",
+        "setAttempts": "138",
+        "serviceAces": "14",
+        "serviceErrors": "6",
+        "serveAttempts": "97",
+        "digs": "51",
+        "receptionAttempts": "73",
+        "receptionErrors": "4",
+        "blockSolos": "2",
+        "blockAssists": "4",
+        "blockingErrors": "0",
+        "totalBlocks": "4"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46002,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "80",
+        "kills": "44",
+        "attackErrors": "22",
+        "attackAttempts": "129",
+        "hittingPercentage": "0.171",
+        "assists": "40",
+        "setErrors": "4",
+        "setAttempts": "140",
+        "serviceAces": "4",
+        "serviceErrors": "8",
+        "serveAttempts": "81",
+        "digs": "47",
+        "receptionAttempts": "91",
+        "receptionErrors": "14",
+        "blockSolos": "7",
+        "blockAssists": "4",
+        "blockingErrors": "0",
+        "totalBlocks": "9"
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626772,
+  "title": "WVB Boxscore",
+  "description": "Grand Canyon vs UTEP",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46590",
+      "seoname": "grand-canyon",
+      "name6Char": "GCANYN",
+      "nameFull": "Grand Canyon University",
+      "nameShort": "Grand Canyon",
+      "teamName": "Lopes",
+      "color": "#5F259F"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45874",
+      "seoname": "utep",
+      "name6Char": "UTEP",
+      "nameFull": "University of Texas at El Paso",
+      "nameShort": "UTEP",
+      "teamName": "Miners",
+      "color": "#041E42"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46590,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "98",
+        "kills": "49",
+        "attackErrors": "12",
+        "attackAttempts": "135",
+        "hittingPercentage": "0.274",
+        "assists": "44",
+        "setErrors": "2",
+        "setAttempts": "135",
+        "serviceAces": "6",
+        "serviceErrors": "11",
+        "serveAttempts": "97",
+        "digs": "63",
+        "receptionAttempts": "66",
+        "receptionErrors": "6",
+        "blockSolos": "1",
+        "blockAssists": "10",
+        "blockingErrors": "2",
+        "totalBlocks": "6"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45874,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "81",
+        "kills": "50",
+        "attackErrors": "23",
+        "attackAttempts": "148",
+        "hittingPercentage": "0.182",
+        "assists": "45",
+        "setErrors": "3",
+        "setAttempts": "151",
+        "serviceAces": "6",
+        "serviceErrors": "16",
+        "serveAttempts": "82",
+        "digs": "60",
+        "receptionAttempts": "86",
+        "receptionErrors": "6",
+        "blockSolos": "1",
+        "blockAssists": "10",
+        "blockingErrors": "1",
+        "totalBlocks": "6"
+      }
+    }
+  ]
+}

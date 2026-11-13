@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627799,
+  "title": "WVB Boxscore",
+  "description": "Eastern Wash. vs Montana St.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46180",
+      "seoname": "eastern-wash",
+      "name6Char": "E WASH",
+      "nameFull": "Eastern Washington University",
+      "nameShort": "Eastern Wash.",
+      "teamName": "Eagles",
+      "color": "#A6192E"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46340",
+      "seoname": "montana-st",
+      "name6Char": "MONTST ",
+      "nameFull": "Montana State University-Bozeman",
+      "nameShort": "Montana St.",
+      "teamName": "Bobcats",
+      "color": "#00205B"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46180,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "71",
+        "kills": "34",
+        "attackErrors": "19",
+        "attackAttempts": "113",
+        "hittingPercentage": "0.133",
+        "assists": "30",
+        "setErrors": "1",
+        "setAttempts": "112",
+        "serviceAces": "4",
+        "serviceErrors": "5",
+        "serveAttempts": "72",
+        "digs": "44",
+        "receptionAttempts": "84",
+        "receptionErrors": "9",
+        "blockSolos": "10",
+        "blockAssists": "4",
+        "blockingErrors": "3",
+        "totalBlocks": "12"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46340,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "96",
+        "kills": "62",
+        "attackErrors": "22",
+        "attackAttempts": "134",
+        "hittingPercentage": "0.299",
+        "assists": "56",
+        "setErrors": "0",
+        "setAttempts": "123",
+        "serviceAces": "9",
+        "serviceErrors": "11",
+        "serveAttempts": "95",
+        "digs": "55",
+        "receptionAttempts": "67",
+        "receptionErrors": "4",
+        "blockSolos": "5",
+        "blockAssists": "2",
+        "blockingErrors": "2",
+        "totalBlocks": "6"
+      }
+    }
+  ]
+}

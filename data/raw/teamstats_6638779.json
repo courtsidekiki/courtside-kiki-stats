@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6638779,
+  "title": "WVB Boxscore",
+  "description": "Northern Ariz. vs Weber St.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46729",
+      "seoname": "northern-ariz",
+      "name6Char": "NAU",
+      "nameFull": "Northern Arizona University",
+      "nameShort": "Northern Ariz.",
+      "teamName": "Lumberjacks",
+      "color": "#00205B"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46011",
+      "seoname": "weber-st",
+      "name6Char": "WEB ST",
+      "nameFull": "Weber State University",
+      "nameShort": "Weber St.",
+      "teamName": "Wildcats",
+      "color": "#470A68"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46729,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "91",
+        "kills": "50",
+        "attackErrors": "21",
+        "attackAttempts": "161",
+        "hittingPercentage": "0.180",
+        "assists": "45",
+        "setErrors": "4",
+        "setAttempts": "166",
+        "serviceAces": "7",
+        "serviceErrors": "5",
+        "serveAttempts": "90",
+        "digs": "73",
+        "receptionAttempts": "83",
+        "receptionErrors": "4",
+        "blockSolos": "2",
+        "blockAssists": "12",
+        "blockingErrors": "0",
+        "totalBlocks": "8"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46011,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "84",
+        "kills": "50",
+        "attackErrors": "28",
+        "attackAttempts": "155",
+        "hittingPercentage": "0.142",
+        "assists": "46",
+        "setErrors": "4",
+        "setAttempts": "160",
+        "serviceAces": "4",
+        "serviceErrors": "2",
+        "serveAttempts": "85",
+        "digs": "74",
+        "receptionAttempts": "85",
+        "receptionErrors": "7",
+        "blockSolos": "2",
+        "blockAssists": "14",
+        "blockingErrors": "0",
+        "totalBlocks": "9"
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628388,
+  "title": "WVB Boxscore",
+  "description": "Omaha vs Kansas City",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46342",
+      "seoname": "neb-omaha",
+      "name6Char": "OMAHA",
+      "nameFull": "University of Nebraska at Omaha",
+      "nameShort": "Omaha",
+      "teamName": "Mavericks",
+      "color": "#010101"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46391",
+      "seoname": "umkc",
+      "name6Char": "KC",
+      "nameFull": "University of Missouri-Kansas City",
+      "nameShort": "Kansas City",
+      "teamName": "Roos",
+      "color": "#004B87"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46342,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "107",
+        "kills": "68",
+        "attackErrors": "32",
+        "attackAttempts": "175",
+        "hittingPercentage": "0.206",
+        "assists": "61",
+        "setErrors": "2",
+        "setAttempts": "177",
+        "serviceAces": "9",
+        "serviceErrors": "10",
+        "serveAttempts": "108",
+        "digs": "80",
+        "receptionAttempts": "100",
+        "receptionErrors": "12",
+        "blockSolos": "2",
+        "blockAssists": "20",
+        "blockingErrors": "0",
+        "totalBlocks": "12"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46391,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "105",
+        "kills": "49",
+        "attackErrors": "25",
+        "attackAttempts": "164",
+        "hittingPercentage": "0.146",
+        "assists": "46",
+        "setErrors": "1",
+        "setAttempts": "166",
+        "serviceAces": "12",
+        "serviceErrors": "4",
+        "serveAttempts": "104",
+        "digs": "62",
+        "receptionAttempts": "98",
+        "receptionErrors": "9",
+        "blockSolos": "4",
+        "blockAssists": "20",
+        "blockingErrors": "1",
+        "totalBlocks": "14"
+      }
+    }
+  ]
+}

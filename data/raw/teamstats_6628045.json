@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628045,
+  "title": "WVB Boxscore",
+  "description": "Utah vs Texas Tech",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46628",
+      "seoname": "utah",
+      "name6Char": "UTAH",
+      "nameFull": "University of Utah",
+      "nameShort": "Utah",
+      "teamName": "Utes",
+      "color": "#D42331"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46253",
+      "seoname": "texas-tech",
+      "name6Char": "TXTECH",
+      "nameFull": "Texas Tech University",
+      "nameShort": "Texas Tech",
+      "teamName": "Red Raiders",
+      "color": "#ED1F2A"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46628,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "44",
+        "attackErrors": "9",
+        "attackAttempts": "94",
+        "hittingPercentage": "0.372",
+        "assists": "43",
+        "setErrors": "0",
+        "setAttempts": "93",
+        "serviceAces": "4",
+        "serviceErrors": "16",
+        "serveAttempts": "73",
+        "digs": "39",
+        "receptionAttempts": "47",
+        "receptionErrors": "2",
+        "blockSolos": "1",
+        "blockAssists": "16",
+        "blockingErrors": "3",
+        "totalBlocks": "9"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46253,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "54",
+        "kills": "27",
+        "attackErrors": "18",
+        "attackAttempts": "92",
+        "hittingPercentage": "0.098",
+        "assists": "25",
+        "setErrors": "0",
+        "setAttempts": "90",
+        "serviceAces": "2",
+        "serviceErrors": "9",
+        "serveAttempts": "56",
+        "digs": "34",
+        "receptionAttempts": "57",
+        "receptionErrors": "4",
+        "blockSolos": "1",
+        "blockAssists": "6",
+        "blockingErrors": "0",
+        "totalBlocks": "4"
+      }
+    }
+  ]
+}

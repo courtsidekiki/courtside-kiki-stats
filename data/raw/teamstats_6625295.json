@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625295,
+  "title": "WVB Boxscore",
+  "description": "Northwestern vs Iowa",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46238",
+      "seoname": "northwestern",
+      "name6Char": "NW",
+      "nameFull": "Northwestern University",
+      "nameShort": "Northwestern",
+      "teamName": "Wildcats",
+      "color": "#4E2A84"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46553",
+      "seoname": "iowa",
+      "name6Char": "IOWA",
+      "nameFull": "University of Iowa",
+      "nameShort": "Iowa",
+      "teamName": "Hawkeyes",
+      "color": "#010101"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46238,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "40",
+        "attackErrors": "14",
+        "attackAttempts": "105",
+        "hittingPercentage": "0.248",
+        "assists": "39",
+        "setErrors": "0",
+        "setAttempts": "101",
+        "serviceAces": "5",
+        "serviceErrors": "7",
+        "serveAttempts": "74",
+        "digs": "41",
+        "receptionAttempts": "53",
+        "receptionErrors": "4",
+        "blockSolos": "2",
+        "blockAssists": "12",
+        "blockingErrors": "0",
+        "totalBlocks": "8"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46553,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "62",
+        "kills": "37",
+        "attackErrors": "17",
+        "attackAttempts": "101",
+        "hittingPercentage": "0.198",
+        "assists": "35",
+        "setErrors": "3",
+        "setAttempts": "104",
+        "serviceAces": "4",
+        "serviceErrors": "10",
+        "serveAttempts": "63",
+        "digs": "42",
+        "receptionAttempts": "67",
+        "receptionErrors": "5",
+        "blockSolos": "0",
+        "blockAssists": "8",
+        "blockingErrors": "0",
+        "totalBlocks": "4"
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624667,
+  "title": "WVB Boxscore",
+  "description": "Abilene Christian vs Central Ark.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45940",
+      "seoname": "abilene-christian",
+      "name6Char": "ABILCH",
+      "nameFull": "Abilene Christian University",
+      "nameShort": "Abilene Christian",
+      "teamName": "Wildcats",
+      "color": "#582C83"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45955",
+      "seoname": "central-ark",
+      "name6Char": "C ARK",
+      "nameFull": "University of Central Arkansas",
+      "nameShort": "Central Ark.",
+      "teamName": "Bears",
+      "color": "#582C83"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45940,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "91",
+        "kills": "58",
+        "attackErrors": "23",
+        "attackAttempts": "133",
+        "hittingPercentage": "0.263",
+        "assists": "58",
+        "setErrors": "2",
+        "setAttempts": "131",
+        "serviceAces": "6",
+        "serviceErrors": "9",
+        "serveAttempts": "90",
+        "digs": "63",
+        "receptionAttempts": "73",
+        "receptionErrors": "2",
+        "blockSolos": "1",
+        "blockAssists": "8",
+        "blockingErrors": "0",
+        "totalBlocks": "5"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45955,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "80",
+        "kills": "44",
+        "attackErrors": "18",
+        "attackAttempts": "132",
+        "hittingPercentage": "0.197",
+        "assists": "41",
+        "setErrors": "1",
+        "setAttempts": "131",
+        "serviceAces": "2",
+        "serviceErrors": "8",
+        "serveAttempts": "81",
+        "digs": "45",
+        "receptionAttempts": "81",
+        "receptionErrors": "6",
+        "blockSolos": "2",
+        "blockAssists": "16",
+        "blockingErrors": "0",
+        "totalBlocks": "10"
+      }
+    }
+  ]
+}

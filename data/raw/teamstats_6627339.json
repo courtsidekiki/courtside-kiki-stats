@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627339,
+  "title": "WVB Boxscore",
+  "description": "McNeese vs Nicholls",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46201",
+      "seoname": "mcneese",
+      "name6Char": "MCNEES",
+      "nameFull": "McNeese State University",
+      "nameShort": "McNeese",
+      "teamName": "Cowgirls",
+      "color": "#003087"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46103",
+      "seoname": "nicholls-st",
+      "name6Char": "NICHST",
+      "nameFull": "Nicholls State University",
+      "nameShort": "Nicholls",
+      "teamName": "Colonels",
+      "color": "#A6192E"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46201,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "39",
+        "attackErrors": "12",
+        "attackAttempts": "104",
+        "hittingPercentage": "0.260",
+        "assists": "35",
+        "setErrors": "0",
+        "setAttempts": "102",
+        "serviceAces": "10",
+        "serviceErrors": "5",
+        "serveAttempts": "74",
+        "digs": "50",
+        "receptionAttempts": "47",
+        "receptionErrors": "4",
+        "blockSolos": "1",
+        "blockAssists": "18",
+        "blockingErrors": "1",
+        "totalBlocks": "10"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46103,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "53",
+        "kills": "32",
+        "attackErrors": "18",
+        "attackAttempts": "114",
+        "hittingPercentage": "0.123",
+        "assists": "26",
+        "setErrors": "1",
+        "setAttempts": "107",
+        "serviceAces": "4",
+        "serviceErrors": "7",
+        "serveAttempts": "54",
+        "digs": "43",
+        "receptionAttempts": "69",
+        "receptionErrors": "10",
+        "blockSolos": "2",
+        "blockAssists": "8",
+        "blockingErrors": "1",
+        "totalBlocks": "6"
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626453,
+  "title": "WVB Boxscore",
+  "description": "Liberty vs Delaware",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45925",
+      "seoname": "liberty",
+      "name6Char": "LIBRTY",
+      "nameFull": "Liberty University",
+      "nameShort": "Liberty",
+      "teamName": "Lady Flames",
+      "color": "#971A1F"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46667",
+      "seoname": "delaware",
+      "name6Char": "DEL",
+      "nameFull": "University of Delaware",
+      "nameShort": "Delaware",
+      "teamName": "Blue Hens",
+      "color": "#006095"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45925,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "48",
+        "attackErrors": "12",
+        "attackAttempts": "101",
+        "hittingPercentage": "0.356",
+        "assists": "46",
+        "setErrors": "0",
+        "setAttempts": "99",
+        "serviceAces": "8",
+        "serviceErrors": "10",
+        "serveAttempts": "73",
+        "digs": "39",
+        "receptionAttempts": "57",
+        "receptionErrors": "2",
+        "blockSolos": "3",
+        "blockAssists": "14",
+        "blockingErrors": "2",
+        "totalBlocks": "10"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46667,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "58",
+        "kills": "34",
+        "attackErrors": "16",
+        "attackAttempts": "98",
+        "hittingPercentage": "0.184",
+        "assists": "30",
+        "setErrors": "0",
+        "setAttempts": "94",
+        "serviceAces": "2",
+        "serviceErrors": "3",
+        "serveAttempts": "60",
+        "digs": "35",
+        "receptionAttempts": "63",
+        "receptionErrors": "8",
+        "blockSolos": "0",
+        "blockAssists": "8",
+        "blockingErrors": "3",
+        "totalBlocks": "4"
+      }
+    }
+  ]
+}

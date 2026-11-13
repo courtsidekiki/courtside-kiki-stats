@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625963,
+  "title": "WVB Boxscore",
+  "description": "UCLA vs Washington",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45896",
+      "seoname": "ucla",
+      "name6Char": "UCLA",
+      "nameFull": "University of California, Los Angeles",
+      "nameShort": "UCLA",
+      "teamName": "Bruins",
+      "color": "#0072CE"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46759",
+      "seoname": "washington",
+      "name6Char": "WASH",
+      "nameFull": "University of Washington",
+      "nameShort": "Washington",
+      "teamName": "Huskies",
+      "color": "#33006f"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45896,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "96",
+        "kills": "61",
+        "attackErrors": "11",
+        "attackAttempts": "144",
+        "hittingPercentage": "0.347",
+        "assists": "59",
+        "setErrors": "0",
+        "setAttempts": "146",
+        "serviceAces": "3",
+        "serviceErrors": "4",
+        "serveAttempts": "95",
+        "digs": "59",
+        "receptionAttempts": "78",
+        "receptionErrors": "2",
+        "blockSolos": "1",
+        "blockAssists": "23",
+        "blockingErrors": "3",
+        "totalBlocks": "12"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46759,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "81",
+        "kills": "64",
+        "attackErrors": "26",
+        "attackAttempts": "162",
+        "hittingPercentage": "0.235",
+        "assists": "59",
+        "setErrors": "2",
+        "setAttempts": "159",
+        "serviceAces": "2",
+        "serviceErrors": "4",
+        "serveAttempts": "82",
+        "digs": "64",
+        "receptionAttempts": "91",
+        "receptionErrors": "3",
+        "blockSolos": "1",
+        "blockAssists": "6",
+        "blockingErrors": "6",
+        "totalBlocks": "4"
+      }
+    }
+  ]
+}

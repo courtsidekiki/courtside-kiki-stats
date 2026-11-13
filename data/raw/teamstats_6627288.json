@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627288,
+  "title": "WVB Boxscore",
+  "description": "Georgia St. vs Louisiana Tech",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46676",
+      "seoname": "georgia-st",
+      "name6Char": "GA ST",
+      "nameFull": "Georgia State University",
+      "nameShort": "Georgia St.",
+      "teamName": "Panthers",
+      "color": "#264391"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46060",
+      "seoname": "louisiana-tech",
+      "name6Char": "LATECH",
+      "nameFull": "Louisiana Tech University",
+      "nameShort": "Louisiana Tech",
+      "teamName": "Bulldogs",
+      "color": "#003087"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46676,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "44",
+        "attackErrors": "11",
+        "attackAttempts": "86",
+        "hittingPercentage": "0.384",
+        "assists": "40",
+        "setErrors": "1",
+        "setAttempts": "81",
+        "serviceAces": "9",
+        "serviceErrors": "6",
+        "serveAttempts": "74",
+        "digs": "38",
+        "receptionAttempts": "48",
+        "receptionErrors": "5",
+        "blockSolos": "0",
+        "blockAssists": "16",
+        "blockingErrors": "1",
+        "totalBlocks": "8"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46060,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "50",
+        "kills": "27",
+        "attackErrors": "19",
+        "attackAttempts": "86",
+        "hittingPercentage": "0.093",
+        "assists": "27",
+        "setErrors": "0",
+        "setAttempts": "88",
+        "serviceAces": "5",
+        "serviceErrors": "3",
+        "serveAttempts": "51",
+        "digs": "25",
+        "receptionAttempts": "68",
+        "receptionErrors": "9",
+        "blockSolos": "0",
+        "blockAssists": "8",
+        "blockingErrors": "3",
+        "totalBlocks": "4"
+      }
+    }
+  ]
+}

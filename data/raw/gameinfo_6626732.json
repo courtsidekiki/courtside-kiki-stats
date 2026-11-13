@@ -1,0 +1,104 @@
+{
+  "contests": [
+    {
+      "__typename": "Contest",
+      "id": "6626732",
+      "sportCode": "WVB",
+      "sportUrl": "volleyball-women",
+      "division": 1,
+      "clock": null,
+      "currentPeriod": "FINAL",
+      "finalMessage": "FINAL",
+      "gameState": "F",
+      "statusCodeDisplay": "final",
+      "network": null,
+      "startTime": "00:00",
+      "startTimeEpoch": 1794546000,
+      "week": null,
+      "seasonYear": 2026,
+      "winner": 46419,
+      "hasStartTime": false,
+      "hasBoxscore": true,
+      "hasPbp": true,
+      "hasScoringSummary": false,
+      "hasPreview": false,
+      "hasRecap": false,
+      "hasTeamStats": true,
+      "linescores": [
+        {
+          "__typename": "Linescore",
+          "period": "1",
+          "home": "25",
+          "visit": "17"
+        },
+        {
+          "__typename": "Linescore",
+          "period": "2",
+          "home": "25",
+          "visit": "21"
+        },
+        {
+          "__typename": "Linescore",
+          "period": "3",
+          "home": "23",
+          "visit": "25"
+        },
+        {
+          "__typename": "Linescore",
+          "period": "4",
+          "home": "25",
+          "visit": "22"
+        }
+      ],
+      "teams": [
+        {
+          "__typename": "ContestTeam",
+          "teamId": "46419",
+          "isHome": true,
+          "color": "#154734",
+          "seoname": "hawaii",
+          "nameFull": "University of Hawaii, Manoa",
+          "nameShort": "Hawaii",
+          "name6Char": "HAWAII",
+          "teamRank": null,
+          "gameRank": null,
+          "score": 3,
+          "seed": null,
+          "record": "(22-4)",
+          "divisionName": "d1",
+          "division": 1,
+          "isWinner": true
+        },
+        {
+          "__typename": "ContestTeam",
+          "teamId": "46129",
+          "isHome": false,
+          "color": "#0032A0",
+          "seoname": "air-force",
+          "nameFull": "U.S. Air Force Academy",
+          "nameShort": "Air Force",
+          "name6Char": "AIRFOR",
+          "teamRank": null,
+          "gameRank": null,
+          "score": 1,
+          "seed": null,
+          "record": "(10-16)",
+          "divisionName": "d1",
+          "division": 1,
+          "isWinner": false
+        }
+      ],
+      "liveVideos": [],
+      "championship": null,
+      "championshipGame": null,
+      "links": [],
+      "location": {
+        "__typename": "Location",
+        "venue": "Bankoh Arena at Stan Sheriff Center",
+        "city": "Honolulu",
+        "stateUsps": "HI"
+      },
+      "stats": null
+    }
+  ]
+}

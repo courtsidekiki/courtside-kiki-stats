@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626121,
+  "title": "WVB Boxscore",
+  "description": "Missouri St. vs Jacksonville St.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46751",
+      "seoname": "missouri-st",
+      "name6Char": "MO ST",
+      "nameFull": "Missouri State University",
+      "nameShort": "Missouri St.",
+      "teamName": "Bears",
+      "color": "#6F2C3F"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45784",
+      "seoname": "jacksonville-st",
+      "name6Char": "JAX ST",
+      "nameFull": "Jacksonville State University",
+      "nameShort": "Jacksonville St.",
+      "teamName": "Gamecocks",
+      "color": "#C8102E"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46751,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "33",
+        "attackErrors": "7",
+        "attackAttempts": "64",
+        "hittingPercentage": "0.406",
+        "assists": "29",
+        "setErrors": "0",
+        "setAttempts": "60",
+        "serviceAces": "10",
+        "serviceErrors": "4",
+        "serveAttempts": "74",
+        "digs": "32",
+        "receptionAttempts": "34",
+        "receptionErrors": "3",
+        "blockSolos": "1",
+        "blockAssists": "12",
+        "blockingErrors": "0",
+        "totalBlocks": "7"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45784,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "44",
+        "kills": "30",
+        "attackErrors": "21",
+        "attackAttempts": "87",
+        "hittingPercentage": "0.103",
+        "assists": "28",
+        "setErrors": "0",
+        "setAttempts": "81",
+        "serviceAces": "3",
+        "serviceErrors": "11",
+        "serveAttempts": "45",
+        "digs": "20",
+        "receptionAttempts": "70",
+        "receptionErrors": "10",
+        "blockSolos": "4",
+        "blockAssists": "4",
+        "blockingErrors": "1",
+        "totalBlocks": "6"
+      }
+    }
+  ]
+}

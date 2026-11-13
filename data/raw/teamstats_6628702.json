@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628702,
+  "title": "WVB Boxscore",
+  "description": "St. Thomas (MN) vs Oral Roberts",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45998",
+      "seoname": "st-thomas-mn",
+      "name6Char": "STTHOM",
+      "nameFull": "University of St. Thomas (Minnesota)",
+      "nameShort": "St. Thomas (MN)",
+      "teamName": "Tommies",
+      "color": "#412784"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46480",
+      "seoname": "oral-roberts",
+      "name6Char": "ORU",
+      "nameFull": "Oral Roberts University",
+      "nameShort": "Oral Roberts",
+      "teamName": "Golden Eagles",
+      "color": "#011E41"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45998,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "47",
+        "attackErrors": "8",
+        "attackAttempts": "85",
+        "hittingPercentage": "0.459",
+        "assists": "43",
+        "setErrors": "0",
+        "setAttempts": "83",
+        "serviceAces": "9",
+        "serviceErrors": "13",
+        "serveAttempts": "74",
+        "digs": "34",
+        "receptionAttempts": "36",
+        "receptionErrors": "2",
+        "blockSolos": "2",
+        "blockAssists": "10",
+        "blockingErrors": "1",
+        "totalBlocks": "7"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46480,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "40",
+        "kills": "17",
+        "attackErrors": "13",
+        "attackAttempts": "72",
+        "hittingPercentage": "0.056",
+        "assists": "16",
+        "setErrors": "1",
+        "setAttempts": "86",
+        "serviceAces": "2",
+        "serviceErrors": "5",
+        "serveAttempts": "41",
+        "digs": "26",
+        "receptionAttempts": "61",
+        "receptionErrors": "9",
+        "blockSolos": "1",
+        "blockAssists": "10",
+        "blockingErrors": "2",
+        "totalBlocks": "6"
+      }
+    }
+  ]
+}

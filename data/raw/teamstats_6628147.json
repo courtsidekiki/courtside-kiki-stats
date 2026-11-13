@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628147,
+  "title": "WVB Boxscore",
+  "description": "Houston Christian vs A&M-Corpus Christi",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "51287",
+      "seoname": "houston-christian",
+      "name6Char": "HOUCHR",
+      "nameFull": "Houston Christian University",
+      "nameShort": "Houston Christian",
+      "teamName": "Huskies",
+      "color": "#002F87"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46137",
+      "seoname": "am-corpus-chris",
+      "name6Char": "TAMUCC",
+      "nameFull": "Texas A&M University-Corpus Christi",
+      "nameShort": "A&M-Corpus Christi",
+      "teamName": "Islanders",
+      "color": "#007AC1"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 51287,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "102",
+        "kills": "63",
+        "attackErrors": "21",
+        "attackAttempts": "188",
+        "hittingPercentage": "0.223",
+        "assists": "55",
+        "setErrors": "3",
+        "setAttempts": "178",
+        "serviceAces": "7",
+        "serviceErrors": "8",
+        "serveAttempts": "103",
+        "digs": "84",
+        "receptionAttempts": "86",
+        "receptionErrors": "5",
+        "blockSolos": "3",
+        "blockAssists": "4",
+        "blockingErrors": "2",
+        "totalBlocks": "5"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46137,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "102",
+        "kills": "65",
+        "attackErrors": "14",
+        "attackAttempts": "181",
+        "hittingPercentage": "0.282",
+        "assists": "54",
+        "setErrors": "3",
+        "setAttempts": "170",
+        "serviceAces": "5",
+        "serviceErrors": "15",
+        "serveAttempts": "101",
+        "digs": "84",
+        "receptionAttempts": "95",
+        "receptionErrors": "7",
+        "blockSolos": "2",
+        "blockAssists": "8",
+        "blockingErrors": "2",
+        "totalBlocks": "6"
+      }
+    }
+  ]
+}

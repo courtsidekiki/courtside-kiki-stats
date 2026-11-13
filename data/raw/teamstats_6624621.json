@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624621,
+  "title": "WVB Boxscore",
+  "description": "West Ga. vs Little Rock",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46381",
+      "seoname": "west-ga",
+      "name6Char": "W GA",
+      "nameFull": "University of West Georgia",
+      "nameShort": "West Ga.",
+      "teamName": "Wolves",
+      "color": "#0032A0"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45805",
+      "seoname": "ualr",
+      "name6Char": "UALR",
+      "nameFull": "University of Arkansas at Little Rock",
+      "nameShort": "Little Rock",
+      "teamName": "Trojans",
+      "color": "#6F263D"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46381,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "84",
+        "kills": "52",
+        "attackErrors": "29",
+        "attackAttempts": "181",
+        "hittingPercentage": "0.127",
+        "assists": "47",
+        "setErrors": "2",
+        "setAttempts": "176",
+        "serviceAces": "10",
+        "serviceErrors": "11",
+        "serveAttempts": "85",
+        "digs": "73",
+        "receptionAttempts": "89",
+        "receptionErrors": "7",
+        "blockSolos": "1",
+        "blockAssists": "8",
+        "blockingErrors": "0",
+        "totalBlocks": "5"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45805,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "94",
+        "kills": "45",
+        "attackErrors": "18",
+        "attackAttempts": "147",
+        "hittingPercentage": "0.184",
+        "assists": "41",
+        "setErrors": "0",
+        "setAttempts": "145",
+        "serviceAces": "7",
+        "serviceErrors": "4",
+        "serveAttempts": "93",
+        "digs": "79",
+        "receptionAttempts": "74",
+        "receptionErrors": "10",
+        "blockSolos": "1",
+        "blockAssists": "24",
+        "blockingErrors": "0",
+        "totalBlocks": "13"
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626308,
+  "title": "WVB Boxscore",
+  "description": "SMU vs Louisville",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46250",
+      "seoname": "smu",
+      "name6Char": "SMU",
+      "nameFull": "Southern Methodist University",
+      "nameShort": "SMU",
+      "teamName": "Mustangs",
+      "color": "#A80000"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46061",
+      "seoname": "louisville",
+      "name6Char": "LOUIS",
+      "nameFull": "University of Louisville",
+      "nameShort": "Louisville",
+      "teamName": "Cardinals",
+      "color": "#EE2722"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46250,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "98",
+        "kills": "62",
+        "attackErrors": "25",
+        "attackAttempts": "162",
+        "hittingPercentage": "0.228",
+        "assists": "60",
+        "setErrors": "4",
+        "setAttempts": "164",
+        "serviceAces": "7",
+        "serviceErrors": "13",
+        "serveAttempts": "97",
+        "digs": "69",
+        "receptionAttempts": "83",
+        "receptionErrors": "2",
+        "blockSolos": "0",
+        "blockAssists": "28",
+        "blockingErrors": "0",
+        "totalBlocks": "14"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46061,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "88",
+        "kills": "44",
+        "attackErrors": "23",
+        "attackAttempts": "151",
+        "hittingPercentage": "0.139",
+        "assists": "41",
+        "setErrors": "0",
+        "setAttempts": "143",
+        "serviceAces": "2",
+        "serviceErrors": "6",
+        "serveAttempts": "89",
+        "digs": "59",
+        "receptionAttempts": "84",
+        "receptionErrors": "7",
+        "blockSolos": "3",
+        "blockAssists": "22",
+        "blockingErrors": "0",
+        "totalBlocks": "14"
+      }
+    }
+  ]
+}

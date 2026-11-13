@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626536,
+  "title": "WVB Boxscore",
+  "description": "Southeastern La. vs SFA",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46622",
+      "seoname": "southeastern-la",
+      "name6Char": "SE LA",
+      "nameFull": "Southeastern Louisiana University",
+      "nameShort": "Southeastern La.",
+      "teamName": "Lady Lions",
+      "color": "#1D4C30"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46624",
+      "seoname": "stephen-f-austin",
+      "name6Char": "SFA",
+      "nameFull": "Stephen F. Austin State University",
+      "nameShort": "SFA",
+      "teamName": "Lumberjacks",
+      "color": "#532F7C"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46622,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "95",
+        "kills": "63",
+        "attackErrors": "30",
+        "attackAttempts": "157",
+        "hittingPercentage": "0.210",
+        "assists": "61",
+        "setErrors": "0",
+        "setAttempts": "157",
+        "serviceAces": "2",
+        "serviceErrors": "6",
+        "serveAttempts": "94",
+        "digs": "74",
+        "receptionAttempts": "82",
+        "receptionErrors": "5",
+        "blockSolos": "7",
+        "blockAssists": "12",
+        "blockingErrors": "0",
+        "totalBlocks": "13"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46624,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "84",
+        "kills": "43",
+        "attackErrors": "24",
+        "attackAttempts": "148",
+        "hittingPercentage": "0.128",
+        "assists": "40",
+        "setErrors": "2",
+        "setAttempts": "150",
+        "serviceAces": "5",
+        "serviceErrors": "3",
+        "serveAttempts": "85",
+        "digs": "56",
+        "receptionAttempts": "88",
+        "receptionErrors": "2",
+        "blockSolos": "0",
+        "blockAssists": "20",
+        "blockingErrors": "2",
+        "totalBlocks": "10"
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627485,
+  "title": "WVB Boxscore",
+  "description": "Wyoming vs UC Davis",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46082",
+      "seoname": "wyoming",
+      "name6Char": "WYO",
+      "nameFull": "University of Wyoming",
+      "nameShort": "Wyoming",
+      "teamName": "Cowgirls",
+      "color": "#4E3629"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46036",
+      "seoname": "uc-davis",
+      "name6Char": "UC DAV",
+      "nameFull": "University of California, Davis",
+      "nameShort": "UC Davis",
+      "teamName": "Aggies",
+      "color": "#002855"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46082,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "101",
+        "kills": "62",
+        "attackErrors": "21",
+        "attackAttempts": "175",
+        "hittingPercentage": "0.234",
+        "assists": "55",
+        "setErrors": "0",
+        "setAttempts": "163",
+        "serviceAces": "2",
+        "serviceErrors": "12",
+        "serveAttempts": "101",
+        "digs": "57",
+        "receptionAttempts": "98",
+        "receptionErrors": "7",
+        "blockSolos": "3",
+        "blockAssists": "12",
+        "blockingErrors": "1",
+        "totalBlocks": "9"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46036,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "105",
+        "kills": "65",
+        "attackErrors": "29",
+        "attackAttempts": "156",
+        "hittingPercentage": "0.231",
+        "assists": "61",
+        "setErrors": "1",
+        "setAttempts": "151",
+        "serviceAces": "7",
+        "serviceErrors": "7",
+        "serveAttempts": "105",
+        "digs": "72",
+        "receptionAttempts": "89",
+        "receptionErrors": "2",
+        "blockSolos": "5",
+        "blockAssists": "10",
+        "blockingErrors": "1",
+        "totalBlocks": "10"
+      }
+    }
+  ]
+}

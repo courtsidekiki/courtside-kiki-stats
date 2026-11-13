@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627853,
+  "title": "WVB Boxscore",
+  "description": "UT Arlington vs Austin Peay",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45873",
+      "seoname": "texas-arlington",
+      "name6Char": "TX ARL",
+      "nameFull": "University of Texas at Arlington",
+      "nameShort": "UT Arlington",
+      "teamName": "Mavericks",
+      "color": "#003DA5"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45942",
+      "seoname": "austin-peay",
+      "name6Char": "A PEAY",
+      "nameFull": "Austin Peay State University",
+      "nameShort": "Austin Peay",
+      "teamName": "Governors",
+      "color": "#BA0C2F"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45873,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "90",
+        "kills": "43",
+        "attackErrors": "21",
+        "attackAttempts": "138",
+        "hittingPercentage": "0.159",
+        "assists": "38",
+        "setErrors": "0",
+        "setAttempts": "141",
+        "serviceAces": "10",
+        "serviceErrors": "9",
+        "serveAttempts": "89",
+        "digs": "69",
+        "receptionAttempts": "70",
+        "receptionErrors": "7",
+        "blockSolos": "5",
+        "blockAssists": "12",
+        "blockingErrors": "0",
+        "totalBlocks": "11"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45942,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "80",
+        "kills": "42",
+        "attackErrors": "21",
+        "attackAttempts": "138",
+        "hittingPercentage": "0.152",
+        "assists": "40",
+        "setErrors": "4",
+        "setAttempts": "144",
+        "serviceAces": "7",
+        "serviceErrors": "11",
+        "serveAttempts": "81",
+        "digs": "66",
+        "receptionAttempts": "80",
+        "receptionErrors": "10",
+        "blockSolos": "1",
+        "blockAssists": "12",
+        "blockingErrors": "0",
+        "totalBlocks": "7"
+      }
+    }
+  ]
+}

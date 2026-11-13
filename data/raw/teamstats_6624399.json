@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624399,
+  "title": "WVB Boxscore",
+  "description": "Nebraska vs Illinois",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46474",
+      "seoname": "nebraska",
+      "name6Char": "NEB",
+      "nameFull": "University of Nebraska-Lincoln",
+      "nameShort": "Nebraska",
+      "teamName": "Huskers",
+      "color": "#C8102E"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46312",
+      "seoname": "illinois",
+      "name6Char": "ILL",
+      "nameFull": "University of Illinois Urbana-Champaign",
+      "nameShort": "Illinois",
+      "teamName": "Fighting Illini",
+      "color": "#F15A22"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46474,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "48",
+        "attackErrors": "6",
+        "attackAttempts": "87",
+        "hittingPercentage": "0.483",
+        "assists": "46",
+        "setErrors": "1",
+        "setAttempts": "82",
+        "serviceAces": "3",
+        "serviceErrors": "10",
+        "serveAttempts": "73",
+        "digs": "32",
+        "receptionAttempts": "49",
+        "receptionErrors": "4",
+        "blockSolos": "1",
+        "blockAssists": "12",
+        "blockingErrors": "1",
+        "totalBlocks": "7"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46312,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "55",
+        "kills": "34",
+        "attackErrors": "16",
+        "attackAttempts": "90",
+        "hittingPercentage": "0.200",
+        "assists": "33",
+        "setErrors": "0",
+        "setAttempts": "90",
+        "serviceAces": "4",
+        "serviceErrors": "8",
+        "serveAttempts": "57",
+        "digs": "30",
+        "receptionAttempts": "63",
+        "receptionErrors": "3",
+        "blockSolos": "1",
+        "blockAssists": "2",
+        "blockingErrors": "1",
+        "totalBlocks": "2"
+      }
+    }
+  ]
+}

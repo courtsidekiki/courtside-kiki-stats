@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624955,
+  "title": "WVB Boxscore",
+  "description": "NIU vs Oakland",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45981",
+      "seoname": "northern-ill",
+      "name6Char": "NIU",
+      "nameFull": "Northern Illinois University",
+      "nameShort": "NIU",
+      "teamName": "Huskies",
+      "color": "#BA0C2F"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46108",
+      "seoname": "oakland",
+      "name6Char": "OAK",
+      "nameFull": "Oakland University",
+      "nameShort": "Oakland",
+      "teamName": "Golden Grizzlies",
+      "color": "#010101"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45981,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "106",
+        "kills": "75",
+        "attackErrors": "15",
+        "attackAttempts": "178",
+        "hittingPercentage": "0.337",
+        "assists": "70",
+        "setErrors": "1",
+        "setAttempts": "177",
+        "serviceAces": "6",
+        "serviceErrors": "11",
+        "serveAttempts": "105",
+        "digs": "67",
+        "receptionAttempts": "99",
+        "receptionErrors": "6",
+        "blockSolos": "3",
+        "blockAssists": "6",
+        "blockingErrors": "0",
+        "totalBlocks": "6"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46108,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "103",
+        "kills": "70",
+        "attackErrors": "20",
+        "attackAttempts": "171",
+        "hittingPercentage": "0.292",
+        "assists": "67",
+        "setErrors": "0",
+        "setAttempts": "186",
+        "serviceAces": "6",
+        "serviceErrors": "5",
+        "serveAttempts": "104",
+        "digs": "79",
+        "receptionAttempts": "94",
+        "receptionErrors": "6",
+        "blockSolos": "5",
+        "blockAssists": "10",
+        "blockingErrors": "0",
+        "totalBlocks": "10"
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627383,
+  "title": "WVB Boxscore",
+  "description": "Northwestern St. vs East Texas A&M",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46107",
+      "seoname": "northwestern-st",
+      "name6Char": "NW ST",
+      "nameFull": "Northwestern State University",
+      "nameShort": "Northwestern St.",
+      "teamName": "Lady Demons",
+      "color": "#54209e"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45903",
+      "seoname": "tex-am-commerce",
+      "name6Char": "TAMUCO",
+      "nameFull": "East Texas A&M University",
+      "nameShort": "East Texas A&M",
+      "teamName": "Lions",
+      "color": "#00205B"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46107,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "63",
+        "kills": "41",
+        "attackErrors": "18",
+        "attackAttempts": "125",
+        "hittingPercentage": "0.184",
+        "assists": "36",
+        "setErrors": "0",
+        "setAttempts": "122",
+        "serviceAces": "3",
+        "serviceErrors": "4",
+        "serveAttempts": "65",
+        "digs": "46",
+        "receptionAttempts": "66",
+        "receptionErrors": "4",
+        "blockSolos": "0",
+        "blockAssists": "4",
+        "blockingErrors": "2",
+        "totalBlocks": "2"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45903,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "49",
+        "attackErrors": "12",
+        "attackAttempts": "120",
+        "hittingPercentage": "0.308",
+        "assists": "47",
+        "setErrors": "0",
+        "setAttempts": "119",
+        "serviceAces": "4",
+        "serviceErrors": "7",
+        "serveAttempts": "73",
+        "digs": "55",
+        "receptionAttempts": "61",
+        "receptionErrors": "3",
+        "blockSolos": "0",
+        "blockAssists": "14",
+        "blockingErrors": "1",
+        "totalBlocks": "7"
+      }
+    }
+  ]
+}

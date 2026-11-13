@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627063,
+  "title": "WVB Boxscore",
+  "description": "Tarleton St. vs Eastern Ky.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46097",
+      "seoname": "tarleton-st",
+      "name6Char": "TARLET",
+      "nameFull": "Tarleton State University",
+      "nameShort": "Tarleton St.",
+      "teamName": "Texans",
+      "color": "#582C83"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45770",
+      "seoname": "eastern-ky",
+      "name6Char": "E KY",
+      "nameFull": "Eastern Kentucky University",
+      "nameShort": "Eastern Ky.",
+      "teamName": "Colonels",
+      "color": "#6F263D"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46097,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "95",
+        "kills": "60",
+        "attackErrors": "30",
+        "attackAttempts": "161",
+        "hittingPercentage": "0.186",
+        "assists": "57",
+        "setErrors": "1",
+        "setAttempts": "171",
+        "serviceAces": "10",
+        "serviceErrors": "5",
+        "serveAttempts": "96",
+        "digs": "79",
+        "receptionAttempts": "89",
+        "receptionErrors": "4",
+        "blockSolos": "3",
+        "blockAssists": "8",
+        "blockingErrors": "1",
+        "totalBlocks": "7"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45770,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "97",
+        "kills": "57",
+        "attackErrors": "14",
+        "attackAttempts": "163",
+        "hittingPercentage": "0.264",
+        "assists": "53",
+        "setErrors": "4",
+        "setAttempts": "163",
+        "serviceAces": "4",
+        "serviceErrors": "7",
+        "serveAttempts": "96",
+        "digs": "57",
+        "receptionAttempts": "91",
+        "receptionErrors": "10",
+        "blockSolos": "1",
+        "blockAssists": "24",
+        "blockingErrors": "0",
+        "totalBlocks": "13"
+      }
+    }
+  ]
+}
