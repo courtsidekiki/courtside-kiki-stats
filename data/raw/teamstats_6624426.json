@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624426,
+  "title": "WVB Boxscore",
+  "description": "Lindenwood vs Tennessee St.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "51330",
+      "seoname": "lindenwood-mo",
+      "name6Char": "LINWOD",
+      "nameFull": "Lindenwood University",
+      "nameShort": "Lindenwood",
+      "teamName": "Lions",
+      "color": "#010101"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45872",
+      "seoname": "tennessee-st",
+      "name6Char": "TENNST",
+      "nameFull": "Tennessee State University",
+      "nameShort": "Tennessee St.",
+      "teamName": "Lady Tigers",
+      "color": "#272E63"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 51330,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "35",
+        "attackErrors": "8",
+        "attackAttempts": "78",
+        "hittingPercentage": "0.346",
+        "assists": "32",
+        "setErrors": "0",
+        "setAttempts": "75",
+        "serviceAces": "14",
+        "serviceErrors": "6",
+        "serveAttempts": "73",
+        "digs": "32",
+        "receptionAttempts": "36",
+        "receptionErrors": "4",
+        "blockSolos": "1",
+        "blockAssists": "4",
+        "blockingErrors": "1",
+        "totalBlocks": "3"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45872,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "43",
+        "kills": "25",
+        "attackErrors": "16",
+        "attackAttempts": "77",
+        "hittingPercentage": "0.117",
+        "assists": "23",
+        "setErrors": "0",
+        "setAttempts": "80",
+        "serviceAces": "4",
+        "serviceErrors": "9",
+        "serveAttempts": "45",
+        "digs": "27",
+        "receptionAttempts": "67",
+        "receptionErrors": "14",
+        "blockSolos": "4",
+        "blockAssists": "0",
+        "blockingErrors": "0",
+        "totalBlocks": "4"
+      }
+    }
+  ]
+}

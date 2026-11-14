@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6639036,
+  "title": "WVB Boxscore",
+  "description": "Oklahoma vs Missouri",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46346",
+      "seoname": "oklahoma",
+      "name6Char": "OKLA",
+      "nameFull": "University of Oklahoma",
+      "nameShort": "Oklahoma",
+      "teamName": "Sooners",
+      "color": "#9D2235"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45939",
+      "seoname": "missouri",
+      "name6Char": "MIZZOU",
+      "nameFull": "University of Missouri, Columbia",
+      "nameShort": "Missouri",
+      "teamName": "Tigers",
+      "color": "#010101"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46346,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "104",
+        "kills": "77",
+        "attackErrors": "32",
+        "attackAttempts": "156",
+        "hittingPercentage": "0.288",
+        "assists": "75",
+        "setErrors": "3",
+        "setAttempts": "166",
+        "serviceAces": "6",
+        "serviceErrors": "17",
+        "serveAttempts": "104",
+        "digs": "52",
+        "receptionAttempts": "101",
+        "receptionErrors": "8",
+        "blockSolos": "1",
+        "blockAssists": "11",
+        "blockingErrors": "0",
+        "totalBlocks": "6"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45939,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "105",
+        "kills": "45",
+        "attackErrors": "16",
+        "attackAttempts": "126",
+        "hittingPercentage": "0.230",
+        "assists": "43",
+        "setErrors": "1",
+        "setAttempts": "131",
+        "serviceAces": "8",
+        "serviceErrors": "4",
+        "serveAttempts": "105",
+        "digs": "35",
+        "receptionAttempts": "87",
+        "receptionErrors": "6",
+        "blockSolos": "2",
+        "blockAssists": "18",
+        "blockingErrors": "0",
+        "totalBlocks": "11"
+      }
+    }
+  ]
+}

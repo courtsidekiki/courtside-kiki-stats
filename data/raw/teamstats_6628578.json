@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628578,
+  "title": "WVB Boxscore",
+  "description": "Ball St. vs Kent St.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46572",
+      "seoname": "ball-st",
+      "name6Char": "BALLST",
+      "nameFull": "Ball State University",
+      "nameShort": "Ball St.",
+      "teamName": "Cardinals",
+      "color": "#BA0C2F"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46558",
+      "seoname": "kent-st",
+      "name6Char": "KENT",
+      "nameFull": "Kent State University",
+      "nameShort": "Kent St.",
+      "teamName": "Golden Flashes",
+      "color": "#003976"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46572,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "79",
+        "kills": "54",
+        "attackErrors": "16",
+        "attackAttempts": "130",
+        "hittingPercentage": "0.292",
+        "assists": "49",
+        "setErrors": "2",
+        "setAttempts": "132",
+        "serviceAces": "5",
+        "serviceErrors": "10",
+        "serveAttempts": "78",
+        "digs": "56",
+        "receptionAttempts": "53",
+        "receptionErrors": "1",
+        "blockSolos": "1",
+        "blockAssists": "2",
+        "blockingErrors": "0",
+        "totalBlocks": "2"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46558,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "59",
+        "kills": "30",
+        "attackErrors": "13",
+        "attackAttempts": "106",
+        "hittingPercentage": "0.160",
+        "assists": "27",
+        "setErrors": "0",
+        "setAttempts": "104",
+        "serviceAces": "1",
+        "serviceErrors": "7",
+        "serveAttempts": "60",
+        "digs": "51",
+        "receptionAttempts": "68",
+        "receptionErrors": "5",
+        "blockSolos": "2",
+        "blockAssists": "12",
+        "blockingErrors": "0",
+        "totalBlocks": "8"
+      }
+    }
+  ]
+}

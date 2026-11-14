@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625135,
+  "title": "WVB Boxscore",
+  "description": "Alabama A&M vs Southern U.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46068",
+      "seoname": "alabama-am",
+      "name6Char": "AL A&M",
+      "nameFull": "Alabama A&M University",
+      "nameShort": "Alabama A&M",
+      "teamName": "Bulldogs",
+      "color": "#862633"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46123",
+      "seoname": "southern-u",
+      "name6Char": "SOUTHR",
+      "nameFull": "Southern University, Baton Rouge",
+      "nameShort": "Southern U.",
+      "teamName": "Lady Jaguars",
+      "color": "#69B3E7"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46068,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "97",
+        "kills": "57",
+        "attackErrors": "31",
+        "attackAttempts": "164",
+        "hittingPercentage": "0.159",
+        "assists": "55",
+        "setErrors": "2",
+        "setAttempts": "161",
+        "serviceAces": "10",
+        "serviceErrors": "7",
+        "serveAttempts": "96",
+        "digs": "72",
+        "receptionAttempts": "82",
+        "receptionErrors": "7",
+        "blockSolos": "0",
+        "blockAssists": "14",
+        "blockingErrors": "4",
+        "totalBlocks": "7"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46123,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "86",
+        "kills": "39",
+        "attackErrors": "23",
+        "attackAttempts": "141",
+        "hittingPercentage": "0.113",
+        "assists": "35",
+        "setErrors": "2",
+        "setAttempts": "133",
+        "serviceAces": "7",
+        "serviceErrors": "5",
+        "serveAttempts": "87",
+        "digs": "64",
+        "receptionAttempts": "89",
+        "receptionErrors": "10",
+        "blockSolos": "4",
+        "blockAssists": "25",
+        "blockingErrors": "0",
+        "totalBlocks": "16"
+      }
+    }
+  ]
+}

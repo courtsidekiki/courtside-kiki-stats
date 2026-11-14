@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625525,
+  "title": "WVB Boxscore",
+  "description": "Central Mich. vs Toledo",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46164",
+      "seoname": "central-mich",
+      "name6Char": "C MICH",
+      "nameFull": "Central Michigan University",
+      "nameShort": "Central Mich.",
+      "teamName": "Chippewas",
+      "color": "#6F263D"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46007",
+      "seoname": "toledo",
+      "name6Char": "TOLEDO",
+      "nameFull": "University of Toledo",
+      "nameShort": "Toledo",
+      "teamName": "Rockets",
+      "color": "#00205B"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46164,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "76",
+        "kills": "50",
+        "attackErrors": "19",
+        "attackAttempts": "133",
+        "hittingPercentage": "0.233",
+        "assists": "48",
+        "setErrors": "1",
+        "setAttempts": "124",
+        "serviceAces": "3",
+        "serviceErrors": "9",
+        "serveAttempts": "77",
+        "digs": "45",
+        "receptionAttempts": "88",
+        "receptionErrors": "8",
+        "blockSolos": "3",
+        "blockAssists": "10",
+        "blockingErrors": "3",
+        "totalBlocks": "8"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46007,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "97",
+        "kills": "60",
+        "attackErrors": "15",
+        "attackAttempts": "126",
+        "hittingPercentage": "0.357",
+        "assists": "57",
+        "setErrors": "0",
+        "setAttempts": "123",
+        "serviceAces": "8",
+        "serviceErrors": "8",
+        "serveAttempts": "96",
+        "digs": "53",
+        "receptionAttempts": "68",
+        "receptionErrors": "3",
+        "blockSolos": "2",
+        "blockAssists": "8",
+        "blockingErrors": "0",
+        "totalBlocks": "6"
+      }
+    }
+  ]
+}

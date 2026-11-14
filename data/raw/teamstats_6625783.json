@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625783,
+  "title": "WVB Boxscore",
+  "description": "Iona vs Saint Peter's",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45782",
+      "seoname": "iona",
+      "name6Char": "IONA",
+      "nameFull": "Iona University",
+      "nameShort": "Iona",
+      "teamName": "Gaels",
+      "color": "#6F2C3F"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46618",
+      "seoname": "st-peters",
+      "name6Char": "ST PTR",
+      "nameFull": "Saint Peter's University",
+      "nameShort": "Saint Peter's",
+      "teamName": "Peacocks",
+      "color": "#21375C"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45782,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "97",
+        "kills": "55",
+        "attackErrors": "18",
+        "attackAttempts": "156",
+        "hittingPercentage": "0.237",
+        "assists": "52",
+        "setErrors": "2",
+        "setAttempts": "158",
+        "serviceAces": "15",
+        "serviceErrors": "5",
+        "serveAttempts": "96",
+        "digs": "68",
+        "receptionAttempts": "80",
+        "receptionErrors": "6",
+        "blockSolos": "1",
+        "blockAssists": "28",
+        "blockingErrors": "3",
+        "totalBlocks": "15"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46618,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "80",
+        "kills": "48",
+        "attackErrors": "25",
+        "attackAttempts": "148",
+        "hittingPercentage": "0.155",
+        "assists": "48",
+        "setErrors": "1",
+        "setAttempts": "163",
+        "serviceAces": "6",
+        "serviceErrors": "1",
+        "serveAttempts": "81",
+        "digs": "74",
+        "receptionAttempts": "91",
+        "receptionErrors": "15",
+        "blockSolos": "2",
+        "blockAssists": "12",
+        "blockingErrors": "0",
+        "totalBlocks": "8"
+      }
+    }
+  ]
+}

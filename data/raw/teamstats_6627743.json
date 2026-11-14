@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627743,
+  "title": "WVB Boxscore",
+  "description": "Prairie View vs Grambling",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46734",
+      "seoname": "prairie-view",
+      "name6Char": "PV A&M",
+      "nameFull": "Prairie View A&M University",
+      "nameShort": "Prairie View",
+      "teamName": "Lady Panthers",
+      "color": "#582C83"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46051",
+      "seoname": "grambling",
+      "name6Char": "GRAMB",
+      "nameFull": "Grambling State University",
+      "nameShort": "Grambling",
+      "teamName": "Lady Tigers",
+      "color": "#010101"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46734,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "102",
+        "kills": "70",
+        "attackErrors": "24",
+        "attackAttempts": "191",
+        "hittingPercentage": "0.241",
+        "assists": "66",
+        "setErrors": "5",
+        "setAttempts": "187",
+        "serviceAces": "2",
+        "serviceErrors": "7",
+        "serveAttempts": "100",
+        "digs": "78",
+        "receptionAttempts": "97",
+        "receptionErrors": "11",
+        "blockSolos": "1",
+        "blockAssists": "6",
+        "blockingErrors": "4",
+        "totalBlocks": "4"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46051,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "105",
+        "kills": "58",
+        "attackErrors": "16",
+        "attackAttempts": "162",
+        "hittingPercentage": "0.259",
+        "assists": "56",
+        "setErrors": "4",
+        "setAttempts": "166",
+        "serviceAces": "11",
+        "serviceErrors": "9",
+        "serveAttempts": "106",
+        "digs": "76",
+        "receptionAttempts": "93",
+        "receptionErrors": "2",
+        "blockSolos": "4",
+        "blockAssists": "10",
+        "blockingErrors": "4",
+        "totalBlocks": "9"
+      }
+    }
+  ]
+}

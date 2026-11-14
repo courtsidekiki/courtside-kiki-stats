@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6637612,
+  "title": "WVB Boxscore",
+  "description": "UAB vs North Texas",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46437",
+      "seoname": "uab",
+      "name6Char": "UAB",
+      "nameFull": "University of Alabama at Birmingham",
+      "nameShort": "UAB",
+      "teamName": "Blazers",
+      "color": "#006341"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46237",
+      "seoname": "north-texas",
+      "name6Char": "NO TEX",
+      "nameFull": "University of North Texas",
+      "nameShort": "North Texas",
+      "teamName": "Mean Green",
+      "color": "#007A33"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46437,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "61",
+        "kills": "36",
+        "attackErrors": "16",
+        "attackAttempts": "110",
+        "hittingPercentage": "0.182",
+        "assists": "31",
+        "setErrors": "0",
+        "setAttempts": "106",
+        "serviceAces": "4",
+        "serviceErrors": "5",
+        "serveAttempts": "63",
+        "digs": "46",
+        "receptionAttempts": "70",
+        "receptionErrors": "10",
+        "blockSolos": "3",
+        "blockAssists": "12",
+        "blockingErrors": "0",
+        "totalBlocks": "9"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46237,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "78",
+        "kills": "47",
+        "attackErrors": "13",
+        "attackAttempts": "112",
+        "hittingPercentage": "0.304",
+        "assists": "44",
+        "setErrors": "2",
+        "setAttempts": "116",
+        "serviceAces": "10",
+        "serviceErrors": "6",
+        "serveAttempts": "76",
+        "digs": "54",
+        "receptionAttempts": "58",
+        "receptionErrors": "4",
+        "blockSolos": "3",
+        "blockAssists": "6",
+        "blockingErrors": "0",
+        "totalBlocks": "6"
+      }
+    }
+  ]
+}

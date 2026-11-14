@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628269,
+  "title": "WVB Boxscore",
+  "description": "South Carolina St. vs N.C. Central",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45866",
+      "seoname": "south-carolina-st",
+      "name6Char": "SC ST",
+      "nameFull": "South Carolina State University",
+      "nameShort": "South Carolina St.",
+      "teamName": "Lady Bulldogs",
+      "color": "#862633"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45845",
+      "seoname": "nc-central",
+      "name6Char": "NC CEN",
+      "nameFull": "North Carolina Central University",
+      "nameShort": "N.C. Central",
+      "teamName": "Eagles",
+      "color": "#862633"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45866,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "48",
+        "kills": "24",
+        "attackErrors": "13",
+        "attackAttempts": "75",
+        "hittingPercentage": "0.147",
+        "assists": "20",
+        "setErrors": "5",
+        "setAttempts": "76",
+        "serviceAces": "1",
+        "serviceErrors": "4",
+        "serveAttempts": "49",
+        "digs": "27",
+        "receptionAttempts": "66",
+        "receptionErrors": "17",
+        "blockSolos": "3",
+        "blockAssists": "0",
+        "blockingErrors": "5",
+        "totalBlocks": "3"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45845,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "36",
+        "attackErrors": "8",
+        "attackAttempts": "77",
+        "hittingPercentage": "0.364",
+        "assists": "35",
+        "setErrors": "6",
+        "setAttempts": "83",
+        "serviceAces": "17",
+        "serviceErrors": "8",
+        "serveAttempts": "74",
+        "digs": "34",
+        "receptionAttempts": "45",
+        "receptionErrors": "1",
+        "blockSolos": "3",
+        "blockAssists": "2",
+        "blockingErrors": "3",
+        "totalBlocks": "4"
+      }
+    }
+  ]
+}

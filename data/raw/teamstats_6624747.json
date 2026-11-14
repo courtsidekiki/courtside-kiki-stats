@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624747,
+  "title": "WVB Boxscore",
+  "description": "Robert Morris vs Milwaukee",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46735",
+      "seoname": "robert-morris",
+      "name6Char": "ROBMOR",
+      "nameFull": "Robert Morris University",
+      "nameShort": "Robert Morris",
+      "teamName": "Colonials",
+      "color": "#041E42"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45953",
+      "seoname": "milwaukee",
+      "name6Char": "MILWKE",
+      "nameFull": "University of Wisconsin-Milwaukee",
+      "nameShort": "Milwaukee",
+      "teamName": "Panthers",
+      "color": "#010101"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46735,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "104",
+        "kills": "62",
+        "attackErrors": "23",
+        "attackAttempts": "195",
+        "hittingPercentage": "0.200",
+        "assists": "57",
+        "setErrors": "5",
+        "setAttempts": "205",
+        "serviceAces": "1",
+        "serviceErrors": "10",
+        "serveAttempts": "105",
+        "digs": "79",
+        "receptionAttempts": "93",
+        "receptionErrors": "4",
+        "blockSolos": "2",
+        "blockAssists": "22",
+        "blockingErrors": "1",
+        "totalBlocks": "13"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45953,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "106",
+        "kills": "64",
+        "attackErrors": "28",
+        "attackAttempts": "195",
+        "hittingPercentage": "0.185",
+        "assists": "62",
+        "setErrors": "1",
+        "setAttempts": "212",
+        "serviceAces": "4",
+        "serviceErrors": "12",
+        "serveAttempts": "105",
+        "digs": "88",
+        "receptionAttempts": "95",
+        "receptionErrors": "1",
+        "blockSolos": "3",
+        "blockAssists": "12",
+        "blockingErrors": "1",
+        "totalBlocks": "9"
+      }
+    }
+  ]
+}

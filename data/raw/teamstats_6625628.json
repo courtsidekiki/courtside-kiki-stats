@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625628,
+  "title": "WVB Boxscore",
+  "description": "Texas A&M vs LSU",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46006",
+      "seoname": "texas-am",
+      "name6Char": "TX A&M",
+      "nameFull": "Texas A&M University, College Station",
+      "nameShort": "Texas A&M",
+      "teamName": "Aggies",
+      "color": "#5D0025"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46059",
+      "seoname": "lsu",
+      "name6Char": "LSU",
+      "nameFull": "Louisiana State University",
+      "nameShort": "LSU",
+      "teamName": "Tigers",
+      "color": "#582C83"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46006,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "49",
+        "attackErrors": "8",
+        "attackAttempts": "122",
+        "hittingPercentage": "0.336",
+        "assists": "43",
+        "setErrors": "3",
+        "setAttempts": "117",
+        "serviceAces": "4",
+        "serviceErrors": "4",
+        "serveAttempts": "73",
+        "digs": "64",
+        "receptionAttempts": "49",
+        "receptionErrors": "5",
+        "blockSolos": "0",
+        "blockAssists": "6",
+        "blockingErrors": "0",
+        "totalBlocks": "3"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46059,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "54",
+        "kills": "34",
+        "attackErrors": "13",
+        "attackAttempts": "124",
+        "hittingPercentage": "0.169",
+        "assists": "32",
+        "setErrors": "2",
+        "setAttempts": "122",
+        "serviceAces": "5",
+        "serviceErrors": "7",
+        "serveAttempts": "56",
+        "digs": "60",
+        "receptionAttempts": "69",
+        "receptionErrors": "4",
+        "blockSolos": "0",
+        "blockAssists": "4",
+        "blockingErrors": "2",
+        "totalBlocks": "2"
+      }
+    }
+  ]
+}

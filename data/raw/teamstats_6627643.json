@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627643,
+  "title": "WVB Boxscore",
+  "description": "Eastern Ill. vs SIUE",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45769",
+      "seoname": "eastern-ill",
+      "name6Char": "E ILL",
+      "nameFull": "Eastern Illinois University",
+      "nameShort": "Eastern Ill.",
+      "teamName": "Panthers",
+      "color": "#003594"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46499",
+      "seoname": "siu-edwardsville",
+      "name6Char": "SIUE",
+      "nameFull": "Southern Illinois University Edwardsville",
+      "nameShort": "SIUE",
+      "teamName": "Cougars",
+      "color": "#DB372F"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45769,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "109",
+        "kills": "70",
+        "attackErrors": "26",
+        "attackAttempts": "177",
+        "hittingPercentage": "0.249",
+        "assists": "67",
+        "setErrors": "0",
+        "setAttempts": "174",
+        "serviceAces": "9",
+        "serviceErrors": "9",
+        "serveAttempts": "109",
+        "digs": "58",
+        "receptionAttempts": "94",
+        "receptionErrors": "5",
+        "blockSolos": "1",
+        "blockAssists": "17",
+        "blockingErrors": "0",
+        "totalBlocks": "9"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46499,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "99",
+        "kills": "59",
+        "attackErrors": "25",
+        "attackAttempts": "149",
+        "hittingPercentage": "0.228",
+        "assists": "57",
+        "setErrors": "0",
+        "setAttempts": "146",
+        "serviceAces": "5",
+        "serviceErrors": "5",
+        "serveAttempts": "99",
+        "digs": "65",
+        "receptionAttempts": "100",
+        "receptionErrors": "9",
+        "blockSolos": "0",
+        "blockAssists": "18",
+        "blockingErrors": "2",
+        "totalBlocks": "9"
+      }
+    }
+  ]
+}

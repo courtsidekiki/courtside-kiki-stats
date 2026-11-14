@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624823,
+  "title": "WVB Boxscore",
+  "description": "Troy vs App State",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46254",
+      "seoname": "troy",
+      "name6Char": "TROY",
+      "nameFull": "Troy University",
+      "nameShort": "Troy",
+      "teamName": "Trojans",
+      "color": "#9D2235"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46571",
+      "seoname": "appalachian-st",
+      "name6Char": "APP ST",
+      "nameFull": "Appalachian State University",
+      "nameShort": "App State",
+      "teamName": "Mountaineers",
+      "color": "#010101"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46254,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "80",
+        "kills": "47",
+        "attackErrors": "17",
+        "attackAttempts": "107",
+        "hittingPercentage": "0.280",
+        "assists": "45",
+        "setErrors": "0",
+        "setAttempts": "108",
+        "serviceAces": "5",
+        "serviceErrors": "11",
+        "serveAttempts": "78",
+        "digs": "33",
+        "receptionAttempts": "63",
+        "receptionErrors": "4",
+        "blockSolos": "4",
+        "blockAssists": "6",
+        "blockingErrors": "0",
+        "totalBlocks": "7"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46571,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "68",
+        "kills": "36",
+        "attackErrors": "21",
+        "attackAttempts": "97",
+        "hittingPercentage": "0.155",
+        "assists": "36",
+        "setErrors": "0",
+        "setAttempts": "100",
+        "serviceAces": "4",
+        "serviceErrors": "7",
+        "serveAttempts": "70",
+        "digs": "36",
+        "receptionAttempts": "67",
+        "receptionErrors": "5",
+        "blockSolos": "2",
+        "blockAssists": "12",
+        "blockingErrors": "2",
+        "totalBlocks": "8"
+      }
+    }
+  ]
+}

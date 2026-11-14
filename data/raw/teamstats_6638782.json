@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6638782,
+  "title": "WVB Boxscore",
+  "description": "UC San Diego vs CSU Bakersfield",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46291",
+      "seoname": "uc-san-diego",
+      "name6Char": "UCSD",
+      "nameFull": "University of California, San Diego",
+      "nameShort": "UC San Diego",
+      "teamName": "Tritons",
+      "color": "#192847"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46035",
+      "seoname": "bakersfield",
+      "name6Char": "CSUBAK",
+      "nameFull": "California State University, Bakersfield",
+      "nameShort": "CSU Bakersfield",
+      "teamName": "Roadrunners",
+      "color": "#0032A0"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46291,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "33",
+        "attackErrors": "18",
+        "attackAttempts": "103",
+        "hittingPercentage": "0.146",
+        "assists": "32",
+        "setErrors": "1",
+        "setAttempts": "104",
+        "serviceAces": "7",
+        "serviceErrors": "18",
+        "serveAttempts": "73",
+        "digs": "43",
+        "receptionAttempts": "50",
+        "receptionErrors": "1",
+        "blockSolos": "2",
+        "blockAssists": "20",
+        "blockingErrors": "1",
+        "totalBlocks": "12"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46035,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "60",
+        "kills": "22",
+        "attackErrors": "21",
+        "attackAttempts": "92",
+        "hittingPercentage": "0.011",
+        "assists": "20",
+        "setErrors": "2",
+        "setAttempts": "90",
+        "serviceAces": "1",
+        "serviceErrors": "12",
+        "serveAttempts": "62",
+        "digs": "41",
+        "receptionAttempts": "55",
+        "receptionErrors": "7",
+        "blockSolos": "0",
+        "blockAssists": "13",
+        "blockingErrors": "1",
+        "totalBlocks": "6"
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626015,
+  "title": "WVB Boxscore",
+  "description": "Sam Houston vs Western Ky.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45863",
+      "seoname": "sam-houston-st",
+      "name6Char": "SAMHOU",
+      "nameFull": "Sam Houston State University",
+      "nameShort": "Sam Houston",
+      "teamName": "Bearkats",
+      "color": "#DF502A"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46634",
+      "seoname": "western-ky",
+      "name6Char": "W KY",
+      "nameFull": "Western Kentucky University",
+      "nameShort": "Western Ky.",
+      "teamName": "Lady Toppers",
+      "color": "#C8102E"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45863,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "42",
+        "kills": "24",
+        "attackErrors": "23",
+        "attackAttempts": "84",
+        "hittingPercentage": "0.012",
+        "assists": "22",
+        "setErrors": "0",
+        "setAttempts": "85",
+        "serviceAces": "2",
+        "serviceErrors": "7",
+        "serveAttempts": "44",
+        "digs": "29",
+        "receptionAttempts": "64",
+        "receptionErrors": "9",
+        "blockSolos": "1",
+        "blockAssists": "6",
+        "blockingErrors": "0",
+        "totalBlocks": "4"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46634,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "36",
+        "attackErrors": "7",
+        "attackAttempts": "75",
+        "hittingPercentage": "0.387",
+        "assists": "34",
+        "setErrors": "0",
+        "setAttempts": "69",
+        "serviceAces": "9",
+        "serviceErrors": "9",
+        "serveAttempts": "73",
+        "digs": "32",
+        "receptionAttempts": "37",
+        "receptionErrors": "2",
+        "blockSolos": "3",
+        "blockAssists": "8",
+        "blockingErrors": "1",
+        "totalBlocks": "7"
+      }
+    }
+  ]
+}

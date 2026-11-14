@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627363,
+  "title": "WVB Boxscore",
+  "description": "UC Irvine vs CSUN",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46400",
+      "seoname": "uc-irvine",
+      "name6Char": "UC IRV",
+      "nameFull": "University of California, Irvine",
+      "nameShort": "UC Irvine",
+      "teamName": "Anteaters",
+      "color": "#0C2340"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46289",
+      "seoname": "cal-st-northridge",
+      "name6Char": "CSUN",
+      "nameFull": "California State University, Northridge",
+      "nameShort": "CSUN",
+      "teamName": "Matadors",
+      "color": "#BB2531"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46400,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "58",
+        "kills": "33",
+        "attackErrors": "28",
+        "attackAttempts": "136",
+        "hittingPercentage": "0.037",
+        "assists": "32",
+        "setErrors": "1",
+        "setAttempts": "143",
+        "serviceAces": "1",
+        "serviceErrors": "5",
+        "serveAttempts": "60",
+        "digs": "62",
+        "receptionAttempts": "68",
+        "receptionErrors": "3",
+        "blockSolos": "3",
+        "blockAssists": "2",
+        "blockingErrors": "1",
+        "totalBlocks": "4"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46289,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "38",
+        "attackErrors": "19",
+        "attackAttempts": "125",
+        "hittingPercentage": "0.152",
+        "assists": "35",
+        "setErrors": "0",
+        "setAttempts": "129",
+        "serviceAces": "3",
+        "serviceErrors": "5",
+        "serveAttempts": "73",
+        "digs": "66",
+        "receptionAttempts": "55",
+        "receptionErrors": "1",
+        "blockSolos": "1",
+        "blockAssists": "16",
+        "blockingErrors": "0",
+        "totalBlocks": "9"
+      }
+    }
+  ]
+}

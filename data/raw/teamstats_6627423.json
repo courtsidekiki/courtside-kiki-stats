@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627423,
+  "title": "WVB Boxscore",
+  "description": "Delaware St. vs UMES",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46175",
+      "seoname": "delaware-st",
+      "name6Char": "DEL ST",
+      "nameFull": "Delaware State University",
+      "nameShort": "Delaware St.",
+      "teamName": "Hornets",
+      "color": "#DA291C"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46563",
+      "seoname": "umes",
+      "name6Char": "UMES",
+      "nameFull": "University of Maryland Eastern Shore",
+      "nameShort": "UMES",
+      "teamName": "Hawks",
+      "color": "#5D0024"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46175,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "108",
+        "kills": "63",
+        "attackErrors": "23",
+        "attackAttempts": "171",
+        "hittingPercentage": "0.234",
+        "assists": "47",
+        "setErrors": "7",
+        "setAttempts": "171",
+        "serviceAces": "3",
+        "serviceErrors": "14",
+        "serveAttempts": "107",
+        "digs": "65",
+        "receptionAttempts": "86",
+        "receptionErrors": "4",
+        "blockSolos": "4",
+        "blockAssists": "10",
+        "blockingErrors": "5",
+        "totalBlocks": "9"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46563,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "93",
+        "kills": "44",
+        "attackErrors": "31",
+        "attackAttempts": "156",
+        "hittingPercentage": "0.083",
+        "assists": "40",
+        "setErrors": "3",
+        "setAttempts": "172",
+        "serviceAces": "4",
+        "serviceErrors": "8",
+        "serveAttempts": "94",
+        "digs": "66",
+        "receptionAttempts": "93",
+        "receptionErrors": "3",
+        "blockSolos": "4",
+        "blockAssists": "12",
+        "blockingErrors": "3",
+        "totalBlocks": "10"
+      }
+    }
+  ]
+}

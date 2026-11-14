@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627019,
+  "title": "WVB Boxscore",
+  "description": "Cincinnati vs UCF",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46539",
+      "seoname": "cincinnati",
+      "name6Char": "CINCY",
+      "nameFull": "University of Cincinnati",
+      "nameShort": "Cincinnati",
+      "teamName": "Bearcats",
+      "color": "#C8102E"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46040",
+      "seoname": "ucf",
+      "name6Char": "UCF",
+      "nameFull": "University of Central Florida",
+      "nameShort": "UCF",
+      "teamName": "Knights",
+      "color": "#010101"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46539,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "67",
+        "kills": "43",
+        "attackErrors": "10",
+        "attackAttempts": "120",
+        "hittingPercentage": "0.275",
+        "assists": "38",
+        "setErrors": "1",
+        "setAttempts": "108",
+        "serviceAces": "4",
+        "serviceErrors": "5",
+        "serveAttempts": "69",
+        "digs": "43",
+        "receptionAttempts": "69",
+        "receptionErrors": "8",
+        "blockSolos": "2",
+        "blockAssists": "12",
+        "blockingErrors": "3",
+        "totalBlocks": "8"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46040,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "51",
+        "attackErrors": "16",
+        "attackAttempts": "120",
+        "hittingPercentage": "0.292",
+        "assists": "49",
+        "setErrors": "0",
+        "setAttempts": "115",
+        "serviceAces": "8",
+        "serviceErrors": "4",
+        "serveAttempts": "73",
+        "digs": "53",
+        "receptionAttempts": "64",
+        "receptionErrors": "4",
+        "blockSolos": "2",
+        "blockAssists": "6",
+        "blockingErrors": "1",
+        "totalBlocks": "5"
+      }
+    }
+  ]
+}

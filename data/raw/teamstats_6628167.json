@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628167,
+  "title": "WVB Boxscore",
+  "description": "Bowling Green vs Eastern Mich.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46217",
+      "seoname": "bowling-green",
+      "name6Char": "BGSU",
+      "nameFull": "Bowling Green State University",
+      "nameShort": "Bowling Green",
+      "teamName": "Falcons",
+      "color": "#FE5000"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46179",
+      "seoname": "eastern-mich",
+      "name6Char": "E MICH",
+      "nameFull": "Eastern Michigan University",
+      "nameShort": "Eastern Mich.",
+      "teamName": "Eagles",
+      "color": "#046A38"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46217,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "94",
+        "kills": "67",
+        "attackErrors": "18",
+        "attackAttempts": "162",
+        "hittingPercentage": "0.302",
+        "assists": "63",
+        "setErrors": "0",
+        "setAttempts": "148",
+        "serviceAces": "3",
+        "serviceErrors": "13",
+        "serveAttempts": "93",
+        "digs": "83",
+        "receptionAttempts": "74",
+        "receptionErrors": "5",
+        "blockSolos": "1",
+        "blockAssists": "18",
+        "blockingErrors": "0",
+        "totalBlocks": "10"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46179,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "39",
+        "attackErrors": "21",
+        "attackAttempts": "153",
+        "hittingPercentage": "0.118",
+        "assists": "35",
+        "setErrors": "1",
+        "setAttempts": "137",
+        "serviceAces": "5",
+        "serviceErrors": "2",
+        "serveAttempts": "76",
+        "digs": "66",
+        "receptionAttempts": "80",
+        "receptionErrors": "3",
+        "blockSolos": "1",
+        "blockAssists": "6",
+        "blockingErrors": "1",
+        "totalBlocks": "4"
+      }
+    }
+  ]
+}

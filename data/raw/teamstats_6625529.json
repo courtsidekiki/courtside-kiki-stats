@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625529,
+  "title": "WVB Boxscore",
+  "description": "Lehigh vs Army West Point",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46316",
+      "seoname": "lehigh",
+      "name6Char": "LEHIGH",
+      "nameFull": "Lehigh University",
+      "nameShort": "Lehigh",
+      "teamName": "Mountain Hawks",
+      "color": "#653819"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46257",
+      "seoname": "army",
+      "name6Char": "ARMY",
+      "nameFull": "U.S. Military Academy",
+      "nameShort": "Army West Point",
+      "teamName": "Black Knights",
+      "color": "#010101"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46316,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "109",
+        "kills": "65",
+        "attackErrors": "21",
+        "attackAttempts": "157",
+        "hittingPercentage": "0.280",
+        "assists": "63",
+        "setErrors": "1",
+        "setAttempts": "165",
+        "serviceAces": "2",
+        "serviceErrors": "14",
+        "serveAttempts": "110",
+        "digs": "60",
+        "receptionAttempts": "99",
+        "receptionErrors": "9",
+        "blockSolos": "3",
+        "blockAssists": "10",
+        "blockingErrors": "3",
+        "totalBlocks": "8"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46257,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "111",
+        "kills": "66",
+        "attackErrors": "27",
+        "attackAttempts": "167",
+        "hittingPercentage": "0.234",
+        "assists": "60",
+        "setErrors": "3",
+        "setAttempts": "165",
+        "serviceAces": "9",
+        "serviceErrors": "11",
+        "serveAttempts": "110",
+        "digs": "59",
+        "receptionAttempts": "96",
+        "receptionErrors": "2",
+        "blockSolos": "1",
+        "blockAssists": "14",
+        "blockingErrors": "0",
+        "totalBlocks": "8"
+      }
+    }
+  ]
+}

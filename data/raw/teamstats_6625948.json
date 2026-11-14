@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625948,
+  "title": "WVB Boxscore",
+  "description": "Southern Ind. vs Southeast Mo. St.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46500",
+      "seoname": "southern-ind",
+      "name6Char": "S IND",
+      "nameFull": "University of Southern Indiana",
+      "nameShort": "Southern Ind.",
+      "teamName": "Screaming Eagles",
+      "color": "#002855"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46496",
+      "seoname": "southeast-mo-st",
+      "name6Char": "SEMO",
+      "nameFull": "Southeast Missouri State University",
+      "nameShort": "Southeast Mo. St.",
+      "teamName": "Redhawks",
+      "color": "#010101"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46500,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "114",
+        "kills": "75",
+        "attackErrors": "26",
+        "attackAttempts": "194",
+        "hittingPercentage": "0.253",
+        "assists": "62",
+        "setErrors": "2",
+        "setAttempts": "190",
+        "serviceAces": "7",
+        "serviceErrors": "10",
+        "serveAttempts": "113",
+        "digs": "92",
+        "receptionAttempts": "93",
+        "receptionErrors": "4",
+        "blockSolos": "2",
+        "blockAssists": "12",
+        "blockingErrors": "1",
+        "totalBlocks": "8"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46496,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "98",
+        "kills": "56",
+        "attackErrors": "25",
+        "attackAttempts": "188",
+        "hittingPercentage": "0.165",
+        "assists": "51",
+        "setErrors": "1",
+        "setAttempts": "190",
+        "serviceAces": "4",
+        "serviceErrors": "6",
+        "serveAttempts": "99",
+        "digs": "82",
+        "receptionAttempts": "103",
+        "receptionErrors": "7",
+        "blockSolos": "0",
+        "blockAssists": "28",
+        "blockingErrors": "0",
+        "totalBlocks": "14"
+      }
+    }
+  ]
+}

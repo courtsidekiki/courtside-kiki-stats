@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626468,
+  "title": "WVB Boxscore",
+  "description": "Morehead St. vs Western Ill.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46341",
+      "seoname": "morehead-st",
+      "name6Char": "MOREST",
+      "nameFull": "Morehead State University",
+      "nameShort": "Morehead St.",
+      "teamName": "Eagles",
+      "color": "#0032A0"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46633",
+      "seoname": "western-ill",
+      "name6Char": "W ILL",
+      "nameFull": "Western Illinois University",
+      "nameShort": "Western Ill.",
+      "teamName": "Leathernecks",
+      "color": "#59327E"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46341,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "42",
+        "attackErrors": "14",
+        "attackAttempts": "108",
+        "hittingPercentage": "0.259",
+        "assists": "37",
+        "setErrors": "0",
+        "setAttempts": "104",
+        "serviceAces": "7",
+        "serviceErrors": "9",
+        "serveAttempts": "73",
+        "digs": "44",
+        "receptionAttempts": "56",
+        "receptionErrors": "4",
+        "blockSolos": "1",
+        "blockAssists": "6",
+        "blockingErrors": "1",
+        "totalBlocks": "4"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46633,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "61",
+        "kills": "34",
+        "attackErrors": "18",
+        "attackAttempts": "106",
+        "hittingPercentage": "0.151",
+        "assists": "29",
+        "setErrors": "1",
+        "setAttempts": "102",
+        "serviceAces": "4",
+        "serviceErrors": "7",
+        "serveAttempts": "63",
+        "digs": "45",
+        "receptionAttempts": "64",
+        "receptionErrors": "7",
+        "blockSolos": "1",
+        "blockAssists": "4",
+        "blockingErrors": "2",
+        "totalBlocks": "3"
+      }
+    }
+  ]
+}

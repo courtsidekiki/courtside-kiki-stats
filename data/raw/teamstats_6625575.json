@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625575,
+  "title": "WVB Boxscore",
+  "description": "Marshall vs Southern Miss.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46318",
+      "seoname": "marshall",
+      "name6Char": "MARSH",
+      "nameFull": "Marshall University",
+      "nameShort": "Marshall",
+      "teamName": "Thundering Herd",
+      "color": "#00B140"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45868",
+      "seoname": "southern-miss",
+      "name6Char": "S MISS",
+      "nameFull": "The University of Southern Mississippi",
+      "nameShort": "Southern Miss.",
+      "teamName": "Golden Eagles",
+      "color": "#010101"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46318,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "77",
+        "kills": "45",
+        "attackErrors": "11",
+        "attackAttempts": "122",
+        "hittingPercentage": "0.279",
+        "assists": "42",
+        "setErrors": "2",
+        "setAttempts": "126",
+        "serviceAces": "5",
+        "serviceErrors": "2",
+        "serveAttempts": "76",
+        "digs": "61",
+        "receptionAttempts": "60",
+        "receptionErrors": "2",
+        "blockSolos": "1",
+        "blockAssists": "16",
+        "blockingErrors": "0",
+        "totalBlocks": "9"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45868,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "63",
+        "kills": "46",
+        "attackErrors": "23",
+        "attackAttempts": "137",
+        "hittingPercentage": "0.168",
+        "assists": "45",
+        "setErrors": "0",
+        "setAttempts": "134",
+        "serviceAces": "2",
+        "serviceErrors": "4",
+        "serveAttempts": "64",
+        "digs": "58",
+        "receptionAttempts": "74",
+        "receptionErrors": "5",
+        "blockSolos": "0",
+        "blockAssists": "8",
+        "blockingErrors": "2",
+        "totalBlocks": "4"
+      }
+    }
+  ]
+}

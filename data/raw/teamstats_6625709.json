@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625709,
+  "title": "WVB Boxscore",
+  "description": "UNC Asheville vs USC Upstate",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46102",
+      "seoname": "unc-asheville",
+      "name6Char": "UNC A",
+      "nameFull": "University of North Carolina Asheville",
+      "nameShort": "UNC Asheville",
+      "teamName": "Bulldogs",
+      "color": "#002F6C"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45891",
+      "seoname": "usc-upstate",
+      "name6Char": "SC UPS",
+      "nameFull": "University of South Carolina Upstate",
+      "nameShort": "USC Upstate",
+      "teamName": "Spartans",
+      "color": "#008445"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46102,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "51",
+        "kills": "34",
+        "attackErrors": "19",
+        "attackAttempts": "105",
+        "hittingPercentage": "0.143",
+        "assists": "33",
+        "setErrors": "5",
+        "setAttempts": "111",
+        "serviceAces": "2",
+        "serviceErrors": "10",
+        "serveAttempts": "52",
+        "digs": "45",
+        "receptionAttempts": "67",
+        "receptionErrors": "5",
+        "blockSolos": "0",
+        "blockAssists": "4",
+        "blockingErrors": "0",
+        "totalBlocks": "2"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45891,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "36",
+        "attackErrors": "8",
+        "attackAttempts": "95",
+        "hittingPercentage": "0.295",
+        "assists": "32",
+        "setErrors": "0",
+        "setAttempts": "95",
+        "serviceAces": "5",
+        "serviceErrors": "7",
+        "serveAttempts": "74",
+        "digs": "48",
+        "receptionAttempts": "42",
+        "receptionErrors": "2",
+        "blockSolos": "0",
+        "blockAssists": "16",
+        "blockingErrors": "0",
+        "totalBlocks": "8"
+      }
+    }
+  ]
+}

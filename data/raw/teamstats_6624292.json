@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624292,
+  "title": "WVB Boxscore",
+  "description": "Marquette vs Seton Hall",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46200",
+      "seoname": "marquette",
+      "name6Char": "MARQ",
+      "nameFull": "Marquette University",
+      "nameShort": "Marquette",
+      "teamName": "Golden Eagles",
+      "color": "#1D2953"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46495",
+      "seoname": "seton-hall",
+      "name6Char": "SETON",
+      "nameFull": "Seton Hall University",
+      "nameShort": "Seton Hall",
+      "teamName": "Pirates",
+      "color": "#1A5DAD"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46200,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "45",
+        "attackErrors": "9",
+        "attackAttempts": "114",
+        "hittingPercentage": "0.316",
+        "assists": "45",
+        "setErrors": "0",
+        "setAttempts": "116",
+        "serviceAces": "8",
+        "serviceErrors": "4",
+        "serveAttempts": "74",
+        "digs": "58",
+        "receptionAttempts": "41",
+        "receptionErrors": "4",
+        "blockSolos": "1",
+        "blockAssists": "12",
+        "blockingErrors": "1",
+        "totalBlocks": "7"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46495,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "48",
+        "kills": "31",
+        "attackErrors": "13",
+        "attackAttempts": "109",
+        "hittingPercentage": "0.165",
+        "assists": "30",
+        "setErrors": "1",
+        "setAttempts": "103",
+        "serviceAces": "4",
+        "serviceErrors": "8",
+        "serveAttempts": "49",
+        "digs": "47",
+        "receptionAttempts": "70",
+        "receptionErrors": "8",
+        "blockSolos": "0",
+        "blockAssists": "8",
+        "blockingErrors": "1",
+        "totalBlocks": "4"
+      }
+    }
+  ]
+}

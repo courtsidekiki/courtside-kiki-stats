@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625815,
+  "title": "WVB Boxscore",
+  "description": "Western Caro. vs ETSU",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46382",
+      "seoname": "western-caro",
+      "name6Char": "W CAR",
+      "nameFull": "Western Carolina University",
+      "nameShort": "Western Caro.",
+      "teamName": "Catamounts",
+      "color": "#5F259F"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45768",
+      "seoname": "east-tenn-st",
+      "name6Char": "ETSU",
+      "nameFull": "East Tennessee State University",
+      "nameShort": "ETSU",
+      "teamName": "Buccaneers (Bucs)",
+      "color": "#041E42"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46382,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "69",
+        "kills": "38",
+        "attackErrors": "21",
+        "attackAttempts": "119",
+        "hittingPercentage": "0.143",
+        "assists": "36",
+        "setErrors": "1",
+        "setAttempts": "121",
+        "serviceAces": "4",
+        "serviceErrors": "7",
+        "serveAttempts": "70",
+        "digs": "43",
+        "receptionAttempts": "69",
+        "receptionErrors": "4",
+        "blockSolos": "3",
+        "blockAssists": "6",
+        "blockingErrors": "2",
+        "totalBlocks": "6"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45768,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "77",
+        "kills": "44",
+        "attackErrors": "17",
+        "attackAttempts": "114",
+        "hittingPercentage": "0.237",
+        "assists": "40",
+        "setErrors": "2",
+        "setAttempts": "117",
+        "serviceAces": "4",
+        "serviceErrors": "7",
+        "serveAttempts": "76",
+        "digs": "49",
+        "receptionAttempts": "63",
+        "receptionErrors": "4",
+        "blockSolos": "5",
+        "blockAssists": "12",
+        "blockingErrors": "3",
+        "totalBlocks": "11"
+      }
+    }
+  ]
+}

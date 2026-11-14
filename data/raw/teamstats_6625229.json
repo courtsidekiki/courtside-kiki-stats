@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625229,
+  "title": "WVB Boxscore",
+  "description": "Belmont vs Bradley",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46399",
+      "seoname": "belmont",
+      "name6Char": "BELMNT",
+      "nameFull": "Belmont University",
+      "nameShort": "Belmont",
+      "teamName": "Bruins",
+      "color": "#0D2C6B"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46700",
+      "seoname": "bradley",
+      "name6Char": "BRAD",
+      "nameFull": "Bradley University",
+      "nameShort": "Bradley",
+      "teamName": "Braves",
+      "color": "#A21B21"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46399,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "108",
+        "kills": "66",
+        "attackErrors": "16",
+        "attackAttempts": "189",
+        "hittingPercentage": "0.265",
+        "assists": "60",
+        "setErrors": "1",
+        "setAttempts": "184",
+        "serviceAces": "4",
+        "serviceErrors": "6",
+        "serveAttempts": "109",
+        "digs": "82",
+        "receptionAttempts": "93",
+        "receptionErrors": "3",
+        "blockSolos": "2",
+        "blockAssists": "24",
+        "blockingErrors": "0",
+        "totalBlocks": "14"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46700,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "100",
+        "kills": "74",
+        "attackErrors": "30",
+        "attackAttempts": "200",
+        "hittingPercentage": "0.220",
+        "assists": "68",
+        "setErrors": "2",
+        "setAttempts": "192",
+        "serviceAces": "3",
+        "serviceErrors": "6",
+        "serveAttempts": "99",
+        "digs": "96",
+        "receptionAttempts": "103",
+        "receptionErrors": "4",
+        "blockSolos": "3",
+        "blockAssists": "6",
+        "blockingErrors": "4",
+        "totalBlocks": "6"
+      }
+    }
+  ]
+}

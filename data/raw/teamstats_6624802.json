@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624802,
+  "title": "WVB Boxscore",
+  "description": "Youngstown St. vs Green Bay",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46583",
+      "seoname": "youngstown-st",
+      "name6Char": "YSU",
+      "nameFull": "Youngstown State University",
+      "nameShort": "Youngstown St.",
+      "teamName": "Penguins",
+      "color": "#C8102E"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46327",
+      "seoname": "green-bay",
+      "name6Char": "GRNBAY",
+      "nameFull": "University of Wisconsin-Green Bay",
+      "nameShort": "Green Bay",
+      "teamName": "Phoenix",
+      "color": "#0F5640"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46583,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "57",
+        "kills": "25",
+        "attackErrors": "17",
+        "attackAttempts": "120",
+        "hittingPercentage": "0.067",
+        "assists": "25",
+        "setErrors": "2",
+        "setAttempts": "124",
+        "serviceAces": "9",
+        "serviceErrors": "6",
+        "serveAttempts": "59",
+        "digs": "51",
+        "receptionAttempts": "64",
+        "receptionErrors": "5",
+        "blockSolos": "2",
+        "blockAssists": "6",
+        "blockingErrors": "2",
+        "totalBlocks": "5"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46327,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "45",
+        "attackErrors": "14",
+        "attackAttempts": "120",
+        "hittingPercentage": "0.258",
+        "assists": "44",
+        "setErrors": "0",
+        "setAttempts": "113",
+        "serviceAces": "5",
+        "serviceErrors": "9",
+        "serveAttempts": "73",
+        "digs": "66",
+        "receptionAttempts": "53",
+        "receptionErrors": "9",
+        "blockSolos": "0",
+        "blockAssists": "8",
+        "blockingErrors": "2",
+        "totalBlocks": "4"
+      }
+    }
+  ]
+}

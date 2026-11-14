@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626174,
+  "title": "WVB Boxscore",
+  "description": "Fla. Atlantic vs East Carolina",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45773",
+      "seoname": "fla-atlantic",
+      "name6Char": "FAU",
+      "nameFull": "Florida Atlantic University",
+      "nameShort": "Fla. Atlantic",
+      "teamName": "Owls",
+      "color": "#002855"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46668",
+      "seoname": "east-carolina",
+      "name6Char": "E CAR",
+      "nameFull": "East Carolina University",
+      "nameShort": "East Carolina",
+      "teamName": "Pirates",
+      "color": "#582C83"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45773,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "100",
+        "kills": "62",
+        "attackErrors": "25",
+        "attackAttempts": "147",
+        "hittingPercentage": "0.252",
+        "assists": "54",
+        "setErrors": "2",
+        "setAttempts": "136",
+        "serviceAces": "4",
+        "serviceErrors": "7",
+        "serveAttempts": "101",
+        "digs": "52",
+        "receptionAttempts": "85",
+        "receptionErrors": "5",
+        "blockSolos": "1",
+        "blockAssists": "10",
+        "blockingErrors": "0",
+        "totalBlocks": "6"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46668,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "96",
+        "kills": "57",
+        "attackErrors": "23",
+        "attackAttempts": "144",
+        "hittingPercentage": "0.236",
+        "assists": "55",
+        "setErrors": "1",
+        "setAttempts": "145",
+        "serviceAces": "5",
+        "serviceErrors": "10",
+        "serveAttempts": "95",
+        "digs": "51",
+        "receptionAttempts": "94",
+        "receptionErrors": "4",
+        "blockSolos": "1",
+        "blockAssists": "18",
+        "blockingErrors": "0",
+        "totalBlocks": "10"
+      }
+    }
+  ]
+}

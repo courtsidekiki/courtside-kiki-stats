@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627897,
+  "title": "WVB Boxscore",
+  "description": "DePaul vs St. John's (NY)",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45902",
+      "seoname": "depaul",
+      "name6Char": "DEPAUL",
+      "nameFull": "DePaul University",
+      "nameShort": "DePaul",
+      "teamName": "Blue Demons",
+      "color": "#003DA5"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45995",
+      "seoname": "st-johns-ny",
+      "name6Char": "STJOHN",
+      "nameFull": "St. John's University (New York)",
+      "nameShort": "St. John's (NY)",
+      "teamName": "Red Storm",
+      "color": "#BA0C2F"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45902,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "81",
+        "kills": "45",
+        "attackErrors": "13",
+        "attackAttempts": "112",
+        "hittingPercentage": "0.286",
+        "assists": "44",
+        "setErrors": "0",
+        "setAttempts": "109",
+        "serviceAces": "9",
+        "serviceErrors": "8",
+        "serveAttempts": "80",
+        "digs": "37",
+        "receptionAttempts": "67",
+        "receptionErrors": "6",
+        "blockSolos": "1",
+        "blockAssists": "12",
+        "blockingErrors": "3",
+        "totalBlocks": "7"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45995,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "72",
+        "kills": "45",
+        "attackErrors": "20",
+        "attackAttempts": "103",
+        "hittingPercentage": "0.243",
+        "assists": "41",
+        "setErrors": "1",
+        "setAttempts": "108",
+        "serviceAces": "6",
+        "serviceErrors": "6",
+        "serveAttempts": "73",
+        "digs": "48",
+        "receptionAttempts": "72",
+        "receptionErrors": "9",
+        "blockSolos": "3",
+        "blockAssists": "4",
+        "blockingErrors": "5",
+        "totalBlocks": "5"
+      }
+    }
+  ]
+}

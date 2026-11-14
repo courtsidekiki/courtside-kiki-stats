@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6639333,
+  "title": "WVB Boxscore",
+  "description": "California vs Georgia Tech",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45760",
+      "seoname": "california",
+      "name6Char": "CAL",
+      "nameFull": "University of California, Berkeley",
+      "nameShort": "California",
+      "teamName": "Golden Bears",
+      "color": "#041E42"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46549",
+      "seoname": "georgia-tech",
+      "name6Char": "GATECH",
+      "nameFull": "Georgia Institute of Technology",
+      "nameShort": "Georgia Tech",
+      "teamName": "Yellow Jackets",
+      "color": "#B3A369"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45760,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "98",
+        "kills": "60",
+        "attackErrors": "25",
+        "attackAttempts": "169",
+        "hittingPercentage": "0.207",
+        "assists": "59",
+        "setErrors": "0",
+        "setAttempts": "168",
+        "serviceAces": "2",
+        "serviceErrors": "9",
+        "serveAttempts": "98",
+        "digs": "70",
+        "receptionAttempts": "92",
+        "receptionErrors": "6",
+        "blockSolos": "1",
+        "blockAssists": "14",
+        "blockingErrors": "0",
+        "totalBlocks": "8"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46549,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "104",
+        "kills": "63",
+        "attackErrors": "22",
+        "attackAttempts": "164",
+        "hittingPercentage": "0.250",
+        "assists": "62",
+        "setErrors": "1",
+        "setAttempts": "167",
+        "serviceAces": "6",
+        "serviceErrors": "12",
+        "serveAttempts": "104",
+        "digs": "66",
+        "receptionAttempts": "89",
+        "receptionErrors": "2",
+        "blockSolos": "1",
+        "blockAssists": "16",
+        "blockingErrors": "2",
+        "totalBlocks": "9"
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626654,
+  "title": "WVB Boxscore",
+  "description": "Western Mich. vs Miami (OH)",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45950",
+      "seoname": "western-mich",
+      "name6Char": "W MICH",
+      "nameFull": "Western Michigan University",
+      "nameShort": "Western Mich.",
+      "teamName": "Broncos",
+      "color": "#511B00"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45931",
+      "seoname": "miami-oh",
+      "name6Char": "MIA OH",
+      "nameFull": "Miami University (Ohio)",
+      "nameShort": "Miami (OH)",
+      "teamName": "RedHawks",
+      "color": "#C8102E"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45950,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "97",
+        "kills": "66",
+        "attackErrors": "16",
+        "attackAttempts": "152",
+        "hittingPercentage": "0.329",
+        "assists": "63",
+        "setErrors": "0",
+        "setAttempts": "149",
+        "serviceAces": "5",
+        "serviceErrors": "7",
+        "serveAttempts": "96",
+        "digs": "72",
+        "receptionAttempts": "83",
+        "receptionErrors": "5",
+        "blockSolos": "0",
+        "blockAssists": "30",
+        "blockingErrors": "0",
+        "totalBlocks": "15"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45931,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "85",
+        "kills": "57",
+        "attackErrors": "23",
+        "attackAttempts": "161",
+        "hittingPercentage": "0.211",
+        "assists": "53",
+        "setErrors": "0",
+        "setAttempts": "155",
+        "serviceAces": "5",
+        "serviceErrors": "3",
+        "serveAttempts": "86",
+        "digs": "65",
+        "receptionAttempts": "89",
+        "receptionErrors": "5",
+        "blockSolos": "1",
+        "blockAssists": "8",
+        "blockingErrors": "1",
+        "totalBlocks": "5"
+      }
+    }
+  ]
+}

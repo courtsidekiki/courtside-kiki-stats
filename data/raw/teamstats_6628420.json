@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628420,
+  "title": "WVB Boxscore",
+  "description": "Dartmouth vs Columbia",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46046",
+      "seoname": "dartmouth",
+      "name6Char": "DART",
+      "nameFull": "Dartmouth College",
+      "nameShort": "Dartmouth",
+      "teamName": "Big Green",
+      "color": "#046A38"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46407",
+      "seoname": "columbia",
+      "name6Char": "COLUMB",
+      "nameFull": "Columbia University-Barnard College",
+      "nameShort": "Columbia",
+      "teamName": "Lions",
+      "color": "#97CAEB"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46046,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "96",
+        "kills": "55",
+        "attackErrors": "21",
+        "attackAttempts": "148",
+        "hittingPercentage": "0.230",
+        "assists": "47",
+        "setErrors": "4",
+        "setAttempts": "155",
+        "serviceAces": "5",
+        "serviceErrors": "11",
+        "serveAttempts": "98",
+        "digs": "55",
+        "receptionAttempts": "80",
+        "receptionErrors": "5",
+        "blockSolos": "1",
+        "blockAssists": "14",
+        "blockingErrors": "0",
+        "totalBlocks": "8"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46407,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "95",
+        "kills": "54",
+        "attackErrors": "17",
+        "attackAttempts": "145",
+        "hittingPercentage": "0.255",
+        "assists": "44",
+        "setErrors": "4",
+        "setAttempts": "158",
+        "serviceAces": "5",
+        "serviceErrors": "13",
+        "serveAttempts": "93",
+        "digs": "55",
+        "receptionAttempts": "87",
+        "receptionErrors": "5",
+        "blockSolos": "3",
+        "blockAssists": "14",
+        "blockingErrors": "0",
+        "totalBlocks": "10"
+      }
+    }
+  ]
+}

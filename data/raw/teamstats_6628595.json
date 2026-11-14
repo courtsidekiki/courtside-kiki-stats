@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628595,
+  "title": "WVB Boxscore",
+  "description": "NIU vs Cleveland St.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45981",
+      "seoname": "northern-ill",
+      "name6Char": "NIU",
+      "nameFull": "Northern Illinois University",
+      "nameShort": "NIU",
+      "teamName": "Huskies",
+      "color": "#BA0C2F"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46406",
+      "seoname": "cleveland-st",
+      "name6Char": "CLE ST",
+      "nameFull": "Cleveland State University",
+      "nameShort": "Cleveland St.",
+      "teamName": "Vikings",
+      "color": "#115740"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45981,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "38",
+        "attackErrors": "10",
+        "attackAttempts": "81",
+        "hittingPercentage": "0.346",
+        "assists": "34",
+        "setErrors": "2",
+        "setAttempts": "87",
+        "serviceAces": "7",
+        "serviceErrors": "6",
+        "serveAttempts": "74",
+        "digs": "36",
+        "receptionAttempts": "45",
+        "receptionErrors": "4",
+        "blockSolos": "2",
+        "blockAssists": "12",
+        "blockingErrors": "0",
+        "totalBlocks": "8"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46406,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "52",
+        "kills": "30",
+        "attackErrors": "21",
+        "attackAttempts": "94",
+        "hittingPercentage": "0.096",
+        "assists": "26",
+        "setErrors": "1",
+        "setAttempts": "99",
+        "serviceAces": "4",
+        "serviceErrors": "8",
+        "serveAttempts": "53",
+        "digs": "29",
+        "receptionAttempts": "68",
+        "receptionErrors": "7",
+        "blockSolos": "2",
+        "blockAssists": "0",
+        "blockingErrors": "0",
+        "totalBlocks": "2"
+      }
+    }
+  ]
+}

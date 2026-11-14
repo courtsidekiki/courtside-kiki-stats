@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625918,
+  "title": "WVB Boxscore",
+  "description": "Syracuse vs Miami (FL)",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46126",
+      "seoname": "syracuse",
+      "name6Char": "SYR",
+      "nameFull": "Syracuse University",
+      "nameShort": "Syracuse",
+      "teamName": "Orange",
+      "color": "#DC4405"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46066",
+      "seoname": "miami-fl",
+      "name6Char": "MIAMI",
+      "nameFull": "University of Miami (Florida)",
+      "nameShort": "Miami (FL)",
+      "teamName": "Hurricanes",
+      "color": "#154734"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46126,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "45",
+        "kills": "23",
+        "attackErrors": "18",
+        "attackAttempts": "95",
+        "hittingPercentage": "0.053",
+        "assists": "23",
+        "setErrors": "1",
+        "setAttempts": "90",
+        "serviceAces": "3",
+        "serviceErrors": "3",
+        "serveAttempts": "47",
+        "digs": "31",
+        "receptionAttempts": "67",
+        "receptionErrors": "9",
+        "blockSolos": "2",
+        "blockAssists": "10",
+        "blockingErrors": "0",
+        "totalBlocks": "7"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46066,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "44",
+        "attackErrors": "13",
+        "attackAttempts": "94",
+        "hittingPercentage": "0.330",
+        "assists": "44",
+        "setErrors": "0",
+        "setAttempts": "93",
+        "serviceAces": "9",
+        "serviceErrors": "6",
+        "serveAttempts": "73",
+        "digs": "48",
+        "receptionAttempts": "44",
+        "receptionErrors": "3",
+        "blockSolos": "2",
+        "blockAssists": "12",
+        "blockingErrors": "0",
+        "totalBlocks": "8"
+      }
+    }
+  ]
+}

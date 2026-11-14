@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625403,
+  "title": "WVB Boxscore",
+  "description": "The Citadel vs Chattanooga",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46662",
+      "seoname": "citadel",
+      "name6Char": "CITDEL",
+      "nameFull": "The Citadel",
+      "nameShort": "The Citadel",
+      "teamName": "Bulldogs",
+      "color": "#77A5C3"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46505",
+      "seoname": "chattanooga",
+      "name6Char": "CHAT",
+      "nameFull": "University of Tennessee at Chattanooga",
+      "nameShort": "Chattanooga",
+      "teamName": "Mocs",
+      "color": "#00416D"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46662,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "84",
+        "kills": "53",
+        "attackErrors": "27",
+        "attackAttempts": "163",
+        "hittingPercentage": "0.160",
+        "assists": "51",
+        "setErrors": "1",
+        "setAttempts": "161",
+        "serviceAces": "7",
+        "serviceErrors": "6",
+        "serveAttempts": "85",
+        "digs": "64",
+        "receptionAttempts": "91",
+        "receptionErrors": "7",
+        "blockSolos": "5",
+        "blockAssists": "4",
+        "blockingErrors": "1",
+        "totalBlocks": "7"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46505,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "99",
+        "kills": "58",
+        "attackErrors": "16",
+        "attackAttempts": "145",
+        "hittingPercentage": "0.290",
+        "assists": "56",
+        "setErrors": "1",
+        "setAttempts": "143",
+        "serviceAces": "7",
+        "serviceErrors": "7",
+        "serveAttempts": "98",
+        "digs": "70",
+        "receptionAttempts": "79",
+        "receptionErrors": "7",
+        "blockSolos": "2",
+        "blockAssists": "20",
+        "blockingErrors": "1",
+        "totalBlocks": "12"
+      }
+    }
+  ]
+}
