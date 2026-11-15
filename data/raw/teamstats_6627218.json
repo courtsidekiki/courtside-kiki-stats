@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627218,
+  "title": "WVB Boxscore",
+  "description": "Davidson vs Fordham",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46174",
+      "seoname": "davidson",
+      "name6Char": "DAVID",
+      "nameFull": "Davidson College",
+      "nameShort": "Davidson",
+      "teamName": "Wildcats",
+      "color": "#C8102E"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46302",
+      "seoname": "fordham",
+      "name6Char": "FORDHM",
+      "nameFull": "Fordham University",
+      "nameShort": "Fordham",
+      "teamName": "Rams",
+      "color": "#6F263D"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46174,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "109",
+        "kills": "65",
+        "attackErrors": "25",
+        "attackAttempts": "182",
+        "hittingPercentage": "0.220",
+        "assists": "61",
+        "setErrors": "1",
+        "setAttempts": "181",
+        "serviceAces": "11",
+        "serviceErrors": "8",
+        "serveAttempts": "108",
+        "digs": "80",
+        "receptionAttempts": "87",
+        "receptionErrors": "7",
+        "blockSolos": "4",
+        "blockAssists": "6",
+        "blockingErrors": "1",
+        "totalBlocks": "7"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46302,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "99",
+        "kills": "58",
+        "attackErrors": "19",
+        "attackAttempts": "172",
+        "hittingPercentage": "0.227",
+        "assists": "54",
+        "setErrors": "1",
+        "setAttempts": "171",
+        "serviceAces": "7",
+        "serviceErrors": "13",
+        "serveAttempts": "100",
+        "digs": "75",
+        "receptionAttempts": "100",
+        "receptionErrors": "11",
+        "blockSolos": "4",
+        "blockAssists": "14",
+        "blockingErrors": "4",
+        "totalBlocks": "11"
+      }
+    }
+  ]
+}

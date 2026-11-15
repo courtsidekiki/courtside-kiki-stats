@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624806,
+  "title": "WVB Boxscore",
+  "description": "Louisiana vs Coastal Carolina",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46003",
+      "seoname": "la-lafayette",
+      "name6Char": "LA",
+      "nameFull": "University of Louisiana at Lafayette",
+      "nameShort": "Louisiana",
+      "teamName": "Ragin' Cajuns",
+      "color": "#C8102E"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46170",
+      "seoname": "coastal-caro",
+      "name6Char": "CO CAR",
+      "nameFull": "Coastal Carolina University",
+      "nameShort": "Coastal Carolina",
+      "teamName": "Chanticleers",
+      "color": "#007377"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46003,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "91",
+        "kills": "52",
+        "attackErrors": "16",
+        "attackAttempts": "142",
+        "hittingPercentage": "0.254",
+        "assists": "46",
+        "setErrors": "0",
+        "setAttempts": "0",
+        "serviceAces": "9",
+        "serviceErrors": "9",
+        "serveAttempts": "0",
+        "digs": "51",
+        "receptionAttempts": "0",
+        "receptionErrors": "6",
+        "blockSolos": "0",
+        "blockAssists": "14",
+        "blockingErrors": "5",
+        "totalBlocks": "7"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46170,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "82",
+        "kills": "50",
+        "attackErrors": "19",
+        "attackAttempts": "133",
+        "hittingPercentage": "0.233",
+        "assists": "45",
+        "setErrors": "0",
+        "setAttempts": "0",
+        "serviceAces": "6",
+        "serviceErrors": "7",
+        "serveAttempts": "0",
+        "digs": "64",
+        "receptionAttempts": "0",
+        "receptionErrors": "9",
+        "blockSolos": "1",
+        "blockAssists": "18",
+        "blockingErrors": "1",
+        "totalBlocks": "10"
+      }
+    }
+  ]
+}

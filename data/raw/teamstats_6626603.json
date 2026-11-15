@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626603,
+  "title": "WVB Boxscore",
+  "description": "Northeastern vs William & Mary",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46728",
+      "seoname": "northeastern",
+      "name6Char": "NOEAST",
+      "nameFull": "Northeastern University",
+      "nameShort": "Northeastern",
+      "teamName": "Huskies",
+      "color": "#C8102E"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46446",
+      "seoname": "william-mary",
+      "name6Char": "WM&MRY",
+      "nameFull": "William & Mary",
+      "nameShort": "William & Mary",
+      "teamName": "Tribe",
+      "color": "#095540"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46728,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "110",
+        "kills": "54",
+        "attackErrors": "19",
+        "attackAttempts": "133",
+        "hittingPercentage": "0.263",
+        "assists": "46",
+        "setErrors": "2",
+        "setAttempts": "137",
+        "serviceAces": "6",
+        "serviceErrors": "5",
+        "serveAttempts": "109",
+        "digs": "46",
+        "receptionAttempts": "91",
+        "receptionErrors": "9",
+        "blockSolos": "2",
+        "blockAssists": "28",
+        "blockingErrors": "1",
+        "totalBlocks": "30"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46446,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "105",
+        "kills": "68",
+        "attackErrors": "31",
+        "attackAttempts": "169",
+        "hittingPercentage": "0.219",
+        "assists": "61",
+        "setErrors": "4",
+        "setAttempts": "174",
+        "serviceAces": "9",
+        "serviceErrors": "15",
+        "serveAttempts": "106",
+        "digs": "48",
+        "receptionAttempts": "104",
+        "receptionErrors": "6",
+        "blockSolos": "0",
+        "blockAssists": "12",
+        "blockingErrors": "1",
+        "totalBlocks": "12"
+      }
+    }
+  ]
+}

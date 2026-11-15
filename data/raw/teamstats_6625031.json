@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625031,
+  "title": "WVB Boxscore",
+  "description": "VCU vs Dayton",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46375",
+      "seoname": "vcu",
+      "name6Char": "VCU",
+      "nameFull": "Virginia Commonwealth University",
+      "nameShort": "VCU",
+      "teamName": "Rams",
+      "color": "#010101"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46047",
+      "seoname": "dayton",
+      "name6Char": "DAYTON",
+      "nameFull": "University of Dayton",
+      "nameShort": "Dayton",
+      "teamName": "Flyers",
+      "color": "#D50032"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46375,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "103",
+        "kills": "67",
+        "attackErrors": "25",
+        "attackAttempts": "174",
+        "hittingPercentage": "0.241",
+        "assists": "64",
+        "setErrors": "1",
+        "setAttempts": "174",
+        "serviceAces": "6",
+        "serviceErrors": "10",
+        "serveAttempts": "103",
+        "digs": "73",
+        "receptionAttempts": "102",
+        "receptionErrors": "9",
+        "blockSolos": "4",
+        "blockAssists": "8",
+        "blockingErrors": "1",
+        "totalBlocks": "12"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46047,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "113",
+        "kills": "68",
+        "attackErrors": "17",
+        "attackAttempts": "176",
+        "hittingPercentage": "0.290",
+        "assists": "65",
+        "setErrors": "2",
+        "setAttempts": "175",
+        "serviceAces": "9",
+        "serviceErrors": "11",
+        "serveAttempts": "113",
+        "digs": "66",
+        "receptionAttempts": "93",
+        "receptionErrors": "6",
+        "blockSolos": "2",
+        "blockAssists": "14",
+        "blockingErrors": "2",
+        "totalBlocks": "16"
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625665,
+  "title": "WVB Boxscore",
+  "description": "Yale vs Princeton",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45819",
+      "seoname": "yale",
+      "name6Char": "YALE",
+      "nameFull": "Yale University",
+      "nameShort": "Yale",
+      "teamName": "Bulldogs",
+      "color": "#111C2C"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46352",
+      "seoname": "princeton",
+      "name6Char": "PRINCE",
+      "nameFull": "Princeton University",
+      "nameShort": "Princeton",
+      "teamName": "Tigers",
+      "color": "#E87722"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45819,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "104",
+        "kills": "67",
+        "attackErrors": "20",
+        "attackAttempts": "150",
+        "hittingPercentage": "0.313",
+        "assists": "64",
+        "setErrors": "2",
+        "setAttempts": "144",
+        "serviceAces": "2",
+        "serviceErrors": "8",
+        "serveAttempts": "104",
+        "digs": "68",
+        "receptionAttempts": "83",
+        "receptionErrors": "8",
+        "blockSolos": "4",
+        "blockAssists": "14",
+        "blockingErrors": "3",
+        "totalBlocks": "11"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46352,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "89",
+        "kills": "50",
+        "attackErrors": "25",
+        "attackAttempts": "155",
+        "hittingPercentage": "0.161",
+        "assists": "46",
+        "setErrors": "4",
+        "setAttempts": "151",
+        "serviceAces": "8",
+        "serviceErrors": "6",
+        "serveAttempts": "89",
+        "digs": "58",
+        "receptionAttempts": "96",
+        "receptionErrors": "2",
+        "blockSolos": "1",
+        "blockAssists": "14",
+        "blockingErrors": "4",
+        "totalBlocks": "8"
+      }
+    }
+  ]
+}

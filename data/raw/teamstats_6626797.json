@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626797,
+  "title": "WVB Boxscore",
+  "description": "Mercyhurst vs LIU",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45799",
+      "seoname": "mercyhurst",
+      "name6Char": "MERCYH",
+      "nameFull": "Mercyhurst University",
+      "nameShort": "Mercyhurst",
+      "teamName": "Lakers",
+      "color": "#00594C"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45791",
+      "seoname": "long-island",
+      "name6Char": "LIU",
+      "nameFull": "Long Island University",
+      "nameShort": "LIU",
+      "teamName": "Sharks",
+      "color": "#68A8D0"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45799,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "82",
+        "kills": "46",
+        "attackErrors": "26",
+        "attackAttempts": "144",
+        "hittingPercentage": "0.139",
+        "assists": "43",
+        "setErrors": "1",
+        "setAttempts": "151",
+        "serviceAces": "13",
+        "serviceErrors": "9",
+        "serveAttempts": "83",
+        "digs": "55",
+        "receptionAttempts": "93",
+        "receptionErrors": "7",
+        "blockSolos": "2",
+        "blockAssists": "12",
+        "blockingErrors": "3",
+        "totalBlocks": "14"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45791,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "98",
+        "kills": "54",
+        "attackErrors": "16",
+        "attackAttempts": "134",
+        "hittingPercentage": "0.284",
+        "assists": "51",
+        "setErrors": "1",
+        "setAttempts": "134",
+        "serviceAces": "7",
+        "serviceErrors": "4",
+        "serveAttempts": "97",
+        "digs": "63",
+        "receptionAttempts": "74",
+        "receptionErrors": "13",
+        "blockSolos": "5",
+        "blockAssists": "8",
+        "blockingErrors": "3",
+        "totalBlocks": "13"
+      }
+    }
+  ]
+}

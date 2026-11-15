@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6639627,
+  "title": "WVB Boxscore",
+  "description": "North Ala. vs Little Rock",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46105",
+      "seoname": "north-ala",
+      "name6Char": "N ALA",
+      "nameFull": "University of North Alabama",
+      "nameShort": "North Ala.",
+      "teamName": "Lions",
+      "color": "#582C83"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45805",
+      "seoname": "ualr",
+      "name6Char": "UALR",
+      "nameFull": "University of Arkansas at Little Rock",
+      "nameShort": "Little Rock",
+      "teamName": "Trojans",
+      "color": "#6F263D"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46105,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "102",
+        "kills": "66",
+        "attackErrors": "41",
+        "attackAttempts": "234",
+        "hittingPercentage": "0.107",
+        "assists": "57",
+        "setErrors": "1",
+        "setAttempts": "228",
+        "serviceAces": "5",
+        "serviceErrors": "6",
+        "serveAttempts": "102",
+        "digs": "113",
+        "receptionAttempts": "105",
+        "receptionErrors": "3",
+        "blockSolos": "2",
+        "blockAssists": "18",
+        "blockingErrors": "1",
+        "totalBlocks": "20"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45805,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "114",
+        "kills": "62",
+        "attackErrors": "22",
+        "attackAttempts": "207",
+        "hittingPercentage": "0.193",
+        "assists": "54",
+        "setErrors": "1",
+        "setAttempts": "197",
+        "serviceAces": "3",
+        "serviceErrors": "8",
+        "serveAttempts": "113",
+        "digs": "105",
+        "receptionAttempts": "96",
+        "receptionErrors": "5",
+        "blockSolos": "3",
+        "blockAssists": "30",
+        "blockingErrors": "1",
+        "totalBlocks": "33"
+      }
+    }
+  ]
+}

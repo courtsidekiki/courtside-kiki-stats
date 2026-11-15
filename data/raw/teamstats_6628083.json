@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628083,
+  "title": "WVB Boxscore",
+  "description": "Toledo vs Bowling Green",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46007",
+      "seoname": "toledo",
+      "name6Char": "TOLEDO",
+      "nameFull": "University of Toledo",
+      "nameShort": "Toledo",
+      "teamName": "Rockets",
+      "color": "#00205B"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46217",
+      "seoname": "bowling-green",
+      "name6Char": "BGSU",
+      "nameFull": "Bowling Green State University",
+      "nameShort": "Bowling Green",
+      "teamName": "Falcons",
+      "color": "#FE5000"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46007,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "93",
+        "kills": "49",
+        "attackErrors": "22",
+        "attackAttempts": "158",
+        "hittingPercentage": "0.171",
+        "assists": "42",
+        "setErrors": "2",
+        "setAttempts": "156",
+        "serviceAces": "5",
+        "serviceErrors": "4",
+        "serveAttempts": "92",
+        "digs": "66",
+        "receptionAttempts": "73",
+        "receptionErrors": "4",
+        "blockSolos": "0",
+        "blockAssists": "26",
+        "blockingErrors": "0",
+        "totalBlocks": "13"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46217,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "80",
+        "kills": "48",
+        "attackErrors": "30",
+        "attackAttempts": "155",
+        "hittingPercentage": "0.116",
+        "assists": "41",
+        "setErrors": "1",
+        "setAttempts": "151",
+        "serviceAces": "4",
+        "serviceErrors": "8",
+        "serveAttempts": "81",
+        "digs": "71",
+        "receptionAttempts": "88",
+        "receptionErrors": "5",
+        "blockSolos": "6",
+        "blockAssists": "14",
+        "blockingErrors": "0",
+        "totalBlocks": "13"
+      }
+    }
+  ]
+}

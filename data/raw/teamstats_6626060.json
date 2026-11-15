@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626060,
+  "title": "WVB Boxscore",
+  "description": "Fairfield vs Niagara",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46300",
+      "seoname": "fairfield",
+      "name6Char": "FAIR",
+      "nameFull": "Fairfield University",
+      "nameShort": "Fairfield",
+      "teamName": "Stags",
+      "color": "#C8102E"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46476",
+      "seoname": "niagara",
+      "name6Char": "NIAGRA",
+      "nameFull": "Niagara University",
+      "nameShort": "Niagara",
+      "teamName": "Purple Eagles",
+      "color": "#582C83"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46300,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "41",
+        "attackErrors": "7",
+        "attackAttempts": "87",
+        "hittingPercentage": "0.391",
+        "assists": "38",
+        "setErrors": "2",
+        "setAttempts": "89",
+        "serviceAces": "11",
+        "serviceErrors": "7",
+        "serveAttempts": "74",
+        "digs": "31",
+        "receptionAttempts": "38",
+        "receptionErrors": "2",
+        "blockSolos": "1",
+        "blockAssists": "14",
+        "blockingErrors": "1",
+        "totalBlocks": "8"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46476,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "41",
+        "kills": "23",
+        "attackErrors": "19",
+        "attackAttempts": "78",
+        "hittingPercentage": "0.051",
+        "assists": "22",
+        "setErrors": "0",
+        "setAttempts": "76",
+        "serviceAces": "2",
+        "serviceErrors": "4",
+        "serveAttempts": "42",
+        "digs": "30",
+        "receptionAttempts": "67",
+        "receptionErrors": "11",
+        "blockSolos": "0",
+        "blockAssists": "0",
+        "blockingErrors": "1",
+        "totalBlocks": "0"
+      }
+    }
+  ]
+}

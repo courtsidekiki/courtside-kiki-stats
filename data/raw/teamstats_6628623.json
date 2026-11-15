@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628623,
+  "title": "WVB Boxscore",
+  "description": "Old Dominion vs ULM",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "1387136",
+      "seoname": "old-dominion",
+      "name6Char": "ODU",
+      "nameFull": "Old Dominion University",
+      "nameShort": "Old Dominion",
+      "teamName": "Monarchs",
+      "color": "#0B4071"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46106",
+      "seoname": "la-monroe",
+      "name6Char": "LA MON",
+      "nameFull": "University of Louisiana Monroe",
+      "nameShort": "ULM",
+      "teamName": "Warhawks",
+      "color": "#8A2432"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 1387136,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "81",
+        "kills": "43",
+        "attackErrors": "31",
+        "attackAttempts": "157",
+        "hittingPercentage": "0.076",
+        "assists": "41",
+        "setErrors": "0",
+        "setAttempts": "161",
+        "serviceAces": "8",
+        "serviceErrors": "8",
+        "serveAttempts": "82",
+        "digs": "67",
+        "receptionAttempts": "85",
+        "receptionErrors": "6",
+        "blockSolos": "0",
+        "blockAssists": "24",
+        "blockingErrors": "2",
+        "totalBlocks": "12"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46106,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "95",
+        "kills": "50",
+        "attackErrors": "21",
+        "attackAttempts": "147",
+        "hittingPercentage": "0.197",
+        "assists": "49",
+        "setErrors": "0",
+        "setAttempts": "150",
+        "serviceAces": "6",
+        "serviceErrors": "9",
+        "serveAttempts": "94",
+        "digs": "70",
+        "receptionAttempts": "74",
+        "receptionErrors": "8",
+        "blockSolos": "2",
+        "blockAssists": "24",
+        "blockingErrors": "1",
+        "totalBlocks": "14"
+      }
+    }
+  ]
+}

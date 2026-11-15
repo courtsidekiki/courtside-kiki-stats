@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627953,
+  "title": "WVB Boxscore",
+  "description": "Le Moyne vs FDU",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46684",
+      "seoname": "le-moyne",
+      "name6Char": "LEMOYN",
+      "nameFull": "Le Moyne College",
+      "nameShort": "Le Moyne",
+      "teamName": "Dolphins",
+      "color": "#154734"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45907",
+      "seoname": "fdu",
+      "name6Char": "FDU",
+      "nameFull": "Fairleigh Dickinson University, Metropolitan Campus",
+      "nameShort": "FDU",
+      "teamName": "Knights",
+      "color": "#72293c"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46684,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "55",
+        "kills": "28",
+        "attackErrors": "16",
+        "attackAttempts": "83",
+        "hittingPercentage": "0.145",
+        "assists": "25",
+        "setErrors": "1",
+        "setAttempts": "93",
+        "serviceAces": "5",
+        "serviceErrors": "4",
+        "serveAttempts": "57",
+        "digs": "45",
+        "receptionAttempts": "65",
+        "receptionErrors": "12",
+        "blockSolos": "1",
+        "blockAssists": "6",
+        "blockingErrors": "1",
+        "totalBlocks": "7"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45907,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "42",
+        "attackErrors": "14",
+        "attackAttempts": "106",
+        "hittingPercentage": "0.264",
+        "assists": "40",
+        "setErrors": "0",
+        "setAttempts": "108",
+        "serviceAces": "12",
+        "serviceErrors": "8",
+        "serveAttempts": "73",
+        "digs": "37",
+        "receptionAttempts": "53",
+        "receptionErrors": "5",
+        "blockSolos": "0",
+        "blockAssists": "12",
+        "blockingErrors": "0",
+        "totalBlocks": "12"
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625867,
+  "title": "WVB Boxscore",
+  "description": "Central Conn. St. vs Stonehill",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46039",
+      "seoname": "central-conn-st",
+      "name6Char": "C CONN",
+      "nameFull": "Central Connecticut State University",
+      "nameShort": "Central Conn. St.",
+      "teamName": "Blue Devils",
+      "color": "#003087"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46366",
+      "seoname": "stonehill",
+      "name6Char": "STONEH",
+      "nameFull": "Stonehill College",
+      "nameShort": "Stonehill",
+      "teamName": "Skyhawks",
+      "color": "#582C83"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46039,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "42",
+        "attackErrors": "16",
+        "attackAttempts": "96",
+        "hittingPercentage": "0.271",
+        "assists": "40",
+        "setErrors": "1",
+        "setAttempts": "94",
+        "serviceAces": "9",
+        "serviceErrors": "16",
+        "serveAttempts": "73",
+        "digs": "34",
+        "receptionAttempts": "51",
+        "receptionErrors": "4",
+        "blockSolos": "0",
+        "blockAssists": "6",
+        "blockingErrors": "0",
+        "totalBlocks": "6"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46366,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "58",
+        "kills": "21",
+        "attackErrors": "15",
+        "attackAttempts": "72",
+        "hittingPercentage": "0.083",
+        "assists": "19",
+        "setErrors": "0",
+        "setAttempts": "75",
+        "serviceAces": "4",
+        "serviceErrors": "9",
+        "serveAttempts": "60",
+        "digs": "34",
+        "receptionAttempts": "57",
+        "receptionErrors": "9",
+        "blockSolos": "2",
+        "blockAssists": "8",
+        "blockingErrors": "1",
+        "totalBlocks": "10"
+      }
+    }
+  ]
+}

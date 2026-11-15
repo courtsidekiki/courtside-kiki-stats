@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626744,
+  "title": "WVB Boxscore",
+  "description": "George Washington vs Loyola Chicago",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46548",
+      "seoname": "george-washington",
+      "name6Char": "G WASH",
+      "nameFull": "George Washington University",
+      "nameShort": "George Washington",
+      "teamName": "Revolutionaries",
+      "color": "#041E42"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46317",
+      "seoname": "loyola-chicago",
+      "name6Char": "LOYCHI",
+      "nameFull": "Loyola University Chicago",
+      "nameShort": "Loyola Chicago",
+      "teamName": "Ramblers",
+      "color": "#861F41"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46548,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "106",
+        "kills": "69",
+        "attackErrors": "21",
+        "attackAttempts": "164",
+        "hittingPercentage": "0.293",
+        "assists": "66",
+        "setErrors": "3",
+        "setAttempts": "170",
+        "serviceAces": "5",
+        "serviceErrors": "9",
+        "serveAttempts": "105",
+        "digs": "62",
+        "receptionAttempts": "99",
+        "receptionErrors": "4",
+        "blockSolos": "3",
+        "blockAssists": "18",
+        "blockingErrors": "0",
+        "totalBlocks": "21"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46317,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "105",
+        "kills": "68",
+        "attackErrors": "23",
+        "attackAttempts": "162",
+        "hittingPercentage": "0.278",
+        "assists": "63",
+        "setErrors": "2",
+        "setAttempts": "161",
+        "serviceAces": "4",
+        "serviceErrors": "7",
+        "serveAttempts": "106",
+        "digs": "61",
+        "receptionAttempts": "96",
+        "receptionErrors": "5",
+        "blockSolos": "1",
+        "blockAssists": "16",
+        "blockingErrors": "0",
+        "totalBlocks": "17"
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625327,
+  "title": "WVB Boxscore",
+  "description": "New Haven vs Chicago St.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46234",
+      "seoname": "new-haven",
+      "name6Char": "NEWHAV",
+      "nameFull": "University of New Haven",
+      "nameShort": "New Haven",
+      "teamName": "Chargers",
+      "color": "#102B4E"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46167",
+      "seoname": "chicago-st",
+      "name6Char": "CHI ST",
+      "nameFull": "Chicago State University",
+      "nameShort": "Chicago St.",
+      "teamName": "Cougars",
+      "color": "#006747"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46234,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "78",
+        "kills": "44",
+        "attackErrors": "16",
+        "attackAttempts": "99",
+        "hittingPercentage": "0.283",
+        "assists": "37",
+        "setErrors": "1",
+        "setAttempts": "104",
+        "serviceAces": "7",
+        "serviceErrors": "8",
+        "serveAttempts": "76",
+        "digs": "31",
+        "receptionAttempts": "55",
+        "receptionErrors": "7",
+        "blockSolos": "2",
+        "blockAssists": "12",
+        "blockingErrors": "0",
+        "totalBlocks": "14"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46167,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "58",
+        "kills": "26",
+        "attackErrors": "19",
+        "attackAttempts": "81",
+        "hittingPercentage": "0.086",
+        "assists": "22",
+        "setErrors": "3",
+        "setAttempts": "103",
+        "serviceAces": "7",
+        "serviceErrors": "5",
+        "serveAttempts": "60",
+        "digs": "28",
+        "receptionAttempts": "68",
+        "receptionErrors": "7",
+        "blockSolos": "4",
+        "blockAssists": "8",
+        "blockingErrors": "0",
+        "totalBlocks": "12"
+      }
+    }
+  ]
+}

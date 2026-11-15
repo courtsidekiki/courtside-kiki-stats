@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624538,
+  "title": "WVB Boxscore",
+  "description": "Cal St. Fullerton vs UC Riverside",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45757",
+      "seoname": "cal-st-fullerton",
+      "name6Char": "CSFULL",
+      "nameFull": "California State University, Fullerton",
+      "nameShort": "Cal St. Fullerton",
+      "teamName": "Titans",
+      "color": "#FF671F"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46536",
+      "seoname": "uc-riverside",
+      "name6Char": "UC RIV",
+      "nameFull": "University of California, Riverside",
+      "nameShort": "UC Riverside",
+      "teamName": "Highlanders",
+      "color": "#1E437B"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45757,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "97",
+        "kills": "63",
+        "attackErrors": "17",
+        "attackAttempts": "144",
+        "hittingPercentage": "0.319",
+        "assists": "56",
+        "setErrors": "1",
+        "setAttempts": "132",
+        "serviceAces": "5",
+        "serviceErrors": "5",
+        "serveAttempts": "96",
+        "digs": "64",
+        "receptionAttempts": "64",
+        "receptionErrors": "5",
+        "blockSolos": "0",
+        "blockAssists": "8",
+        "blockingErrors": "1",
+        "totalBlocks": "4"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46536,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "70",
+        "kills": "42",
+        "attackErrors": "21",
+        "attackAttempts": "137",
+        "hittingPercentage": "0.153",
+        "assists": "37",
+        "setErrors": "1",
+        "setAttempts": "127",
+        "serviceAces": "5",
+        "serviceErrors": "7",
+        "serveAttempts": "71",
+        "digs": "49",
+        "receptionAttempts": "91",
+        "receptionErrors": "5",
+        "blockSolos": "2",
+        "blockAssists": "8",
+        "blockingErrors": "1",
+        "totalBlocks": "6"
+      }
+    }
+  ]
+}

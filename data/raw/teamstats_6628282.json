@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628282,
+  "title": "WVB Boxscore",
+  "description": "Houston Christian vs UTRGV",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "51287",
+      "seoname": "houston-christian",
+      "name6Char": "HOUCHR",
+      "nameFull": "Houston Christian University",
+      "nameShort": "Houston Christian",
+      "teamName": "Huskies",
+      "color": "#002F87"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45984",
+      "seoname": "utrgv",
+      "name6Char": "UTRGV",
+      "nameFull": "The University of Texas Rio Grande Valley",
+      "nameShort": "UTRGV",
+      "teamName": "Vaqueros",
+      "color": "#FF4D00"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 51287,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "54",
+        "kills": "27",
+        "attackErrors": "21",
+        "attackAttempts": "110",
+        "hittingPercentage": "0.055",
+        "assists": "25",
+        "setErrors": "2",
+        "setAttempts": "111",
+        "serviceAces": "2",
+        "serviceErrors": "7",
+        "serveAttempts": "55",
+        "digs": "39",
+        "receptionAttempts": "70",
+        "receptionErrors": "7",
+        "blockSolos": "2",
+        "blockAssists": "4",
+        "blockingErrors": "1",
+        "totalBlocks": "4"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45984,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "38",
+        "attackErrors": "18",
+        "attackAttempts": "109",
+        "hittingPercentage": "0.183",
+        "assists": "32",
+        "setErrors": "3",
+        "setAttempts": "107",
+        "serviceAces": "7",
+        "serviceErrors": "4",
+        "serveAttempts": "74",
+        "digs": "50",
+        "receptionAttempts": "48",
+        "receptionErrors": "2",
+        "blockSolos": "2",
+        "blockAssists": "18",
+        "blockingErrors": "2",
+        "totalBlocks": "11"
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627658,
+  "title": "WVB Boxscore",
+  "description": "Southern Ill. vs Indiana St.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46498",
+      "seoname": "southern-ill",
+      "name6Char": "SIU",
+      "nameFull": "Southern Illinois University at Carbondale",
+      "nameShort": "Southern Ill.",
+      "teamName": "Salukis",
+      "color": "#6F263D"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46681",
+      "seoname": "indiana-st",
+      "name6Char": "IND ST",
+      "nameFull": "Indiana State University",
+      "nameShort": "Indiana St.",
+      "teamName": "Sycamores",
+      "color": "#1E437B"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46498,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "107",
+        "kills": "61",
+        "attackErrors": "19",
+        "attackAttempts": "162",
+        "hittingPercentage": "0.259",
+        "assists": "57",
+        "setErrors": "4",
+        "setAttempts": "175",
+        "serviceAces": "1",
+        "serviceErrors": "13",
+        "serveAttempts": "106",
+        "digs": "75",
+        "receptionAttempts": "86",
+        "receptionErrors": "7",
+        "blockSolos": "0",
+        "blockAssists": "16",
+        "blockingErrors": "4",
+        "totalBlocks": "8"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46681,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "106",
+        "kills": "62",
+        "attackErrors": "21",
+        "attackAttempts": "176",
+        "hittingPercentage": "0.233",
+        "assists": "58",
+        "setErrors": "1",
+        "setAttempts": "177",
+        "serviceAces": "7",
+        "serviceErrors": "21",
+        "serveAttempts": "107",
+        "digs": "67",
+        "receptionAttempts": "93",
+        "receptionErrors": "1",
+        "blockSolos": "0",
+        "blockAssists": "14",
+        "blockingErrors": "4",
+        "totalBlocks": "7"
+      }
+    }
+  ]
+}

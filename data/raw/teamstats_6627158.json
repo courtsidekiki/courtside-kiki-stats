@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627158,
+  "title": "WVB Boxscore",
+  "description": "Portland St. vs Weber St.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45987",
+      "seoname": "portland-st",
+      "name6Char": "PORTST",
+      "nameFull": "Portland State University",
+      "nameShort": "Portland St.",
+      "teamName": "Vikings",
+      "color": "#154734"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46011",
+      "seoname": "weber-st",
+      "name6Char": "WEB ST",
+      "nameFull": "Weber State University",
+      "nameShort": "Weber St.",
+      "teamName": "Wildcats",
+      "color": "#470A68"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45987,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "84",
+        "kills": "55",
+        "attackErrors": "21",
+        "attackAttempts": "166",
+        "hittingPercentage": "0.205",
+        "assists": "51",
+        "setErrors": "1",
+        "setAttempts": "160",
+        "serviceAces": "3",
+        "serviceErrors": "10",
+        "serveAttempts": "85",
+        "digs": "76",
+        "receptionAttempts": "88",
+        "receptionErrors": "6",
+        "blockSolos": "1",
+        "blockAssists": "4",
+        "blockingErrors": "0",
+        "totalBlocks": "3"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46011,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "98",
+        "kills": "60",
+        "attackErrors": "17",
+        "attackAttempts": "160",
+        "hittingPercentage": "0.269",
+        "assists": "57",
+        "setErrors": "0",
+        "setAttempts": "159",
+        "serviceAces": "6",
+        "serviceErrors": "9",
+        "serveAttempts": "97",
+        "digs": "82",
+        "receptionAttempts": "75",
+        "receptionErrors": "3",
+        "blockSolos": "2",
+        "blockAssists": "20",
+        "blockingErrors": "0",
+        "totalBlocks": "12"
+      }
+    }
+  ]
+}

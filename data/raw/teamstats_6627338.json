@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627338,
+  "title": "WVB Boxscore",
+  "description": "Nevada vs San Jose St.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45974",
+      "seoname": "nevada",
+      "name6Char": "NEVADA",
+      "nameFull": "University of Nevada, Reno",
+      "nameShort": "Nevada",
+      "teamName": "Wolf Pack",
+      "color": "#041E42"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46494",
+      "seoname": "san-jose-st",
+      "name6Char": "SJSU",
+      "nameFull": "San Jose State University",
+      "nameShort": "San Jose St.",
+      "teamName": "Spartans",
+      "color": "#233A82"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45974,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "93",
+        "kills": "67",
+        "attackErrors": "28",
+        "attackAttempts": "175",
+        "hittingPercentage": "0.223",
+        "assists": "57",
+        "setErrors": "2",
+        "setAttempts": "162",
+        "serviceAces": "4",
+        "serviceErrors": "6",
+        "serveAttempts": "94",
+        "digs": "70",
+        "receptionAttempts": "98",
+        "receptionErrors": "5",
+        "blockSolos": "0",
+        "blockAssists": "8",
+        "blockingErrors": "0",
+        "totalBlocks": "4"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46494,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "103",
+        "kills": "62",
+        "attackErrors": "15",
+        "attackAttempts": "154",
+        "hittingPercentage": "0.305",
+        "assists": "56",
+        "setErrors": "3",
+        "setAttempts": "150",
+        "serviceAces": "5",
+        "serviceErrors": "4",
+        "serveAttempts": "102",
+        "digs": "63",
+        "receptionAttempts": "88",
+        "receptionErrors": "4",
+        "blockSolos": "5",
+        "blockAssists": "20",
+        "blockingErrors": "0",
+        "totalBlocks": "15"
+      }
+    }
+  ]
+}

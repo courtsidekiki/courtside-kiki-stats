@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625805,
+  "title": "WVB Boxscore",
+  "description": "LMU (CA) vs San Diego",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45792",
+      "seoname": "loyola-marymount",
+      "name6Char": "LMU",
+      "nameFull": "Loyola Marymount University",
+      "nameShort": "LMU (CA)",
+      "teamName": "Lions",
+      "color": "#AB0C2F"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46493",
+      "seoname": "san-diego",
+      "name6Char": "USD",
+      "nameFull": "University of San Diego",
+      "nameShort": "San Diego",
+      "teamName": "Toreros",
+      "color": "#00205B"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45792,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "96",
+        "kills": "60",
+        "attackErrors": "21",
+        "attackAttempts": "157",
+        "hittingPercentage": "0.248",
+        "assists": "57",
+        "setErrors": "1",
+        "setAttempts": "148",
+        "serviceAces": "6",
+        "serviceErrors": "21",
+        "serveAttempts": "95",
+        "digs": "60",
+        "receptionAttempts": "85",
+        "receptionErrors": "2",
+        "blockSolos": "2",
+        "blockAssists": "8",
+        "blockingErrors": "3",
+        "totalBlocks": "6"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46493,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "92",
+        "kills": "46",
+        "attackErrors": "21",
+        "attackAttempts": "130",
+        "hittingPercentage": "0.192",
+        "assists": "43",
+        "setErrors": "0",
+        "setAttempts": "125",
+        "serviceAces": "2",
+        "serviceErrors": "8",
+        "serveAttempts": "93",
+        "digs": "63",
+        "receptionAttempts": "74",
+        "receptionErrors": "6",
+        "blockSolos": "4",
+        "blockAssists": "11",
+        "blockingErrors": "1",
+        "totalBlocks": "9"
+      }
+    }
+  ]
+}

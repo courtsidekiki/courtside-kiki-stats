@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625527,
+  "title": "WVB Boxscore",
+  "description": "Central Mich. vs Western Mich.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46164",
+      "seoname": "central-mich",
+      "name6Char": "C MICH",
+      "nameFull": "Central Michigan University",
+      "nameShort": "Central Mich.",
+      "teamName": "Chippewas",
+      "color": "#6F263D"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45950",
+      "seoname": "western-mich",
+      "name6Char": "W MICH",
+      "nameFull": "Western Michigan University",
+      "nameShort": "Western Mich.",
+      "teamName": "Broncos",
+      "color": "#511B00"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46164,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "36",
+        "kills": "18",
+        "attackErrors": "16",
+        "attackAttempts": "94",
+        "hittingPercentage": "0.021",
+        "assists": "17",
+        "setErrors": "0",
+        "setAttempts": "92",
+        "serviceAces": "1",
+        "serviceErrors": "5",
+        "serveAttempts": "37",
+        "digs": "33",
+        "receptionAttempts": "67",
+        "receptionErrors": "4",
+        "blockSolos": "0",
+        "blockAssists": "10",
+        "blockingErrors": "1",
+        "totalBlocks": "5"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45950,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "49",
+        "attackErrors": "10",
+        "attackAttempts": "106",
+        "hittingPercentage": "0.368",
+        "assists": "47",
+        "setErrors": "0",
+        "setAttempts": "100",
+        "serviceAces": "4",
+        "serviceErrors": "7",
+        "serveAttempts": "74",
+        "digs": "58",
+        "receptionAttempts": "32",
+        "receptionErrors": "1",
+        "blockSolos": "1",
+        "blockAssists": "10",
+        "blockingErrors": "0",
+        "totalBlocks": "6"
+      }
+    }
+  ]
+}

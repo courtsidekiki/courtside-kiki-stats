@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6639408,
+  "title": "WVB Boxscore",
+  "description": "Kennesaw St. vs Middle Tenn.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45832",
+      "seoname": "kennesaw-st",
+      "name6Char": "KENSAW",
+      "nameFull": "Kennesaw State University",
+      "nameShort": "Kennesaw St.",
+      "teamName": "Owls",
+      "color": "#010101"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46067",
+      "seoname": "middle-tenn",
+      "name6Char": "MIDTEN",
+      "nameFull": "Middle Tennessee State University",
+      "nameShort": "Middle Tenn.",
+      "teamName": "Blue Raiders",
+      "color": "#006FAB"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45832,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "90",
+        "kills": "62",
+        "attackErrors": "24",
+        "attackAttempts": "157",
+        "hittingPercentage": "0.242",
+        "assists": "53",
+        "setErrors": "1",
+        "setAttempts": "152",
+        "serviceAces": "3",
+        "serviceErrors": "8",
+        "serveAttempts": "91",
+        "digs": "58",
+        "receptionAttempts": "86",
+        "receptionErrors": "4",
+        "blockSolos": "3",
+        "blockAssists": "10",
+        "blockingErrors": "1",
+        "totalBlocks": "8"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46067,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "96",
+        "kills": "59",
+        "attackErrors": "15",
+        "attackAttempts": "142",
+        "hittingPercentage": "0.310",
+        "assists": "56",
+        "setErrors": "1",
+        "setAttempts": "148",
+        "serviceAces": "4",
+        "serviceErrors": "9",
+        "serveAttempts": "95",
+        "digs": "61",
+        "receptionAttempts": "83",
+        "receptionErrors": "3",
+        "blockSolos": "0",
+        "blockAssists": "12",
+        "blockingErrors": "1",
+        "totalBlocks": "6"
+      }
+    }
+  ]
+}

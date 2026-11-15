@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627064,
+  "title": "WVB Boxscore",
+  "description": "Tarleton St. vs Austin Peay",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46097",
+      "seoname": "tarleton-st",
+      "name6Char": "TARLET",
+      "nameFull": "Tarleton State University",
+      "nameShort": "Tarleton St.",
+      "teamName": "Texans",
+      "color": "#582C83"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45942",
+      "seoname": "austin-peay",
+      "name6Char": "A PEAY",
+      "nameFull": "Austin Peay State University",
+      "nameShort": "Austin Peay",
+      "teamName": "Governors",
+      "color": "#BA0C2F"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46097,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "95",
+        "kills": "59",
+        "attackErrors": "17",
+        "attackAttempts": "160",
+        "hittingPercentage": "0.263",
+        "assists": "54",
+        "setErrors": "1",
+        "setAttempts": "165",
+        "serviceAces": "8",
+        "serviceErrors": "8",
+        "serveAttempts": "94",
+        "digs": "74",
+        "receptionAttempts": "82",
+        "receptionErrors": "6",
+        "blockSolos": "1",
+        "blockAssists": "12",
+        "blockingErrors": "2",
+        "totalBlocks": "7"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45942,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "92",
+        "kills": "60",
+        "attackErrors": "16",
+        "attackAttempts": "167",
+        "hittingPercentage": "0.263",
+        "assists": "56",
+        "setErrors": "1",
+        "setAttempts": "180",
+        "serviceAces": "6",
+        "serviceErrors": "11",
+        "serveAttempts": "93",
+        "digs": "74",
+        "receptionAttempts": "86",
+        "receptionErrors": "8",
+        "blockSolos": "1",
+        "blockAssists": "16",
+        "blockingErrors": "1",
+        "totalBlocks": "9"
+      }
+    }
+  ]
+}

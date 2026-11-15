@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627465,
+  "title": "WVB Boxscore",
+  "description": "Mercer vs UNC Greensboro",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46567",
+      "seoname": "mercer",
+      "name6Char": "MERCER",
+      "nameFull": "Mercer University",
+      "nameShort": "Mercer",
+      "teamName": "Bears",
+      "color": "#E87722"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46472",
+      "seoname": "unc-greensboro",
+      "name6Char": "UNC G",
+      "nameFull": "The University of North Carolina at Greensboro",
+      "nameShort": "UNC Greensboro",
+      "teamName": "Spartans",
+      "color": "#13294B"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46567,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "95",
+        "kills": "65",
+        "attackErrors": "18",
+        "attackAttempts": "157",
+        "hittingPercentage": "0.299",
+        "assists": "63",
+        "setErrors": "2",
+        "setAttempts": "167",
+        "serviceAces": "7",
+        "serviceErrors": "9",
+        "serveAttempts": "96",
+        "digs": "62",
+        "receptionAttempts": "94",
+        "receptionErrors": "8",
+        "blockSolos": "1",
+        "blockAssists": "18",
+        "blockingErrors": "2",
+        "totalBlocks": "10"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46472,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "96",
+        "kills": "58",
+        "attackErrors": "21",
+        "attackAttempts": "159",
+        "hittingPercentage": "0.233",
+        "assists": "54",
+        "setErrors": "0",
+        "setAttempts": "164",
+        "serviceAces": "8",
+        "serviceErrors": "1",
+        "serveAttempts": "95",
+        "digs": "63",
+        "receptionAttempts": "87",
+        "receptionErrors": "7",
+        "blockSolos": "2",
+        "blockAssists": "10",
+        "blockingErrors": "0",
+        "totalBlocks": "7"
+      }
+    }
+  ]
+}

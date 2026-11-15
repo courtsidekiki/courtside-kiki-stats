@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625378,
+  "title": "WVB Boxscore",
+  "description": "Nebraska vs Iowa",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46474",
+      "seoname": "nebraska",
+      "name6Char": "NEB",
+      "nameFull": "University of Nebraska-Lincoln",
+      "nameShort": "Nebraska",
+      "teamName": "Huskers",
+      "color": "#C8102E"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46553",
+      "seoname": "iowa",
+      "name6Char": "IOWA",
+      "nameFull": "University of Iowa",
+      "nameShort": "Iowa",
+      "teamName": "Hawkeyes",
+      "color": "#010101"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46474,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "47",
+        "attackErrors": "10",
+        "attackAttempts": "81",
+        "hittingPercentage": "0.457",
+        "assists": "43",
+        "setErrors": "0",
+        "setAttempts": "75",
+        "serviceAces": "4",
+        "serviceErrors": "10",
+        "serveAttempts": "74",
+        "digs": "28",
+        "receptionAttempts": "41",
+        "receptionErrors": "2",
+        "blockSolos": "1",
+        "blockAssists": "17",
+        "blockingErrors": "1",
+        "totalBlocks": "9"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46553,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "44",
+        "kills": "22",
+        "attackErrors": "20",
+        "attackAttempts": "77",
+        "hittingPercentage": "0.026",
+        "assists": "22",
+        "setErrors": "0",
+        "setAttempts": "77",
+        "serviceAces": "2",
+        "serviceErrors": "4",
+        "serveAttempts": "45",
+        "digs": "20",
+        "receptionAttempts": "64",
+        "receptionErrors": "4",
+        "blockSolos": "1",
+        "blockAssists": "10",
+        "blockingErrors": "1",
+        "totalBlocks": "6"
+      }
+    }
+  ]
+}

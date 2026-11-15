@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628007,
+  "title": "WVB Boxscore",
+  "description": "Lehigh vs Navy",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46316",
+      "seoname": "lehigh",
+      "name6Char": "LEHIGH",
+      "nameFull": "Lehigh University",
+      "nameShort": "Lehigh",
+      "teamName": "Mountain Hawks",
+      "color": "#653819"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46372",
+      "seoname": "navy",
+      "name6Char": "NAVY",
+      "nameFull": "U.S. Naval Academy",
+      "nameShort": "Navy",
+      "teamName": "Midshipmen",
+      "color": "#00205B"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46316,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "97",
+        "kills": "59",
+        "attackErrors": "28",
+        "attackAttempts": "155",
+        "hittingPercentage": "0.200",
+        "assists": "57",
+        "setErrors": "0",
+        "setAttempts": "158",
+        "serviceAces": "5",
+        "serviceErrors": "12",
+        "serveAttempts": "96",
+        "digs": "59",
+        "receptionAttempts": "82",
+        "receptionErrors": "3",
+        "blockSolos": "4",
+        "blockAssists": "16",
+        "blockingErrors": "2",
+        "totalBlocks": "20"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46372,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "92",
+        "kills": "49",
+        "attackErrors": "21",
+        "attackAttempts": "140",
+        "hittingPercentage": "0.200",
+        "assists": "47",
+        "setErrors": "1",
+        "setAttempts": "147",
+        "serviceAces": "3",
+        "serviceErrors": "11",
+        "serveAttempts": "93",
+        "digs": "55",
+        "receptionAttempts": "84",
+        "receptionErrors": "5",
+        "blockSolos": "3",
+        "blockAssists": "16",
+        "blockingErrors": "1",
+        "totalBlocks": "19"
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628505,
+  "title": "WVB Boxscore",
+  "description": "Stetson vs FGCU",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46502",
+      "seoname": "stetson",
+      "name6Char": "STETSN",
+      "nameFull": "Stetson University",
+      "nameShort": "Stetson",
+      "teamName": "Hatters",
+      "color": "#006747"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46138",
+      "seoname": "fgcu",
+      "name6Char": "FGCU",
+      "nameFull": "Florida Gulf Coast University",
+      "nameShort": "FGCU",
+      "teamName": "Eagles",
+      "color": "#002D72"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46502,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "57",
+        "kills": "28",
+        "attackErrors": "14",
+        "attackAttempts": "97",
+        "hittingPercentage": "0.144",
+        "assists": "26",
+        "setErrors": "1",
+        "setAttempts": "96",
+        "serviceAces": "1",
+        "serviceErrors": "2",
+        "serveAttempts": "58",
+        "digs": "34",
+        "receptionAttempts": "67",
+        "receptionErrors": "12",
+        "blockSolos": "5",
+        "blockAssists": "10",
+        "blockingErrors": "0",
+        "totalBlocks": "10"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46138,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "46",
+        "attackErrors": "21",
+        "attackAttempts": "110",
+        "hittingPercentage": "0.227",
+        "assists": "45",
+        "setErrors": "0",
+        "setAttempts": "109",
+        "serviceAces": "12",
+        "serviceErrors": "7",
+        "serveAttempts": "74",
+        "digs": "46",
+        "receptionAttempts": "56",
+        "receptionErrors": "1",
+        "blockSolos": "1",
+        "blockAssists": "10",
+        "blockingErrors": "1",
+        "totalBlocks": "6"
+      }
+    }
+  ]
+}

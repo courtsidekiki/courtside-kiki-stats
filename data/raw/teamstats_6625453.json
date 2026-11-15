@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625453,
+  "title": "WVB Boxscore",
+  "description": "LSU New Orleans  vs SFA",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46726",
+      "seoname": "new-orleans",
+      "name6Char": "UNO",
+      "nameFull": "LSU New Orleans",
+      "nameShort": "LSU New Orleans ",
+      "teamName": "Privateers",
+      "color": "#0057B8"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46624",
+      "seoname": "stephen-f-austin",
+      "name6Char": "SFA",
+      "nameFull": "Stephen F. Austin State University",
+      "nameShort": "SFA",
+      "teamName": "Lumberjacks",
+      "color": "#532F7C"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46726,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "47",
+        "kills": "26",
+        "attackErrors": "15",
+        "attackAttempts": "95",
+        "hittingPercentage": "0.116",
+        "assists": "26",
+        "setErrors": "0",
+        "setAttempts": "106",
+        "serviceAces": "1",
+        "serviceErrors": "2",
+        "serveAttempts": "48",
+        "digs": "42",
+        "receptionAttempts": "66",
+        "receptionErrors": "4",
+        "blockSolos": "1",
+        "blockAssists": "4",
+        "blockingErrors": "1",
+        "totalBlocks": "3"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46624,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "54",
+        "attackErrors": "11",
+        "attackAttempts": "112",
+        "hittingPercentage": "0.384",
+        "assists": "52",
+        "setErrors": "1",
+        "setAttempts": "110",
+        "serviceAces": "4",
+        "serviceErrors": "8",
+        "serveAttempts": "74",
+        "digs": "46",
+        "receptionAttempts": "46",
+        "receptionErrors": "1",
+        "blockSolos": "0",
+        "blockAssists": "12",
+        "blockingErrors": "0",
+        "totalBlocks": "6"
+      }
+    }
+  ]
+}
