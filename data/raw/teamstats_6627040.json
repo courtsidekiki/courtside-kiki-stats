@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627040,
+  "title": "WVB Boxscore",
+  "description": "Pittsburgh vs Louisville",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45986",
+      "seoname": "pittsburgh",
+      "name6Char": "PITT",
+      "nameFull": "University of Pittsburgh",
+      "nameShort": "Pittsburgh",
+      "teamName": "Panthers",
+      "color": "#003594"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46061",
+      "seoname": "louisville",
+      "name6Char": "LOUIS",
+      "nameFull": "University of Louisville",
+      "nameShort": "Louisville",
+      "teamName": "Cardinals",
+      "color": "#EE2722"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45986,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "49",
+        "attackErrors": "11",
+        "attackAttempts": "99",
+        "hittingPercentage": "0.384",
+        "assists": "45",
+        "setErrors": "0",
+        "setAttempts": "91",
+        "serviceAces": "4",
+        "serviceErrors": "5",
+        "serveAttempts": "73",
+        "digs": "39",
+        "receptionAttempts": "48",
+        "receptionErrors": "2",
+        "blockSolos": "0",
+        "blockAssists": "16",
+        "blockingErrors": "1",
+        "totalBlocks": "8"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46061,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "50",
+        "kills": "32",
+        "attackErrors": "17",
+        "attackAttempts": "97",
+        "hittingPercentage": "0.155",
+        "assists": "31",
+        "setErrors": "1",
+        "setAttempts": "98",
+        "serviceAces": "2",
+        "serviceErrors": "4",
+        "serveAttempts": "52",
+        "digs": "32",
+        "receptionAttempts": "68",
+        "receptionErrors": "4",
+        "blockSolos": "2",
+        "blockAssists": "8",
+        "blockingErrors": "1",
+        "totalBlocks": "6"
+      }
+    }
+  ]
+}

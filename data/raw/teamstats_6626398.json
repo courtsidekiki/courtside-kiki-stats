@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626398,
+  "title": "WVB Boxscore",
+  "description": "Creighton vs Villanova",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46664",
+      "seoname": "creighton",
+      "name6Char": "CREIGH",
+      "nameFull": "Creighton University",
+      "nameShort": "Creighton",
+      "teamName": "Bluejays",
+      "color": "#0032A0"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46508",
+      "seoname": "villanova",
+      "name6Char": "NOVA",
+      "nameFull": "Villanova University",
+      "nameShort": "Villanova",
+      "teamName": "Wildcats",
+      "color": "#001F5B"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46664,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "83",
+        "kills": "41",
+        "attackErrors": "16",
+        "attackAttempts": "127",
+        "hittingPercentage": "0.197",
+        "assists": "36",
+        "setErrors": "1",
+        "setAttempts": "120",
+        "serviceAces": "4",
+        "serviceErrors": "9",
+        "serveAttempts": "82",
+        "digs": "57",
+        "receptionAttempts": "56",
+        "receptionErrors": "3",
+        "blockSolos": "1",
+        "blockAssists": "14",
+        "blockingErrors": "2",
+        "totalBlocks": "8"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46508,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "66",
+        "kills": "37",
+        "attackErrors": "26",
+        "attackAttempts": "134",
+        "hittingPercentage": "0.082",
+        "assists": "37",
+        "setErrors": "1",
+        "setAttempts": "135",
+        "serviceAces": "3",
+        "serviceErrors": "11",
+        "serveAttempts": "67",
+        "digs": "56",
+        "receptionAttempts": "73",
+        "receptionErrors": "4",
+        "blockSolos": "0",
+        "blockAssists": "4",
+        "blockingErrors": "1",
+        "totalBlocks": "2"
+      }
+    }
+  ]
+}

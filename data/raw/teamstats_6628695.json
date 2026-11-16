@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628695,
+  "title": "WVB Boxscore",
+  "description": "Texas A&M vs Ole Miss",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46006",
+      "seoname": "texas-am",
+      "name6Char": "TX A&M",
+      "nameFull": "Texas A&M University, College Station",
+      "nameShort": "Texas A&M",
+      "teamName": "Aggies",
+      "color": "#5D0025"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45938",
+      "seoname": "ole-miss",
+      "name6Char": "MISS",
+      "nameFull": "University of Mississippi",
+      "nameShort": "Ole Miss",
+      "teamName": "Rebels",
+      "color": "#C8102E"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46006,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "48",
+        "attackErrors": "15",
+        "attackAttempts": "99",
+        "hittingPercentage": "0.333",
+        "assists": "45",
+        "setErrors": "0",
+        "setAttempts": "98",
+        "serviceAces": "6",
+        "serviceErrors": "7",
+        "serveAttempts": "74",
+        "digs": "37",
+        "receptionAttempts": "50",
+        "receptionErrors": "1",
+        "blockSolos": "0",
+        "blockAssists": "10",
+        "blockingErrors": "1",
+        "totalBlocks": "5"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45938,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "53",
+        "kills": "30",
+        "attackErrors": "16",
+        "attackAttempts": "88",
+        "hittingPercentage": "0.159",
+        "assists": "28",
+        "setErrors": "1",
+        "setAttempts": "95",
+        "serviceAces": "1",
+        "serviceErrors": "4",
+        "serveAttempts": "54",
+        "digs": "30",
+        "receptionAttempts": "67",
+        "receptionErrors": "6",
+        "blockSolos": "1",
+        "blockAssists": "12",
+        "blockingErrors": "1",
+        "totalBlocks": "7"
+      }
+    }
+  ]
+}

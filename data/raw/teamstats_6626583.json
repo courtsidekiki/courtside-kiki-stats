@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626583,
+  "title": "WVB Boxscore",
+  "description": "West Virginia vs UCF",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46511",
+      "seoname": "west-virginia",
+      "name6Char": "WVU",
+      "nameFull": "West Virginia University",
+      "nameShort": "West Virginia",
+      "teamName": "Mountaineers",
+      "color": "#0F2D52"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46040",
+      "seoname": "ucf",
+      "name6Char": "UCF",
+      "nameFull": "University of Central Florida",
+      "nameShort": "UCF",
+      "teamName": "Knights",
+      "color": "#010101"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46511,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "109",
+        "kills": "63",
+        "attackErrors": "24",
+        "attackAttempts": "152",
+        "hittingPercentage": "0.257",
+        "assists": "59",
+        "setErrors": "0",
+        "setAttempts": "153",
+        "serviceAces": "10",
+        "serviceErrors": "11",
+        "serveAttempts": "110",
+        "digs": "58",
+        "receptionAttempts": "91",
+        "receptionErrors": "7",
+        "blockSolos": "2",
+        "blockAssists": "8",
+        "blockingErrors": "2",
+        "totalBlocks": "6"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46040,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "106",
+        "kills": "64",
+        "attackErrors": "21",
+        "attackAttempts": "157",
+        "hittingPercentage": "0.274",
+        "assists": "63",
+        "setErrors": "1",
+        "setAttempts": "156",
+        "serviceAces": "7",
+        "serviceErrors": "14",
+        "serveAttempts": "105",
+        "digs": "51",
+        "receptionAttempts": "99",
+        "receptionErrors": "10",
+        "blockSolos": "4",
+        "blockAssists": "16",
+        "blockingErrors": "2",
+        "totalBlocks": "12"
+      }
+    }
+  ]
+}

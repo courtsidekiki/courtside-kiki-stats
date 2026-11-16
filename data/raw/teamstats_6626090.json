@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626090,
+  "title": "WVB Boxscore",
+  "description": "Tulsa vs Temple",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45876",
+      "seoname": "tulsa",
+      "name6Char": "TULSA",
+      "nameFull": "The University of Tulsa",
+      "nameShort": "Tulsa",
+      "teamName": "Golden Hurricane",
+      "color": "#002D72"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45871",
+      "seoname": "temple",
+      "name6Char": "TEMPLE",
+      "nameFull": "Temple University",
+      "nameShort": "Temple",
+      "teamName": "Owls",
+      "color": "#b30838"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45876,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "43",
+        "attackErrors": "7",
+        "attackAttempts": "83",
+        "hittingPercentage": "0.434",
+        "assists": "41",
+        "setErrors": "1",
+        "setAttempts": "85",
+        "serviceAces": "4",
+        "serviceErrors": "6",
+        "serveAttempts": "73",
+        "digs": "34",
+        "receptionAttempts": "45",
+        "receptionErrors": "4",
+        "blockSolos": "1",
+        "blockAssists": "20",
+        "blockingErrors": "1",
+        "totalBlocks": "11"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45871,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "51",
+        "kills": "33",
+        "attackErrors": "19",
+        "attackAttempts": "97",
+        "hittingPercentage": "0.144",
+        "assists": "33",
+        "setErrors": "1",
+        "setAttempts": "102",
+        "serviceAces": "4",
+        "serviceErrors": "8",
+        "serveAttempts": "53",
+        "digs": "31",
+        "receptionAttempts": "67",
+        "receptionErrors": "4",
+        "blockSolos": "1",
+        "blockAssists": "0",
+        "blockingErrors": "2",
+        "totalBlocks": "1"
+      }
+    }
+  ]
+}

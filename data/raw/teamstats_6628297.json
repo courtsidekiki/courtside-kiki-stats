@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628297,
+  "title": "WVB Boxscore",
+  "description": "Prairie View vs Ark.-Pine Bluff",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46734",
+      "seoname": "prairie-view",
+      "name6Char": "PV A&M",
+      "nameFull": "Prairie View A&M University",
+      "nameShort": "Prairie View",
+      "teamName": "Lady Panthers",
+      "color": "#582C83"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46646",
+      "seoname": "ark-pine-bluff",
+      "name6Char": "ARK PB",
+      "nameFull": "University of Arkansas, Pine Bluff",
+      "nameShort": "Ark.-Pine Bluff",
+      "teamName": "Lady Lions",
+      "color": "#010101"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46734,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "40",
+        "attackErrors": "13",
+        "attackAttempts": "105",
+        "hittingPercentage": "0.257",
+        "assists": "35",
+        "setErrors": "0",
+        "setAttempts": "100",
+        "serviceAces": "11",
+        "serviceErrors": "7",
+        "serveAttempts": "73",
+        "digs": "53",
+        "receptionAttempts": "40",
+        "receptionErrors": "1",
+        "blockSolos": "3",
+        "blockAssists": "12",
+        "blockingErrors": "1",
+        "totalBlocks": "9"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46646,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "41",
+        "kills": "20",
+        "attackErrors": "18",
+        "attackAttempts": "105",
+        "hittingPercentage": "0.019",
+        "assists": "17",
+        "setErrors": "3",
+        "setAttempts": "104",
+        "serviceAces": "1",
+        "serviceErrors": "3",
+        "serveAttempts": "43",
+        "digs": "41",
+        "receptionAttempts": "66",
+        "receptionErrors": "11",
+        "blockSolos": "1",
+        "blockAssists": "4",
+        "blockingErrors": "2",
+        "totalBlocks": "3"
+      }
+    }
+  ]
+}

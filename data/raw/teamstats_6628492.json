@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628492,
+  "title": "WVB Boxscore",
+  "description": "Tulane vs Rice",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46255",
+      "seoname": "tulane",
+      "name6Char": "TULANE",
+      "nameFull": "Tulane University",
+      "nameShort": "Tulane",
+      "teamName": "Green Wave",
+      "color": "#006747"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45859",
+      "seoname": "rice",
+      "name6Char": "RICE",
+      "nameFull": "Rice University",
+      "nameShort": "Rice",
+      "teamName": "Owls",
+      "color": "#00205B"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46255,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "102",
+        "kills": "67",
+        "attackErrors": "23",
+        "attackAttempts": "200",
+        "hittingPercentage": "0.220",
+        "assists": "65",
+        "setErrors": "0",
+        "setAttempts": "196",
+        "serviceAces": "6",
+        "serviceErrors": "9",
+        "serveAttempts": "102",
+        "digs": "84",
+        "receptionAttempts": "109",
+        "receptionErrors": "7",
+        "blockSolos": "2",
+        "blockAssists": "18",
+        "blockingErrors": "0",
+        "totalBlocks": "11"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45859,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "112",
+        "kills": "73",
+        "attackErrors": "25",
+        "attackAttempts": "202",
+        "hittingPercentage": "0.238",
+        "assists": "65",
+        "setErrors": "1",
+        "setAttempts": "199",
+        "serviceAces": "7",
+        "serviceErrors": "3",
+        "serveAttempts": "112",
+        "digs": "96",
+        "receptionAttempts": "93",
+        "receptionErrors": "6",
+        "blockSolos": "1",
+        "blockAssists": "8",
+        "blockingErrors": "0",
+        "totalBlocks": "5"
+      }
+    }
+  ]
+}

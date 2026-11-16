@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626309,
+  "title": "WVB Boxscore",
+  "description": "SMU vs Notre Dame",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46250",
+      "seoname": "smu",
+      "name6Char": "SMU",
+      "nameFull": "Southern Methodist University",
+      "nameShort": "SMU",
+      "teamName": "Mustangs",
+      "color": "#A80000"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46610",
+      "seoname": "notre-dame",
+      "name6Char": "N DAME",
+      "nameFull": "University of Notre Dame",
+      "nameShort": "Notre Dame",
+      "teamName": "Fighting Irish",
+      "color": "#0C2340"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46250,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "40",
+        "attackErrors": "19",
+        "attackAttempts": "104",
+        "hittingPercentage": "0.202",
+        "assists": "35",
+        "setErrors": "1",
+        "setAttempts": "101",
+        "serviceAces": "4",
+        "serviceErrors": "8",
+        "serveAttempts": "73",
+        "digs": "45",
+        "receptionAttempts": "50",
+        "receptionErrors": "3",
+        "blockSolos": "1",
+        "blockAssists": "18",
+        "blockingErrors": "0",
+        "totalBlocks": "10"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46610,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "57",
+        "kills": "26",
+        "attackErrors": "22",
+        "attackAttempts": "97",
+        "hittingPercentage": "0.041",
+        "assists": "24",
+        "setErrors": "0",
+        "setAttempts": "93",
+        "serviceAces": "3",
+        "serviceErrors": "9",
+        "serveAttempts": "59",
+        "digs": "37",
+        "receptionAttempts": "65",
+        "receptionErrors": "4",
+        "blockSolos": "1",
+        "blockAssists": "15",
+        "blockingErrors": "0",
+        "totalBlocks": "8"
+      }
+    }
+  ]
+}
