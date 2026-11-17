@@ -1,13 +1,13 @@
 {
-  "inputMD5Sum": "676c29b6e2e2626efdc02dec662841d8",
+  "inputMD5Sum": "44328d96cfb52198b83dcee4b8266439",
   "instanceId": "d41d8cd98f00b204e9800998ecf8427e",
-  "updated_at": "2026-11-16 20:58:03",
+  "updated_at": "2026-11-17 19:39:42",
   "games": [
     {
       "game": {
         "gameID": "6628342",
         "away": {
-          "score": "",
+          "score": "2",
           "names": {
             "char6": "CINCY",
             "short": "Cincinnati",
@@ -25,19 +25,19 @@
             }
           ]
         },
-        "finalMessage": "",
+        "finalMessage": "FINAL",
         "title": "Cincinnati Iowa St.",
         "url": "/game/6628342",
         "network": "",
         "home": {
-          "score": "",
+          "score": "3",
           "names": {
             "char6": "IOWAST",
             "short": "Iowa St.",
             "seo": "iowa-st",
             "full": ""
           },
-          "winner": false,
+          "winner": true,
           "seed": "",
           "description": "",
           "rank": "",
@@ -51,9 +51,9 @@
         "liveVideoEnabled": false,
         "startTime": "7:30 PM ET",
         "startTimeEpoch": "1794875400",
-        "gameState": "pre",
+        "gameState": "final",
         "startDate": "11/16/2026",
-        "currentPeriod": "",
+        "currentPeriod": "FINAL",
         "contestClock": "0:00",
         "bracketId": "",
         "bracketRound": ""
@@ -63,14 +63,14 @@
       "game": {
         "gameID": "6627961",
         "away": {
-          "score": "",
+          "score": "3",
           "names": {
             "char6": "N COLO",
             "short": "Northern Colo.",
             "seo": "northern-colo",
             "full": ""
           },
-          "winner": false,
+          "winner": true,
           "seed": "",
           "description": "",
           "rank": "",
@@ -81,12 +81,12 @@
             }
           ]
         },
-        "finalMessage": "",
+        "finalMessage": "FINAL",
         "title": "Northern Colo. Montana",
         "url": "/game/6627961",
         "network": "",
         "home": {
-          "score": "",
+          "score": "1",
           "names": {
             "char6": "MONT",
             "short": "Montana",
@@ -107,9 +107,9 @@
         "liveVideoEnabled": false,
         "startTime": "9:00 PM ET",
         "startTimeEpoch": "1794880800",
-        "gameState": "pre",
+        "gameState": "final",
         "startDate": "11/16/2026",
-        "currentPeriod": "",
+        "currentPeriod": "FINAL",
         "contestClock": "0:00",
         "bracketId": "",
         "bracketRound": ""
