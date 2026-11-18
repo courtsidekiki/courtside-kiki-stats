@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6679175,
+  "title": "WVB Boxscore",
+  "description": "Siena vs Iona",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46248",
+      "seoname": "siena",
+      "name6Char": "SIENA",
+      "nameFull": "Siena University",
+      "nameShort": "Siena",
+      "teamName": "Saints",
+      "color": "#006747"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45782",
+      "seoname": "iona",
+      "name6Char": "IONA",
+      "nameFull": "Iona University",
+      "nameShort": "Iona",
+      "teamName": "Gaels",
+      "color": "#6F2C3F"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46248,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "103",
+        "kills": "60",
+        "attackErrors": "24",
+        "attackAttempts": "191",
+        "hittingPercentage": "0.188",
+        "assists": "58",
+        "setErrors": "2",
+        "setAttempts": "195",
+        "serviceAces": "4",
+        "serviceErrors": "8",
+        "serveAttempts": "102",
+        "digs": "101",
+        "receptionAttempts": "87",
+        "receptionErrors": "3",
+        "blockSolos": "2",
+        "blockAssists": "16",
+        "blockingErrors": "0",
+        "totalBlocks": "10"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45782,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "92",
+        "kills": "55",
+        "attackErrors": "33",
+        "attackAttempts": "201",
+        "hittingPercentage": "0.109",
+        "assists": "53",
+        "setErrors": "0",
+        "setAttempts": "200",
+        "serviceAces": "3",
+        "serviceErrors": "6",
+        "serveAttempts": "93",
+        "digs": "88",
+        "receptionAttempts": "94",
+        "receptionErrors": "4",
+        "blockSolos": "2",
+        "blockAssists": "22",
+        "blockingErrors": "3",
+        "totalBlocks": "13"
+      }
+    }
+  ]
+}

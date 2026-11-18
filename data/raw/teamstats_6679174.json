@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6679174,
+  "title": "WVB Boxscore",
+  "description": "Sacred Heart vs Quinnipiac",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46737",
+      "seoname": "sacred-heart",
+      "name6Char": "SACHRT",
+      "nameFull": "Sacred Heart University",
+      "nameShort": "Sacred Heart",
+      "teamName": "Pioneers",
+      "color": "#BA0C2F"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46112",
+      "seoname": "quinnipiac",
+      "name6Char": "QUINN",
+      "nameFull": "Quinnipiac University",
+      "nameShort": "Quinnipiac",
+      "teamName": "Bobcats",
+      "color": "#0C2340"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46737,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "109",
+        "kills": "63",
+        "attackErrors": "25",
+        "attackAttempts": "172",
+        "hittingPercentage": "0.221",
+        "assists": "55",
+        "setErrors": "1",
+        "setAttempts": "161",
+        "serviceAces": "11",
+        "serviceErrors": "12",
+        "serveAttempts": "108",
+        "digs": "80",
+        "receptionAttempts": "91",
+        "receptionErrors": "5",
+        "blockSolos": "1",
+        "blockAssists": "16",
+        "blockingErrors": "3",
+        "totalBlocks": "9"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46112,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "101",
+        "kills": "58",
+        "attackErrors": "24",
+        "attackAttempts": "168",
+        "hittingPercentage": "0.202",
+        "assists": "54",
+        "setErrors": "0",
+        "setAttempts": "161",
+        "serviceAces": "5",
+        "serviceErrors": "11",
+        "serveAttempts": "102",
+        "digs": "67",
+        "receptionAttempts": "96",
+        "receptionErrors": "11",
+        "blockSolos": "0",
+        "blockAssists": "16",
+        "blockingErrors": "3",
+        "totalBlocks": "8"
+      }
+    }
+  ]
+}

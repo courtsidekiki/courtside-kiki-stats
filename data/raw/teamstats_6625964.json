@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625964,
+  "title": "WVB Boxscore",
+  "description": "UCLA vs Southern California",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45896",
+      "seoname": "ucla",
+      "name6Char": "UCLA",
+      "nameFull": "University of California, Los Angeles",
+      "nameShort": "UCLA",
+      "teamName": "Bruins",
+      "color": "#0072CE"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46121",
+      "seoname": "southern-california",
+      "name6Char": "USC",
+      "nameFull": "University of Southern California",
+      "nameShort": "Southern California",
+      "teamName": "Trojans",
+      "color": "#9D2235"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45896,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "76",
+        "kills": "44",
+        "attackErrors": "12",
+        "attackAttempts": "106",
+        "hittingPercentage": "0.302",
+        "assists": "40",
+        "setErrors": "1",
+        "setAttempts": "106",
+        "serviceAces": "3",
+        "serviceErrors": "6",
+        "serveAttempts": "75",
+        "digs": "39",
+        "receptionAttempts": "57",
+        "receptionErrors": "2",
+        "blockSolos": "2",
+        "blockAssists": "27",
+        "blockingErrors": "0",
+        "totalBlocks": "15"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46121,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "61",
+        "kills": "39",
+        "attackErrors": "24",
+        "attackAttempts": "109",
+        "hittingPercentage": "0.138",
+        "assists": "38",
+        "setErrors": "0",
+        "setAttempts": "103",
+        "serviceAces": "2",
+        "serviceErrors": "5",
+        "serveAttempts": "62",
+        "digs": "41",
+        "receptionAttempts": "69",
+        "receptionErrors": "3",
+        "blockSolos": "1",
+        "blockAssists": "8",
+        "blockingErrors": "2",
+        "totalBlocks": "5"
+      }
+    }
+  ]
+}
