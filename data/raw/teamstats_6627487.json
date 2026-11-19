@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627487,
+  "title": "WVB Boxscore",
+  "description": "New Mexico vs Wyoming",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46235",
+      "seoname": "new-mexico",
+      "name6Char": "N MEX",
+      "nameFull": "University of New Mexico",
+      "nameShort": "New Mexico",
+      "teamName": "Lobos",
+      "color": "#BA0C2F"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46082",
+      "seoname": "wyoming",
+      "name6Char": "WYO",
+      "nameFull": "University of Wyoming",
+      "nameShort": "Wyoming",
+      "teamName": "Cowgirls",
+      "color": "#4E3629"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46235,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "100",
+        "kills": "65",
+        "attackErrors": "22",
+        "attackAttempts": "162",
+        "hittingPercentage": "0.265",
+        "assists": "61",
+        "setErrors": "0",
+        "setAttempts": "166",
+        "serviceAces": "4",
+        "serviceErrors": "9",
+        "serveAttempts": "101",
+        "digs": "69",
+        "receptionAttempts": "93",
+        "receptionErrors": "11",
+        "blockSolos": "2",
+        "blockAssists": "6",
+        "blockingErrors": "1",
+        "totalBlocks": "5"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46082,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "107",
+        "kills": "65",
+        "attackErrors": "18",
+        "attackAttempts": "167",
+        "hittingPercentage": "0.281",
+        "assists": "60",
+        "setErrors": "0",
+        "setAttempts": "165",
+        "serviceAces": "11",
+        "serviceErrors": "13",
+        "serveAttempts": "106",
+        "digs": "63",
+        "receptionAttempts": "92",
+        "receptionErrors": "4",
+        "blockSolos": "2",
+        "blockAssists": "16",
+        "blockingErrors": "1",
+        "totalBlocks": "10"
+      }
+    }
+  ]
+}

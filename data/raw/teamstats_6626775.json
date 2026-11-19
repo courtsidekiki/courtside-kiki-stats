@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626775,
+  "title": "WVB Boxscore",
+  "description": "UTEP vs Hawaii",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45874",
+      "seoname": "utep",
+      "name6Char": "UTEP",
+      "nameFull": "University of Texas at El Paso",
+      "nameShort": "UTEP",
+      "teamName": "Miners",
+      "color": "#041E42"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46419",
+      "seoname": "hawaii",
+      "name6Char": "HAWAII",
+      "nameFull": "University of Hawaii, Manoa",
+      "nameShort": "Hawaii",
+      "teamName": "Rainbow Wahine",
+      "color": "#154734"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45874,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "61",
+        "kills": "35",
+        "attackErrors": "15",
+        "attackAttempts": "95",
+        "hittingPercentage": "0.211",
+        "assists": "31",
+        "setErrors": "1",
+        "setAttempts": "90",
+        "serviceAces": "2",
+        "serviceErrors": "11",
+        "serveAttempts": "63",
+        "digs": "23",
+        "receptionAttempts": "65",
+        "receptionErrors": "4",
+        "blockSolos": "1",
+        "blockAssists": "6",
+        "blockingErrors": "2",
+        "totalBlocks": "4"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46419,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "77",
+        "kills": "46",
+        "attackErrors": "14",
+        "attackAttempts": "91",
+        "hittingPercentage": "0.352",
+        "assists": "41",
+        "setErrors": "0",
+        "setAttempts": "86",
+        "serviceAces": "4",
+        "serviceErrors": "10",
+        "serveAttempts": "75",
+        "digs": "37",
+        "receptionAttempts": "52",
+        "receptionErrors": "2",
+        "blockSolos": "3",
+        "blockAssists": "6",
+        "blockingErrors": "1",
+        "totalBlocks": "6"
+      }
+    }
+  ]
+}

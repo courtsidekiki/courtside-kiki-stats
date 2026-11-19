@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627341,
+  "title": "WVB Boxscore",
+  "description": "San Jose St. vs UNLV",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46494",
+      "seoname": "san-jose-st",
+      "name6Char": "SJSU",
+      "nameFull": "San Jose State University",
+      "nameShort": "San Jose St.",
+      "teamName": "Spartans",
+      "color": "#233A82"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45973",
+      "seoname": "unlv",
+      "name6Char": "UNLV",
+      "nameFull": "University of Nevada, Las Vegas",
+      "nameShort": "UNLV",
+      "teamName": "Rebels",
+      "color": "#C8102E"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46494,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "100",
+        "kills": "64",
+        "attackErrors": "22",
+        "attackAttempts": "159",
+        "hittingPercentage": "0.264",
+        "assists": "61",
+        "setErrors": "0",
+        "setAttempts": "155",
+        "serviceAces": "10",
+        "serviceErrors": "11",
+        "serveAttempts": "101",
+        "digs": "65",
+        "receptionAttempts": "101",
+        "receptionErrors": "13",
+        "blockSolos": "8",
+        "blockAssists": "10",
+        "blockingErrors": "0",
+        "totalBlocks": "13"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45973,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "109",
+        "kills": "62",
+        "attackErrors": "19",
+        "attackAttempts": "156",
+        "hittingPercentage": "0.276",
+        "assists": "58",
+        "setErrors": "0",
+        "setAttempts": "151",
+        "serviceAces": "13",
+        "serviceErrors": "7",
+        "serveAttempts": "108",
+        "digs": "66",
+        "receptionAttempts": "90",
+        "receptionErrors": "10",
+        "blockSolos": "4",
+        "blockAssists": "6",
+        "blockingErrors": "0",
+        "totalBlocks": "7"
+      }
+    }
+  ]
+}

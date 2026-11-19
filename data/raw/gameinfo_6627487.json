@@ -1,0 +1,105 @@
+{
+  "contests": [
+    {
+      "__typename": "Contest",
+      "id": "6627487",
+      "sportCode": "WVB",
+      "sportUrl": "volleyball-women",
+      "division": 1,
+      "clock": null,
+      "currentPeriod": "FINAL",
+      "finalMessage": "FINAL",
+      "gameState": "F",
+      "statusCodeDisplay": "final",
+      "network": null,
+      "startTime": "15:00",
+      "startTimeEpoch": 1795032000,
+      "week": null,
+      "seasonYear": 2026,
+      "winner": 46082,
+      "hasStartTime": true,
+      "hasBoxscore": true,
+      "hasPbp": true,
+      "hasScoringSummary": false,
+      "hasPreview": false,
+      "hasRecap": false,
+      "hasTeamStats": true,
+      "linescores": [
+        {
+          "__typename": "Linescore",
+          "period": "1",
+          "home": "25",
+          "visit": "19"
+        },
+        {
+          "__typename": "Linescore",
+          "period": "2",
+          "home": "24",
+          "visit": "26"
+        },
+        {
+          "__typename": "Linescore",
+          "period": "3",
+          "home": "19",
+          "visit": "25"
+        },
+        {
+          "__typename": "Linescore",
+          "period": "4",
+          "home": "25",
+          "visit": "22"
+        },
+        {
+          "__typename": "Linescore",
+          "period": "5",
+          "home": "7",
+          "visit": "15"
+        }
+      ],
+      "teams": [
+        {
+          "__typename": "ContestTeam",
+          "teamId": "46235",
+          "isHome": true,
+          "color": "#BA0C2F",
+          "seoname": "new-mexico",
+          "nameFull": "University of New Mexico",
+          "nameShort": "New Mexico",
+          "name6Char": "N MEX",
+          "teamRank": null,
+          "gameRank": null,
+          "score": 2,
+          "seed": null,
+          "record": "(11-15)",
+          "divisionName": "d1",
+          "division": 1,
+          "isWinner": false
+        },
+        {
+          "__typename": "ContestTeam",
+          "teamId": "46082",
+          "isHome": false,
+          "color": "#4E3629",
+          "seoname": "wyoming",
+          "nameFull": "University of Wyoming",
+          "nameShort": "Wyoming",
+          "name6Char": "WYO",
+          "teamRank": null,
+          "gameRank": null,
+          "score": 3,
+          "seed": null,
+          "record": "(14-13)",
+          "divisionName": "d1",
+          "division": 1,
+          "isWinner": true
+        }
+      ],
+      "liveVideos": [],
+      "championship": null,
+      "championshipGame": null,
+      "links": [],
+      "location": null,
+      "stats": null
+    }
+  ]
+}

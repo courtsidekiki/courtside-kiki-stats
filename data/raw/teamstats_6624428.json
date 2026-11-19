@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624428,
+  "title": "WVB Boxscore",
+  "description": "Western Ill. vs Lindenwood",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46633",
+      "seoname": "western-ill",
+      "name6Char": "W ILL",
+      "nameFull": "Western Illinois University",
+      "nameShort": "Western Ill.",
+      "teamName": "Leathernecks",
+      "color": "#59327E"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "51330",
+      "seoname": "lindenwood-mo",
+      "name6Char": "LINWOD",
+      "nameFull": "Lindenwood University",
+      "nameShort": "Lindenwood",
+      "teamName": "Lions",
+      "color": "#010101"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46633,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "43",
+        "kills": "20",
+        "attackErrors": "16",
+        "attackAttempts": "80",
+        "hittingPercentage": "0.050",
+        "assists": "20",
+        "setErrors": "2",
+        "setAttempts": "89",
+        "serviceAces": "1",
+        "serviceErrors": "8",
+        "serveAttempts": "45",
+        "digs": "24",
+        "receptionAttempts": "63",
+        "receptionErrors": "7",
+        "blockSolos": "1",
+        "blockAssists": "8",
+        "blockingErrors": "0",
+        "totalBlocks": "5"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 51330,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "42",
+        "attackErrors": "11",
+        "attackAttempts": "82",
+        "hittingPercentage": "0.378",
+        "assists": "36",
+        "setErrors": "1",
+        "setAttempts": "85",
+        "serviceAces": "7",
+        "serviceErrors": "10",
+        "serveAttempts": "73",
+        "digs": "41",
+        "receptionAttempts": "37",
+        "receptionErrors": "1",
+        "blockSolos": "1",
+        "blockAssists": "12",
+        "blockingErrors": "0",
+        "totalBlocks": "7"
+      }
+    }
+  ]
+}

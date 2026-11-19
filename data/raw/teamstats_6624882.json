@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6624882,
+  "title": "WVB Boxscore",
+  "description": "Utah Tech vs Northern Ariz.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45886",
+      "seoname": "utah-tech",
+      "name6Char": "UTTECH",
+      "nameFull": "Utah Tech University",
+      "nameShort": "Utah Tech",
+      "teamName": "Trailblazers ",
+      "color": "#BA1C21"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46729",
+      "seoname": "northern-ariz",
+      "name6Char": "NAU",
+      "nameFull": "Northern Arizona University",
+      "nameShort": "Northern Ariz.",
+      "teamName": "Lumberjacks",
+      "color": "#00205B"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45886,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "43",
+        "attackErrors": "14",
+        "attackAttempts": "105",
+        "hittingPercentage": "0.276",
+        "assists": "39",
+        "setErrors": "0",
+        "setAttempts": "105",
+        "serviceAces": "4",
+        "serviceErrors": "13",
+        "serveAttempts": "73",
+        "digs": "48",
+        "receptionAttempts": "53",
+        "receptionErrors": "5",
+        "blockSolos": "5",
+        "blockAssists": "2",
+        "blockingErrors": "0",
+        "totalBlocks": "6"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46729,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "61",
+        "kills": "29",
+        "attackErrors": "17",
+        "attackAttempts": "103",
+        "hittingPercentage": "0.117",
+        "assists": "27",
+        "setErrors": "1",
+        "setAttempts": "107",
+        "serviceAces": "5",
+        "serviceErrors": "10",
+        "serveAttempts": "63",
+        "digs": "43",
+        "receptionAttempts": "60",
+        "receptionErrors": "4",
+        "blockSolos": "6",
+        "blockAssists": "4",
+        "blockingErrors": "0",
+        "totalBlocks": "8"
+      }
+    }
+  ]
+}
