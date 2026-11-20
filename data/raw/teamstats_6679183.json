@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6679183,
+  "title": "WVB Boxscore",
+  "description": "Western Ky. vs FIU",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "2ND SET",
+  "status": "I",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46634",
+      "seoname": "western-ky",
+      "name6Char": "W KY",
+      "nameFull": "Western Kentucky University",
+      "nameShort": "Western Ky.",
+      "teamName": "Lady Toppers",
+      "color": "#C8102E"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46546",
+      "seoname": "fiu",
+      "name6Char": "FIU",
+      "nameFull": "Florida International University",
+      "nameShort": "FIU",
+      "teamName": "Panthers",
+      "color": "#091F3F"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46634,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "48",
+        "kills": "23",
+        "attackErrors": "11",
+        "attackAttempts": "59",
+        "hittingPercentage": "0.203",
+        "assists": "23",
+        "setErrors": "0",
+        "setAttempts": "59",
+        "serviceAces": "3",
+        "serviceErrors": "8",
+        "serveAttempts": "48",
+        "digs": "23",
+        "receptionAttempts": "37",
+        "receptionErrors": "5",
+        "blockSolos": "1",
+        "blockAssists": "18",
+        "blockingErrors": "0",
+        "totalBlocks": "19"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46546,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "42",
+        "kills": "18",
+        "attackErrors": "17",
+        "attackAttempts": "59",
+        "hittingPercentage": "0.017",
+        "assists": "18",
+        "setErrors": "0",
+        "setAttempts": "64",
+        "serviceAces": "5",
+        "serviceErrors": "5",
+        "serveAttempts": "42",
+        "digs": "21",
+        "receptionAttempts": "40",
+        "receptionErrors": "3",
+        "blockSolos": "1",
+        "blockAssists": "12",
+        "blockingErrors": "0",
+        "totalBlocks": "13"
+      }
+    }
+  ]
+}

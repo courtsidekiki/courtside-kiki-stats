@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625268,
+  "title": "WVB Boxscore",
+  "description": "Saint Mary's (CA) vs Santa Clara",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46490",
+      "seoname": "st-marys-ca",
+      "name6Char": "STMARY",
+      "nameFull": "Saint Mary's College of California",
+      "nameShort": "Saint Mary's (CA)",
+      "teamName": "Gaels",
+      "color": "#E51B24"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46362",
+      "seoname": "santa-clara",
+      "name6Char": "STCLAR",
+      "nameFull": "Santa Clara University",
+      "nameShort": "Santa Clara",
+      "teamName": "Broncos",
+      "color": "#862633"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46490,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "90",
+        "kills": "53",
+        "attackErrors": "27",
+        "attackAttempts": "131",
+        "hittingPercentage": "0.198",
+        "assists": "49",
+        "setErrors": "1",
+        "setAttempts": "128",
+        "serviceAces": "8",
+        "serviceErrors": "12",
+        "serveAttempts": "91",
+        "digs": "46",
+        "receptionAttempts": "80",
+        "receptionErrors": "3",
+        "blockSolos": "0",
+        "blockAssists": "12",
+        "blockingErrors": "1",
+        "totalBlocks": "6"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46362,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "89",
+        "kills": "45",
+        "attackErrors": "21",
+        "attackAttempts": "118",
+        "hittingPercentage": "0.203",
+        "assists": "42",
+        "setErrors": "0",
+        "setAttempts": "117",
+        "serviceAces": "3",
+        "serviceErrors": "8",
+        "serveAttempts": "88",
+        "digs": "44",
+        "receptionAttempts": "79",
+        "receptionErrors": "8",
+        "blockSolos": "0",
+        "blockAssists": "14",
+        "blockingErrors": "1",
+        "totalBlocks": "7"
+      }
+    }
+  ]
+}

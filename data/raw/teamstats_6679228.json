@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6679228,
+  "title": "WVB Boxscore",
+  "description": "Delaware St. vs N.C. Central",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46175",
+      "seoname": "delaware-st",
+      "name6Char": "DEL ST",
+      "nameFull": "Delaware State University",
+      "nameShort": "Delaware St.",
+      "teamName": "Hornets",
+      "color": "#DA291C"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45845",
+      "seoname": "nc-central",
+      "name6Char": "NC CEN",
+      "nameFull": "North Carolina Central University",
+      "nameShort": "N.C. Central",
+      "teamName": "Eagles",
+      "color": "#862633"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46175,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "101",
+        "kills": "53",
+        "attackErrors": "22",
+        "attackAttempts": "125",
+        "hittingPercentage": "0.248",
+        "assists": "53",
+        "setErrors": "1",
+        "setAttempts": "133",
+        "serviceAces": "4",
+        "serviceErrors": "7",
+        "serveAttempts": "101",
+        "digs": "64",
+        "receptionAttempts": "78",
+        "receptionErrors": "12",
+        "blockSolos": "2",
+        "blockAssists": "16",
+        "blockingErrors": "2",
+        "totalBlocks": "18"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45845,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "97",
+        "kills": "55",
+        "attackErrors": "24",
+        "attackAttempts": "149",
+        "hittingPercentage": "0.208",
+        "assists": "54",
+        "setErrors": "1",
+        "setAttempts": "153",
+        "serviceAces": "12",
+        "serviceErrors": "19",
+        "serveAttempts": "97",
+        "digs": "42",
+        "receptionAttempts": "94",
+        "receptionErrors": "4",
+        "blockSolos": "2",
+        "blockAssists": "18",
+        "blockingErrors": "3",
+        "totalBlocks": "20"
+      }
+    }
+  ]
+}

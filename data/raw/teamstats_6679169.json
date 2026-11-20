@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6679169,
+  "title": "WVB Boxscore",
+  "description": "South Alabama vs James Madison",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46120",
+      "seoname": "south-ala",
+      "name6Char": "S ALA",
+      "nameFull": "University of South Alabama",
+      "nameShort": "South Alabama",
+      "teamName": "Jaguars",
+      "color": "#BF0D3E"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45785",
+      "seoname": "james-madison",
+      "name6Char": "JMU",
+      "nameFull": "James Madison University",
+      "nameShort": "James Madison",
+      "teamName": "Dukes",
+      "color": "#330072"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46120,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "98",
+        "kills": "48",
+        "attackErrors": "17",
+        "attackAttempts": "140",
+        "hittingPercentage": "0.221",
+        "assists": "38",
+        "setErrors": "0",
+        "setAttempts": "129",
+        "serviceAces": "8",
+        "serviceErrors": "9",
+        "serveAttempts": "97",
+        "digs": "48",
+        "receptionAttempts": "79",
+        "receptionErrors": "3",
+        "blockSolos": "4",
+        "blockAssists": "18",
+        "blockingErrors": "0",
+        "totalBlocks": "13"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45785,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "91",
+        "kills": "62",
+        "attackErrors": "28",
+        "attackAttempts": "149",
+        "hittingPercentage": "0.228",
+        "assists": "58",
+        "setErrors": "1",
+        "setAttempts": "148",
+        "serviceAces": "3",
+        "serviceErrors": "13",
+        "serveAttempts": "92",
+        "digs": "67",
+        "receptionAttempts": "88",
+        "receptionErrors": "8",
+        "blockSolos": "2",
+        "blockAssists": "4",
+        "blockingErrors": "0",
+        "totalBlocks": "4"
+      }
+    }
+  ]
+}

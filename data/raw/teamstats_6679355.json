@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6679355,
+  "title": "WVB Boxscore",
+  "description": "Washington vs Maryland",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "1ST SET",
+  "status": "I",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46759",
+      "seoname": "washington",
+      "name6Char": "WASH",
+      "nameFull": "University of Washington",
+      "nameShort": "Washington",
+      "teamName": "Huskies",
+      "color": "#33006f"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46686",
+      "seoname": "maryland",
+      "name6Char": "MD",
+      "nameFull": "University of Maryland, College Park",
+      "nameShort": "Maryland",
+      "teamName": "Terrapins",
+      "color": "#C8102E"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46759,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "12",
+        "kills": "5",
+        "attackErrors": "2",
+        "attackAttempts": "21",
+        "hittingPercentage": "0.143",
+        "assists": "5",
+        "setErrors": "0",
+        "setAttempts": "20",
+        "serviceAces": "0",
+        "serviceErrors": "2",
+        "serveAttempts": "12",
+        "digs": "13",
+        "receptionAttempts": "11",
+        "receptionErrors": "1",
+        "blockSolos": "0",
+        "blockAssists": "4",
+        "blockingErrors": "0",
+        "totalBlocks": "4"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46686,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "12",
+        "kills": "7",
+        "attackErrors": "5",
+        "attackAttempts": "28",
+        "hittingPercentage": "0.071",
+        "assists": "7",
+        "setErrors": "1",
+        "setAttempts": "28",
+        "serviceAces": "1",
+        "serviceErrors": "1",
+        "serveAttempts": "13",
+        "digs": "14",
+        "receptionAttempts": "10",
+        "receptionErrors": "0",
+        "blockSolos": "0",
+        "blockAssists": "2",
+        "blockingErrors": "1",
+        "totalBlocks": "2"
+      }
+    }
+  ]
+}

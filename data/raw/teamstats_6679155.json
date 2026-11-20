@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6679155,
+  "title": "WVB Boxscore",
+  "description": "Purdue Fort Wayne vs Oakland",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45781",
+      "seoname": "ipfw",
+      "name6Char": "IPFW",
+      "nameFull": "Purdue University Fort Wayne",
+      "nameShort": "Purdue Fort Wayne",
+      "teamName": "Mastodons",
+      "color": "#1f3d7c"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46108",
+      "seoname": "oakland",
+      "name6Char": "OAK",
+      "nameFull": "Oakland University",
+      "nameShort": "Oakland",
+      "teamName": "Golden Grizzlies",
+      "color": "#010101"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45781,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "109",
+        "kills": "65",
+        "attackErrors": "17",
+        "attackAttempts": "171",
+        "hittingPercentage": "0.281",
+        "assists": "63",
+        "setErrors": "0",
+        "setAttempts": "173",
+        "serviceAces": "7",
+        "serviceErrors": "8",
+        "serveAttempts": "108",
+        "digs": "70",
+        "receptionAttempts": "96",
+        "receptionErrors": "5",
+        "blockSolos": "6",
+        "blockAssists": "0",
+        "blockingErrors": "3",
+        "totalBlocks": "6"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46108,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "104",
+        "kills": "74",
+        "attackErrors": "25",
+        "attackAttempts": "189",
+        "hittingPercentage": "0.259",
+        "assists": "70",
+        "setErrors": "3",
+        "setAttempts": "190",
+        "serviceAces": "5",
+        "serviceErrors": "9",
+        "serveAttempts": "105",
+        "digs": "75",
+        "receptionAttempts": "100",
+        "receptionErrors": "7",
+        "blockSolos": "8",
+        "blockAssists": "0",
+        "blockingErrors": "1",
+        "totalBlocks": "8"
+      }
+    }
+  ]
+}

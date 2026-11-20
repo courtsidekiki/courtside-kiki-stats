@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626748,
+  "title": "WVB Boxscore",
+  "description": "Air Force vs Nevada",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46129",
+      "seoname": "air-force",
+      "name6Char": "AIRFOR",
+      "nameFull": "U.S. Air Force Academy",
+      "nameShort": "Air Force",
+      "teamName": "Falcons",
+      "color": "#0032A0"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45974",
+      "seoname": "nevada",
+      "name6Char": "NEVADA",
+      "nameFull": "University of Nevada, Reno",
+      "nameShort": "Nevada",
+      "teamName": "Wolf Pack",
+      "color": "#041E42"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46129,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "110",
+        "kills": "60",
+        "attackErrors": "17",
+        "attackAttempts": "165",
+        "hittingPercentage": "0.261",
+        "assists": "53",
+        "setErrors": "1",
+        "setAttempts": "164",
+        "serviceAces": "4",
+        "serviceErrors": "3",
+        "serveAttempts": "109",
+        "digs": "74",
+        "receptionAttempts": "87",
+        "receptionErrors": "2",
+        "blockSolos": "8",
+        "blockAssists": "16",
+        "blockingErrors": "2",
+        "totalBlocks": "16"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45974,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "93",
+        "kills": "70",
+        "attackErrors": "36",
+        "attackAttempts": "195",
+        "hittingPercentage": "0.174",
+        "assists": "61",
+        "setErrors": "3",
+        "setAttempts": "193",
+        "serviceAces": "2",
+        "serviceErrors": "7",
+        "serveAttempts": "94",
+        "digs": "78",
+        "receptionAttempts": "106",
+        "receptionErrors": "4",
+        "blockSolos": "1",
+        "blockAssists": "12",
+        "blockingErrors": "1",
+        "totalBlocks": "7"
+      }
+    }
+  ]
+}

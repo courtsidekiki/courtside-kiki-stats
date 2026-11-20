@@ -1,0 +1,104 @@
+{
+  "contests": [
+    {
+      "__typename": "Contest",
+      "id": "6624487",
+      "sportCode": "WVB",
+      "sportUrl": "volleyball-women",
+      "division": 1,
+      "clock": null,
+      "currentPeriod": "FINAL",
+      "finalMessage": "FINAL",
+      "gameState": "F",
+      "statusCodeDisplay": "final",
+      "network": null,
+      "startTime": "14:00",
+      "startTimeEpoch": 1795114800,
+      "week": null,
+      "seasonYear": 2026,
+      "winner": 46035,
+      "hasStartTime": true,
+      "hasBoxscore": true,
+      "hasPbp": true,
+      "hasScoringSummary": false,
+      "hasPreview": false,
+      "hasRecap": false,
+      "hasTeamStats": true,
+      "linescores": [
+        {
+          "__typename": "Linescore",
+          "period": "1",
+          "home": "25",
+          "visit": "16"
+        },
+        {
+          "__typename": "Linescore",
+          "period": "2",
+          "home": "19",
+          "visit": "25"
+        },
+        {
+          "__typename": "Linescore",
+          "period": "3",
+          "home": "27",
+          "visit": "25"
+        },
+        {
+          "__typename": "Linescore",
+          "period": "4",
+          "home": "25",
+          "visit": "19"
+        }
+      ],
+      "teams": [
+        {
+          "__typename": "ContestTeam",
+          "teamId": "46035",
+          "isHome": true,
+          "color": "#0032A0",
+          "seoname": "bakersfield",
+          "nameFull": "California State University, Bakersfield",
+          "nameShort": "CSU Bakersfield",
+          "name6Char": "CSUBAK",
+          "teamRank": null,
+          "gameRank": null,
+          "score": 3,
+          "seed": null,
+          "record": "(13-15)",
+          "divisionName": "d1",
+          "division": 1,
+          "isWinner": true
+        },
+        {
+          "__typename": "ContestTeam",
+          "teamId": "46016",
+          "isHome": false,
+          "color": "#275D38",
+          "seoname": "utah-valley",
+          "nameFull": "Utah Valley University",
+          "nameShort": "Utah Valley",
+          "name6Char": "UT VAL",
+          "teamRank": null,
+          "gameRank": null,
+          "score": 1,
+          "seed": null,
+          "record": "(9-19)",
+          "divisionName": "d1",
+          "division": 1,
+          "isWinner": false
+        }
+      ],
+      "liveVideos": [],
+      "championship": null,
+      "championshipGame": null,
+      "links": [],
+      "location": {
+        "__typename": "Location",
+        "venue": "Icardo Center",
+        "city": "Bakersfield",
+        "stateUsps": "CA"
+      },
+      "stats": null
+    }
+  ]
+}

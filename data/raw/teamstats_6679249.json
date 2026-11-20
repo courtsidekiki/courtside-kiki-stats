@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6679249,
+  "title": "WVB Boxscore",
+  "description": "Furman vs The Citadel",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46415",
+      "seoname": "furman",
+      "name6Char": "FURMAN",
+      "nameFull": "Furman University",
+      "nameShort": "Furman",
+      "teamName": "Paladins",
+      "color": "#582C83"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46662",
+      "seoname": "citadel",
+      "name6Char": "CITDEL",
+      "nameFull": "The Citadel",
+      "nameShort": "The Citadel",
+      "teamName": "Bulldogs",
+      "color": "#77A5C3"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46415,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "45",
+        "attackErrors": "14",
+        "attackAttempts": "130",
+        "hittingPercentage": "0.238",
+        "assists": "37",
+        "setErrors": "1",
+        "setAttempts": "119",
+        "serviceAces": "5",
+        "serviceErrors": "3",
+        "serveAttempts": "73",
+        "digs": "69",
+        "receptionAttempts": "47",
+        "receptionErrors": "5",
+        "blockSolos": "5",
+        "blockAssists": "8",
+        "blockingErrors": "1",
+        "totalBlocks": "9"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46662,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "51",
+        "kills": "28",
+        "attackErrors": "19",
+        "attackAttempts": "130",
+        "hittingPercentage": "0.069",
+        "assists": "26",
+        "setErrors": "0",
+        "setAttempts": "129",
+        "serviceAces": "5",
+        "serviceErrors": "6",
+        "serveAttempts": "53",
+        "digs": "66",
+        "receptionAttempts": "70",
+        "receptionErrors": "5",
+        "blockSolos": "3",
+        "blockAssists": "0",
+        "blockingErrors": "0",
+        "totalBlocks": "3"
+      }
+    }
+  ]
+}
