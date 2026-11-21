@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6639561,
+  "title": "WVB Boxscore",
+  "description": "Southern Utah vs Northern Ariz.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46002",
+      "seoname": "southern-utah",
+      "name6Char": "S UTAH",
+      "nameFull": "Southern Utah University",
+      "nameShort": "Southern Utah",
+      "teamName": "Thunderbirds",
+      "color": "#BA0C2F"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46729",
+      "seoname": "northern-ariz",
+      "name6Char": "NAU",
+      "nameFull": "Northern Arizona University",
+      "nameShort": "Northern Ariz.",
+      "teamName": "Lumberjacks",
+      "color": "#00205B"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46002,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "83",
+        "kills": "46",
+        "attackErrors": "31",
+        "attackAttempts": "136",
+        "hittingPercentage": "0.110",
+        "assists": "42",
+        "setErrors": "7",
+        "setAttempts": "145",
+        "serviceAces": "4",
+        "serviceErrors": "5",
+        "serveAttempts": "84",
+        "digs": "64",
+        "receptionAttempts": "85",
+        "receptionErrors": "5",
+        "blockSolos": "4",
+        "blockAssists": "6",
+        "blockingErrors": "1",
+        "totalBlocks": "7"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46729,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "94",
+        "kills": "46",
+        "attackErrors": "21",
+        "attackAttempts": "133",
+        "hittingPercentage": "0.188",
+        "assists": "43",
+        "setErrors": "3",
+        "setAttempts": "137",
+        "serviceAces": "5",
+        "serviceErrors": "8",
+        "serveAttempts": "93",
+        "digs": "54",
+        "receptionAttempts": "79",
+        "receptionErrors": "4",
+        "blockSolos": "7",
+        "blockAssists": "16",
+        "blockingErrors": "6",
+        "totalBlocks": "15"
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628404,
+  "title": "WVB Boxscore",
+  "description": "Clemson vs Georgia Tech",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46294",
+      "seoname": "clemson",
+      "name6Char": "CLEM",
+      "nameFull": "Clemson University",
+      "nameShort": "Clemson",
+      "teamName": "Tigers",
+      "color": "#FF6720"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46549",
+      "seoname": "georgia-tech",
+      "name6Char": "GATECH",
+      "nameFull": "Georgia Institute of Technology",
+      "nameShort": "Georgia Tech",
+      "teamName": "Yellow Jackets",
+      "color": "#B3A369"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46294,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "71",
+        "kills": "34",
+        "attackErrors": "33",
+        "attackAttempts": "126",
+        "hittingPercentage": "0.008",
+        "assists": "33",
+        "setErrors": "4",
+        "setAttempts": "133",
+        "serviceAces": "5",
+        "serviceErrors": "7",
+        "serveAttempts": "72",
+        "digs": "44",
+        "receptionAttempts": "86",
+        "receptionErrors": "6",
+        "blockSolos": "2",
+        "blockAssists": "6",
+        "blockingErrors": "4",
+        "totalBlocks": "5"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46549,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "98",
+        "kills": "48",
+        "attackErrors": "21",
+        "attackAttempts": "125",
+        "hittingPercentage": "0.216",
+        "assists": "45",
+        "setErrors": "0",
+        "setAttempts": "126",
+        "serviceAces": "6",
+        "serviceErrors": "11",
+        "serveAttempts": "97",
+        "digs": "50",
+        "receptionAttempts": "65",
+        "receptionErrors": "5",
+        "blockSolos": "3",
+        "blockAssists": "18",
+        "blockingErrors": "0",
+        "totalBlocks": "12"
+      }
+    }
+  ]
+}

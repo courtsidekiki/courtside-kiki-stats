@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6679230,
+  "title": "WVB Boxscore",
+  "description": "Howard vs South Carolina St.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45779",
+      "seoname": "howard",
+      "name6Char": "HOWARD",
+      "nameFull": "Howard University",
+      "nameShort": "Howard",
+      "teamName": "Bison",
+      "color": "#00263E"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45866",
+      "seoname": "south-carolina-st",
+      "name6Char": "SC ST",
+      "nameFull": "South Carolina State University",
+      "nameShort": "South Carolina St.",
+      "teamName": "Lady Bulldogs",
+      "color": "#862633"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45779,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "38",
+        "attackErrors": "9",
+        "attackAttempts": "76",
+        "hittingPercentage": "0.382",
+        "assists": "37",
+        "setErrors": "0",
+        "setAttempts": "79",
+        "serviceAces": "11",
+        "serviceErrors": "4",
+        "serveAttempts": "73",
+        "digs": "37",
+        "receptionAttempts": "34",
+        "receptionErrors": "1",
+        "blockSolos": "1",
+        "blockAssists": "8",
+        "blockingErrors": "0",
+        "totalBlocks": "5"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45866,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "38",
+        "kills": "24",
+        "attackErrors": "19",
+        "attackAttempts": "86",
+        "hittingPercentage": "0.058",
+        "assists": "23",
+        "setErrors": "1",
+        "setAttempts": "88",
+        "serviceAces": "1",
+        "serviceErrors": "6",
+        "serveAttempts": "40",
+        "digs": "25",
+        "receptionAttempts": "69",
+        "receptionErrors": "11",
+        "blockSolos": "2",
+        "blockAssists": "4",
+        "blockingErrors": "0",
+        "totalBlocks": "4"
+      }
+    }
+  ]
+}

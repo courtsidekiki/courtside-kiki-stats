@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626354,
+  "title": "WVB Boxscore",
+  "description": "Notre Dame vs NC State",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46610",
+      "seoname": "notre-dame",
+      "name6Char": "N DAME",
+      "nameFull": "University of Notre Dame",
+      "nameShort": "Notre Dame",
+      "teamName": "Fighting Irish",
+      "color": "#0C2340"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45846",
+      "seoname": "north-carolina-st",
+      "name6Char": "NC ST",
+      "nameFull": "North Carolina State University",
+      "nameShort": "NC State",
+      "teamName": "Wolfpack",
+      "color": "#C8102E"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46610,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "98",
+        "kills": "55",
+        "attackErrors": "31",
+        "attackAttempts": "154",
+        "hittingPercentage": "0.156",
+        "assists": "54",
+        "setErrors": "1",
+        "setAttempts": "156",
+        "serviceAces": "4",
+        "serviceErrors": "9",
+        "serveAttempts": "98",
+        "digs": "49",
+        "receptionAttempts": "99",
+        "receptionErrors": "2",
+        "blockSolos": "2",
+        "blockAssists": "22",
+        "blockingErrors": "1",
+        "totalBlocks": "13"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45846,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "109",
+        "kills": "66",
+        "attackErrors": "29",
+        "attackAttempts": "165",
+        "hittingPercentage": "0.224",
+        "assists": "62",
+        "setErrors": "0",
+        "setAttempts": "154",
+        "serviceAces": "2",
+        "serviceErrors": "10",
+        "serveAttempts": "109",
+        "digs": "51",
+        "receptionAttempts": "89",
+        "receptionErrors": "4",
+        "blockSolos": "1",
+        "blockAssists": "28",
+        "blockingErrors": "1",
+        "totalBlocks": "15"
+      }
+    }
+  ]
+}

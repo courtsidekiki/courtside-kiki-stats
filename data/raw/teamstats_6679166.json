@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6679166,
+  "title": "WVB Boxscore",
+  "description": "Ga. Southern vs South Alabama",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45910",
+      "seoname": "ga-southern",
+      "name6Char": "GA SOU",
+      "nameFull": "Georgia Southern University",
+      "nameShort": "Ga. Southern",
+      "teamName": "Eagles",
+      "color": "#041E42"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46120",
+      "seoname": "south-ala",
+      "name6Char": "S ALA",
+      "nameFull": "University of South Alabama",
+      "nameShort": "South Alabama",
+      "teamName": "Jaguars",
+      "color": "#BF0D3E"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45910,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "101",
+        "kills": "63",
+        "attackErrors": "32",
+        "attackAttempts": "203",
+        "hittingPercentage": "0.153",
+        "assists": "60",
+        "setErrors": "1",
+        "setAttempts": "200",
+        "serviceAces": "2",
+        "serviceErrors": "10",
+        "serveAttempts": "101",
+        "digs": "94",
+        "receptionAttempts": "97",
+        "receptionErrors": "3",
+        "blockSolos": "6",
+        "blockAssists": "12",
+        "blockingErrors": "1",
+        "totalBlocks": "12"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46120,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "104",
+        "kills": "58",
+        "attackErrors": "28",
+        "attackAttempts": "193",
+        "hittingPercentage": "0.155",
+        "assists": "53",
+        "setErrors": "1",
+        "setAttempts": "187",
+        "serviceAces": "3",
+        "serviceErrors": "7",
+        "serveAttempts": "104",
+        "digs": "95",
+        "receptionAttempts": "91",
+        "receptionErrors": "2",
+        "blockSolos": "2",
+        "blockAssists": "25",
+        "blockingErrors": "1",
+        "totalBlocks": "14"
+      }
+    }
+  ]
+}

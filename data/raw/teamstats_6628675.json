@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628675,
+  "title": "WVB Boxscore",
+  "description": "UC Riverside vs Cal Poly",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46536",
+      "seoname": "uc-riverside",
+      "name6Char": "UC RIV",
+      "nameFull": "University of California, Riverside",
+      "nameShort": "UC Riverside",
+      "teamName": "Highlanders",
+      "color": "#1E437B"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46659",
+      "seoname": "cal-poly",
+      "name6Char": "CALPLY",
+      "nameFull": "California Polytechnic State University",
+      "nameShort": "Cal Poly",
+      "teamName": "Mustangs",
+      "color": "#193E30"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46536,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "49",
+        "kills": "27",
+        "attackErrors": "15",
+        "attackAttempts": "101",
+        "hittingPercentage": "0.119",
+        "assists": "26",
+        "setErrors": "0",
+        "setAttempts": "105",
+        "serviceAces": "2",
+        "serviceErrors": "7",
+        "serveAttempts": "51",
+        "digs": "37",
+        "receptionAttempts": "65",
+        "receptionErrors": "9",
+        "blockSolos": "2",
+        "blockAssists": "12",
+        "blockingErrors": "0",
+        "totalBlocks": "8"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46659,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "44",
+        "attackErrors": "12",
+        "attackAttempts": "95",
+        "hittingPercentage": "0.337",
+        "assists": "43",
+        "setErrors": "0",
+        "setAttempts": "99",
+        "serviceAces": "9",
+        "serviceErrors": "8",
+        "serveAttempts": "73",
+        "digs": "49",
+        "receptionAttempts": "44",
+        "receptionErrors": "2",
+        "blockSolos": "0",
+        "blockAssists": "6",
+        "blockingErrors": "3",
+        "totalBlocks": "3"
+      }
+    }
+  ]
+}

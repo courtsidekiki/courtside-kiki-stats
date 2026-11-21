@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6679280,
+  "title": "WVB Boxscore",
+  "description": "LIU vs Central Conn. St.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45791",
+      "seoname": "long-island",
+      "name6Char": "LIU",
+      "nameFull": "Long Island University",
+      "nameShort": "LIU",
+      "teamName": "Sharks",
+      "color": "#68A8D0"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46039",
+      "seoname": "central-conn-st",
+      "name6Char": "C CONN",
+      "nameFull": "Central Connecticut State University",
+      "nameShort": "Central Conn. St.",
+      "teamName": "Blue Devils",
+      "color": "#003087"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45791,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "105",
+        "kills": "53",
+        "attackErrors": "21",
+        "attackAttempts": "126",
+        "hittingPercentage": "0.254",
+        "assists": "53",
+        "setErrors": "1",
+        "setAttempts": "137",
+        "serviceAces": "9",
+        "serviceErrors": "13",
+        "serveAttempts": "104",
+        "digs": "63",
+        "receptionAttempts": "72",
+        "receptionErrors": "4",
+        "blockSolos": "3",
+        "blockAssists": "17",
+        "blockingErrors": "2",
+        "totalBlocks": "11"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46039,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "86",
+        "kills": "47",
+        "attackErrors": "27",
+        "attackAttempts": "148",
+        "hittingPercentage": "0.135",
+        "assists": "44",
+        "setErrors": "1",
+        "setAttempts": "144",
+        "serviceAces": "4",
+        "serviceErrors": "15",
+        "serveAttempts": "87",
+        "digs": "40",
+        "receptionAttempts": "91",
+        "receptionErrors": "9",
+        "blockSolos": "1",
+        "blockAssists": "14",
+        "blockingErrors": "3",
+        "totalBlocks": "8"
+      }
+    }
+  ]
+}

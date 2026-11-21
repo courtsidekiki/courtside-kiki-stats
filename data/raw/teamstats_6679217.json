@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6679217,
+  "title": "WVB Boxscore",
+  "description": "Fla. Atlantic vs South Fla.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45773",
+      "seoname": "fla-atlantic",
+      "name6Char": "FAU",
+      "nameFull": "Florida Atlantic University",
+      "nameShort": "Fla. Atlantic",
+      "teamName": "Owls",
+      "color": "#002855"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46621",
+      "seoname": "south-fla",
+      "name6Char": "USF",
+      "nameFull": "University of South Florida",
+      "nameShort": "South Fla.",
+      "teamName": "Bulls",
+      "color": "#006747"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45773,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "83",
+        "kills": "52",
+        "attackErrors": "18",
+        "attackAttempts": "146",
+        "hittingPercentage": "0.233",
+        "assists": "48",
+        "setErrors": "1",
+        "setAttempts": "139",
+        "serviceAces": "3",
+        "serviceErrors": "8",
+        "serveAttempts": "84",
+        "digs": "50",
+        "receptionAttempts": "81",
+        "receptionErrors": "3",
+        "blockSolos": "1",
+        "blockAssists": "12",
+        "blockingErrors": "0",
+        "totalBlocks": "7"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46621,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "95",
+        "kills": "65",
+        "attackErrors": "14",
+        "attackAttempts": "139",
+        "hittingPercentage": "0.367",
+        "assists": "64",
+        "setErrors": "1",
+        "setAttempts": "146",
+        "serviceAces": "3",
+        "serviceErrors": "13",
+        "serveAttempts": "94",
+        "digs": "72",
+        "receptionAttempts": "76",
+        "receptionErrors": "3",
+        "blockSolos": "3",
+        "blockAssists": "16",
+        "blockingErrors": "2",
+        "totalBlocks": "11"
+      }
+    }
+  ]
+}

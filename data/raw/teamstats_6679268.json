@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6679268,
+  "title": "WVB Boxscore",
+  "description": "Liberty vs Sam Houston",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45925",
+      "seoname": "liberty",
+      "name6Char": "LIBRTY",
+      "nameFull": "Liberty University",
+      "nameShort": "Liberty",
+      "teamName": "Lady Flames",
+      "color": "#971A1F"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45863",
+      "seoname": "sam-houston-st",
+      "name6Char": "SAMHOU",
+      "nameFull": "Sam Houston State University",
+      "nameShort": "Sam Houston",
+      "teamName": "Bearkats",
+      "color": "#DF502A"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45925,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "92",
+        "kills": "51",
+        "attackErrors": "15",
+        "attackAttempts": "149",
+        "hittingPercentage": "0.242",
+        "assists": "45",
+        "setErrors": "0",
+        "setAttempts": "148",
+        "serviceAces": "5",
+        "serviceErrors": "7",
+        "serveAttempts": "91",
+        "digs": "66",
+        "receptionAttempts": "70",
+        "receptionErrors": "9",
+        "blockSolos": "4",
+        "blockAssists": "19",
+        "blockingErrors": "2",
+        "totalBlocks": "13"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45863,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "79",
+        "kills": "48",
+        "attackErrors": "26",
+        "attackAttempts": "152",
+        "hittingPercentage": "0.145",
+        "assists": "47",
+        "setErrors": "0",
+        "setAttempts": "159",
+        "serviceAces": "9",
+        "serviceErrors": "10",
+        "serveAttempts": "80",
+        "digs": "68",
+        "receptionAttempts": "84",
+        "receptionErrors": "5",
+        "blockSolos": "0",
+        "blockAssists": "16",
+        "blockingErrors": "0",
+        "totalBlocks": "8"
+      }
+    }
+  ]
+}

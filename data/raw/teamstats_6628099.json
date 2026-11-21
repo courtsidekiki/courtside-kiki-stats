@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628099,
+  "title": "WVB Boxscore",
+  "description": "California vs Boston College",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45760",
+      "seoname": "california",
+      "name6Char": "CAL",
+      "nameFull": "University of California, Berkeley",
+      "nameShort": "California",
+      "teamName": "Golden Bears",
+      "color": "#041E42"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46216",
+      "seoname": "boston-college",
+      "name6Char": "BC",
+      "nameFull": "Boston College",
+      "nameShort": "Boston College",
+      "teamName": "Eagles",
+      "color": "#862633"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45760,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "94",
+        "kills": "62",
+        "attackErrors": "22",
+        "attackAttempts": "155",
+        "hittingPercentage": "0.258",
+        "assists": "57",
+        "setErrors": "1",
+        "setAttempts": "150",
+        "serviceAces": "6",
+        "serviceErrors": "5",
+        "serveAttempts": "93",
+        "digs": "76",
+        "receptionAttempts": "67",
+        "receptionErrors": "3",
+        "blockSolos": "2",
+        "blockAssists": "16",
+        "blockingErrors": "1",
+        "totalBlocks": "10"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46216,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "68",
+        "kills": "37",
+        "attackErrors": "22",
+        "attackAttempts": "148",
+        "hittingPercentage": "0.101",
+        "assists": "32",
+        "setErrors": "1",
+        "setAttempts": "146",
+        "serviceAces": "3",
+        "serviceErrors": "2",
+        "serveAttempts": "69",
+        "digs": "61",
+        "receptionAttempts": "88",
+        "receptionErrors": "6",
+        "blockSolos": "1",
+        "blockAssists": "12",
+        "blockingErrors": "1",
+        "totalBlocks": "7"
+      }
+    }
+  ]
+}

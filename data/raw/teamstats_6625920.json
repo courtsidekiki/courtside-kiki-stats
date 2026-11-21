@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625920,
+  "title": "WVB Boxscore",
+  "description": "North Carolina vs Miami (FL)",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46471",
+      "seoname": "north-carolina",
+      "name6Char": "UNC",
+      "nameFull": "University of North Carolina, Chapel Hill",
+      "nameShort": "North Carolina",
+      "teamName": "Tar Heels",
+      "color": "#7BAFD4"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46066",
+      "seoname": "miami-fl",
+      "name6Char": "MIAMI",
+      "nameFull": "University of Miami (Florida)",
+      "nameShort": "Miami (FL)",
+      "teamName": "Hurricanes",
+      "color": "#154734"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46471,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "100",
+        "kills": "49",
+        "attackErrors": "21",
+        "attackAttempts": "140",
+        "hittingPercentage": "0.200",
+        "assists": "46",
+        "setErrors": "0",
+        "setAttempts": "134",
+        "serviceAces": "3",
+        "serviceErrors": "3",
+        "serveAttempts": "99",
+        "digs": "57",
+        "receptionAttempts": "75",
+        "receptionErrors": "7",
+        "blockSolos": "6",
+        "blockAssists": "24",
+        "blockingErrors": "0",
+        "totalBlocks": "18"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46066,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "89",
+        "kills": "58",
+        "attackErrors": "33",
+        "attackAttempts": "167",
+        "hittingPercentage": "0.150",
+        "assists": "54",
+        "setErrors": "0",
+        "setAttempts": "170",
+        "serviceAces": "7",
+        "serviceErrors": "15",
+        "serveAttempts": "90",
+        "digs": "64",
+        "receptionAttempts": "96",
+        "receptionErrors": "3",
+        "blockSolos": "3",
+        "blockAssists": "4",
+        "blockingErrors": "2",
+        "totalBlocks": "5"
+      }
+    }
+  ]
+}

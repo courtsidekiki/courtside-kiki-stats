@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6679307,
+  "title": "WVB Boxscore",
+  "description": "UIW vs Lamar University",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46648",
+      "seoname": "uiw",
+      "name6Char": "INCWRD",
+      "nameFull": "University of the Incarnate Word",
+      "nameShort": "UIW",
+      "teamName": "Cardinals",
+      "color": "#CB333B"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45922",
+      "seoname": "lamar",
+      "name6Char": "LAMAR",
+      "nameFull": "Lamar University",
+      "nameShort": "Lamar University",
+      "teamName": "Cardinals",
+      "color": "#D50032"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46648,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "104",
+        "kills": "64",
+        "attackErrors": "32",
+        "attackAttempts": "186",
+        "hittingPercentage": "0.172",
+        "assists": "58",
+        "setErrors": "1",
+        "setAttempts": "179",
+        "serviceAces": "9",
+        "serviceErrors": "5",
+        "serveAttempts": "104",
+        "digs": "84",
+        "receptionAttempts": "83",
+        "receptionErrors": "3",
+        "blockSolos": "2",
+        "blockAssists": "6",
+        "blockingErrors": "1",
+        "totalBlocks": "5"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45922,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "94",
+        "kills": "53",
+        "attackErrors": "17",
+        "attackAttempts": "169",
+        "hittingPercentage": "0.213",
+        "assists": "51",
+        "setErrors": "3",
+        "setAttempts": "187",
+        "serviceAces": "3",
+        "serviceErrors": "11",
+        "serveAttempts": "94",
+        "digs": "74",
+        "receptionAttempts": "99",
+        "receptionErrors": "9",
+        "blockSolos": "1",
+        "blockAssists": "16",
+        "blockingErrors": "3",
+        "totalBlocks": "9"
+      }
+    }
+  ]
+}

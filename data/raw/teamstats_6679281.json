@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6679281,
+  "title": "WVB Boxscore",
+  "description": "FDU vs New Haven",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45907",
+      "seoname": "fdu",
+      "name6Char": "FDU",
+      "nameFull": "Fairleigh Dickinson University, Metropolitan Campus",
+      "nameShort": "FDU",
+      "teamName": "Knights",
+      "color": "#72293c"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46234",
+      "seoname": "new-haven",
+      "name6Char": "NEWHAV",
+      "nameFull": "University of New Haven",
+      "nameShort": "New Haven",
+      "teamName": "Chargers",
+      "color": "#102B4E"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45907,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "81",
+        "kills": "45",
+        "attackErrors": "10",
+        "attackAttempts": "102",
+        "hittingPercentage": "0.343",
+        "assists": "43",
+        "setErrors": "0",
+        "setAttempts": "94",
+        "serviceAces": "8",
+        "serviceErrors": "8",
+        "serveAttempts": "80",
+        "digs": "42",
+        "receptionAttempts": "58",
+        "receptionErrors": "5",
+        "blockSolos": "1",
+        "blockAssists": "15",
+        "blockingErrors": "3",
+        "totalBlocks": "8"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46234,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "61",
+        "kills": "38",
+        "attackErrors": "22",
+        "attackAttempts": "113",
+        "hittingPercentage": "0.142",
+        "assists": "38",
+        "setErrors": "1",
+        "setAttempts": "110",
+        "serviceAces": "5",
+        "serviceErrors": "4",
+        "serveAttempts": "62",
+        "digs": "41",
+        "receptionAttempts": "72",
+        "receptionErrors": "8",
+        "blockSolos": "0",
+        "blockAssists": "7",
+        "blockingErrors": "2",
+        "totalBlocks": "3"
+      }
+    }
+  ]
+}

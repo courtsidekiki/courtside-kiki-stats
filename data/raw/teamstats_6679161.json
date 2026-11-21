@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6679161,
+  "title": "WVB Boxscore",
+  "description": "Radford vs Presbyterian",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46241",
+      "seoname": "radford",
+      "name6Char": "RADFRD",
+      "nameFull": "Radford University",
+      "nameShort": "Radford",
+      "teamName": "Highlanders",
+      "color": "#C8102E"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45966",
+      "seoname": "presbyterian",
+      "name6Char": "PRESBY",
+      "nameFull": "Presbyterian College",
+      "nameShort": "Presbyterian",
+      "teamName": "Blue Hose",
+      "color": "#005394"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46241,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "99",
+        "kills": "64",
+        "attackErrors": "22",
+        "attackAttempts": "161",
+        "hittingPercentage": "0.261",
+        "assists": "62",
+        "setErrors": "1",
+        "setAttempts": "164",
+        "serviceAces": "3",
+        "serviceErrors": "10",
+        "serveAttempts": "98",
+        "digs": "67",
+        "receptionAttempts": "88",
+        "receptionErrors": "4",
+        "blockSolos": "1",
+        "blockAssists": "16",
+        "blockingErrors": "0",
+        "totalBlocks": "9"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45966,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "95",
+        "kills": "58",
+        "attackErrors": "23",
+        "attackAttempts": "160",
+        "hittingPercentage": "0.219",
+        "assists": "55",
+        "setErrors": "1",
+        "setAttempts": "157",
+        "serviceAces": "4",
+        "serviceErrors": "8",
+        "serveAttempts": "96",
+        "digs": "63",
+        "receptionAttempts": "88",
+        "receptionErrors": "3",
+        "blockSolos": "2",
+        "blockAssists": "14",
+        "blockingErrors": "2",
+        "totalBlocks": "9"
+      }
+    }
+  ]
+}

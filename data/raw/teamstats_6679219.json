@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6679219,
+  "title": "WVB Boxscore",
+  "description": "Tulsa vs East Carolina",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45876",
+      "seoname": "tulsa",
+      "name6Char": "TULSA",
+      "nameFull": "The University of Tulsa",
+      "nameShort": "Tulsa",
+      "teamName": "Golden Hurricane",
+      "color": "#002D72"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46668",
+      "seoname": "east-carolina",
+      "name6Char": "E CAR",
+      "nameFull": "East Carolina University",
+      "nameShort": "East Carolina",
+      "teamName": "Pirates",
+      "color": "#582C83"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45876,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "109",
+        "kills": "56",
+        "attackErrors": "25",
+        "attackAttempts": "167",
+        "hittingPercentage": "0.186",
+        "assists": "53",
+        "setErrors": "3",
+        "setAttempts": "176",
+        "serviceAces": "7",
+        "serviceErrors": "10",
+        "serveAttempts": "108",
+        "digs": "74",
+        "receptionAttempts": "86",
+        "receptionErrors": "5",
+        "blockSolos": "2",
+        "blockAssists": "20",
+        "blockingErrors": "2",
+        "totalBlocks": "12"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46668,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "97",
+        "kills": "54",
+        "attackErrors": "29",
+        "attackAttempts": "169",
+        "hittingPercentage": "0.148",
+        "assists": "51",
+        "setErrors": "4",
+        "setAttempts": "181",
+        "serviceAces": "5",
+        "serviceErrors": "12",
+        "serveAttempts": "98",
+        "digs": "75",
+        "receptionAttempts": "98",
+        "receptionErrors": "7",
+        "blockSolos": "3",
+        "blockAssists": "20",
+        "blockingErrors": "2",
+        "totalBlocks": "13"
+      }
+    }
+  ]
+}

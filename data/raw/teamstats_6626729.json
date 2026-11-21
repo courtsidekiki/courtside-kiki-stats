@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626729,
+  "title": "WVB Boxscore",
+  "description": "Long Beach St. vs UC San Diego",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46160",
+      "seoname": "long-beach-st",
+      "name6Char": "LBSU",
+      "nameFull": "Long Beach State University",
+      "nameShort": "Long Beach St.",
+      "teamName": "Beach",
+      "color": "#010101"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46291",
+      "seoname": "uc-san-diego",
+      "name6Char": "UCSD",
+      "nameFull": "University of California, San Diego",
+      "nameShort": "UC San Diego",
+      "teamName": "Tritons",
+      "color": "#192847"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46160,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "102",
+        "kills": "52",
+        "attackErrors": "23",
+        "attackAttempts": "177",
+        "hittingPercentage": "0.164",
+        "assists": "48",
+        "setErrors": "0",
+        "setAttempts": "171",
+        "serviceAces": "5",
+        "serviceErrors": "7",
+        "serveAttempts": "101",
+        "digs": "75",
+        "receptionAttempts": "81",
+        "receptionErrors": "7",
+        "blockSolos": "3",
+        "blockAssists": "28",
+        "blockingErrors": "1",
+        "totalBlocks": "17"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46291,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "87",
+        "kills": "50",
+        "attackErrors": "36",
+        "attackAttempts": "182",
+        "hittingPercentage": "0.077",
+        "assists": "50",
+        "setErrors": "2",
+        "setAttempts": "177",
+        "serviceAces": "7",
+        "serviceErrors": "7",
+        "serveAttempts": "88",
+        "digs": "77",
+        "receptionAttempts": "94",
+        "receptionErrors": "5",
+        "blockSolos": "0",
+        "blockAssists": "20",
+        "blockingErrors": "3",
+        "totalBlocks": "10"
+      }
+    }
+  ]
+}
