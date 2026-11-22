@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6679303,
+  "title": "WVB Boxscore",
+  "description": "UIW vs SFA",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46648",
+      "seoname": "uiw",
+      "name6Char": "INCWRD",
+      "nameFull": "University of the Incarnate Word",
+      "nameShort": "UIW",
+      "teamName": "Cardinals",
+      "color": "#CB333B"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46624",
+      "seoname": "stephen-f-austin",
+      "name6Char": "SFA",
+      "nameFull": "Stephen F. Austin State University",
+      "nameShort": "SFA",
+      "teamName": "Lumberjacks",
+      "color": "#532F7C"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46648,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "107",
+        "kills": "69",
+        "attackErrors": "39",
+        "attackAttempts": "210",
+        "hittingPercentage": "0.143",
+        "assists": "68",
+        "setErrors": "2",
+        "setAttempts": "209",
+        "serviceAces": "4",
+        "serviceErrors": "3",
+        "serveAttempts": "106",
+        "digs": "95",
+        "receptionAttempts": "95",
+        "receptionErrors": "0",
+        "blockSolos": "3",
+        "blockAssists": "8",
+        "blockingErrors": "1",
+        "totalBlocks": "7"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46624,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "100",
+        "kills": "56",
+        "attackErrors": "27",
+        "attackAttempts": "190",
+        "hittingPercentage": "0.153",
+        "assists": "53",
+        "setErrors": "1",
+        "setAttempts": "194",
+        "serviceAces": "0",
+        "serviceErrors": "6",
+        "serveAttempts": "101",
+        "digs": "87",
+        "receptionAttempts": "103",
+        "receptionErrors": "4",
+        "blockSolos": "4",
+        "blockAssists": "30",
+        "blockingErrors": "4",
+        "totalBlocks": "19"
+      }
+    }
+  ]
+}

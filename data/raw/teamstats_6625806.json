@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625806,
+  "title": "WVB Boxscore",
+  "description": "Pepperdine vs LMU (CA)",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46240",
+      "seoname": "pepperdine",
+      "name6Char": "PEPPER",
+      "nameFull": "Pepperdine University",
+      "nameShort": "Pepperdine",
+      "teamName": "Waves",
+      "color": "#00205B"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45792",
+      "seoname": "loyola-marymount",
+      "name6Char": "LMU",
+      "nameFull": "Loyola Marymount University",
+      "nameShort": "LMU (CA)",
+      "teamName": "Lions",
+      "color": "#AB0C2F"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46240,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "64",
+        "kills": "36",
+        "attackErrors": "22",
+        "attackAttempts": "101",
+        "hittingPercentage": "0.139",
+        "assists": "35",
+        "setErrors": "1",
+        "setAttempts": "99",
+        "serviceAces": "1",
+        "serviceErrors": "12",
+        "serveAttempts": "65",
+        "digs": "25",
+        "receptionAttempts": "68",
+        "receptionErrors": "5",
+        "blockSolos": "1",
+        "blockAssists": "22",
+        "blockingErrors": "1",
+        "totalBlocks": "12"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45792,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "35",
+        "attackErrors": "21",
+        "attackAttempts": "92",
+        "hittingPercentage": "0.152",
+        "assists": "34",
+        "setErrors": "0",
+        "setAttempts": "93",
+        "serviceAces": "5",
+        "serviceErrors": "6",
+        "serveAttempts": "74",
+        "digs": "34",
+        "receptionAttempts": "53",
+        "receptionErrors": "1",
+        "blockSolos": "1",
+        "blockAssists": "22",
+        "blockingErrors": "1",
+        "totalBlocks": "12"
+      }
+    }
+  ]
+}

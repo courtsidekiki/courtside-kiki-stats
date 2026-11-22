@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6679277,
+  "title": "WVB Boxscore",
+  "description": "LIU vs FDU",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45791",
+      "seoname": "long-island",
+      "name6Char": "LIU",
+      "nameFull": "Long Island University",
+      "nameShort": "LIU",
+      "teamName": "Sharks",
+      "color": "#68A8D0"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45907",
+      "seoname": "fdu",
+      "name6Char": "FDU",
+      "nameFull": "Fairleigh Dickinson University, Metropolitan Campus",
+      "nameShort": "FDU",
+      "teamName": "Knights",
+      "color": "#72293c"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45791,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "94",
+        "kills": "67",
+        "attackErrors": "42",
+        "attackAttempts": "201",
+        "hittingPercentage": "0.124",
+        "assists": "65",
+        "setErrors": "1",
+        "setAttempts": "215",
+        "serviceAces": "8",
+        "serviceErrors": "10",
+        "serveAttempts": "94",
+        "digs": "89",
+        "receptionAttempts": "100",
+        "receptionErrors": "4",
+        "blockSolos": "2",
+        "blockAssists": "4",
+        "blockingErrors": "2",
+        "totalBlocks": "4"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45907,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "108",
+        "kills": "51",
+        "attackErrors": "10",
+        "attackAttempts": "167",
+        "hittingPercentage": "0.246",
+        "assists": "48",
+        "setErrors": "1",
+        "setAttempts": "173",
+        "serviceAces": "4",
+        "serviceErrors": "8",
+        "serveAttempts": "108",
+        "digs": "71",
+        "receptionAttempts": "84",
+        "receptionErrors": "8",
+        "blockSolos": "1",
+        "blockAssists": "37",
+        "blockingErrors": "1",
+        "totalBlocks": "19"
+      }
+    }
+  ]
+}

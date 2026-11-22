@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6679310,
+  "title": "WVB Boxscore",
+  "description": "Grambling vs Texas Southern",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46051",
+      "seoname": "grambling",
+      "name6Char": "GRAMB",
+      "nameFull": "Grambling State University",
+      "nameShort": "Grambling",
+      "teamName": "Lady Tigers",
+      "color": "#010101"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46252",
+      "seoname": "texas-southern",
+      "name6Char": "TX SOU",
+      "nameFull": "Texas Southern University",
+      "nameShort": "Texas Southern",
+      "teamName": "Lady Tigers",
+      "color": "#6F263D"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46051,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "81",
+        "kills": "52",
+        "attackErrors": "21",
+        "attackAttempts": "174",
+        "hittingPercentage": "0.178",
+        "assists": "51",
+        "setErrors": "2",
+        "setAttempts": "188",
+        "serviceAces": "6",
+        "serviceErrors": "4",
+        "serveAttempts": "82",
+        "digs": "74",
+        "receptionAttempts": "89",
+        "receptionErrors": "3",
+        "blockSolos": "2",
+        "blockAssists": "12",
+        "blockingErrors": "1",
+        "totalBlocks": "8"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46252,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "92",
+        "kills": "62",
+        "attackErrors": "19",
+        "attackAttempts": "166",
+        "hittingPercentage": "0.259",
+        "assists": "56",
+        "setErrors": "2",
+        "setAttempts": "174",
+        "serviceAces": "3",
+        "serviceErrors": "2",
+        "serveAttempts": "91",
+        "digs": "82",
+        "receptionAttempts": "78",
+        "receptionErrors": "6",
+        "blockSolos": "2",
+        "blockAssists": "15",
+        "blockingErrors": "0",
+        "totalBlocks": "9"
+      }
+    }
+  ]
+}

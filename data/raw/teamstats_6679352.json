@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6679352,
+  "title": "WVB Boxscore",
+  "description": "Purdue vs Michigan",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46616",
+      "seoname": "purdue",
+      "name6Char": "PURDUE",
+      "nameFull": "Purdue University",
+      "nameShort": "Purdue",
+      "teamName": "Boilermakers",
+      "color": "#010101"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45932",
+      "seoname": "michigan",
+      "name6Char": "MICH",
+      "nameFull": "University of Michigan",
+      "nameShort": "Michigan",
+      "teamName": "Wolverines",
+      "color": "#041E42"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46616,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "41",
+        "attackErrors": "8",
+        "attackAttempts": "90",
+        "hittingPercentage": "0.367",
+        "assists": "40",
+        "setErrors": "0",
+        "setAttempts": "88",
+        "serviceAces": "5",
+        "serviceErrors": "4",
+        "serveAttempts": "74",
+        "digs": "43",
+        "receptionAttempts": "51",
+        "receptionErrors": "3",
+        "blockSolos": "1",
+        "blockAssists": "24",
+        "blockingErrors": "1",
+        "totalBlocks": "13"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45932,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "56",
+        "kills": "41",
+        "attackErrors": "23",
+        "attackAttempts": "113",
+        "hittingPercentage": "0.159",
+        "assists": "39",
+        "setErrors": "0",
+        "setAttempts": "111",
+        "serviceAces": "3",
+        "serviceErrors": "6",
+        "serveAttempts": "57",
+        "digs": "37",
+        "receptionAttempts": "70",
+        "receptionErrors": "5",
+        "blockSolos": "0",
+        "blockAssists": "8",
+        "blockingErrors": "1",
+        "totalBlocks": "4"
+      }
+    }
+  ]
+}

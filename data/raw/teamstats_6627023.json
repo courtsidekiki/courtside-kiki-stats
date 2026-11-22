@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627023,
+  "title": "WVB Boxscore",
+  "description": "UCF vs Colorado",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "1ST SET",
+  "status": "I",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46040",
+      "seoname": "ucf",
+      "name6Char": "UCF",
+      "nameFull": "University of Central Florida",
+      "nameShort": "UCF",
+      "teamName": "Knights",
+      "color": "#010101"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46542",
+      "seoname": "colorado",
+      "name6Char": "COLO",
+      "nameFull": "University of Colorado Boulder",
+      "nameShort": "Colorado",
+      "teamName": "Buffaloes",
+      "color": "#010101"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46040,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "13",
+        "kills": "12",
+        "attackErrors": "4",
+        "attackAttempts": "19",
+        "hittingPercentage": "0.421",
+        "assists": "12",
+        "setErrors": "0",
+        "setAttempts": "20",
+        "serviceAces": "0",
+        "serviceErrors": "2",
+        "serveAttempts": "14",
+        "digs": "8",
+        "receptionAttempts": "14",
+        "receptionErrors": "1",
+        "blockSolos": "0",
+        "blockAssists": "2",
+        "blockingErrors": "0",
+        "totalBlocks": "2"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46542,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "15",
+        "kills": "8",
+        "attackErrors": "1",
+        "attackAttempts": "18",
+        "hittingPercentage": "0.389",
+        "assists": "8",
+        "setErrors": "0",
+        "setAttempts": "17",
+        "serviceAces": "1",
+        "serviceErrors": "0",
+        "serveAttempts": "14",
+        "digs": "2",
+        "receptionAttempts": "12",
+        "receptionErrors": "0",
+        "blockSolos": "0",
+        "blockAssists": "4",
+        "blockingErrors": "0",
+        "totalBlocks": "4"
+      }
+    }
+  ]
+}

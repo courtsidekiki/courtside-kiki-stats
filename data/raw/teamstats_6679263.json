@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6679263,
+  "title": "WVB Boxscore",
+  "description": "Western Ky. vs Liberty",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "1ST SET",
+  "status": "I",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46634",
+      "seoname": "western-ky",
+      "name6Char": "W KY",
+      "nameFull": "Western Kentucky University",
+      "nameShort": "Western Ky.",
+      "teamName": "Lady Toppers",
+      "color": "#C8102E"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45925",
+      "seoname": "liberty",
+      "name6Char": "LIBRTY",
+      "nameFull": "Liberty University",
+      "nameShort": "Liberty",
+      "teamName": "Lady Flames",
+      "color": "#971A1F"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46634,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "10",
+        "kills": "5",
+        "attackErrors": "2",
+        "attackAttempts": "12",
+        "hittingPercentage": "0.250",
+        "assists": "5",
+        "setErrors": "0",
+        "setAttempts": "12",
+        "serviceAces": "1",
+        "serviceErrors": "0",
+        "serveAttempts": "11",
+        "digs": "5",
+        "receptionAttempts": "9",
+        "receptionErrors": "2",
+        "blockSolos": "0",
+        "blockAssists": "2",
+        "blockingErrors": "0",
+        "totalBlocks": "2"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45925,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "10",
+        "kills": "6",
+        "attackErrors": "3",
+        "attackAttempts": "16",
+        "hittingPercentage": "0.188",
+        "assists": "6",
+        "setErrors": "0",
+        "setAttempts": "14",
+        "serviceAces": "2",
+        "serviceErrors": "1",
+        "serveAttempts": "10",
+        "digs": "4",
+        "receptionAttempts": "10",
+        "receptionErrors": "1",
+        "blockSolos": "0",
+        "blockAssists": "0",
+        "blockingErrors": "0",
+        "totalBlocks": "0"
+      }
+    }
+  ]
+}

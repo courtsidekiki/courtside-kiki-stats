@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6679209,
+  "title": "WVB Boxscore",
+  "description": "Rice vs South Fla.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45859",
+      "seoname": "rice",
+      "name6Char": "RICE",
+      "nameFull": "Rice University",
+      "nameShort": "Rice",
+      "teamName": "Owls",
+      "color": "#00205B"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46621",
+      "seoname": "south-fla",
+      "name6Char": "USF",
+      "nameFull": "University of South Florida",
+      "nameShort": "South Fla.",
+      "teamName": "Bulls",
+      "color": "#006747"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45859,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "100",
+        "kills": "65",
+        "attackErrors": "36",
+        "attackAttempts": "185",
+        "hittingPercentage": "0.157",
+        "assists": "61",
+        "setErrors": "0",
+        "setAttempts": "191",
+        "serviceAces": "2",
+        "serviceErrors": "10",
+        "serveAttempts": "99",
+        "digs": "100",
+        "receptionAttempts": "96",
+        "receptionErrors": "6",
+        "blockSolos": "2",
+        "blockAssists": "16",
+        "blockingErrors": "1",
+        "totalBlocks": "10"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46621,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "104",
+        "kills": "50",
+        "attackErrors": "24",
+        "attackAttempts": "190",
+        "hittingPercentage": "0.137",
+        "assists": "46",
+        "setErrors": "0",
+        "setAttempts": "184",
+        "serviceAces": "6",
+        "serviceErrors": "9",
+        "serveAttempts": "105",
+        "digs": "74",
+        "receptionAttempts": "89",
+        "receptionErrors": "2",
+        "blockSolos": "9",
+        "blockAssists": "22",
+        "blockingErrors": "5",
+        "totalBlocks": "20"
+      }
+    }
+  ]
+}

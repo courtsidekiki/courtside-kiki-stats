@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6679258,
+  "title": "WVB Boxscore",
+  "description": "Dayton vs Saint Louis",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "1ST SET",
+  "status": "I",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46047",
+      "seoname": "dayton",
+      "name6Char": "DAYTON",
+      "nameFull": "University of Dayton",
+      "nameShort": "Dayton",
+      "teamName": "Flyers",
+      "color": "#D50032"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46744",
+      "seoname": "saint-louis",
+      "name6Char": "ST LOU",
+      "nameFull": "Saint Louis University",
+      "nameShort": "Saint Louis",
+      "teamName": "Billikens",
+      "color": "#003DA5"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46047,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "13",
+        "kills": "6",
+        "attackErrors": "0",
+        "attackAttempts": "11",
+        "hittingPercentage": "0.545",
+        "assists": "5",
+        "setErrors": "0",
+        "setAttempts": "12",
+        "serviceAces": "0",
+        "serviceErrors": "1",
+        "serveAttempts": "14",
+        "digs": "7",
+        "receptionAttempts": "7",
+        "receptionErrors": "2",
+        "blockSolos": "0",
+        "blockAssists": "2",
+        "blockingErrors": "0",
+        "totalBlocks": "2"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46744,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "7",
+        "kills": "4",
+        "attackErrors": "7",
+        "attackAttempts": "21",
+        "hittingPercentage": "-0.143",
+        "assists": "4",
+        "setErrors": "0",
+        "setAttempts": "21",
+        "serviceAces": "2",
+        "serviceErrors": "0",
+        "serveAttempts": "7",
+        "digs": "5",
+        "receptionAttempts": "12",
+        "receptionErrors": "0",
+        "blockSolos": "0",
+        "blockAssists": "0",
+        "blockingErrors": "0",
+        "totalBlocks": "0"
+      }
+    }
+  ]
+}

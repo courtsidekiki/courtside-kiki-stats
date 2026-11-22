@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626312,
+  "title": "WVB Boxscore",
+  "description": "Virginia vs SMU",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "1ST SET",
+  "status": "I",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46009",
+      "seoname": "virginia",
+      "name6Char": "UVA",
+      "nameFull": "University of Virginia",
+      "nameShort": "Virginia",
+      "teamName": "Cavaliers",
+      "color": "#232D4B"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46250",
+      "seoname": "smu",
+      "name6Char": "SMU",
+      "nameFull": "Southern Methodist University",
+      "nameShort": "SMU",
+      "teamName": "Mustangs",
+      "color": "#A80000"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46009,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "7",
+        "kills": "3",
+        "attackErrors": "4",
+        "attackAttempts": "10",
+        "hittingPercentage": "-0.100",
+        "assists": "3",
+        "setErrors": "0",
+        "setAttempts": "11",
+        "serviceAces": "0",
+        "serviceErrors": "2",
+        "serveAttempts": "7",
+        "digs": "2",
+        "receptionAttempts": "10",
+        "receptionErrors": "0",
+        "blockSolos": "0",
+        "blockAssists": "2",
+        "blockingErrors": "0",
+        "totalBlocks": "2"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46250,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "11",
+        "kills": "5",
+        "attackErrors": "3",
+        "attackAttempts": "12",
+        "hittingPercentage": "0.167",
+        "assists": "4",
+        "setErrors": "0",
+        "setAttempts": "11",
+        "serviceAces": "0",
+        "serviceErrors": "1",
+        "serveAttempts": "11",
+        "digs": "3",
+        "receptionAttempts": "5",
+        "receptionErrors": "0",
+        "blockSolos": "1",
+        "blockAssists": "4",
+        "blockingErrors": "0",
+        "totalBlocks": "5"
+      }
+    }
+  ]
+}

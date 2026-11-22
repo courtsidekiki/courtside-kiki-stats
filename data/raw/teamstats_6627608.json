@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627608,
+  "title": "WVB Boxscore",
+  "description": "CSUN vs Sacramento St.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46289",
+      "seoname": "cal-st-northridge",
+      "name6Char": "CSUN",
+      "nameFull": "California State University, Northridge",
+      "nameShort": "CSUN",
+      "teamName": "Matadors",
+      "color": "#BB2531"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46290",
+      "seoname": "sacramento-st",
+      "name6Char": "SAC ST",
+      "nameFull": "California State University, Sacramento",
+      "nameShort": "Sacramento St.",
+      "teamName": "Hornets",
+      "color": "#115740"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46289,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "84",
+        "kills": "53",
+        "attackErrors": "20",
+        "attackAttempts": "135",
+        "hittingPercentage": "0.244",
+        "assists": "48",
+        "setErrors": "0",
+        "setAttempts": "132",
+        "serviceAces": "6",
+        "serviceErrors": "6",
+        "serveAttempts": "85",
+        "digs": "54",
+        "receptionAttempts": "82",
+        "receptionErrors": "10",
+        "blockSolos": "1",
+        "blockAssists": "14",
+        "blockingErrors": "0",
+        "totalBlocks": "8"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46290,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "91",
+        "kills": "55",
+        "attackErrors": "17",
+        "attackAttempts": "137",
+        "hittingPercentage": "0.277",
+        "assists": "54",
+        "setErrors": "0",
+        "setAttempts": "136",
+        "serviceAces": "10",
+        "serviceErrors": "8",
+        "serveAttempts": "90",
+        "digs": "53",
+        "receptionAttempts": "79",
+        "receptionErrors": "6",
+        "blockSolos": "1",
+        "blockAssists": "16",
+        "blockingErrors": "0",
+        "totalBlocks": "9"
+      }
+    }
+  ]
+}

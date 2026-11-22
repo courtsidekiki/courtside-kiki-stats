@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6679236,
+  "title": "WVB Boxscore",
+  "description": "Lipscomb vs FGCU",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "1ST SET",
+  "status": "I",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46768",
+      "seoname": "lipscomb",
+      "name6Char": "LIPSCO",
+      "nameFull": "Lipscomb University",
+      "nameShort": "Lipscomb",
+      "teamName": "Bisons",
+      "color": "#2E1A47"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46138",
+      "seoname": "fgcu",
+      "name6Char": "FGCU",
+      "nameFull": "Florida Gulf Coast University",
+      "nameShort": "FGCU",
+      "teamName": "Eagles",
+      "color": "#002D72"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46768,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "13",
+        "kills": "4",
+        "attackErrors": "2",
+        "attackAttempts": "14",
+        "hittingPercentage": "0.143",
+        "assists": "2",
+        "setErrors": "0",
+        "setAttempts": "11",
+        "serviceAces": "0",
+        "serviceErrors": "1",
+        "serveAttempts": "13",
+        "digs": "5",
+        "receptionAttempts": "10",
+        "receptionErrors": "1",
+        "blockSolos": "0",
+        "blockAssists": "8",
+        "blockingErrors": "0",
+        "totalBlocks": "8"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46138,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "12",
+        "kills": "8",
+        "attackErrors": "7",
+        "attackAttempts": "21",
+        "hittingPercentage": "0.048",
+        "assists": "8",
+        "setErrors": "0",
+        "setAttempts": "21",
+        "serviceAces": "1",
+        "serviceErrors": "2",
+        "serveAttempts": "12",
+        "digs": "8",
+        "receptionAttempts": "12",
+        "receptionErrors": "0",
+        "blockSolos": "0",
+        "blockAssists": "2",
+        "blockingErrors": "0",
+        "totalBlocks": "2"
+      }
+    }
+  ]
+}

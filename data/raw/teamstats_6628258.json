@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628258,
+  "title": "WVB Boxscore",
+  "description": "Utah vs Arizona",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46628",
+      "seoname": "utah",
+      "name6Char": "UTAH",
+      "nameFull": "University of Utah",
+      "nameShort": "Utah",
+      "teamName": "Utes",
+      "color": "#D42331"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46211",
+      "seoname": "arizona",
+      "name6Char": "ARIZ",
+      "nameFull": "University of Arizona",
+      "nameShort": "Arizona",
+      "teamName": "Wildcats",
+      "color": "#00205B"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46628,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "98",
+        "kills": "67",
+        "attackErrors": "27",
+        "attackAttempts": "155",
+        "hittingPercentage": "0.258",
+        "assists": "62",
+        "setErrors": "0",
+        "setAttempts": "147",
+        "serviceAces": "6",
+        "serviceErrors": "9",
+        "serveAttempts": "97",
+        "digs": "74",
+        "receptionAttempts": "84",
+        "receptionErrors": "6",
+        "blockSolos": "1",
+        "blockAssists": "17",
+        "blockingErrors": "1",
+        "totalBlocks": "9"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46211,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "88",
+        "kills": "46",
+        "attackErrors": "20",
+        "attackAttempts": "148",
+        "hittingPercentage": "0.176",
+        "assists": "40",
+        "setErrors": "0",
+        "setAttempts": "135",
+        "serviceAces": "6",
+        "serviceErrors": "5",
+        "serveAttempts": "89",
+        "digs": "59",
+        "receptionAttempts": "88",
+        "receptionErrors": "6",
+        "blockSolos": "1",
+        "blockAssists": "10",
+        "blockingErrors": "0",
+        "totalBlocks": "6"
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6679159,
+  "title": "WVB Boxscore",
+  "description": "Winthrop vs Radford",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45817",
+      "seoname": "winthrop",
+      "name6Char": "WINTHR",
+      "nameFull": "Winthrop University",
+      "nameShort": "Winthrop",
+      "teamName": "Eagles",
+      "color": "#9D2235"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46241",
+      "seoname": "radford",
+      "name6Char": "RADFRD",
+      "nameFull": "Radford University",
+      "nameShort": "Radford",
+      "teamName": "Highlanders",
+      "color": "#C8102E"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45817,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "76",
+        "kills": "42",
+        "attackErrors": "15",
+        "attackAttempts": "127",
+        "hittingPercentage": "0.213",
+        "assists": "40",
+        "setErrors": "1",
+        "setAttempts": "119",
+        "serviceAces": "5",
+        "serviceErrors": "3",
+        "serveAttempts": "74",
+        "digs": "60",
+        "receptionAttempts": "58",
+        "receptionErrors": "4",
+        "blockSolos": "3",
+        "blockAssists": "18",
+        "blockingErrors": "0",
+        "totalBlocks": "12"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46241,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "61",
+        "kills": "38",
+        "attackErrors": "23",
+        "attackAttempts": "131",
+        "hittingPercentage": "0.115",
+        "assists": "36",
+        "setErrors": "1",
+        "setAttempts": "130",
+        "serviceAces": "4",
+        "serviceErrors": "5",
+        "serveAttempts": "63",
+        "digs": "58",
+        "receptionAttempts": "71",
+        "receptionErrors": "5",
+        "blockSolos": "1",
+        "blockAssists": "0",
+        "blockingErrors": "1",
+        "totalBlocks": "1"
+      }
+    }
+  ]
+}

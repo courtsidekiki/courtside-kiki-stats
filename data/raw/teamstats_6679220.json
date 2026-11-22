@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6679220,
+  "title": "WVB Boxscore",
+  "description": "Hofstra vs Towson",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45914",
+      "seoname": "hofstra",
+      "name6Char": "HOFSTR",
+      "nameFull": "Hofstra University",
+      "nameShort": "Hofstra",
+      "teamName": "Pride",
+      "color": "#003594"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46128",
+      "seoname": "towson",
+      "name6Char": "TOWSON",
+      "nameFull": "Towson University",
+      "nameShort": "Towson",
+      "teamName": "Tigers",
+      "color": "#010101"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45914,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "79",
+        "kills": "46",
+        "attackErrors": "28",
+        "attackAttempts": "138",
+        "hittingPercentage": "0.130",
+        "assists": "43",
+        "setErrors": "0",
+        "setAttempts": "139",
+        "serviceAces": "3",
+        "serviceErrors": "4",
+        "serveAttempts": "80",
+        "digs": "58",
+        "receptionAttempts": "77",
+        "receptionErrors": "6",
+        "blockSolos": "1",
+        "blockAssists": "12",
+        "blockingErrors": "1",
+        "totalBlocks": "7"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46128,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "92",
+        "kills": "54",
+        "attackErrors": "16",
+        "attackAttempts": "136",
+        "hittingPercentage": "0.279",
+        "assists": "51",
+        "setErrors": "0",
+        "setAttempts": "137",
+        "serviceAces": "6",
+        "serviceErrors": "14",
+        "serveAttempts": "91",
+        "digs": "58",
+        "receptionAttempts": "76",
+        "receptionErrors": "3",
+        "blockSolos": "4",
+        "blockAssists": "22",
+        "blockingErrors": "2",
+        "totalBlocks": "15"
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6679191,
+  "title": "WVB Boxscore",
+  "description": "UMBC vs New Hampshire",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46562",
+      "seoname": "umbc",
+      "name6Char": "UMBC",
+      "nameFull": "University of Maryland, Baltimore County",
+      "nameShort": "UMBC",
+      "teamName": "Retrievers",
+      "color": "#010101"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45975",
+      "seoname": "new-hampshire",
+      "name6Char": "UNH",
+      "nameFull": "University of New Hampshire",
+      "nameShort": "New Hampshire",
+      "teamName": "Wildcats",
+      "color": "#041E42"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46562,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "108",
+        "kills": "71",
+        "attackErrors": "28",
+        "attackAttempts": "184",
+        "hittingPercentage": "0.234",
+        "assists": "64",
+        "setErrors": "2",
+        "setAttempts": "189",
+        "serviceAces": "7",
+        "serviceErrors": "9",
+        "serveAttempts": "108",
+        "digs": "74",
+        "receptionAttempts": "103",
+        "receptionErrors": "4",
+        "blockSolos": "0",
+        "blockAssists": "23",
+        "blockingErrors": "4",
+        "totalBlocks": "11"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45975,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "111",
+        "kills": "67",
+        "attackErrors": "21",
+        "attackAttempts": "177",
+        "hittingPercentage": "0.260",
+        "assists": "61",
+        "setErrors": "1",
+        "setAttempts": "174",
+        "serviceAces": "4",
+        "serviceErrors": "8",
+        "serveAttempts": "111",
+        "digs": "67",
+        "receptionAttempts": "99",
+        "receptionErrors": "7",
+        "blockSolos": "1",
+        "blockAssists": "28",
+        "blockingErrors": "3",
+        "totalBlocks": "15"
+      }
+    }
+  ]
+}

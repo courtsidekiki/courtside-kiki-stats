@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6625921,
+  "title": "WVB Boxscore",
+  "description": "Duke vs Miami (FL)",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "1ST SET",
+  "status": "I",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46409",
+      "seoname": "duke",
+      "name6Char": "DUKE",
+      "nameFull": "Duke University",
+      "nameShort": "Duke",
+      "teamName": "Blue Devils",
+      "color": "#002D72"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46066",
+      "seoname": "miami-fl",
+      "name6Char": "MIAMI",
+      "nameFull": "University of Miami (Florida)",
+      "nameShort": "Miami (FL)",
+      "teamName": "Hurricanes",
+      "color": "#154734"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46409,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "13",
+        "kills": "6",
+        "attackErrors": "3",
+        "attackAttempts": "23",
+        "hittingPercentage": "0.130",
+        "assists": "6",
+        "setErrors": "0",
+        "setAttempts": "24",
+        "serviceAces": "0",
+        "serviceErrors": "0",
+        "serveAttempts": "13",
+        "digs": "9",
+        "receptionAttempts": "12",
+        "receptionErrors": "0",
+        "blockSolos": "0",
+        "blockAssists": "2",
+        "blockingErrors": "0",
+        "totalBlocks": "2"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46066,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "13",
+        "kills": "10",
+        "attackErrors": "5",
+        "attackAttempts": "24",
+        "hittingPercentage": "0.208",
+        "assists": "9",
+        "setErrors": "1",
+        "setAttempts": "26",
+        "serviceAces": "0",
+        "serviceErrors": "1",
+        "serveAttempts": "13",
+        "digs": "12",
+        "receptionAttempts": "13",
+        "receptionErrors": "0",
+        "blockSolos": "0",
+        "blockAssists": "6",
+        "blockingErrors": "0",
+        "totalBlocks": "6"
+      }
+    }
+  ]
+}

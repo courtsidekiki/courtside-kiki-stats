@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626355,
+  "title": "WVB Boxscore",
+  "description": "Notre Dame vs Wake Forest",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "1ST SET",
+  "status": "I",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46610",
+      "seoname": "notre-dame",
+      "name6Char": "N DAME",
+      "nameFull": "University of Notre Dame",
+      "nameShort": "Notre Dame",
+      "teamName": "Fighting Irish",
+      "color": "#0C2340"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46133",
+      "seoname": "wake-forest",
+      "name6Char": "WAKE",
+      "nameFull": "Wake Forest University",
+      "nameShort": "Wake Forest",
+      "teamName": "Demon Deacons",
+      "color": "#010101"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46610,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "10",
+        "kills": "7",
+        "attackErrors": "0",
+        "attackAttempts": "15",
+        "hittingPercentage": "0.467",
+        "assists": "7",
+        "setErrors": "0",
+        "setAttempts": "15",
+        "serviceAces": "0",
+        "serviceErrors": "1",
+        "serveAttempts": "9",
+        "digs": "9",
+        "receptionAttempts": "6",
+        "receptionErrors": "0",
+        "blockSolos": "0",
+        "blockAssists": "2",
+        "blockingErrors": "1",
+        "totalBlocks": "2"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46133,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "6",
+        "kills": "5",
+        "attackErrors": "2",
+        "attackAttempts": "16",
+        "hittingPercentage": "0.188",
+        "assists": "5",
+        "setErrors": "0",
+        "setAttempts": "15",
+        "serviceAces": "0",
+        "serviceErrors": "1",
+        "serveAttempts": "7",
+        "digs": "7",
+        "receptionAttempts": "8",
+        "receptionErrors": "0",
+        "blockSolos": "0",
+        "blockAssists": "0",
+        "blockingErrors": "0",
+        "totalBlocks": "0"
+      }
+    }
+  ]
+}

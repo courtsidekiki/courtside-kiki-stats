@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6679152,
+  "title": "WVB Boxscore",
+  "description": "Northern Ky. vs Green Bay",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46608",
+      "seoname": "northern-ky",
+      "name6Char": "N KY",
+      "nameFull": "Northern Kentucky University",
+      "nameShort": "Northern Ky.",
+      "teamName": "Norse",
+      "color": "#010101"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46327",
+      "seoname": "green-bay",
+      "name6Char": "GRNBAY",
+      "nameFull": "University of Wisconsin-Green Bay",
+      "nameShort": "Green Bay",
+      "teamName": "Phoenix",
+      "color": "#0F5640"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46608,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "93",
+        "kills": "52",
+        "attackErrors": "17",
+        "attackAttempts": "166",
+        "hittingPercentage": "0.211",
+        "assists": "51",
+        "setErrors": "0",
+        "setAttempts": "171",
+        "serviceAces": "7",
+        "serviceErrors": "3",
+        "serveAttempts": "92",
+        "digs": "99",
+        "receptionAttempts": "70",
+        "receptionErrors": "7",
+        "blockSolos": "0",
+        "blockAssists": "24",
+        "blockingErrors": "1",
+        "totalBlocks": "12"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46327,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "78",
+        "kills": "51",
+        "attackErrors": "23",
+        "attackAttempts": "181",
+        "hittingPercentage": "0.155",
+        "assists": "48",
+        "setErrors": "2",
+        "setAttempts": "180",
+        "serviceAces": "7",
+        "serviceErrors": "9",
+        "serveAttempts": "79",
+        "digs": "84",
+        "receptionAttempts": "89",
+        "receptionErrors": "7",
+        "blockSolos": "3",
+        "blockAssists": "10",
+        "blockingErrors": "2",
+        "totalBlocks": "8"
+      }
+    }
+  ]
+}
