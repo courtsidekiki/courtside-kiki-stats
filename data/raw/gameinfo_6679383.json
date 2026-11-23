@@ -1,0 +1,98 @@
+{
+  "contests": [
+    {
+      "__typename": "Contest",
+      "id": "6679383",
+      "sportCode": "WVB",
+      "sportUrl": "volleyball-women",
+      "division": 1,
+      "clock": null,
+      "currentPeriod": "FINAL",
+      "finalMessage": "FINAL",
+      "gameState": "F",
+      "statusCodeDisplay": "final",
+      "network": null,
+      "startTime": "12:00",
+      "startTimeEpoch": 1795453200,
+      "week": null,
+      "seasonYear": 2026,
+      "winner": 46680,
+      "hasStartTime": true,
+      "hasBoxscore": true,
+      "hasPbp": true,
+      "hasScoringSummary": false,
+      "hasPreview": false,
+      "hasRecap": false,
+      "hasTeamStats": true,
+      "linescores": [
+        {
+          "__typename": "Linescore",
+          "period": "1",
+          "home": "25",
+          "visit": "20"
+        },
+        {
+          "__typename": "Linescore",
+          "period": "2",
+          "home": "25",
+          "visit": "19"
+        },
+        {
+          "__typename": "Linescore",
+          "period": "3",
+          "home": "26",
+          "visit": "24"
+        }
+      ],
+      "teams": [
+        {
+          "__typename": "ContestTeam",
+          "teamId": "46680",
+          "isHome": true,
+          "color": "#F47920",
+          "seoname": "idaho-st",
+          "nameFull": "Idaho State University",
+          "nameShort": "Idaho St.",
+          "name6Char": "ID ST",
+          "teamRank": null,
+          "gameRank": null,
+          "score": 3,
+          "seed": null,
+          "record": "(21-9)",
+          "divisionName": "d1",
+          "division": 1,
+          "isWinner": true
+        },
+        {
+          "__typename": "ContestTeam",
+          "teamId": "46340",
+          "isHome": false,
+          "color": "#00205B",
+          "seoname": "montana-st",
+          "nameFull": "Montana State University-Bozeman",
+          "nameShort": "Montana St.",
+          "name6Char": "MONTST ",
+          "teamRank": null,
+          "gameRank": null,
+          "score": 0,
+          "seed": null,
+          "record": "(17-12)",
+          "divisionName": "d1",
+          "division": 1,
+          "isWinner": false
+        }
+      ],
+      "liveVideos": [],
+      "championship": null,
+      "championshipGame": null,
+      "links": [],
+      "location": {
+        "__typename": "Location",
+        "venue": "Rolle Activity Center",
+        "city": "Flagstaff",
+        "stateUsps": "AZ"
+      },
+      "stats": null
+    }
+  ]
+}

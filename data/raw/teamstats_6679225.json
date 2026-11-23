@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6679225,
+  "title": "WVB Boxscore",
+  "description": "Coppin St. vs Howard",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46045",
+      "seoname": "coppin-st",
+      "name6Char": "COPPIN",
+      "nameFull": "Coppin State University",
+      "nameShort": "Coppin St.",
+      "teamName": "Eagles",
+      "color": "#0c3354"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45779",
+      "seoname": "howard",
+      "name6Char": "HOWARD",
+      "nameFull": "Howard University",
+      "nameShort": "Howard",
+      "teamName": "Bison",
+      "color": "#00263E"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46045,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "93",
+        "kills": "53",
+        "attackErrors": "18",
+        "attackAttempts": "127",
+        "hittingPercentage": "0.276",
+        "assists": "50",
+        "setErrors": "1",
+        "setAttempts": "126",
+        "serviceAces": "5",
+        "serviceErrors": "6",
+        "serveAttempts": "92",
+        "digs": "48",
+        "receptionAttempts": "73",
+        "receptionErrors": "9",
+        "blockSolos": "4",
+        "blockAssists": "4",
+        "blockingErrors": "2",
+        "totalBlocks": "6"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45779,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "85",
+        "kills": "51",
+        "attackErrors": "19",
+        "attackAttempts": "126",
+        "hittingPercentage": "0.254",
+        "assists": "50",
+        "setErrors": "3",
+        "setAttempts": "136",
+        "serviceAces": "9",
+        "serviceErrors": "13",
+        "serveAttempts": "86",
+        "digs": "46",
+        "receptionAttempts": "86",
+        "receptionErrors": "5",
+        "blockSolos": "2",
+        "blockAssists": "12",
+        "blockingErrors": "5",
+        "totalBlocks": "8"
+      }
+    }
+  ]
+}

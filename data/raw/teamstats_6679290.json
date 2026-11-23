@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6679290,
+  "title": "WVB Boxscore",
+  "description": "Texas vs Tennessee",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46755",
+      "seoname": "texas",
+      "name6Char": "TEXAS",
+      "nameFull": "University of Texas at Austin",
+      "nameShort": "Texas",
+      "teamName": "Longhorns",
+      "color": "#CB6015"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46005",
+      "seoname": "tennessee",
+      "name6Char": "TENN",
+      "nameFull": "University of Tennessee, Knoxville",
+      "nameShort": "Tennessee",
+      "teamName": "Volunteers",
+      "color": "#FF8200"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46755,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "105",
+        "kills": "68",
+        "attackErrors": "18",
+        "attackAttempts": "171",
+        "hittingPercentage": "0.292",
+        "assists": "63",
+        "setErrors": "1",
+        "setAttempts": "168",
+        "serviceAces": "6",
+        "serviceErrors": "12",
+        "serveAttempts": "105",
+        "digs": "75",
+        "receptionAttempts": "88",
+        "receptionErrors": "3",
+        "blockSolos": "2",
+        "blockAssists": "16",
+        "blockingErrors": "0",
+        "totalBlocks": "10"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46005,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "100",
+        "kills": "66",
+        "attackErrors": "18",
+        "attackAttempts": "161",
+        "hittingPercentage": "0.298",
+        "assists": "62",
+        "setErrors": "1",
+        "setAttempts": "153",
+        "serviceAces": "3",
+        "serviceErrors": "12",
+        "serveAttempts": "100",
+        "digs": "74",
+        "receptionAttempts": "93",
+        "receptionErrors": "6",
+        "blockSolos": "2",
+        "blockAssists": "2",
+        "blockingErrors": "2",
+        "totalBlocks": "3"
+      }
+    }
+  ]
+}

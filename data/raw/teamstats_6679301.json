@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6679301,
+  "title": "WVB Boxscore",
+  "description": "Southeastern La. vs UIW",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46622",
+      "seoname": "southeastern-la",
+      "name6Char": "SE LA",
+      "nameFull": "Southeastern Louisiana University",
+      "nameShort": "Southeastern La.",
+      "teamName": "Lady Lions",
+      "color": "#1D4C30"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46648",
+      "seoname": "uiw",
+      "name6Char": "INCWRD",
+      "nameFull": "University of the Incarnate Word",
+      "nameShort": "UIW",
+      "teamName": "Cardinals",
+      "color": "#CB333B"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46622,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "97",
+        "kills": "62",
+        "attackErrors": "30",
+        "attackAttempts": "181",
+        "hittingPercentage": "0.177",
+        "assists": "55",
+        "setErrors": "1",
+        "setAttempts": "181",
+        "serviceAces": "6",
+        "serviceErrors": "4",
+        "serveAttempts": "97",
+        "digs": "80",
+        "receptionAttempts": "102",
+        "receptionErrors": "13",
+        "blockSolos": "0",
+        "blockAssists": "22",
+        "blockingErrors": "1",
+        "totalBlocks": "11"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46648,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "111",
+        "kills": "63",
+        "attackErrors": "19",
+        "attackAttempts": "183",
+        "hittingPercentage": "0.240",
+        "assists": "59",
+        "setErrors": "1",
+        "setAttempts": "192",
+        "serviceAces": "13",
+        "serviceErrors": "9",
+        "serveAttempts": "111",
+        "digs": "84",
+        "receptionAttempts": "93",
+        "receptionErrors": "6",
+        "blockSolos": "4",
+        "blockAssists": "26",
+        "blockingErrors": "1",
+        "totalBlocks": "17"
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6679308,
+  "title": "WVB Boxscore",
+  "description": "Florida A&M vs Texas Southern",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46412",
+      "seoname": "florida-am",
+      "name6Char": "FL A&M",
+      "nameFull": "Florida A&M University",
+      "nameShort": "Florida A&M",
+      "teamName": "Lady Rattlers ",
+      "color": "#FF8200"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46252",
+      "seoname": "texas-southern",
+      "name6Char": "TX SOU",
+      "nameFull": "Texas Southern University",
+      "nameShort": "Texas Southern",
+      "teamName": "Lady Tigers",
+      "color": "#6F263D"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46412,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "99",
+        "kills": "50",
+        "attackErrors": "12",
+        "attackAttempts": "135",
+        "hittingPercentage": "0.281",
+        "assists": "44",
+        "setErrors": "1",
+        "setAttempts": "141",
+        "serviceAces": "15",
+        "serviceErrors": "4",
+        "serveAttempts": "98",
+        "digs": "53",
+        "receptionAttempts": "71",
+        "receptionErrors": "3",
+        "blockSolos": "1",
+        "blockAssists": "26",
+        "blockingErrors": "0",
+        "totalBlocks": "14"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46252,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "73",
+        "kills": "53",
+        "attackErrors": "29",
+        "attackAttempts": "150",
+        "hittingPercentage": "0.160",
+        "assists": "51",
+        "setErrors": "2",
+        "setAttempts": "157",
+        "serviceAces": "3",
+        "serviceErrors": "3",
+        "serveAttempts": "74",
+        "digs": "58",
+        "receptionAttempts": "94",
+        "receptionErrors": "15",
+        "blockSolos": "0",
+        "blockAssists": "4",
+        "blockingErrors": "0",
+        "totalBlocks": "2"
+      }
+    }
+  ]
+}

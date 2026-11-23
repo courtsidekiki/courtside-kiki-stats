@@ -1,64 +1,8 @@
 {
-  "inputMD5Sum": "93d4bf21302e461439fac6929870b108",
+  "inputMD5Sum": "5c3c7f9ca0bb737964b5279ae75529f7",
   "instanceId": "d41d8cd98f00b204e9800998ecf8427e",
-  "updated_at": "2026-11-22 18:13:58",
+  "updated_at": "2026-11-23 22:25:22",
   "games": [
-    {
-      "game": {
-        "gameID": "6679178",
-        "away": {
-          "score": "",
-          "names": {
-            "char6": "LEHIGH",
-            "short": "Lehigh",
-            "seo": "lehigh",
-            "full": ""
-          },
-          "winner": false,
-          "seed": "",
-          "description": "",
-          "rank": "",
-          "conferences": [
-            {
-              "conferenceName": "",
-              "conferenceSeo": "patriot"
-            }
-          ]
-        },
-        "finalMessage": "",
-        "title": "Lehigh American",
-        "url": "/game/6679178",
-        "network": "",
-        "home": {
-          "score": "",
-          "names": {
-            "char6": "AMER",
-            "short": "American",
-            "seo": "american",
-            "full": ""
-          },
-          "winner": false,
-          "seed": "",
-          "description": "",
-          "rank": "",
-          "conferences": [
-            {
-              "conferenceName": "",
-              "conferenceSeo": "patriot"
-            }
-          ]
-        },
-        "liveVideoEnabled": false,
-        "startTime": "TBA",
-        "startTimeEpoch": "1795323600",
-        "gameState": "pre",
-        "startDate": "11/22/2026",
-        "currentPeriod": "",
-        "contestClock": "0:00",
-        "bracketId": "",
-        "bracketRound": ""
-      }
-    },
     {
       "game": {
         "gameID": "6679490",
@@ -81,19 +25,19 @@
             }
           ]
         },
-        "finalMessage": "4TH SET",
+        "finalMessage": "FINAL",
         "title": "UT Martin Eastern Ill.",
         "url": "/game/6679490",
         "network": "",
         "home": {
-          "score": "1",
+          "score": "3",
           "names": {
             "char6": "E ILL",
             "short": "Eastern Ill.",
             "seo": "eastern-ill",
             "full": ""
           },
-          "winner": false,
+          "winner": true,
           "seed": "",
           "description": "",
           "rank": "",
@@ -107,9 +51,9 @@
         "liveVideoEnabled": false,
         "startTime": "11:00 AM ET",
         "startTimeEpoch": "1795363200",
-        "gameState": "live",
+        "gameState": "final",
         "startDate": "11/22/2026",
-        "currentPeriod": "4TH SET",
+        "currentPeriod": "FINAL",
         "contestClock": "0:00",
         "bracketId": "",
         "bracketRound": ""
@@ -119,14 +63,14 @@
       "game": {
         "gameID": "6628337",
         "away": {
-          "score": "2",
+          "score": "3",
           "names": {
             "char6": "PITT",
             "short": "Pittsburgh",
             "seo": "pittsburgh",
             "full": ""
           },
-          "winner": false,
+          "winner": true,
           "seed": "",
           "description": "",
           "rank": "2",
@@ -137,7 +81,7 @@
             }
           ]
         },
-        "finalMessage": "3RD SET",
+        "finalMessage": "FINAL",
         "title": "Pittsburgh Virginia Tech",
         "url": "/game/6628337",
         "network": "",
@@ -163,9 +107,9 @@
         "liveVideoEnabled": false,
         "startTime": "12:00 PM ET",
         "startTimeEpoch": "1795366800",
-        "gameState": "live",
+        "gameState": "final",
         "startDate": "11/22/2026",
-        "currentPeriod": "3RD SET",
+        "currentPeriod": "FINAL",
         "contestClock": "0:00",
         "bracketId": "",
         "bracketRound": ""
@@ -175,14 +119,14 @@
       "game": {
         "gameID": "6679289",
         "away": {
-          "score": "2",
+          "score": "3",
           "names": {
             "char6": "UGA",
             "short": "Georgia",
             "seo": "georgia",
             "full": ""
           },
-          "winner": false,
+          "winner": true,
           "seed": "",
           "description": "",
           "rank": "",
@@ -193,12 +137,12 @@
             }
           ]
         },
-        "finalMessage": "2ND SET",
+        "finalMessage": "FINAL",
         "title": "Georgia Florida",
         "url": "/game/6679289",
         "network": "",
         "home": {
-          "score": "0",
+          "score": "1",
           "names": {
             "char6": "FLA",
             "short": "Florida",
@@ -219,9 +163,9 @@
         "liveVideoEnabled": false,
         "startTime": "12:00 PM ET",
         "startTimeEpoch": "1795366800",
-        "gameState": "live",
+        "gameState": "final",
         "startDate": "11/22/2026",
-        "currentPeriod": "2ND SET",
+        "currentPeriod": "FINAL",
         "contestClock": "0:00",
         "bracketId": "",
         "bracketRound": ""
@@ -249,19 +193,19 @@
             }
           ]
         },
-        "finalMessage": "3RD SET",
+        "finalMessage": "FINAL",
         "title": "Indiana Nebraska",
         "url": "/game/6679343",
         "network": "",
         "home": {
-          "score": "2",
+          "score": "3",
           "names": {
             "char6": "NEB",
             "short": "Nebraska",
             "seo": "nebraska",
             "full": ""
           },
-          "winner": false,
+          "winner": true,
           "seed": "",
           "description": "",
           "rank": "",
@@ -275,9 +219,9 @@
         "liveVideoEnabled": false,
         "startTime": "12:00 PM ET",
         "startTimeEpoch": "1795366800",
-        "gameState": "live",
+        "gameState": "final",
         "startDate": "11/22/2026",
-        "currentPeriod": "3RD SET",
+        "currentPeriod": "FINAL",
         "contestClock": "0:00",
         "bracketId": "",
         "bracketRound": ""
@@ -287,14 +231,14 @@
       "game": {
         "gameID": "6625921",
         "away": {
-          "score": "0",
+          "score": "3",
           "names": {
             "char6": "MIAMI",
             "short": "Miami (FL)",
             "seo": "miami-fl",
             "full": ""
           },
-          "winner": false,
+          "winner": true,
           "seed": "",
           "description": "",
           "rank": "",
@@ -305,7 +249,7 @@
             }
           ]
         },
-        "finalMessage": "1ST SET",
+        "finalMessage": "FINAL",
         "title": "Miami (FL) Duke",
         "url": "/game/6625921",
         "network": "",
@@ -331,9 +275,9 @@
         "liveVideoEnabled": false,
         "startTime": "1:00 PM ET",
         "startTimeEpoch": "1795370400",
-        "gameState": "live",
+        "gameState": "final",
         "startDate": "11/22/2026",
-        "currentPeriod": "1ST SET",
+        "currentPeriod": "FINAL",
         "contestClock": "0:00",
         "bracketId": "",
         "bracketRound": ""
@@ -343,14 +287,14 @@
       "game": {
         "gameID": "6626312",
         "away": {
-          "score": "0",
+          "score": "3",
           "names": {
             "char6": "SMU",
             "short": "SMU",
             "seo": "smu",
             "full": ""
           },
-          "winner": false,
+          "winner": true,
           "seed": "",
           "description": "",
           "rank": "4",
@@ -361,7 +305,7 @@
             }
           ]
         },
-        "finalMessage": "1ST SET",
+        "finalMessage": "FINAL",
         "title": "SMU Virginia",
         "url": "/game/6626312",
         "network": "",
@@ -387,9 +331,9 @@
         "liveVideoEnabled": false,
         "startTime": "1:00 PM ET",
         "startTimeEpoch": "1795370400",
-        "gameState": "live",
+        "gameState": "final",
         "startDate": "11/22/2026",
-        "currentPeriod": "1ST SET",
+        "currentPeriod": "FINAL",
         "contestClock": "0:00",
         "bracketId": "",
         "bracketRound": ""
@@ -399,7 +343,7 @@
       "game": {
         "gameID": "6626355",
         "away": {
-          "score": "0",
+          "score": "2",
           "names": {
             "char6": "WAKE",
             "short": "Wake Forest",
@@ -417,19 +361,19 @@
             }
           ]
         },
-        "finalMessage": "1ST SET",
+        "finalMessage": "FINAL",
         "title": "Wake Forest Notre Dame",
         "url": "/game/6626355",
         "network": "",
         "home": {
-          "score": "0",
+          "score": "3",
           "names": {
             "char6": "N DAME",
             "short": "Notre Dame",
             "seo": "notre-dame",
             "full": ""
           },
-          "winner": false,
+          "winner": true,
           "seed": "",
           "description": "",
           "rank": "",
@@ -443,9 +387,9 @@
         "liveVideoEnabled": false,
         "startTime": "1:00 PM ET",
         "startTimeEpoch": "1795370400",
-        "gameState": "live",
+        "gameState": "final",
         "startDate": "11/22/2026",
-        "currentPeriod": "1ST SET",
+        "currentPeriod": "FINAL",
         "contestClock": "0:00",
         "bracketId": "",
         "bracketRound": ""
@@ -455,14 +399,14 @@
       "game": {
         "gameID": "6627023",
         "away": {
-          "score": "0",
+          "score": "3",
           "names": {
             "char6": "COLO",
             "short": "Colorado",
             "seo": "colorado",
             "full": ""
           },
-          "winner": false,
+          "winner": true,
           "seed": "",
           "description": "",
           "rank": "",
@@ -473,12 +417,12 @@
             }
           ]
         },
-        "finalMessage": "1ST SET",
+        "finalMessage": "FINAL",
         "title": "Colorado UCF",
         "url": "/game/6627023",
         "network": "",
         "home": {
-          "score": "0",
+          "score": "2",
           "names": {
             "char6": "UCF",
             "short": "UCF",
@@ -499,9 +443,9 @@
         "liveVideoEnabled": false,
         "startTime": "1:00 PM ET",
         "startTimeEpoch": "1795370400",
-        "gameState": "live",
+        "gameState": "final",
         "startDate": "11/22/2026",
-        "currentPeriod": "1ST SET",
+        "currentPeriod": "FINAL",
         "contestClock": "0:00",
         "bracketId": "",
         "bracketRound": ""
@@ -529,19 +473,19 @@
             }
           ]
         },
-        "finalMessage": "1ST SET",
+        "finalMessage": "FINAL",
         "title": "NC State Louisville",
         "url": "/game/6627043",
         "network": "",
         "home": {
-          "score": "0",
+          "score": "3",
           "names": {
             "char6": "LOUIS",
             "short": "Louisville",
             "seo": "louisville",
             "full": ""
           },
-          "winner": false,
+          "winner": true,
           "seed": "",
           "description": "",
           "rank": "5",
@@ -555,9 +499,9 @@
         "liveVideoEnabled": false,
         "startTime": "1:00 PM ET",
         "startTimeEpoch": "1795370400",
-        "gameState": "live",
+        "gameState": "final",
         "startDate": "11/22/2026",
-        "currentPeriod": "1ST SET",
+        "currentPeriod": "FINAL",
         "contestClock": "0:00",
         "bracketId": "",
         "bracketRound": ""
@@ -567,7 +511,7 @@
       "game": {
         "gameID": "6628204",
         "away": {
-          "score": "0",
+          "score": "1",
           "names": {
             "char6": "FSU",
             "short": "Florida St.",
@@ -585,19 +529,19 @@
             }
           ]
         },
-        "finalMessage": "1ST SET",
+        "finalMessage": "FINAL",
         "title": "Florida St. North Carolina",
         "url": "/game/6628204",
         "network": "",
         "home": {
-          "score": "0",
+          "score": "3",
           "names": {
             "char6": "UNC",
             "short": "North Carolina",
             "seo": "north-carolina",
             "full": ""
           },
-          "winner": false,
+          "winner": true,
           "seed": "",
           "description": "",
           "rank": "21",
@@ -611,9 +555,9 @@
         "liveVideoEnabled": false,
         "startTime": "1:00 PM ET",
         "startTimeEpoch": "1795370400",
-        "gameState": "live",
+        "gameState": "final",
         "startDate": "11/22/2026",
-        "currentPeriod": "1ST SET",
+        "currentPeriod": "FINAL",
         "contestClock": "0:00",
         "bracketId": "",
         "bracketRound": ""
@@ -623,7 +567,7 @@
       "game": {
         "gameID": "6679208",
         "away": {
-          "score": "0",
+          "score": "1",
           "names": {
             "char6": "RICE",
             "short": "Rice",
@@ -641,19 +585,19 @@
             }
           ]
         },
-        "finalMessage": "1ST SET",
+        "finalMessage": "FINAL",
         "title": "Rice Tulsa",
         "url": "/game/6679208",
         "network": "",
         "home": {
-          "score": "0",
+          "score": "3",
           "names": {
             "char6": "TULSA",
             "short": "Tulsa",
             "seo": "tulsa",
             "full": ""
           },
-          "winner": false,
+          "winner": true,
           "seed": "",
           "description": "",
           "rank": "",
@@ -667,9 +611,9 @@
         "liveVideoEnabled": false,
         "startTime": "1:00 PM ET",
         "startTimeEpoch": "1795370400",
-        "gameState": "live",
+        "gameState": "final",
         "startDate": "11/22/2026",
-        "currentPeriod": "1ST SET",
+        "currentPeriod": "FINAL",
         "contestClock": "0:00",
         "bracketId": "",
         "bracketRound": ""
@@ -697,19 +641,19 @@
             }
           ]
         },
-        "finalMessage": "1ST SET",
+        "finalMessage": "FINAL",
         "title": "FGCU Lipscomb",
         "url": "/game/6679236",
         "network": "",
         "home": {
-          "score": "0",
+          "score": "3",
           "names": {
             "char6": "LIPSCO",
             "short": "Lipscomb",
             "seo": "lipscomb",
             "full": ""
           },
-          "winner": false,
+          "winner": true,
           "seed": "",
           "description": "",
           "rank": "",
@@ -723,9 +667,9 @@
         "liveVideoEnabled": false,
         "startTime": "1:00 PM ET",
         "startTimeEpoch": "1795370400",
-        "gameState": "live",
+        "gameState": "final",
         "startDate": "11/22/2026",
-        "currentPeriod": "1ST SET",
+        "currentPeriod": "FINAL",
         "contestClock": "0:00",
         "bracketId": "",
         "bracketRound": ""
@@ -753,19 +697,19 @@
             }
           ]
         },
-        "finalMessage": "1ST SET",
+        "finalMessage": "FINAL",
         "title": "Saint Louis Dayton",
         "url": "/game/6679258",
         "network": "",
         "home": {
-          "score": "0",
+          "score": "3",
           "names": {
             "char6": "DAYTON",
             "short": "Dayton",
             "seo": "dayton",
             "full": ""
           },
-          "winner": false,
+          "winner": true,
           "seed": "",
           "description": "",
           "rank": "",
@@ -779,9 +723,9 @@
         "liveVideoEnabled": false,
         "startTime": "1:00 PM ET",
         "startTimeEpoch": "1795370400",
-        "gameState": "live",
+        "gameState": "final",
         "startDate": "11/22/2026",
-        "currentPeriod": "1ST SET",
+        "currentPeriod": "FINAL",
         "contestClock": "0:00",
         "bracketId": "",
         "bracketRound": ""
@@ -809,19 +753,19 @@
             }
           ]
         },
-        "finalMessage": "1ST SET",
+        "finalMessage": "FINAL",
         "title": "Liberty Western Ky.",
         "url": "/game/6679263",
         "network": "",
         "home": {
-          "score": "0",
+          "score": "3",
           "names": {
             "char6": "W KY",
             "short": "Western Ky.",
             "seo": "western-ky",
             "full": ""
           },
-          "winner": false,
+          "winner": true,
           "seed": "",
           "description": "",
           "rank": "",
@@ -835,9 +779,9 @@
         "liveVideoEnabled": false,
         "startTime": "1:00 PM ET",
         "startTimeEpoch": "1795370400",
-        "gameState": "live",
+        "gameState": "final",
         "startDate": "11/22/2026",
-        "currentPeriod": "1ST SET",
+        "currentPeriod": "FINAL",
         "contestClock": "0:00",
         "bracketId": "",
         "bracketRound": ""
@@ -847,14 +791,14 @@
       "game": {
         "gameID": "6628046",
         "away": {
-          "score": "",
+          "score": "3",
           "names": {
             "char6": "HOU",
             "short": "Houston",
             "seo": "houston",
             "full": ""
           },
-          "winner": false,
+          "winner": true,
           "seed": "",
           "description": "",
           "rank": "",
@@ -865,12 +809,12 @@
             }
           ]
         },
-        "finalMessage": "",
+        "finalMessage": "FINAL",
         "title": "Houston Texas Tech",
         "url": "/game/6628046",
         "network": "",
         "home": {
-          "score": "",
+          "score": "1",
           "names": {
             "char6": "TXTECH",
             "short": "Texas Tech",
@@ -891,9 +835,9 @@
         "liveVideoEnabled": false,
         "startTime": "2:00 PM ET",
         "startTimeEpoch": "1795374000",
-        "gameState": "pre",
+        "gameState": "final",
         "startDate": "11/22/2026",
-        "currentPeriod": "",
+        "currentPeriod": "FINAL",
         "contestClock": "0:00",
         "bracketId": "",
         "bracketRound": ""
@@ -903,7 +847,7 @@
       "game": {
         "gameID": "6679150",
         "away": {
-          "score": "",
+          "score": "0",
           "names": {
             "char6": "N KY",
             "short": "Northern Ky.",
@@ -921,19 +865,19 @@
             }
           ]
         },
-        "finalMessage": "",
+        "finalMessage": "FINAL",
         "title": "Northern Ky. Wright St.",
         "url": "/game/6679150",
         "network": "",
         "home": {
-          "score": "",
+          "score": "3",
           "names": {
             "char6": "WRIGHT",
             "short": "Wright St.",
             "seo": "wright-st",
             "full": ""
           },
-          "winner": false,
+          "winner": true,
           "seed": "",
           "description": "",
           "rank": "",
@@ -947,9 +891,9 @@
         "liveVideoEnabled": false,
         "startTime": "2:00 PM ET",
         "startTimeEpoch": "1795374000",
-        "gameState": "pre",
+        "gameState": "final",
         "startDate": "11/22/2026",
-        "currentPeriod": "",
+        "currentPeriod": "FINAL",
         "contestClock": "0:00",
         "bracketId": "",
         "bracketRound": ""
@@ -959,14 +903,14 @@
       "game": {
         "gameID": "6679241",
         "away": {
-          "score": "",
+          "score": "3",
           "names": {
             "char6": "FURMAN",
             "short": "Furman",
             "seo": "furman",
             "full": ""
           },
-          "winner": false,
+          "winner": true,
           "seed": "",
           "description": "",
           "rank": "",
@@ -977,12 +921,12 @@
             }
           ]
         },
-        "finalMessage": "",
+        "finalMessage": "FINAL",
         "title": "Furman Wofford",
         "url": "/game/6679241",
         "network": "",
         "home": {
-          "score": "",
+          "score": "2",
           "names": {
             "char6": "WOFFRD",
             "short": "Wofford",
@@ -1003,9 +947,9 @@
         "liveVideoEnabled": false,
         "startTime": "2:00 PM ET",
         "startTimeEpoch": "1795374000",
-        "gameState": "pre",
+        "gameState": "final",
         "startDate": "11/22/2026",
-        "currentPeriod": "",
+        "currentPeriod": "FINAL",
         "contestClock": "0:00",
         "bracketId": "",
         "bracketRound": ""
@@ -1015,14 +959,14 @@
       "game": {
         "gameID": "6679344",
         "away": {
-          "score": "",
+          "score": "3",
           "names": {
             "char6": "PURDUE",
             "short": "Purdue",
             "seo": "purdue",
             "full": ""
           },
-          "winner": false,
+          "winner": true,
           "seed": "",
           "description": "",
           "rank": "",
@@ -1033,12 +977,12 @@
             }
           ]
         },
-        "finalMessage": "",
+        "finalMessage": "FINAL",
         "title": "Purdue Oregon",
         "url": "/game/6679344",
         "network": "",
         "home": {
-          "score": "",
+          "score": "0",
           "names": {
             "char6": "OREGN",
             "short": "Oregon",
@@ -1059,9 +1003,9 @@
         "liveVideoEnabled": false,
         "startTime": "2:00 PM ET",
         "startTimeEpoch": "1795374000",
-        "gameState": "pre",
+        "gameState": "final",
         "startDate": "11/22/2026",
-        "currentPeriod": "",
+        "currentPeriod": "FINAL",
         "contestClock": "0:00",
         "bracketId": "",
         "bracketRound": ""
@@ -1071,7 +1015,7 @@
       "game": {
         "gameID": "6679491",
         "away": {
-          "score": "",
+          "score": "0",
           "names": {
             "char6": "SIUE",
             "short": "SIUE",
@@ -1089,19 +1033,19 @@
             }
           ]
         },
-        "finalMessage": "",
+        "finalMessage": "FINAL",
         "title": "SIUE Southeast Mo. St.",
         "url": "/game/6679491",
         "network": "",
         "home": {
-          "score": "",
+          "score": "3",
           "names": {
             "char6": "SEMO",
             "short": "Southeast Mo. St.",
             "seo": "southeast-mo-st",
             "full": ""
           },
-          "winner": false,
+          "winner": true,
           "seed": "",
           "description": "",
           "rank": "",
@@ -1115,9 +1059,9 @@
         "liveVideoEnabled": false,
         "startTime": "2:00 PM ET",
         "startTimeEpoch": "1795374000",
-        "gameState": "pre",
+        "gameState": "final",
         "startDate": "11/22/2026",
-        "currentPeriod": "",
+        "currentPeriod": "FINAL",
         "contestClock": "0:00",
         "bracketId": "",
         "bracketRound": ""
@@ -1127,14 +1071,14 @@
       "game": {
         "gameID": "6679290",
         "away": {
-          "score": "",
+          "score": "3",
           "names": {
             "char6": "TENN",
             "short": "Tennessee",
             "seo": "tennessee",
             "full": ""
           },
-          "winner": false,
+          "winner": true,
           "seed": "",
           "description": "",
           "rank": "",
@@ -1145,12 +1089,12 @@
             }
           ]
         },
-        "finalMessage": "",
+        "finalMessage": "FINAL",
         "title": "Tennessee Texas",
         "url": "/game/6679290",
         "network": "",
         "home": {
-          "score": "",
+          "score": "2",
           "names": {
             "char6": "TEXAS",
             "short": "Texas",
@@ -1171,9 +1115,9 @@
         "liveVideoEnabled": false,
         "startTime": "2:30 PM ET",
         "startTimeEpoch": "1795375800",
-        "gameState": "pre",
+        "gameState": "final",
         "startDate": "11/22/2026",
-        "currentPeriod": "",
+        "currentPeriod": "FINAL",
         "contestClock": "0:00",
         "bracketId": "",
         "bracketRound": ""
@@ -1183,14 +1127,14 @@
       "game": {
         "gameID": "6625847",
         "away": {
-          "score": "",
+          "score": "3",
           "names": {
             "char6": "AZ ST",
             "short": "Arizona St.",
             "seo": "arizona-st",
             "full": ""
           },
-          "winner": false,
+          "winner": true,
           "seed": "",
           "description": "",
           "rank": "8",
@@ -1201,12 +1145,12 @@
             }
           ]
         },
-        "finalMessage": "",
+        "finalMessage": "FINAL",
         "title": "Arizona St. Baylor",
         "url": "/game/6625847",
         "network": "",
         "home": {
-          "score": "",
+          "score": "2",
           "names": {
             "char6": "BAYLOR",
             "short": "Baylor",
@@ -1227,9 +1171,9 @@
         "liveVideoEnabled": false,
         "startTime": "3:00 PM ET",
         "startTimeEpoch": "1795377600",
-        "gameState": "pre",
+        "gameState": "final",
         "startDate": "11/22/2026",
-        "currentPeriod": "",
+        "currentPeriod": "FINAL",
         "contestClock": "0:00",
         "bracketId": "",
         "bracketRound": ""
@@ -1239,7 +1183,7 @@
       "game": {
         "gameID": "6626584",
         "away": {
-          "score": "",
+          "score": "1",
           "names": {
             "char6": "WVU",
             "short": "West Virginia",
@@ -1257,19 +1201,19 @@
             }
           ]
         },
-        "finalMessage": "",
+        "finalMessage": "FINAL",
         "title": "West Virginia Kansas St.",
         "url": "/game/6626584",
         "network": "",
         "home": {
-          "score": "",
+          "score": "3",
           "names": {
             "char6": "KAN ST",
             "short": "Kansas St.",
             "seo": "kansas-st",
             "full": ""
           },
-          "winner": false,
+          "winner": true,
           "seed": "",
           "description": "",
           "rank": "",
@@ -1283,9 +1227,9 @@
         "liveVideoEnabled": false,
         "startTime": "3:00 PM ET",
         "startTimeEpoch": "1795377600",
-        "gameState": "pre",
+        "gameState": "final",
         "startDate": "11/22/2026",
-        "currentPeriod": "",
+        "currentPeriod": "FINAL",
         "contestClock": "0:00",
         "bracketId": "",
         "bracketRound": ""
@@ -1295,7 +1239,7 @@
       "game": {
         "gameID": "6628100",
         "away": {
-          "score": "",
+          "score": "0",
           "names": {
             "char6": "BC",
             "short": "Boston College",
@@ -1313,19 +1257,19 @@
             }
           ]
         },
-        "finalMessage": "",
+        "finalMessage": "FINAL",
         "title": "Boston College Stanford",
         "url": "/game/6628100",
         "network": "",
         "home": {
-          "score": "",
+          "score": "3",
           "names": {
             "char6": "STAN",
             "short": "Stanford",
             "seo": "stanford",
             "full": ""
           },
-          "winner": false,
+          "winner": true,
           "seed": "",
           "description": "",
           "rank": "24",
@@ -1339,9 +1283,9 @@
         "liveVideoEnabled": false,
         "startTime": "3:00 PM ET",
         "startTimeEpoch": "1795377600",
-        "gameState": "pre",
+        "gameState": "final",
         "startDate": "11/22/2026",
-        "currentPeriod": "",
+        "currentPeriod": "FINAL",
         "contestClock": "0:00",
         "bracketId": "",
         "bracketRound": ""
@@ -1351,7 +1295,7 @@
       "game": {
         "gameID": "6628343",
         "away": {
-          "score": "",
+          "score": "0",
           "names": {
             "char6": "IOWAST",
             "short": "Iowa St.",
@@ -1369,19 +1313,19 @@
             }
           ]
         },
-        "finalMessage": "",
+        "finalMessage": "FINAL",
         "title": "Iowa St. TCU",
         "url": "/game/6628343",
         "network": "",
         "home": {
-          "score": "",
+          "score": "3",
           "names": {
             "char6": "TCU",
             "short": "TCU",
             "seo": "tcu",
             "full": ""
           },
-          "winner": false,
+          "winner": true,
           "seed": "",
           "description": "",
           "rank": "17",
@@ -1395,9 +1339,9 @@
         "liveVideoEnabled": false,
         "startTime": "3:00 PM ET",
         "startTimeEpoch": "1795377600",
-        "gameState": "pre",
+        "gameState": "final",
         "startDate": "11/22/2026",
-        "currentPeriod": "",
+        "currentPeriod": "FINAL",
         "contestClock": "0:00",
         "bracketId": "",
         "bracketRound": ""
@@ -1407,7 +1351,7 @@
       "game": {
         "gameID": "6679225",
         "away": {
-          "score": "",
+          "score": "1",
           "names": {
             "char6": "HOWARD",
             "short": "Howard",
@@ -1425,19 +1369,19 @@
             }
           ]
         },
-        "finalMessage": "",
+        "finalMessage": "FINAL",
         "title": "Howard Coppin St.",
         "url": "/game/6679225",
         "network": "",
         "home": {
-          "score": "",
+          "score": "3",
           "names": {
             "char6": "COPPIN",
             "short": "Coppin St.",
             "seo": "coppin-st",
             "full": ""
           },
-          "winner": false,
+          "winner": true,
           "seed": "",
           "description": "",
           "rank": "",
@@ -1451,9 +1395,9 @@
         "liveVideoEnabled": false,
         "startTime": "3:00 PM ET",
         "startTimeEpoch": "1795377600",
-        "gameState": "pre",
+        "gameState": "final",
         "startDate": "11/22/2026",
-        "currentPeriod": "",
+        "currentPeriod": "FINAL",
         "contestClock": "0:00",
         "bracketId": "",
         "bracketRound": ""
@@ -1463,14 +1407,14 @@
       "game": {
         "gameID": "6679301",
         "away": {
-          "score": "",
+          "score": "3",
           "names": {
             "char6": "INCWRD",
             "short": "UIW",
             "seo": "uiw",
             "full": ""
           },
-          "winner": false,
+          "winner": true,
           "seed": "",
           "description": "",
           "rank": "",
@@ -1481,12 +1425,12 @@
             }
           ]
         },
-        "finalMessage": "",
+        "finalMessage": "FINAL",
         "title": "UIW Southeastern La.",
         "url": "/game/6679301",
         "network": "",
         "home": {
-          "score": "",
+          "score": "2",
           "names": {
             "char6": "SE LA",
             "short": "Southeastern La.",
@@ -1507,9 +1451,9 @@
         "liveVideoEnabled": false,
         "startTime": "3:00 PM ET",
         "startTimeEpoch": "1795377600",
-        "gameState": "pre",
+        "gameState": "final",
         "startDate": "11/22/2026",
-        "currentPeriod": "",
+        "currentPeriod": "FINAL",
         "contestClock": "0:00",
         "bracketId": "",
         "bracketRound": ""
@@ -1519,7 +1463,7 @@
       "game": {
         "gameID": "6679336",
         "away": {
-          "score": "",
+          "score": "0",
           "names": {
             "char6": "MARQ",
             "short": "Marquette",
@@ -1537,19 +1481,19 @@
             }
           ]
         },
-        "finalMessage": "",
+        "finalMessage": "FINAL",
         "title": "Marquette Creighton",
         "url": "/game/6679336",
         "network": "",
         "home": {
-          "score": "",
+          "score": "3",
           "names": {
             "char6": "CREIGH",
             "short": "Creighton",
             "seo": "creighton",
             "full": ""
           },
-          "winner": false,
+          "winner": true,
           "seed": "",
           "description": "",
           "rank": "",
@@ -1563,9 +1507,9 @@
         "liveVideoEnabled": false,
         "startTime": "3:00 PM ET",
         "startTimeEpoch": "1795377600",
-        "gameState": "pre",
+        "gameState": "final",
         "startDate": "11/22/2026",
-        "currentPeriod": "",
+        "currentPeriod": "FINAL",
         "contestClock": "0:00",
         "bracketId": "",
         "bracketRound": ""
@@ -1575,7 +1519,7 @@
       "game": {
         "gameID": "6679308",
         "away": {
-          "score": "",
+          "score": "1",
           "names": {
             "char6": "TX SOU",
             "short": "Texas Southern",
@@ -1593,19 +1537,19 @@
             }
           ]
         },
-        "finalMessage": "",
+        "finalMessage": "FINAL",
         "title": "Texas Southern Florida A&M",
         "url": "/game/6679308",
         "network": "",
         "home": {
-          "score": "",
+          "score": "3",
           "names": {
             "char6": "FL A&M",
             "short": "Florida A&M",
             "seo": "florida-am",
             "full": ""
           },
-          "winner": false,
+          "winner": true,
           "seed": "",
           "description": "",
           "rank": "",
@@ -1619,9 +1563,9 @@
         "liveVideoEnabled": false,
         "startTime": "3:30 PM ET",
         "startTimeEpoch": "1795379400",
-        "gameState": "pre",
+        "gameState": "final",
         "startDate": "11/22/2026",
-        "currentPeriod": "",
+        "currentPeriod": "FINAL",
         "contestClock": "0:00",
         "bracketId": "",
         "bracketRound": ""
@@ -1631,7 +1575,7 @@
       "game": {
         "gameID": "6639334",
         "away": {
-          "score": "",
+          "score": "0",
           "names": {
             "char6": "SYR",
             "short": "Syracuse",
@@ -1649,19 +1593,19 @@
             }
           ]
         },
-        "finalMessage": "",
+        "finalMessage": "FINAL",
         "title": "Syracuse California",
         "url": "/game/6639334",
         "network": "",
         "home": {
-          "score": "",
+          "score": "3",
           "names": {
             "char6": "CAL",
             "short": "California",
             "seo": "california",
             "full": ""
           },
-          "winner": false,
+          "winner": true,
           "seed": "",
           "description": "",
           "rank": "",
@@ -1675,9 +1619,9 @@
         "liveVideoEnabled": false,
         "startTime": "4:00 PM ET",
         "startTimeEpoch": "1795381200",
-        "gameState": "pre",
+        "gameState": "final",
         "startDate": "11/22/2026",
-        "currentPeriod": "",
+        "currentPeriod": "FINAL",
         "contestClock": "0:00",
         "bracketId": "",
         "bracketRound": ""
@@ -1687,7 +1631,7 @@
       "game": {
         "gameID": "6679157",
         "away": {
-          "score": "",
+          "score": "2",
           "names": {
             "char6": "HIGHPT",
             "short": "High Point",
@@ -1705,19 +1649,19 @@
             }
           ]
         },
-        "finalMessage": "",
+        "finalMessage": "FINAL",
         "title": "High Point Winthrop",
         "url": "/game/6679157",
         "network": "",
         "home": {
-          "score": "",
+          "score": "3",
           "names": {
             "char6": "WINTHR",
             "short": "Winthrop",
             "seo": "winthrop",
             "full": ""
           },
-          "winner": false,
+          "winner": true,
           "seed": "",
           "description": "",
           "rank": "",
@@ -1731,9 +1675,65 @@
         "liveVideoEnabled": false,
         "startTime": "4:00 PM ET",
         "startTimeEpoch": "1795381200",
-        "gameState": "pre",
+        "gameState": "final",
         "startDate": "11/22/2026",
-        "currentPeriod": "",
+        "currentPeriod": "FINAL",
+        "contestClock": "0:00",
+        "bracketId": "",
+        "bracketRound": ""
+      }
+    },
+    {
+      "game": {
+        "gameID": "6679178",
+        "away": {
+          "score": "0",
+          "names": {
+            "char6": "LEHIGH",
+            "short": "Lehigh",
+            "seo": "lehigh",
+            "full": ""
+          },
+          "winner": false,
+          "seed": "",
+          "description": "",
+          "rank": "",
+          "conferences": [
+            {
+              "conferenceName": "",
+              "conferenceSeo": "patriot"
+            }
+          ]
+        },
+        "finalMessage": "FINAL",
+        "title": "Lehigh American",
+        "url": "/game/6679178",
+        "network": "",
+        "home": {
+          "score": "3",
+          "names": {
+            "char6": "AMER",
+            "short": "American",
+            "seo": "american",
+            "full": ""
+          },
+          "winner": true,
+          "seed": "",
+          "description": "",
+          "rank": "",
+          "conferences": [
+            {
+              "conferenceName": "",
+              "conferenceSeo": "patriot"
+            }
+          ]
+        },
+        "liveVideoEnabled": false,
+        "startTime": "4:00 PM ET",
+        "startTimeEpoch": "1795381200",
+        "gameState": "final",
+        "startDate": "11/22/2026",
+        "currentPeriod": "FINAL",
         "contestClock": "0:00",
         "bracketId": "",
         "bracketRound": ""
@@ -1743,14 +1743,14 @@
       "game": {
         "gameID": "6679272",
         "away": {
-          "score": "",
+          "score": "3",
           "names": {
             "char6": "BGSU",
             "short": "Bowling Green",
             "seo": "bowling-green",
             "full": ""
           },
-          "winner": false,
+          "winner": true,
           "seed": "",
           "description": "",
           "rank": "",
@@ -1761,12 +1761,12 @@
             }
           ]
         },
-        "finalMessage": "",
+        "finalMessage": "FINAL",
         "title": "Bowling Green Toledo",
         "url": "/game/6679272",
         "network": "",
         "home": {
-          "score": "",
+          "score": "0",
           "names": {
             "char6": "TOLEDO",
             "short": "Toledo",
@@ -1787,9 +1787,9 @@
         "liveVideoEnabled": false,
         "startTime": "4:00 PM ET",
         "startTimeEpoch": "1795381200",
-        "gameState": "pre",
+        "gameState": "final",
         "startDate": "11/22/2026",
-        "currentPeriod": "",
+        "currentPeriod": "FINAL",
         "contestClock": "0:00",
         "bracketId": "",
         "bracketRound": ""
@@ -1799,14 +1799,14 @@
       "game": {
         "gameID": "6679378",
         "away": {
-          "score": "",
+          "score": "3",
           "names": {
             "char6": "ND ST",
             "short": "North Dakota St.",
             "seo": "north-dakota-st",
             "full": ""
           },
-          "winner": false,
+          "winner": true,
           "seed": "",
           "description": "",
           "rank": "",
@@ -1817,12 +1817,12 @@
             }
           ]
         },
-        "finalMessage": "",
+        "finalMessage": "FINAL",
         "title": "North Dakota St. Omaha",
         "url": "/game/6679378",
         "network": "",
         "home": {
-          "score": "",
+          "score": "2",
           "names": {
             "char6": "OMAHA",
             "short": "Omaha",
@@ -1843,9 +1843,9 @@
         "liveVideoEnabled": false,
         "startTime": "4:00 PM ET",
         "startTimeEpoch": "1795381200",
-        "gameState": "pre",
+        "gameState": "final",
         "startDate": "11/22/2026",
-        "currentPeriod": "",
+        "currentPeriod": "FINAL",
         "contestClock": "0:00",
         "bracketId": "",
         "bracketRound": ""
@@ -1855,14 +1855,14 @@
       "game": {
         "gameID": "6679162",
         "away": {
-          "score": "",
+          "score": "3",
           "names": {
             "char6": "GA SOU",
             "short": "Ga. Southern",
             "seo": "ga-southern",
             "full": ""
           },
-          "winner": false,
+          "winner": true,
           "seed": "",
           "description": "",
           "rank": "",
@@ -1873,12 +1873,12 @@
             }
           ]
         },
-        "finalMessage": "",
+        "finalMessage": "FINAL",
         "title": "Ga. Southern Arkansas St.",
         "url": "/game/6679162",
         "network": "",
         "home": {
-          "score": "",
+          "score": "0",
           "names": {
             "char6": "ARK ST",
             "short": "Arkansas St.",
@@ -1899,9 +1899,9 @@
         "liveVideoEnabled": false,
         "startTime": "5:00 PM ET",
         "startTimeEpoch": "1795384800",
-        "gameState": "pre",
+        "gameState": "final",
         "startDate": "11/22/2026",
-        "currentPeriod": "",
+        "currentPeriod": "FINAL",
         "contestClock": "0:00",
         "bracketId": "",
         "bracketRound": ""
@@ -1911,7 +1911,7 @@
       "game": {
         "gameID": "6679291",
         "away": {
-          "score": "",
+          "score": "0",
           "names": {
             "char6": "LSU",
             "short": "LSU",
@@ -1929,19 +1929,19 @@
             }
           ]
         },
-        "finalMessage": "",
+        "finalMessage": "FINAL",
         "title": "LSU Kentucky",
         "url": "/game/6679291",
         "network": "",
         "home": {
-          "score": "",
+          "score": "3",
           "names": {
             "char6": "UK",
             "short": "Kentucky",
             "seo": "kentucky",
             "full": ""
           },
-          "winner": false,
+          "winner": true,
           "seed": "",
           "description": "",
           "rank": "6",
@@ -1955,9 +1955,9 @@
         "liveVideoEnabled": false,
         "startTime": "5:00 PM ET",
         "startTimeEpoch": "1795384800",
-        "gameState": "pre",
+        "gameState": "final",
         "startDate": "11/22/2026",
-        "currentPeriod": "",
+        "currentPeriod": "FINAL",
         "contestClock": "0:00",
         "bracketId": "",
         "bracketRound": ""
@@ -1967,14 +1967,14 @@
       "game": {
         "gameID": "6679493",
         "away": {
-          "score": "",
+          "score": "3",
           "names": {
             "char6": "MOREST",
             "short": "Morehead St.",
             "seo": "morehead-st",
             "full": ""
           },
-          "winner": false,
+          "winner": true,
           "seed": "",
           "description": "",
           "rank": "",
@@ -1985,12 +1985,12 @@
             }
           ]
         },
-        "finalMessage": "",
+        "finalMessage": "FINAL",
         "title": "Morehead St. Southern Ind.",
         "url": "/game/6679493",
         "network": "",
         "home": {
-          "score": "",
+          "score": "0",
           "names": {
             "char6": "S IND",
             "short": "Southern Ind.",
@@ -2011,9 +2011,9 @@
         "liveVideoEnabled": false,
         "startTime": "5:00 PM ET",
         "startTimeEpoch": "1795384800",
-        "gameState": "pre",
+        "gameState": "final",
         "startDate": "11/22/2026",
-        "currentPeriod": "",
+        "currentPeriod": "FINAL",
         "contestClock": "0:00",
         "bracketId": "",
         "bracketRound": ""
@@ -2023,7 +2023,7 @@
       "game": {
         "gameID": "6679345",
         "away": {
-          "score": "",
+          "score": "1",
           "names": {
             "char6": "ILL",
             "short": "Illinois",
@@ -2041,19 +2041,19 @@
             }
           ]
         },
-        "finalMessage": "",
+        "finalMessage": "FINAL",
         "title": "Illinois Penn St.",
         "url": "/game/6679345",
         "network": "",
         "home": {
-          "score": "",
+          "score": "3",
           "names": {
             "char6": "PENNST",
             "short": "Penn St.",
             "seo": "penn-st",
             "full": ""
           },
-          "winner": false,
+          "winner": true,
           "seed": "",
           "description": "",
           "rank": "",
@@ -2067,9 +2067,9 @@
         "liveVideoEnabled": false,
         "startTime": "6:00 PM ET",
         "startTimeEpoch": "1795388400",
-        "gameState": "pre",
+        "gameState": "final",
         "startDate": "11/22/2026",
-        "currentPeriod": "",
+        "currentPeriod": "FINAL",
         "contestClock": "0:00",
         "bracketId": "",
         "bracketRound": ""
@@ -2079,7 +2079,7 @@
       "game": {
         "gameID": "6679379",
         "away": {
-          "score": "",
+          "score": "0",
           "names": {
             "char6": "KC",
             "short": "Kansas City",
@@ -2097,19 +2097,19 @@
             }
           ]
         },
-        "finalMessage": "",
+        "finalMessage": "FINAL",
         "title": "Kansas City St. Thomas (MN)",
         "url": "/game/6679379",
         "network": "",
         "home": {
-          "score": "",
+          "score": "3",
           "names": {
             "char6": "STTHOM",
             "short": "St. Thomas (MN)",
             "seo": "st-thomas-mn",
             "full": ""
           },
-          "winner": false,
+          "winner": true,
           "seed": "",
           "description": "",
           "rank": "",
@@ -2123,9 +2123,9 @@
         "liveVideoEnabled": false,
         "startTime": "7:00 PM ET",
         "startTimeEpoch": "1795392000",
-        "gameState": "pre",
+        "gameState": "final",
         "startDate": "11/22/2026",
-        "currentPeriod": "",
+        "currentPeriod": "FINAL",
         "contestClock": "0:00",
         "bracketId": "",
         "bracketRound": ""
@@ -2135,7 +2135,7 @@
       "game": {
         "gameID": "6679292",
         "away": {
-          "score": "",
+          "score": "1",
           "names": {
             "char6": "MIZZOU",
             "short": "Missouri",
@@ -2153,19 +2153,19 @@
             }
           ]
         },
-        "finalMessage": "",
+        "finalMessage": "FINAL",
         "title": "Missouri Vanderbilt",
         "url": "/game/6679292",
         "network": "",
         "home": {
-          "score": "",
+          "score": "3",
           "names": {
             "char6": "VANDY",
             "short": "Vanderbilt",
             "seo": "vanderbilt",
             "full": ""
           },
-          "winner": false,
+          "winner": true,
           "seed": "",
           "description": "",
           "rank": "14",
@@ -2179,9 +2179,9 @@
         "liveVideoEnabled": false,
         "startTime": "7:30 PM ET",
         "startTimeEpoch": "1795393800",
-        "gameState": "pre",
+        "gameState": "final",
         "startDate": "11/22/2026",
-        "currentPeriod": "",
+        "currentPeriod": "FINAL",
         "contestClock": "0:00",
         "bracketId": "",
         "bracketRound": ""
@@ -2191,7 +2191,7 @@
       "game": {
         "gameID": "6679346",
         "away": {
-          "score": "",
+          "score": "1",
           "names": {
             "char6": "MICHST",
             "short": "Michigan St.",
@@ -2209,19 +2209,19 @@
             }
           ]
         },
-        "finalMessage": "",
+        "finalMessage": "FINAL",
         "title": "Michigan St. Wisconsin",
         "url": "/game/6679346",
         "network": "",
         "home": {
-          "score": "",
+          "score": "3",
           "names": {
             "char6": "WISC",
             "short": "Wisconsin",
             "seo": "wisconsin",
             "full": ""
           },
-          "winner": false,
+          "winner": true,
           "seed": "",
           "description": "",
           "rank": "",
@@ -2235,9 +2235,9 @@
         "liveVideoEnabled": false,
         "startTime": "8:00 PM ET",
         "startTimeEpoch": "1795395600",
-        "gameState": "pre",
+        "gameState": "final",
         "startDate": "11/22/2026",
-        "currentPeriod": "",
+        "currentPeriod": "FINAL",
         "contestClock": "0:00",
         "bracketId": "",
         "bracketRound": ""
@@ -2247,7 +2247,7 @@
       "game": {
         "gameID": "6679494",
         "away": {
-          "score": "",
+          "score": "0",
           "names": {
             "char6": "W ILL",
             "short": "Western Ill.",
@@ -2265,19 +2265,19 @@
             }
           ]
         },
-        "finalMessage": "",
+        "finalMessage": "FINAL",
         "title": "Western Ill. Lindenwood",
         "url": "/game/6679494",
         "network": "",
         "home": {
-          "score": "",
+          "score": "3",
           "names": {
             "char6": "LINWOD",
             "short": "Lindenwood",
             "seo": "lindenwood-mo",
             "full": ""
           },
-          "winner": false,
+          "winner": true,
           "seed": "",
           "description": "",
           "rank": "",
@@ -2291,9 +2291,9 @@
         "liveVideoEnabled": false,
         "startTime": "8:00 PM ET",
         "startTimeEpoch": "1795395600",
-        "gameState": "pre",
+        "gameState": "final",
         "startDate": "11/22/2026",
-        "currentPeriod": "",
+        "currentPeriod": "FINAL",
         "contestClock": "0:00",
         "bracketId": "",
         "bracketRound": ""
