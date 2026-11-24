@@ -1,0 +1,93 @@
+{
+  "contests": [
+    {
+      "__typename": "Contest",
+      "id": "6628205",
+      "sportCode": "WVB",
+      "sportUrl": "volleyball-women",
+      "division": 1,
+      "clock": null,
+      "currentPeriod": "FINAL",
+      "finalMessage": "FINAL",
+      "gameState": "F",
+      "statusCodeDisplay": "final",
+      "network": null,
+      "startTime": "14:00",
+      "startTimeEpoch": 1795546800,
+      "week": null,
+      "seasonYear": 2026,
+      "winner": 46674,
+      "hasStartTime": true,
+      "hasBoxscore": true,
+      "hasPbp": true,
+      "hasScoringSummary": false,
+      "hasPreview": false,
+      "hasRecap": false,
+      "hasTeamStats": true,
+      "linescores": [
+        {
+          "__typename": "Linescore",
+          "period": "1",
+          "home": "25",
+          "visit": "27"
+        },
+        {
+          "__typename": "Linescore",
+          "period": "2",
+          "home": "13",
+          "visit": "25"
+        },
+        {
+          "__typename": "Linescore",
+          "period": "3",
+          "home": "27",
+          "visit": "29"
+        }
+      ],
+      "teams": [
+        {
+          "__typename": "ContestTeam",
+          "teamId": "46294",
+          "isHome": true,
+          "color": "#FF6720",
+          "seoname": "clemson",
+          "nameFull": "Clemson University",
+          "nameShort": "Clemson",
+          "name6Char": "CLEM",
+          "teamRank": null,
+          "gameRank": null,
+          "score": 0,
+          "seed": null,
+          "record": "(9-21)",
+          "divisionName": "d1",
+          "division": 1,
+          "isWinner": false
+        },
+        {
+          "__typename": "ContestTeam",
+          "teamId": "46674",
+          "isHome": false,
+          "color": "#76253A",
+          "seoname": "florida-st",
+          "nameFull": "Florida State University",
+          "nameShort": "Florida St.",
+          "name6Char": "FSU",
+          "teamRank": null,
+          "gameRank": null,
+          "score": 3,
+          "seed": null,
+          "record": "(15-14)",
+          "divisionName": "d1",
+          "division": 1,
+          "isWinner": true
+        }
+      ],
+      "liveVideos": [],
+      "championship": null,
+      "championshipGame": null,
+      "links": [],
+      "location": null,
+      "stats": null
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6679283,
+  "title": "WVB Boxscore",
+  "description": "Tennessee vs Georgia",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46005",
+      "seoname": "tennessee",
+      "name6Char": "TENN",
+      "nameFull": "University of Tennessee, Knoxville",
+      "nameShort": "Tennessee",
+      "teamName": "Volunteers",
+      "color": "#FF8200"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45911",
+      "seoname": "georgia",
+      "name6Char": "UGA",
+      "nameFull": "University of Georgia",
+      "nameShort": "Georgia",
+      "teamName": "Bulldogs",
+      "color": "#DA291C"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46005,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "105",
+        "kills": "68",
+        "attackErrors": "27",
+        "attackAttempts": "166",
+        "hittingPercentage": "0.247",
+        "assists": "67",
+        "setErrors": "1",
+        "setAttempts": "155",
+        "serviceAces": "4",
+        "serviceErrors": "11",
+        "serveAttempts": "105",
+        "digs": "59",
+        "receptionAttempts": "106",
+        "receptionErrors": "5",
+        "blockSolos": "0",
+        "blockAssists": "17",
+        "blockingErrors": "4",
+        "totalBlocks": "8"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45911,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "119",
+        "kills": "75",
+        "attackErrors": "20",
+        "attackAttempts": "170",
+        "hittingPercentage": "0.324",
+        "assists": "71",
+        "setErrors": "0",
+        "setAttempts": "164",
+        "serviceAces": "5",
+        "serviceErrors": "13",
+        "serveAttempts": "119",
+        "digs": "63",
+        "receptionAttempts": "94",
+        "receptionErrors": "4",
+        "blockSolos": "4",
+        "blockAssists": "18",
+        "blockingErrors": "2",
+        "totalBlocks": "13"
+      }
+    }
+  ]
+}

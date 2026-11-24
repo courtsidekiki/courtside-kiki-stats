@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6679385,
+  "title": "WVB Boxscore",
+  "description": "Utah Tech vs Eastern Wash.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45886",
+      "seoname": "utah-tech",
+      "name6Char": "UTTECH",
+      "nameFull": "Utah Tech University",
+      "nameShort": "Utah Tech",
+      "teamName": "Trailblazers ",
+      "color": "#BA1C21"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46180",
+      "seoname": "eastern-wash",
+      "name6Char": "E WASH",
+      "nameFull": "Eastern Washington University",
+      "nameShort": "Eastern Wash.",
+      "teamName": "Eagles",
+      "color": "#A6192E"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45886,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "91",
+        "kills": "52",
+        "attackErrors": "24",
+        "attackAttempts": "160",
+        "hittingPercentage": "0.175",
+        "assists": "50",
+        "setErrors": "0",
+        "setAttempts": "154",
+        "serviceAces": "4",
+        "serviceErrors": "10",
+        "serveAttempts": "90",
+        "digs": "74",
+        "receptionAttempts": "75",
+        "receptionErrors": "4",
+        "blockSolos": "0",
+        "blockAssists": "8",
+        "blockingErrors": "2",
+        "totalBlocks": "4"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46180,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "83",
+        "kills": "45",
+        "attackErrors": "23",
+        "attackAttempts": "151",
+        "hittingPercentage": "0.146",
+        "assists": "40",
+        "setErrors": "3",
+        "setAttempts": "150",
+        "serviceAces": "4",
+        "serviceErrors": "9",
+        "serveAttempts": "84",
+        "digs": "72",
+        "receptionAttempts": "80",
+        "receptionErrors": "4",
+        "blockSolos": "2",
+        "blockAssists": "20",
+        "blockingErrors": "0",
+        "totalBlocks": "12"
+      }
+    }
+  ]
+}

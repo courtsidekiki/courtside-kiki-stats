@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6679377,
+  "title": "WVB Boxscore",
+  "description": "South Dakota St. vs St. Thomas (MN)",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46001",
+      "seoname": "south-dakota-st",
+      "name6Char": "SDAKST",
+      "nameFull": "South Dakota State University",
+      "nameShort": "South Dakota St.",
+      "teamName": "Jackrabbits",
+      "color": "#0032A0"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45998",
+      "seoname": "st-thomas-mn",
+      "name6Char": "STTHOM",
+      "nameFull": "University of St. Thomas (Minnesota)",
+      "nameShort": "St. Thomas (MN)",
+      "teamName": "Tommies",
+      "color": "#412784"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46001,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "38",
+        "attackErrors": "4",
+        "attackAttempts": "82",
+        "hittingPercentage": "0.415",
+        "assists": "36",
+        "setErrors": "0",
+        "setAttempts": "80",
+        "serviceAces": "6",
+        "serviceErrors": "5",
+        "serveAttempts": "73",
+        "digs": "32",
+        "receptionAttempts": "39",
+        "receptionErrors": "1",
+        "blockSolos": "2",
+        "blockAssists": "16",
+        "blockingErrors": "1",
+        "totalBlocks": "10"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45998,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "46",
+        "kills": "36",
+        "attackErrors": "21",
+        "attackAttempts": "97",
+        "hittingPercentage": "0.155",
+        "assists": "35",
+        "setErrors": "1",
+        "setAttempts": "99",
+        "serviceAces": "1",
+        "serviceErrors": "9",
+        "serveAttempts": "48",
+        "digs": "33",
+        "receptionAttempts": "68",
+        "receptionErrors": "6",
+        "blockSolos": "1",
+        "blockAssists": "2",
+        "blockingErrors": "2",
+        "totalBlocks": "2"
+      }
+    }
+  ]
+}
