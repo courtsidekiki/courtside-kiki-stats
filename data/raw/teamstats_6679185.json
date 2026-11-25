@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6679185,
+  "title": "WVB Boxscore",
+  "description": "UNI vs Belmont",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "45848",
+      "seoname": "uni",
+      "name6Char": "N IOWA",
+      "nameFull": "University of Northern Iowa",
+      "nameShort": "UNI",
+      "teamName": "Panthers",
+      "color": "#470A68"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46399",
+      "seoname": "belmont",
+      "name6Char": "BELMNT",
+      "nameFull": "Belmont University",
+      "nameShort": "Belmont",
+      "teamName": "Bruins",
+      "color": "#0D2C6B"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45848,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "73",
+        "kills": "58",
+        "attackErrors": "22",
+        "attackAttempts": "142",
+        "hittingPercentage": "0.254",
+        "assists": "55",
+        "setErrors": "1",
+        "setAttempts": "141",
+        "serviceAces": "2",
+        "serviceErrors": "11",
+        "serveAttempts": "74",
+        "digs": "53",
+        "receptionAttempts": "76",
+        "receptionErrors": "1",
+        "blockSolos": "2",
+        "blockAssists": "12",
+        "blockingErrors": "1",
+        "totalBlocks": "8"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46399,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "79",
+        "kills": "44",
+        "attackErrors": "11",
+        "attackAttempts": "118",
+        "hittingPercentage": "0.280",
+        "assists": "41",
+        "setErrors": "0",
+        "setAttempts": "116",
+        "serviceAces": "1",
+        "serviceErrors": "2",
+        "serveAttempts": "78",
+        "digs": "54",
+        "receptionAttempts": "63",
+        "receptionErrors": "2",
+        "blockSolos": "2",
+        "blockAssists": "20",
+        "blockingErrors": "3",
+        "totalBlocks": "12"
+      }
+    }
+  ]
+}

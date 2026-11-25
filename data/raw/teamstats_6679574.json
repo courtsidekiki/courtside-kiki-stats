@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6679574,
+  "title": "WVB Boxscore",
+  "description": "San Diego St. vs Oregon St.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46360",
+      "seoname": "san-diego-st",
+      "name6Char": "SDSU",
+      "nameFull": "San Diego State University",
+      "nameShort": "San Diego St.",
+      "teamName": "Aztecs",
+      "color": "#A6192E"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46348",
+      "seoname": "oregon-st",
+      "name6Char": "ORE ST",
+      "nameFull": "Oregon State University",
+      "nameShort": "Oregon St.",
+      "teamName": "Beavers",
+      "color": "#DC4405"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46360,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "93",
+        "kills": "62",
+        "attackErrors": "27",
+        "attackAttempts": "137",
+        "hittingPercentage": "0.255",
+        "assists": "58",
+        "setErrors": "0",
+        "setAttempts": "134",
+        "serviceAces": "7",
+        "serviceErrors": "7",
+        "serveAttempts": "92",
+        "digs": "48",
+        "receptionAttempts": "73",
+        "receptionErrors": "0",
+        "blockSolos": "0",
+        "blockAssists": "8",
+        "blockingErrors": "3",
+        "totalBlocks": "4"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46348,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "77",
+        "kills": "43",
+        "attackErrors": "17",
+        "attackAttempts": "121",
+        "hittingPercentage": "0.215",
+        "assists": "39",
+        "setErrors": "0",
+        "setAttempts": "122",
+        "serviceAces": "0",
+        "serviceErrors": "5",
+        "serveAttempts": "78",
+        "digs": "36",
+        "receptionAttempts": "85",
+        "receptionErrors": "7",
+        "blockSolos": "4",
+        "blockAssists": "14",
+        "blockingErrors": "3",
+        "totalBlocks": "11"
+      }
+    }
+  ]
+}

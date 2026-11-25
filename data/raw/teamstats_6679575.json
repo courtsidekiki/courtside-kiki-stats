@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6679575,
+  "title": "WVB Boxscore",
+  "description": "Colorado St. vs Boise St.",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46172",
+      "seoname": "colorado-st",
+      "name6Char": "CO ST",
+      "nameFull": "Colorado State University",
+      "nameShort": "Colorado St.",
+      "teamName": "Rams",
+      "color": "#2C5234"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "45946",
+      "seoname": "boise-st",
+      "name6Char": "BOISE",
+      "nameFull": "Boise State University",
+      "nameShort": "Boise St.",
+      "teamName": "Broncos",
+      "color": "#0032A0"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46172,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "79",
+        "kills": "49",
+        "attackErrors": "13",
+        "attackAttempts": "114",
+        "hittingPercentage": "0.316",
+        "assists": "44",
+        "setErrors": "3",
+        "setAttempts": "110",
+        "serviceAces": "2",
+        "serviceErrors": "4",
+        "serveAttempts": "77",
+        "digs": "41",
+        "receptionAttempts": "69",
+        "receptionErrors": "5",
+        "blockSolos": "4",
+        "blockAssists": "22",
+        "blockingErrors": "0",
+        "totalBlocks": "15"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 45946,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "71",
+        "kills": "46",
+        "attackErrors": "24",
+        "attackAttempts": "118",
+        "hittingPercentage": "0.186",
+        "assists": "44",
+        "setErrors": "0",
+        "setAttempts": "118",
+        "serviceAces": "5",
+        "serviceErrors": "4",
+        "serveAttempts": "73",
+        "digs": "43",
+        "receptionAttempts": "73",
+        "receptionErrors": "2",
+        "blockSolos": "2",
+        "blockAssists": "6",
+        "blockingErrors": "0",
+        "totalBlocks": "5"
+      }
+    }
+  ]
+}
