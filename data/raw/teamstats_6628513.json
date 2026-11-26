@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6628513,
+  "title": "WVB Boxscore",
+  "description": "Utah vs TCU",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46628",
+      "seoname": "utah",
+      "name6Char": "UTAH",
+      "nameFull": "University of Utah",
+      "nameShort": "Utah",
+      "teamName": "Utes",
+      "color": "#D42331"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46507",
+      "seoname": "tcu",
+      "name6Char": "TCU",
+      "nameFull": "Texas Christian University",
+      "nameShort": "TCU",
+      "teamName": "Horned Frogs",
+      "color": "#592D82"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46628,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "77",
+        "kills": "52",
+        "attackErrors": "32",
+        "attackAttempts": "127",
+        "hittingPercentage": "0.157",
+        "assists": "48",
+        "setErrors": "1",
+        "setAttempts": "122",
+        "serviceAces": "6",
+        "serviceErrors": "12",
+        "serveAttempts": "78",
+        "digs": "39",
+        "receptionAttempts": "85",
+        "receptionErrors": "3",
+        "blockSolos": "2",
+        "blockAssists": "6",
+        "blockingErrors": "2",
+        "totalBlocks": "5"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46507,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "91",
+        "kills": "43",
+        "attackErrors": "14",
+        "attackAttempts": "105",
+        "hittingPercentage": "0.276",
+        "assists": "39",
+        "setErrors": "0",
+        "setAttempts": "95",
+        "serviceAces": "3",
+        "serviceErrors": "5",
+        "serveAttempts": "90",
+        "digs": "36",
+        "receptionAttempts": "66",
+        "receptionErrors": "6",
+        "blockSolos": "3",
+        "blockAssists": "29",
+        "blockingErrors": "1",
+        "totalBlocks": "17"
+      }
+    }
+  ]
+}

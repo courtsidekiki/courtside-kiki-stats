@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6626191,
+  "title": "WVB Boxscore",
+  "description": "Syracuse vs Duke",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "FINAL",
+  "status": "F",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46126",
+      "seoname": "syracuse",
+      "name6Char": "SYR",
+      "nameFull": "Syracuse University",
+      "nameShort": "Syracuse",
+      "teamName": "Orange",
+      "color": "#DC4405"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46409",
+      "seoname": "duke",
+      "name6Char": "DUKE",
+      "nameFull": "Duke University",
+      "nameShort": "Duke",
+      "teamName": "Blue Devils",
+      "color": "#002D72"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46126,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "66",
+        "kills": "33",
+        "attackErrors": "20",
+        "attackAttempts": "106",
+        "hittingPercentage": "0.123",
+        "assists": "31",
+        "setErrors": "2",
+        "setAttempts": "110",
+        "serviceAces": "4",
+        "serviceErrors": "7",
+        "serveAttempts": "68",
+        "digs": "40",
+        "receptionAttempts": "57",
+        "receptionErrors": "1",
+        "blockSolos": "1",
+        "blockAssists": "4",
+        "blockingErrors": "0",
+        "totalBlocks": "3"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46409,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "75",
+        "kills": "45",
+        "attackErrors": "13",
+        "attackAttempts": "106",
+        "hittingPercentage": "0.302",
+        "assists": "42",
+        "setErrors": "0",
+        "setAttempts": "106",
+        "serviceAces": "1",
+        "serviceErrors": "16",
+        "serveAttempts": "73",
+        "digs": "40",
+        "receptionAttempts": "61",
+        "receptionErrors": "4",
+        "blockSolos": "0",
+        "blockAssists": "8",
+        "blockingErrors": "0",
+        "totalBlocks": "4"
+      }
+    }
+  ]
+}
