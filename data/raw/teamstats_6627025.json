@@ -1,0 +1,89 @@
+{
+  "__typename": "Boxscore",
+  "contestId": 6627025,
+  "title": "WVB Boxscore",
+  "description": "UCF vs Utah",
+  "sportCode": "WVB",
+  "divisionName": "d1",
+  "gameType": null,
+  "period": "3RD SET",
+  "status": "I",
+  "minutes": null,
+  "seconds": null,
+  "teams": [
+    {
+      "__typename": "ContestTeam",
+      "isHome": true,
+      "teamId": "46040",
+      "seoname": "ucf",
+      "name6Char": "UCF",
+      "nameFull": "University of Central Florida",
+      "nameShort": "UCF",
+      "teamName": "Knights",
+      "color": "#010101"
+    },
+    {
+      "__typename": "ContestTeam",
+      "isHome": false,
+      "teamId": "46628",
+      "seoname": "utah",
+      "name6Char": "UTAH",
+      "nameFull": "University of Utah",
+      "nameShort": "Utah",
+      "teamName": "Utes",
+      "color": "#D42331"
+    }
+  ],
+  "teamBoxscore": [
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46040,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "70",
+        "kills": "26",
+        "attackErrors": "8",
+        "attackAttempts": "73",
+        "hittingPercentage": "0.247",
+        "assists": "24",
+        "setErrors": "0",
+        "setAttempts": "74",
+        "serviceAces": "10",
+        "serviceErrors": "3",
+        "serveAttempts": "69",
+        "digs": "35",
+        "receptionAttempts": "38",
+        "receptionErrors": "2",
+        "blockSolos": "3",
+        "blockAssists": "14",
+        "blockingErrors": "0",
+        "totalBlocks": "17"
+      }
+    },
+    {
+      "__typename": "BoxscoreDetails",
+      "teamId": 46628,
+      "teamStats": {
+        "__typename": "TeamStatsVolleyball",
+        "points": "46",
+        "kills": "33",
+        "attackErrors": "22",
+        "attackAttempts": "96",
+        "hittingPercentage": "0.115",
+        "assists": "31",
+        "setErrors": "3",
+        "setAttempts": "97",
+        "serviceAces": "2",
+        "serviceErrors": "9",
+        "serveAttempts": "47",
+        "digs": "33",
+        "receptionAttempts": "66",
+        "receptionErrors": "10",
+        "blockSolos": "0",
+        "blockAssists": "8",
+        "blockingErrors": "0",
+        "totalBlocks": "8"
+      }
+    }
+  ]
+}
